@@ -23,6 +23,15 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day — 3주차 예정 (5.20~5.22)</div>
+              <ul className="mblist">
+                <li>던킨 30% 할인 (VIP 최대 8,000원, G/S 4,500원)</li>
+                <li>배스킨라빈스 파인트 40% 할인 (9,800원 → 5,880원)</li>
+                <li>피자헛 방문포장 50% 할인 (최대 22,500원)</li>
+                <li>CGV 8,500원 예매 + 매점 쿠폰 2종</li>
+              </ul>
+            </div>
+            <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#9944ff' }}></span>VIP Only 찬스 (5.13~15) — VIP 전용</div>
               <ul className="mblist">
                 <li>버거킹 와퍼 단품 55% 할인</li>
@@ -47,9 +56,12 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: 'var(--kt)' }}></span>달달초이스 (택1) — 5.15~말일</div>
               <ul className="mblist">
-                <li>롯데마트 모바일 금액권 6천원</li>
-                <li>파스쿠찌 홀케이크 1만원 할인 (3.1만원↑)</li>
-                <li style={{ color: 'var(--tx3)', fontSize: '10px' }}>※ 전체 라인업 5.15 이후 공개</li>
+                <li>던킨 40% 할인 (최대 5천원, 5/15~5/21)</li>
+                <li>팀홀튼 아메리카노(M) 1잔 무료</li>
+                <li>파리바게뜨 4천원 할인 (1만원↑)</li>
+                <li>메가MGC커피 1천원 할인 (2장)</li>
+                <li>배민×굽네치킨 최대 9천원 / 도미노 포장 50%</li>
+                <li>롯데시네마 6천원 예매권 (택1)</li>
               </ul>
             </div>
             <div className="mblk">
@@ -57,8 +69,8 @@ export default function MonthlyBenefits() {
               <ul className="mblist">
                 <li>빕스 40% (15~21일) / 명륜진사갈비 5,000원</li>
                 <li>더플레이스 40% (15~25일) / 쉐이크쉑 1+1</li>
-                <li>롯데면세점·아고다·그리팅·원스토어</li>
-                <li>스타벅스 무료음료</li>
+                <li>에버랜드·롯데월드·이월드 가족 할인</li>
+                <li>스타벅스 무료음료 · 롯데면세점</li>
               </ul>
             </div>
             <div className="mblk">
