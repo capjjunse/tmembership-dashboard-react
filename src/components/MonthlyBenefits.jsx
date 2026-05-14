@@ -95,6 +95,7 @@ export default function MonthlyBenefits() {
                 <li>5.14 피자헛 55% / 배민×이삭토스트 / 씨네Q</li>
                 <li>5.20 배스킨·CGV / 5.21 다이소·쿠팡이츠×GS25</li>
                 <li>5.22 이마트24·매드포갈릭·스파크랜드·서울랜드</li>
+                <li>5.26 쿠팡이츠×기영이숯불치킨 / LG생활건강 / 엘리하이</li>
               </ul>
             </div>
             <div className="mblk">
@@ -108,7 +109,9 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#ff55cc' }}></span>장기고객데이 — 5년 이상 VIP · 5.28(목)</div>
               <ul className="mblist">
-                <li>CGV 관람권 / NOL티켓 / 윌라 1개월 무료</li>
+                <li>CGV 영화 &lt;와일드씽&gt; 7천원 관람권</li>
+                <li>NOL티켓 뮤지컬 &lt;서편제&gt; 최대 25% 할인</li>
+                <li>윌라 오디오북 1개월 무료이용권</li>
               </ul>
             </div>
           </div>

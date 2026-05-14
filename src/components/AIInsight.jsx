@@ -67,7 +67,7 @@ export default function AIInsight() {
               <div className="swot-items">
                 <div className="swot-item">오전 11시 선착순 — 직장인 이용 불편, 선점 경쟁 피로</div>
                 <div className="swot-item">에펨코리아 고객 반응 거의 없음 — 인지도·화제성 낮음</div>
-                <div className="swot-item">우리동네 멤버십 일부 지점 종료 — 로컬 혜택 축소</div>
+                <div className="swot-item">밀크T 네이버페이 한도 3만→2만원 축소 (05.01), 굿웨어몰 제휴 종료 (06.30)</div>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function AIInsight() {
         </div>
         <div className="ins-item">
           <div className="ins-num">3</div>
-          <div className="ins-txt"><b>네이버플러스 CU·GS25 편의점 직접 할인 — 통신사 편의점 혜택 잠식:</b> 네이버플러스가 CU 5%+배민 제휴로 T멤버십 일상 영역 직접 경쟁. 편의점·외식 배달 영역에서 비통신 멤버십과의 차별화 전략 필요.</div>
+          <div className="ins-txt"><b>네이버플러스 하반기 무제한 무료배송 예고 — 배달·편의점 전방위 위협 가속:</b> 하반기 무제한 무료배송 도입 계획으로 쿠팡(월 7,890원) 대비 4,900원 가격 우위 확보 시도. CU 편의점·배민 제휴까지 더해져 통신사 일상 혜택 전 영역 경쟁 심화 전망.</div>
         </div>
         <div className="ins-item">
           <div className="ins-num">4</div>

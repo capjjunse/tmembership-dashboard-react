@@ -24,10 +24,11 @@ export default function Overview() {
         </div>
         <div className="oc cl">
           <div className="ol"><span className="cb bl">LGU+</span></div>
-          <div className="ov">6월 신규 제휴사 &amp; 유플투쁠 2주년</div>
+          <div className="ov">6월 신규 제휴사 &amp; 혜택 변동</div>
           <div className="od">
             <span>26년 6월 신규 제휴사 안내 (05.11 공지)</span>
-            <span>5.28 장기고객 CGV·뮤지컬·윌라</span>
+            <span>굿웨어몰 10% 할인 종료 예정 (06.30)</span>
+            <span>밀크T 네이버페이 한도 3만→2만원 (05.01~)</span>
           </div>
         </div>
         <div className="oc cg">
@@ -65,6 +66,20 @@ export default function Overview() {
           <div className="tdot" style={{ background: 'var(--kt)' }}></div>
           <div className="tt">
             <span className="cb bk">KT</span> 달달혜택 패밀리컬렉션 (5.15~) + 패밀리박스 가정의달 쿠폰팩
+          </div>
+        </div>
+        <div className="ti">
+          <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
+          <div className="tt">
+            <span className="cb bl">LGU+</span> 굿웨어몰 10% 할인 종료 예정{' '}
+            <span style={{ fontSize: '10px', padding: '1px 6px', borderRadius: '20px', background: '#fef2f2', color: '#b91c1c', border: '0.5px solid #fca5a5' }}>06.30 종료</span>
+          </div>
+        </div>
+        <div className="ti">
+          <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
+          <div className="tt">
+            <span className="cb bl">LGU+</span> 밀크T 네이버페이 월 할인한도 3만원→2만원{' '}
+            <span style={{ fontSize: '10px', padding: '1px 6px', borderRadius: '20px', background: '#fff7e6', color: '#b35c00', border: '0.5px solid #f5c060' }}>05.01 적용</span>
           </div>
         </div>
         <div className="ti">

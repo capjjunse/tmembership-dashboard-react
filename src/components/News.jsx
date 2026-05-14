@@ -68,9 +68,9 @@ export default function News() {
             <div className="nmeta">2026-05-11 · <a href="https://www.lguplus.com/support/service/notice" target="_blank" rel="noreferrer">LGU+ 공지</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">LGU+ 장기팬덤 사수 전략 — 화담숲 단독 초청 등 경험형 혜택 차별화</span></div>
-            <div className="nsum">단순 할인이 아닌 장기고객 전용 단독 체험 혜택으로 락인. 오직 유플러스 고객만의 경험 제공으로 관계 기반 멤버십 전략 뚜렷.</div>
-            <div className="nmeta">2026-04-29 · <a href="https://www.financialpost.co.kr/news/articleView.html?idxno=257341" target="_blank" rel="noreferrer">파이낸셜포스트</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LGU+, 가정의달 5월 야외활동 중심 멤버십 혜택 강화 — 테마파크·외식·문화</span></div>
+            <div className="nsum">서울랜드·롯데월드·레고랜드 추첨 응모, 피자헛 55%·청기와타운 육회 무료 등 외식 혜택, LG아트센터·CGV PEAKERS 클라이밍 등 문화 혜택 병행.</div>
+            <div className="nmeta">2026-05-07 · <a href="https://www.fnnews.com/news/202505070910590134" target="_blank" rel="noreferrer">파이낸셜뉴스</a></div>
           </div>
         </div>
       )}
