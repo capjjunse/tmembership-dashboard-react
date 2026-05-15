@@ -47,6 +47,7 @@ export default function Sentiment() {
           {sktKw === 'kw1' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">버거킹 13~15일 T멤버십 와퍼 55% 할인 공유 — "갈 일 없어도 가야겠는걸"</div><div className="rsrc">2026.05.12 · <a href="https://www.fmkorea.com/9816271602" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T데이 와퍼 4400원·공차 50% 할인 — "오늘 간만에 와퍼 하나 먹어야겠네요" (조회 21,553)</div><div className="rsrc">2026.05.13 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104070" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">T day 스벅 아이스 아메리카노 추첨 참여 — "전 꽝이네요ㅋㅋ"</div><div className="rsrc">2026.05.04 · <a href="https://www.fmkorea.com/9784172789" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">아카라이브</span></div><div className="rtx">T멤버십 와퍼 할인 날짜 착각 — "이거 이번주 수요일부터였구나 / 내 세상이 무너졌어.."</div><div className="rsrc">2026.05.10 · <a href="https://arca.live/b/breaking" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
@@ -61,7 +62,7 @@ export default function Sentiment() {
             <div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">VIP Pick T우주패스 이용법 공유 — "알뜰폰 쓰는데 커피가 더 부럽네" "와 개꿀팁 ㄱㅅ"</div><div className="rsrc">2026.04.15 · <a href="https://www.fmkorea.com/9712143053" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">11번가 아마존 6월 종료로 T우주패스 혜택 변경 — "우주패스 개악된 이후 거의 안써먹음" "달러 미쳐서 해외직구 가성비 꽝"</div><div className="rsrc">2026.04.30 · <a href="https://bbs.ruliweb.com/etcs/board/300010/read/2288393" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">VIP Pick 개편 혼란 — "9900원 쿠폰은 사라지는군요.. 8월 1일부터는 4900원 쿠폰만 제공" "이거 참 마땅한게 없네요"</div><div className="rsrc">2026.05.01 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=phone&no=3914236" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">VIP픽 9900원 쿠폰 폐지 반응 — "갈수록 혜택을 줄이네" "좀 괜찮다 싶은 혜택은 다 사라지네요" "메가커피 할인도 없애더니.." (조회 15,247 · 인기글)</div><div className="rsrc">2026.04.30 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=money&no=543529" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
         </div>
