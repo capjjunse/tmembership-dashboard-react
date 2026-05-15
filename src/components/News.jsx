@@ -38,6 +38,16 @@ export default function News() {
       {tab === 'kt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT 멤버십 5월 고객보답 2차 — 투썸플레이스 50%·배민×노랑통닭 8천원 (5.18~31)</span></div>
+            <div className="nsum">KT멤버십 5월 고객보답 2차로 투썸플레이스 전 메뉴 50%(최대 5천원) 또는 배달의민족×노랑통닭 8천원 할인(16천원↑) 중 택1. 5.18~31 전 등급 이용 가능.</div>
+            <div className="nmeta">2026-05-15 · <a href="https://biz.heraldcorp.com/article/10738436" target="_blank" rel="noreferrer">헤럴드경제</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">국민학교 떡볶이, KT 달달혜택 달달초이스 첫 참여 (5.15~31)</span></div>
+            <div className="nsum">분식 브랜드 국민학교 떡볶이가 KT멤버십 달달초이스에 첫 합류. 5.15~31 쿠폰 다운로드 후 공식 사이트 등록으로 혜택 제공. "KT멤버십 고객에게 더 실질적인 혜택을" 목표.</div>
+            <div className="nmeta">2026-05-15 · <a href="https://www.mt.co.kr/stock/2026/05/15/2026051508142888359" target="_blank" rel="noreferrer">머니투데이</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 5월 달달혜택 패밀리컬렉션 — 빕스·롯데월드·서울랜드 가족 혜택</span></div>
             <div className="nsum">가정의달 테마로 패밀리컬렉션 구성. 빕스 40%, 더플레이스 40%, 쉐이크쉑 1+1 등 5.15부터 이용 가능. 달달찬스 블루보틀 이벤트.</div>
             <div className="nmeta">2026-05-01 · <a href="https://membership.kt.com" target="_blank" rel="noreferrer">KT멤버십</a></div>

@@ -17,6 +17,20 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td>2026.05.15</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택</td>
+            <td>고객보답 2차 (5.18~31): 투썸플레이스 50% / 배달의민족×노랑통닭 8,000원 할인</td>
+            <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
+            <td>2026.05.15</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택</td>
+            <td>달달초이스 국민학교 떡볶이 신규 참여 (5.15~31)</td>
+            <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
             <td>2026.05.12</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십 상시</td>

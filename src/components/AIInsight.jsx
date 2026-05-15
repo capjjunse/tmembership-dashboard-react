@@ -3,7 +3,7 @@ export default function AIInsight() {
     <div className="sec" id="ai">
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
-        <span className="ss">2026년 5월 기준</span>
+        <span className="ss">2026년 5월 15일 기준</span>
         <span className="upd-badge upd-1m">↻ 월 갱신</span>
       </div>
       <div className="swot-grid">
@@ -36,9 +36,9 @@ export default function AIInsight() {
               <div className="swot-label str">강점</div>
               <div className="swot-items">
                 <div className="swot-item">달달초이스+스페셜+찬스 3종 구조 — 혜택 다양성 업계 최상</div>
-                <div className="swot-item">패밀리컬렉션 등 월별 테마 마케팅으로 화제성 확보</div>
+                <div className="swot-item">패밀리컬렉션 테마 + 국민학교떡볶이 등 이색 브랜드 영입으로 화제성 확보</div>
                 <div className="swot-item">롯데시네마 포함 3관 영화 혜택 — 영화 혜택 업계 최강</div>
-                <div className="swot-item">CGV 상시 이용횟수 월3회→일1회 확대 (2026.05.01~)</div>
+                <div className="swot-item">고객보답 월 2회 (투썸플레이스·메가커피 등) + CGV 상시 일1회 확대</div>
               </div>
             </div>
             <div className="swot-section wk">
@@ -88,7 +88,7 @@ export default function AIInsight() {
         </div>
         <div className="ins-item">
           <div className="ins-num">4</div>
-          <div className="ins-txt"><b>가정의달 3사 경쟁 — KT 패밀리컬렉션·SKT 테마파크·LGU+ 아쿠아플라넷:</b> 5월 가족 단위 외식·레저 혜택이 3사 공통 화두. KT가 빕스·더플레이스·쉐이크쉑 묶어 패밀리컬렉션 구성. 제휴 비용 증가 추세 모니터링 필요.</div>
+          <div className="ins-txt"><b>KT 달달혜택 신규 브랜드 다각화 — 국민학교떡볶이·투썸플레이스·노랑통닭:</b> 기존 커피·패밀리레스토랑 중심에서 분식·배달·치킨 장르로 확대. 고객보답 2차(5.18~31) 추가로 5월 KT 혜택 밀도 역대 최상. 타 통신사 대비 혜택 다양성 격차 심화.</div>
         </div>
         <div className="ins-item">
           <div className="ins-num">5</div>

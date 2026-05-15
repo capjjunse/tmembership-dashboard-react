@@ -4,12 +4,12 @@ import { Chart, LineController, LineElement, PointElement, LinearScale, Category
 Chart.register(LineController, LineElement, PointElement, LinearScale, CategoryScale, Tooltip, Legend, Filler);
 
 const TREND_DATA = {
-  collected_at: "2026.05.14 10:22",
+  collected_at: "2026.05.15 11:40",
   period: { start: "2026-02-09", end: "2026-05-11" },
   labels: ["2/09","2/16","2/23","3/02","3/09","3/16","3/23","3/30","4/06","4/13","4/20","4/27","5/04","5/11"],
-  skt:  [3.1,2.9,3.9,4.1,3.3,3.0,2.9,3.3,3.5,3.0,2.7,3.0,2.8,1.7],
-  kt:   [7.3,5.4,5.7,5.0,5.8,5.6,5.4,5.9,3.9,6.8,4.5,5.4,4.3,1.9],
-  lgu:  [54.1,20.0,1.2,0.8,21.1,100,42.3,4.6,30.1,18.4,31.5,1.1,28.4,7.1],
+  skt:  [3.1,2.9,3.9,4.1,3.3,3.0,2.9,3.3,3.5,3.0,2.7,3.0,2.8,2.0],
+  kt:   [7.3,5.4,5.7,5.0,5.8,5.6,5.4,5.9,3.9,6.8,4.5,5.4,4.3,2.6],
+  lgu:  [54.1,20.0,1.2,0.8,21.1,100,42.3,4.6,30.1,18.4,31.5,1.1,28.4,13.6],
 };
 
 export default function Trend() {

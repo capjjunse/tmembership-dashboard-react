@@ -16,10 +16,11 @@ export default function Overview() {
         </div>
         <div className="oc ck">
           <div className="ol"><span className="cb bk">KT</span></div>
-          <div className="ov">가정의달 패밀리 혜택</div>
+          <div className="ov">5월 달달혜택 + 고객보답 2차</div>
           <div className="od">
-            <span>패밀리박스 쿠폰팩 + 퀴즈 이벤트</span>
-            <span>달달혜택 패밀리컬렉션 (5.15~)</span>
+            <span>달달초이스 국민학교떡볶이 신규 (5.15~31)</span>
+            <span>달달스페셜: 할리스·폴바셋 50%, 빌리엘리어트 55%</span>
+            <span>고객보답 2차 (5.18~31): 투썸 50% / 배민×노랑통닭 8천원</span>
           </div>
         </div>
         <div className="oc cl">
@@ -65,7 +66,14 @@ export default function Overview() {
         <div className="ti">
           <div className="tdot" style={{ background: 'var(--kt)' }}></div>
           <div className="tt">
-            <span className="cb bk">KT</span> 달달혜택 패밀리컬렉션 (5.15~) + 패밀리박스 가정의달 쿠폰팩
+            <span className="cb bk">KT</span> 달달혜택 패밀리컬렉션 (5.15~) / 달달초이스 국민학교떡볶이 신규 참여
+          </div>
+        </div>
+        <div className="ti">
+          <div className="tdot" style={{ background: 'var(--kt)' }}></div>
+          <div className="tt">
+            <span className="cb bk">KT</span> 고객보답 2차 (5.18~31) — 투썸플레이스 50% 또는 배달의민족×노랑통닭 8,000원{' '}
+            <span style={{ fontSize: '10px', padding: '1px 6px', borderRadius: '20px', background: '#dbeafe', color: '#1d4ed8', border: '0.5px solid #93c5fd' }}>2026.05.15 신규</span>
           </div>
         </div>
         <div className="ti">

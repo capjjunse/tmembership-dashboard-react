@@ -17,7 +17,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>CGV</td><td>전 고객 최대 4,000원 할인 (11,000원↑)</td><td>전 등급 최대 5,000원 할인 (동반 3인, 월3회)</td><td>VVIP/VIP만 2D영화 최대 4,000원 할인</td></tr>
+          <tr><td>CGV</td><td>전 고객 최대 4,000원 할인 (11,000원↑)</td><td>전 등급 최대 5,000원 할인 (동반 3인, 일1회 2026.05.01~)</td><td>VVIP/VIP만 2D영화 최대 4,000원 할인</td></tr>
           <tr><td>메가박스</td><td>전 고객 최대 4,000원 할인</td><td>전 등급 최대 5,000원 할인</td><td className="wt">2026.01.01 종료</td></tr>
           <tr><td>롯데시네마</td><td className="wt">2026.02.01 종료</td><td>전 등급 최대 5,000원 할인</td><td className="na">미제공</td></tr>
         </tbody>
