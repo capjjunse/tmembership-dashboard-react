@@ -9,7 +9,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아 기반</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브</span>
         <span className="upd-badge upd-3m">↻ 주간 MCP</span>
       </div>
       <div className="tr2">
@@ -23,8 +23,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '55%' }}>긍정 55%</div>
-              <div className="rbs rn" style={{ width: '30%' }}>부정 30%</div>
+              <div className="rbs rp" style={{ width: '45%' }}>긍정 45%</div>
+              <div className="rbs rn" style={{ width: '40%' }}>부정 40%</div>
               <div className="rbs ru" style={{ width: '15%' }}>중립 15%</div>
             </div>
             <div className="rleg">
@@ -33,16 +33,21 @@ export default function Sentiment() {
               <div className="rli"><div className="rld" style={{ background: 'var(--neu)' }}></div>중립</div>
             </div>
           </div>
-          <div className="srcs"><span className="srcbadge act">에펨코리아</span></div>
+          <div className="srcs">
+            <span className="srcbadge act">에펨코리아</span>
+            <span className="srcbadge act">루리웹</span>
+            <span className="srcbadge act">아카라이브</span>
+          </div>
           <div className="tr2" style={{ marginBottom: '12px' }}>
             <button className={`kw${sktKw === 'kw1' ? ' on' : ''}`} onClick={() => setSktKw('kw1')}>#T멤버십 T day</button>
             <button className={`kw${sktKw === 'kw2' ? ' on' : ''}`} onClick={() => setSktKw('kw2')}>#0week 혜택</button>
-            <button className={`kw${sktKw === 'kw3' ? ' on' : ''}`} onClick={() => setSktKw('kw3')}>#VIP Pick</button>
+            <button className={`kw${sktKw === 'kw3' ? ' on' : ''}`} onClick={() => setSktKw('kw3')}>#VIP Pick·T우주패스</button>
           </div>
           {sktKw === 'kw1' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">버거킹 13~15일 T멤버십 와퍼 55% 할인 공유 — "갈 일 없어도 가야겠는걸"</div><div className="rsrc">2026.05.12 · <a href="https://www.fmkorea.com/9816271602" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">T day 스벅 아이스 아메리카노 추첨 참여 — "전 꽝이네요ㅋㅋ"</div><div className="rsrc">2026.05.04 · <a href="https://www.fmkorea.com/9784172789" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">아카라이브</span></div><div className="rtx">T멤버십 와퍼 할인 날짜 착각 — "이거 이번주 수요일부터였구나 / 내 세상이 무너졌어.."</div><div className="rsrc">2026.05.10 · <a href="https://arca.live/b/breaking" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {sktKw === 'kw2' && (
@@ -54,6 +59,7 @@ export default function Sentiment() {
           {sktKw === 'kw3' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">VIP Pick T우주패스 이용법 공유 — "알뜰폰 쓰는데 커피가 더 부럽네" "와 개꿀팁 ㄱㅅ"</div><div className="rsrc">2026.04.15 · <a href="https://www.fmkorea.com/9712143053" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">11번가 아마존 6월 종료로 T우주패스 혜택 변경 — "우주패스 개악된 이후 거의 안써먹음" "달러 미쳐서 해외직구 가성비 꽝"</div><div className="rsrc">2026.04.30 · <a href="https://bbs.ruliweb.com/etcs/board/300010/read/2288393" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
         </div>
@@ -64,8 +70,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '40%' }}>긍정 40%</div>
-              <div className="rbs rn" style={{ width: '45%' }}>부정 45%</div>
+              <div className="rbs rp" style={{ width: '45%' }}>긍정 45%</div>
+              <div className="rbs rn" style={{ width: '40%' }}>부정 40%</div>
               <div className="rbs ru" style={{ width: '15%' }}>중립 15%</div>
             </div>
             <div className="rleg">
@@ -74,7 +80,10 @@ export default function Sentiment() {
               <div className="rli"><div className="rld" style={{ background: 'var(--neu)' }}></div>중립</div>
             </div>
           </div>
-          <div className="srcs"><span className="srcbadge act">에펨코리아</span></div>
+          <div className="srcs">
+            <span className="srcbadge act">에펨코리아</span>
+            <span className="srcbadge act">루리웹</span>
+          </div>
           <div className="tr2" style={{ marginBottom: '12px' }}>
             <button className={`kw${ktKw === 'kw1' ? ' on' : ''}`} onClick={() => setKtKw('kw1')}>#KT멤버십 고객감사</button>
             <button className={`kw${ktKw === 'kw2' ? ' on' : ''}`} onClick={() => setKtKw('kw2')}>#KT멤버십 티켓팅</button>
@@ -93,6 +102,7 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw3' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">KT멤버십 고객보답 5월 1차 — "이번에는 그래도... 메가커피가 돌아왔네요" (조회 44,751)</div><div className="rsrc">2026.05.01 · <a href="https://bbs.ruliweb.com/market/board/1020/read/103822" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 5월 1차 보답프로그램 — "보답이 짜다.." "VVIP 혜택 축소, 베라 레디팩 1개" "그래도 kt는 하기라도 하지"</div><div className="rsrc">2026.05.01 · <a href="https://www.fmkorea.com/9772119625" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
@@ -102,7 +112,7 @@ export default function Sentiment() {
       {carrier === 'lgu' && (
         <div style={{ textAlign: 'center', padding: '32px 0', color: 'var(--tx2)', fontSize: '12px', lineHeight: 2 }}>
           최근 4주 이내 수집된 반응이 없습니다.<br />
-          <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(검색어: 유플투쁠, 투쁠데이, 장기고객데이, U+멤버십 등 전 키워드 소진)</span>
+          <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(검색어: 유플투쁠·투쁠데이·장기고객데이·U+멤버십 등 전 키워드 · 4개 사이트 소진)</span>
         </div>
       )}
     </div>
