@@ -29,7 +29,7 @@ export default function VipBenefits() {
             <td>
               월 1회 (연 12회)<br />
               분기별 택1<br />
-              <a href="https://www.lguplus.com/benefit-plus" target="_blank" rel="noreferrer" className="vlink">VIP콕 →</a>
+              <a href="https://www.lguplus.com/benefit-membership" target="_blank" rel="noreferrer" className="vlink">VIP콕 →</a>
             </td>
           </tr>
           <tr>
