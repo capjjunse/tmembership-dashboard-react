@@ -9,7 +9,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌</span>
         <span className="upd-badge upd-3m">↻ 주간 MCP</span>
       </div>
       <div className="tr2">
@@ -37,6 +37,7 @@ export default function Sentiment() {
             <span className="srcbadge act">에펨코리아</span>
             <span className="srcbadge act">루리웹</span>
             <span className="srcbadge act">아카라이브</span>
+            <span className="srcbadge act">뽐뿌</span>
           </div>
           <div className="tr2" style={{ marginBottom: '12px' }}>
             <button className={`kw${sktKw === 'kw1' ? ' on' : ''}`} onClick={() => setSktKw('kw1')}>#T멤버십 T day</button>
@@ -60,6 +61,7 @@ export default function Sentiment() {
             <div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">VIP Pick T우주패스 이용법 공유 — "알뜰폰 쓰는데 커피가 더 부럽네" "와 개꿀팁 ㄱㅅ"</div><div className="rsrc">2026.04.15 · <a href="https://www.fmkorea.com/9712143053" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">11번가 아마존 6월 종료로 T우주패스 혜택 변경 — "우주패스 개악된 이후 거의 안써먹음" "달러 미쳐서 해외직구 가성비 꽝"</div><div className="rsrc">2026.04.30 · <a href="https://bbs.ruliweb.com/etcs/board/300010/read/2288393" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">VIP Pick 개편 혼란 — "9900원 쿠폰은 사라지는군요.. 8월 1일부터는 4900원 쿠폰만 제공" "이거 참 마땅한게 없네요"</div><div className="rsrc">2026.05.01 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=phone&no=3914236" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
         </div>
@@ -112,7 +114,7 @@ export default function Sentiment() {
       {carrier === 'lgu' && (
         <div style={{ textAlign: 'center', padding: '32px 0', color: 'var(--tx2)', fontSize: '12px', lineHeight: 2 }}>
           최근 4주 이내 수집된 반응이 없습니다.<br />
-          <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(검색어: 유플투쁠·투쁠데이·장기고객데이·U+멤버십 등 전 키워드 · 4개 사이트 소진)</span>
+          <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(검색어: 유플투쁠·투쁠데이·장기고객데이·U+멤버십 등 전 키워드 · 에펨코리아·루리웹·아카라이브·뽐뿌 전 사이트 소진)</span>
         </div>
       )}
     </div>
