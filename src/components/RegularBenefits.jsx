@@ -50,8 +50,8 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>에버랜드</td><td>전 등급: 본인 40% + 동반 3인 30%</td><td>본인 40% + 동반 3인 20% (현장)</td><td className="na">미제공</td></tr>
-          <tr><td>롯데월드 어드벤처</td><td>VIP/Gold: 본인 40%+동반3인 30% · Silver: 본인 40%+동반3인 20%</td><td>본인 40% + 동반 3인 30%</td><td className="na">미제공</td></tr>
+          <tr><td>에버랜드</td><td>전 등급: 본인 40% + 동반 3인 30%</td><td>전 등급: 본인 40% + 동반 3인 20% (현장)</td><td>전 등급: 본인 40%</td></tr>
+          <tr><td>롯데월드 어드벤처</td><td>VIP/Gold: 본인 40%+동반3인 30% · Silver: 본인 40%+동반3인 20%</td><td>전 등급: 본인 40%+동반3인 30% (현장, 일1회)</td><td>42%+동반1인 30%</td></tr>
           <tr>
             <td>루덴시아 <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></td>
             <td className="ht2">주중 50% · 주말 35% (2026.04.24 신규)</td>
@@ -121,7 +121,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>GS25</td><td>전 등급: 매주 화요일 도시락·김밥 등 FF(신선식품) 1,000원당 200원 할인 (일1회, 최대 2만원)</td><td>VVIP/VIP/골드: 100원 · 실버/일반: 50원 (일 최대 2만원)</td><td>VVIP/VIP: 100원 · 우수: 50원 (일 최대 2만원, 월 10만원)</td></tr>
+          <tr><td>GS25</td><td>전 등급: 매주 화요일 도시락·김밥 등 신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)</td><td>VVIP/VIP/골드: 100원 · 실버/일반: 50원 (일 최대 2만원)</td><td>VVIP/VIP: 100원 · 우수: 50원 (일 최대 2만원, 월 10만원)</td></tr>
           <tr><td>CU</td><td>VIP/Gold: 100원 · Silver: 50원</td><td>오전5~9시 간편식 200원 (일 1회, 월 2만원 한도)</td><td className="na">미제공</td></tr>
           <tr><td>세븐일레븐</td><td>VIP/Gold: 100원 · Silver: 50원</td><td className="na">미제공</td><td className="na">미제공</td></tr>
         </tbody>
