@@ -50,6 +50,8 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
+          <tr><td>에버랜드</td><td>전 등급: 본인 40% + 동반 3인 30%</td><td>본인 40% + 동반 3인 20% (현장)</td><td className="na">미제공</td></tr>
+          <tr><td>롯데월드 어드벤처</td><td>VIP/Gold: 본인 40%+동반3인 30% · Silver: 본인 40%+동반3인 20%</td><td>본인 40% + 동반 3인 30%</td><td className="na">미제공</td></tr>
           <tr>
             <td>루덴시아 <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></td>
             <td className="ht2">주중 50% · 주말 35% (2026.04.24 신규)</td>
@@ -70,6 +72,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
+          <tr><td>매드포갈릭</td><td>VIP/Gold: 20% (최대 2만원) · Silver: 10% (최대 1만원)</td><td>전 등급: 20%</td><td>VVIP/VIP: 15% · 우수: 5% (10만원 한도)</td></tr>
           <tr><td>아웃백</td><td>VIP/Gold: 15% · Silver: 5%</td><td>VVIP/VIP/골드: 15% · 화이트/일반: 5%</td><td className="na">미제공</td></tr>
           <tr><td>VIPS</td><td>VIP/Gold: 15% · Silver: 5%</td><td>VVIP/VIP: 15% · Gold/일반: 5%</td><td>VIP: 15% · 우수: 5%</td></tr>
         </tbody>
