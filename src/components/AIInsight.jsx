@@ -3,7 +3,7 @@ export default function AIInsight() {
     <div className="sec" id="ai">
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
-        <span className="ss">2026년 5월 15일 기준</span>
+        <span className="ss">2026년 5월 18일 기준</span>
         <span className="upd-badge upd-1m">↻ 월 갱신</span>
       </div>
       <div className="swot-grid">

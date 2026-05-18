@@ -14,27 +14,13 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--skt)' }}></span>T day — 2주차 (5.13~5.15)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day — 3주차 (5.20 수)</div>
               <ul className="mblist">
-                <li>버거킹 와퍼 단품 40% 할인 (VIP 55%)</li>
-                <li>뚜레쥬르 1,000원당 300원/P 할인·적립</li>
-                <li>공차 인기음료 6종(L) 50% 할인·적립</li>
-                <li>이니스프리 5,000원 추가 할인 + 뷰티포인트 2,000P</li>
-              </ul>
-            </div>
-            <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day — 3주차 예정 (5.20~5.22)</div>
-              <ul className="mblist">
-                <li>던킨 30% 할인 (VIP 최대 8,000원, G/S 4,500원)</li>
+                <li>던킨 30% 할인 (VIP 50%, 최대 8,000원)</li>
                 <li>배스킨라빈스 파인트 40% 할인 (9,800원 → 5,880원)</li>
                 <li>피자헛 방문포장 50% 할인 (최대 22,500원)</li>
+                <li>톤28 최대 35,000원 할인 (5.20~5.26)</li>
                 <li>CGV 8,500원 예매 + 매점 쿠폰 2종</li>
-              </ul>
-            </div>
-            <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#9944ff' }}></span>VIP Only 찬스 (5.13~15) — VIP 전용</div>
-              <ul className="mblist">
-                <li>버거킹 와퍼 단품 55% 할인</li>
               </ul>
             </div>
             <div className="mblk">
