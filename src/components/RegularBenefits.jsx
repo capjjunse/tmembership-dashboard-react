@@ -106,7 +106,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>배스킨라빈스</td><td>VIP: 싱글레귤러 50% · G/S: 30%</td><td className="na">미제공</td><td>쿼터 4,000원 할인</td></tr>
-          <tr><td>스타벅스</td><td className="na">미제공</td><td className="na">미제공</td><td className="na">미제공</td></tr>
+          <tr><td>스타벅스</td><td className="na">미제공</td><td>전 등급: 음료 사이즈업 월 1회</td><td className="na">미제공</td></tr>
         </tbody>
       </table>
 
