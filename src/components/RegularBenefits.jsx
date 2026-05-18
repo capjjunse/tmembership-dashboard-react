@@ -39,7 +39,7 @@ export default function RegularBenefits() {
         </tbody>
       </table>
 
-      <div className="cl2">🍽️ 패밀리레스토랑</div>
+      <div className="cl2">🎢 테마파크</div>
       <table className="ct">
         <thead>
           <tr>
@@ -56,6 +56,20 @@ export default function RegularBenefits() {
             <td className="na">미제공</td>
             <td className="na">미제공</td>
           </tr>
+        </tbody>
+      </table>
+
+      <div className="cl2">🍽️ 패밀리레스토랑</div>
+      <table className="ct">
+        <thead>
+          <tr>
+            <th>제휴처</th>
+            <th className="th-skt"><span className="cb bs">SKT</span></th>
+            <th className="th-kt"><span className="cb bk">KT</span></th>
+            <th className="th-lgu"><span className="cb bl">LGU+</span></th>
+          </tr>
+        </thead>
+        <tbody>
           <tr><td>아웃백</td><td>VIP/Gold: 15% · Silver: 5%</td><td>VVIP/VIP/골드: 15% · 화이트/일반: 5%</td><td className="na">미제공</td></tr>
           <tr><td>VIPS</td><td>VIP/Gold: 15% · Silver: 5%</td><td>VVIP/VIP: 15% · Gold/일반: 5%</td><td>VIP: 15% · 우수: 5%</td></tr>
         </tbody>
@@ -104,7 +118,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>GS25</td><td>전 등급: 매주 화요일 FF 200원</td><td>VVIP/VIP/골드: 100원 · 실버/일반: 50원 (일 최대 2만원)</td><td>VVIP/VIP: 100원 · 우수: 50원 (일 최대 2만원, 월 10만원)</td></tr>
+          <tr><td>GS25</td><td>전 등급: 매주 화요일 도시락·김밥 등 FF(신선식품) 1,000원당 200원 할인 (일1회, 최대 2만원)</td><td>VVIP/VIP/골드: 100원 · 실버/일반: 50원 (일 최대 2만원)</td><td>VVIP/VIP: 100원 · 우수: 50원 (일 최대 2만원, 월 10만원)</td></tr>
           <tr><td>CU</td><td>VIP/Gold: 100원 · Silver: 50원</td><td>오전5~9시 간편식 200원 (일 1회, 월 2만원 한도)</td><td className="na">미제공</td></tr>
           <tr><td>세븐일레븐</td><td>VIP/Gold: 100원 · Silver: 50원</td><td className="na">미제공</td><td className="na">미제공</td></tr>
         </tbody>
