@@ -171,19 +171,17 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .ntlbl{font-size:10px;font-weight:800;color:var(--tx3);text-transform:uppercase;letter-spacing:.04em}
 .ntval{font-size:11.5px;color:var(--tx2);line-height:1.6}
 .ntval b{color:var(--tx);font-weight:700}
-.swot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px;align-items:stretch}
+.swot-grid{display:grid;grid-template-columns:repeat(3,1fr);column-gap:12px;row-gap:0;margin-bottom:16px}
 @media(max-width:720px){.swot-grid{grid-template-columns:1fr}}
-.swot-card{border-radius:var(--rl);overflow:hidden;box-shadow:var(--sh);transition:.2s;display:flex;flex-direction:column}
+.swot-card{display:grid;grid-row:span 3;grid-template-rows:subgrid;border-radius:var(--rl);overflow:hidden;box-shadow:var(--sh);transition:.2s}
 .swot-card:hover{box-shadow:var(--sh-hover)}
 .swot-hdr{padding:12px 16px;font-size:13px;font-weight:800;display:flex;align-items:center;gap:7px}
 .swot-hdr.sh-skt{background:linear-gradient(135deg,var(--skt),#8833cc);color:#fff}
 .swot-hdr.sh-kt{background:linear-gradient(135deg,var(--kt),#ff5555);color:#fff}
 .swot-hdr.sh-lgu{background:linear-gradient(135deg,var(--lgu),#ff55cc);color:#fff}
 .swot-ico{width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
-.swot-body{background:var(--bg);flex:1;display:flex;flex-direction:column}
-.swot-section{padding:11px 16px;border-bottom:1px solid var(--bd)}
+.swot-section{padding:11px 16px;border-bottom:1px solid var(--bd);background:var(--bg)}
 .swot-section:last-child{border-bottom:none}
-.swot-section.str{flex:1}
 .swot-label{font-size:10px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;margin-bottom:7px;display:flex;align-items:center;gap:5px}
 .swot-label.str{color:var(--pos)}.swot-label.wk{color:var(--neg)}
 .swot-label::before{content:'';width:5px;height:5px;border-radius:50%;background:currentColor;display:inline-block}
@@ -192,6 +190,9 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .swot-item::before{content:'';width:4px;height:4px;border-radius:50%;flex-shrink:0;margin-top:6px}
 .swot-section.str .swot-item::before{background:var(--pos)}
 .swot-section.wk .swot-item::before{background:var(--neg)}
+.ins-content{display:flex;flex-direction:column;gap:5px}
+.ins-title{font-size:12px;font-weight:800;color:var(--tx);line-height:1.4}
+.ins-body{font-size:11.5px;color:var(--tx2);line-height:1.7;padding-left:10px;border-left:2px solid var(--bd2)}
 .ins-list{display:flex;flex-direction:column;gap:8px}
 .ins-item{display:grid;grid-template-columns:32px 1fr;gap:10px;padding:12px 14px;border-radius:var(--r);border:1px solid var(--bd);background:var(--bg);align-items:start;transition:.2s}
 .ins-item:hover{box-shadow:var(--sh-hover);border-color:var(--bd2)}
