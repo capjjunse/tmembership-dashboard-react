@@ -17,8 +17,8 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>CGV</td><td>전 고객 최대 4,000원 할인 (11,000원↑)</td><td>전 등급 최대 5,000원 할인 (동반 3인, 일1회 2026.05.01~)</td><td>VVIP/VIP만 2D영화 최대 4,000원 할인</td></tr>
-          <tr><td>메가박스</td><td>전 고객 최대 4,000원 할인</td><td>전 등급 최대 5,000원 할인</td><td className="wt">2026.01.01 종료</td></tr>
+          <tr><td>CGV</td><td>전 고객 최대 4,000원 할인 (11,000원↑)</td><td>전 등급 최대 5,000원 할인 (동반 3인, 일1회 2026.05.01~)</td><td>전 등급 2D영화 최대 4,000원 할인</td></tr>
+          <tr><td>메가박스</td><td>전 고객 최대 4,000원 할인</td><td>전 등급 최대 6,000원 할인 (1,000~6,000원)</td><td className="wt">2026.01.01 종료</td></tr>
           <tr><td>롯데시네마</td><td className="wt">2026.02.01 종료</td><td>전 등급 최대 5,000원 할인</td><td className="na">미제공</td></tr>
         </tbody>
       </table>
@@ -34,7 +34,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>파리바게뜨</td><td>VIP/Gold: 모바일 100원·플라스틱 50원 · Silver: 50원</td><td>VVIP/VIP/골드: 100원 · 일반: 50원</td><td>VVIP/VIP: 100원 · 이외: 50원</td></tr>
+          <tr><td>파리바게뜨</td><td>VIP/Gold: 모바일 100원·플라스틱 50원 · Silver: 50원</td><td>VVIP/VIP/골드: 100원 · 일반: 50원</td><td>VVIP/VIP: 100원 · 우수: 50원</td></tr>
           <tr><td>뚜레쥬르</td><td>VIP/Gold: 150원 · Silver: 50원</td><td>VVIP/VIP/골드: 150원 · 일반: 100원</td><td>VVIP: 150원 · VIP: 100원 · 우수: 50원</td></tr>
         </tbody>
       </table>
@@ -72,9 +72,9 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>매드포갈릭</td><td>VIP/Gold: 20% (최대 2만원) · Silver: 10% (최대 1만원)</td><td>전 등급: 20%</td><td>VVIP/VIP: 15% · 우수: 5% (10만원 한도)</td></tr>
+          <tr><td>매드포갈릭</td><td>VIP/Gold: 20% (최대 2만원) · Silver: 10% (최대 1만원)</td><td>전 등급: 20%</td><td>VVIP/VIP: 15% · 우수: 5%</td></tr>
           <tr><td>아웃백</td><td>VIP/Gold: 15% · Silver: 5%</td><td>VVIP/VIP/골드: 15% · 화이트/일반: 5%</td><td className="na">미제공</td></tr>
-          <tr><td>VIPS</td><td>VIP/Gold: 15% · Silver: 5%</td><td>VVIP/VIP: 15% · Gold/일반: 5%</td><td>VIP: 15% · 우수: 5%</td></tr>
+          <tr><td>VIPS</td><td>VIP/Gold: 15% · Silver: 5%</td><td>VVIP/VIP: 15% · Gold/일반: 5%</td><td>VVIP/VIP: 15% · 우수: 5%</td></tr>
         </tbody>
       </table>
 
@@ -89,7 +89,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>도미노</td><td>VIP: 30% · Gold/Silver: 20%</td><td>VVIP/VIP: 20% · Gold/일반: 15%</td><td className="na">미제공</td></tr>
+          <tr><td>도미노</td><td>VIP: 30% · Gold/Silver: 20%</td><td>VVIP/VIP: 20% · Gold/일반: 15%</td><td>VVIP/VIP: 20% (최대 4만원) · 우수: 15% (최대 3만원)</td></tr>
           <tr><td>피자헛</td><td>VIP: 30% · Gold/Silver: 20%</td><td>전 등급: 15%</td><td>전 등급: 15%</td></tr>
         </tbody>
       </table>
