@@ -22,9 +22,9 @@ const compRows = [
     lgu: {
       lines: [
         { grade: '선착순', b: '패밀리 사이즈 최대 9천원 할인' },
-        { grade: '전 등급', b: '스페셜데이 할인' },
+        { grade: '전 등급', b: '패밀리 사이즈 최대 9천원 할인' },
       ],
-      date: '5.20 · 투쁠+스페셜데이',
+      date: '5.20 · 투쁠데이+스페셜데이',
     },
     v: 'neut', note: '같은 날 동시 운영',
   },
@@ -39,21 +39,21 @@ const compRows = [
     brand: '파리바게뜨',
     skt: { lines: [{ grade: '전 등급', b: '200원/P 적립' }], date: '5.4~5.8 · 0 week' },
     kt: { lines: [{ grade: '달달혜택', b: '할인' }], date: '5.15~31 · 달달혜택' },
-    lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원↑)' }], date: '5.19 · 스페셜데이' },
+    lgu: { lines: [{ grade: '전 등급', b: '최대 6천원 할인 (2만원 이상)' }], date: '5.19 · 스페셜데이' },
     v: 'neut', note: '기간 분산 · 성격 다름',
   },
   {
     brand: '컬리',
     skt: null,
     kt: { lines: [{ grade: '달달혜택', b: '할인' }], date: '5.15~31 · 달달혜택' },
-    lgu: { lines: [{ grade: '전 등급', b: '할인' }], date: '5.19 · 스페셜데이' },
+    lgu: { lines: [{ grade: '전 등급', b: '5천원 할인 (2만원 이상)' }], date: '5.19 · 스페셜데이' },
     v: 'miss', note: 'SKT 미운영',
   },
   {
     brand: '하프클럽',
     skt: { lines: [{ grade: '전 등급', b: '장바구니 20%+온리하프 35%' }], date: '5.4~5.8 · 0 week' },
     kt: null,
-    lgu: { lines: [{ grade: '선착순', b: '30%+온리하프 35% (4만원↑)' }], date: '5.19 · 스페셜데이' },
+    lgu: { lines: [{ grade: '전 등급', b: '30%+온리하프 35% (4만원 이상)' }], date: '5.19 · 스페셜데이' },
     v: 'neut', note: '기간 분산 · 직접 경쟁 없음',
   },
 ];
