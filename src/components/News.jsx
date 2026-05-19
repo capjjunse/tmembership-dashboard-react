@@ -47,16 +47,6 @@ export default function News() {
             <div className="nsum">분식 브랜드 국민학교 떡볶이가 KT멤버십 달달초이스에 첫 합류. 5.15~31 쿠폰 다운로드 후 공식 사이트 등록으로 혜택 제공. "KT멤버십 고객에게 더 실질적인 혜택을" 목표.</div>
             <div className="nmeta">2026-05-15 · <a href="https://www.mt.co.kr/stock/2026/05/15/2026051508142888359" target="_blank" rel="noreferrer">머니투데이</a></div>
           </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">통신사 멤버십 '더 내고 덜 받는' 구조 — VIP 등급 기준 상향 논란</span></div>
-            <div className="nsum">3사 모두 VVIP 등급 기준을 연 200만원으로 높이면서 실질 혜택은 축소. KT VVIP 취득에 연 200만원 이상 납부 조건, 고객 부담 증가 우려.</div>
-            <div className="nmeta">2025-01-14 · <a href="https://zdnet.co.kr/view/?no=20250113135558" target="_blank" rel="noreferrer">ZDNet Korea</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">알뜰폰 돌풍에 맞선 통신 3사의 비책 — 멤버십 혜택 확대 경쟁</span></div>
-            <div className="nsum">SKT 173개·KT 121개·LGU+ 125개 브랜드 제휴. T day·달달혜택·유플투쁠 등 월 정기 프로그램으로 집토끼 이탈 방어 전략.</div>
-            <div className="nmeta">2024-11-01 · <a href="https://www.insightkorea.co.kr/news/articleView.html?idxno=213010" target="_blank" rel="noreferrer">인사이트코리아</a></div>
-          </div>
         </div>
       )}
 
