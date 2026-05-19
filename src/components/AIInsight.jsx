@@ -1,109 +1,239 @@
+import { useState } from 'react';
+
+const compRows = [
+  {
+    brand: '공차',
+    skt: { b: '50% 할인', d: '5.13 (1주차)' },
+    kt: null,
+    lgu: { b: '50% 할인', d: '5.12 투쁠데이' },
+    v: 'warn', note: 'LGU+ 하루 먼저 · 동일 혜택',
+  },
+  {
+    brand: '피자헛',
+    skt: { b: '방문포장 50%', d: '5.20 (2주차)' },
+    kt: null,
+    lgu: { b: '55% 할인', d: '5.14 투쁠데이' },
+    v: 'warn', note: 'LGU+ 1주 먼저 + 5%p 높음',
+  },
+  {
+    brand: '배스킨라빈스',
+    skt: { b: '파인트 40%', d: '5.20 (2주차)' },
+    kt: null,
+    lgu: { b: '투쁠+스페셜', d: '5.20' },
+    v: 'neut', note: '같은 날 동시 운영',
+  },
+  {
+    brand: 'CGV',
+    skt: { b: '8,500원 예매', d: '0week · 1주 · 2주' },
+    kt: null,
+    lgu: { b: '투쁠+스페셜', d: '5.20' },
+    v: 'good', note: 'SKT 3회 운영 vs LGU+ 1회',
+  },
+  {
+    brand: '파리바게뜨',
+    skt: { b: '200원/P 적립', d: '5.4~8 (0week)' },
+    kt: { b: '달달혜택 할인', d: '5.15~31' },
+    lgu: { b: '스페셜데이', d: '5.19' },
+    v: 'neut', note: '기간 분산 · 성격 다름',
+  },
+  {
+    brand: '컬리',
+    skt: null,
+    kt: { b: '달달혜택', d: '5.15~31' },
+    lgu: { b: '스페셜데이', d: '5.19' },
+    v: 'miss', note: 'SKT 미운영',
+  },
+  {
+    brand: '하프클럽',
+    skt: { b: '장바구니 20%+35%', d: '5.4~8 (0week)' },
+    kt: null,
+    lgu: { b: '스페셜데이', d: '5.19' },
+    v: 'neut', note: '기간 분산 · 직접 경쟁 없음',
+  },
+];
+
+const sktOnly = [
+  '버거킹 — 와퍼 40% / VIP 55%',
+  '이니스프리 — 5,000원 + 뷰포 2,000P',
+  '던킨 — 30% / VIP 50%',
+  '톤28 — 최대 35,000원',
+  '노브랜드버거 · 백미당',
+];
+
+const alerts = [
+  {
+    level: 'warn',
+    platform: '네이버플러스',
+    title: '편의점 — 네이버플러스 GS25 최대 20% 상시, 통신 3사 없음',
+    them: 'GS25 즉시할인 10% + 네이버페이 10% 적립 상시 · CU 최대 10% 상시',
+    us: '통신 3사 T-day · 월간 혜택에 GS25 · CU 포함 없음',
+    verdict: '일상 최접점 편의점에서 비통신에 지속 밀림 — 편의점 제휴 검토 필요',
+  },
+  {
+    level: 'warn',
+    platform: '네이버플러스',
+    title: '영화관 — 롯데시네마 40% 상시, SKT 종료 후 공백 점령',
+    them: '롯데시네마 2D 최대 40% 할인 + 무료콤보 상시',
+    us: 'SKT 2026.02 롯데시네마 종료. CGV · 메가박스만 운영 중',
+    verdict: '롯데시네마 이용층 이탈 채널로 네이버플러스 활용 중',
+  },
+  {
+    level: 'ok',
+    platform: '토스뱅크',
+    title: '버거킹 · 투썸 · 메가커피 — 토스 10% vs T-day 40~55%',
+    them: '월 3개 브랜드 선택 10% 캐시백 (버거킹 · 투썸 · 메가커피 포함)',
+    us: 'SKT T-day 버거킹 와퍼 40% / VIP 55% — 규모 차이로 차별화 유효',
+    verdict: '큰 폭 단발 할인은 여전히 통신사 강점 — 현행 유지',
+  },
+  {
+    level: 'watch',
+    platform: '네이버플러스',
+    title: '배달 — 요기요 배달비 무료 상시, 통신사 상시 혜택 없음',
+    them: '요기패스X 연계 배달비 무료 (15,000원↑ 상시)',
+    us: 'KT 달달혜택 배민×노랑통닭 일시 운영에 그침 · 상시 배달 혜택 없음',
+    verdict: '배달 카테고리 상시 혜택 공백 지속 — 추가 검토 요',
+  },
+];
+
+const recs = [
+  {
+    rank: 1,
+    brand: '이디야커피',
+    tag: '전국 3,500개+ · 3사 모두 미운영',
+    reason: '저가 커피 시장 매장 수 1위급. 메가커피·컴포즈·빽다방 대비 30~40대 직장인 이용 비중 높아 통신사 주 고객층과 일치. 3사 모두 미제휴 상태로 단독 입점 효과 기대.',
+    trend: '2026 상반기 가맹점 매출 성장세, 도심 역세권 출점 지속',
+    status: 'SKT · KT · LGU+ 모두 미운영',
+    hot: true,
+  },
+  {
+    rank: 2,
+    brand: '다이소',
+    tag: 'LGU+ 1회성 외 미운영',
+    reason: '가성비 소비 트렌드의 핵심. 전국 1,600개+ 매장, 주 1회 이상 방문층 두텁고 MZ-중장년 모두 이용. LGU+가 투쁠데이 1회 운영에 그쳐 선점 여지 있음.',
+    trend: '연매출 4조 돌파, 2026 외국인 관광객 필수 코스 선정',
+    status: 'SKT · KT 미운영 / LGU+ 투쁠데이 1회만',
+    hot: true,
+  },
+  {
+    rank: 3,
+    brand: '무신사',
+    tag: '패션 버티컬 1위 · 3사 모두 미운영',
+    reason: '패션 버티컬 앱 MAU 1,500만 이상, MZ 필수 앱 지위. 3사 모두 패션 카테고리 공백. 포인트 적립 제휴 구조로 도입 시 MZ 고객 이탈 방어 효과 기대.',
+    trend: '2026 상반기 글로벌 진출 + 입점 브랜드 7,000개↑',
+    status: 'SKT · KT · LGU+ 모두 미운영',
+    hot: false,
+  },
+];
+
+const verdictLabel = { warn: '⚠ SKT 열위', good: '✅ SKT 우위', neut: '— 동급', miss: '✕ SKT 없음' };
+const verdictCls = { warn: 'cv-warn', good: 'cv-good', neut: 'cv-neut', miss: 'cv-miss' };
+
 export default function AIInsight() {
+  const [tab, setTab] = useState('comp');
+
   return (
     <div className="sec" id="ai">
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
-        <span className="ss">2026년 5월 18일 기준</span>
+        <span className="ss">2026년 5월 기준</span>
         <span className="upd-badge upd-1m">↻ 월 갱신</span>
       </div>
-      <div className="swot-grid">
-        <div className="swot-card">
-          <div className="swot-hdr sh-skt"><div className="swot-ico">📱</div><span>SKT T멤버십</span></div>
-          <div className="swot-section str">
-            <div className="swot-label str">강점</div>
-            <div className="swot-items">
-              <div className="swot-item">VIP Only 찬스·해피아워로 최상위 등급 혜택 차별화 강화</div>
-              <div className="swot-item">0 week(만13~34세) 신설 — MZ세대 타깃 가장 명확</div>
-              <div className="swot-item">루덴시아·더벤티 등 신규 제휴 지속 추가. 제휴사 173개 업계 최다</div>
-              <div className="swot-item">T멤버십 앱 MAU 660만 — 압도적 고객 기반</div>
-            </div>
-          </div>
-          <div className="swot-section wk">
-            <div className="swot-label wk">약점</div>
-            <div className="swot-items">
-              <div className="swot-item">롯데시네마 종료 → CGV·메가박스 2관, KT 3관 대비 영화 혜택 열위</div>
-              <div className="swot-item">VIP Pick T우주패스 8월 축소 예정 → 커뮤니티 부정 반응 예상</div>
-              <div className="swot-item">T day 선착순·추첨 구조 — "빠른 사람만 혜택" 형평성 불만</div>
-            </div>
-          </div>
-        </div>
-        <div className="swot-card">
-          <div className="swot-hdr sh-kt"><div className="swot-ico">📡</div><span>KT 멤버십</span></div>
-          <div className="swot-section str">
-            <div className="swot-label str">강점</div>
-            <div className="swot-items">
-              <div className="swot-item">달달초이스+스페셜+찬스 3종 구조 — 혜택 다양성 업계 최상</div>
-              <div className="swot-item">패밀리컬렉션 테마 + 국민학교떡볶이 등 이색 브랜드 영입으로 화제성 확보</div>
-              <div className="swot-item">롯데시네마 포함 3관 영화 혜택 — 영화 혜택 업계 최강</div>
-              <div className="swot-item">고객보답 월 2회 (투썸플레이스·메가커피 등) + CGV 상시 일1회 확대</div>
-            </div>
-          </div>
-          <div className="swot-section wk">
-            <div className="swot-label wk">약점</div>
-            <div className="swot-items">
-              <div className="swot-item">달달초이스 15일 이후 공개 — 월 상반기 혜택 공백</div>
-              <div className="swot-item">공식 페이지 외부 접근 차단 — 정보 접근성 낮음</div>
-              <div className="swot-item">멤버십 티켓팅 경쟁 과열 — 선착순 구조 불만 증가</div>
-            </div>
-          </div>
-        </div>
-        <div className="swot-card">
-          <div className="swot-hdr sh-lgu"><div className="swot-ico">🌸</div><span>LGU+ 멤버십</span></div>
-          <div className="swot-section str">
-            <div className="swot-label str">강점</div>
-            <div className="swot-items">
-              <div className="swot-item">유플투쁠 일별 50종+ 선착순 혜택 — 콘텐츠 풍성함 최상</div>
-              <div className="swot-item">장기고객데이 경험형 혜택 — 화담숲 단독 초청 등 차별화</div>
-              <div className="swot-item">6월 신규 제휴사 오늘(5.11) 선제 공개 — 3사 중 가장 빠름</div>
-            </div>
-          </div>
-          <div className="swot-section wk">
-            <div className="swot-label wk">약점</div>
-            <div className="swot-items">
-              <div className="swot-item">오전 11시 선착순 — 직장인 이용 불편, 선점 경쟁 피로</div>
-              <div className="swot-item">에펨코리아 고객 반응 거의 없음 — 인지도·화제성 낮음</div>
-              <div className="swot-item">밀크T 네이버페이 한도 3만→2만원 축소 (05.01), 굿웨어몰 제휴 종료 (06.30)</div>
-            </div>
-          </div>
-        </div>
+
+      <div className="ai-tabs">
+        <button className={`aitab${tab === 'comp' ? ' at-on' : ''}`} onClick={() => setTab('comp')}>3사 경쟁 매트릭스</button>
+        <button className={`aitab${tab === 'alert' ? ' at-on' : ''}`} onClick={() => setTab('alert')}>비통신 알람</button>
+        <button className={`aitab${tab === 'rec' ? ' at-on' : ''}`} onClick={() => setTab('rec')}>신규 제휴 추천</button>
       </div>
-      <div className="ins-list">
-        <div className="ins-item">
-          <div className="ins-num">1</div>
-          <div className="ins-content">
-            <div className="ins-title">SKT VIP Pick T우주패스 8월 축소 — 사전 고객 소통 필요</div>
-            <div className="ins-body">9,900원 쿠폰 폐지로 실질 혜택 축소. 발표 후 커뮤니티 반응 모니터링 필요. 8월 전 대체 혜택 보완 또는 기존 고객 대상 사전 안내 강화 권장.</div>
+
+      {tab === 'comp' && (
+        <div>
+          <div className="ai-sub">이번달 월간 혜택에서 겹치는 브랜드 비교 — <strong>SKT 경쟁 포지션 판정</strong></div>
+          <div className="comp-wrap">
+            <table className="comp-table">
+              <thead>
+                <tr>
+                  <th className="comp-th">브랜드</th>
+                  <th className="comp-th comp-th-skt">SKT</th>
+                  <th className="comp-th comp-th-kt">KT</th>
+                  <th className="comp-th comp-th-lgu">LGU+</th>
+                  <th className="comp-th">판정</th>
+                </tr>
+              </thead>
+              <tbody>
+                {compRows.map((r) => (
+                  <tr key={r.brand} className="comp-tr">
+                    <td className="comp-td comp-brand">{r.brand}</td>
+                    <td className="comp-td">
+                      {r.skt ? <><div className="comp-benefit">{r.skt.b}</div><div className="comp-date">{r.skt.d}</div></> : <span className="comp-none">—</span>}
+                    </td>
+                    <td className="comp-td">
+                      {r.kt ? <><div className="comp-benefit">{r.kt.b}</div><div className="comp-date">{r.kt.d}</div></> : <span className="comp-none">미확인*</span>}
+                    </td>
+                    <td className="comp-td">
+                      {r.lgu ? <><div className="comp-benefit">{r.lgu.b}</div><div className="comp-date">{r.lgu.d}</div></> : <span className="comp-none">—</span>}
+                    </td>
+                    <td className="comp-td">
+                      <span className={`comp-verdict ${verdictCls[r.v]}`}>{verdictLabel[r.v]}</span>
+                      <div className="comp-note">{r.note}</div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <div className="comp-footer">* KT 공식 사이트 접근 차단으로 달달초이스 상세 미확인</div>
+          </div>
+          <div className="ai-sub" style={{ marginTop: '16px' }}>SKT 단독 운영 — 경쟁 없음 <span className="ai-sub-badge">강점 유지</span></div>
+          <div className="sktonly-list">
+            {sktOnly.map((s) => (
+              <div key={s} className="sktonly-item">
+                <span className="sktonly-dot"></span>{s}
+              </div>
+            ))}
           </div>
         </div>
-        <div className="ins-item">
-          <div className="ins-num">2</div>
-          <div className="ins-content">
-            <div className="ins-title">KT CGV 상시 이용횟수 확대 (월3회→일1회) — T멤버십 대비 열위 심화 우려</div>
-            <div className="ins-body">KT가 CGV 상시 혜택을 강화하면서 영화관 혜택 KT 우위 더욱 굳어짐. SKT 메가박스 혜택 상향 또는 CGV 조건 개선 검토 시급.</div>
-          </div>
+      )}
+
+      {tab === 'alert' && (
+        <div>
+          <div className="ai-sub">네이버플러스 · 토스뱅크와 겹치는 영역 — <strong>통신사 차별화 현황</strong></div>
+          {alerts.map((a, i) => (
+            <div key={i} className={`alert-card ac-${a.level}`}>
+              <div className="alert-top">
+                <span className={`alert-platform-badge apb-${a.level}`}>{a.platform}</span>
+                {a.level === 'warn' && <span className="alert-lvl-badge alb-warn">⚠ 주의</span>}
+                {a.level === 'ok' && <span className="alert-lvl-badge alb-ok">✅ 강점</span>}
+                {a.level === 'watch' && <span className="alert-lvl-badge alb-watch">👀 모니터링</span>}
+              </div>
+              <div className="alert-title">{a.title}</div>
+              <div className="alert-rows">
+                <div className="alert-row"><span className="alert-lbl">비통신</span><span className="alert-val">{a.them}</span></div>
+                <div className="alert-row"><span className="alert-lbl">통신사</span><span className="alert-val">{a.us}</span></div>
+              </div>
+              <div className={`alert-verdict av-${a.level}`}>{a.verdict}</div>
+            </div>
+          ))}
         </div>
-        <div className="ins-item">
-          <div className="ins-num">3</div>
-          <div className="ins-content">
-            <div className="ins-title">네이버플러스 하반기 무제한 무료배송 예고 — 배달·편의점 전방위 위협 가속</div>
-            <div className="ins-body">하반기 무제한 무료배송 도입 계획으로 쿠팡(월 7,890원) 대비 4,900원 가격 우위 확보 시도. CU 편의점·배민 제휴까지 더해져 통신사 일상 혜택 전 영역 경쟁 심화 전망.</div>
-          </div>
+      )}
+
+      {tab === 'rec' && (
+        <div>
+          <div className="ai-sub">뜨는 브랜드 × 3사 미운영 교차 분석 — <strong>제휴 추천 Top 3</strong></div>
+          {recs.map((r) => (
+            <div key={r.rank} className="rec-card">
+              <div className="rec-hdr">
+                <div className={`rec-rank${r.hot ? ' rr-hot' : ''}`}>{r.rank}</div>
+                <div className="rec-brand">{r.brand}</div>
+                <div className="rec-tag">{r.tag}</div>
+              </div>
+              <div className="rec-reason">{r.reason}</div>
+              <div className="rec-meta">
+                <span className="rec-trend-lbl">트렌드</span> {r.trend}
+              </div>
+              <div className="rec-status">{r.status}</div>
+            </div>
+          ))}
         </div>
-        <div className="ins-item">
-          <div className="ins-num">4</div>
-          <div className="ins-content">
-            <div className="ins-title">KT 달달혜택 신규 브랜드 다각화 — 국민학교떡볶이·투썸플레이스·노랑통닭</div>
-            <div className="ins-body">기존 커피·패밀리레스토랑 중심에서 분식·배달·치킨 장르로 확대. 고객보답 2차(5.18~31) 추가로 5월 KT 혜택 밀도 역대 최상. 타 통신사 대비 혜택 다양성 격차 심화.</div>
-          </div>
-        </div>
-        <div className="ins-item">
-          <div className="ins-num">5</div>
-          <div className="ins-content">
-            <div className="ins-title">LGU+ 6월 신규 제휴사 선제 공개 — 고객 기대 관리 전략 긍정적</div>
-            <div className="ins-body">전월 말 공개 패턴에서 당월 초 조기 공개로 변화. 고객 관점에서 다음 달 혜택 미리 계획 가능. SKT·KT도 유사 전략 도입 검토 여지 있음.</div>
-          </div>
-        </div>
-      </div>
+      )}
     </div>
   );
 }

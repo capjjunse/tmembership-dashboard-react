@@ -216,3 +216,67 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .ins-txt{font-size:12px;line-height:1.75;color:var(--tx2);padding-top:6px}
 .ins-txt b{color:var(--tx);font-weight:700}
 .hidden{display:none}
+
+/* ── AI 인사이트 탭 ── */
+.ai-tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.aitab{padding:7px 16px;border-radius:20px;border:1.5px solid var(--bd2);font-size:12px;font-weight:700;cursor:pointer;background:var(--bg);color:var(--tx2);font-family:inherit;transition:.15s}
+.aitab:hover{background:var(--bg3)}
+.aitab.at-on{background:var(--pl);color:var(--p);border-color:var(--p)}
+.ai-sub{font-size:11px;color:var(--tx2);margin-bottom:10px}
+.ai-sub strong{color:var(--tx)}
+.ai-sub-badge{font-size:10px;font-weight:700;padding:1px 8px;border-radius:20px;background:var(--pos-bg);color:var(--pos);border:0.5px solid var(--pos-bd);margin-left:6px}
+
+/* ── 3사 경쟁 매트릭스 ── */
+.comp-wrap{overflow-x:auto;border-radius:var(--r);border:1px solid var(--bd)}
+.comp-table{width:100%;border-collapse:collapse}
+.comp-th{font-size:11px;font-weight:800;padding:8px 12px;background:var(--bg3);border-bottom:1px solid var(--bd);text-align:left;white-space:nowrap}
+.comp-th-skt{color:var(--skt-t)}.comp-th-kt{color:var(--kt-t)}.comp-th-lgu{color:var(--lgu-t)}
+.comp-tr:hover{background:var(--bg2)}
+.comp-tr:not(:last-child) td{border-bottom:1px solid var(--bd)}
+.comp-td{padding:9px 12px;vertical-align:top;font-size:11.5px}
+.comp-brand{font-weight:800;color:var(--tx);white-space:nowrap}
+.comp-benefit{font-weight:700;color:var(--tx)}
+.comp-date{font-size:10px;color:var(--tx3);margin-top:2px}
+.comp-none{color:var(--tx3);font-size:11px}
+.comp-verdict{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;white-space:nowrap;display:inline-block}
+.cv-warn{background:var(--warn-bg);color:var(--warn)}
+.cv-good{background:var(--pos-bg);color:var(--pos)}
+.cv-neut{background:var(--neu-bg);color:var(--neu)}
+.cv-miss{background:var(--neg-bg);color:var(--neg)}
+.comp-note{font-size:10px;color:var(--tx3);margin-top:3px}
+.comp-footer{font-size:10px;color:var(--tx3);padding:7px 12px;background:var(--bg2);border-top:1px solid var(--bd)}
+.sktonly-list{display:flex;flex-wrap:wrap;gap:7px}
+.sktonly-item{font-size:11.5px;font-weight:700;padding:4px 12px;border-radius:20px;background:var(--skt-bg);color:var(--skt-t);border:1px solid var(--skt-bd);display:flex;align-items:center;gap:5px}
+.sktonly-dot{width:5px;height:5px;border-radius:50%;background:var(--skt);flex-shrink:0}
+
+/* ── 비통신 알람 ── */
+.alert-card{border-radius:var(--r);border:1px solid var(--bd);padding:13px 15px;margin-bottom:10px;border-left:4px solid transparent;background:var(--bg)}
+.ac-warn{border-left-color:var(--warn)}
+.ac-ok{border-left-color:var(--pos)}
+.ac-watch{border-left-color:#e2a800}
+.alert-top{display:flex;align-items:center;gap:7px;margin-bottom:8px}
+.alert-platform-badge{font-size:10px;font-weight:700;padding:1px 8px;border-radius:20px;background:var(--bg3);color:var(--tx2);border:1px solid var(--bd2)}
+.alert-lvl-badge{font-size:10px;font-weight:700;padding:1px 8px;border-radius:20px}
+.alb-warn{background:var(--warn-bg);color:var(--warn)}
+.alb-ok{background:var(--pos-bg);color:var(--pos)}
+.alb-watch{background:#fef3c7;color:#92400e}
+.alert-title{font-size:12.5px;font-weight:800;color:var(--tx);margin-bottom:8px;line-height:1.4}
+.alert-rows{display:flex;flex-direction:column;gap:5px;margin-bottom:9px}
+.alert-row{display:flex;gap:8px;font-size:11.5px}
+.alert-lbl{font-size:10px;font-weight:800;color:var(--tx3);min-width:36px;padding-top:2px;flex-shrink:0}
+.alert-val{color:var(--tx2);line-height:1.6}
+.alert-verdict{font-size:11.5px;font-weight:700;padding-top:8px;border-top:1px solid var(--bd)}
+.av-warn{color:var(--warn)}.av-ok{color:var(--pos)}.av-watch{color:#92400e}
+
+/* ── 신규 제휴 추천 ── */
+.rec-card{border-radius:var(--r);border:1px solid var(--bd);padding:14px 16px;margin-bottom:10px;background:var(--bg);transition:.2s}
+.rec-card:hover{box-shadow:var(--sh-hover);border-color:var(--bd2)}
+.rec-hdr{display:flex;align-items:center;gap:8px;margin-bottom:9px;flex-wrap:wrap}
+.rec-rank{width:22px;height:22px;border-radius:50%;background:var(--p);color:#fff;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.rr-hot{background:var(--neg)}
+.rec-brand{font-size:14px;font-weight:800;color:var(--tx)}
+.rec-tag{font-size:10px;font-weight:700;padding:2px 9px;border-radius:20px;background:var(--bg3);color:var(--tx2);border:1px solid var(--bd2)}
+.rec-reason{font-size:11.5px;color:var(--tx2);line-height:1.75;margin-bottom:8px}
+.rec-meta{font-size:11px;color:var(--tx3);margin-bottom:5px}
+.rec-trend-lbl{font-weight:700;color:var(--p);margin-right:3px}
+.rec-status{font-size:10px;font-weight:700;color:var(--neg);padding:2px 9px;border-radius:20px;background:var(--neg-bg);border:0.5px solid var(--neg-bd);display:inline-block}
