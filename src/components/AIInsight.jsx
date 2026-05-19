@@ -3,51 +3,51 @@ import { useState } from 'react';
 const compRows = [
   {
     brand: '공차',
-    skt: { b: '50% 할인', d: '5.13 (1주차)' },
+    skt: { b: '50% 할인', d: '5.13 · T day 1주차' },
     kt: null,
-    lgu: { b: '50% 할인', d: '5.12 투쁠데이' },
+    lgu: { b: '50% 할인 (선착순)', d: '5.12 · 투쁠데이' },
     v: 'warn', note: 'LGU+ 하루 먼저 · 동일 혜택',
   },
   {
     brand: '피자헛',
-    skt: { b: '방문포장 50%', d: '5.20 (2주차)' },
+    skt: { b: '방문포장 50%', d: '5.20 · T day 2주차' },
     kt: null,
-    lgu: { b: '55% 할인', d: '5.14 투쁠데이' },
+    lgu: { b: '55% 할인 (선착순)', d: '5.14 · 투쁠데이' },
     v: 'warn', note: 'LGU+ 1주 먼저 + 5%p 높음',
   },
   {
     brand: '배스킨라빈스',
-    skt: { b: '파인트 40%', d: '5.20 (2주차)' },
+    skt: { b: '파인트 40%', d: '5.20 · T day 2주차' },
     kt: null,
-    lgu: { b: '투쁠+스페셜', d: '5.20' },
+    lgu: { b: '선착순 + 전 등급 할인', d: '5.20 · 투쁠데이+스페셜데이' },
     v: 'neut', note: '같은 날 동시 운영',
   },
   {
     brand: 'CGV',
-    skt: { b: '8,500원 예매', d: '0week · 1주 · 2주' },
+    skt: { b: '8,500원 예매+매점 쿠폰', d: '0week · 1주차 · 2주차 (3회)' },
     kt: null,
-    lgu: { b: '투쁠+스페셜', d: '5.20' },
+    lgu: { b: '8,500원 예매 (선착순+전등급)', d: '5.20 · 투쁠데이+스페셜데이 (1회)' },
     v: 'good', note: 'SKT 3회 운영 vs LGU+ 1회',
   },
   {
     brand: '파리바게뜨',
-    skt: { b: '200원/P 적립', d: '5.4~8 (0week)' },
-    kt: { b: '달달혜택 할인', d: '5.15~31' },
-    lgu: { b: '스페셜데이', d: '5.19' },
+    skt: { b: '200원/P 적립', d: '5.4~5.8 · 0 week' },
+    kt: { b: '달달혜택 할인 (금액 미확인)', d: '5.15~31 · 달달혜택' },
+    lgu: { b: '전 등급 혜택 (율 미확인)', d: '5.19 · 스페셜데이' },
     v: 'neut', note: '기간 분산 · 성격 다름',
   },
   {
     brand: '컬리',
     skt: null,
-    kt: { b: '달달혜택', d: '5.15~31' },
-    lgu: { b: '스페셜데이', d: '5.19' },
+    kt: { b: '달달혜택 할인', d: '5.15~31 · 달달혜택' },
+    lgu: { b: '전 등급 혜택', d: '5.19 · 스페셜데이' },
     v: 'miss', note: 'SKT 미운영',
   },
   {
     brand: '하프클럽',
-    skt: { b: '장바구니 20%+35%', d: '5.4~8 (0week)' },
+    skt: { b: '장바구니 20%+온리하프 35%', d: '5.4~5.8 · 0 week' },
     kt: null,
-    lgu: { b: '스페셜데이', d: '5.19' },
+    lgu: { b: '전 등급 혜택 (율 미확인)', d: '5.19 · 스페셜데이' },
     v: 'neut', note: '기간 분산 · 직접 경쟁 없음',
   },
 ];
@@ -125,8 +125,8 @@ const recs = [
   },
 ];
 
-const verdictLabel = { warn: '⚠ SKT 열위', good: '✅ SKT 우위', neut: '— 동급', miss: '✕ SKT 없음' };
-const verdictCls = { warn: 'cv-warn', good: 'cv-good', neut: 'cv-neut', miss: 'cv-miss' };
+const verdictIcon  = { warn: '⚠', good: '✅', neut: '〜', miss: '✕' };
+const verdictLabel = { warn: 'SKT 열위', good: 'SKT 우위', neut: '동급 경쟁', miss: 'SKT 없음' };
 
 export default function AIInsight() {
   const [tab, setTab] = useState('comp');
@@ -152,35 +152,42 @@ export default function AIInsight() {
             <table className="comp-table">
               <thead>
                 <tr>
-                  <th className="comp-th">브랜드</th>
+                  <th className="comp-th comp-th-brand">브랜드</th>
                   <th className="comp-th comp-th-skt">SKT</th>
                   <th className="comp-th comp-th-kt">KT</th>
                   <th className="comp-th comp-th-lgu">LGU+</th>
-                  <th className="comp-th">판정</th>
+                  <th className="comp-th comp-th-vd">판정</th>
                 </tr>
               </thead>
               <tbody>
                 {compRows.map((r) => (
-                  <tr key={r.brand} className="comp-tr">
+                  <tr key={r.brand} className={`comp-tr vr-${r.v}`}>
                     <td className="comp-td comp-brand">{r.brand}</td>
                     <td className="comp-td">
-                      {r.skt ? <><div className="comp-benefit">{r.skt.b}</div><div className="comp-date">{r.skt.d}</div></> : <span className="comp-none">—</span>}
+                      {r.skt
+                        ? <div className="comp-cell"><div className="comp-benefit cb-skt">{r.skt.b}</div><div className="comp-date">{r.skt.d}</div></div>
+                        : <span className="comp-none">—</span>}
                     </td>
                     <td className="comp-td">
-                      {r.kt ? <><div className="comp-benefit">{r.kt.b}</div><div className="comp-date">{r.kt.d}</div></> : <span className="comp-none">미확인*</span>}
+                      {r.kt
+                        ? <div className="comp-cell"><div className="comp-benefit cb-kt">{r.kt.b}</div><div className="comp-date">{r.kt.d}</div></div>
+                        : <span className="comp-none comp-unk">미확인 *</span>}
                     </td>
                     <td className="comp-td">
-                      {r.lgu ? <><div className="comp-benefit">{r.lgu.b}</div><div className="comp-date">{r.lgu.d}</div></> : <span className="comp-none">—</span>}
+                      {r.lgu
+                        ? <div className="comp-cell"><div className="comp-benefit cb-lgu">{r.lgu.b}</div><div className="comp-date">{r.lgu.d}</div></div>
+                        : <span className="comp-none">—</span>}
                     </td>
-                    <td className="comp-td">
-                      <span className={`comp-verdict ${verdictCls[r.v]}`}>{verdictLabel[r.v]}</span>
-                      <div className="comp-note">{r.note}</div>
+                    <td className={`comp-vd-td cvd-${r.v}`}>
+                      <div className="cvd-icon">{verdictIcon[r.v]}</div>
+                      <div className="cvd-label">{verdictLabel[r.v]}</div>
+                      <div className="cvd-note">{r.note}</div>
                     </td>
                   </tr>
                 ))}
               </tbody>
             </table>
-            <div className="comp-footer">* KT 공식 사이트 접근 차단으로 달달초이스 상세 미확인</div>
+            <div className="comp-footer">* KT 공식 사이트 접근 차단 — 달달초이스 상세 미확인</div>
           </div>
           <div className="ai-sub" style={{ marginTop: '16px' }}>SKT 단독 운영 — 경쟁 없음 <span className="ai-sub-badge">강점 유지</span></div>
           <div className="sktonly-list">
