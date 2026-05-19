@@ -17,9 +17,9 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>CGV</td><td>전 고객 최대 4,000원 할인 (11,000원↑)</td><td>전 등급 최대 5,000원 할인 (동반 3인, 일1회 2026.05.01~)</td><td>전 등급 2D영화 최대 4,000원 할인</td></tr>
-          <tr><td>메가박스</td><td>전 고객 최대 4,000원 할인</td><td>전 등급 최대 6,000원 할인 (1,000~6,000원)</td><td className="wt">2026.01.01 종료</td></tr>
-          <tr><td>롯데시네마</td><td className="wt">2026.02.01 종료</td><td>전 등급 최대 5,000원 할인</td><td className="na">미제공</td></tr>
+          <tr><td>CGV</td><td>[전 등급] 최대 4,000원 할인 (11,000원↑)</td><td>[전 등급] 최대 5,000원 할인 (동반 3인, 일1회 2026.05.01~)</td><td>[전 등급] 2D영화 최대 4,000원 할인</td></tr>
+          <tr><td>메가박스</td><td>[전 등급] 최대 4,000원 할인</td><td>[전 등급] 최대 6,000원 할인 (1,000~6,000원)</td><td className="wt">2026.01.01 종료</td></tr>
+          <tr><td>롯데시네마</td><td className="wt">2026.02.01 종료</td><td>[전 등급] 최대 5,000원 할인</td><td className="na">미제공</td></tr>
         </tbody>
       </table>
 
@@ -34,8 +34,8 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>파리바게뜨</td><td>VIP/Gold: 모바일 100원·플라스틱 50원 · Silver: 50원</td><td>VVIP/VIP/골드: 100원 · 일반: 50원</td><td>VVIP/VIP: 100원 · 우수: 50원</td></tr>
-          <tr><td>뚜레쥬르</td><td>VIP/Gold: 150원 · Silver: 50원</td><td>VVIP/VIP/골드: 150원 · 일반: 100원</td><td>VVIP: 150원 · VIP: 100원 · 우수: 50원</td></tr>
+          <tr><td>파리바게뜨</td><td>[VIP/Gold] 모바일 100원·플라스틱 50원 할인 · [Silver] 50원 할인</td><td>[VVIP/VIP/골드] 100원 할인 · [일반] 50원 할인</td><td>[VVIP/VIP] 100원 할인 · [우수] 50원 할인</td></tr>
+          <tr><td>뚜레쥬르</td><td>[VIP/Gold] 150원 할인 · [Silver] 50원 할인</td><td>[VVIP/VIP/골드] 150원 할인 · [일반] 100원 할인</td><td>[VVIP] 150원 할인 · [VIP] 100원 할인 · [우수] 50원 할인</td></tr>
         </tbody>
       </table>
 
@@ -50,11 +50,11 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>에버랜드</td><td>전 등급: 본인 40% + 동반 3인 30%</td><td>전 등급: 본인 40% + 동반 3인 20% (현장)</td><td>전 등급: 본인 40%</td></tr>
-          <tr><td>롯데월드 어드벤처</td><td>VIP/Gold: 본인 40%+동반3인 30% · Silver: 본인 40%+동반3인 20%</td><td>전 등급: 본인 40%+동반3인 30% (현장, 일1회)</td><td>42%+동반1인 30%</td></tr>
+          <tr><td>에버랜드</td><td>[전 등급] 본인 40%·동반 3인 30% 할인</td><td>[전 등급] 본인 40%·동반 3인 20% 할인 (현장)</td><td>[전 등급] 본인 40% 할인</td></tr>
+          <tr><td>롯데월드 어드벤처</td><td>[VIP/Gold] 본인 40%·동반 3인 30% 할인 · [Silver] 본인 40%·동반 3인 20% 할인</td><td>[전 등급] 본인 40%·동반 3인 30% 할인 (현장, 일1회)</td><td>[전 등급] 본인 42%·동반 1인 30% 할인</td></tr>
           <tr>
             <td>루덴시아 <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></td>
-            <td className="ht2">주중 50% · 주말 35% (2026.04.24 신규)</td>
+            <td className="ht2">[전 등급] 주중 50%·주말 35% 할인 (2026.04.24~)</td>
             <td className="na">미제공</td>
             <td className="na">미제공</td>
           </tr>
@@ -72,9 +72,9 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>매드포갈릭</td><td>VIP/Gold: 20% (최대 2만원) · Silver: 10% (최대 1만원)</td><td>전 등급: 20%</td><td>VVIP/VIP: 15% · 우수: 5%</td></tr>
-          <tr><td>아웃백</td><td>VIP/Gold: 15% · Silver: 5%</td><td>VVIP/VIP/골드: 15% · 화이트/일반: 5%</td><td className="na">미제공</td></tr>
-          <tr><td>VIPS</td><td>VIP/Gold: 15% · Silver: 5%</td><td>VVIP/VIP: 15% · Gold/일반: 5%</td><td>VVIP/VIP: 15% · 우수: 5%</td></tr>
+          <tr><td>매드포갈릭</td><td>[VIP/Gold] 20% 할인 (최대 2만원) · [Silver] 10% 할인 (최대 1만원)</td><td>[전 등급] 20% 할인</td><td>[VVIP/VIP] 15% 할인 · [우수] 5% 할인</td></tr>
+          <tr><td>아웃백</td><td>[VIP/Gold] 15% 할인 · [Silver] 5% 할인</td><td>[VVIP/VIP/골드] 15% 할인 · [화이트/일반] 5% 할인</td><td className="na">미제공</td></tr>
+          <tr><td>VIPS</td><td>[VIP/Gold] 15% 할인 · [Silver] 5% 할인</td><td>[VVIP/VIP] 15% 할인 · [Gold/일반] 5% 할인</td><td>[VVIP/VIP] 15% 할인 · [우수] 5% 할인</td></tr>
         </tbody>
       </table>
 
@@ -89,8 +89,8 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>도미노</td><td>VIP: 30% · Gold/Silver: 20%</td><td>VVIP/VIP: 20% · Gold/일반: 15%</td><td>VVIP/VIP: 20% (최대 4만원) · 우수: 15% (최대 3만원)</td></tr>
-          <tr><td>피자헛</td><td>VIP: 30% · Gold/Silver: 20%</td><td>전 등급: 15%</td><td>전 등급: 15%</td></tr>
+          <tr><td>도미노</td><td>[VIP] 30% 할인 · [Gold/Silver] 20% 할인</td><td>[VVIP/VIP] 20% 할인 · [Gold/일반] 15% 할인</td><td>[VVIP/VIP] 20% 할인 (최대 4만원) · [우수] 15% 할인 (최대 3만원)</td></tr>
+          <tr><td>피자헛</td><td>[VIP] 30% 할인 · [Gold/Silver] 20% 할인</td><td>[전 등급] 15% 할인</td><td>[전 등급] 15% 할인</td></tr>
         </tbody>
       </table>
 
@@ -105,8 +105,8 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>배스킨라빈스</td><td>VIP: 싱글레귤러 50% · G/S: 30%</td><td className="na">미제공</td><td>쿼터 4,000원 할인</td></tr>
-          <tr><td>스타벅스</td><td className="na">미제공</td><td>전 등급: 음료 사이즈업 월 1회</td><td className="na">미제공</td></tr>
+          <tr><td>배스킨라빈스</td><td>[VIP] 싱글레귤러 50% 할인 · [Gold/Silver] 30% 할인</td><td className="na">미제공</td><td>[전 등급] 쿼터 4,000원 할인</td></tr>
+          <tr><td>스타벅스</td><td className="na">미제공</td><td>[전 등급] 음료 사이즈업 월 1회</td><td className="na">미제공</td></tr>
         </tbody>
       </table>
 
@@ -121,9 +121,9 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>GS25</td><td>전 등급: 매주 화요일 도시락·김밥 등 신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)</td><td>VVIP/VIP/골드: 100원 · 실버/일반: 50원 (일 최대 2만원)</td><td>VVIP/VIP: 100원 · 우수: 50원 (일 최대 2만원, 월 10만원)</td></tr>
-          <tr><td>CU</td><td>VIP/Gold: 100원 · Silver: 50원</td><td>오전5~9시 간편식 200원 (일 1회, 월 2만원 한도)</td><td className="na">미제공</td></tr>
-          <tr><td>세븐일레븐</td><td>VIP/Gold: 100원 · Silver: 50원</td><td className="na">미제공</td><td className="na">미제공</td></tr>
+          <tr><td>GS25</td><td>[전 등급] 매주 화요일 신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)</td><td>[VVIP/VIP/골드] 100원 할인 · [실버/일반] 50원 할인 (일 최대 2만원)</td><td>[VVIP/VIP] 100원 할인 · [우수] 50원 할인 (일 최대 2만원, 월 10만원)</td></tr>
+          <tr><td>CU</td><td>[VIP/Gold] 100원 할인 · [Silver] 50원 할인</td><td>[전 등급] 오전5~9시 간편식 200원 할인 (일1회, 월 2만원 한도)</td><td className="na">미제공</td></tr>
+          <tr><td>세븐일레븐</td><td>[VIP/Gold] 100원 할인 · [Silver] 50원 할인</td><td className="na">미제공</td><td className="na">미제공</td></tr>
         </tbody>
       </table>
     </div>
