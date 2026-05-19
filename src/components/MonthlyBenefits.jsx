@@ -14,21 +14,39 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day — 3주차 (5.20 수)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>0 week (5.4~5.8) <span style={{ fontSize: '10px', color: 'var(--neg)', fontWeight: 700 }}>종료</span></div>
               <ul className="mblist">
-                <li>던킨 30% 할인 (VIP 50%, 최대 8,000원)</li>
-                <li>배스킨라빈스 파인트 40% 할인 (9,800원 → 5,880원)</li>
-                <li>피자헛 방문포장 50% 할인 (최대 22,500원)</li>
-                <li>톤28 최대 35,000원 할인 (5.20~5.26)</li>
-                <li>CGV 8,500원 예매 + 매점 쿠폰 2종</li>
+                <li>파리바게뜨 1,000원당 200원/P 할인/적립</li>
+                <li>노브랜드버거 시그니처 세트 구매 시 시그니처 콤보 증정</li>
+                <li>백미당 아이스크림 1+1</li>
+                <li>하프클럽 장바구니 20% + 온리하프 카테고리 35% 할인</li>
+                <li>CGV 8,500원 예매 + 매점 할인 쿠폰 2종</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#ff6600' }}></span>5월 이벤트</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (5.13) <span style={{ fontSize: '10px', color: 'var(--neg)', fontWeight: 700 }}>종료</span></div>
               <ul className="mblist">
-                <li>루덴시아 신규 제휴 (주중 50%, 주말 35%)</li>
-                <li>투루카 카셰어링 65% (5.4~5.31)</li>
-                <li>고향사랑기부제 위기브 (5.6~6.30)</li>
+                <li>버거킹 와퍼 단품 40% 할인 (VIP 55%)</li>
+                <li>뚜레쥬르 1,000원당 300원/P 할인/적립</li>
+                <li>공차 인기 음료 6종(L) 50% 할인/적립</li>
+                <li>이니스프리 5,000원 추가 할인 + 뷰티포인트 2,000P</li>
+                <li>CGV 8,500원 예매 + 매점 할인 쿠폰 2종</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day 2주차 (5.20) <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>D-1</span></div>
+              <ul className="mblist">
+                <li>던킨 30% 할인/적립 (VIP 50%, 최대 8,000원)</li>
+                <li>배스킨라빈스 파인트 40% 할인/적립 (9,800원 → 5,880원)</li>
+                <li>피자헛 방문포장 50% 할인/적립 (최대 22,500원)</li>
+                <li>톤28 최대 35,000원 할인 (5.20~5.26)</li>
+                <li>CGV 8,500원 예매 + 매점 할인 쿠폰 2종 (5.20~5.24)</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#ddd' }}></span>T day 3주차 (5.27) <span style={{ fontSize: '10px', color: 'var(--tx3)', fontWeight: 700 }}>D-8</span></div>
+              <ul className="mblist">
+                <li style={{ color: 'var(--tx3)' }}>미공개 — 5월 27일 공개 예정</li>
               </ul>
             </div>
           </div>
@@ -40,33 +58,29 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--kt)' }}></span>달달초이스 (택1) — 5.15~말일</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--kt)' }}></span>달달혜택 — 외식/쇼핑 (5.15~31)</div>
               <ul className="mblist">
-                <li>던킨 40% 할인 (최대 5천원, 5/15~5/21)</li>
-                <li>팀홀튼 아메리카노(M) 1잔 무료</li>
-                <li>파리바게뜨 4천원 할인 (1만원↑)</li>
-                <li>메가MGC커피 1천원 할인 (2장)</li>
-                <li>배민×굽네치킨 최대 9천원 / 도미노 포장 50%</li>
-                <li>롯데시네마 6천원 예매권</li>
-                <li>국민학교 떡볶이 할인 <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></li>
-              </ul>
-            </div>
-            <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#ff4444' }}></span>달달스페셜 — 패밀리컬렉션 (5.15~)</div>
-              <ul className="mblist">
-                <li>빕스 40% (15~21일) / 더플레이스 40% (15~25일)</li>
-                <li>쉐이크쉑 1+1 / 에버랜드·롯데월드·이월드 가족 할인</li>
                 <li>할리스·폴바셋 50% 할인</li>
-                <li>뮤지컬 빌리엘리어트 55% / 마리 로랑생 회고전 50%</li>
-                <li>롯데마트 제타 50% / 스타벅스 무료음료</li>
+                <li>쉐이크쉑·도미노피자·파리바게뜨 할인</li>
+                <li>롯데마트 제타 최대 50% 할인</li>
+                <li>컬리·GS SHOP·크록스·롯데렌터카 할인</li>
+                <li>국민학교 떡볶이 달달초이스 신규 참여 <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#bb0000' }}></span>고객보답 2차 · 달달찬스</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#ff4444' }}></span>달달혜택 — 문화/여가 (5.15~31)</div>
               <ul className="mblist">
-                <li>고객보답 2차 (5.18~31): 투썸플레이스 50% 또는 배민×노랑통닭 8,000원 <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></li>
-                <li>달달찬스: 블루보틀 커피 당첨 이벤트 (5.4~5.31)</li>
-                <li>Y혜택: 스타벅스 사이즈업 쿠폰</li>
+                <li>뮤지컬 빌리 엘리어트 최대 55% 할인</li>
+                <li>마리 로랑생 회고전 전 등급 50% 할인</li>
+                <li>아쿠아필드·원더파크 이용권 할인</li>
+                <li>마이리얼트립 여행 혜택 / 신라면세점 할인</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#bb0000' }}></span>고객보답 2차 (5.18~31)</div>
+              <ul className="mblist">
+                <li>투썸플레이스 전 메뉴 50% 할인 (최대 5,000원) <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></li>
+                <li>또는 배달의민족 × 노랑통닭 8,000원 할인 (16,000원↑)</li>
               </ul>
             </div>
           </div>
