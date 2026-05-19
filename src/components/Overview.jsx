@@ -10,10 +10,15 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">VIP Pick T우주패스 혜택 변경 예고</div>
+            <div className="ov">VIP Pick 구조 개편 예고</div>
             <div className="od">
-              <span>9,900원 쿠폰 폐지</span>
-              <span>4,900원+5,000원 2종으로 분리</span>
+              <span>T우주패스 8월 1일 쿠폰 분리 적용</span>
+              <span>커뮤니티 부정 반응 감지 중</span>
+            </div>
+            <div className="octabs">
+              <a href="#hs" className="octab">변경이력</a>
+              <a href="#vp" className="octab">VIP혜택</a>
+              <a href="#sn" className="octab octab-warn">⚠ 고객반응</a>
             </div>
           </div>
           <div className="ovchanges">
@@ -35,10 +40,13 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">5월 달달혜택 + 고객보답 2차</div>
+            <div className="ov">5월 달달혜택 밀도 최상</div>
             <div className="od">
-              <span>달달초이스 국민학교떡볶이 신규 (5.15~31)</span>
-              <span>고객보답 2차: 투썸 50% / 배민×노랑통닭 8천원</span>
+              <span>신규 브랜드 + 고객보답 2차 동시 운영</span>
+              <span>이달 3사 중 혜택 구성 가장 풍부</span>
+            </div>
+            <div className="octabs">
+              <a href="#mo" className="octab">월별혜택</a>
             </div>
           </div>
           <div className="ovchanges">
@@ -56,11 +64,14 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cl">
             <div className="ol"><span className="cb bl">LGU+</span></div>
-            <div className="ov">6월 신규 제휴사 &amp; 혜택 변동</div>
+            <div className="ov">6월 제휴 변동 선제 공개</div>
             <div className="od">
-              <span>26년 6월 신규 제휴사 안내 (5.11 공지)</span>
-              <span>굿웨어몰 10% 할인 종료 예정 (6.30)</span>
-              <span>밀크T 네이버페이 한도 3만→2만원 (5.1~)</span>
+              <span>신규 제휴 + 굿웨어몰 종료 예정</span>
+              <span>상시 혜택 6월 업데이트 예정</span>
+            </div>
+            <div className="octabs">
+              <a href="#hs" className="octab">변경이력</a>
+              <a href="#rg" className="octab">상시혜택</a>
             </div>
           </div>
           <div className="ovchanges">
