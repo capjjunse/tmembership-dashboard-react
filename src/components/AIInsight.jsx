@@ -32,8 +32,8 @@ const compRows = [
   {
     brand: '파리바게뜨',
     skt: { b: '200원/P 적립', d: '5.4~5.8 · 0 week' },
-    kt: { b: '달달혜택 할인 (금액 미확인)', d: '5.15~31 · 달달혜택' },
-    lgu: { b: '전 등급 혜택 (율 미확인)', d: '5.19 · 스페셜데이' },
+    kt: { b: '달달혜택 할인', d: '5.15~31 · 달달혜택' },
+    lgu: { b: '최대 6천원 할인 (선착순, 2만원↑)', d: '5.19 · 스페셜데이' },
     v: 'neut', note: '기간 분산 · 성격 다름',
   },
   {
@@ -47,7 +47,7 @@ const compRows = [
     brand: '하프클럽',
     skt: { b: '장바구니 20%+온리하프 35%', d: '5.4~5.8 · 0 week' },
     kt: null,
-    lgu: { b: '전 등급 혜택 (율 미확인)', d: '5.19 · 스페셜데이' },
+    lgu: { b: '30%+온리하프 35% (선착순, 4만원↑)', d: '5.19 · 스페셜데이' },
     v: 'neut', note: '기간 분산 · 직접 경쟁 없음',
   },
 ];
@@ -178,9 +178,8 @@ export default function AIInsight() {
                         ? <div className="comp-cell"><div className="comp-benefit cb-lgu">{r.lgu.b}</div><div className="comp-date">{r.lgu.d}</div></div>
                         : <span className="comp-none">—</span>}
                     </td>
-                    <td className={`comp-vd-td cvd-${r.v}`}>
-                      <div className="cvd-icon">{verdictIcon[r.v]}</div>
-                      <div className="cvd-label">{verdictLabel[r.v]}</div>
+                    <td className="comp-td comp-vd-td">
+                      <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
                       <div className="cvd-note">{r.note}</div>
                     </td>
                   </tr>
