@@ -228,20 +228,22 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 
 /* ── 3사 경쟁 매트릭스 ── */
 .comp-wrap{overflow-x:auto;border-radius:var(--r);border:1px solid var(--bd)}
-.comp-table{width:100%;border-collapse:collapse}
+.comp-table{width:100%;border-collapse:collapse;table-layout:fixed}
 .comp-th{font-size:11px;font-weight:800;padding:9px 13px;border-bottom:2px solid var(--bd);text-align:left;white-space:nowrap}
-.comp-th-brand{background:var(--bg3);color:var(--tx2)}
-.comp-th-skt{background:var(--skt-bg);color:var(--skt-t);border-bottom-color:var(--skt)}
-.comp-th-kt{background:var(--kt-bg);color:var(--kt-t);border-bottom-color:var(--kt)}
-.comp-th-lgu{background:var(--lgu-bg);color:var(--lgu-t);border-bottom-color:var(--lgu)}
-.comp-th-vd{background:var(--bg4);color:var(--p)}
+.comp-th-brand{background:var(--bg3);color:var(--tx2);width:80px}
+.comp-th-skt{background:var(--skt-bg);color:var(--skt-t);border-bottom-color:var(--skt);width:calc((100% - 80px - 110px) / 3)}
+.comp-th-kt{background:var(--kt-bg);color:var(--kt-t);border-bottom-color:var(--kt);width:calc((100% - 80px - 110px) / 3)}
+.comp-th-lgu{background:var(--lgu-bg);color:var(--lgu-t);border-bottom-color:var(--lgu);width:calc((100% - 80px - 110px) / 3)}
+.comp-th-vd{background:var(--bg4);color:var(--p);width:110px}
 /* rows */
 .comp-tr:not(:last-child) td{border-bottom:1px solid var(--bd)}
 .comp-tr:hover td{background:var(--bg2)}
 .comp-td{padding:10px 13px;vertical-align:top;font-size:11.5px}
 .comp-brand{font-weight:800;color:var(--tx);white-space:nowrap;font-size:13px}
-.comp-cell{display:flex;flex-direction:column;gap:4px}
-.comp-benefit{font-weight:700;font-size:12px}
+.comp-cell{display:flex;flex-direction:column;gap:5px}
+.comp-line{display:flex;align-items:baseline;gap:4px;flex-wrap:wrap}
+.comp-grade{font-size:10px;font-weight:800;color:var(--tx3);white-space:nowrap;flex-shrink:0}
+.comp-benefit{font-weight:700;font-size:12px;line-height:1.4}
 .cb-skt{color:var(--skt)}.cb-kt{color:var(--kt)}.cb-lgu{color:var(--lgu)}
 .comp-date{font-size:10px;color:var(--tx3);background:var(--bg3);padding:1px 6px;border-radius:10px;display:inline-block}
 .comp-none{color:var(--tx3);font-size:11px}
@@ -255,9 +257,6 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .cvb-miss{background:var(--neg-bg);color:var(--neg)}
 .cvd-note{font-size:10px;color:var(--tx3);line-height:1.5}
 .comp-footer{font-size:10px;color:var(--tx3);padding:7px 12px;background:var(--bg2);border-top:1px solid var(--bd)}
-.sktonly-list{display:flex;flex-wrap:wrap;gap:7px}
-.sktonly-item{font-size:11.5px;font-weight:700;padding:4px 12px;border-radius:20px;background:var(--skt-bg);color:var(--skt-t);border:1px solid var(--skt-bd);display:flex;align-items:center;gap:5px}
-.sktonly-dot{width:5px;height:5px;border-radius:50%;background:var(--skt);flex-shrink:0}
 
 /* ── 비통신 알람 ── */
 .alert-card{border-radius:var(--r);border:1px solid var(--bd);padding:13px 15px;margin-bottom:10px;border-left:4px solid transparent;background:var(--bg)}

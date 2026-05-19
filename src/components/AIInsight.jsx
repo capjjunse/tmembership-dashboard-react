@@ -3,61 +3,59 @@ import { useState } from 'react';
 const compRows = [
   {
     brand: '공차',
-    skt: { b: '50% 할인', d: '5.13 · T day 1주차' },
+    skt: { lines: [{ grade: '전 등급', b: '50% 할인' }], date: '5.13 · T day 1주차' },
     kt: null,
-    lgu: { b: '50% 할인 (선착순)', d: '5.12 · 투쁠데이' },
+    lgu: { lines: [{ grade: '선착순', b: '50% 할인' }], date: '5.12 · 투쁠데이' },
     v: 'warn', note: 'LGU+ 하루 먼저 · 동일 혜택',
   },
   {
     brand: '피자헛',
-    skt: { b: '방문포장 50%', d: '5.20 · T day 2주차' },
+    skt: { lines: [{ grade: '전 등급', b: '방문포장 50% 할인' }], date: '5.20 · T day 2주차' },
     kt: null,
-    lgu: { b: '55% 할인 (선착순)', d: '5.14 · 투쁠데이' },
+    lgu: { lines: [{ grade: '선착순', b: '55% 할인' }], date: '5.14 · 투쁠데이' },
     v: 'warn', note: 'LGU+ 1주 먼저 + 5%p 높음',
   },
   {
     brand: '배스킨라빈스',
-    skt: { b: '파인트 40%', d: '5.20 · T day 2주차' },
+    skt: { lines: [{ grade: '전 등급', b: '파인트 40% 할인' }], date: '5.20 · T day 2주차' },
     kt: null,
-    lgu: { b: '선착순 + 전 등급 할인', d: '5.20 · 투쁠데이+스페셜데이' },
+    lgu: {
+      lines: [
+        { grade: '선착순', b: '패밀리 사이즈 최대 9천원 할인' },
+        { grade: '전 등급', b: '스페셜데이 할인' },
+      ],
+      date: '5.20 · 투쁠+스페셜데이',
+    },
     v: 'neut', note: '같은 날 동시 운영',
   },
   {
     brand: 'CGV',
-    skt: { b: '8,500원 예매+매점 쿠폰', d: '0week · 1주차 · 2주차 (3회)' },
+    skt: { lines: [{ grade: '전 등급', b: '8,500원 예매+매점 쿠폰' }], date: '0week · 1주차 · 2주차 (3회)' },
     kt: null,
-    lgu: { b: '8,500원 예매 (선착순+전등급)', d: '5.20 · 투쁠데이+스페셜데이 (1회)' },
+    lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트 (팝콘M+음료M) 무료' }], date: '5.20 · 투쁠데이 (1회)' },
     v: 'good', note: 'SKT 3회 운영 vs LGU+ 1회',
   },
   {
     brand: '파리바게뜨',
-    skt: { b: '200원/P 적립', d: '5.4~5.8 · 0 week' },
-    kt: { b: '달달혜택 할인', d: '5.15~31 · 달달혜택' },
-    lgu: { b: '최대 6천원 할인 (선착순, 2만원↑)', d: '5.19 · 스페셜데이' },
+    skt: { lines: [{ grade: '전 등급', b: '200원/P 적립' }], date: '5.4~5.8 · 0 week' },
+    kt: { lines: [{ grade: '달달혜택', b: '할인' }], date: '5.15~31 · 달달혜택' },
+    lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원↑)' }], date: '5.19 · 스페셜데이' },
     v: 'neut', note: '기간 분산 · 성격 다름',
   },
   {
     brand: '컬리',
     skt: null,
-    kt: { b: '달달혜택 할인', d: '5.15~31 · 달달혜택' },
-    lgu: { b: '전 등급 혜택', d: '5.19 · 스페셜데이' },
+    kt: { lines: [{ grade: '달달혜택', b: '할인' }], date: '5.15~31 · 달달혜택' },
+    lgu: { lines: [{ grade: '전 등급', b: '할인' }], date: '5.19 · 스페셜데이' },
     v: 'miss', note: 'SKT 미운영',
   },
   {
     brand: '하프클럽',
-    skt: { b: '장바구니 20%+온리하프 35%', d: '5.4~5.8 · 0 week' },
+    skt: { lines: [{ grade: '전 등급', b: '장바구니 20%+온리하프 35%' }], date: '5.4~5.8 · 0 week' },
     kt: null,
-    lgu: { b: '30%+온리하프 35% (선착순, 4만원↑)', d: '5.19 · 스페셜데이' },
+    lgu: { lines: [{ grade: '선착순', b: '30%+온리하프 35% (4만원↑)' }], date: '5.19 · 스페셜데이' },
     v: 'neut', note: '기간 분산 · 직접 경쟁 없음',
   },
-];
-
-const sktOnly = [
-  '버거킹 — 와퍼 40% / VIP 55%',
-  '이니스프리 — 5,000원 + 뷰포 2,000P',
-  '던킨 — 30% / VIP 50%',
-  '톤28 — 최대 35,000원',
-  '노브랜드버거 · 백미당',
 ];
 
 const alerts = [
@@ -125,8 +123,23 @@ const recs = [
   },
 ];
 
-const verdictIcon  = { warn: '⚠', good: '✅', neut: '〜', miss: '✕' };
+const verdictIcon  = { warn: '⚠', good: '✅', neut: '↔', miss: '✕' };
 const verdictLabel = { warn: 'SKT 열위', good: 'SKT 우위', neut: '동급 경쟁', miss: 'SKT 없음' };
+
+function renderCarrier(data, colorClass) {
+  if (!data) return <span className="comp-none">—</span>;
+  return (
+    <div className="comp-cell">
+      {data.lines.map((line, i) => (
+        <div key={i} className="comp-line">
+          <span className="comp-grade">[{line.grade}]</span>
+          <span className={`comp-benefit ${colorClass}`}>{line.b}</span>
+        </div>
+      ))}
+      <div className="comp-date">{data.date}</div>
+    </div>
+  );
+}
 
 export default function AIInsight() {
   const [tab, setTab] = useState('comp');
@@ -161,23 +174,15 @@ export default function AIInsight() {
               </thead>
               <tbody>
                 {compRows.map((r) => (
-                  <tr key={r.brand} className={`comp-tr vr-${r.v}`}>
+                  <tr key={r.brand} className="comp-tr">
                     <td className="comp-td comp-brand">{r.brand}</td>
-                    <td className="comp-td">
-                      {r.skt
-                        ? <div className="comp-cell"><div className="comp-benefit cb-skt">{r.skt.b}</div><div className="comp-date">{r.skt.d}</div></div>
-                        : <span className="comp-none">—</span>}
-                    </td>
+                    <td className="comp-td">{renderCarrier(r.skt, 'cb-skt')}</td>
                     <td className="comp-td">
                       {r.kt
-                        ? <div className="comp-cell"><div className="comp-benefit cb-kt">{r.kt.b}</div><div className="comp-date">{r.kt.d}</div></div>
+                        ? renderCarrier(r.kt, 'cb-kt')
                         : <span className="comp-none comp-unk">미확인 *</span>}
                     </td>
-                    <td className="comp-td">
-                      {r.lgu
-                        ? <div className="comp-cell"><div className="comp-benefit cb-lgu">{r.lgu.b}</div><div className="comp-date">{r.lgu.d}</div></div>
-                        : <span className="comp-none">—</span>}
-                    </td>
+                    <td className="comp-td">{renderCarrier(r.lgu, 'cb-lgu')}</td>
                     <td className="comp-td comp-vd-td">
                       <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
                       <div className="cvd-note">{r.note}</div>
@@ -187,14 +192,6 @@ export default function AIInsight() {
               </tbody>
             </table>
             <div className="comp-footer">* KT 공식 사이트 접근 차단 — 달달초이스 상세 미확인</div>
-          </div>
-          <div className="ai-sub" style={{ marginTop: '16px' }}>SKT 단독 운영 — 경쟁 없음 <span className="ai-sub-badge">강점 유지</span></div>
-          <div className="sktonly-list">
-            {sktOnly.map((s) => (
-              <div key={s} className="sktonly-item">
-                <span className="sktonly-dot"></span>{s}
-              </div>
-            ))}
           </div>
         </div>
       )}
