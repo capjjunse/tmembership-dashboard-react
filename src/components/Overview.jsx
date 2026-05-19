@@ -52,6 +52,10 @@ export default function Overview() {
           <div className="ovchanges">
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
+              <div className="tt">CGV 상시 이용횟수 월3회→일1회 확대{' '}<span className="ovb ovb-chg">5월 1일 적용</span></div>
+            </div>
+            <div className="ti">
+              <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">달달혜택 패밀리컬렉션 (5.15~) / 달달초이스 국민학교떡볶이 신규{' '}<span className="ovb ovb-new">5월 15일 신규</span></div>
             </div>
             <div className="ti">
