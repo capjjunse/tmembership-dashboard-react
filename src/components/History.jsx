@@ -86,20 +86,6 @@ export default function History() {
             <td>밀크T 네이버페이 월 할인한도 3만원→2만원 (2026.05.01 적용)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
-          <tr>
-            <td>2026.02.01</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T멤버십 상시</td>
-            <td>롯데시네마 상시 제휴 종료 → CGV·메가박스 2관 체제 전환</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.01.01</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+멤버십 상시</td>
-            <td>메가박스 상시 제휴 종료 → CGV 단관 체제 전환</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
         </tbody>
       </table>
     </div>

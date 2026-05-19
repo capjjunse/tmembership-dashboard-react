@@ -48,11 +48,6 @@ export default function News() {
             <div className="nmeta">2026-05-15 · <a href="https://www.mt.co.kr/stock/2026/05/15/2026051508142888359" target="_blank" rel="noreferrer">머니투데이</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 5월 달달혜택 패밀리컬렉션 — 빕스·롯데월드·서울랜드 가족 혜택</span></div>
-            <div className="nsum">가정의달 테마로 패밀리컬렉션 구성. 빕스 40%, 더플레이스 40%, 쉐이크쉑 1+1 등 5.15부터 이용 가능. 달달찬스 블루보틀 이벤트.</div>
-            <div className="nmeta">2026-05-01 · <a href="https://membership.kt.com" target="_blank" rel="noreferrer">KT멤버십</a></div>
-          </div>
-          <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">통신사 멤버십 '더 내고 덜 받는' 구조 — VIP 등급 기준 상향 논란</span></div>
             <div className="nsum">3사 모두 VVIP 등급 기준을 연 200만원으로 높이면서 실질 혜택은 축소. KT VVIP 취득에 연 200만원 이상 납부 조건, 고객 부담 증가 우려.</div>
             <div className="nmeta">2025-01-14 · <a href="https://zdnet.co.kr/view/?no=20250113135558" target="_blank" rel="noreferrer">ZDNet Korea</a></div>
@@ -67,16 +62,6 @@ export default function News() {
 
       {tab === 'lgu' && (
         <div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LGU+ 5월 유플투쁠 — 공차·CGV·배스킨·장기고객데이 CGV·윌라</span></div>
-            <div className="nsum">5월 일별 선착순 혜택 50종+ 공개. 5.12 공차 50%, 5.14 피자헛 55%, 5.28 장기고객데이 CGV·NOL티켓·윌라 1개월 무료.</div>
-            <div className="nmeta">2026-05-01 · <a href="https://www.lguplus.com/benefit-plus" target="_blank" rel="noreferrer">LGU+ 유플투쁠</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LGU+, 26년 6월 신규 제휴사 + 일부 제휴사 혜택 종료 예정 (05.11 공지)</span></div>
-            <div className="nsum">LGU+가 6월 신규 제휴사 안내 및 일부 혜택 종료 예정 공지. 3사 중 가장 빠른 다음달 제휴사 선제 공개.</div>
-            <div className="nmeta">2026-05-11 · <a href="https://www.lguplus.com/support/service/notice" target="_blank" rel="noreferrer">LGU+ 공지</a></div>
-          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LGU+, 가정의달 5월 야외활동 중심 멤버십 혜택 강화 — 테마파크·외식·문화</span></div>
             <div className="nsum">서울랜드·롯데월드·레고랜드 추첨 응모, 피자헛 55%·청기와타운 육회 무료 등 외식 혜택, LG아트센터·CGV PEAKERS 클라이밍 등 문화 혜택 병행.</div>
