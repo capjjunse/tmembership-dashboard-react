@@ -234,7 +234,7 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .comp-th-skt{background:var(--skt-bg);color:var(--skt-t);border-bottom-color:var(--skt);width:calc((100% - 80px - 110px) / 3)}
 .comp-th-kt{background:var(--kt-bg);color:var(--kt-t);border-bottom-color:var(--kt);width:calc((100% - 80px - 110px) / 3)}
 .comp-th-lgu{background:var(--lgu-bg);color:var(--lgu-t);border-bottom-color:var(--lgu);width:calc((100% - 80px - 110px) / 3)}
-.comp-th-vd{background:var(--bg4);color:var(--p);width:110px}
+.comp-th-vd{background:var(--bg4);color:var(--p);width:140px}
 /* rows */
 .comp-tr:not(:last-child) td{border-bottom:1px solid var(--bd)}
 .comp-tr:hover td{background:var(--bg2)}
@@ -249,13 +249,13 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .comp-none{color:var(--tx3);font-size:11px}
 .comp-unk{font-style:italic}
 /* verdict cell */
-.comp-vd-td{min-width:110px;vertical-align:top}
-.comp-vd-badge{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:800;padding:3px 9px;border-radius:20px;margin-bottom:5px;white-space:nowrap}
-.cvb-warn{background:var(--warn-bg);color:var(--warn)}
-.cvb-good{background:var(--pos-bg);color:var(--pos)}
-.cvb-neut{background:var(--neu-bg);color:var(--neu)}
-.cvb-miss{background:var(--neg-bg);color:var(--neg)}
-.cvd-note{font-size:10px;color:var(--tx3);line-height:1.5}
+.comp-vd-td{min-width:140px;vertical-align:middle;text-align:center;padding:10px 11px}
+.comp-vd-badge{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:800;padding:4px 10px;border-radius:20px;margin-bottom:6px;white-space:nowrap}
+.cvb-warn{background:#fff0d0;color:#b45309;border:1px solid #f5c060}
+.cvb-good{background:#d1fae5;color:#065f46;border:1px solid #6ee7b7}
+.cvb-neut{background:#e0e7ff;color:#3730a3;border:1px solid #a5b4fc}
+.cvb-miss{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
+.cvd-note{font-size:10px;color:var(--tx3);line-height:1.5;margin-top:2px}
 .comp-footer{font-size:10px;color:var(--tx3);padding:7px 12px;background:var(--bg2);border-top:1px solid var(--bd)}
 
 /* ── 비통신 알람 ── */

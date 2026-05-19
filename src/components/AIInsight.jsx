@@ -20,10 +20,7 @@ const compRows = [
     skt: { lines: [{ grade: '전 등급', b: '파인트 40% 할인' }], date: '5.20 · T day 2주차' },
     kt: null,
     lgu: {
-      lines: [
-        { grade: '선착순', b: '패밀리 사이즈 최대 9천원 할인' },
-        { grade: '전 등급', b: '패밀리 사이즈 최대 9천원 할인' },
-      ],
+      lines: [{ grade: '전 등급', b: '패밀리 사이즈 최대 9천원 할인' }],
       date: '5.20 · 투쁠데이+스페셜데이',
     },
     v: 'neut', note: '같은 날 동시 운영',
