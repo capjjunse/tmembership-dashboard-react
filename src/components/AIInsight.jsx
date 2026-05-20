@@ -52,56 +52,41 @@ const compRows = [
   },
 ];
 
-const alerts = [
+const alCats = [
   {
-    level: 'warn',
-    platform: '네이버플러스',
-    title: '주유 — GS칼텍스 L당 100원 상시 적립, T멤버십 제휴 없음',
-    them: '전국 GS칼텍스 L당 Npay 100원 적립 · 월 최대 5,000P 상시 (2026.04 신규)',
-    us: 'T멤버십 주유 제휴 없음',
-    verdict: '주유 카테고리 공백 — 운전 고객층 혜택 채널 선점 필요',
+    icon: '⛽', cat: '주유', v: 'warn',
+    nb: ['네이버플러스 GS칼텍스 L당 100원 Npay 적립', '월 최대 5,000P · 전국 상시 (2026.04 신규)'],
+    tm: null,
   },
   {
-    level: 'warn',
-    platform: '네이버플러스',
-    title: '편의점 — CU 5%할인+5%적립 상시 · S등급 기준 T멤버십 열위',
-    them: 'CU 5% 즉시할인 + 5% Npay 적립 상시 (일 1회, 각 5천원 한도) ~26.12.31',
-    us: 'T멤버십 CU: VIP·G 10% / S등급 5% — S(일반) 기준 네이버플러스 대비 열위. GS25는 양측 모두 미운영',
-    verdict: 'S등급 고객 편의점 혜택 격차 존재 — 상시 구조 보완 검토',
+    icon: '🏪', cat: '편의점', v: 'neut',
+    nb: ['네이버플러스 CU 5% 즉시할인 + 5% Npay 적립', '(일 1회, 각 5천원 한도) ~26.12.31'],
+    tm: ['CU VIP·G 10% / S 5% 상시', '세븐일레븐 VIP·G 10% / S 5% 상시'],
   },
   {
-    level: 'warn',
-    platform: '네이버플러스',
-    title: '영화관 — 롯데시네마 5천원+콤보 3천원 상시 · T멤버십 공백',
-    them: '롯데시네마 영화 최대 5천원 할인 + 콤보 3천원 할인 · 월 4회 상시 ~26.12.31',
-    us: 'T멤버십 2026.02 롯데시네마 종료. CGV·메가박스만 운영 (CGV: VIP 무료·1+1, 일반 4천원 할인)',
-    verdict: '롯데시네마 이용층 이탈 채널로 네이버플러스 활용 중 — CGV 집중이 대응 전략',
+    icon: '🎬', cat: '영화관', v: 'neut',
+    nb: ['네이버플러스 롯데시네마 최대 5천원 + 콤보 3천원 · 월 4회 ~26.12.31'],
+    tm: ['CGV VIP: 무료 연3회 · 1+1 연9회 · 특별관 12회', 'CGV 전 등급: 4천원 할인 상시', '롯데시네마: 2026.02 종료 (채널 분리)'],
   },
   {
-    level: 'ok',
-    platform: '네이버플러스',
-    title: '카셰어링 — 쏘카 50% vs T멤버십 SK렌터카 제주 85%',
-    them: '쏘카 50% 할인 (네이버예약 경유 시) ~26.06.30',
-    us: 'T멤버십 SK렌터카: 제주 최대 85% / 내륙 최대 60% 상시 전 등급 — 규모 차이로 차별화 유효',
-    verdict: '카셰어링은 T멤버십 우위 — 현행 유지',
+    icon: '🛵', cat: '배달', v: 'warn',
+    nb: ['네이버플러스 요기패스X 15,000원 이상 무료배달', '포장 5% 할인 · 상시'],
+    tm: null,
   },
   {
-    level: 'ok',
-    platform: '토스뱅크',
-    title: '버거킹 · 투썸 · 메가커피 — 토스 10% vs T-day 40~55%',
-    them: '월 3개 브랜드 선택 10% 캐시백 (버거킹 · 투썸 · 메가커피 포함)',
-    us: 'T멤버십 T-day 버거킹 와퍼 40% / VIP 55% · 메가커피 상시 V 20% / G·S 10% — 규모 차이로 차별화 유효',
-    verdict: '큰 폭 단발 할인 + 상시 적립은 여전히 T멤버십 강점 — 현행 유지',
+    icon: '🚗', cat: '카셰어링', v: 'good',
+    nb: ['네이버플러스 쏘카 50% (네이버예약 경유) ~26.06.30'],
+    tm: ['SK렌터카 제주 최대 85% / 내륙 최대 60%', '전 등급 · 상시'],
   },
   {
-    level: 'warn',
-    platform: '네이버플러스',
-    title: '배달 — 요기요 배달비 무료 상시, T멤버십 상시 혜택 없음',
-    them: '요기패스X 가맹점 15,000원 이상 무료배달 · 포장할인 5% 상시',
-    us: 'T멤버십 배달 상시 제휴 없음 — T day 일시 운영에 그침',
-    verdict: '배달 카테고리 상시 혜택 공백 지속 — 추가 검토 요',
+    icon: '🍽', cat: '외식·카페', v: 'good',
+    nb: ['[토스뱅크] 버거킹·투썸·메가커피 등 월 3브랜드 선택 10%', '네이버플러스 외식 상시 제휴 없음'],
+    tm: ['T-day (월간): 버거킹 40%~55% · 공차 50% · 피자헛 50% 등', '상시: 아웃백·VIPS VIP·G 15% / 도미노·피자헛 VIP 30%', '상시: 메가커피 VIP 20% · G·S 10% / 공차·폴바셋 전 등급 10%'],
   },
 ];
+
+const alVdIcon  = { warn: '⚠', good: '✅', neut: '↔' };
+const alVdLabel = { warn: '비통신 앞섬', good: 'T멤버십 우위', neut: '유사 수준' };
 
 const recs = [
   {
@@ -200,28 +185,32 @@ export default function AIInsight() {
         </div>
       </div>
 
-      {/* 섹션 2 — 비통신 알람 */}
+      {/* 섹션 2 — 비통신 비교 */}
       <div className="ai-sec">
         <div className="ai-sec-hdr">
-          <span className="ai-sec-title">비통신 알람</span>
-          <span className="ai-sec-desc">월간·상시·특화 혜택 전범위 비교 · T멤버십 경쟁 열위 영역</span>
+          <span className="ai-sec-title">비통신 비교</span>
+          <span className="ai-sec-desc">월간·상시·특화 전범위 · 카테고리별 T멤버십 vs 비통신</span>
         </div>
-        {alerts.map((a, i) => (
-          <div key={i} className={`alert-card ac-${a.level}`}>
-            <div className="alert-top">
-              <span className={`alert-platform-badge apb-${a.level}`}>{a.platform}</span>
-              {a.level === 'warn' && <span className="alert-lvl-badge alb-warn">⚠ 주의</span>}
-              {a.level === 'ok' && <span className="alert-lvl-badge alb-ok">✅ 강점</span>}
-              {a.level === 'watch' && <span className="alert-lvl-badge alb-watch">👀 모니터링</span>}
+        {alCats.map((c) => (
+          <div key={c.cat} className={`alc alc-${c.v}`}>
+            <div className="alc-hdr">
+              <span className="alc-icon">{c.icon}</span>
+              <span className="alc-cat">{c.cat}</span>
+              <span className={`alc-vd alc-vd-${c.v}`}>{alVdIcon[c.v]} {alVdLabel[c.v]}</span>
             </div>
-            <div className="alert-title">{a.title}</div>
-            <div className="alert-rows">
-              <div className="alert-row"><span className="alert-lbl">비통신</span><span className="alert-val">{a.them}</span></div>
-              <div className="alert-row"><span className="alert-lbl">통신사</span><span className="alert-val">{a.us}</span></div>
+            <div className="alc-body">
+              <div className="alc-col">
+                <div className="alc-col-hdr alc-nb-hdr">비통신</div>
+                {c.nb ? c.nb.map((it, i) => <div key={i} className="alc-item">{it}</div>) : <span className="alc-none">—</span>}
+              </div>
+              <div className="alc-col">
+                <div className="alc-col-hdr alc-tm-hdr">T멤버십</div>
+                {c.tm ? c.tm.map((it, i) => <div key={i} className="alc-item">{it}</div>) : <span className="alc-none">—</span>}
+              </div>
             </div>
-            <div className={`alert-verdict av-${a.level}`}>{a.verdict}</div>
           </div>
         ))}
+        <div className="alc-footer">출처: 네이버플러스 멤버십 공식(nid.naver.com/membership/join) · T멤버십 공식(sktmembership.tworld.co.kr) 직접 확인</div>
       </div>
 
       {/* 섹션 3 — 신규 제휴 추천 */}

@@ -275,6 +275,20 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .alert-verdict{font-size:11.5px;font-weight:700;padding-top:8px;border-top:1px solid var(--bd)}
 .av-warn{color:var(--warn)}.av-ok{color:var(--pos)}.av-watch{color:#92400e}
 
+/* ── 비통신 비교 카드 ── */
+.alc{border:1px solid var(--bd);border-radius:var(--r);margin-bottom:8px;overflow:hidden;border-left:3px solid transparent;background:var(--bg)}
+.alc-warn{border-left-color:var(--warn)}.alc-good{border-left-color:var(--pos)}.alc-neut{border-left-color:var(--bd2)}
+.alc-hdr{display:flex;align-items:center;gap:7px;padding:8px 12px;background:var(--bg2);border-bottom:1px solid var(--bd)}
+.alc-icon{font-size:13px;line-height:1}.alc-cat{font-size:12px;font-weight:800;color:var(--tx);flex:1}
+.alc-vd{font-size:10px;font-weight:800;padding:2px 8px;border-radius:20px;white-space:nowrap}
+.alc-vd-warn{background:var(--warn-bg);color:var(--warn)}.alc-vd-good{background:var(--pos-bg);color:var(--pos)}.alc-vd-neut{background:var(--bg3);color:var(--tx3)}
+.alc-body{display:grid;grid-template-columns:1fr 1fr}
+.alc-col{padding:10px 12px}.alc-col+.alc-col{border-left:1px solid var(--bd)}
+.alc-col-hdr{font-size:10px;font-weight:800;margin-bottom:6px}
+.alc-nb-hdr{color:var(--tx3)}.alc-tm-hdr{color:var(--skt)}
+.alc-item{font-size:11.5px;line-height:1.75;color:var(--tx2)}.alc-none{color:var(--tx3);font-size:11.5px}
+.alc-footer{font-size:10px;color:var(--tx3);margin-top:4px;text-align:right}
+
 /* ── 신규 제휴 추천 ── */
 .rec-card{border-radius:var(--r);border:1px solid var(--bd);padding:14px 16px;margin-bottom:10px;background:var(--bg);transition:.2s}
 .rec-card:hover{box-shadow:var(--sh-hover);border-color:var(--bd2)}
