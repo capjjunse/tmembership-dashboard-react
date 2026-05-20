@@ -176,22 +176,22 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .tnote{font-size:11px;color:var(--tx3);text-align:right;max-width:300px;line-height:1.6}
 .kwchips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
 .kchip{font-size:11px;padding:3px 9px;border-radius:20px;background:var(--bg3);border:1px solid var(--bd2);color:var(--tx2)}
-.ntg{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr;gap:12px}
+.ntg{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 @media(max-width:720px){.ntg{grid-template-columns:1fr}}
-.ntc{display:flex;flex-direction:column;border-radius:var(--r);border:1px solid var(--bd);overflow:hidden;background:var(--bg);transition:.2s}
+.ntc{display:flex;flex-direction:column;height:330px;border-radius:var(--r);border:1px solid var(--bd);overflow:hidden;background:var(--bg);transition:.2s}
 .ntc:hover{box-shadow:var(--sh-hover);transform:translateY(-2px)}
 .nth{padding:10px 14px;font-size:12px;font-weight:800;flex-shrink:0}
-.ntb{flex:1;display:flex;flex-direction:column;padding:11px 14px 13px;gap:8px}
+.ntb{flex:1;display:flex;flex-direction:column;padding:11px 14px 13px;gap:8px;overflow:hidden}
 .ntb-top{display:flex;align-items:center;justify-content:space-between;gap:6px;flex-wrap:wrap}
 .nttag{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:700}
 .ntlink{font-size:10px;font-weight:700;padding:2px 9px;border-radius:20px;background:var(--pl);color:var(--p);border:1px solid rgba(68,34,224,.2);text-decoration:none;white-space:nowrap;flex-shrink:0}
 .ntlink:hover{background:var(--p);color:#fff}
-.ntlist{list-style:none;margin:0;padding:0;font-size:11px;line-height:1.75;color:var(--tx2)}
+.ntlist{flex:1;list-style:none;margin:0;padding:0;font-size:11px;line-height:1.75;color:var(--tx2);overflow:hidden}
 .ntlist li{padding-left:.9rem;position:relative}
 .ntlist li::before{content:'·';position:absolute;left:0;color:var(--tx3)}
-.ntwatch{margin-top:auto;padding-top:8px;border-top:1px solid var(--bd)}
+.ntwatch{flex-shrink:0;padding-top:8px;border-top:1px solid var(--bd)}
 .ntlbl{display:inline;font-size:10px;font-weight:800;color:var(--tx3);text-transform:uppercase;letter-spacing:.04em;margin-right:5px}
-.ntval{display:inline;font-size:11px;color:var(--tx2);line-height:1.55}
+.ntval{display:inline;font-size:11px;font-weight:700;color:var(--tx2);line-height:1.55}
 .ntedge-top{margin-bottom:4px}
 .ntedge{list-style:none;margin:0;padding:0;font-size:11px;line-height:1.75;color:var(--tx2)}
 .ntedge li{padding-left:.9rem;position:relative}

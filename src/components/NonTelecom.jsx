@@ -148,7 +148,7 @@ export default function NonTelecom() {
               <div className="ntwatch">
                 <div className="ntedge-top">
                   <span className="ntlbl">강점</span>
-                  <span className="ntval">{c.edge}</span>
+                  <span className="ntval">[{c.edge}]</span>
                 </div>
                 <ul className="ntedge">
                   {c.edgeDetails.map((d, i) => <li key={i}>{d}</li>)}
