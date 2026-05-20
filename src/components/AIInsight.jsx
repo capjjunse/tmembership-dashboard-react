@@ -107,14 +107,45 @@ const alCats = [
   },
   {
     icon: '🛵', cat: '배달', v: 'warn',
-    nb: [{ platform: '네이버플러스', items: [
-      { partner: '요기요 (요기패스X)', deadline: '상시', rows: [
-        { grade: null, desc: '15,000원 이상 무료배달' },
-        { grade: null, desc: '포장 5% 할인' },
+    nb: [
+      { platform: '네이버플러스', items: [
+        { partner: '요기요 (요기패스X)', deadline: '상시', rows: [
+          { grade: null, desc: '15,000원 이상 무료배달' },
+          { grade: null, desc: '포장 5% 할인' },
+        ]},
       ]},
-    ]}],
+      { platform: '쿠팡 로켓와우 (월 7,890원)', items: [
+        { partner: '쿠팡이츠', deadline: '상시', rows: [
+          { grade: null, desc: '무제한 무료배달 (금액·거리 무관)' },
+        ]},
+      ]},
+      { platform: '배민클럽', items: [
+        { partner: '배달의민족', deadline: '상시', rows: [
+          { grade: null, desc: '알뜰배달 입점 가게 배달팁 무료' },
+        ]},
+      ]},
+    ],
     tm: null,
-    reasons: ['네이버플러스: 요기패스X 무료배달 상시 운영 중', 'T멤버십: 배달 상시 제휴 없음 (T-day 일시 운영에 그침)'],
+    reasons: ['비통신 3종: 요기요·쿠팡이츠·배민 모두 상시 무료배달 운영', 'T멤버십: 배달 상시 제휴 없음 (T-day 월간 1~2회에 그침)'],
+  },
+  {
+    icon: '🛍', cat: '이커머스', v: 'warn',
+    nb: [
+      { platform: '네이버플러스', items: [
+        { partner: '네이버쇼핑', deadline: '월 20만원까지 5%, 이후 2%', rows: [{ grade: null, desc: '최대 5% Npay 적립' }] },
+      ]},
+      { platform: '쿠팡 로켓와우 (월 7,890원)', items: [
+        { partner: '쿠팡', deadline: '상시', rows: [
+          { grade: null, desc: '로켓배송 무료 (금액 무관)' },
+          { grade: null, desc: '와우 전용 할인가 제공' },
+          { grade: null, desc: '로켓프레시 당일배송 무료' },
+        ]},
+      ]},
+    ],
+    tm: [{ platform: 'T멤버십', items: [
+      { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
+    ]}],
+    reasons: ['쿠팡 로켓와우: 로켓배송 무료 + 당일배송 + 와우 전용가 — 이커머스 전반 혜택 강력', 'T멤버십: 11번가 최대 11% 적립 (SK그룹 플랫폼 한정)'],
   },
   // ── 유사 수준 ──
   {
@@ -155,16 +186,6 @@ const alCats = [
       ]},
     ]}],
     reasons: ['네이버플러스: 롯데마트·컬리 온라인 배송 위주 혜택', 'T멤버십: 이마트 오프라인 3~7% 적립 → 온/오프 채널 분리'],
-  },
-  {
-    icon: '🛍', cat: '이커머스', v: 'neut',
-    nb: [{ platform: '네이버플러스', items: [
-      { partner: '네이버쇼핑', deadline: '월 20만원까지 5%, 이후 2%', rows: [{ grade: null, desc: '최대 5% Npay 적립' }] },
-    ]}],
-    tm: [{ platform: 'T멤버십', items: [
-      { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
-    ]}],
-    reasons: ['T멤버십: 11번가 최대 11% 상시', '네이버플러스: 네이버쇼핑 5% 적립 상시 → 플랫폼 분리 경쟁'],
   },
 ];
 
@@ -324,7 +345,6 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="alc-footer">출처: 네이버플러스 멤버십 공식(nid.naver.com/membership/join) · T멤버십 공식(sktmembership.tworld.co.kr) 직접 확인</div>
       </div>
 
       {/* 섹션 3 — 신규 제휴 추천 */}
