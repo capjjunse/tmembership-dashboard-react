@@ -290,7 +290,10 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .alc-nb-hdr{color:var(--tx3)}.alc-col-hi-nb .alc-nb-hdr{color:var(--warn)}
 .alc-tm-hdr{color:var(--skt)}.alc-col-hi-tm .alc-tm-hdr{color:var(--skt-t)}
 .alc-item{font-size:11px;line-height:1.75;color:var(--tx2)}.alc-none{color:var(--tx3);font-size:11px}
-.alc-vd-bar{padding:8px 11px;border-top:1px solid var(--bd);background:var(--bg2)}
+.alc-vd-bar{padding:8px 11px;border-top:1px solid var(--bd);text-align:center}
+.alc-warn .alc-vd-bar{background:var(--warn-bg)}
+.alc-good .alc-vd-bar{background:var(--pos-bg)}
+.alc-neut .alc-vd-bar{background:var(--bg3)}
 .alc-reason{font-size:10.5px;color:var(--tx3);line-height:1.65}
 .alc-vc{font-size:11px;font-weight:800;margin-top:5px}
 .alc-vc-warn{color:var(--warn)}.alc-vc-good{color:var(--pos)}.alc-vc-neut{color:var(--tx3)}
