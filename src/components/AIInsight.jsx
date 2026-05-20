@@ -137,23 +137,6 @@ const alCats = [
     ]}],
     reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 최대 11% 적립 (SK그룹 플랫폼 한정)'],
   },
-  {
-    icon: '📺', cat: 'OTT·콘텐츠', v: 'warn',
-    nb: [
-      { platform: '네이버플러스 (월 4,900원)', items: [
-        { partner: '넷플릭스·티빙 등 선택', deadline: '월정액 포함', rows: [{ grade: null, desc: '디지털 콘텐츠 이용권 1개 선택 제공' }] },
-        { partner: '웹툰·시리즈', deadline: '월정액 포함', rows: [{ grade: null, desc: '쿠키 10개/월 무료' }] },
-      ]},
-      { platform: '쿠팡 로켓와우 (월 7,890원)', items: [
-        { partner: '쿠팡플레이', deadline: '상시', rows: [{ grade: null, desc: 'OTT 무료 이용' }] },
-      ]},
-      { platform: '배민클럽', items: [
-        { partner: '유튜브 프리미엄', deadline: '번들 옵션', rows: [{ grade: null, desc: '월 13,900원 번들 구독 가능' }] },
-      ]},
-    ],
-    tm: null,
-    reasons: ['비통신 3종: 넷플릭스·티빙·쿠팡플레이·유튜브 프리미엄 모두 커버', 'T멤버십: OTT·콘텐츠 상시 제휴 없음'],
-  },
   // ── 유사 수준 ──
   {
     icon: '🏪', cat: '편의점', v: 'neut',
