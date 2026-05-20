@@ -52,16 +52,17 @@ const compRows = [
   },
 ];
 
-// nb/tm: null | [{ platform, items:[{ partner, rows:[{grade,desc}], deadline }] }]
+// nb/tm: null | [{ platform, items:[{ partner, deadline, rows:[{grade,desc}] }] }]
+// 포맷: "제휴처 (기한)" 한 줄 → "[등급] 혜택내용" 행 반복
 const alCats = [
   // ── T멤버십 우위 ──
   {
     icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
     nb: [{ platform: '네이버플러스', items: [
-      { partner: '쏘카', rows: [{ grade: null, desc: '50% 할인 (네이버예약 경유)' }], deadline: '~26.06.30' },
+      { partner: '쏘카', deadline: '~26.06.30', rows: [{ grade: null, desc: '50% 할인 (네이버예약 경유)' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'SK렌터카', rows: [{ grade: '전 등급', desc: '제주 최대 85% · 내륙 최대 60%' }], deadline: '상시' },
+      { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
     ]}],
     reasons: ['T멤버십: SK렌터카 제주 85%, 내륙 60% 전 등급 상시 운영', '네이버플러스: 쏘카 50% (기간한정 · 경유 조건 있음)'],
   },
@@ -69,18 +70,18 @@ const alCats = [
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: [
       { platform: '토스뱅크', items: [
-        { partner: null, rows: [{ grade: null, desc: '버거킹·투썸·메가커피 등 월 3브랜드 선택 10%' }] },
+        { partner: '버거킹·투썸·메가커피 등', deadline: '월 3브랜드 선택', rows: [{ grade: null, desc: '10% 할인' }] },
       ]},
       { platform: '네이버플러스', items: [
-        { partner: null, rows: [{ grade: null, desc: '외식 상시 제휴 없음' }] },
+        { partner: null, deadline: null, rows: [{ grade: null, desc: '외식 상시 제휴 없음' }] },
       ]},
     ],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'T-day (월간)', rows: [{ grade: null, desc: '버거킹 40~55% · 공차 50% · 피자헛 50% 등' }] },
-      { partner: '아웃백·VIPS', rows: [{ grade: 'VIP·G', desc: '15%' }], deadline: '상시' },
-      { partner: '도미노·피자헛', rows: [{ grade: 'VIP', desc: '30%' }], deadline: '상시' },
-      { partner: '메가커피', rows: [{ grade: 'VIP', desc: '20%' }], deadline: '상시' },
-      { partner: '공차·폴바셋', rows: [{ grade: '전 등급', desc: '10%' }], deadline: '상시' },
+      { partner: 'T-day', deadline: '월간', rows: [{ grade: null, desc: '버거킹 40~55% 할인, 공차 50% 할인, 피자헛 50% 할인 등' }] },
+      { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
+      { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
+      { partner: '메가커피', deadline: '상시', rows: [{ grade: 'V', desc: '20% 할인' }] },
+      { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
     ]}],
     reasons: ['T멤버십: 외식 브랜드 상시 10~30% + T-day 최대 50~55% 다수 운영', '비통신: 토스뱅크 3브랜드 선택 10% — 폭·범위 모두 T멤버십이 앞섬'],
   },
@@ -88,7 +89,10 @@ const alCats = [
     icon: '🎡', cat: '테마파크', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: '롯데월드어드벤처', rows: [{ grade: 'VIP', desc: '본인 40% · 동반 3인 30%' }, { grade: 'G·S', desc: '본인 40% · 동반 3인 20%' }], deadline: '상시' },
+      { partner: '롯데월드어드벤처', deadline: '상시', rows: [
+        { grade: 'V', desc: '본인 40% 할인, 동반 3인 30% 할인' },
+        { grade: 'G, S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
+      ]},
     ]}],
     reasons: ['T멤버십: 롯데월드 종합이용권 본인 40%+동반 할인 상시 운영', '비통신: 테마파크 제휴 없음'],
   },
@@ -96,7 +100,7 @@ const alCats = [
   {
     icon: '⛽', cat: '주유', v: 'warn',
     nb: [{ platform: '네이버플러스', items: [
-      { partner: 'GS칼텍스', rows: [{ grade: null, desc: 'L당 100원 Npay 적립' }], deadline: '월 최대 5,000P · 상시' },
+      { partner: 'GS칼텍스', deadline: '월 최대 5,000P · 상시', rows: [{ grade: null, desc: 'L당 100원 Npay 적립' }] },
     ]}],
     tm: null,
     reasons: ['네이버플러스: GS칼텍스 전국 주유소 L당 100원 Npay 적립 상시 운영', 'T멤버십: 주유 제휴 없음'],
@@ -104,7 +108,10 @@ const alCats = [
   {
     icon: '🛵', cat: '배달', v: 'warn',
     nb: [{ platform: '네이버플러스', items: [
-      { partner: '요기요 (요기패스X)', rows: [{ grade: null, desc: '15,000원 이상 무료배달' }, { grade: null, desc: '포장 5% 할인' }], deadline: '상시' },
+      { partner: '요기요 (요기패스X)', deadline: '상시', rows: [
+        { grade: null, desc: '15,000원 이상 무료배달' },
+        { grade: null, desc: '포장 5% 할인' },
+      ]},
     ]}],
     tm: null,
     reasons: ['네이버플러스: 요기패스X 무료배달 상시 운영 중', 'T멤버십: 배달 상시 제휴 없음 (T-day 일시 운영에 그침)'],
@@ -113,43 +120,49 @@ const alCats = [
   {
     icon: '🏪', cat: '편의점', v: 'neut',
     nb: [{ platform: '네이버플러스', items: [
-      { partner: 'CU', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립' }], deadline: '일 1회 각 5천원 한도 · ~26.12.31' },
+      { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'CU', rows: [{ grade: 'VIP·G', desc: '10%' }, { grade: 'S', desc: '5%' }], deadline: '상시' },
-      { partner: '세븐일레븐', rows: [{ grade: 'VIP·G', desc: '10%' }, { grade: 'S', desc: '5%' }], deadline: '상시' },
+      { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
+      { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%할인+5%적립 = 최대 10% 효과', 'T멤버십: CU VIP·G 10% 동급 · 세븐일레븐 추가 운영'],
+    reasons: ['네이버플러스: CU 5%할인+5%적립 = 최대 10% 효과', 'T멤버십: CU V·G 10% 동급 · 세븐일레븐 추가 운영'],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
     nb: [{ platform: '네이버플러스', items: [
-      { partner: '롯데시네마', rows: [{ grade: null, desc: '최대 5천원 + 콤보 3천원' }], deadline: '월 4회 · ~26.12.31' },
+      { partner: '롯데시네마', deadline: '월 4회 · ~26.12.31', rows: [{ grade: null, desc: '최대 5천원 + 콤보 3천원 할인' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'CGV', rows: [{ grade: 'VIP', desc: '무료 연3회 · 1+1 연9회 · 특별관 12회' }, { grade: '전 등급', desc: '4천원 할인' }], deadline: '상시' },
-      { partner: '롯데시네마', rows: [{ grade: null, desc: '2026.02 종료' }] },
+      { partner: 'CGV', deadline: '상시', rows: [
+        { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
+        { grade: '전 등급', desc: '4천원 할인' },
+      ]},
+      { partner: '롯데시네마', deadline: null, rows: [{ grade: null, desc: '2026.02 종료' }] },
     ]}],
     reasons: ['네이버플러스: 롯데시네마 커버 (CGV 없음)', 'T멤버십: CGV 커버, 롯데시네마 2026.02 종료 → 채널 분리'],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
     nb: [{ platform: '네이버플러스', items: [
-      { partner: '롯데마트', rows: [{ grade: null, desc: '신상 5% + 무료배송' }], deadline: '상시' },
-      { partner: '컬리', rows: [{ grade: null, desc: '2만원 이상 무료배송' }], deadline: '상시' },
+      { partner: '롯데마트', deadline: '상시', rows: [{ grade: null, desc: '신상 5% 할인 + 무료배송' }] },
+      { partner: '컬리', deadline: '상시', rows: [{ grade: null, desc: '2만원 이상 무료배송' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: '이마트', rows: [{ grade: 'VIP', desc: '짝수월 7% · 홀수월 3% 적립' }, { grade: 'G·S', desc: '3% 상시' }] },
+      { partner: '이마트', deadline: '상시', rows: [
+        { grade: 'V', desc: '짝수월 7%, 홀수월 3% 적립' },
+        { grade: 'G, S', desc: '3% 적립' },
+      ]},
     ]}],
     reasons: ['네이버플러스: 롯데마트·컬리 온라인 배송 위주 혜택', 'T멤버십: 이마트 오프라인 3~7% 적립 → 온/오프 채널 분리'],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'neut',
     nb: [{ platform: '네이버플러스', items: [
-      { partner: '네이버쇼핑', rows: [{ grade: null, desc: '최대 5% Npay 적립' }], deadline: '월 20만원까지 5%, 이후 2%' },
+      { partner: '네이버쇼핑', deadline: '월 20만원까지 5%, 이후 2%', rows: [{ grade: null, desc: '최대 5% Npay 적립' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: '11번가', rows: [{ grade: null, desc: '최대 11% 적립/할인' }], deadline: '상시' },
+      { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
     ]}],
     reasons: ['T멤버십: 11번가 최대 11% 상시', '네이버플러스: 네이버쇼핑 5% 적립 상시 → 플랫폼 분리 경쟁'],
   },
@@ -197,14 +210,18 @@ function renderBenefitSide(groups, showPlatform = true) {
       {showPlatform && <div className="alc-platform">{g.platform}</div>}
       {g.items.map((item, ii) => (
         <div key={ii} className="alc-pblock">
-          {item.partner && <div className="alc-partner">{item.partner}</div>}
+          {(item.partner || item.deadline) && (
+            <div className="alc-partner-row">
+              {item.partner && <span className="alc-partner">{item.partner}</span>}
+              {item.deadline && <span className="alc-dl">({item.deadline})</span>}
+            </div>
+          )}
           {item.rows.map((row, ri) => (
             <div key={ri} className="alc-row">
-              {row.grade && <div className="alc-grade-wrap"><span className="alc-grade">[{row.grade}]</span></div>}
-              <div className="alc-bdesc">{row.desc}</div>
+              {row.grade && <span className="alc-grade">[{row.grade}]</span>}
+              <span className="alc-bdesc">{row.desc}</span>
             </div>
           ))}
-          {item.deadline && <div className="alc-dl">({item.deadline})</div>}
         </div>
       ))}
     </div>
