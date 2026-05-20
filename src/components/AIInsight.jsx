@@ -24,7 +24,7 @@ const compRows = [
   },
   {
     brand: 'CGV',
-    skt: { lines: [{ grade: '전 등급', b: '8,500원 예매+매점 쿠폰 2종' }], date: '0week · 1주차 · 2주차 (3회)' },
+    skt: { lines: [{ grade: '전 등급', b: '8,500원 예매+매점 쿠폰 2종' }], date: '5.4~5.8 · 5.13 · 5.20~5.24 (3회)' },
     kt: null,
     lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트 (팝콘M+음료M) 무료' }], date: '5.20 · 투쁠데이 (1회)' },
     v: 'good', note: 'SKT 3회 운영 vs LGU+ 1회',
