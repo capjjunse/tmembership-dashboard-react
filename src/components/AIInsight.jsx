@@ -190,21 +190,17 @@ const recs = [
 const verdictIcon  = { warn: '⚠', good: '✅', neut: '↔', miss: '✕' };
 const verdictLabel = { warn: 'SKT 열위', good: 'SKT 우위', neut: '동급 경쟁', miss: 'SKT 없음' };
 
-function renderBenefitSide(groups) {
+function renderBenefitSide(groups, showPlatform = true) {
   if (!groups) return <span className="alc-none">—</span>;
   return groups.map((g, gi) => (
     <div key={gi} className="alc-group">
-      <div className="alc-platform">{g.platform}</div>
+      {showPlatform && <div className="alc-platform">{g.platform}</div>}
       {g.items.map((item, ii) => (
         <div key={ii} className="alc-pblock">
+          {item.partner && <div className="alc-partner">{item.partner}</div>}
           {item.rows.map((row, ri) => (
             <div key={ri} className="alc-row">
-              {((ri === 0 && item.partner) || row.grade) && (
-                <div className="alc-row-hdr">
-                  {ri === 0 && item.partner && <span className="alc-partner">{item.partner}</span>}
-                  {row.grade && <span className="alc-grade">[{row.grade}]</span>}
-                </div>
-              )}
+              {row.grade && <div className="alc-grade-wrap"><span className="alc-grade">[{row.grade}]</span></div>}
               <div className="alc-bdesc">{row.desc}</div>
             </div>
           ))}
@@ -295,11 +291,11 @@ export default function AIInsight() {
               <div className="alc-body">
                 <div className={`alc-col${c.v === 'warn' ? ' alc-col-hi-nb' : ''}`}>
                   <div className="alc-col-hdr alc-nb-hdr">비통신</div>
-                  {renderBenefitSide(c.nb)}
+                  {renderBenefitSide(c.nb, true)}
                 </div>
                 <div className={`alc-col${c.v === 'good' ? ' alc-col-hi-tm' : ''}`}>
                   <div className="alc-col-hdr alc-tm-hdr">T멤버십</div>
-                  {renderBenefitSide(c.tm)}
+                  {renderBenefitSide(c.tm, false)}
                 </div>
               </div>
               <div className="alc-vd-bar">
