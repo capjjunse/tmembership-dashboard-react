@@ -191,25 +191,27 @@ export default function AIInsight() {
           <span className="ai-sec-title">비통신 비교</span>
           <span className="ai-sec-desc">월간·상시·특화 전범위 · 카테고리별 T멤버십 vs 비통신</span>
         </div>
-        {alCats.map((c) => (
-          <div key={c.cat} className={`alc alc-${c.v}`}>
-            <div className="alc-hdr">
-              <span className="alc-icon">{c.icon}</span>
-              <span className="alc-cat">{c.cat}</span>
-              <span className={`alc-vd alc-vd-${c.v}`}>{alVdIcon[c.v]} {alVdLabel[c.v]}</span>
-            </div>
-            <div className="alc-body">
-              <div className="alc-col">
-                <div className="alc-col-hdr alc-nb-hdr">비통신</div>
-                {c.nb ? c.nb.map((it, i) => <div key={i} className="alc-item">{it}</div>) : <span className="alc-none">—</span>}
+        <div className="alc-grid">
+          {alCats.map((c) => (
+            <div key={c.cat} className={`alc alc-${c.v}`}>
+              <div className="alc-hdr">
+                <span className="alc-icon">{c.icon}</span>
+                <span className="alc-cat">{c.cat}</span>
+                <span className={`alc-vd alc-vd-${c.v}`}>{alVdIcon[c.v]} {alVdLabel[c.v]}</span>
               </div>
-              <div className="alc-col">
-                <div className="alc-col-hdr alc-tm-hdr">T멤버십</div>
-                {c.tm ? c.tm.map((it, i) => <div key={i} className="alc-item">{it}</div>) : <span className="alc-none">—</span>}
+              <div className="alc-body">
+                <div className={`alc-col${c.v === 'warn' ? ' alc-col-hi-nb' : ''}`}>
+                  <div className="alc-col-hdr alc-nb-hdr">비통신</div>
+                  {c.nb ? c.nb.map((it, i) => <div key={i} className="alc-item">{it}</div>) : <span className="alc-none">—</span>}
+                </div>
+                <div className={`alc-col${c.v === 'good' ? ' alc-col-hi-tm' : ''}`}>
+                  <div className="alc-col-hdr alc-tm-hdr">T멤버십</div>
+                  {c.tm ? c.tm.map((it, i) => <div key={i} className="alc-item">{it}</div>) : <span className="alc-none">—</span>}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
         <div className="alc-footer">출처: 네이버플러스 멤버십 공식(nid.naver.com/membership/join) · T멤버십 공식(sktmembership.tworld.co.kr) 직접 확인</div>
       </div>
 
