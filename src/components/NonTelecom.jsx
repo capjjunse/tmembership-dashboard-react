@@ -14,7 +14,7 @@ export default function NonTelecom() {
         'MYBOX 80GB 추가 제공',
         '패밀리 최대 3명 초대 (5% 적립 동일 적용)',
       ],
-      watch: '2026 하반기 무제한 무료배송 예고 — 이커머스·적립·콘텐츠 번들로 전방위 확장 중',
+      edge: '쇼핑 적립(5%)·콘텐츠 이용권·무료배송을 단일 구독으로 — 네이버 생태계 전체가 멤버십 혜택. 2026 하반기 무제한 무료배송 도입 시 커머스 구독 시장 판도 변화 예고',
     },
     {
       title: '쿠팡 로켓와우',
@@ -30,7 +30,7 @@ export default function NonTelecom() {
         '로켓배송 상품 무료 반품',
         '와우 전용 할인가 제공',
       ],
-      watch: '쇼핑·배달·OTT 번들 — 구독료 인상 후에도 회원 증가세 유지. 일상 전방위 커버',
+      edge: '쇼핑·배달·신선식품·OTT를 월정액 하나로 — 개별 서비스 합산 대비 압도적 가성비. 로켓배송 익일 보장은 타 멤버십이 대체 불가한 물류 인프라 경쟁 우위',
     },
     {
       title: '배민클럽',
@@ -45,7 +45,7 @@ export default function NonTelecom() {
         '유튜브 프리미엄 번들 옵션 (월 13,900원)',
         '신규 가입 프로모션 월 1,990원',
       ],
-      watch: '배달 버티컬 전문 — T-day 1회성 할인 대비 상시 무료배달 압도적 우위. 배달 고객 락인 직접 경쟁',
+      edge: '거리·금액·브랜드 조건 없이 배달팁 상시 무료 — 다른 어떤 멤버십도 이 조건의 상시 배달무료 미제공. 배달 전문 구독 최저가(월 3,990원)로 락인 효과 극대화',
     },
     {
       title: '올리브영 멤버스',
@@ -61,7 +61,7 @@ export default function NonTelecom() {
         '청연·탈잉 최대 10% 쿠폰',
         'GOLD·BLACK 전용 라운지 이용권 + 무료 포장',
       ],
-      watch: 'GOLD 등급(연 100만원+) 충성 고객에 오프라인 체험 혜택 → 뷰티 MZ 락인 강화',
+      edge: '전국 1,300개+ 오프라인 매장 연동 등급 혜택 — 온·오프라인 동일 등급 적용은 타 멤버십 완전 부재. GOLD 라운지·무료 포장 등 실물 뷰티 체험은 디지털 멤버십으로 대체 불가',
     },
     {
       title: '무신사',
@@ -77,7 +77,7 @@ export default function NonTelecom() {
         '출석체크·무퀴즈 랜덤 혜택 일 적립',
         '친구 초대 적립금 5,000원',
       ],
-      watch: '패션 버티컬 1위, VVIP 신설로 충성 고객 혜택 강화. T멤버십 패션 카테고리 공백 부각',
+      edge: '관심 브랜드·상품 연동 맞춤 쿠폰 자동 발급(최대 40%) — 범용 멤버십에는 없는 패션 버티컬 한정 혜택. 3,000+ 브랜드 단독 입점으로 타 플랫폼 대체 불가',
     },
     {
       title: '현대카드 MEMBERSHIP',
@@ -93,7 +93,7 @@ export default function NonTelecom() {
         '전용 공연·전시 초청',
         '전담 컨시어지 서비스',
       ],
-      watch: '프리미엄 라이프스타일 타깃 — T멤버십과 상호보완적 포지션. 동일 고객 중복 이용 가능',
+      edge: '공항 라운지·특급 호텔·골프 등 프리미엄 오프라인 실물 혜택 — 통신사·커머스 멤버십과 완전 차별화된 영역. 디지털로 대체 불가한 고가 생활 혜택을 카드 한 장으로 제공',
     },
   ];
 
@@ -116,8 +116,8 @@ export default function NonTelecom() {
                 {c.benefits.map((b, i) => <li key={i}>{b}</li>)}
               </ul>
               <div className="ntwatch">
-                <span className="ntlbl">주목</span>
-                <span className="ntval">{c.watch}</span>
+                <span className="ntlbl">강점</span>
+                <span className="ntval">{c.edge}</span>
               </div>
             </div>
           </div>
