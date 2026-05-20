@@ -283,7 +283,7 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .alc-icon{font-size:13px;line-height:1}.alc-cat{font-size:12px;font-weight:800;color:var(--tx);flex:1}
 .alc-vd{font-size:10px;font-weight:800;padding:2px 8px;border-radius:20px;white-space:nowrap}
 .alc-vd-warn{background:var(--warn-bg);color:var(--warn)}.alc-vd-good{background:var(--pos-bg);color:var(--pos)}.alc-vd-neut{background:var(--bg3);color:var(--tx3)}
-.alc-body{display:grid;grid-template-columns:1fr 1fr;flex:1;align-content:start}
+.alc-body{display:grid;grid-template-columns:1fr 1fr;flex:1}
 .alc-col{padding:9px 11px}.alc-col+.alc-col{border-left:1px solid var(--bd)}
 .alc-col-hi-nb{background:var(--warn-bg)}.alc-col-hi-tm{background:var(--skt-bg)}
 .alc-col-hdr{font-size:10px;font-weight:800;margin-bottom:5px}
