@@ -56,7 +56,15 @@ const alerts = [
   {
     level: 'warn',
     platform: '네이버플러스',
-    title: '편의점 — 네이버플러스 GS25 최대 20% 상시, 통신 3사 없음',
+    title: '주유 — GS칼텍스 L당 100원 적립 상시, 통신사 없음',
+    them: 'GS칼텍스 전국 주유소 L당 Npay 100원 적립 · 월 최대 5,000P 상시 (2026.04 신규 · 국내 정유사 최초 제휴)',
+    us: '통신 3사 주유 제휴 없음',
+    verdict: '주유 카테고리 완전 공백 — 운전 고객층 혜택 채널 선점 필요',
+  },
+  {
+    level: 'warn',
+    platform: '네이버플러스',
+    title: '편의점 — GS25 최대 20% · CU 최대 10% 상시, 통신 3사 없음',
     them: 'GS25 즉시할인 10% + 네이버페이 10% 적립 상시 · CU 최대 10% 상시',
     us: '통신 3사 T-day · 월간 혜택에 GS25 · CU 포함 없음',
     verdict: '일상 최접점 편의점에서 비통신에 지속 밀림 — 편의점 제휴 검토 필요',
@@ -81,7 +89,7 @@ const alerts = [
     level: 'watch',
     platform: '네이버플러스',
     title: '배달 — 요기요 배달비 무료 상시, 통신사 상시 혜택 없음',
-    them: '요기패스X 연계 배달비 무료 (15,000원↑ 상시)',
+    them: '요기패스X 연계 배달비 무료 (15,000원 이상 상시)',
     us: 'KT 달달혜택 배민×노랑통닭 일시 운영에 그침 · 상시 배달 혜택 없음',
     verdict: '배달 카테고리 상시 혜택 공백 지속 — 추가 검토 요',
   },
@@ -188,7 +196,7 @@ export default function AIInsight() {
       <div className="ai-sec">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">비통신 알람</span>
-          <span className="ai-sec-desc">네이버플러스 · 토스뱅크와 겹치는 영역 · 통신사 차별화 현황</span>
+          <span className="ai-sec-desc">월간·상시·특화 혜택 전범위 비교 · T멤버십 경쟁 열위 영역</span>
         </div>
         {alerts.map((a, i) => (
           <div key={i} className={`alert-card ac-${a.level}`}>
