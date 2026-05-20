@@ -57,36 +57,59 @@ const alCats = [
     icon: '⛽', cat: '주유', v: 'warn',
     nb: ['네이버플러스 GS칼텍스 L당 100원 Npay 적립', '월 최대 5,000P · 전국 상시 (2026.04 신규)'],
     tm: null,
+    reasons: ['네이버플러스: GS칼텍스 전국 주유소 L당 100원 Npay 적립 상시 운영', 'T멤버십: 주유 제휴 없음'],
   },
   {
     icon: '🏪', cat: '편의점', v: 'neut',
     nb: ['네이버플러스 CU 5% 즉시할인 + 5% Npay 적립', '(일 1회, 각 5천원 한도) ~26.12.31'],
     tm: ['CU VIP·G 10% / S 5% 상시', '세븐일레븐 VIP·G 10% / S 5% 상시'],
+    reasons: ['네이버플러스: CU 5%할인+5%적립 = 최대 10% 효과', 'T멤버십: CU VIP·G 10% 동급 · 세븐일레븐 추가 운영'],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
     nb: ['네이버플러스 롯데시네마 최대 5천원 + 콤보 3천원 · 월 4회 ~26.12.31'],
-    tm: ['CGV VIP: 무료 연3회 · 1+1 연9회 · 특별관 12회', 'CGV 전 등급: 4천원 할인 상시', '롯데시네마: 2026.02 종료 (채널 분리)'],
+    tm: ['CGV VIP: 무료 연3회 · 1+1 연9회 · 특별관 12회', 'CGV 전 등급: 4천원 할인 상시', '롯데시네마: 2026.02 종료'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (CGV 없음)', 'T멤버십: CGV 커버, 롯데시네마 2026.02 종료 → 채널 분리'],
   },
   {
     icon: '🛵', cat: '배달', v: 'warn',
     nb: ['네이버플러스 요기패스X 15,000원 이상 무료배달', '포장 5% 할인 · 상시'],
     tm: null,
+    reasons: ['네이버플러스: 요기패스X 무료배달 상시 운영 중', 'T멤버십: 배달 상시 제휴 없음 (T-day 일시 운영에 그침)'],
   },
   {
-    icon: '🚗', cat: '카셰어링', v: 'good',
+    icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
     nb: ['네이버플러스 쏘카 50% (네이버예약 경유) ~26.06.30'],
     tm: ['SK렌터카 제주 최대 85% / 내륙 최대 60%', '전 등급 · 상시'],
+    reasons: ['T멤버십: SK렌터카 제주 85%, 내륙 60% 전 등급 상시 운영', '네이버플러스: 쏘카 50% (기간한정 · 경유 조건 있음)'],
   },
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
-    nb: ['[토스뱅크] 버거킹·투썸·메가커피 등 월 3브랜드 선택 10%', '네이버플러스 외식 상시 제휴 없음'],
-    tm: ['T-day (월간): 버거킹 40%~55% · 공차 50% · 피자헛 50% 등', '상시: 아웃백·VIPS VIP·G 15% / 도미노·피자헛 VIP 30%', '상시: 메가커피 VIP 20% · G·S 10% / 공차·폴바셋 전 등급 10%'],
+    nb: ['[토스뱅크] 버거킹·투썸·메가커피 등 월 3브랜드 선택 10%', '네이버플러스: 외식 상시 제휴 없음'],
+    tm: ['T-day (월간): 버거킹 40~55% · 공차 50% · 피자헛 50% 등', '상시: 아웃백·VIPS VIP·G 15% / 도미노·피자헛 VIP 30%', '상시: 메가커피 VIP 20% / 공차·폴바셋 전 등급 10%'],
+    reasons: ['T멤버십: 외식 브랜드 상시 10~30% + T-day 최대 50~55% 다수 운영', '비통신: 토스뱅크 3브랜드 선택 10% — 폭·범위 모두 T멤버십이 앞섬'],
+  },
+  {
+    icon: '🏬', cat: '마트·신선', v: 'neut',
+    nb: ['네이버플러스 롯데마트 제타 신상 5%+무료배송', '컬리N마트 2만원 이상 무료배송'],
+    tm: ['이마트 VIP 짝수월 7% / 홀수월 3% 적립', 'G·S 3% 상시'],
+    reasons: ['네이버플러스: 롯데마트·컬리 온라인 배송 위주 혜택', 'T멤버십: 이마트 오프라인 3~7% 적립 → 온/오프 채널 분리'],
+  },
+  {
+    icon: '🎡', cat: '테마파크', v: 'good',
+    nb: null,
+    tm: ['롯데월드어드벤처 VIP 본인 40%+동반 3인 30%', 'G·S 본인 40%+동반 3인 20%'],
+    reasons: ['T멤버십: 롯데월드 종합이용권 본인 40%+동반 할인 상시 운영', '비통신: 테마파크 제휴 없음'],
+  },
+  {
+    icon: '🛍', cat: '이커머스', v: 'neut',
+    nb: ['네이버플러스 네이버쇼핑 최대 5% Npay 적립', '(월 20만원까지 5%, 이후 2%)'],
+    tm: ['11번가 최대 11% 적립/할인 상시'],
+    reasons: ['T멤버십: 11번가 최대 11% 상시', '네이버플러스: 네이버쇼핑 5% 적립 상시 → 플랫폼 분리 경쟁'],
   },
 ];
 
-const alVdIcon  = { warn: '⚠', good: '✅', neut: '↔' };
-const alVdLabel = { warn: '비통신 앞섬', good: 'T멤버십 우위', neut: '유사 수준' };
+const alVdLabel = { warn: 'T멤버십 열위', good: 'T멤버십 우위', neut: '유사 수준' };
 
 const recs = [
   {
@@ -197,7 +220,6 @@ export default function AIInsight() {
               <div className="alc-hdr">
                 <span className="alc-icon">{c.icon}</span>
                 <span className="alc-cat">{c.cat}</span>
-                <span className={`alc-vd alc-vd-${c.v}`}>{alVdIcon[c.v]} {alVdLabel[c.v]}</span>
               </div>
               <div className="alc-body">
                 <div className={`alc-col${c.v === 'warn' ? ' alc-col-hi-nb' : ''}`}>
@@ -208,6 +230,12 @@ export default function AIInsight() {
                   <div className="alc-col-hdr alc-tm-hdr">T멤버십</div>
                   {c.tm ? c.tm.map((it, i) => <div key={i} className="alc-item">{it}</div>) : <span className="alc-none">—</span>}
                 </div>
+              </div>
+              <div className="alc-vd-bar">
+                {c.reasons.map((r, i) => (
+                  <div key={i} className="alc-reason">{i + 1}) {r}</div>
+                ))}
+                <div className={`alc-vc alc-vc-${c.v}`}>→ {alVdLabel[c.v]}</div>
               </div>
             </div>
           ))}
