@@ -146,8 +146,10 @@ export default function NonTelecom() {
                 {c.benefits.map((b, i) => <li key={i}>{b}</li>)}
               </ul>
               <div className="ntwatch">
-                <span className="ntlbl">강점</span>
-                <span className="ntval">{c.edge}</span>
+                <div className="ntedge-top">
+                  <span className="ntlbl">강점</span>
+                  <span className="ntval">{c.edge}</span>
+                </div>
                 <ul className="ntedge">
                   {c.edgeDetails.map((d, i) => <li key={i}>{d}</li>)}
                 </ul>
