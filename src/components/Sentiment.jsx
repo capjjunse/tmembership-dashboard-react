@@ -1,10 +1,48 @@
 import { useState } from 'react';
 
+const SKT_TABS = [
+  { id: 'kw1', label: 'T 멤버십 전반', hasData: false },
+  { id: 'kw2', label: 'T day',          hasData: true  },
+  { id: 'kw3', label: '0week·0day',     hasData: true  },
+  { id: 'kw4', label: 'VIP PICK',       hasData: true  },
+];
+
+const KT_TABS = [
+  { id: 'kw1', label: 'KT 멤버십 전반',   hasData: true },
+  { id: 'kw2', label: '달달혜택',          hasData: true },
+  { id: 'kw3', label: '고객보답프로그램',  hasData: true },
+];
+
+const LGU_TABS = [
+  { id: 'kw1', label: 'U+ 멤버십 전반',       hasData: false },
+  { id: 'kw2', label: '유플투쁠',              hasData: false },
+  { id: 'kw3', label: '스페셜데이·장기고객데이', hasData: false },
+  { id: 'kw4', label: 'VIP 콕',               hasData: false },
+];
+
+function firstActive(tabs) {
+  return tabs.find(t => t.hasData)?.id ?? tabs[0].id;
+}
+
+function KwTabs({ tabs, active, setActive }) {
+  const visible = tabs.filter(t => t.hasData);
+  if (!visible.length) return null;
+  return (
+    <div className="tr2" style={{ marginBottom: '12px' }}>
+      {visible.map(t => (
+        <button key={t.id} className={`kw${active === t.id ? ' on' : ''}`} onClick={() => setActive(t.id)}>
+          {t.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 export default function Sentiment() {
   const [carrier, setCarrier] = useState('skt');
-  const [sktKw, setSktKw] = useState('kw2');
-  const [ktKw, setKtKw] = useState('kw3');
-  const [lguKw, setLguKw] = useState('kw1');
+  const [sktKw, setSktKw] = useState(firstActive(SKT_TABS));
+  const [ktKw,  setKtKw]  = useState('kw3');
+  const [lguKw, setLguKw] = useState(firstActive(LGU_TABS));
 
   return (
     <div className="sec" id="sn">
@@ -15,7 +53,7 @@ export default function Sentiment() {
       </div>
       <div className="tr2">
         <button className={`ctab${carrier === 'skt' ? ' cs' : ''}`} onClick={() => setCarrier('skt')}>SKT</button>
-        <button className={`ctab${carrier === 'kt' ? ' ck' : ''}`} onClick={() => setCarrier('kt')}>KT</button>
+        <button className={`ctab${carrier === 'kt'  ? ' ck' : ''}`} onClick={() => setCarrier('kt')}>KT</button>
         <button className={`ctab${carrier === 'lgu' ? ' cl' : ''}`} onClick={() => setCarrier('lgu')}>LGU+</button>
       </div>
 
@@ -41,18 +79,7 @@ export default function Sentiment() {
             <span className="srcbadge act">아카라이브</span>
             <span className="srcbadge act">뽐뿌</span>
           </div>
-          <div className="tr2" style={{ marginBottom: '12px' }}>
-            <button className={`kw${sktKw === 'kw1' ? ' on' : ''}`} onClick={() => setSktKw('kw1')}>T 멤버십 전반</button>
-            <button className={`kw${sktKw === 'kw2' ? ' on' : ''}`} onClick={() => setSktKw('kw2')}>T day</button>
-            <button className={`kw${sktKw === 'kw3' ? ' on' : ''}`} onClick={() => setSktKw('kw3')}>0week·0day</button>
-            <button className={`kw${sktKw === 'kw4' ? ' on' : ''}`} onClick={() => setSktKw('kw4')}>VIP PICK</button>
-          </div>
-          {sktKw === 'kw1' && (
-            <div style={{ textAlign: 'center', padding: '24px 0', color: 'var(--tx2)', fontSize: '12px', lineHeight: 2 }}>
-              최근 4주 이내 수집된 반응이 없습니다.<br />
-              <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(T멤버십 VIP · SKT 멤버십 · SKT 혜택 · 슼 멤버십 · 슼 혜택 등 키워드 탐색 중)</span>
-            </div>
-          )}
+          <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw2' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">버거킹 13~15일 T멤버십 와퍼 55% 할인 공유 — "갈 일 없어도 가야겠는걸"</div><div className="rsrc">2026.05.12 · <a href="https://www.fmkorea.com/9816271602" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -98,11 +125,7 @@ export default function Sentiment() {
             <span className="srcbadge act">에펨코리아</span>
             <span className="srcbadge act">루리웹</span>
           </div>
-          <div className="tr2" style={{ marginBottom: '12px' }}>
-            <button className={`kw${ktKw === 'kw1' ? ' on' : ''}`} onClick={() => setKtKw('kw1')}>KT 멤버십 전반</button>
-            <button className={`kw${ktKw === 'kw2' ? ' on' : ''}`} onClick={() => setKtKw('kw2')}>달달혜택</button>
-            <button className={`kw${ktKw === 'kw3' ? ' on' : ''}`} onClick={() => setKtKw('kw3')}>고객보답프로그램</button>
-          </div>
+          <KwTabs tabs={KT_TABS} active={ktKw} setActive={setKtKw} />
           {ktKw === 'kw1' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 롤파크 티켓구매 — "카드결제 됐는데 품절, 매크로 아니냐" "올해부턴 걍 불가능이다"</div><div className="rsrc">2026.05.01 · <a href="https://www.fmkorea.com/9772989347" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -147,15 +170,10 @@ export default function Sentiment() {
             <span className="srcbadge act">아카라이브</span>
             <span className="srcbadge act">뽐뿌</span>
           </div>
-          <div className="tr2" style={{ marginBottom: '12px' }}>
-            <button className={`kw${lguKw === 'kw1' ? ' on' : ''}`} onClick={() => setLguKw('kw1')}>U+ 멤버십 전반</button>
-            <button className={`kw${lguKw === 'kw2' ? ' on' : ''}`} onClick={() => setLguKw('kw2')}>유플투쁠</button>
-            <button className={`kw${lguKw === 'kw3' ? ' on' : ''}`} onClick={() => setLguKw('kw3')}>스페셜데이·장기고객데이</button>
-            <button className={`kw${lguKw === 'kw4' ? ' on' : ''}`} onClick={() => setLguKw('kw4')}>VIP 콕</button>
-          </div>
+          <KwTabs tabs={LGU_TABS} active={lguKw} setActive={setLguKw} />
           <div style={{ textAlign: 'center', padding: '24px 0', color: 'var(--tx2)', fontSize: '12px', lineHeight: 2 }}>
             최근 4주 이내 수집된 반응이 없습니다.<br />
-            <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(전 키워드 × 전 사이트 탐색 중 — 크롤링 업데이트 예정)</span>
+            <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(유플투쁠 · 투쁠데이 · 스페셜데이 · 장기고객데이 · VIP콕 등 전 키워드 × 전 사이트 소진)</span>
           </div>
         </div>
       )}
