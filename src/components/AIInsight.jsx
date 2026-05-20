@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// no state needed — all sections always visible
 
 const compRows = [
   {
@@ -136,8 +136,6 @@ function renderCarrier(data, colorClass) {
 }
 
 export default function AIInsight() {
-  const [tab, setTab] = useState('comp');
-
   return (
     <div className="sec" id="ai">
       <div className="sh">
@@ -146,91 +144,91 @@ export default function AIInsight() {
         <span className="upd-badge upd-1m">↻ 월 갱신</span>
       </div>
 
-      <div className="ai-tabs">
-        <button className={`aitab${tab === 'comp' ? ' at-on' : ''}`} onClick={() => setTab('comp')}>3사 경쟁 매트릭스</button>
-        <button className={`aitab${tab === 'alert' ? ' at-on' : ''}`} onClick={() => setTab('alert')}>비통신 알람</button>
-        <button className={`aitab${tab === 'rec' ? ' at-on' : ''}`} onClick={() => setTab('rec')}>신규 제휴 추천</button>
+      {/* 섹션 1 — 3사 경쟁 매트릭스 */}
+      <div className="ai-sec">
+        <div className="ai-sec-hdr">
+          <span className="ai-sec-title">3사 경쟁 매트릭스</span>
+          <span className="ai-sec-desc">월간 혜택 겹치는 브랜드 · SKT 경쟁 포지션 판정</span>
+        </div>
+        <div className="comp-wrap">
+          <table className="comp-table">
+            <thead>
+              <tr>
+                <th className="comp-th comp-th-brand">브랜드</th>
+                <th className="comp-th comp-th-skt">SKT</th>
+                <th className="comp-th comp-th-kt">KT</th>
+                <th className="comp-th comp-th-lgu">LGU+</th>
+                <th className="comp-th comp-th-vd">판정</th>
+              </tr>
+            </thead>
+            <tbody>
+              {compRows.map((r) => (
+                <tr key={r.brand} className="comp-tr">
+                  <td className="comp-td comp-brand">{r.brand}</td>
+                  <td className="comp-td">{renderCarrier(r.skt, 'cb-skt')}</td>
+                  <td className="comp-td">
+                    {r.kt
+                      ? renderCarrier(r.kt, 'cb-kt')
+                      : <span className="comp-none comp-unk">미확인 *</span>}
+                  </td>
+                  <td className="comp-td">{renderCarrier(r.lgu, 'cb-lgu')}</td>
+                  <td className="comp-td comp-vd-td">
+                    <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
+                    <div className="cvd-note">{r.note}</div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <div className="comp-footer">* KT 공식 사이트 접근 차단 — 달달초이스 상세 미확인</div>
+        </div>
       </div>
 
-      {tab === 'comp' && (
-        <div>
-          <div className="ai-sub">이번달 월간 혜택에서 겹치는 브랜드 비교 — <strong>SKT 경쟁 포지션 판정</strong></div>
-          <div className="comp-wrap">
-            <table className="comp-table">
-              <thead>
-                <tr>
-                  <th className="comp-th comp-th-brand">브랜드</th>
-                  <th className="comp-th comp-th-skt">SKT</th>
-                  <th className="comp-th comp-th-kt">KT</th>
-                  <th className="comp-th comp-th-lgu">LGU+</th>
-                  <th className="comp-th comp-th-vd">판정</th>
-                </tr>
-              </thead>
-              <tbody>
-                {compRows.map((r) => (
-                  <tr key={r.brand} className="comp-tr">
-                    <td className="comp-td comp-brand">{r.brand}</td>
-                    <td className="comp-td">{renderCarrier(r.skt, 'cb-skt')}</td>
-                    <td className="comp-td">
-                      {r.kt
-                        ? renderCarrier(r.kt, 'cb-kt')
-                        : <span className="comp-none comp-unk">미확인 *</span>}
-                    </td>
-                    <td className="comp-td">{renderCarrier(r.lgu, 'cb-lgu')}</td>
-                    <td className="comp-td comp-vd-td">
-                      <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
-                      <div className="cvd-note">{r.note}</div>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            <div className="comp-footer">* KT 공식 사이트 접근 차단 — 달달초이스 상세 미확인</div>
+      {/* 섹션 2 — 비통신 알람 */}
+      <div className="ai-sec">
+        <div className="ai-sec-hdr">
+          <span className="ai-sec-title">비통신 알람</span>
+          <span className="ai-sec-desc">네이버플러스 · 토스뱅크와 겹치는 영역 · 통신사 차별화 현황</span>
+        </div>
+        {alerts.map((a, i) => (
+          <div key={i} className={`alert-card ac-${a.level}`}>
+            <div className="alert-top">
+              <span className={`alert-platform-badge apb-${a.level}`}>{a.platform}</span>
+              {a.level === 'warn' && <span className="alert-lvl-badge alb-warn">⚠ 주의</span>}
+              {a.level === 'ok' && <span className="alert-lvl-badge alb-ok">✅ 강점</span>}
+              {a.level === 'watch' && <span className="alert-lvl-badge alb-watch">👀 모니터링</span>}
+            </div>
+            <div className="alert-title">{a.title}</div>
+            <div className="alert-rows">
+              <div className="alert-row"><span className="alert-lbl">비통신</span><span className="alert-val">{a.them}</span></div>
+              <div className="alert-row"><span className="alert-lbl">통신사</span><span className="alert-val">{a.us}</span></div>
+            </div>
+            <div className={`alert-verdict av-${a.level}`}>{a.verdict}</div>
           </div>
-        </div>
-      )}
+        ))}
+      </div>
 
-      {tab === 'alert' && (
-        <div>
-          <div className="ai-sub">네이버플러스 · 토스뱅크와 겹치는 영역 — <strong>통신사 차별화 현황</strong></div>
-          {alerts.map((a, i) => (
-            <div key={i} className={`alert-card ac-${a.level}`}>
-              <div className="alert-top">
-                <span className={`alert-platform-badge apb-${a.level}`}>{a.platform}</span>
-                {a.level === 'warn' && <span className="alert-lvl-badge alb-warn">⚠ 주의</span>}
-                {a.level === 'ok' && <span className="alert-lvl-badge alb-ok">✅ 강점</span>}
-                {a.level === 'watch' && <span className="alert-lvl-badge alb-watch">👀 모니터링</span>}
-              </div>
-              <div className="alert-title">{a.title}</div>
-              <div className="alert-rows">
-                <div className="alert-row"><span className="alert-lbl">비통신</span><span className="alert-val">{a.them}</span></div>
-                <div className="alert-row"><span className="alert-lbl">통신사</span><span className="alert-val">{a.us}</span></div>
-              </div>
-              <div className={`alert-verdict av-${a.level}`}>{a.verdict}</div>
-            </div>
-          ))}
+      {/* 섹션 3 — 신규 제휴 추천 */}
+      <div className="ai-sec">
+        <div className="ai-sec-hdr">
+          <span className="ai-sec-title">신규 제휴 추천</span>
+          <span className="ai-sec-desc">뜨는 브랜드 × 3사 미운영 교차 분석 · Top 3</span>
         </div>
-      )}
-
-      {tab === 'rec' && (
-        <div>
-          <div className="ai-sub">뜨는 브랜드 × 3사 미운영 교차 분석 — <strong>제휴 추천 Top 3</strong></div>
-          {recs.map((r) => (
-            <div key={r.rank} className="rec-card">
-              <div className="rec-hdr">
-                <div className={`rec-rank${r.hot ? ' rr-hot' : ''}`}>{r.rank}</div>
-                <div className="rec-brand">{r.brand}</div>
-                <div className="rec-tag">{r.tag}</div>
-              </div>
-              <div className="rec-reason">{r.reason}</div>
-              <div className="rec-meta">
-                <span className="rec-trend-lbl">트렌드</span> {r.trend}
-              </div>
-              <div className="rec-status">{r.status}</div>
+        {recs.map((r) => (
+          <div key={r.rank} className="rec-card">
+            <div className="rec-hdr">
+              <div className={`rec-rank${r.hot ? ' rr-hot' : ''}`}>{r.rank}</div>
+              <div className="rec-brand">{r.brand}</div>
+              <div className="rec-tag">{r.tag}</div>
             </div>
-          ))}
-        </div>
-      )}
+            <div className="rec-reason">{r.reason}</div>
+            <div className="rec-meta">
+              <span className="rec-trend-lbl">트렌드</span> {r.trend}
+            </div>
+            <div className="rec-status">{r.status}</div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

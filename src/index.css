@@ -217,14 +217,12 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .ins-txt b{color:var(--tx);font-weight:700}
 .hidden{display:none}
 
-/* ── AI 인사이트 탭 ── */
-.ai-tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
-.aitab{padding:7px 16px;border-radius:20px;border:1.5px solid var(--bd2);font-size:12px;font-weight:700;cursor:pointer;background:var(--bg);color:var(--tx2);font-family:inherit;transition:.15s}
-.aitab:hover{background:var(--bg3)}
-.aitab.at-on{background:var(--pl);color:var(--p);border-color:var(--p)}
-.ai-sub{font-size:11px;color:var(--tx2);margin-bottom:10px}
-.ai-sub strong{color:var(--tx)}
-.ai-sub-badge{font-size:10px;font-weight:700;padding:1px 8px;border-radius:20px;background:var(--pos-bg);color:var(--pos);border:0.5px solid var(--pos-bd);margin-left:6px}
+/* ── AI 인사이트 섹션 ── */
+.ai-sec{margin-bottom:28px}
+.ai-sec:last-child{margin-bottom:0}
+.ai-sec-hdr{display:flex;align-items:baseline;gap:10px;margin-bottom:14px;padding-bottom:10px;border-bottom:2px solid var(--bd);padding-left:11px;border-left:3px solid var(--p)}
+.ai-sec-title{font-size:14px;font-weight:800;color:var(--tx)}
+.ai-sec-desc{font-size:11px;color:var(--tx3)}
 
 /* ── 3사 경쟁 매트릭스 ── */
 .comp-wrap{overflow-x:auto;border-radius:var(--r);border:1px solid var(--bd)}
