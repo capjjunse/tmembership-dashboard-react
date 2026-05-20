@@ -2,14 +2,15 @@ import { useState } from 'react';
 
 export default function Sentiment() {
   const [carrier, setCarrier] = useState('skt');
-  const [sktKw, setSktKw] = useState('kw1');
-  const [ktKw, setKtKw] = useState('kw1');
+  const [sktKw, setSktKw] = useState('kw2');
+  const [ktKw, setKtKw] = useState('kw3');
+  const [lguKw, setLguKw] = useState('kw1');
 
   return (
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌 (2026.05.18 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌 (2026.05.20 갱신)</span>
         <span className="upd-badge upd-3m">↻ 주간 MCP</span>
       </div>
       <div className="tr2">
@@ -18,6 +19,7 @@ export default function Sentiment() {
         <button className={`ctab${carrier === 'lgu' ? ' cl' : ''}`} onClick={() => setCarrier('lgu')}>LGU+</button>
       </div>
 
+      {/* ── SKT ── */}
       {carrier === 'skt' && (
         <div>
           <div className="rbw" style={{ marginTop: '12px' }}>
@@ -40,11 +42,17 @@ export default function Sentiment() {
             <span className="srcbadge act">뽐뿌</span>
           </div>
           <div className="tr2" style={{ marginBottom: '12px' }}>
-            <button className={`kw${sktKw === 'kw1' ? ' on' : ''}`} onClick={() => setSktKw('kw1')}>#T멤버십 T day</button>
-            <button className={`kw${sktKw === 'kw2' ? ' on' : ''}`} onClick={() => setSktKw('kw2')}>#0week·0데이</button>
-            <button className={`kw${sktKw === 'kw3' ? ' on' : ''}`} onClick={() => setSktKw('kw3')}>#VIP Pick·T우주패스</button>
+            <button className={`kw${sktKw === 'kw1' ? ' on' : ''}`} onClick={() => setSktKw('kw1')}>T 멤버십 전반</button>
+            <button className={`kw${sktKw === 'kw2' ? ' on' : ''}`} onClick={() => setSktKw('kw2')}>T day</button>
+            <button className={`kw${sktKw === 'kw3' ? ' on' : ''}`} onClick={() => setSktKw('kw3')}>0week·0day</button>
+            <button className={`kw${sktKw === 'kw4' ? ' on' : ''}`} onClick={() => setSktKw('kw4')}>VIP PICK</button>
           </div>
           {sktKw === 'kw1' && (
+            <div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">개좆슼 VIP 혜택 또 칼질 — "우주패스 12회에서 3회로 줄이고 이젠 없애네" "요금제 비싼거 팔아먹으면서 vip 혜택도 줄이네 아" "프라임플러스 낮춰야되나 ㅋㅋ 이젠 쓰레기네"</div><div className="rsrc">2026.04.30 · <a href="https://www.fmkorea.com/9769581756" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+            </div>
+          )}
+          {sktKw === 'kw2' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">버거킹 13~15일 T멤버십 와퍼 55% 할인 공유 — "갈 일 없어도 가야겠는걸"</div><div className="rsrc">2026.05.12 · <a href="https://www.fmkorea.com/9816271602" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T데이 와퍼 4400원·공차 50% 할인 — "오늘 간만에 와퍼 하나 먹어야겠네요" (조회 21,553)</div><div className="rsrc">2026.05.13 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104070" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -52,14 +60,14 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">아카라이브</span></div><div className="rtx">T멤버십 와퍼 할인 날짜 착각 — "이거 이번주 수요일부터였구나 / 내 세상이 무너졌어.."</div><div className="rsrc">2026.05.10 · <a href="https://arca.live/b/breaking" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
-          {sktKw === 'kw2' && (
+          {sktKw === 'kw3' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">SKT 0week 메가커피 쿠폰 공유 — "님 덕에 공짜쌀먹" "ㄱㅅㄱㅅ!"</div><div className="rsrc">2026.05.06 · <a href="https://www.fmkorea.com/9792056294" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T데이 노브랜드버거 세트 구입 시 콤보 증정 이벤트 — "진짜 별거 없네" "T데이는 치킨 하나 보고 갔는데 이젠 치킨도 없네" (5/4~8)</div><div className="rsrc">2026.05.04 · <a href="https://bbs.ruliweb.com/news/board/1020/read/103869" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">skt 0데이 이벤트 링크 — "이거말곤 별로임"</div><div className="rsrc">2026.05.04 · <a href="https://www.fmkorea.com/9770273964" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">SKT 0데이 이벤트 링크 — "이거말곤 별로임"</div><div className="rsrc">2026.05.04 · <a href="https://www.fmkorea.com/9770273964" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
-          {sktKw === 'kw3' && (
+          {sktKw === 'kw4' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">11번가 아마존 6월 종료로 T우주패스 혜택 변경 — "우주패스 개악된 이후 거의 안써먹음" "달러 미쳐서 해외직구 가성비 꽝"</div><div className="rsrc">2026.04.30 · <a href="https://bbs.ruliweb.com/etcs/board/300010/read/2288393" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">VIP픽 9900원 쿠폰 폐지 반응 — "갈수록 혜택을 줄이네" "좀 괜찮다 싶은 혜택은 다 사라지네요" "메가커피 할인도 없애더니.." (조회 15,247 · 인기글)</div><div className="rsrc">2026.04.30 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=money&no=543529" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -68,6 +76,7 @@ export default function Sentiment() {
         </div>
       )}
 
+      {/* ── KT ── */}
       {carrier === 'kt' && (
         <div>
           <div className="rbw" style={{ marginTop: '12px' }}>
@@ -88,11 +97,25 @@ export default function Sentiment() {
             <span className="srcbadge act">루리웹</span>
           </div>
           <div className="tr2" style={{ marginBottom: '12px' }}>
-            <button className={`kw${ktKw === 'kw1' ? ' on' : ''}`} onClick={() => setKtKw('kw1')}>#KT 고객보답·고객감사</button>
-            <button className={`kw${ktKw === 'kw2' ? ' on' : ''}`} onClick={() => setKtKw('kw2')}>#KT멤버십 티켓팅</button>
-            <button className={`kw${ktKw === 'kw3' ? ' on' : ''}`} onClick={() => setKtKw('kw3')}>#달달초이스</button>
+            <button className={`kw${ktKw === 'kw1' ? ' on' : ''}`} onClick={() => setKtKw('kw1')}>KT 멤버십 전반</button>
+            <button className={`kw${ktKw === 'kw2' ? ' on' : ''}`} onClick={() => setKtKw('kw2')}>달달혜택</button>
+            <button className={`kw${ktKw === 'kw3' ? ' on' : ''}`} onClick={() => setKtKw('kw3')}>VVIP·VIP 초이스</button>
           </div>
           {ktKw === 'kw1' && (
+            <div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 롤파크 티켓구매 — "카드결제 됐는데 품절, 매크로 아니냐" "올해부턴 걍 불가능이다"</div><div className="rsrc">2026.05.01 · <a href="https://www.fmkorea.com/9772989347" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+            </div>
+          )}
+          {ktKw === 'kw2' && (
+            <div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">5월 KT 달달혜택 팀홀튼 아이스 딥라떼 선착순 3만명 무료 — "이번 달은 좀 달달하네요" "도미노 50%도 생겼어요" / "팀홀튼 받았는데 매장이 없당 흑흑 바까줘"</div><div className="rsrc">2026.05.15 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104137" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">kt달달혜택 파리바게뜨 할인쿠폰 소진 — "어제부터였는데 선택할게 없으니깐 파빠 벌써 종료.. 하루밖에 안 됐잖아 ㅠ" "방금 샀는데 다 떨어졌구나"</div><div className="rsrc">2026.05.16 · <a href="https://bbs.ruliweb.com/community/board/300143/read/75202922" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT 멤버십 토이스토리 5 시사회 응모 — "5월 달달혜택 최상단에서 응모가능" "시사회 정보 감사합니당"</div><div className="rsrc">2026.05.16 · <a href="https://www.fmkorea.com/9832474723" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">도미노를 꾸준히 시키는 이유 — "15일부터 KT 달달혜택 도미노피자라서 반값입니다"</div><div className="rsrc">2026.05.13 · <a href="https://www.fmkorea.com/9821160936" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">달달혜택 할리스 받았는데 동네 매장 없어졌다고? — "씊이네"</div><div className="rsrc">2026.05.16 · <a href="https://www.fmkorea.com/9832849366" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+            </div>
+          )}
+          {ktKw === 'kw3' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 5월 고객보답 2차 (투썸50%/배민×노랑통닭) 공유 — "오랜만에 노통 함 조져야겠네" "메가커피 오늘 먹어야겠네 2잔 아메리카노 공짜!!"</div><div className="rsrc">2026.05.15 · <a href="https://www.fmkorea.com/9827869002" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">5월 KT 고객감사 메가커피 2잔 무료 — "U플러스는 고객감사 안하나ㅡ.ㅡ"</div><div className="rsrc">2026.05.08 · <a href="https://www.fmkorea.com/9800753363" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -101,24 +124,37 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 5월 1차 보답프로그램 — "보답이 짜다.." "VVIP 혜택 축소, 베라 레디팩 1개" "그래도 kt는 하기라도 하지"</div><div className="rsrc">2026.05.01 · <a href="https://www.fmkorea.com/9772119625" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
-          {ktKw === 'kw2' && (
-            <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 롤파크 티켓구매 — "카드결제 됐는데 품절, 매크로 아니냐" "올해부턴 걍 불가능이다"</div><div className="rsrc">2026.05.01 · <a href="https://www.fmkorea.com/9772989347" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-            </div>
-          )}
-          {ktKw === 'kw3' && (
-            <div style={{ textAlign: 'center', padding: '24px 0', color: 'var(--tx2)', fontSize: '12px', lineHeight: 2 }}>
-              최근 4주 이내 수집된 반응이 없습니다.<br />
-              <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(달달초이스 키워드 신규 추가 — 다음 크롤링부터 반영)</span>
-            </div>
-          )}
         </div>
       )}
 
+      {/* ── LGU+ ── */}
       {carrier === 'lgu' && (
-        <div style={{ textAlign: 'center', padding: '32px 0', color: 'var(--tx2)', fontSize: '12px', lineHeight: 2 }}>
-          최근 4주 이내 수집된 반응이 없습니다.<br />
-          <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(검색어: 유플투쁠·투쁠데이·장기고객데이·U+멤버십 등 전 키워드 · 에펨코리아·루리웹·아카라이브·뽐뿌 전 사이트 소진)</span>
+        <div>
+          <div className="rbw" style={{ marginTop: '12px' }}>
+            <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
+            <div className="rb">
+              <div className="rbs ru" style={{ width: '100%' }}>수집 중</div>
+            </div>
+            <div className="rleg">
+              <div className="rli"><div className="rld" style={{ background: 'var(--neu)' }}></div>데이터 수집 중</div>
+            </div>
+          </div>
+          <div className="srcs">
+            <span className="srcbadge act">에펨코리아</span>
+            <span className="srcbadge act">루리웹</span>
+            <span className="srcbadge act">아카라이브</span>
+            <span className="srcbadge act">뽐뿌</span>
+          </div>
+          <div className="tr2" style={{ marginBottom: '12px' }}>
+            <button className={`kw${lguKw === 'kw1' ? ' on' : ''}`} onClick={() => setLguKw('kw1')}>U+ 멤버십 전반</button>
+            <button className={`kw${lguKw === 'kw2' ? ' on' : ''}`} onClick={() => setLguKw('kw2')}>유플투쁠</button>
+            <button className={`kw${lguKw === 'kw3' ? ' on' : ''}`} onClick={() => setLguKw('kw3')}>스페셜데이·장기고객데이</button>
+            <button className={`kw${lguKw === 'kw4' ? ' on' : ''}`} onClick={() => setLguKw('kw4')}>VIP 콕</button>
+          </div>
+          <div style={{ textAlign: 'center', padding: '24px 0', color: 'var(--tx2)', fontSize: '12px', lineHeight: 2 }}>
+            최근 4주 이내 수집된 반응이 없습니다.<br />
+            <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(전 키워드 × 전 사이트 탐색 중 — 크롤링 업데이트 예정)</span>
+          </div>
         </div>
       )}
     </div>
