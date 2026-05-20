@@ -48,8 +48,9 @@ export default function Sentiment() {
             <button className={`kw${sktKw === 'kw4' ? ' on' : ''}`} onClick={() => setSktKw('kw4')}>VIP PICK</button>
           </div>
           {sktKw === 'kw1' && (
-            <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">개좆슼 VIP 혜택 또 칼질 — "우주패스 12회에서 3회로 줄이고 이젠 없애네" "요금제 비싼거 팔아먹으면서 vip 혜택도 줄이네 아" "프라임플러스 낮춰야되나 ㅋㅋ 이젠 쓰레기네"</div><div className="rsrc">2026.04.30 · <a href="https://www.fmkorea.com/9769581756" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+            <div style={{ textAlign: 'center', padding: '24px 0', color: 'var(--tx2)', fontSize: '12px', lineHeight: 2 }}>
+              최근 4주 이내 수집된 반응이 없습니다.<br />
+              <span style={{ fontSize: '11px', color: 'var(--tx3)' }}>(T멤버십 VIP · SKT 멤버십 · SKT 혜택 · 슼 멤버십 · 슼 혜택 등 키워드 탐색 중)</span>
             </div>
           )}
           {sktKw === 'kw2' && (
@@ -69,6 +70,7 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw4' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">개좆슼 VIP 혜택 또 칼질 — "우주패스 12회에서 3회로 줄이고 이젠 없애네" "요금제 비싼거 팔아먹으면서 VIP 혜택도 줄이네 아" "프라임플러스 낮춰야되나 ㅋㅋ 이젠 쓰레기네"</div><div className="rsrc">2026.04.30 · <a href="https://www.fmkorea.com/9769581756" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">11번가 아마존 6월 종료로 T우주패스 혜택 변경 — "우주패스 개악된 이후 거의 안써먹음" "달러 미쳐서 해외직구 가성비 꽝"</div><div className="rsrc">2026.04.30 · <a href="https://bbs.ruliweb.com/etcs/board/300010/read/2288393" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">VIP픽 9900원 쿠폰 폐지 반응 — "갈수록 혜택을 줄이네" "좀 괜찮다 싶은 혜택은 다 사라지네요" "메가커피 할인도 없애더니.." (조회 15,247 · 인기글)</div><div className="rsrc">2026.04.30 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=money&no=543529" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
@@ -99,7 +101,7 @@ export default function Sentiment() {
           <div className="tr2" style={{ marginBottom: '12px' }}>
             <button className={`kw${ktKw === 'kw1' ? ' on' : ''}`} onClick={() => setKtKw('kw1')}>KT 멤버십 전반</button>
             <button className={`kw${ktKw === 'kw2' ? ' on' : ''}`} onClick={() => setKtKw('kw2')}>달달혜택</button>
-            <button className={`kw${ktKw === 'kw3' ? ' on' : ''}`} onClick={() => setKtKw('kw3')}>VVIP·VIP 초이스</button>
+            <button className={`kw${ktKw === 'kw3' ? ' on' : ''}`} onClick={() => setKtKw('kw3')}>고객보답프로그램</button>
           </div>
           {ktKw === 'kw1' && (
             <div>
