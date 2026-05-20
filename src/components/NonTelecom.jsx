@@ -5,48 +5,95 @@ export default function NonTelecom() {
       grad: 'linear-gradient(135deg,#03c75a,#02a84c)',
       tag: '구독형 · 월 4,900원',
       tagStyle: { background: '#e6f9ee', color: '#1a7f3c' },
-      core: '네이버쇼핑 최대 5% 적립, 네이버페이 결제 시 추가 혜택',
-      watch: '2026 하반기 무제한 무료배송 도입 예고 — 쿠팡(월 7,890원) 대비 4,900원으로 배송 경쟁 격화. T멤버십 소상공인 영역 잠식 경계 필요',
+      link: 'https://nid.naver.com/membership/join?m=brochure#family',
+      benefits: [
+        '네이버페이 포인트 최대 5% 적립 (월 20만원까지)',
+        'N배송 1만원 이상 주문 무료배송',
+        '디지털 콘텐츠 이용권 1개 선택 (넷플릭스·티빙 등)',
+        '웹툰·시리즈 쿠키 10개/월 무료',
+        'MYBOX 80GB 추가 제공',
+        '패밀리 최대 3명 초대 (5% 적립 동일 적용)',
+      ],
+      watch: '2026 하반기 무제한 무료배송 예고 — 이커머스·적립·콘텐츠 번들로 전방위 확장 중',
     },
     {
       title: '쿠팡 로켓와우',
       grad: 'linear-gradient(135deg,#ff6b00,#ff9500)',
       tag: '구독형 · 월 7,890원',
       tagStyle: { background: '#fff3e6', color: '#cc5500' },
-      core: '로켓배송 무료, 로켓프레시, 쿠팡이츠 무료배달',
-      watch: '쿠팡이츠 배달 번들 강화로 외식·생활 전방위 커버. 구독료 인상 후에도 회원 수 증가세 유지',
+      link: 'https://www.coupang.com/np/campaigns/rocketwow',
+      benefits: [
+        '로켓배송 무료 (금액·거리 무관)',
+        '쿠팡이츠 무제한 무료배달',
+        '로켓프레시 당일·새벽배송 무료',
+        '쿠팡플레이 무료 이용',
+        '로켓배송 상품 무료 반품',
+        '와우 전용 할인가 제공',
+      ],
+      watch: '쇼핑·배달·OTT 번들 — 구독료 인상 후에도 회원 증가세 유지. 일상 전방위 커버',
+    },
+    {
+      title: '배민클럽',
+      grad: 'linear-gradient(135deg,#46b0fa,#1b87f6)',
+      tag: '구독형 · 월 3,990원',
+      tagStyle: { background: '#e8f4fe', color: '#1560bd' },
+      link: 'https://www.baemin.com/',
+      benefits: [
+        '알뜰배달 입점 가게 배달팁 무료 (거리·금액 무관)',
+        '1인분 소량 주문도 배달팁 0원',
+        '매주 추가 쿠폰·할인 제공',
+        '유튜브 프리미엄 번들 옵션 (월 13,900원)',
+        '신규 가입 프로모션 월 1,990원',
+      ],
+      watch: '배달 버티컬 전문 — T-day 1회성 할인 대비 상시 무료배달 압도적 우위. 배달 고객 락인 직접 경쟁',
+    },
+    {
+      title: '올리브영 멤버스',
+      grad: 'linear-gradient(135deg,#00c73c,#009e30)',
+      tag: '무료 가입 · 구매실적 등급제',
+      tagStyle: { background: '#e6f9ee', color: '#007a25' },
+      link: 'https://www.oliveyoung.co.kr/store/main/getMembership.do',
+      benefits: [
+        '5단계 등급: BABY → PINK → GREEN → BLACK → GOLD',
+        'CJ ONE 포인트 적립 (PINK/BABY 0.5%, GREEN 이상 1.0%)',
+        '올리브 데이 등급별 쿠폰 (매월 25일 지급)',
+        '리디 포인트 1,000원 (매주 금요일 선착순)',
+        '청연·탈잉 최대 10% 쿠폰',
+        'GOLD·BLACK 전용 라운지 이용권 + 무료 포장',
+      ],
+      watch: 'GOLD 등급(연 100만원+) 충성 고객에 오프라인 체험 혜택 → 뷰티 MZ 락인 강화',
+    },
+    {
+      title: '무신사',
+      grad: 'linear-gradient(135deg,#1a1a1a,#3a3a3a)',
+      tag: '무료 가입 · 구매실적 등급제',
+      tagStyle: { background: '#f0f0f0', color: '#1a1a1a' },
+      link: 'https://www.musinsa.com/onboarding/benefit',
+      benefits: [
+        '구매실적 기반 1~9레벨 등급 (9레벨 VVIP 신설)',
+        '등급별 장바구니 쿠폰 월 1회 (최대 5%, 다품목 적용)',
+        '관심 브랜드 쿠폰 최대 40%',
+        '관심 상품 쿠폰 최대 30%',
+        '출석체크·무퀴즈 랜덤 혜택 일 적립',
+        '친구 초대 적립금 5,000원',
+      ],
+      watch: '패션 버티컬 1위, VVIP 신설로 충성 고객 혜택 강화. T멤버십 패션 카테고리 공백 부각',
     },
     {
       title: '현대카드 MEMBERSHIP',
       grad: 'linear-gradient(135deg,#1a1a2e,#16213e)',
       tag: '카드 연계형',
       tagStyle: { background: '#e8e8f0', color: '#1a1a2e' },
-      core: 'The Pink·Black·Purple 등급별 공항라운지, 호텔·골프 혜택',
-      watch: '프리미엄 라이프스타일 타깃. 통신사 멤버십과 상호보완적 포지션',
-    },
-    {
-      title: '당근 로컬 커머스',
-      grad: 'linear-gradient(135deg,#ff6f0f,#ff9500)',
-      tag: '무료 플랫폼',
-      tagStyle: { background: '#fff0e6', color: '#cc5500' },
-      core: '동네 소상공인 쿠폰북, 동네걷기 리워드',
-      watch: 'MAU 2천만 플랫폼이 오프라인 일상 혜택 침투 중. T멤버십 소상공인 가맹점 영역 직접 경쟁',
-    },
-    {
-      title: '카카오페이·토스 리워드',
-      grad: 'linear-gradient(135deg,#3a1cba,#6c3fff)',
-      tag: '금융 연계형',
-      tagStyle: { background: '#ede6ff', color: '#4a00cc' },
-      core: '결제 시 포인트 적립, 출석 리워드, 제휴 할인',
-      watch: '금융 플랫폼 기반 일상 혜택 확장. 간편결제 확산으로 접점 증가',
-    },
-    {
-      title: '올리브영·무신사 멤버십',
-      grad: 'linear-gradient(135deg,#00c73c,#009e30)',
-      tag: '버티컬 커머스형',
-      tagStyle: { background: '#e6f9ee', color: '#007a25' },
-      core: '올리브영: 등급별 적립·쿠폰 / 무신사: 무신사포인트 적립',
-      watch: '뷰티·패션 버티컬에서 MZ세대 록인. 통신사 멤버십의 해당 카테고리 접점 잠식',
+      link: 'https://www.hyundaicard.com/',
+      benefits: [
+        'The Pink · The Black · The Purple 3등급',
+        '공항 라운지 무료 이용 (KAL 포함)',
+        '특급 호텔 할인 및 무료 조식',
+        '골프 그린피 할인',
+        '전용 공연·전시 초청',
+        '전담 컨시어지 서비스',
+      ],
+      watch: '프리미엄 라이프스타일 타깃 — T멤버십과 상호보완적 포지션. 동일 고객 중복 이용 가능',
     },
   ];
 
@@ -61,12 +108,14 @@ export default function NonTelecom() {
           <div className="ntc" key={c.title}>
             <div className="nth" style={{ background: c.grad, color: '#fff' }}>{c.title}</div>
             <div className="ntb">
-              <span className="nttag" style={c.tagStyle}>{c.tag}</span>
-              <div className="ntrow">
-                <span className="ntlbl">핵심</span>
-                <span className="ntval">{c.core}</span>
+              <div className="ntb-top">
+                <span className="nttag" style={c.tagStyle}>{c.tag}</span>
+                <a className="ntlink" href={c.link} target="_blank" rel="noreferrer">공식 페이지 →</a>
               </div>
-              <div className="ntrow">
+              <ul className="ntlist">
+                {c.benefits.map((b, i) => <li key={i}>{b}</li>)}
+              </ul>
+              <div className="ntwatch">
                 <span className="ntlbl">주목</span>
                 <span className="ntval">{c.watch}</span>
               </div>
