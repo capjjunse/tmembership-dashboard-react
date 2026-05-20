@@ -52,17 +52,19 @@ const compRows = [
   },
 ];
 
-// nb: 비통신 6개 카드(공식 홈페이지 확인 기준) / tm: T멤버십
-// 포맷: "제휴처 (기한)" 한 줄 → "[등급] 혜택내용" 행 반복
+// nb: 네이버플러스 메인, 동일 카테고리 해당 시 쿠팡·배민 합류 / tm: T멤버십
+// 올리브영·무신사·현대카드는 특화 버티컬 → #8 비통신 현황 섹션에서만 다룸
 const alCats = [
   // ── T멤버십 우위 ──
   {
     icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
-    nb: null,
+    nb: [{ platform: '네이버플러스', items: [
+      { partner: '쏘카', deadline: '~26.06.30', rows: [{ grade: null, desc: '50% 할인 (네이버예약 경유)' }] },
+    ]}],
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
     ]}],
-    reasons: ['T멤버십: SK렌터카 제주 85%, 내륙 60% 전 등급 상시 운영', '비통신 6종: 렌터카·카셰어링 제휴 없음'],
+    reasons: ['T멤버십: SK렌터카 제주 85%·내륙 60% 전 등급 상시 운영', '네이버플러스: 쏘카 50% 기간한정 (~26.06.30) · 경유 조건 있음'],
   },
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
@@ -73,7 +75,7 @@ const alCats = [
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
     ]}],
-    reasons: ['T멤버십: 외식 브랜드 상시 10~30% + T-day 최대 50~55% 다수 운영', '비통신 6종: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 외식 브랜드 상시 10~30% + T-day 최대 55% 다수 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -84,36 +86,28 @@ const alCats = [
         { grade: 'G, S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
       ]},
     ]}],
-    reasons: ['T멤버십: 롯데월드 종합이용권 본인 40%+동반 할인 상시 운영', '비통신 6종: 테마파크 제휴 없음'],
-  },
-  {
-    icon: '🏪', cat: '편의점', v: 'good',
-    nb: null,
-    tm: [{ platform: 'T멤버십', items: [
-      { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
-      { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
-    ]}],
-    reasons: ['T멤버십: CU·세븐일레븐 V·G 10% 상시 운영', '비통신 6종: 편의점 직접 제휴 없음'],
-  },
-  {
-    icon: '🎬', cat: '영화관', v: 'good',
-    nb: null,
-    tm: [{ platform: 'T멤버십', items: [
-      { partner: 'CGV', deadline: '상시', rows: [
-        { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
-        { grade: '전 등급', desc: '4천원 할인' },
-      ]},
-    ]}],
-    reasons: ['T멤버십: CGV V 무료·1+1·전 등급 4천원 상시 운영', '비통신 6종: 영화관 직접 제휴 없음'],
+    reasons: ['T멤버십: 롯데월드 종합이용권 본인 40%+동반 할인 상시 운영', '비통신 멤버십: 테마파크 제휴 없음'],
   },
   // ── T멤버십 열위 ──
   {
+    icon: '⛽', cat: '주유', v: 'warn',
+    nb: [{ platform: '네이버플러스', items: [
+      { partner: 'GS칼텍스', deadline: '월 최대 5,000P · 상시', rows: [{ grade: null, desc: 'L당 100원 Npay 적립' }] },
+    ]}],
+    tm: null,
+    reasons: ['네이버플러스: GS칼텍스 전국 L당 100원 Npay 적립 상시 운영', 'T멤버십: 주유 제휴 없음'],
+  },
+  {
     icon: '🛵', cat: '배달', v: 'warn',
     nb: [
-      { platform: '쿠팡 로켓와우 (월 7,890원)', items: [
-        { partner: '쿠팡이츠', deadline: '상시', rows: [
-          { grade: null, desc: '무제한 무료배달 (금액·거리 무관)' },
+      { platform: '네이버플러스', items: [
+        { partner: '요기요 (요기패스X)', deadline: '상시', rows: [
+          { grade: null, desc: '15,000원 이상 무료배달' },
+          { grade: null, desc: '포장 5% 할인' },
         ]},
+      ]},
+      { platform: '쿠팡 로켓와우 (월 7,890원)', items: [
+        { partner: '쿠팡이츠', deadline: '상시', rows: [{ grade: null, desc: '무제한 무료배달 (금액·거리 무관)' }] },
       ]},
       { platform: '배민클럽 (월 3,990원)', items: [
         { partner: '배달의민족', deadline: '상시', rows: [
@@ -123,7 +117,7 @@ const alCats = [
       ]},
     ],
     tm: null,
-    reasons: ['쿠팡이츠 무제한 + 배민 알뜰배달 무료 — 국내 배달 2강 모두 비통신이 커버', 'T멤버십: 배달 상시 제휴 없음 (T-day 월간 1~2회에 그침)'],
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 (T-day 월간 1~2회에 그침)'],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'warn',
@@ -141,7 +135,7 @@ const alCats = [
     tm: [{ platform: 'T멤버십', items: [
       { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
     ]}],
-    reasons: ['쿠팡 로켓와우: 로켓배송 무료 + 와우 전용가 — 물류 기반 이커머스 압도', 'T멤버십: 11번가 최대 11% 적립 (SK그룹 플랫폼 한정)'],
+    reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 최대 11% 적립 (SK그룹 플랫폼 한정)'],
   },
   {
     icon: '📺', cat: 'OTT·콘텐츠', v: 'warn',
@@ -158,55 +152,51 @@ const alCats = [
       ]},
     ],
     tm: null,
-    reasons: ['비통신 3종: 넷플릭스·티빙·쿠팡플레이·유튜브 프리미엄 모두 커버', 'T멤버십: OTT 상시 제휴 없음'],
-  },
-  {
-    icon: '👗', cat: '패션', v: 'warn',
-    nb: [{ platform: '무신사 (무료 가입)', items: [
-      { partner: '무신사', deadline: '상시', rows: [
-        { grade: null, desc: '관심 브랜드 쿠폰 최대 40%' },
-        { grade: null, desc: '관심 상품 쿠폰 최대 30%' },
-        { grade: null, desc: '등급별 장바구니 쿠폰 월 1회 (최대 5%)' },
-      ]},
-    ]}],
-    tm: null,
-    reasons: ['무신사: 관심 브랜드·상품 맞춤 쿠폰 자동 발급 최대 40% — 패션 버티컬 압도', 'T멤버십: 패션 카테고리 상시 제휴 없음'],
-  },
-  {
-    icon: '💄', cat: '뷰티·H&B', v: 'warn',
-    nb: [{ platform: '올리브영 멤버스 (무료 가입)', items: [
-      { partner: '올리브영', deadline: '상시', rows: [
-        { grade: null, desc: '올리브 데이 등급별 쿠폰 (매월 25일)' },
-        { grade: null, desc: 'CJ ONE 포인트 최대 1.0% 적립' },
-        { grade: 'GOLD·BLACK', desc: '전용 라운지 + 무료 포장' },
-      ]},
-    ]}],
-    tm: null,
-    reasons: ['올리브영: H&B 1위 플랫폼 등급 쿠폰·적립 + 오프라인 라운지', 'T멤버십: 뷰티·H&B 카테고리 상시 제휴 없음'],
-  },
-  {
-    icon: '✈️', cat: '프리미엄 라이프', v: 'warn',
-    nb: [{ platform: '현대카드 MEMBERSHIP (카드 연계형)', items: [
-      { partner: '공항 라운지 (KAL 포함)', deadline: '상시', rows: [{ grade: null, desc: '무료 이용' }] },
-      { partner: '특급 호텔', deadline: '상시', rows: [{ grade: null, desc: '할인 및 무료 조식' }] },
-      { partner: '골프장', deadline: '상시', rows: [{ grade: null, desc: '그린피 할인' }] },
-    ]}],
-    tm: null,
-    reasons: ['현대카드: 공항 라운지·특급 호텔·골프 실물 혜택 — 프리미엄 오프라인 커버', 'T멤버십: 프리미엄 라이프 카테고리 직접 제휴 없음'],
+    reasons: ['비통신 3종: 넷플릭스·티빙·쿠팡플레이·유튜브 프리미엄 모두 커버', 'T멤버십: OTT·콘텐츠 상시 제휴 없음'],
   },
   // ── 유사 수준 ──
   {
-    icon: '🏬', cat: '마트·신선', v: 'neut',
-    nb: [{ platform: '쿠팡 로켓와우 (월 7,890원)', items: [
-      { partner: '로켓프레시', deadline: '상시', rows: [{ grade: null, desc: '당일·새벽배송 무료' }] },
+    icon: '🏪', cat: '편의점', v: 'neut',
+    nb: [{ platform: '네이버플러스', items: [
+      { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
+    tm: [{ platform: 'T멤버십', items: [
+      { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
+      { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
+    ]}],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: CU V·G 10% 동급 + 세븐일레븐 추가 운영'],
+  },
+  {
+    icon: '🎬', cat: '영화관', v: 'neut',
+    nb: [{ platform: '네이버플러스', items: [
+      { partner: '롯데시네마', deadline: '월 4회 · ~26.12.31', rows: [{ grade: null, desc: '최대 5천원 + 콤보 3천원 할인' }] },
+    ]}],
+    tm: [{ platform: 'T멤버십', items: [
+      { partner: 'CGV', deadline: '상시', rows: [
+        { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
+        { grade: '전 등급', desc: '4천원 할인' },
+      ]},
+    ]}],
+    reasons: ['네이버플러스: 롯데시네마 커버', 'T멤버십: CGV 커버 (롯데시네마 2026.02 종료) → CGV·롯데 채널 분리'],
+  },
+  {
+    icon: '🏬', cat: '마트·신선', v: 'neut',
+    nb: [
+      { platform: '네이버플러스', items: [
+        { partner: '롯데마트', deadline: '상시', rows: [{ grade: null, desc: '신상 5% 할인 + 무료배송' }] },
+        { partner: '컬리', deadline: '상시', rows: [{ grade: null, desc: '2만원 이상 무료배송' }] },
+      ]},
+      { platform: '쿠팡 로켓와우 (월 7,890원)', items: [
+        { partner: '로켓프레시', deadline: '상시', rows: [{ grade: null, desc: '당일·새벽배송 무료' }] },
+      ]},
+    ],
     tm: [{ platform: 'T멤버십', items: [
       { partner: '이마트', deadline: '상시', rows: [
         { grade: 'V', desc: '짝수월 7%, 홀수월 3% 적립' },
         { grade: 'G, S', desc: '3% 적립' },
       ]},
     ]}],
-    reasons: ['쿠팡 로켓프레시: 당일·새벽 무료배송 — 온라인 신선식품 우위', 'T멤버십: 이마트 오프라인 3~7% 적립 — 오프라인 구매 우위'],
+    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 오프라인 3~7% 적립 → 온/오프 채널 분리'],
   },
 ];
 
