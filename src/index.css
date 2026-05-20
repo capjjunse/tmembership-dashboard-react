@@ -191,7 +191,10 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .ntlist li::before{content:'·';position:absolute;left:0;color:var(--tx3)}
 .ntwatch{padding-top:8px;border-top:1px solid var(--bd)}
 .ntlbl{display:block;font-size:10px;font-weight:800;color:var(--tx3);text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px}
-.ntval{font-size:11px;color:var(--tx2);line-height:1.55}
+.ntval{font-size:11px;color:var(--tx2);line-height:1.55;margin-bottom:4px}
+.ntedge{list-style:none;margin:4px 0 0;padding:0;font-size:11px;line-height:1.75;color:var(--tx2)}
+.ntedge li{padding-left:.9rem;position:relative}
+.ntedge li::before{content:'·';position:absolute;left:0;color:var(--tx3)}
 .swot-grid{display:grid;grid-template-columns:repeat(3,1fr);column-gap:12px;row-gap:0;margin-bottom:16px}
 @media(max-width:720px){.swot-grid{grid-template-columns:1fr}}
 .swot-card{display:grid;grid-row:span 3;grid-template-rows:subgrid;border-radius:var(--rl);overflow:hidden;box-shadow:var(--sh);transition:.2s}
