@@ -353,9 +353,9 @@ export default function AIInsight() {
                   : g.rows.map((r) => (
                     <tr key={r.brand} className="comp-tr">
                       <td className="comp-td comp-brand">{r.brand}</td>
-                      <td className="comp-td">{renderCarrier(r.skt, 'cb-skt')}</td>
-                      <td className="comp-td">{renderCarrier(r.kt, 'cb-kt')}</td>
-                      <td className="comp-td">{renderCarrier(r.lgu, 'cb-lgu')}</td>
+                      <td className="comp-td comp-td-skt">{renderCarrier(r.skt, 'cb-skt')}</td>
+                      <td className="comp-td comp-td-kt">{renderCarrier(r.kt, 'cb-kt')}</td>
+                      <td className="comp-td comp-td-lgu">{renderCarrier(r.lgu, 'cb-lgu')}</td>
                       <td className="comp-td comp-vd-td">
                         <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
                         {r.basis && <div className="cvd-basis">{r.basis}</div>}
