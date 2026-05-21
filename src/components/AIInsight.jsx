@@ -222,28 +222,37 @@ const recs = [
     rank: 1,
     brand: '설빙',
     tag: '매장 596개 · DataLab 📈1.22',
-    reason: '5월 4주째 검색량 상승 중, 여름 시즌 진입 직전 타이밍. VIP Pick 현재 운영 중이나 T-day는 2026.03 이후 2개월 공백. KT·LGU+ 모두 미운영으로 T-day 재계약 시 단독 선점 가능.',
-    trend: 'DataLab 1.22 상승세 · 블로그 74만 · 카페 25만 · 뉴스 28건',
-    status: 'SKT VIP Pick 🟢현재 / T-day ⚫2026.03 (2개월 공백) · KT ❌ · LGU+ ❌',
+    reason: '5월 내내 검색량 상승 중. 여름 시즌 직전 T-day 재계약 타이밍 — KT·LGU+ 모두 미운영으로 단독 선점 가능.',
+    trend: 'DataLab 1.22 · 블로그 74만 · 카페 25만 · 뉴스 28건',
     hot: true,
+    skt: [
+      { prog: 'VIP Pick', active: true,  last: null,      gap: null },
+      { prog: 'T-day',    active: false, last: '2026.03', gap: '2개월 공백' },
+    ],
+    kt:  null,
+    lgu: null,
   },
   {
     rank: 2,
     brand: '청년다방',
-    tag: '매장 273개 · DataLab ↗1.14 · 3사 모두 미운영',
-    reason: '4월부터 꾸준히 상승 중인 브랜드. 저가 분식 카테고리로 빈도 높은 방문 유도 가능. SKT·KT·LGU+ 어느 통신사도 미운영 상태 — 선점 기회.',
-    trend: 'DataLab 1.14 상승세 · 블로그 22만 · 뉴스 88건 (최근 언론 노출 증가)',
-    status: 'SKT ❌ · KT ❌ · LGU+ ❌ — 3사 모두 미운영',
+    tag: '매장 273개 · DataLab ↗1.14',
+    reason: '4월부터 꾸준히 상승 중. 저가 분식 카테고리로 방문 빈도 높음. 3사 모두 미참여 — 선점 기회.',
+    trend: 'DataLab 1.14 · 블로그 22만 · 뉴스 88건',
     hot: true,
+    skt: [],
+    kt:  null,
+    lgu: null,
   },
   {
     rank: 3,
     brand: '60계치킨',
-    tag: '매장 628개 · 3사 모두 미운영',
-    reason: '중가 치킨 브랜드로 전국 628개 매장 보유, 안정적 제휴 규모 확보. 블로그 10만·카페 15만으로 카페 언급이 많아 실사용자 버즈 높은 편. 3사 모두 미운영 상태.',
-    trend: '트렌드 보합(0.99) · 블로그 10만 · 카페 15만 · 뉴스 34건',
-    status: 'SKT ❌ · KT ❌ · LGU+ ❌ — 3사 모두 미운영',
+    tag: '매장 628개 · 3사 미운영',
+    reason: '전국 628개 매장 보유로 안정적 제휴 규모. 카페 언급 15만으로 실사용자 버즈 높은 편. 3사 모두 미참여.',
+    trend: '트렌드 0.99 · 블로그 10만 · 카페 15만 · 뉴스 34건',
     hot: false,
+    skt: [],
+    kt:  null,
+    lgu: null,
   },
 ];
 
@@ -397,7 +406,24 @@ export default function AIInsight() {
             <div className="rec-meta">
               <span className="rec-trend-lbl">트렌드</span> {r.trend}
             </div>
-            <div className="rec-status">{r.status}</div>
+            <div className="rec-hist">
+              <span className="rec-hist-lbl">SKT</span>
+              {r.skt.length === 0 ? (
+                <span className="rpb rpb-none">제휴 이력 없음</span>
+              ) : (
+                r.skt.map((s, i) => (
+                  <span key={i} className={`rpb ${s.active ? 'rpb-active' : 'rpb-past'}`}>
+                    {s.active ? '🟢' : '⚫'} {s.prog}{!s.active && s.last ? ` · ${s.last}` : ''}{s.gap ? ` (${s.gap})` : ''}
+                  </span>
+                ))
+              )}
+            </div>
+            {(r.kt !== null || r.lgu !== null) && (
+              <div className="rec-comp-row">
+                {r.kt  !== null && <span className="rcomp-badge rcomp-kt">KT 🟢 현재 운영</span>}
+                {r.lgu !== null && <span className="rcomp-badge rcomp-lgu">LGU+ 🟢 현재 운영</span>}
+              </div>
+            )}
           </div>
         ))}
       </div>
