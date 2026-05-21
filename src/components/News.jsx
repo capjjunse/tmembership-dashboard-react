@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">SKT 'T 장기고객 숲캉스 데이' 성료 — 10년↑ 장기고객 1,800명 초청, 최대 863:1 경쟁률</span></div>
+            <div className="nsum">T멤버십 앱 응모로 진행. 에버랜드 단독 대관 체험 이벤트. 파인 다이닝·놀이공원·뮤지컬 등 장기고객 전용 초청 이벤트 지속 예정으로, SKT 장기고객 우대 전략 강화 기조 확인.</div>
+            <div className="nmeta">2026-05-19 · <a href="https://news.sktelecom.com/225003" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">5월 T멤버십 혜택 총정리 — 루덴시아·더벤티 신규, 가정의달 테마파크 특별전, VIP Pick 혜택</span></div>
             <div className="nsum">5월 신규 제휴사로 루덴시아·더벤티 추가. 투루카 65% 할인, 고향사랑기부제 이벤트 포함. 가정의달 맞아 가족 혜택 강화.</div>
             <div className="nmeta">2026-05-01 · <a href="https://news.sktelecom.com/224466" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
