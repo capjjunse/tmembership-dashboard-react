@@ -72,7 +72,9 @@ a{color:var(--p);text-decoration:none}a:hover{text-decoration:underline}
 .ovki-trend .ovki-cat{color:var(--kt)}
 .ovki-warn .ovki-cat{color:#d97706}
 .ovki-title{font-size:12px;font-weight:800;color:var(--tx);line-height:1.4}
-.ovki-body{font-size:11px;color:var(--tx2);line-height:1.65;flex:1}
+.ovki-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:3px;flex:1}
+.ovki-list li{font-size:11px;color:var(--tx2);line-height:1.6;padding-left:.9rem;position:relative}
+.ovki-list li::before{content:'·';position:absolute;left:0;color:var(--tx3);font-weight:700}
 .ovki-go{font-size:10px;font-weight:700;margin-top:4px}
 .ovki-neg .ovki-go{color:var(--neg)}
 .ovki-trend .ovki-go{color:var(--kt)}
