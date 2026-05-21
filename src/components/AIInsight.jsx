@@ -17,7 +17,7 @@ const compGroups = [
         skt: { lines: [{ grade: '전 등급', b: '50% 할인/적립' }], date: '5.13 · T day 1주차' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상, 최대 5천원)' }], date: '5.12 · 투쁠데이' },
-        v: 'warn', note: 'LGU+ 하루 먼저 · 동일 혜택',
+        v: 'neut', note: 'LGU+ 하루 먼저 · 동일 혜택',
       },
       {
         brand: '피자헛',
@@ -45,7 +45,7 @@ const compGroups = [
         skt: { lines: [{ grade: '전 등급', b: '장바구니 20%+온리하프 35%' }], date: '5.4~5.8 · 0 week' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '30% 할인쿠폰+온리하프 35% 중복쿠폰 증정' }], date: '5.19 · 스페셜데이' },
-        v: 'neut', note: '기간 분산 · 직접 경쟁 없음',
+        v: 'warn', note: '기간 분산 · 직접 경쟁 없음',
       },
     ],
   },
