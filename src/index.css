@@ -286,6 +286,7 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .cvb-good{background:#d1fae5;color:#065f46;border:1px solid #6ee7b7}
 .cvb-neut{background:#e0e7ff;color:#3730a3;border:1px solid #a5b4fc}
 .cvb-miss{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
+.cvd-basis{font-size:10px;color:var(--tx2);line-height:1.5;margin-top:3px;font-weight:600}
 .cvd-note{font-size:10px;color:var(--tx3);line-height:1.5;margin-top:2px}
 .comp-footer{font-size:10px;color:var(--tx3);padding:7px 12px;background:var(--bg2);border-top:1px solid var(--bd)}
 
