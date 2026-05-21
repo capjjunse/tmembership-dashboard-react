@@ -32,16 +32,23 @@ const compRows = [
   {
     brand: '파리바게뜨',
     skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원/P 할인/적립' }], date: '5.4~5.8 · 0 week' },
-    kt: { lines: [{ grade: '달달혜택', b: '할인' }], date: '5.15~31 · 달달혜택' },
+    kt: { lines: [{ grade: '전 등급', b: '4천원 할인 (1만원 이상)' }], date: '5.15~31 · 달달초이스' },
     lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원 이상)' }], date: '5.19 · 스페셜데이' },
-    v: 'neut', note: '기간 분산 · 성격 다름',
+    v: 'neut', note: '3사 모두 운영 · 기간·조건 분산',
   },
   {
     brand: '컬리',
     skt: null,
-    kt: { lines: [{ grade: '달달혜택', b: '할인' }], date: '5.15~31 · 달달혜택' },
+    kt: { lines: [{ grade: '전 등급', b: '5천원 할인 (4만원 이상)' }], date: '5.15~31 · 달달스페셜' },
     lgu: { lines: [{ grade: '선착순', b: '5천원 할인 (4만원 이상)' }], date: '5.19 · 스페셜데이' },
-    v: 'miss', note: 'SKT 미운영',
+    v: 'miss', note: 'SKT 미운영 · KT·LGU+ 동일 조건',
+  },
+  {
+    brand: '투썸플레이스',
+    skt: null,
+    kt: { lines: [{ grade: '전 등급', b: '전 메뉴 50% 할인 최대 5천원' }], date: '5.18~31 · 고객보답 2차' },
+    lgu: null,
+    v: 'miss', note: 'KT 단독 운영 · SKT·LGU+ 미운영',
   },
   {
     brand: '하프클럽',
@@ -294,11 +301,7 @@ export default function AIInsight() {
                 <tr key={r.brand} className="comp-tr">
                   <td className="comp-td comp-brand">{r.brand}</td>
                   <td className="comp-td">{renderCarrier(r.skt, 'cb-skt')}</td>
-                  <td className="comp-td">
-                    {r.kt
-                      ? renderCarrier(r.kt, 'cb-kt')
-                      : <span className="comp-none comp-unk">미확인 *</span>}
-                  </td>
+                  <td className="comp-td">{renderCarrier(r.kt, 'cb-kt')}</td>
                   <td className="comp-td">{renderCarrier(r.lgu, 'cb-lgu')}</td>
                   <td className="comp-td comp-vd-td">
                     <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
@@ -308,7 +311,7 @@ export default function AIInsight() {
               ))}
             </tbody>
           </table>
-          <div className="comp-footer">* KT 공식 사이트 접근 차단 — 달달초이스 상세 미확인</div>
+          <div className="comp-footer">SKT: T-day/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 5월)</div>
         </div>
       </div>
 
