@@ -14,10 +14,9 @@ const KT_TABS = [
 ];
 
 const LGU_TABS = [
-  { id: 'kw1', label: 'U+ 멤버십 전반',       hasData: false },
-  { id: 'kw2', label: '유플투쁠',              hasData: false },
-  { id: 'kw3', label: '스페셜데이·장기고객데이', hasData: true  },
-  { id: 'kw4', label: 'VIP 콕',               hasData: true  },
+  { id: 'kw1', label: 'U+ 멤버십 전반', hasData: false },
+  { id: 'kw2', label: '유플투쁠',        hasData: true  },
+  { id: 'kw4', label: 'VIP 콕',          hasData: true  },
 ];
 
 function firstActive(tabs) {
@@ -175,18 +174,10 @@ export default function Sentiment() {
             </div>
           </div>
           <div className="srcs">
-            <span className="srcbadge">에펨코리아</span>
-            <span className="srcbadge">루리웹</span>
-            <span className="srcbadge">아카라이브</span>
-            <span className="srcbadge">뽐뿌</span>
             <span className="srcbadge act">네이버카페</span>
           </div>
           <KwTabs tabs={LGU_TABS} active={lguKw} setActive={setLguKw} />
           {lguKw === 'kw2' && (
-            <div>
-            </div>
-          )}
-          {lguKw === 'kw3' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">5월 21일 유플투쁠데이! VVIP·10년↑ 장기고객 다이소 금액권 2천원 전원 지급 (퀴즈정답 공유)</div><div className="rsrc">2026.05.19 · <a href="http://cafe.naver.com/bluegray2vo9q/23095" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">2026 유플러스 장기고객 혜택 정리 — 스타벅스·배민 할인까지. 매월 마지막 주 목요일 장기고객데이 운영 (네사모 카페)</div><div className="rsrc">2026.05.20 · <a href="http://cafe.naver.com/uccplus/2388682" target="_blank" rel="noreferrer">원문 보기</a></div></div>
