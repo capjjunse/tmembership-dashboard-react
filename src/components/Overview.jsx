@@ -96,8 +96,26 @@ export default function Overview() {
 
         <div className="ovkey">
           <div className="ovkey-lbl">🔑 이번달 놓치면 안될 것</div>
-          <div className="ovkey-title">SKT VIP Pick T우주패스 — 8월 1일 혜택 구조 변경</div>
-          <div className="ovkey-body">9,900원 단일 쿠폰이 폐지되고 4,900원+5,000원 2종으로 분리 적용. VIP 고객은 현행 쿠폰 사용 방식 미리 확인 권장.</div>
+          <div className="ovki-grid">
+            <a href="#sn" className="ovki ovki-neg">
+              <div className="ovki-cat">🚨 고객반응</div>
+              <div className="ovki-title">SKT VIP PICK 부정 여론 집중 · KT 고객보답 긍정 쏠림</div>
+              <div className="ovki-body">뽐뿌 인기글(조회 15,247) "갈수록 혜택 줄이네" 확산 · KT 메가커피 2잔 루리웹 조회 44,751로 3사 중 반응 극명</div>
+              <div className="ovki-go">고객반응 보기 →</div>
+            </a>
+            <a href="#tr" className="ovki ovki-trend">
+              <div className="ovki-cat">📈 검색어 트렌드</div>
+              <div className="ovki-title">KT 멤버십 검색량 4월 2주차 급등</div>
+              <div className="ovki-body">KT 지수 3.9→6.8 (74%↑) — 달달혜택·고객보답 동시 시작 효과. SKT는 5월 초 2.7로 연중 최저 수준</div>
+              <div className="ovki-go">트렌드 보기 →</div>
+            </a>
+            <a href="#ai" className="ovki ovki-warn">
+              <div className="ovki-cat">🤖 AI 인사이트</div>
+              <div className="ovki-title">SKT 월간혜택 열위 — 공차·피자헛 선점 + 컬리 미참여</div>
+              <div className="ovki-body">공차·피자헛 LGU+에 1주 이상 선점됨. 컬리는 KT·LGU+ 동시 운영, SKT 없음. 배달·주유 카테고리 상시 공백</div>
+              <div className="ovki-go">AI 인사이트 보기 →</div>
+            </a>
+          </div>
         </div>
 
       </div>

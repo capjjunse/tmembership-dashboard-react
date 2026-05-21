@@ -56,10 +56,27 @@ a{color:var(--p);text-decoration:none}a:hover{text-decoration:underline}
 .octab{font-size:10px;font-weight:700;padding:2px 9px;border-radius:20px;background:var(--bg3);color:var(--tx2);border:1px solid var(--bd2);text-decoration:none;transition:.15s;cursor:pointer}
 .octab:hover{background:var(--bd2);text-decoration:none}
 .octab-warn{background:var(--warn-bg);color:var(--warn);border-color:#f5c060}
-.ovkey{background:linear-gradient(135deg,var(--bg4),var(--pl));border:1px solid rgba(68,34,224,.2);border-radius:var(--r);padding:14px 18px;display:flex;flex-direction:column;gap:5px}
+.ovkey{background:linear-gradient(135deg,var(--bg4),var(--pl));border:1px solid rgba(68,34,224,.2);border-radius:var(--r);padding:14px 18px;display:flex;flex-direction:column;gap:10px}
 .ovkey-lbl{font-size:10px;font-weight:800;color:var(--p);letter-spacing:.05em;text-transform:uppercase}
 .ovkey-title{font-size:13px;font-weight:800;color:var(--tx)}
 .ovkey-body{font-size:12px;color:var(--tx2);line-height:1.7}
+.ovki-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+@media(max-width:720px){.ovki-grid{grid-template-columns:1fr}}
+.ovki{display:flex;flex-direction:column;gap:5px;padding:11px 13px;border-radius:var(--r);background:var(--bg);border:1px solid var(--bd);border-left-width:3px;text-decoration:none;color:inherit;transition:.15s;cursor:pointer}
+.ovki:hover{box-shadow:var(--sh-hover);text-decoration:none}
+.ovki-neg{border-left-color:var(--neg)}
+.ovki-trend{border-left-color:var(--kt)}
+.ovki-warn{border-left-color:#f59e0b}
+.ovki-cat{font-size:10px;font-weight:800;letter-spacing:.04em}
+.ovki-neg .ovki-cat{color:var(--neg)}
+.ovki-trend .ovki-cat{color:var(--kt)}
+.ovki-warn .ovki-cat{color:#d97706}
+.ovki-title{font-size:12px;font-weight:800;color:var(--tx);line-height:1.4}
+.ovki-body{font-size:11px;color:var(--tx2);line-height:1.65;flex:1}
+.ovki-go{font-size:10px;font-weight:700;margin-top:4px}
+.ovki-neg .ovki-go{color:var(--neg)}
+.ovki-trend .ovki-go{color:var(--kt)}
+.ovki-warn .ovki-go{color:#d97706}
 .oc{border-radius:var(--r);padding:1rem 1.1rem 1rem;border:1px solid var(--bd);background:var(--bg2);position:relative;overflow:hidden;transition:.2s}
 .oc:hover{box-shadow:var(--sh-hover)}
 .oc::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:var(--r) var(--r) 0 0}
