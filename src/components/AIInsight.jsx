@@ -5,22 +5,7 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [
-      {
-        brand: '폴바셋',
-        skt: { lines: [{ grade: 'V', b: '룽고(S)/라떼(S) 50% (잠바주스·피자헛세트 택1)' }], date: '5월 · VIP PICK' },
-        kt: { lines: [{ grade: '전 등급', b: '룽고(S)/라떼(S) 50% (2매)' }], date: '5.15~31 · 달달초이스' },
-        lgu: null,
-        v: 'warn', note: 'KT 전 등급 2매 vs SKT V등급 택1',
-      },
-      {
-        brand: 'GS SHOP',
-        skt: { lines: [{ grade: 'V', b: '30% 할인 최대 1만원' }], date: '5월 · VIP PICK' },
-        kt: { lines: [{ grade: '전 등급', b: '7천원 쿠폰 (TV상품 3만원↑)' }], date: '5.15~31 · 달달스페셜' },
-        lgu: null,
-        v: 'neut', note: 'SKT V등급 30% vs KT 전 등급 정액 쿠폰',
-      },
-    ],
+    rows: [],
   },
   {
     id: 'skt-lgu',
@@ -339,18 +324,21 @@ export default function AIInsight() {
                     <span className="comp-group-desc">{g.desc}</span>
                   </td>
                 </tr>,
-                ...g.rows.map((r) => (
-                  <tr key={r.brand} className="comp-tr">
-                    <td className="comp-td comp-brand">{r.brand}</td>
-                    <td className="comp-td">{renderCarrier(r.skt, 'cb-skt')}</td>
-                    <td className="comp-td">{renderCarrier(r.kt, 'cb-kt')}</td>
-                    <td className="comp-td">{renderCarrier(r.lgu, 'cb-lgu')}</td>
-                    <td className="comp-td comp-vd-td">
-                      <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
-                      <div className="cvd-note">{r.note}</div>
-                    </td>
-                  </tr>
-                )),
+                ...(g.rows.length === 0
+                  ? [<tr key={`${g.id}-empty`} className="comp-tr"><td colSpan={5} className="comp-empty">이번달 해당 없음</td></tr>]
+                  : g.rows.map((r) => (
+                    <tr key={r.brand} className="comp-tr">
+                      <td className="comp-td comp-brand">{r.brand}</td>
+                      <td className="comp-td">{renderCarrier(r.skt, 'cb-skt')}</td>
+                      <td className="comp-td">{renderCarrier(r.kt, 'cb-kt')}</td>
+                      <td className="comp-td">{renderCarrier(r.lgu, 'cb-lgu')}</td>
+                      <td className="comp-td comp-vd-td">
+                        <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
+                        <div className="cvd-note">{r.note}</div>
+                      </td>
+                    </tr>
+                  ))
+                ),
               ])}
             </tbody>
           </table>
