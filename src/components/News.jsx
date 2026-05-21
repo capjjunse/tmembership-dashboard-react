@@ -52,6 +52,11 @@ export default function News() {
             <div className="nsum">분식 브랜드 국민학교 떡볶이가 KT멤버십 달달초이스에 첫 합류. 5.15~31 쿠폰 다운로드 후 공식 사이트 등록으로 혜택 제공. "KT멤버십 고객에게 더 실질적인 혜택을" 목표.</div>
             <div className="nmeta">2026-05-15 · <a href="https://www.mt.co.kr/stock/2026/05/15/2026051508142888359" target="_blank" rel="noreferrer">머니투데이</a></div>
           </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 가정의 달 맞이 5월 멤버십 혜택 공개 — 쉐이크쉑·달달혜택·고객보답 동시 운영</span></div>
+            <div className="nsum">5월 달달혜택으로 롯데마트 제타 50%, 할리스·폴바셋 50%, 쉐이크쉑·도미노·파리바게뜨 할인 제공. 투썸플레이스 50% 또는 배민×노랑통닭 8천원 고객보답 2차 병행으로 3사 중 5월 혜택 밀도 최상.</div>
+            <div className="nmeta">2026-05-15 · <a href="https://www.newspim.com/news/view/20260515001139" target="_blank" rel="noreferrer">뉴스핌</a></div>
+          </div>
         </div>
       )}
 

@@ -108,10 +108,10 @@ export default function Overview() {
             </a>
             <a href="#tr" className="ovki ovki-trend">
               <div className="ovki-cat">📈 검색어 트렌드</div>
-              <div className="ovki-title">KT 멤버십 4/13주 이상 급등</div>
+              <div className="ovki-title">SKT 5/18주 1.5 — 수집 기간 신저점</div>
               <ul className="ovki-list">
-                <li>KT 지수 3.9→6.8 (+74%) — 달달혜택·고객보답 동시 시작 효과</li>
-                <li>SKT 5월 초 2.7로 연중 최저 수준</li>
+                <li>SKT 지수 5/18 기준 1.5로 14주 최저점 기록 (직전 최저 2.7)</li>
+                <li>KT도 5/18 1.8로 하락 — 달달혜택 종반부 관심 냉각</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>

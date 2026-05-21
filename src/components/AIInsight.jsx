@@ -15,10 +15,10 @@ const compGroups = [
       },
       {
         brand: '쉐이크쉑',
-        skt: { lines: [{ grade: '전 등급', b: '쉑버거 30% 할인 / VIP: 1+1' }], date: '5.27~5.31 · T day 3주차' },
-        kt: { lines: [{ grade: '전 등급', b: '할인 (구체율 미공개)' }], date: '5.15~31 · 달달혜택' },
+        skt: { lines: [{ grade: '전 등급', b: '쉑버거 30% 할인 · VIP 1+1' }], date: '5.27~5.31 · T day 3주차' },
+        kt: { lines: [{ grade: '전 등급', b: '쉑버거 1+1' }], date: '5.15~31 · 달달혜택' },
         lgu: null,
-        v: 'neut', basis: 'SKT 30%+VIP1+1 · KT 율 미확인', note: 'KT 2주 먼저 시작 · SKT 5.27~',
+        v: 'warn', basis: 'KT 전 등급 1+1 vs SKT VIP만 1+1', note: 'SKT 5일 · KT 2주간 운영',
       },
     ],
   },
