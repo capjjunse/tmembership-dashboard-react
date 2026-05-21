@@ -1,61 +1,96 @@
 // no state needed — all sections always visible
 
-const compRows = [
+const compGroups = [
   {
-    brand: '공차',
-    skt: { lines: [{ grade: '전 등급', b: '50% 할인/적립' }], date: '5.13 · T day 1주차' },
-    kt: null,
-    lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상, 최대 5천원)' }], date: '5.12 · 투쁠데이' },
-    v: 'warn', note: 'LGU+ 하루 먼저 · 동일 혜택',
+    id: 'skt-kt',
+    label: 'SKT ↔ KT',
+    desc: 'LGU+ 미운영 · 양자 대결',
+    rows: [
+      {
+        brand: '폴바셋',
+        skt: { lines: [{ grade: 'V', b: '룽고(S)/라떼(S) 50% (잠바주스·피자헛세트 택1)' }], date: '5월 · VIP PICK' },
+        kt: { lines: [{ grade: '전 등급', b: '룽고(S)/라떼(S) 50% (2매)' }], date: '5.15~31 · 달달초이스' },
+        lgu: null,
+        v: 'warn', note: 'KT 전 등급 2매 vs SKT V등급 택1',
+      },
+      {
+        brand: 'GS SHOP',
+        skt: { lines: [{ grade: 'V', b: '30% 할인 최대 1만원' }], date: '5월 · VIP PICK' },
+        kt: { lines: [{ grade: '전 등급', b: '7천원 쿠폰 (TV상품 3만원↑)' }], date: '5.15~31 · 달달스페셜' },
+        lgu: null,
+        v: 'neut', note: 'SKT V등급 30% vs KT 전 등급 정액 쿠폰',
+      },
+    ],
   },
   {
-    brand: '피자헛',
-    skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (최대 22,500원)' }], date: '5.20 · T day 2주차' },
-    kt: null,
-    lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 55% 할인 + 파스타 증정' }], date: '5.14 · 투쁠데이' },
-    v: 'warn', note: 'LGU+ 1주 먼저 + 5%p 높음',
+    id: 'skt-lgu',
+    label: 'SKT ↔ LGU+',
+    desc: 'KT 미운영 · 양자 대결',
+    rows: [
+      {
+        brand: '공차',
+        skt: { lines: [{ grade: '전 등급', b: '50% 할인/적립' }], date: '5.13 · T day 1주차' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상, 최대 5천원)' }], date: '5.12 · 투쁠데이' },
+        v: 'warn', note: 'LGU+ 하루 먼저 · 동일 혜택',
+      },
+      {
+        brand: '피자헛',
+        skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (최대 22,500원)' }], date: '5.20 · T day 2주차' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 55% 할인 + 파스타 증정' }], date: '5.14 · 투쁠데이' },
+        v: 'warn', note: 'LGU+ 1주 먼저 + 5%p 높음',
+      },
+      {
+        brand: '배스킨라빈스',
+        skt: { lines: [{ grade: '전 등급', b: '파인트 40% 할인/적립 (9,800원→5,880원)' }], date: '5.20 · T day 2주차' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '패밀리 사이즈 최대 9천원 할인' }], date: '5.20 · 투쁠데이+스페셜데이' },
+        v: 'neut', note: '같은 날 동시 운영',
+      },
+      {
+        brand: 'CGV',
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매+매점 쿠폰 2종' }], date: '5.4~5.8 · 0 week / 5.13 · T day 1주차 / 5.20 · T day 2주차' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트 (팝콘M+음료M) 무료' }], date: '5.20 · 투쁠데이' },
+        v: 'good', note: 'SKT 3회 운영 vs LGU+ 1회',
+      },
+      {
+        brand: '하프클럽',
+        skt: { lines: [{ grade: '전 등급', b: '장바구니 20%+온리하프 35%' }], date: '5.4~5.8 · 0 week' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '30% 할인쿠폰+온리하프 35% 중복쿠폰 증정' }], date: '5.19 · 스페셜데이' },
+        v: 'neut', note: '기간 분산 · 직접 경쟁 없음',
+      },
+    ],
   },
   {
-    brand: '배스킨라빈스',
-    skt: { lines: [{ grade: '전 등급', b: '파인트 40% 할인/적립 (9,800원→5,880원)' }], date: '5.20 · T day 2주차' },
-    kt: null,
-    lgu: { lines: [{ grade: '선착순', b: '패밀리 사이즈 최대 9천원 할인' }], date: '5.20 · 투쁠데이+스페셜데이' },
-    v: 'neut', note: '같은 날 동시 운영',
+    id: 'three',
+    label: '3사 공통',
+    desc: '동일 브랜드 3사 동시 운영',
+    rows: [
+      {
+        brand: '파리바게뜨',
+        skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원/P 할인/적립' }], date: '5.4~5.8 · 0 week' },
+        kt: { lines: [{ grade: '전 등급', b: '4천원 할인 (1만원 이상)' }], date: '5.15~31 · 달달초이스' },
+        lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원 이상)' }], date: '5.19 · 스페셜데이' },
+        v: 'neut', note: '3사 모두 운영 · 기간·조건 분산',
+      },
+    ],
   },
   {
-    brand: 'CGV',
-    skt: { lines: [{ grade: '전 등급', b: '8,500원 예매+매점 쿠폰 2종' }], date: '5.4~5.8 · 0 week / 5.13 · T day 1주차 / 5.20 · T day 2주차' },
-    kt: null,
-    lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트 (팝콘M+음료M) 무료' }], date: '5.20 · 투쁠데이' },
-    v: 'good', note: 'SKT 3회 운영 vs LGU+ 1회',
-  },
-  {
-    brand: '파리바게뜨',
-    skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원/P 할인/적립' }], date: '5.4~5.8 · 0 week' },
-    kt: { lines: [{ grade: '전 등급', b: '4천원 할인 (1만원 이상)' }], date: '5.15~31 · 달달초이스' },
-    lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원 이상)' }], date: '5.19 · 스페셜데이' },
-    v: 'neut', note: '3사 모두 운영 · 기간·조건 분산',
-  },
-  {
-    brand: '컬리',
-    skt: null,
-    kt: { lines: [{ grade: '전 등급', b: '5천원 할인 (4만원 이상)' }], date: '5.15~31 · 달달스페셜' },
-    lgu: { lines: [{ grade: '선착순', b: '5천원 할인 (4만원 이상)' }], date: '5.19 · 스페셜데이' },
-    v: 'miss', note: 'SKT 미운영 · KT·LGU+ 동일 조건',
-  },
-  {
-    brand: '투썸플레이스',
-    skt: null,
-    kt: { lines: [{ grade: '전 등급', b: '전 메뉴 50% 할인 최대 5천원' }], date: '5.18~31 · 고객보답 2차' },
-    lgu: null,
-    v: 'miss', note: 'KT 단독 운영 · SKT·LGU+ 미운영',
-  },
-  {
-    brand: '하프클럽',
-    skt: { lines: [{ grade: '전 등급', b: '장바구니 20%+온리하프 35%' }], date: '5.4~5.8 · 0 week' },
-    kt: null,
-    lgu: { lines: [{ grade: '선착순', b: '30% 할인쿠폰+온리하프 35% 중복쿠폰 증정' }], date: '5.19 · 스페셜데이' },
-    v: 'neut', note: '기간 분산 · 직접 경쟁 없음',
+    id: 'kt-lgu',
+    label: 'KT ↔ LGU+',
+    desc: 'SKT 미참여 · KT·LGU+ 경쟁',
+    rows: [
+      {
+        brand: '컬리',
+        skt: null,
+        kt: { lines: [{ grade: '전 등급', b: '5천원 할인 (4만원 이상)' }], date: '5.15~31 · 달달스페셜' },
+        lgu: { lines: [{ grade: '선착순', b: '5천원 할인 (4만원 이상)' }], date: '5.19 · 스페셜데이' },
+        v: 'miss', note: 'SKT 미운영 · KT·LGU+ 동일 조건',
+      },
+    ],
   },
 ];
 
@@ -297,18 +332,26 @@ export default function AIInsight() {
               </tr>
             </thead>
             <tbody>
-              {compRows.map((r) => (
-                <tr key={r.brand} className="comp-tr">
-                  <td className="comp-td comp-brand">{r.brand}</td>
-                  <td className="comp-td">{renderCarrier(r.skt, 'cb-skt')}</td>
-                  <td className="comp-td">{renderCarrier(r.kt, 'cb-kt')}</td>
-                  <td className="comp-td">{renderCarrier(r.lgu, 'cb-lgu')}</td>
-                  <td className="comp-td comp-vd-td">
-                    <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
-                    <div className="cvd-note">{r.note}</div>
+              {compGroups.flatMap((g) => [
+                <tr key={`grp-${g.id}`} className="comp-group-tr">
+                  <td colSpan={5} className="comp-group-td">
+                    <span className="comp-group-label">{g.label}</span>
+                    <span className="comp-group-desc">{g.desc}</span>
                   </td>
-                </tr>
-              ))}
+                </tr>,
+                ...g.rows.map((r) => (
+                  <tr key={r.brand} className="comp-tr">
+                    <td className="comp-td comp-brand">{r.brand}</td>
+                    <td className="comp-td">{renderCarrier(r.skt, 'cb-skt')}</td>
+                    <td className="comp-td">{renderCarrier(r.kt, 'cb-kt')}</td>
+                    <td className="comp-td">{renderCarrier(r.lgu, 'cb-lgu')}</td>
+                    <td className="comp-td comp-vd-td">
+                      <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
+                      <div className="cvd-note">{r.note}</div>
+                    </td>
+                  </tr>
+                )),
+              ])}
             </tbody>
           </table>
           <div className="comp-footer">SKT: T-day/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 5월)</div>
