@@ -256,11 +256,11 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .comp-wrap{overflow-x:auto;border-radius:var(--r);border:1px solid var(--bd)}
 .comp-table{width:100%;border-collapse:collapse;table-layout:fixed}
 .comp-th{font-size:11px;font-weight:800;padding:9px 13px;border-bottom:2px solid var(--bd);text-align:left;white-space:nowrap}
-.comp-th-brand{background:var(--bg3);color:var(--tx2);width:80px}
-.comp-th-skt{background:var(--skt-bg);color:var(--skt-t);border-bottom-color:var(--skt);width:calc((100% - 80px - 110px) / 3)}
-.comp-th-kt{background:var(--kt-bg);color:var(--kt-t);border-bottom-color:var(--kt);width:calc((100% - 80px - 110px) / 3)}
-.comp-th-lgu{background:var(--lgu-bg);color:var(--lgu-t);border-bottom-color:var(--lgu);width:calc((100% - 80px - 110px) / 3)}
-.comp-th-vd{background:var(--bg4);color:var(--p);width:140px}
+.comp-th-brand{background:var(--bg3);color:var(--tx2);width:100px}
+.comp-th-skt{background:var(--skt-bg);color:var(--skt-t);border-bottom-color:var(--skt);width:calc((100% - 100px - 140px) / 3)}
+.comp-th-kt{background:var(--kt-bg);color:var(--kt-t);border-bottom-color:var(--kt);width:calc((100% - 100px - 140px) / 3)}
+.comp-th-lgu{background:var(--lgu-bg);color:var(--lgu-t);border-bottom-color:var(--lgu);width:calc((100% - 100px - 140px) / 3)}
+.comp-th-vd{background:var(--bg4);color:var(--p);width:140px;border-left:2px solid var(--bd)}
 /* rows */
 .comp-tr:not(:last-child) td{border-bottom:1px solid var(--bd)}
 .comp-tr:hover td{background:var(--bg2)}
@@ -281,7 +281,7 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .comp-group-desc{font-size:10px;color:var(--tx3)}
 .comp-empty{padding:10px 13px;font-size:11px;color:var(--tx3);font-style:italic;text-align:center}
 /* verdict cell */
-.comp-vd-td{min-width:140px;vertical-align:middle;text-align:center;padding:10px 11px}
+.comp-vd-td{min-width:140px;vertical-align:middle;text-align:center;padding:10px 11px;border-left:2px solid var(--bd)}
 .comp-vd-badge{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:800;padding:4px 10px;border-radius:20px;margin-bottom:6px;white-space:nowrap}
 .cvb-warn{background:#fff0d0;color:#b45309;border:1px solid #f5c060}
 .cvb-good{background:#d1fae5;color:#065f46;border:1px solid #6ee7b7}
