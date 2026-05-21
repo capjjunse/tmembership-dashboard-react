@@ -50,20 +50,6 @@ const compGroups = [
     ],
   },
   {
-    id: 'three',
-    label: '3사 공통',
-    desc: '동일 브랜드 3사 동시 운영',
-    rows: [
-      {
-        brand: '파리바게뜨',
-        skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원/P 할인/적립' }], date: '5.4~5.8 · 0 week' },
-        kt: { lines: [{ grade: '전 등급', b: '4천원 할인 (1만원 이상)' }], date: '5.15~31 · 달달초이스' },
-        lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원 이상)' }], date: '5.19 · 스페셜데이' },
-        v: 'neut', basis: '3사 구조 상이', note: '3사 기간·조건 분산',
-      },
-    ],
-  },
-  {
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT·LGU+ 경쟁',
@@ -74,6 +60,20 @@ const compGroups = [
         kt: { lines: [{ grade: '전 등급', b: '5천원 할인 (4만원 이상)' }], date: '5.15~31 · 달달스페셜' },
         lgu: { lines: [{ grade: '선착순', b: '5천원 할인 (4만원 이상)' }], date: '5.19 · 스페셜데이' },
         v: 'miss', basis: 'SKT 미운영', note: 'KT 2주간 vs LGU+ 1일',
+      },
+    ],
+  },
+  {
+    id: 'three',
+    label: '3사 공통',
+    desc: '동일 브랜드 3사 동시 운영',
+    rows: [
+      {
+        brand: '파리바게뜨',
+        skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원/P 할인/적립' }], date: '5.4~5.8 · 0 week' },
+        kt: { lines: [{ grade: '전 등급', b: '4천원 할인 (1만원 이상)' }], date: '5.15~31 · 달달초이스' },
+        lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원 이상)' }], date: '5.19 · 스페셜데이' },
+        v: 'neut', basis: '3사 구조 상이', note: '3사 기간·조건 분산',
       },
     ],
   },
