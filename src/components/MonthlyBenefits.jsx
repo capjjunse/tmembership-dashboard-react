@@ -14,7 +14,7 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>0 week (5.4~5.8) <span style={{ fontSize: '10px', color: 'var(--neg)', fontWeight: 700 }}>종료</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>0 week (5.4~5.8)</div>
               <ul className="mblist">
                 <li>파리바게뜨 1,000원당 200원/P 할인/적립</li>
                 <li>노브랜드버거 시그니처 세트 구매 시 시그니처 콤보 증정</li>
@@ -24,7 +24,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (5.13) <span style={{ fontSize: '10px', color: 'var(--neg)', fontWeight: 700 }}>종료</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (5.13)</div>
               <ul className="mblist">
                 <li>버거킹 와퍼 단품 40% 할인 (VIP 55%)</li>
                 <li>뚜레쥬르 1,000원당 300원/P 할인/적립</li>
@@ -34,7 +34,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day 2주차 (5.20) <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>D-1</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day 2주차 (5.20)</div>
               <ul className="mblist">
                 <li>던킨 30% 할인/적립 (VIP 50%, 최대 8,000원)</li>
                 <li>배스킨라빈스 파인트 40% 할인/적립 (9,800원 → 5,880원)</li>
@@ -44,7 +44,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#f59e0b' }}></span>T day 3주차 (5.27) <span style={{ fontSize: '10px', color: 'var(--tx3)', fontWeight: 700 }}>D-6</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#f59e0b' }}></span>T day 3주차 (5.27)</div>
               <ul className="mblist">
                 <li>쉐이크쉑 쉑버거 30% 할인 (VIP: 1+1, 5.27~5.31)</li>
                 <li>뚜레쥬르 1,000원당 300원/P 할인/적립</li>
