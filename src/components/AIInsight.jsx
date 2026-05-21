@@ -5,7 +5,22 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [],
+    rows: [
+      {
+        brand: '폴바셋',
+        skt: { lines: [{ grade: 'V (VIP Pick)', b: '폴바셋·잠바주스 50% 할인 (택1)' }], date: '5월 · VIP Pick' },
+        kt: { lines: [{ grade: '전 등급', b: '50% 할인' }], date: '5.15~31 · 달달혜택' },
+        lgu: null,
+        v: 'warn', basis: 'KT 전 등급 vs SKT VIP 한정', note: 'SKT 동일 할인율이나 VIP만 이용 가능',
+      },
+      {
+        brand: '쉐이크쉑',
+        skt: { lines: [{ grade: '전 등급', b: '쉑버거 30% 할인 / VIP: 1+1' }], date: '5.27~5.31 · T day 3주차' },
+        kt: { lines: [{ grade: '전 등급', b: '할인 (구체율 미공개)' }], date: '5.15~31 · 달달혜택' },
+        lgu: null,
+        v: 'neut', basis: 'SKT 30%+VIP1+1 · KT 율 미확인', note: 'KT 2주 먼저 시작 · SKT 5.27~',
+      },
+    ],
   },
   {
     id: 'skt-lgu',
