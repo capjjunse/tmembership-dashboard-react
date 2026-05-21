@@ -44,9 +44,12 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#ddd' }}></span>T day 3주차 (5.27) <span style={{ fontSize: '10px', color: 'var(--tx3)', fontWeight: 700 }}>D-8</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#f59e0b' }}></span>T day 3주차 (5.27) <span style={{ fontSize: '10px', color: 'var(--tx3)', fontWeight: 700 }}>D-6</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>미공개 — 5월 27일 공개 예정</li>
+                <li>쉐이크쉑 쉑버거 30% 할인 (VIP: 1+1, 5.27~5.31)</li>
+                <li>뚜레쥬르 1,000원당 300원/P 할인/적립</li>
+                <li>파스쿠찌 10,000원 이상 구매 시 40% 할인</li>
+                <li>백억커피 아메리카노 100원 (5.27~6.2)</li>
               </ul>
             </div>
           </div>
