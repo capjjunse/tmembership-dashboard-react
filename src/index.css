@@ -352,6 +352,8 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .rec-brand{font-size:14px;font-weight:800;color:var(--tx)}
 .rec-tag{font-size:10px;font-weight:700;padding:2px 9px;border-radius:20px;background:var(--bg3);color:var(--tx2);border:1px solid var(--bd2)}
 .rec-reason{font-size:11.5px;color:var(--tx2);line-height:1.75;margin-bottom:8px}
+.rec-reach{font-size:11px;color:var(--tx2);line-height:1.7;margin-bottom:7px;padding:7px 10px;background:var(--bg3);border-left:3px solid var(--p);border-radius:0 6px 6px 0}
+.rec-reach-lbl{font-size:10px;font-weight:800;color:var(--p);margin-right:5px}
 .rec-meta{font-size:11px;color:var(--tx3);margin-bottom:5px}
 .rec-trend-lbl{font-weight:700;color:var(--p);margin-right:3px}
 .rec-hist{display:flex;align-items:center;flex-wrap:wrap;gap:5px;margin-top:8px}

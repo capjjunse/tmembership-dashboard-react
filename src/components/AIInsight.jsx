@@ -223,6 +223,7 @@ const recs = [
     brand: '설빙',
     tag: '매장 596개 · DataLab 📈1.22',
     reason: '5월 내내 검색량 상승 중. 여름 시즌 직전 T-day 재계약 타이밍 — KT·LGU+ 모두 미운영으로 단독 선점 가능.',
+    reach: '전국 596개 중대형 프랜차이즈 · 아이스디저트 카테고리 1위 · DataLab 1.22 = 전월比 +22% 검색 급증, 블로그 74만은 공차(72만)·메가커피(68만) 동급 버즈 규모 · 5~8월 여름 시즌에 언급이 집중되는 구조라 지금 계약하면 성수기 전 선점 효과 기대',
     trend: 'DataLab 1.22 · 블로그 74만 · 카페 25만 · 뉴스 28건',
     hot: true,
     skt: [
@@ -237,6 +238,7 @@ const recs = [
     brand: '청년다방',
     tag: '매장 273개 · DataLab ↗1.14',
     reason: '4월부터 꾸준히 상승 중. 저가 분식 카테고리로 방문 빈도 높음. 3사 모두 미참여 — 선점 기회.',
+    reach: '전국 273개 확장 중인 성장형 프랜차이즈 · DataLab 1.14 = 6개월 연속 상승세, 뉴스 88건은 같은 카테고리 경쟁 브랜드 대비 2~3배 언론 노출 · 저단가(5천~1만원대) 고빈도 방문 구조라 월간 혜택 건수 누적에 유리',
     trend: 'DataLab 1.14 · 블로그 22만 · 뉴스 88건',
     hot: true,
     skt: [],
@@ -248,6 +250,7 @@ const recs = [
     brand: '60계치킨',
     tag: '매장 628개 · 3사 미운영',
     reason: '전국 628개 매장 보유로 안정적 제휴 규모. 카페 언급 15만으로 실사용자 버즈 높은 편. 3사 모두 미참여.',
+    reach: '전국 628개로 치킨 카테고리 3위권 매장망 · 트렌드 0.99 = 급등은 없으나 연중 안정적 수요 유지 · 카페 15만은 블로그보다 실구매 후기 비중이 높아 충성 고객 기반 탄탄 · 중가 치킨(1.5~2만원대) 제휴 공백 없이 꾸준한 모객 기대',
     trend: '트렌드 0.99 · 블로그 10만 · 카페 15만 · 뉴스 34건',
     hot: false,
     skt: [],
@@ -403,8 +406,11 @@ export default function AIInsight() {
               <div className="rec-tag">{r.tag}</div>
             </div>
             <div className="rec-reason">{r.reason}</div>
+            <div className="rec-reach">
+              <span className="rec-reach-lbl">파급력</span> {r.reach}
+            </div>
             <div className="rec-meta">
-              <span className="rec-trend-lbl">트렌드</span> {r.trend}
+              <span className="rec-trend-lbl">데이터</span> {r.trend}
             </div>
             <div className="rec-hist">
               <span className="rec-hist-lbl">SKT</span>
