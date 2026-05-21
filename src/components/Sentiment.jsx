@@ -15,7 +15,7 @@ const KT_TABS = [
 
 const LGU_TABS = [
   { id: 'kw1', label: 'U+ 멤버십 전반',       hasData: false },
-  { id: 'kw2', label: '유플투쁠',              hasData: true  },
+  { id: 'kw2', label: '유플투쁠',              hasData: false },
   { id: 'kw3', label: '스페셜데이·장기고객데이', hasData: true  },
   { id: 'kw4', label: 'VIP 콕',               hasData: true  },
 ];
@@ -84,7 +84,6 @@ export default function Sentiment() {
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T데이 피자헛 포장 50% 할인 (5/20) — "덕분에 오랜만에 피자헛 주문했어요" (조회 33,372) / "요즘 할인율 줄이고 VIP만 챙겨주는 꼬라지 괘씸"</div><div className="rsrc">2026.05.20 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104230" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">T데이 베라 파인트 40% — "ㄱㄱ"</div><div className="rsrc">2026.05.20 · <a href="https://www.fmkorea.com/9849725169" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">5/20 T데이 — "비 쏟아지는데 보냉백 챙겨들고 베라 다녀왔어요ㅎ 마침 t데이 할인이라길래 간만에 아이스크림 사왔지요^^" (구리·남양주맘)</div><div className="rsrc">2026.05.20 · 네이버 카페</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">5/20 T데이 던킨·베스킨·피자헛·톤28 할인 — "피자헛 50% 할인 받아서 점심에 피자 먹을려구요" (스펙업 카페)</div><div className="rsrc">2026.05.20 · <a href="http://cafe.naver.com/specup/7821251" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">5/20 T데이 혜택 공유 — "T데이 혜택 좋아요~~~" / "오늘 T할인 영화 배라 등등 꼭 챙기세요오~‼️" (지역 맘카페 다수)</div><div className="rsrc">2026.05.20 · <a href="http://cafe.naver.com/chch6534/1289804" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">버거킹 13~15일 T멤버십 와퍼 55% 할인 공유 — "갈 일 없어도 가야겠는걸"</div><div className="rsrc">2026.05.12 · <a href="https://www.fmkorea.com/9816271602" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -104,7 +103,6 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw4' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">SKT VIP Pick으로 CGV 1인 8,000원 예매 — "skt vip pick 혜택으로 2D 영화 가능합니다" (짠돌이카페)</div><div className="rsrc">2026.05 · 네이버 카페</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">개좆슼 VIP 혜택 또 칼질 — "우주패스 12회에서 3회로 줄이고 이젠 없애네" "요금제 비싼거 팔아먹으면서 VIP 혜택도 줄이네 아" "프라임플러스 낮춰야되나 ㅋㅋ 이젠 쓰레기네"</div><div className="rsrc">2026.04.30 · <a href="https://www.fmkorea.com/9769581756" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">11번가 아마존 6월 종료로 T우주패스 혜택 변경 — "우주패스 개악된 이후 거의 안써먹음" "달러 미쳐서 해외직구 가성비 꽝"</div><div className="rsrc">2026.04.30 · <a href="https://bbs.ruliweb.com/etcs/board/300010/read/2288393" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">VIP픽 9900원 쿠폰 폐지 반응 — "갈수록 혜택을 줄이네" "좀 괜찮다 싶은 혜택은 다 사라지네요" "메가커피 할인도 없애더니.." (조회 15,247 · 인기글)</div><div className="rsrc">2026.04.30 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=money&no=543529" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -141,7 +139,6 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw2' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">KT 달달혜택 투썸 50% — "커피랑 케이크 먹고 있는데 행복하네요 50프로 잘썼어영" (핫딜맘 놀이터)</div><div className="rsrc">2026.05 · 네이버 카페</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">5월 KT 달달혜택 팀홀튼 아이스 딥라떼 선착순 3만명 무료 — "이번 달은 좀 달달하네요" "도미노 50%도 생겼어요" / "팀홀튼 받았는데 매장이 없당 흑흑 바까줘"</div><div className="rsrc">2026.05.15 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104137" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">kt달달혜택 파리바게뜨 할인쿠폰 소진 — "어제부터였는데 선택할게 없으니깐 파빠 벌써 종료.. 하루밖에 안 됐잖아 ㅠ" "방금 샀는데 다 떨어졌구나"</div><div className="rsrc">2026.05.16 · <a href="https://bbs.ruliweb.com/community/board/300143/read/75202922" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT 멤버십 토이스토리 5 시사회 응모 — "5월 달달혜택 최상단에서 응모가능" "시사회 정보 감사합니당"</div><div className="rsrc">2026.05.16 · <a href="https://www.fmkorea.com/9832474723" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -187,8 +184,6 @@ export default function Sentiment() {
           <KwTabs tabs={LGU_TABS} active={lguKw} setActive={setLguKw} />
           {lguKw === 'kw2' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">유플투쁠 롯데백화점몰 쿠폰 적용 안됨 — "적용되는게 읎어욬ㅋㅋ 어떤거 사시나요 쿠폰 버려야하나봐여" (핫딜맘 놀이터)</div><div className="rsrc">2026.05 · 네이버 카페</div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">유플투쁠 6월 신청 ~5/25까지 — 쇼핑·식음료·문화 혜택 소개 (BOOST US)</div><div className="rsrc">2026.05 · 네이버 카페</div></div>
             </div>
           )}
           {lguKw === 'kw3' && (
@@ -199,9 +194,7 @@ export default function Sentiment() {
           )}
           {lguKw === 'kw4' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">유플 VIP콕 쿠폰 덕에 0원 지출 — "유플 VIP콕 쿠폰 덕에 0원 지출 있었습니다. (4,900원 절약)" (월급쟁이 재테크)</div><div className="rsrc">2026.05 · 네이버 카페</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">유플러스 VIP콕으로 스타벅스 — "언니가 VIP콕으로 스벅 쏴줬다" (겟꿀 카페)</div><div className="rsrc">2026.04.30 · <a href="http://cafe.naver.com/dpdtydzzz/8906" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">유플러스 장기고객 VIP콕 혜택 정리 — "강력 VIP콕 혜택 (스타벅스, 영화 1+1, OTT 할인 등) 유독 4,000원 추가 할인" (네사모 카페)</div><div className="rsrc">2026.05 · 네이버 카페</div></div>
             </div>
           )}
         </div>
