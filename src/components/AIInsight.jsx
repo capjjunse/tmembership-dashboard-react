@@ -343,10 +343,11 @@ export default function AIInsight() {
             <tbody>
               {compGroups.flatMap((g) => [
                 <tr key={`grp-${g.id}`} className="comp-group-tr">
-                  <td colSpan={5} className="comp-group-td">
+                  <td colSpan={4} className="comp-group-td">
                     <span className="comp-group-label">{g.label}</span>
                     <span className="comp-group-desc">{g.desc}</span>
                   </td>
+                  <td className="comp-group-td comp-vd-td"></td>
                 </tr>,
                 ...(g.rows.length === 0
                   ? [<tr key={`${g.id}-empty`} className="comp-tr"><td colSpan={5} className="comp-empty">이번달 해당 없음</td></tr>]
