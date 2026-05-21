@@ -137,10 +137,10 @@ const alCats = [
           { grade: null, desc: '포장 5% 할인' },
         ]},
       ]},
-      { platform: '쿠팡 로켓와우 (월 7,890원)', items: [
+      { platform: '쿠팡 로켓와우', items: [
         { partner: '쿠팡이츠', deadline: '상시', rows: [{ grade: null, desc: '무제한 무료배달 (금액·거리 무관)' }] },
       ]},
-      { platform: '배민클럽 (월 3,990원)', items: [
+      { platform: '배민클럽', items: [
         { partner: '배달의민족', deadline: '상시', rows: [
           { grade: null, desc: '알뜰배달 입점 가게 배달팁 무료' },
           { grade: null, desc: '1인분 소량 주문도 배달팁 0원' },
@@ -153,10 +153,10 @@ const alCats = [
   {
     icon: '🛍', cat: '이커머스', v: 'warn',
     nb: [
-      { platform: '네이버플러스 (월 4,900원)', items: [
+      { platform: '네이버플러스', items: [
         { partner: '네이버쇼핑', deadline: '월 20만원까지', rows: [{ grade: null, desc: '최대 5% Npay 포인트 적립' }] },
       ]},
-      { platform: '쿠팡 로켓와우 (월 7,890원)', items: [
+      { platform: '쿠팡 로켓와우', items: [
         { partner: '쿠팡', deadline: '상시', rows: [
           { grade: null, desc: '로켓배송 무료 (금액·거리 무관)' },
           { grade: null, desc: '와우 전용 할인가 제공' },
@@ -201,7 +201,7 @@ const alCats = [
         { partner: '롯데마트', deadline: '상시', rows: [{ grade: null, desc: '신상 5% 할인 + 무료배송' }] },
         { partner: '컬리', deadline: '상시', rows: [{ grade: null, desc: '2만원 이상 무료배송' }] },
       ]},
-      { platform: '쿠팡 로켓와우 (월 7,890원)', items: [
+      { platform: '쿠팡 로켓와우', items: [
         { partner: '로켓프레시', deadline: '상시', rows: [{ grade: null, desc: '당일·새벽배송 무료' }] },
       ]},
     ],
