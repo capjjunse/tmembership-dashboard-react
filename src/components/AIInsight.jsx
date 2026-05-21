@@ -63,8 +63,10 @@ const alCats = [
     ]}],
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
+      { partner: 'G car', deadline: 'VIP PICK · 5월', rows: [{ grade: 'V', desc: '대여료 60%+보험료 5% 할인 (2시간 이상)' }] },
+      { partner: 'TMAP 렌터카', deadline: 'VIP PLUS · 5월', rows: [{ grade: 'V', desc: '10,000원 할인 쿠폰' }] },
     ]}],
-    reasons: ['T멤버십: SK렌터카 제주 85%·내륙 60% 전 등급 상시 운영', '네이버플러스: 쏘카 50% 기간한정 (~26.06.30) · 경유 조건 있음'],
+    reasons: ['T멤버십: SK렌터카 상시 + G car VIP PICK 60% · TMAP 렌터카 PLUS까지 렌터카 3종 커버', '네이버플러스: 쏘카 50% 기간한정 (~26.06.30) · 경유 조건 있음'],
   },
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
@@ -74,8 +76,10 @@ const alCats = [
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
+      { partner: 'VIP PICK · 5월', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '폴 바셋·잠바주스 50% / 피자헛 세트 10,000원 중 택1' }] },
+      { partner: '고반식당', deadline: 'VIP PLUS · 5월', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상)' }] },
     ]}],
-    reasons: ['T멤버십: 외식 브랜드 상시 10~30% + T-day 최대 55% 다수 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 10~30% + T-day 최대 55% + VIP PICK 카페·외식 50% 다수 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -134,8 +138,9 @@ const alCats = [
     ],
     tm: [{ platform: 'T멤버십', items: [
       { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
+      { partner: 'GS SHOP', deadline: 'VIP PICK · 5월', rows: [{ grade: 'V', desc: '30% 할인 최대 10,000원' }] },
     ]}],
-    reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 최대 11% 적립 (SK그룹 플랫폼 한정)'],
+    reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 11% + VIP PICK GS SHOP 30% (SK 생태계·제휴처 한정)'],
   },
   // ── 유사 수준 ──
   {
