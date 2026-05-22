@@ -396,4 +396,5 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
   .vt th:first-child{width:80px}
   .comp-th-brand{width:72px}
   .comp-th-vd{width:110px}
+  .comp-table{min-width:560px}
 }
