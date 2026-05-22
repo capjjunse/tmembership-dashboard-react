@@ -131,7 +131,7 @@ export default function NonTelecom() {
     <div className="sec" id="nt">
       <div className="sh">
         <span className="st">🏪 비통신 멤버십 동향</span>
-        <span className="upd-badge upd-1m">↻ 월 갱신</span>
+        
       </div>
       <div className="ntg">
         {cards.map((c) => (

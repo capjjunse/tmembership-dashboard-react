@@ -3,7 +3,7 @@ export default function VipBenefits() {
     <div className="sec" id="vp">
       <div className="sh">
         <span className="st">👑 VIP 특화 혜택</span>
-        <span className="upd-badge upd-chg">⚡ 변경 시 업데이트</span>
+        
       </div>
       <div className="tbl-wrap"><table className="vt">
         <thead>

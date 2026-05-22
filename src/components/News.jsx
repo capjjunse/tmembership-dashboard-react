@@ -7,7 +7,7 @@ export default function News() {
     <div className="sec" id="nw">
       <div className="sh">
         <span className="st">📰 뉴스 스크랩</span>
-        <span className="upd-badge upd-3m">↻ 주간 갱신</span>
+        
       </div>
       <div className="tr2" style={{ marginBottom: '14px' }}>
         <button className={`ntab${tab === 'skt' ? ' as' : ''}`} onClick={() => setTab('skt')}>SKT</button>

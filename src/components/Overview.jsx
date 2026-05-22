@@ -3,7 +3,7 @@ export default function Overview() {
     <div className="sec" id="ov">
       <div className="sh">
         <span className="st">📊 이달의 핵심 동향</span>
-        <span className="upd-badge upd-1m">↻ 주 갱신</span>
+        
       </div>
       <div className="ovg">
 

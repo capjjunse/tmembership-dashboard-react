@@ -335,7 +335,7 @@ export default function AIInsight() {
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
         <span className="ss">2026년 5월 기준</span>
-        <span className="upd-badge upd-1m">↻ 월 갱신</span>
+        
       </div>
 
       {/* 섹션 1 — 3사 경쟁 매트릭스 */}

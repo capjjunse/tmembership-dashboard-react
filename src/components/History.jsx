@@ -3,7 +3,7 @@ export default function History() {
     <div className="sec" id="hs">
       <div className="sh">
         <span className="st">📋 혜택 변경 이력</span>
-        <span className="upd-badge upd-chg">⚡ 변경 즉시 갱신</span>
+        
       </div>
       <div className="tbl-wrap"><table className="ht">
         <thead>

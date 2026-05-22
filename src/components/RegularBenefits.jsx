@@ -3,7 +3,7 @@ export default function RegularBenefits() {
     <div className="sec" id="rg">
       <div className="sh">
         <span className="st">🎫 상시 혜택 비교</span>
-        <span className="upd-badge upd-chg">⚡ 변경 시 업데이트</span>
+        
       </div>
 
       <div className="cl2">🎬 영화관</div>

@@ -4,7 +4,7 @@ export default function MonthlyBenefits() {
       <div className="sh">
         <span className="st">🎁 이달의 월별 혜택</span>
         <span className="ss">2026년 5월</span>
-        <span className="upd-badge upd-chg">⚡ 주별 확인</span>
+        
       </div>
       <div className="m3">
         <div className="mc">

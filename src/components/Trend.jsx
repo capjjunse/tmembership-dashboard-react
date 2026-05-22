@@ -88,7 +88,7 @@ export default function Trend() {
     <div className="sec" id="tr">
       <div className="sh">
         <span className="st">📈 검색어 트렌드</span>
-        <span className="upd-badge upd-3m">↻ 주 단위 갱신</span>
+        
       </div>
       <div className="tch">
         <canvas ref={canvasRef}></canvas>
