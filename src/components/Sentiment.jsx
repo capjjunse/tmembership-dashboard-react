@@ -3,9 +3,9 @@ import { useState } from 'react';
 const SKT_TABS = [
   { id: 'kw1', label: 'T 멤버십 전반', hasData: false },
   { id: 'kw2', label: 'T day',          hasData: true  },
+  { id: 'kw5', label: '해피아워',        hasData: true  },
   { id: 'kw3', label: '0week·0day',     hasData: true  },
   { id: 'kw4', label: 'VIP PICK',       hasData: true  },
-  { id: 'kw5', label: '해피아워',        hasData: true  },
 ];
 
 const KT_TABS = [
