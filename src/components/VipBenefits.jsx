@@ -5,7 +5,7 @@ export default function VipBenefits() {
         <span className="st">👑 VIP 특화 혜택</span>
         <span className="upd-badge upd-chg">⚡ 변경 시 업데이트</span>
       </div>
-      <table className="vt">
+      <div className="tbl-wrap"><table className="vt">
         <thead>
           <tr>
             <th>구분</th>
@@ -62,7 +62,7 @@ export default function VipBenefits() {
             <td className="na">미제공</td>
           </tr>
         </tbody>
-      </table>
+      </table></div>
     </div>
   );
 }

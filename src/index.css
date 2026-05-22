@@ -370,3 +370,30 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .rcomp-badge{font-size:10px;font-weight:700;padding:2px 9px;border-radius:20px;display:inline-block}
 .rcomp-kt{background:#fff3e0;color:#c05000;border:0.5px solid #ffcc80}
 .rcomp-lgu{background:#e8eaf6;color:#3949ab;border:0.5px solid #9fa8da}
+
+/* ── 테이블 반응형 래퍼 ── */
+.tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:var(--r)}
+
+/* ── 모바일 반응형 ── */
+@media(max-width:640px){
+  .page{padding:10px 12px 48px}
+  .hdr{padding:18px 18px 16px;border-radius:var(--r);gap:8px}
+  .hdr-l h1{font-size:18px}
+  .hdr-meta{font-size:10px}
+  .sec{padding:1rem .9rem;border-radius:var(--r)}
+  .sh{flex-wrap:wrap;gap:4px}
+  .ss{font-size:10px;width:100%}
+  .upd-badge{margin-left:0}
+  .og{grid-template-columns:1fr 1fr}
+  .alc-grid{grid-template-columns:1fr}
+  .ntc{height:auto;min-height:200px}
+  .ntb{overflow:visible}
+  .ntlist{overflow:visible}
+  .tnote{max-width:100%;text-align:left}
+  .tinfo{flex-direction:column;gap:6px}
+  table.ct th:first-child{width:80px}
+  table.ct th:not(:first-child){width:auto}
+  .vt th:first-child{width:80px}
+  .comp-th-brand{width:72px}
+  .comp-th-vd{width:110px}
+}
