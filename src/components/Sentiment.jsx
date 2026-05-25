@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페 (2026.05.22 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.05.25 갱신)</span>
         
       </div>
       <div className="tr2">
@@ -78,10 +78,14 @@ export default function Sentiment() {
             <span className="srcbadge act">루리웹</span>
             <span className="srcbadge act">아카라이브</span>
             <span className="srcbadge act">뽐뿌</span>
+            <span className="srcbadge act">네이버카페</span>
+            <span className="srcbadge act">네이버블로그</span>
           </div>
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw2' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT T데이 5월 27일 혜택 후기 — "쉐이크쉑 버거 30% 할인, VIP 고객님은 버거 1+1이에요" / 뚜레쥬르·파스쿠찌·백억커피 동시 운영</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/heejk1125/224295691706" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">5월 마지막 T데이 총정리 — "쉐이크쉡 1+1·뚜레쥬르 할인·파스쿠찌 40%·백억커피 100원" (#알뜰지출 정리글)</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/191130_/224294429402" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">SKT T데이·VIP 혜택 던킨 50% 할인 — "먼치킨 팩이랑 도넛 구입했습니다!" (컬처블룸)</div><div className="rsrc">2026.05.21 · <a href="http://cafe.naver.com/culturebloom/3226583" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">T day VIP 고객 던킨 반값 내돈내산 — "GOLD/SILVER 30% + VIP 고객 50% 할인, 직접 써봤어요"</div><div className="rsrc">2026.05.20 · <a href="https://blog.naver.com/kmkmj99/224291365697" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T데이 피자헛 포장 50% 할인 (5/20) — "덕분에 오랜만에 피자헛 주문했어요" (조회 33,372) / "요즘 할인율 줄이고 VIP만 챙겨주는 꼬라지 괘씸"</div><div className="rsrc">2026.05.20 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104230" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -138,6 +142,7 @@ export default function Sentiment() {
           <div className="srcs">
             <span className="srcbadge act">에펨코리아</span>
             <span className="srcbadge act">루리웹</span>
+            <span className="srcbadge act">네이버블로그</span>
           </div>
           <KwTabs tabs={KT_TABS} active={ktKw} setActive={setKtKw} />
           {ktKw === 'kw1' && (
@@ -156,6 +161,8 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw3' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 노랑통닭 마늘치킨 후기 — "KT 개인정보 유출 보상 쿠폰으로 노랑통닭 3종 치킨 시켰다" 긍정 평가</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/byeol_arii/224295613535" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 투썸 방문 일상 — "엄마랑 KT 고객 보답 프로그램 쿠폰 쓰러 왔다, 투썸에서 케이크·음료 반값"</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/92yebinee/224295720090" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 5월 고객보답 2차 (투썸50%/배민×노랑통닭) 공유 — "오랜만에 노통 함 조져야겠네" "메가커피 오늘 먹어야겠네 2잔 아메리카노 공짜!!"</div><div className="rsrc">2026.05.15 · <a href="https://www.fmkorea.com/9827869002" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">5월 KT 고객감사 메가커피 2잔 무료 — "U플러스는 고객감사 안하나ㅡ.ㅡ"</div><div className="rsrc">2026.05.08 · <a href="https://www.fmkorea.com/9800753363" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">5월 KT멤버십 커피2잔 — "쭈차뿔라 공짜 2잔?!"</div><div className="rsrc">2026.05.07 · <a href="https://www.fmkorea.com/9795918182" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -184,6 +191,7 @@ export default function Sentiment() {
           </div>
           <div className="srcs">
             <span className="srcbadge act">네이버카페</span>
+            <span className="srcbadge act">네이버블로그</span>
           </div>
           <KwTabs tabs={LGU_TABS} active={lguKw} setActive={setLguKw} />
           {lguKw === 'kw2' && (
@@ -194,6 +202,7 @@ export default function Sentiment() {
           )}
           {lguKw === 'kw4' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">VIP콕 배스킨라빈스 무료교환 혜택 정리 — "유플멤버십 VIP콕 혜택으로 배스킨라빈스에서 무료 교환 가능한 메뉴" 상세 안내</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/amazing_0070/224295711582" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">유플러스 VIP콕으로 스타벅스 — "언니가 VIP콕으로 스벅 쏴줬다" (겟꿀 카페)</div><div className="rsrc">2026.04.30 · <a href="http://cafe.naver.com/dpdtydzzz/8906" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
