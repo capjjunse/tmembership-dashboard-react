@@ -11,7 +11,7 @@ const compGroups = [
         skt: { lines: [{ grade: '전 등급', b: '쉑버거 30% 할인 · VIP 1+1' }], date: '5.27~5.31 · T day 3주차' },
         kt: { lines: [{ grade: '전 등급', b: '프라이+소다(S) 무료 (1만원↑)' }], date: '5.15~31 · 달달혜택' },
         lgu: null,
-        v: 'skt', basis: 'SKT VIP 쉑버거 1+1 vs KT 사이드 무료', note: 'SKT VIP는 버거 1+1, KT는 전 등급 프라이+소다 증정',
+        v: 'good', basis: 'SKT VIP 쉑버거 1+1 vs KT 사이드 무료', note: 'SKT VIP는 버거 1+1, KT는 전 등급 프라이+소다 증정',
       },
     ],
   },
