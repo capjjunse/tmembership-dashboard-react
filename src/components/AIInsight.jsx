@@ -16,9 +16,9 @@ const compGroups = [
       {
         brand: '쉐이크쉑',
         skt: { lines: [{ grade: '전 등급', b: '쉑버거 30% 할인 · VIP 1+1' }], date: '5.27~5.31 · T day 3주차' },
-        kt: { lines: [{ grade: '전 등급', b: '쉑버거 1+1' }], date: '5.15~31 · 달달혜택' },
+        kt: { lines: [{ grade: '전 등급', b: '프라이+소다(S) 무료 (1만원↑)' }], date: '5.15~31 · 달달혜택' },
         lgu: null,
-        v: 'warn', basis: 'KT 전 등급 1+1 vs SKT VIP만 1+1', note: 'SKT 5일 · KT 2주간 운영',
+        v: 'skt', basis: 'SKT VIP 쉑버거 1+1 vs KT 사이드 무료', note: 'SKT VIP는 버거 1+1, KT는 전 등급 프라이+소다 증정',
       },
     ],
   },
@@ -86,9 +86,9 @@ const compGroups = [
       {
         brand: '파리바게뜨',
         skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원/P 할인/적립' }], date: '5.4~5.8 · 0 week' },
-        kt: { lines: [{ grade: '전 등급', b: '4천원 할인 (1만원 이상)' }], date: '5.15~31 · 달달초이스' },
+        kt: { lines: [{ grade: '전 등급', b: '4천원 할인 (1만원 이상) · 선착순 소진' }], date: '5.15~31 · 달달초이스' },
         lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원 이상)' }], date: '5.19 · 스페셜데이' },
-        v: 'neut', basis: '3사 구조 상이', note: '3사 기간·조건 분산',
+        v: 'neut', basis: '3사 구조 상이', note: 'KT 달달초이스 쿠폰 선착순 소진 · SKT 0week / LGU+ 스페셜데이',
       },
     ],
   },

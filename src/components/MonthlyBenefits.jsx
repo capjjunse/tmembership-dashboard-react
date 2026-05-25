@@ -63,20 +63,20 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: 'var(--kt)' }}></span>달달혜택 — 외식/쇼핑 (5.15~31)</div>
               <ul className="mblist">
-                <li>할리스·폴바셋 50% 할인</li>
-                <li>쉐이크쉑·도미노피자·파리바게뜨 할인</li>
-                <li>롯데마트 제타 최대 50% 할인</li>
-                <li>컬리·GS SHOP·크록스·롯데렌터카 할인</li>
-                <li>국민학교 떡볶이 달달초이스 신규 참여 <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></li>
+                <li>할리스·폴바셋 50% 할인 (달달초이스)</li>
+                <li>쉐이크쉑 프라이+소다(S) 무료 (1만원↑, 달달초이스)</li>
+                <li>도미노피자 방문포장 50% 할인 (2.5만~4.5만원, 달달초이스)</li>
+                <li>롯데마트 제타 1개 50% 할인 (달달초이스)</li>
+                <li>컬리 5천원·GS SHOP 7천원·크록스 4만원 등 (달달스페셜)</li>
+                <li>국민학교 떡볶이 최대 60% 할인 (달달초이스) <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></li>
               </ul>
             </div>
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#ff4444' }}></span>달달혜택 — 문화/여가 (5.15~31)</div>
               <ul className="mblist">
-                <li>뮤지컬 빌리 엘리어트 최대 55% 할인</li>
-                <li>마리 로랑생 회고전 전 등급 50% 할인</li>
-                <li>아쿠아필드·원더파크 이용권 할인</li>
-                <li>마이리얼트립 여행 혜택 / 신라면세점 할인</li>
+                <li>아쿠아필드·원더파크·원더빌리지 최대 4인 40% 할인 (달달스페셜)</li>
+                <li>마이리얼트립 해외 투어 최대 1만원 / 신라면세점 제휴 쿠폰 (달달스페셜)</li>
+                <li>롯데렌터카 G car 60% / 그리팅 2만원 / 스몹 40% (달달스페셜)</li>
               </ul>
             </div>
             <div className="mblk">
