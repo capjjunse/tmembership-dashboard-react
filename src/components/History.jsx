@@ -62,7 +62,7 @@ export default function History() {
             <td>2026.05.12</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십 상시</td>
-            <td>VIPS 상시 할인율 확인 (VIP 15%, 우수 5%) / 도미노 상시 미제공 확인</td>
+            <td>VIPS 상시 할인율 확인 (VVIP/VIP 15%, 우수 5%) / 도미노 VVIP·VIP 20%·우수 15% 확인 (미제공 오기 수정)</td>
             <td><span className="tb t신규">확인</span></td>
           </tr>
           <tr>
