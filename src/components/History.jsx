@@ -18,6 +18,13 @@ export default function History() {
         <tbody>
           <tr>
             <td>2026.05.26</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+멤버십</td>
+            <td>등급 상향 주기 변경 — 월 2~15일 가입 시 익월 1일 / 16~말일 가입 시 익월 16일 승급 (7.1~)</td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td>2026.05.26</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T멤버십 상시</td>
             <td>후지필름 신규 제휴 — 포토북 40%+사진인화 20%+액세서리 10%+무료배송권(2만원↑) (6.15~)</td>
@@ -42,6 +49,27 @@ export default function History() {
             <td><span className="cb bs">SKT</span></td>
             <td>T멤버십 상시</td>
             <td>도그메이트 제휴 종료 예정 (6.30)</td>
+            <td><span className="tb t종료">종료</span></td>
+          </tr>
+          <tr>
+            <td>2026.04.30</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td>매드포갈릭 할인율 조정 — [전 등급] 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5% (6.1~)</td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td>2026.04.30</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td>CGV 동반할인 3인→4인까지 확대 (5.1~)</td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td>2026.04.30</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td>앱티핏 제휴 종료 (6.1)</td>
             <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
