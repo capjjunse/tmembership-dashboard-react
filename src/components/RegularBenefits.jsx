@@ -50,8 +50,8 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>에버랜드</td><td>[전 등급] 본인 40%·동반 3인 30% 할인</td><td>[전 등급] 본인 40%·동반 3인 20% 할인 (현장)</td><td className="wt">종료</td></tr>
-          <tr><td>롯데월드 어드벤처</td><td>[VIP/Gold] 본인 40%·동반 3인 30% 할인 · [Silver] 본인 40%·동반 3인 20% 할인</td><td>[전 등급] 본인 40%·동반 3인 30% 할인 (일1회)</td><td>부산점 본인 25%·동반 3인 10% 할인</td></tr>
+          <tr><td>에버랜드</td><td>[전 등급] 본인 40%·동반 3인 30% 할인</td><td>[전 등급] 본인 40%·동반 3인 20% 할인 (현장)</td><td className="na">미제공</td></tr>
+          <tr><td>롯데월드 어드벤처</td><td>[VIP/Gold] 본인 40%·동반 3인 30% 할인 · [Silver] 본인 40%·동반 3인 20% 할인</td><td>[전 등급] 본인 40%·동반 3인 30% 할인 (일1회)</td><td>[전 등급] 부산점 본인 25%·동반 3인 10% 할인</td></tr>
           <tr>
             <td>루덴시아 <span style={{ fontSize: '10px', color: 'var(--pos)', fontWeight: 700 }}>NEW</span></td>
             <td className="ht2">[전 등급] 주중 50%·주말 35% 할인 (2026.04.24~)</td>
