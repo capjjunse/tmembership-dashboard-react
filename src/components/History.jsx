@@ -18,20 +18,6 @@ export default function History() {
         <tbody>
           <tr>
             <td>2026.05.26</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+멤버십 상시</td>
-            <td>에버랜드 제휴 종료 확인 (검색 결과 0건)</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.05.26</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+멤버십 상시</td>
-            <td>롯데월드 어드벤처 잠실(42%) 종료 → 부산점 본인 25%·동반 3인 10%로 변경 확인</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.05.26</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T멤버십 상시</td>
             <td>후지필름 신규 제휴 — 포토북 40%+사진인화 20%+액세서리 10%+무료배송권(2만원↑) (6.15~)</td>
@@ -71,13 +57,6 @@ export default function History() {
             <td>달달혜택</td>
             <td>달달초이스 국민학교 떡볶이 신규 참여 (5.15~31)</td>
             <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.05.12</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+멤버십 상시</td>
-            <td>VIPS 상시 할인율 확인 (VVIP/VIP 15%, 우수 5%) / 도미노 VVIP·VIP 20%·우수 15% 확인 (미제공 오기 수정)</td>
-            <td><span className="tb t신규">확인</span></td>
           </tr>
           <tr>
             <td>2026.05.11</td>
