@@ -63,6 +63,11 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">LGU+ 장기고객 대상 '레고랜드 RUN' 체험형 행사 성황 — VIP↑·5년이상 4천명 초청</span></div>
+            <div className="nsum">강원도 춘천 레고랜드 코리아에서 멤버십 VIP 이상 5년 이상 장기고객 4천명 대상 참여형 프로그램 진행. 가정의 달 맞아 가족 콘텐츠 구성. 장기고객 대상 체험형 행사 연속 개최로 우대 전략 지속 강화.</div>
+            <div className="nmeta">2026-05-18 · <a href="https://news.lguplus.com/21847" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">5월 유플투쁠 혜택 공개 — 공차·배스킨·이마트24·컬리·다이소 등 생활밀착형 라인업</span></div>
             <div className="nsum">투쁠데이·스페셜데이·장기고객데이 3종 체계로 매달 특정일 오전 11시 선착순 혜택 운영. 5월은 공차·배스킨라빈스·이마트24·컬리·다이소 등 외식·쇼핑 브랜드 집중 편성. 5.28 장기고객데이는 CGV·NOL티켓·윌라 문화혜택 제공.</div>
             <div className="nmeta">2026-05-07 · <a href="https://news.lguplus.com/21804" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>

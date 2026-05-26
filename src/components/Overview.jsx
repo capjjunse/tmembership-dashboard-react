@@ -10,10 +10,10 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">VIP Pick 구조 개편 예고</div>
+            <div className="ov">6월 제휴 변동 3건 동시 공시</div>
             <div className="od">
-              <span>T우주패스 8월 1일 쿠폰 분리 적용</span>
-              <span>커뮤니티 부정 반응 감지 중</span>
+              <span>후지필름 신규·청소연구소 변경·농협맛선·도그메이트 종료 예고</span>
+              <span>VIP Pick T우주패스 8월 개편 예고 진행 중 / 커뮤니티 부정 반응 지속</span>
             </div>
             <div className="octabs">
               <a href="#hs" className="octab">변경이력</a>
@@ -24,15 +24,15 @@ export default function Overview() {
           <div className="ovchanges">
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--skt)' }}></div>
-              <div className="tt">VIP Pick T우주패스 — 9,900원 쿠폰 폐지, 4,900원+5,000원 2종 분리{' '}<span className="ovb ovb-chg">8월 1일 적용</span></div>
+              <div className="tt">후지필름 신규 제휴 — 포토북 40%·사진인화 20%·액세서리 10%·무료배송권{' '}<span className="ovb ovb-new">6월 15일 신규</span></div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--skt)' }}></div>
-              <div className="tt">루덴시아 신규 제휴 (주중 50%, 주말 35%) / 무탄 종료{' '}<span className="ovb ovb-end">5월 31일 종료</span></div>
+              <div className="tt">농협맛선·도그메이트 제휴 종료 예정{' '}<span className="ovb ovb-end">6월 30일 종료</span></div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--skt)' }}></div>
-              <div className="tt">매드포갈릭 할인율 하향 (V/G 20%→15%, S 10%→5%){' '}<span className="ovb ovb-chg">6월 1일 적용</span></div>
+              <div className="tt">청소연구소 에어컨 청소 7% 할인 시즌 혜택 추가 (최대 1만원){' '}<span className="ovb ovb-chg">6월 1일 적용</span></div>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function Overview() {
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
-              <div className="tt">26년 6월 신규 제휴사 + 일부 제휴사 혜택 종료 예정{' '}<span className="ovb ovb-new">5월 11일 신규</span></div>
+              <div className="tt">6월 신규 4개 — 모던하우스·유니스터디·위피·B1불스원카케어{' '}<span className="ovb ovb-new">6월 1일 신규</span></div>
             </div>
           </div>
         </div>

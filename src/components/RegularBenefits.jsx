@@ -89,7 +89,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>도미노</td><td>[VIP] 30% 할인 · [Gold/Silver] 20% 할인</td><td>[VVIP/VIP] 20% 할인 · [Gold/일반] 15% 할인</td><td>[VVIP/VIP] 20% 할인 (최대 4만원) · [우수] 15% 할인 (최대 3만원)</td></tr>
+          <tr><td>도미노</td><td>[VIP] 30% 할인 · [Gold/Silver] 20% 할인</td><td>[VVIP/VIP] 20% 할인 · [Gold/일반] 15% 할인</td><td className="na">미제공</td></tr>
           <tr><td>피자헛</td><td>[VIP] 30% 할인 · [Gold/Silver] 20% 할인</td><td>[전 등급] 15% 할인</td><td>[전 등급] 15% 할인</td></tr>
         </tbody>
       </table></div>
