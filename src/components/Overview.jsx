@@ -108,10 +108,10 @@ export default function Overview() {
             </a>
             <a href="#tr" className="ovki ovki-trend">
               <div className="ovki-cat">📈 검색어 트렌드</div>
-              <div className="ovki-title">SKT 2.5·KT 4.1 — 5/18 확정치 상향 반영</div>
+              <div className="ovki-title">5/25주 추가 — SKT 5/18 확정 2.5 · 5/25 잠정 0.2</div>
               <ul className="ovki-list">
-                <li>SKT 5/18 확정 2.5 (잠정치 1.5 → 재집계) — 13주 최저점 유지</li>
-                <li>KT 5/18 확정 4.1 (잠정치 1.8 → 재집계) — 달달혜택 종반 실수요 확인</li>
+                <li>SKT 5/18 최종 2.5 — 14주 최저점 / 5/25주 잠정 0.2 (주간 미완결)</li>
+                <li>KT 5/18 최종 4.1 / 5/25주 잠정 0.5 — 달달혜택 종료 후 주간 집계 중</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>

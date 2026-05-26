@@ -63,7 +63,12 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LGU+, 가정의달 5월 야외활동 중심 멤버십 혜택 강화 — 테마파크·외식·문화</span></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">5월 유플투쁠 혜택 공개 — 공차·배스킨·이마트24·컬리·다이소 등 생활밀착형 라인업</span></div>
+            <div className="nsum">투쁠데이·스페셜데이·장기고객데이 3종 체계로 매달 특정일 오전 11시 선착순 혜택 운영. 5월은 공차·배스킨라빈스·이마트24·컬리·다이소 등 외식·쇼핑 브랜드 집중 편성. 5.28 장기고객데이는 CGV·NOL티켓·윌라 문화혜택 제공.</div>
+            <div className="nmeta">2026-05-07 · <a href="https://news.lguplus.com/21804" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">LGU+, 가정의달 5월 야외활동 중심 멤버십 혜택 강화 — 테마파크·외식·문화</span></div>
             <div className="nsum">서울랜드·롯데월드·레고랜드 추첨 응모, 피자헛 55%·청기와타운 육회 무료 등 외식 혜택, LG아트센터·CGV PEAKERS 클라이밍 등 문화 혜택 병행.</div>
             <div className="nmeta">2026-05-07 · <a href="https://www.fnnews.com/news/202505070910590134" target="_blank" rel="noreferrer">파이낸셜뉴스</a></div>
           </div>
