@@ -40,19 +40,20 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">5월 달달혜택 밀도 최상</div>
+            <div className="ov">5월 달달혜택 성황 · 6월 매드포갈릭 축소 예고</div>
             <div className="od">
-              <span>신규 브랜드 + 고객보답 2차 동시 운영</span>
-              <span>이달 3사 중 혜택 구성 가장 풍부</span>
+              <span>고객보답 2차 동시 운영으로 이달 혜택 풍부</span>
+              <span>6월부터 매드포갈릭 전 등급 20% → 등급별 15%·5%로 하향 예정</span>
             </div>
             <div className="octabs">
               <a href="#mo" className="octab">월별혜택</a>
+              <a href="#hs" className="octab">변경이력</a>
             </div>
           </div>
           <div className="ovchanges">
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
-              <div className="tt">CGV 상시 이용횟수 월3회→일1회 확대{' '}<span className="ovb ovb-chg">5월 1일 적용</span></div>
+              <div className="tt">매드포갈릭 할인율 하향 — 전 등급 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5%{' '}<span className="ovb ovb-chg">6월 1일 예정</span></div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
