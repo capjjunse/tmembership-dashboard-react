@@ -575,7 +575,7 @@ export default function AIInsight() {
       <div className="ai-sec">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">🔍 제휴사 이슈 레이더</span>
-          <span className="ai-sec-desc">현재·잠재 제휴 브랜드 리스크·기회 모니터링 · {news7dPeriod(RADAR_SCANNED)} 뉴스</span>
+          <span className="ai-sec-desc">제휴 브랜드 이슈 모니터링 · 뉴스 {news7dPeriod(RADAR_SCANNED)}</span>
         </div>
         <div className="tr-grid">
           {trendSignals.map((s, i) => (
@@ -638,7 +638,7 @@ export default function AIInsight() {
       <div className="ai-sec">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">📡 마켓 시그널</span>
-          <span className="ai-sec-desc">경쟁·소비 동향 뉴스 · {news7dPeriod(cnData.generated_at)} · 총 {cnData.total_top}건</span>
+          <span className="ai-sec-desc">경쟁·소비 동향 · 뉴스 {news7dPeriod(cnData.generated_at)} · {cnData.total_top}건</span>
         </div>
         <CategoryNewsContent />
       </div>
