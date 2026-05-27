@@ -45,9 +45,12 @@ function buildGroups() {
 
 const MAX_VISIBLE = 3;
 
-export function CategoryNewsContent() {
+export function CategoryNewsContent({ excludeBrands = [] }) {
   const [expanded, setExpanded] = useState({});
-  const groups = buildGroups();
+  const raw = buildGroups();
+  const groups = excludeBrands.length > 0
+    ? raw.filter(g => !excludeBrands.some(b => g.topic.includes(b)))
+    : raw;
   const toggle = (k) => setExpanded(p => ({ ...p, [k]: !p[k] }));
 
   return groups.length === 0 ? (

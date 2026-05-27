@@ -550,7 +550,7 @@ export default function AIInsight() {
           <span className="ai-sec-title">📡 마켓 시그널</span>
           <span className="ai-sec-desc">경쟁·소비 동향 · 뉴스 {news7dPeriod(cnData.generated_at)}</span>
         </div>
-        <CategoryNewsContent />
+        <CategoryNewsContent excludeBrands={trendSignals.map(s => s.brand)} />
       </div>
     </div>
   );
