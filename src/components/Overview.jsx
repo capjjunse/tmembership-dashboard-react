@@ -1,3 +1,93 @@
+import { trendSignals } from '../data/radarData';
+import cnData from '../../category_news.json';
+
+// 긴급·주목 신호를 분류해 카드 내용을 동적으로 결정
+function IssueRadarCard() {
+  const topics = cnData.topic_groups || [];
+  const radarBrands = trendSignals.map(s => s.brand);
+
+  // 제휴사 레이더: strong + neg = 긴급 대응
+  const urgentS = trendSignals.filter(s => s.strength === 'strong' && s.direction === 'neg');
+  const notableS = trendSignals.filter(s => s.strength === 'mid' && s.direction === 'neg');
+
+  // 마켓 시그널: signal_strength=3이면서 레이더에 없는 브랜드만 (중복 제거)
+  const urgentM = topics.filter(
+    g => g.signal_strength === 3 && !radarBrands.some(b => g.topic.includes(b))
+  );
+  const notableM = topics.filter(
+    g => g.signal_strength === 2 && ['risk', 'battle'].includes(g.category) &&
+    !radarBrands.some(b => g.topic.includes(b))
+  ).slice(0, 2);
+
+  const isUrgent = urgentS.length > 0 || urgentM.length > 0;
+
+  if (isUrgent) {
+    const titleBrands = [
+      ...urgentS.map(s => s.brand),
+      ...urgentM.map(m => m.topic.split(' ').slice(0, 2).join(' ')),
+    ].slice(0, 2).join(' · ');
+
+    return (
+      <a href="#ai" className="ovki ovki-urgent">
+        <div className="ovki-cat">🚨 긴급 대응 필요</div>
+        <div className="ovki-title">{titleBrands} — 즉각 검토 필요</div>
+        {urgentS.map((s, i) => (
+          <div key={i} className="ovki-urgent-blk">
+            <div className="ovki-urgent-hdr">
+              <span className="ovki-urgent-brand">{s.brand}</span>
+              <span className="ovki-ubadge ovki-ubadge-neg">강 · 부정</span>
+              {s.telcos.length > 0 && (
+                <span className="ovki-ubadge ovki-ubadge-telco">
+                  {s.telcos.map(t => t.label).join('·')} 제휴 중
+                </span>
+              )}
+            </div>
+            <div className="ovki-urgent-hl">{s.headline[0]}</div>
+          </div>
+        ))}
+        {urgentM.map((m, i) => (
+          <div key={i} className="ovki-urgent-blk">
+            <div className="ovki-urgent-hdr">
+              <span className="ovki-urgent-brand">{m.topic}</span>
+              <span className="ovki-ubadge ovki-ubadge-neg">마켓 긴급</span>
+            </div>
+            <div className="ovki-urgent-hl">
+              {m.insight.length > 55 ? m.insight.slice(0, 55) + '…' : m.insight}
+            </div>
+          </div>
+        ))}
+        <div className="ovki-go">이슈 레이더 보기 →</div>
+      </a>
+    );
+  }
+
+  // 긴급 없음 — 주목(mid+neg) + 마켓 notable 요약
+  const items = [
+    ...notableS.map(s => `${s.brand} — ${s.headline[0].length > 40 ? s.headline[0].slice(0, 40) + '…' : s.headline[0]}`),
+    ...notableM.map(m => `${m.topic} — ${m.insight.length > 38 ? m.insight.slice(0, 38) + '…' : m.insight}`),
+  ].slice(0, 3);
+
+  const titleParts = [
+    ...notableS.slice(0, 2).map(s => s.brand),
+    ...(notableS.length === 0 ? notableM.slice(0, 1).map(m => m.topic.split(' ').slice(0, 2).join(' ')) : []),
+  ];
+  const title = titleParts.length > 0 ? `${titleParts.join(' · ')} 모니터링 중` : '현재 주목 이슈 없음';
+
+  return (
+    <a href="#ai" className="ovki ovki-radar">
+      <div className="ovki-cat">🔍 이슈 레이더 · 마켓 시그널</div>
+      <div className="ovki-title">{title}</div>
+      <ul className="ovki-list">
+        {items.length > 0
+          ? items.map((item, i) => <li key={i}>{item}</li>)
+          : <li>이번 주 주목 이슈 없음 · 정기 모니터링 유지</li>
+        }
+      </ul>
+      <div className="ovki-go">이슈 레이더 보기 →</div>
+    </a>
+  );
+}
+
 export default function Overview() {
   return (
     <div className="sec" id="ov">
@@ -126,15 +216,7 @@ export default function Overview() {
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>
-            <a href="#ai" className="ovki ovki-radar">
-              <div className="ovki-cat">🔍 이슈 레이더 · 마켓 시그널</div>
-              <div className="ovki-title">스타벅스 불매 긴급 대응 · 배달앱 무료배달 치킨게임</div>
-              <ul className="ovki-list">
-                <li>🔴 스타벅스 탱크데이 불매 확산 — 3사 모두 제휴 운영 중, 혜택 활용률 저하 리스크</li>
-                <li>⚡ 배달앱 무료배달 대전 심화 · 통신사 OTT 구독팩 경쟁 — T멤버십 차별화 재검토 필요</li>
-              </ul>
-              <div className="ovki-go">이슈 레이더 보기 →</div>
-            </a>
+            <IssueRadarCard />
           </div>
         </div>
 
