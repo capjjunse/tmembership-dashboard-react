@@ -1,7 +1,19 @@
 import cnData from '../../category_news.json';
 import { CategoryNewsContent } from './CategoryNews';
 
-// 섹션 4 — 제휴사 이슈 레이더 (2026.05.26 기준)
+// 뉴스 수집 기간(7일) 표시용 — dateStr: 'YYYY.MM.DD' 또는 'YYYY.MM.DD HH:MM'
+function news7dPeriod(dateStr) {
+  const [y, m, d] = dateStr.split(' ')[0].split('.').map(Number);
+  const end   = new Date(y, m - 1, d);
+  const start = new Date(y, m - 1, d - 6);
+  const fmt = (dt) => `${dt.getMonth() + 1}.${String(dt.getDate()).padStart(2, '0')}`;
+  return `${fmt(start)}~${fmt(end)}`;
+}
+
+// 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
+const RADAR_SCANNED = '2026.05.26';
+
+// 섹션 4 — 제휴사 이슈 레이더
 // membership: 'partner'=현재 제휴 | 'candidate'=잠재 후보 | 'watchlist'=관심
 // direction:  'neg'=부정 | 'pos'=긍정 | 'neu'=중립
 // sources:    'DataLab'=검색 급등 | '뉴스'=뉴스 버즈 급등
@@ -563,7 +575,7 @@ export default function AIInsight() {
       <div className="ai-sec">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">🔍 제휴사 이슈 레이더</span>
-          <span className="ai-sec-desc">현재·잠재 제휴 브랜드 리스크·기회 모니터링</span>
+          <span className="ai-sec-desc">현재·잠재 제휴 브랜드 리스크·기회 모니터링 · {news7dPeriod(RADAR_SCANNED)} 뉴스</span>
         </div>
         <div className="tr-grid">
           {trendSignals.map((s, i) => (
@@ -626,7 +638,7 @@ export default function AIInsight() {
       <div className="ai-sec">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">📡 마켓 시그널</span>
-          <span className="ai-sec-desc">경쟁·소비 동향 뉴스 · {cnData.generated_at} 기준 · {cnData.total_top}건</span>
+          <span className="ai-sec-desc">경쟁·소비 동향 뉴스 · {news7dPeriod(cnData.generated_at)} · 총 {cnData.total_top}건</span>
         </div>
         <CategoryNewsContent />
       </div>
