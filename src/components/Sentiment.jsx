@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.05.26 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.05.27 갱신)</span>
         
       </div>
       <div className="tr2">
@@ -84,6 +84,7 @@ export default function Sentiment() {
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw2' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T멤버십 이번주 T데이 혜택 (5/27) — "요번엔 별거 없구먼" (조회 15,651)</div><div className="rsrc">2026.05.27 · <a href="https://bbs.ruliweb.com/pc/board/1020/read/104359" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">T DAY 5월 27일 혜택 총정리 — 쉐이크쉑·뚜레쥬르·파스쿠찌·백억커피·CGV 한눈에 정리</div><div className="rsrc">2026.05.26 · <a href="https://blog.naver.com/dkdpdldhdn93/224294954907" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT T데이 5월 27일 혜택 후기 — "쉐이크쉑 버거 30% 할인, VIP 고객님은 버거 1+1이에요" / 뚜레쥬르·파스쿠찌·백억커피 동시 운영</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/heejk1125/224295691706" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">5월 마지막 T데이 총정리 — "쉐이크쉡 1+1·뚜레쥬르 할인·파스쿠찌 40%·백억커피 100원" (#알뜰지출 정리글)</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/191130_/224294429402" target="_blank" rel="noreferrer">원문 보기</a></div></div>

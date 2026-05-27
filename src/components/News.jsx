@@ -32,11 +32,6 @@ export default function News() {
             <div className="nsum">0 day를 0 week로 확대해 5일간 이용 가능. T day에 VIP 전용 찬스·only 신설. 갤럭시 S26 개통 고객 맞춤 클럽 갤럭시 S26 운영.</div>
             <div className="nmeta">2026-04-01 · <a href="https://news.sktelecom.com/223425" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">SKT·KT·LGU+ 갤럭시 S26 사전예약 혜택 경쟁</span></div>
-            <div className="nsum">3사가 갤럭시 S26 사전예약 기간 멤버십 혜택 강화. SKT는 클럽 갤럭시 S26 패키지 선보이며 체험형 마케팅 전략 구사.</div>
-            <div className="nmeta">2026-02-26 · <a href="https://www.thelec.kr/news/articleView.html?idxno=52782" target="_blank" rel="noreferrer">디일렉</a></div>
-          </div>
         </div>
       )}
 

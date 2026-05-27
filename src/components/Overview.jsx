@@ -100,19 +100,19 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#sn" className="ovki ovki-neg">
               <div className="ovki-cat">🚨 고객반응</div>
-              <div className="ovki-title">SKT VIP PICK 부정 · KT 고객보답 긍정 극명</div>
+              <div className="ovki-title">T day 5/27 '별거 없다' 부정 · KT 고객보답 긍정 유지</div>
               <ul className="ovki-list">
-                <li>SKT VIP PICK — 뽐뿌 인기글 조회 15,247 "갈수록 혜택 줄이네" 부정 집중</li>
-                <li>KT 고객보답 — 루리웹 조회 44,751 "이번엔 그래도 메가커피" 긍정 쏠림</li>
+                <li>T day 5/27 — 루리웹 조회 15,651 "요번엔 별거 없구먼" 부정 / VIP PICK 혜택 축소 불만 지속</li>
+                <li>KT 고객보답 — 루리웹 조회 44,751 긍정 · 2차 투썸·노랑통닭도 호응 이어짐</li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>
             <a href="#tr" className="ovki ovki-trend">
               <div className="ovki-cat">📈 검색어 트렌드</div>
-              <div className="ovki-title">5/25주 추가 — SKT 5/18 확정 2.5 · 5/25 잠정 0.2</div>
+              <div className="ovki-title">5/25주 갱신 — SKT 0.6 · KT 1.0 (잠정)</div>
               <ul className="ovki-list">
-                <li>SKT 5/18 최종 2.5 — 14주 최저점 / 5/25주 잠정 0.2 (주간 미완결)</li>
-                <li>KT 5/18 최종 4.1 / 5/25주 잠정 0.5 — 달달혜택 종료 후 주간 집계 중</li>
+                <li>SKT 5/25 잠정 0.6 (전주比 +140%) · 5/18 최종 2.5 연중 최저점</li>
+                <li>KT 5/25 잠정 1.0 / 5/18 최종 4.1 — 달달혜택 종료 후 집계 중</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
