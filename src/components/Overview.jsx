@@ -126,6 +126,15 @@ export default function Overview() {
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>
+            <a href="#ai" className="ovki ovki-radar">
+              <div className="ovki-cat">🔍 이슈 레이더 · 마켓 시그널</div>
+              <div className="ovki-title">스타벅스 불매 긴급 대응 · 배달앱 무료배달 치킨게임</div>
+              <ul className="ovki-list">
+                <li>🔴 스타벅스 탱크데이 불매 확산 — 3사 모두 제휴 운영 중, 혜택 활용률 저하 리스크</li>
+                <li>⚡ 배달앱 무료배달 대전 심화 · 통신사 OTT 구독팩 경쟁 — T멤버십 차별화 재검토 필요</li>
+              </ul>
+              <div className="ovki-go">이슈 레이더 보기 →</div>
+            </a>
           </div>
         </div>
 
