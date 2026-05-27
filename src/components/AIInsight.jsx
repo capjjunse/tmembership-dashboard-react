@@ -638,7 +638,7 @@ export default function AIInsight() {
       <div className="ai-sec">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">📡 마켓 시그널</span>
-          <span className="ai-sec-desc">경쟁·소비 동향 · 뉴스 {news7dPeriod(cnData.generated_at)} · {cnData.total_top}건</span>
+          <span className="ai-sec-desc">경쟁·소비 동향 · 뉴스 {news7dPeriod(cnData.generated_at)}</span>
         </div>
         <CategoryNewsContent />
       </div>
