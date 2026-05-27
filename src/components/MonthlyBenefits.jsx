@@ -97,19 +97,20 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>투쁠데이 — 오전 11시 선착순</div>
               <ul className="mblist">
-                <li>5.12 공차 50% / 카카오웹툰 / 아쿠아플라넷 40%</li>
-                <li>5.14 피자헛 55% / 배민×이삭토스트 / 씨네Q</li>
-                <li>5.20 배스킨·CGV / 5.21 다이소·쿠팡이츠×GS25</li>
-                <li>5.22 이마트24·매드포갈릭·스파크랜드·서울랜드</li>
-                <li>5.26 쿠팡이츠×기영이숯불치킨 / LG생활건강 / 엘리하이</li>
+                <li>5.12 공차 최대 50%(1만원↑, 최대 5천원) / 아쿠아플라넷 40%(동반 3인) / 오뚜기몰 최대 30%</li>
+                <li>5.14 피자헛 55%+파스타 증정 / 배민×이삭토스트 최대 8천원(1.5만원↑) / 씨네Q 8천원 관람권</li>
+                <li>5.20 배스킨 패밀리 최대 9천원 / CGV 팝콘M+음료M 무료</li>
+                <li>5.21 다이소 최대 2천원 금액권 / 쿠팡이츠×GS25 최대 6천원(1.5만원↑)</li>
+                <li>5.22 이마트24 최대 5천원(1.2만원↑) / 매드포갈릭 최대 2.5만원(8만원↑) / 서울랜드 55%</li>
+                <li>5.26 쿠팡이츠×기영이숯불치킨 최대 8천원(2.2만원↑) / 엘리하이 무료체험+4만원 혜택</li>
               </ul>
             </div>
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#dd44aa' }}></span>스페셜데이 — 전 등급</div>
               <ul className="mblist">
-                <li>5.18 스타벅스·카카오페이지·그리팅·교보문고</li>
-                <li>5.19 파리바게뜨·컬리·하프클럽</li>
-                <li>5.20 배스킨·CGV·스타벅스·밀리의서재</li>
+                <li>5.18 카카오페이지 최대 5천캐시 / 그리팅 2만원(5.5만원↑) / 교보문고 e교환권 1천원</li>
+                <li>5.19 파리바게뜨 최대 6천원(2만원↑) / 컬리 5천원(4만원↑) / 하프클럽 30%+온리하프 35%</li>
+                <li>5.20 밀리의서재 1개월 무료이용권</li>
               </ul>
             </div>
             <div className="mblk">
