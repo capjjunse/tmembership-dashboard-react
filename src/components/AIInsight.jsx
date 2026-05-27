@@ -10,9 +10,9 @@ const trendSignals = [
     brand: '스타벅스',
     membership: 'partner',
     telcos: [
-      { id: 'kt', label: 'KT', prog: '상시 사이즈업' },
-      { id: 'skt', label: 'SKT', prog: 'Tday 5월' },
-      { id: 'lgu', label: 'LGU+', prog: 'VIP콕' },
+      { id: 'kt', label: 'KT', prog: '상시', benefit: '음료 무료 사이즈업' },
+      { id: 'skt', label: 'SKT', prog: 'Tday 5월', benefit: '추첨 아메리카노 1잔' },
+      { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: 'VIP 음료 무료 1잔' },
     ],
     strength: 'strong',
     sources: ['DataLab', '뉴스'],
@@ -34,7 +34,7 @@ const trendSignals = [
   {
     brand: '메가커피',
     membership: 'partner',
-    telcos: [{ id: 'kt', label: 'KT', prog: '달달혜택' }],
+    telcos: [{ id: 'kt', label: 'KT', prog: '달달혜택 5월', benefit: '커피 쿠폰 증정' }],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'neg',
@@ -55,7 +55,7 @@ const trendSignals = [
   {
     brand: '이마트24',
     membership: 'partner',
-    telcos: [{ id: 'lgu', label: 'LGU+', prog: '투쁠데이 5월' }],
+    telcos: [{ id: 'lgu', label: 'LGU+', prog: '투쁠데이 5월', benefit: '할인·증정 쿠폰' }],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'neg',
@@ -609,6 +609,7 @@ export default function AIInsight() {
                       <div key={id} className={`tr-tc tr-tc-${t ? id : 'none'}`}>
                         <span className="tr-tc-hdr">{lbl}</span>
                         <span className="tr-tc-val">{t ? t.prog : '—'}</span>
+                        {t?.benefit && <span className="tr-tc-benefit">{t.benefit}</span>}
                       </div>
                     );
                   })}

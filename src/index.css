@@ -494,7 +494,9 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .tr-tc-kt  .tr-tc-hdr{color:var(--kt-t)}
 .tr-tc-lgu .tr-tc-hdr{color:var(--lgu-t)}
 .tr-tc-none .tr-tc-hdr{color:var(--tx3)}
-.tr-tc-val{font-size:10.5px;font-weight:400;color:var(--tx);line-height:1.35}
+.tr-tc-val{font-size:10.5px;font-weight:600;color:var(--tx);line-height:1.35}
 .tr-tc-none .tr-tc-val{color:var(--tx3)}
+.tr-tc-benefit{font-size:10px;color:var(--tx2);line-height:1.4;margin-top:1px}
+.tr-tc-none .tr-tc-benefit{color:var(--tx3)}
 .tr-impact{font-size:11.5px;color:var(--tx2);line-height:1.65}
 .tr-footer{font-size:10px;color:var(--tx3);margin-top:8px;text-align:right}
