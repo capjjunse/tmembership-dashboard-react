@@ -1,4 +1,103 @@
-// no state needed — all sections always visible
+import cnData from '../../category_news.json';
+import { CategoryNewsContent } from './CategoryNews';
+
+// 섹션 4 — 제휴사 이슈 레이더 (2026.05.26 기준)
+// membership: 'partner'=현재 제휴 | 'candidate'=잠재 후보 | 'watchlist'=관심
+// direction:  'neg'=부정 | 'pos'=긍정 | 'neu'=중립
+// sources:    'DataLab'=검색 급등 | '뉴스'=뉴스 버즈 급등
+const trendSignals = [
+  {
+    brand: '스타벅스',
+    membership: 'partner',
+    telcos: [
+      { id: 'kt', label: 'KT', prog: '상시 사이즈업' },
+      { id: 'skt', label: 'SKT', prog: 'Tday 5월' },
+      { id: 'lgu', label: 'LGU+', prog: 'VIP콕' },
+    ],
+    strength: 'strong',
+    sources: ['DataLab', '뉴스'],
+    direction: 'neg',
+    dlSpike: 2.18,
+    news7d: 100,
+    negScore: 945,
+    headline: [
+      '5·18 기념일 「탱크데이」 마케팅 진행 → SNS서 역사 폄훼 논란으로 확산',
+      '불매운동 캠페인 시작 — 일주일새 뉴스 100건↑·DataLab 검색 2.18배 급등',
+      '여야 국회 공방·정부 포상 취소 검토 → 지방선거 최대 이슈로 번짐',
+    ],
+    impact: 'KT 상시·SKT Tday 5월·LGU+ VIP콕 3사 모두 운영 중 · 불매운동 지속 시 혜택 활용률 저하 가능',
+    links: [
+      { label: '5·18 폄훼 논란·포상 취소 검토', url: 'https://www.fnnews.com/news/202605240839526936' },
+      { label: '여야 공방·선거 최대 변수', url: 'https://imnews.imbc.com/replay/2026/nwdesk/article/6825095_37004.html' },
+    ],
+  },
+  {
+    brand: '메가커피',
+    membership: 'partner',
+    telcos: [{ id: 'kt', label: 'KT', prog: '달달혜택' }],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'neg',
+    dlSpike: null,
+    news7d: 100,
+    negScore: 246,
+    headline: [
+      '가맹점주들 부당이익 반환 소송 제기 — 본사 수익 독식 구조 공론화',
+      '공정거래위원회 과징금 22억 부과 → 가맹사업법 위반 공식 확인',
+      '창업자 2세 경영 승계 논란 병행 — 지배구조 리스크 동시 부각',
+    ],
+    impact: 'KT 달달혜택 월간 운영 중 — 이슈 기간 운영 중복 시 모니터링 필요',
+    links: [
+      { label: '점주들 부당이익 반환 소송', url: 'https://biz.heraldcorp.com/article/10658005' },
+      { label: '본사만 돈잔치·점주 뿔났다', url: 'https://www.hankyung.com/article/202604229149g' },
+    ],
+  },
+  {
+    brand: '이마트24',
+    membership: 'partner',
+    telcos: [{ id: 'lgu', label: 'LGU+', prog: '투쁠데이 5월' }],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'neg',
+    dlSpike: null,
+    news7d: 100,
+    negScore: 242,
+    headline: [
+      '스타벅스 5·18 불매 논란 → 신세계 계열 전체 동반 언급 급증',
+      '이마트24 자체 직접 이슈는 없음 — 계열사 이미지 낙수효과',
+      'LGU+ 투쁠데이 5월 운영 중 — 제휴 노출과 논란 연관 여부 모니터링 필요',
+    ],
+    impact: 'LGU+ 투쁠데이 5월 운영 중 · 스타벅스 논란 연관 노출 — 직접 이슈 여부 별도 확인 권장',
+    links: [
+      { label: '신세계 계열 5·18 불매 확산', url: 'https://www.fnnews.com/news/202605240839526936' },
+    ],
+  },
+  {
+    brand: '설빙',
+    membership: 'candidate',
+    telcos: [],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'pos',
+    dlSpike: null,
+    news7d: 22,
+    negScore: 0,
+    headline: [
+      '여름 빙수 신메뉴 4종 출시 — 케이크 빙수 등 프리미엄 라인 강화',
+      '배달 채널 집중 공략 → 반경 외 신규 수요층 확보 중',
+      'SKT·KT·LGU+ 3사 모두 미제휴 — 여름 성수기 전 선점 타이밍',
+    ],
+    impact: '3사 모두 미제휴 · 여름 시즌 수요 급등 중 — 선점 제휴 검토 타이밍',
+    links: [
+      { label: '케이크 빙수·배달 공략 강화', url: 'https://www.mt.co.kr/living/2026/04/13/2026041323111089032' },
+    ],
+  },
+];
+
+const trStrength = { strong: '🔴 강', mid: '🟡 중', low: '🟢 약' };
+const trDir = { neg: { label: '부정', cls: 'trd-neg' }, pos: { label: '긍정', cls: 'trd-pos' }, neu: { label: '중립', cls: 'trd-neu' } };
+const trMem = { partner: '현재 제휴', candidate: '잠재 후보', watchlist: '관심 브랜드' };
+const trMemCls = { partner: 'trm-partner', candidate: 'trm-candidate', watchlist: 'trm-watch' };
 
 const compGroups = [
   {
@@ -107,14 +206,14 @@ const alCats = [
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'T-day', deadline: '월간', rows: [{ grade: null, desc: '버거킹 40~55%, 공차 50%, 피자헛 50% 등 다수 브랜드' }] },
+      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: '버거킹 40~55%, 공차 50%, 피자헛 50% 등 다수 브랜드' }] },
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
       { partner: 'VIP PICK · 5월', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '폴 바셋·잠바주스 50% / 피자헛 세트 10,000원 중 택1' }] },
       { partner: '고반식당', deadline: 'VIP PLUS · 5월', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상)' }] },
     ]}],
-    reasons: ['T멤버십: 상시 10~30% + T-day 최대 55% + VIP PICK 카페·외식 50% 다수 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 10~30% + Tday 최대 55% + VIP PICK 카페·외식 50% 다수 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -156,7 +255,7 @@ const alCats = [
       ]},
     ],
     tm: null,
-    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 (T-day 월간 1~2회에 그침)'],
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 (Tday 월간 1~2회에 그침)'],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'warn',
@@ -230,7 +329,7 @@ const recs = [
     rank: 1,
     brand: '설빙',
     tag: '매장 596개 · DataLab 📈1.22',
-    reason: '5월 내내 검색량 상승 중. 여름 시즌 직전 T-day 재계약 타이밍 — KT·LGU+ 모두 미운영으로 단독 선점 가능.',
+    reason: '5월 내내 검색량 상승 중. 여름 시즌 직전 Tday 재계약 타이밍 — KT·LGU+ 모두 미운영으로 단독 선점 가능.',
     reach: [
       { label: '매장 규모', text: '전국 596개 · 아이스디저트 카테고리 1위' },
       { label: '검색 버즈', text: '전월比 +22% 급증 · 블로그 74만은 공차(72만)·메가커피(68만) 동급' },
@@ -239,8 +338,7 @@ const recs = [
     trend: 'DataLab 1.22 · 블로그 74만 · 카페 25만 · 뉴스 28건',
     hot: true,
     skt: [
-      { prog: 'VIP Pick', active: true,  last: null,      gap: null },
-      { prog: 'T-day',    active: false, last: '2026.03', gap: '2개월 공백' },
+      { prog: 'Tday', active: false, last: '2026.03', gap: '2개월 공백' },
     ],
     kt:  null,
     lgu: null,
@@ -376,7 +474,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: T-day/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 5월)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 5월)</div>
         </div>
       </div>
 
@@ -459,6 +557,77 @@ export default function AIInsight() {
             )}
           </div>
         ))}
+      </div>
+
+      {/* 섹션 4 — 제휴사 이슈 레이더 */}
+      <div className="ai-sec">
+        <div className="ai-sec-hdr">
+          <span className="ai-sec-title">🔍 제휴사 이슈 레이더</span>
+          <span className="ai-sec-desc">현재·잠재 제휴 브랜드 리스크·기회 모니터링</span>
+        </div>
+        <div className="tr-grid">
+          {trendSignals.map((s, i) => (
+            <div key={i} className={`tr-card tr-card-${s.direction} tr-str-${s.strength}`}>
+              {/* 헤더: 브랜드명 + 방향/강도 — 색상으로 즉시 인지 */}
+              <div className="tr-sig-hdr">
+                <span className="tr-brand">{s.brand}</span>
+                <div className="tr-sig-meta">
+                  <span className="tr-sev">{trStrength[s.strength]}</span>
+                  <span className={`tr-dir ${trDir[s.direction].cls}`}>{trDir[s.direction].label}</span>
+                </div>
+              </div>
+              {/* 바디: 이슈 내용 */}
+              <div className="tr-body">
+                <div className="tr-headline">
+                  {Array.isArray(s.headline)
+                    ? s.headline.map((b, bi) => (
+                        <div key={bi} className="tr-bullet">
+                          <span className="tr-bnum">{bi + 1}</span>
+                          <span className="tr-btxt">{b}</span>
+                        </div>
+                      ))
+                    : s.headline}
+                </div>
+                <div className="tr-nums">
+                  {s.dlSpike && <span className="tr-num-item"><span className="tr-num-badge">DataLab</span><span className="tr-num-val"> ×{s.dlSpike}</span></span>}
+                  <span className="tr-num-item"><span className="tr-num-badge">뉴스</span><span className="tr-num-val"> {s.news7d}건</span></span>
+                </div>
+                {s.links?.length > 0 && (
+                  <div className="tr-links">
+                    {s.links.map((l, j) => (
+                      <a key={j} href={l.url} target="_blank" rel="noreferrer" className="tr-link">↗ {l.label}</a>
+                    ))}
+                  </div>
+                )}
+              </div>
+              {/* 푸터: 3사 제휴 현황 + 영향 */}
+              <div className="tr-foot">
+                <div className="tr-telco-grid">
+                  {[{id:'skt',lbl:'SKT'},{id:'kt',lbl:'KT'},{id:'lgu',lbl:'U+'}].map(({id,lbl}) => {
+                    const t = s.telcos.find(t => t.id === id);
+                    return (
+                      <div key={id} className={`tr-tc tr-tc-${t ? id : 'none'}`}>
+                        <span className="tr-tc-hdr">{lbl}</span>
+                        <span className="tr-tc-val">{t ? t.prog : '—'}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="tr-impact">→ {s.impact}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="tr-footer">2026.05.26 스캔 · 매주 크롤링 후 수동 반영</div>
+      </div>
+
+      {/* 섹션 5 — 마켓 시그널 */}
+      <div className="ai-sec">
+        <div className="ai-sec-hdr">
+          <span className="ai-sec-title">📡 마켓 시그널</span>
+          <span className="ai-sec-desc">경쟁·소비 동향 뉴스 · {cnData.generated_at} 기준 · {cnData.total_top}건</span>
+        </div>
+        <CategoryNewsContent />
       </div>
     </div>
   );

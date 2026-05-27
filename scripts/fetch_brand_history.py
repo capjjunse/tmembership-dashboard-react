@@ -187,8 +187,11 @@ def is_active(months: list[str]) -> bool:
     if not months:
         return False
     today = datetime.today().strftime("%Y.%m")
-    last  = max(months)
-    # 이번 달 또는 지난달이면 현재 운영으로 판단
+    # 현재 이전 월 중 가장 최근 것만 대상 (미래 예정 월 제외)
+    past_months = [m for m in months if m <= today]
+    if not past_months:
+        return False
+    last = max(past_months)
     y_last, m_last = int(last[:4]), int(last[5:])
     y_now,  m_now  = int(today[:4]), int(today[5:])
     diff = (y_now - y_last) * 12 + (m_now - m_last)

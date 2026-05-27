@@ -1,0 +1,573 @@
+{
+  "generated_at": "2026.05.27 16:18",
+  "total_collected": 760,
+  "total_valid": 400,
+  "total_skipped": 360,
+  "total_top": 21,
+  "topic_groups": [
+    {
+      "category": "risk",
+      "topic": "스타벅스 탱크데이 불매운동",
+      "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+      "signal_strength": 3,
+      "max_velocity": -21.2,
+      "articles": [
+        {
+          "title": "스타벅스 마케팅 논란…이마트 주가 하락세 이어져, 불매 운동 확산되나...",
+          "link": "https://www.gokorea.kr/news/articleView.html?idxno=867518",
+          "pub_date": "2026.05.27",
+          "priority": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": -21.2
+        },
+        {
+          "title": "&quot;이 카드 써도 되나&quot;…스벅 불매에 제휴 카드사들 긴장",
+          "link": "https://www.hankyung.com/article/2026052571537",
+          "pub_date": "2026.05.25",
+          "priority": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": -21.2
+        },
+        {
+          "title": "‘스벅 불매운동’ 확산…제휴 맺은 카드사들, 리스크 떠안을까 긴장",
+          "link": "https://www.hani.co.kr/arti/economy/finance/1260244.html",
+          "pub_date": "2026.05.25",
+          "priority": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": -21.2
+        },
+        {
+          "title": "스타벅스 불매, 카드사도 불똥…“제휴카드 해지 여부 예의주시”",
+          "link": "https://www.donga.com/news/Economy/article/all/20260525/133986111/1",
+          "pub_date": "2026.05.25",
+          "priority": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": -21.2
+        },
+        {
+          "title": "불매운동 확산에 카드사 ‘불똥’…스타벅스 제휴카드 어쩌나",
+          "link": "https://www.mk.co.kr/article/12056744",
+          "pub_date": "2026.05.25",
+          "priority": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": -21.2
+        },
+        {
+          "title": "5·18 단체 등, 전국 스타벅스 불매운동 돌입 &quot;정용진 책임져야&quot;",
+          "link": "https://www.yna.co.kr/view/AKR20260527104000004?input=1195m",
+          "pub_date": "2026.05.27",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -21.2
+        },
+        {
+          "title": "5·18 단체 등, 정용진 규탄·전국 스타벅스 불매운동 돌입",
+          "link": "http://www.yonhapnewstv.co.kr/news/AKR20260527145840fbQ",
+          "pub_date": "2026.05.27",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -21.2
+        },
+        {
+          "title": "146개 시민단체, 전국 스타벅스 불매운동 돌입...&quot;정용진 규탄&quot;",
+          "link": "https://www.ytn.co.kr/_ln/0103_202605271505450885",
+          "pub_date": "2026.05.27",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -21.2
+        },
+        {
+          "title": "“황금 알인 줄 알았는데”…카드사, 스벅 불매 운동에 초비상",
+          "link": "https://www.mk.co.kr/article/12057985",
+          "pub_date": "2026.05.26",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -21.2
+        },
+        {
+          "title": "경찰, 스타벅스 탱크데이 고소인 재조사…李, '불매강요' 피고발(종합)",
+          "link": "https://www.newsis.com/view/NISX20260525_0003643084",
+          "pub_date": "2026.05.25",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -21.2
+        }
+      ]
+    },
+    {
+      "category": "battle",
+      "topic": "통신사 OTT 구독팩 경쟁",
+      "insight": "통신사의 OTT 번들링 전략 확대 — T멤버십 구독 서비스 차별화 및 가입자 확보 경쟁력 강화 필요",
+      "signal_strength": 2,
+      "max_velocity": 9.3,
+      "articles": [
+        {
+          "title": "SKT, 월 7900원에 유튜브 프리미엄 구독 출시",
+          "link": "https://zdnet.co.kr/view/?no=20260526092903",
+          "pub_date": "2026.05.26",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 9.3
+        }
+      ]
+    },
+    {
+      "category": "battle",
+      "topic": "배달앱 무료배달 경쟁",
+      "insight": "배달앱 무료배달 경쟁 심화 — T멤버십 배달 혜택의 경쟁력 재평가 및 차별화 가치 강화 시급",
+      "signal_strength": 2,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "쿠팡이츠-배민, '무료배달 전쟁' 2라운드",
+          "link": "https://view.asiae.co.kr/article/2026052216093046673",
+          "pub_date": "2026.05.25",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "쿠팡이츠, 일반회원도 8월까지 '무료 배달'…민주당 &quot;기만 상술&quot;(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260521056451030?input=1195m",
+          "pub_date": "2026.05.21",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "'무료 배송' 다시 꺼낸 쿠팡이츠, 배달앱 '치킨게임' 되풀이?",
+          "link": "https://www.bizhankook.com/bk/article/32354",
+          "pub_date": "2026.05.26",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "쿠팡은 ‘전고객 무료 배달’이라는 폭탄을 던질까?",
+          "link": "https://byline.network/?p=9004111222604287",
+          "pub_date": "2026.05.26",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "쿠팡이츠, &quot;배달비 무료&quot;카드로 또, 배달 시장 흔드나?",
+          "link": "http://www.intn.co.kr/news/articleView.html?idxno=2050922",
+          "pub_date": "2026.05.22",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "쿠팡이츠, 일반회원도 '배달비 0원'...8월까지 한시 마케팅",
+          "link": "https://www.newspim.com/news/view/20260521000210",
+          "pub_date": "2026.05.21",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        }
+      ]
+    },
+    {
+      "category": "battle",
+      "topic": "배민 인수 플랫폼 재편",
+      "insight": "배민 소유권 변화로 배달시장 주도권 이동 가능 — T멤버십의 배달 생태계 전략 재구성 필요",
+      "signal_strength": 2,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "매물로 나온 배민, 우버·네이버?…모빌리티·배달 플랫폼 판 흔들까",
+          "link": "http://www.dailypop.kr/news/articleView.html?idxno=98976",
+          "pub_date": "2026.05.26",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "배달의민족 주인이 바뀐다, 이게 왜 중요하냐면",
+          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003235885&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "pub_date": "2026.05.22",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "네이버, 배민 인수설 중심에…플랫폼 시장 재편 가능성 주목",
+          "link": "http://www.metroseoul.co.kr/article/20260525500067",
+          "pub_date": "2026.05.25",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        }
+      ]
+    },
+    {
+      "category": "trend",
+      "topic": "AI 광고 기반 비즈니스 모델 확산",
+      "insight": "AI·OTT 광고모델 성장으로 프리미엄 구독과 광고 병행 전략이 필수화. T멤버십 광고 수익 포함 구독팩 고도화 검토 시점",
+      "signal_strength": 1,
+      "max_velocity": -11.1,
+      "articles": [
+        {
+          "title": "AI는 생활필수앱 됐다…OTT는 광고요금제 대세",
+          "link": "https://www.yna.co.kr/view/AKR20260526125700017?input=1195m",
+          "pub_date": "2026.05.26",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": -11.1
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "risk": [
+      {
+        "title": "스타벅스 마케팅 논란…이마트 주가 하락세 이어져, 불매 운동 확산되나...",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "스타벅스코리아의 마케팅 논란이 점차 확대되면서 이마트의 주가가 하락세를 이어가고 있다. 27일 이마트는 주식 시장에서 장 초반 2% 이상 하락하며 약세를 보였다. 이마트는 스타벅스코리아의 최대 주주로, 이번 논란의... ",
+        "link": "https://www.gokorea.kr/news/articleView.html?idxno=867518",
+        "pub_date": "2026.05.27",
+        "reason": "스타벅스 불매 운동 확산, 제휴사 신뢰도 추락",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "마케팅 논란",
+          "불매운동"
+        ]
+      },
+      {
+        "title": "&quot;이 카드 써도 되나&quot;…스벅 불매에 제휴 카드사들 긴장",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "여러 가맹점의 혜택을 포괄적으로 섞어 제공해 리스크가 분산되는 일반 제휴카드와 달리, PLCC는 카드사와 제휴 브랜드가 마케팅 비용과 수익을 공동으로 부담하고 해당 브랜드 혜택에만 재원을 집중해 상품을 설계하기... ",
+        "link": "https://www.hankyung.com/article/2026052571537",
+        "pub_date": "2026.05.25",
+        "reason": "스타벅스 불매 → 제휴카드 신뢰 위협, 즉시 대응",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "브랜드 제휴",
+          "불매운동"
+        ]
+      },
+      {
+        "title": "‘스벅 불매운동’ 확산…제휴 맺은 카드사들, 리스크 떠안을까 긴장",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "카드사 관계자는 “피엘시시는 제휴 브랜드의 충성 고객을 유입시키는 효과가 큰 만큼, 마케팅 비용도 크고 불매 운동 등이 일어나면 타격을 고스란히 나눠 가지게 되는 구조적 약점이 있다”고 말했다.",
+        "link": "https://www.hani.co.kr/arti/economy/finance/1260244.html",
+        "pub_date": "2026.05.25",
+        "reason": "스타벅스 불매 확산, 제휴사 리스크 급증",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "브랜드 제휴",
+          "불매운동"
+        ]
+      },
+      {
+        "title": "스타벅스 불매, 카드사도 불똥…“제휴카드 해지 여부 예의주시”",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "PLCC는 카드사와 제휴사가 비용을 공동 부담해 특정 브랜드 혜택에 집중한 상품이다. 카드사들은 가맹점 수수료 인하와 카드론 규제 등 본업 수익성 악화로 배달의민족, 무신사 등 파트너사를 넓히며 PLCC를 확대하는... ",
+        "link": "https://www.donga.com/news/Economy/article/all/20260525/133986111/1",
+        "pub_date": "2026.05.25",
+        "reason": "스타벅스 불매 → 제휴카드 해지 우려, 긴급 모니터링",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "브랜드 제휴",
+          "불매운동"
+        ]
+      },
+      {
+        "title": "불매운동 확산에 카드사 ‘불똥’…스타벅스 제휴카드 어쩌나",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "문제는 상업자표시신용카드(PLCC) 상품 구조상 브랜드 이미지가 곧 카드 경쟁력으로 이어진다는 점이다. 일반 제휴카드가 여러 가맹점 혜택을 혼합하는 방식이라면 PLCC는 특정 브랜드 혜택에 집중돼 있어 소비자 반응에 더... ",
+        "link": "https://www.mk.co.kr/article/12056744",
+        "pub_date": "2026.05.25",
+        "reason": "스타벅스 불매 확산으로 제휴 재검토 필요",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "브랜드 제휴",
+          "불매운동"
+        ]
+      },
+      {
+        "title": "5·18 단체 등, 전국 스타벅스 불매운동 돌입 &quot;정용진 책임져야&quot;",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "5·18 단체를 비롯한 시민단체들이 정용진 신세계그룹 회장의 '탱크데이' 관련 사과 내용을 비판하며 전국적인 스타벅스 불매운동에 돌입한다고 선언했다. 전국민중행동 등 146개 단체는 27일 서울 종로구 스타벅스... ",
+        "link": "https://www.yna.co.kr/view/AKR20260527104000004?input=1195m",
+        "pub_date": "2026.05.27",
+        "reason": "스타벅스 불매운동 본격화, 제휴 재검토 필요",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "5·18 단체 등, 정용진 규탄·전국 스타벅스 불매운동 돌입",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "5·18 단체를 비롯한 시민단체들이 정용진 신세계그룹 회장의 '탱크데이' 관련 사과 내용을 비판하며 전국적인 스타벅스 불매운동에 돌입한다고 선언했습니다. 전국민중행동 등 146개 단체는 오늘(27일) 서울 종로구... ",
+        "link": "http://www.yonhapnewstv.co.kr/news/AKR20260527145840fbQ",
+        "pub_date": "2026.05.27",
+        "reason": "스타벅스 불매운동 확산, 제휴 영향 평가",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "146개 시민단체, 전국 스타벅스 불매운동 돌입...&quot;정용진 규탄&quot;",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "5·18 단체를 비롯한 시민단체들이 전국적인 스타벅스 불매운동에 돌입한다고 선언했다. 27일 전국민중행동 등 146개 단체는 서울 종로구 스타벅스 광화문점 앞에서 '스타벅스 불매운동 전국화' 발표 기자회견을 열고... ",
+        "link": "https://www.ytn.co.kr/_ln/0103_202605271505450885",
+        "pub_date": "2026.05.27",
+        "reason": "스타벅스 불매운동 대규모 조직화, 긴급 대응",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "“황금 알인 줄 알았는데”…카드사, 스벅 불매 운동에 초비상",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "26일 카드업계에 따르면 스타벅스와 상업자표시신용카드(PLCC)를 출시한 카드사들은 대대적인 소비자 불매운동 확산 가능성에 촉각을 곤두세우고 있다. 당초 올해 상반기 카드 출시를 확정했던 신한카드는 발매 일정을... ",
+        "link": "https://www.mk.co.kr/article/12057985",
+        "pub_date": "2026.05.26",
+        "reason": "카드사 피해 확산, T멤버십 제휴 영향 분석",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "경찰, 스타벅스 탱크데이 고소인 재조사…李, '불매강요' 피고발(종합)",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "스벅 불매 운동 확산으로 제휴 카드사 리스크 증대 — T멤버십 제휴사 신뢰도 관리 강화 필요",
+        "desc": "이러한 가운데 이 대통령은 스타벅스 불매운동을 강요했다며 고발됐다. 시민단체 서민민생대책위원회(서민위)는 이날 이 대통령과 윤호중 행정안전부 장관, 정성호 법무부 장관, 안규백 국방부 장관, 정청래... ",
+        "link": "https://www.newsis.com/view/NISX20260525_0003643084",
+        "pub_date": "2026.05.25",
+        "reason": "스타벅스 사태 법적 단계, 제휴 리스크 증가",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 71.0,
+        "datalab_velocity": -21.2,
+        "queries": [
+          "불매운동"
+        ]
+      }
+    ],
+    "battle": [
+      {
+        "title": "SKT, 월 7900원에 유튜브 프리미엄 구독 출시",
+        "topic": "통신사 OTT 구독팩 경쟁",
+        "insight": "통신사의 OTT 번들링 전략 확대 — T멤버십 구독 서비스 차별화 및 가입자 확보 경쟁력 강화 필요",
+        "desc": "구독 서비스 플랫폼 ‘T우주’에 유튜브 프리미엄 라이트 상품을 월 7900원에 이용할 수 있다. 유튜브 프리미엄 라이트는 광고로 인한 끊김 없이 동영상 대부분을 시청할 수 있으며, 오프라인 저장과 백그라운드 재생을... ",
+        "link": "https://zdnet.co.kr/view/?no=20260526092903",
+        "pub_date": "2026.05.26",
+        "reason": "SKT 유튜브프리미엄 번들 출시, 직접 경쟁사 서비스",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 60.4,
+        "datalab_velocity": 9.3,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "쿠팡이츠-배민, '무료배달 전쟁' 2라운드",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 무료배달 경쟁 심화 — T멤버십 배달 혜택의 경쟁력 재평가 및 차별화 가치 강화 시급",
+        "desc": "업계 관계자는 &quot;쿠팡이츠의 무료배달 확대 등 배달 앱 시장 경쟁이 치열한 상황에서 기업 가치를 높이기 위해서는 배민클럽 가입자를 확대할 필요가 있다고 판단했을 것&quot;이라고 했다. 시장 선두 기업들이 앞서거니... ",
+        "link": "https://view.asiae.co.kr/article/2026052216093046673",
+        "pub_date": "2026.05.25",
+        "reason": "무료배달 경쟁 심화, T멤버십 배달 전략 위협",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "쿠팡이츠, 일반회원도 8월까지 '무료 배달'…민주당 &quot;기만 상술&quot;(종합)",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 무료배달 경쟁 심화 — T멤버십 배달 혜택의 경쟁력 재평가 및 차별화 가치 강화 시급",
+        "desc": "한국소비자단체협의회도 &quot;쿠팡이츠를 시작으로 확산한 무료 배달서비스는 배달앱 시장을 구독 서비스 구조로 전환하며 외식·배달 가격 상승을 초래했다&quot;면서 &quot;'배달비 0원'은 배달 요금 항목만 명목상 0원으로 표시될 뿐... ",
+        "link": "https://www.yna.co.kr/view/AKR20260521056451030?input=1195m",
+        "pub_date": "2026.05.21",
+        "reason": "쿠팡이츠 무료배달 정책, 경쟁 심화 신호",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "'무료 배송' 다시 꺼낸 쿠팡이츠, 배달앱 '치킨게임' 되풀이?",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 무료배달 경쟁 심화 — T멤버십 배달 혜택의 경쟁력 재평가 및 차별화 가치 강화 시급",
+        "desc": "배달앱 업계에서는 올여름 배달앱 시장에서 코로나19 팬데믹 시기에 벌어진 치열한 치킨게임이 다시 시작될 수 있다는 관측이 나온다. 업계 관계자는 “쿠팡이츠가 일반 회원까지 무료 배달을 하면 배민 역시 시장... ",
+        "link": "https://www.bizhankook.com/bk/article/32354",
+        "pub_date": "2026.05.26",
+        "reason": "배달앱 가격경쟁 심화, T멤버십 수익성 위협",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "쿠팡은 ‘전고객 무료 배달’이라는 폭탄을 던질까?",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 무료배달 경쟁 심화 — T멤버십 배달 혜택의 경쟁력 재평가 및 차별화 가치 강화 시급",
+        "desc": "쿠팡의 설명처럼 고유가와 고환율로 어려움을 겪는 소비자들에게 도움을 주기 위한 것일 수도 있지만, 업계의 예상처럼 배달 시장에 세번째 폭탄을 던지기 위해 사전 시험 운영을 하는 것일 수도 있다. 중요한 것은... ",
+        "link": "https://byline.network/?p=9004111222604287",
+        "pub_date": "2026.05.26",
+        "reason": "쿠팡 무료배달 확대 움직임, 즉시 대응 필요",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "매물로 나온 배민, 우버·네이버?…모빌리티·배달 플랫폼 판 흔들까",
+        "topic": "배민 인수 플랫폼 재편",
+        "insight": "배민 소유권 변화로 배달시장 주도권 이동 가능 — T멤버십의 배달 생태계 전략 재구성 필요",
+        "desc": "배민 예상 매각가는 약 8조원 수준으로 거론되며, 쿠팡이츠의 추격과 배달 시장 성장 둔화 등 수익성 부담도 고려해야 한다는 지적이 나온다. 과거 DH의 배민 인수 당시 공정거래위원회가 요기요 매각을 조건으로... ",
+        "link": "http://www.dailypop.kr/news/articleView.html?idxno=98976",
+        "pub_date": "2026.05.26",
+        "reason": "배민 M&A 경쟁 재점화, 배달 플랫폼 판도 변화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "배달의민족 주인이 바뀐다, 이게 왜 중요하냐면",
+        "topic": "배민 인수 플랫폼 재편",
+        "insight": "배민 소유권 변화로 배달시장 주도권 이동 가능 — T멤버십의 배달 생태계 전략 재구성 필요",
+        "desc": "공공은 이미 배달시장에 막대한 돈을 쓰고 있다 농림축산식품부는 2025년 추가경정예산에서 공공배달앱 소비쿠폰에만 650억 원을 편성했다. 경기도·서울·광주·경북 등 주요 지자체의 공공배달앱 직접 예산을 합치면... ",
+        "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003235885&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+        "pub_date": "2026.05.22",
+        "reason": "배민 M&A 경쟁, 배달 시장 지배력 재편 위험",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "네이버, 배민 인수설 중심에…플랫폼 시장 재편 가능성 주목",
+        "topic": "배민 인수 플랫폼 재편",
+        "insight": "배민 소유권 변화로 배달시장 주도권 이동 가능 — T멤버십의 배달 생태계 전략 재구성 필요",
+        "desc": "◆커머스·지도·멤버십 시너지 가능성 거론 업계에서는 네이버가 배달 플랫폼 시장과 연결될 경우 기존 커머스·지도·멤버십 사업과의 연계 가능성이 커질 수 있다고 보고 있다. 현재 네이버는 네이버플러스 멤버십을... ",
+        "link": "http://www.metroseoul.co.kr/article/20260525500067",
+        "pub_date": "2026.05.25",
+        "reason": "배민 인수로 플랫폼 재편, 경쟁 구도 급변 긴급 대응",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "쿠팡이츠, &quot;배달비 무료&quot;카드로 또, 배달 시장 흔드나?",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 무료배달 경쟁 심화 — T멤버십 배달 혜택의 경쟁력 재평가 및 차별화 가치 강화 시급",
+        "desc": "진정으로 배달시장 내 상생을 추구한다면, 단순한 무료 배달 확대 경쟁이 아닌, 배달서비스 관련 비용 인하를 위한 실질적인 노력과 함께 수수료 및 비용 구조에 대한 투명한 정보 공개에 선도적으로 나서주길 요청한다.... ",
+        "link": "http://www.intn.co.kr/news/articleView.html?idxno=2050922",
+        "pub_date": "2026.05.22",
+        "reason": "쿠팡이츠 배달비 무료화로 배달 시장 재편",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "쿠팡이츠, 일반회원도 '배달비 0원'...8월까지 한시 마케팅",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 무료배달 경쟁 심화 — T멤버십 배달 혜택의 경쟁력 재평가 및 차별화 가치 강화 시급",
+        "desc": "쿠팡이츠가 일반회원까지 '무료 배달' 혜택을 확대하며 여름철 배달시장 공략에 나선다. 고물가 속 소비자 부담을 낮춰 주문 수요를 끌어올리겠다는 전략이다. 쿠팡이츠는 오는 8월까지 일반회원 대상 '매 주문 배달비 0원... ",
+        "link": "https://www.newspim.com/news/view/20260521000210",
+        "pub_date": "2026.05.21",
+        "reason": "쿠팡이츠 무료배달 확대, 배달앱 경쟁 심화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      }
+    ],
+    "benchmark": [],
+    "trend": [
+      {
+        "title": "AI는 생활필수앱 됐다…OTT는 광고요금제 대세",
+        "topic": "AI 광고 기반 비즈니스 모델 확산",
+        "insight": "AI·OTT 광고모델 성장으로 프리미엄 구독과 광고 병행 전략이 필수화. T멤버십 광고 수익 포함 구독팩 고도화 검토 시점",
+        "desc": "보고서는 생성형 AI와 OTT, 숏폼, 디지털 광고, 온라인 쇼핑, 웹콘텐츠, 재테크 등 7개 분야의 디지털 소비 트렌드를 분석했다. 서울·경기와 5대 광역시 거주 만 15∼59세 남녀 1천명을 대상으로 한 온라인 설문조사를... ",
+        "link": "https://www.yna.co.kr/view/AKR20260526125700017?input=1195m",
+        "pub_date": "2026.05.26",
+        "reason": "AI 생필앱화·OTT 광고요금제 확산, 소비 행동 변화 감지",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 88.9,
+        "datalab_velocity": -11.1,
+        "queries": [
+          "AI 쇼핑",
+          "앱 마케팅"
+        ]
+      }
+    ]
+  }
+}

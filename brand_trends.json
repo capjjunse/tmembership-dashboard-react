@@ -1,0 +1,1244 @@
+{
+  "generated_at": "2026.05.27 09:26",
+  "monitored_count": 98,
+  "signal_count": 23,
+  "signals": [
+    {
+      "brand": "스타벅스",
+      "strength": "mid",
+      "sources": [
+        "DataLab"
+      ],
+      "dl_spike": 2.33,
+      "dl_recent_avg": 45.3,
+      "news_spike": null,
+      "news_7d": 100,
+      "direction": "neg",
+      "neg_score": 896,
+      "pos_score": 10,
+      "sample_titles": [
+        "[정치쇼] 김정철 &quot;오세훈, 서울을 안전하게 할 수 있는지 의문… 저라면...",
+        "[정치쇼] 조승래 &quot;김용남 녹취 입증 근거 없어…스타벅스 출입자제 권고...",
+        "[사설] 스타벅스 논란…이제는 사회적 수습이 필요하다"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "lgu",
+          "label": "LGU+",
+          "prog": "U+멤버십"
+        }
+      ]
+    },
+    {
+      "brand": "버거킹",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.7,
+      "dl_recent_avg": 38.2,
+      "news_spike": 12.79,
+      "news_7d": 81,
+      "direction": "pos",
+      "neg_score": 21,
+      "pos_score": 38,
+      "sample_titles": [
+        "'신설구 표심 잡아라'…인천 제물포·영종·검단구 여야 후보들 유세 총...",
+        "영종구청장 후보 조국혁신당 안광호 선거 유세",
+        "인천 새로운 영종구 제물포구 구청장 후보 열린 선거 유세"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "skt",
+          "label": "SKT",
+          "prog": "T멤버십"
+        }
+      ]
+    },
+    {
+      "brand": "도미노피자",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.71,
+      "dl_recent_avg": 34.1,
+      "news_spike": 10.04,
+      "news_7d": 77,
+      "direction": "neu",
+      "neg_score": 18,
+      "pos_score": 23,
+      "sample_titles": [
+        "피자 로봇 ‘피크닉’ 파산… 5300만 달러 투입한 주방 자동화의 몰락",
+        "“향수 자극했더니 완판”⋯ 옛날 캐릭터에 빠진 유통가",
+        "美 피자 로봇 스타트업 '피크닉' 폐업…자산은 익명 기업에 매각"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "kt",
+          "label": "KT",
+          "prog": "달달혜택"
+        }
+      ]
+    },
+    {
+      "brand": "톤28",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.34,
+      "dl_recent_avg": 8.5,
+      "news_spike": 8.54,
+      "news_7d": 74,
+      "direction": "pos",
+      "neg_score": 8,
+      "pos_score": 21,
+      "sample_titles": [
+        "아누아, 美 올리브영 패서디나점 입점… 북미 오프라인 공략 강화",
+        "GS샵, 자체 뷰티 브랜드 ‘뷰’ 리뉴얼… 가성비 기초 화장품 강화",
+        "GS샵, 고객 500명 목소리 반영해 자체 뷰티 브랜드 '뷰' 리뉴얼"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "skt",
+          "label": "SKT",
+          "prog": "T멤버십"
+        }
+      ]
+    },
+    {
+      "brand": "KFC",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.76,
+      "dl_recent_avg": 50.4,
+      "news_spike": 8.11,
+      "news_7d": 73,
+      "direction": "pos",
+      "neg_score": 25,
+      "pos_score": 75,
+      "sample_titles": [
+        "리모트, 급여 솔루션 300% 성장·ARR 3억달러 기록",
+        "리모트, 급여 솔루션 300% 성장…ARR 3억달러 돌파·흑자 전환",
+        "[중국 특징주] 염차이나홀딩스, 자딘매티슨 사업 입찰 2라운드 제외설"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "kt",
+          "label": "KT",
+          "prog": "달달혜택"
+        }
+      ]
+    },
+    {
+      "brand": "교보문고",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.62,
+      "dl_recent_avg": 45.9,
+      "news_spike": 7.71,
+      "news_7d": 72,
+      "direction": "pos",
+      "neg_score": 6,
+      "pos_score": 22,
+      "sample_titles": [
+        "【오늘의 법조】 2026년 5월 27일",
+        "50대 지천명, 다시 출발선",
+        "2026 로펌 컨수머 리포트 29일 출간"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "lgu",
+          "label": "LGU+",
+          "prog": "U+멤버십"
+        }
+      ]
+    },
+    {
+      "brand": "던킨",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.68,
+      "dl_recent_avg": 6.2,
+      "news_spike": 2.88,
+      "news_7d": 49,
+      "direction": "pos",
+      "neg_score": 0,
+      "pos_score": 19,
+      "sample_titles": [
+        "[F&amp;B핫이슈] 던킨 50% 할인·투썸 '밴루엔' 아이스크림 론칭 外",
+        "비알코리아, 안전보건공단과 안전문화 확산 업무협약 체결",
+        "비알코리아, 안전보건공단과 MOU … 매장 기반 안전문화 확산"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "skt",
+          "label": "SKT",
+          "prog": "T멤버십"
+        }
+      ]
+    },
+    {
+      "brand": "밀리의서재",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.77,
+      "dl_recent_avg": 2.9,
+      "news_spike": 2.66,
+      "news_7d": 47,
+      "direction": "pos",
+      "neg_score": 0,
+      "pos_score": 36,
+      "sample_titles": [
+        "kt밀리의서재, 지니뮤직과 협업 … 제로베이스원 낭독 오디오북 '아무런...",
+        "KT밀리의서재, 제로베이스원 낭독 오디오북 공개",
+        "&quot;출판산업 변화 대응 해법은&quot;…‘제6회 출판 핫이슈 세미나’ 6월 개최"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "lgu",
+          "label": "LGU+",
+          "prog": "U+멤버십"
+        }
+      ]
+    },
+    {
+      "brand": "모던하우스",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.92,
+      "dl_recent_avg": 16.7,
+      "news_spike": 2.45,
+      "news_7d": 45,
+      "direction": "pos",
+      "neg_score": 0,
+      "pos_score": 12,
+      "sample_titles": [
+        "제니부터 GD까지, 샤넬 프론트 로우 베스트 드레서 5ㅣ마리끌레르",
+        "[호텔·리조트 트렌드] 뉴월드 호텔 &amp; 리조트, 여름 캠페인 '여름 그 이...",
+        "페라가모, 원지안 디지털 화보 선보여...원지안이 제안하는 '허그 백' 스..."
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "lgu",
+          "label": "LGU+",
+          "prog": "U+멤버십"
+        }
+      ]
+    },
+    {
+      "brand": "할리스",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.89,
+      "dl_recent_avg": 0.8,
+      "news_spike": 2.45,
+      "news_7d": 45,
+      "direction": "neg",
+      "neg_score": 26,
+      "pos_score": 17,
+      "sample_titles": [
+        "&quot;뼈아픈 탱크데이&quot;…스타벅스, 논란 직전 여전히 결제액 1위",
+        "&quot;고물가에도 커피는 못 참지&quot;…결제금액 1위는 '스타벅스'",
+        "&quot;단종됐는데 다시 난리&quot; 할리스·투썸·배라까지 추억의 맛이 돌아왔다"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "kt",
+          "label": "KT",
+          "prog": "달달혜택"
+        }
+      ]
+    },
+    {
+      "brand": "공차",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.91,
+      "dl_recent_avg": 43.3,
+      "news_spike": 2.0,
+      "news_7d": 40,
+      "direction": "neg",
+      "neg_score": 9,
+      "pos_score": 0,
+      "sample_titles": [
+        "디젤엔 보조금, 전기트럭엔 0원… 정부의 탄소중립 보틀넥[한·스웨덴 E...",
+        "[스타시승기] 볼보가 만든 의외의 전기차, EX30",
+        "무거워진 中 전기차...공차중량 4t 육박 SUV 등장"
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "skt",
+          "label": "SKT",
+          "prog": "T멤버십"
+        },
+        {
+          "id": "lgu",
+          "label": "LGU+",
+          "prog": "U+멤버십"
+        }
+      ]
+    },
+    {
+      "brand": "청소연구소",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.74,
+      "dl_recent_avg": 0.8,
+      "news_spike": 1.84,
+      "news_7d": 38,
+      "direction": "pos",
+      "neg_score": 5,
+      "pos_score": 10,
+      "sample_titles": [
+        "[뉴스UP] '합의냐 폭격이냐'...트럼프, 백악관 내각 회의 소집",
+        "장부 오류에 NFT 유령 매물까지…리플(XRP) 내부 치명적 결함 무더기 적...",
+        "[베트남 주간 이슈] 자원은 묶고 제도는 조인다…'고부가·제도권 경제..."
+      ],
+      "membership": "partner",
+      "telcos": [
+        {
+          "id": "skt",
+          "label": "SKT",
+          "prog": "T멤버십"
+        }
+      ]
+    },
+    {
+      "brand": "요기요",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.76,
+      "dl_recent_avg": 1.8,
+      "news_spike": 39.86,
+      "news_7d": 93,
+      "direction": "pos",
+      "neg_score": 18,
+      "pos_score": 92,
+      "sample_titles": [
+        "리딩금융 지켜낸 KB금융…양종희號 '비금융 영토 확장'의 명암",
+        "움버거앤윙스, 요기요와 적립 프로모션 진행…할라피뇨 세트 주문 시 추...",
+        "“배달비·OTT가 물가 올렸다?”…KISDI 분석해보니 오히려 ‘억제 효과..."
+      ],
+      "membership": "candidate",
+      "telcos": []
+    },
+    {
+      "brand": "인터파크",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.75,
+      "dl_recent_avg": 13.7,
+      "news_spike": 34.5,
+      "news_7d": 92,
+      "direction": "pos",
+      "neg_score": 14,
+      "pos_score": 61,
+      "sample_titles": [
+        "평창군, 가족의 소중함과 희망의 메시지 ‘신콩쥐’ 공연",
+        "‘싸운드써커스’, 과학동아 소개된 환경교육 공연…용인서 여름 시즌 ...",
+        "인형극 '흥부 놀부', 어린이 관객 앞으로~"
+      ],
+      "membership": "candidate",
+      "telcos": []
+    },
+    {
+      "brand": "카카오T",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.78,
+      "dl_recent_avg": 1.1,
+      "news_spike": 4.89,
+      "news_7d": 62,
+      "direction": "neu",
+      "neg_score": 43,
+      "pos_score": 32,
+      "sample_titles": [
+        "'파업 기로' 카카오 노사, 오늘 2차 조정⋯단체 행동이냐 극적 화해냐",
+        "KT-SKT, 구독 프로모션 진행",
+        "유튜브·티빙 구독료 낮춘다…SKT·KT, 맞춤형 구독상품 경쟁"
+      ],
+      "membership": "candidate",
+      "telcos": []
+    },
+    {
+      "brand": "빽다방",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.78,
+      "dl_recent_avg": 11.1,
+      "news_spike": 3.82,
+      "news_7d": 56,
+      "direction": "neu",
+      "neg_score": 27,
+      "pos_score": 32,
+      "sample_titles": [
+        "더본코리아, 당원병 환우 맞춤 쿠키 개발…&quot;대체당 사용, 단백질↑&quot;",
+        "백종원 더본코리아, 당원병 환우 위한 쿠키 3종 공개",
+        "더본코리아, 당원병 환우 위한 '맞춤 쿠키' 개발"
+      ],
+      "membership": "candidate",
+      "telcos": []
+    },
+    {
+      "brand": "지그재그",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.79,
+      "dl_recent_avg": 62.3,
+      "news_spike": 3.67,
+      "news_7d": 55,
+      "direction": "pos",
+      "neg_score": 8,
+      "pos_score": 44,
+      "sample_titles": [
+        "“빠방 천국이네&quot;…BMW 드라이빙센터 인기 비결은?",
+        "내 취향대로 꾸민다…젤리슈즈부터 키링까지 이어진 '별다꾸 소비'",
+        "[토크인사이드] ‘동계체전 4관왕’ 최예린 선수…대프리카’에서 열여..."
+      ],
+      "membership": "candidate",
+      "telcos": []
+    },
+    {
+      "brand": "오늘의집",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.73,
+      "dl_recent_avg": 28.6,
+      "news_spike": 3.52,
+      "news_7d": 54,
+      "direction": "pos",
+      "neg_score": 3,
+      "pos_score": 42,
+      "sample_titles": [
+        "오늘의집, 여름 맞이 '냉감 패브릭' 검색량 급증",
+        "&quot;2주 만에 9천명 몰렸다&quot; 미닉스, 북촌 팝업 '집안일 해결소' 흥행",
+        "[건축탐구 집] 건축가와 연애하듯 지은 집 공개"
+      ],
+      "membership": "candidate",
+      "telcos": []
+    },
+    {
+      "brand": "에이블리",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 0.75,
+      "dl_recent_avg": 65.4,
+      "news_spike": 2.56,
+      "news_7d": 46,
+      "direction": "pos",
+      "neg_score": 11,
+      "pos_score": 40,
+      "sample_titles": [
+        "“카톡 선물하기만 썼는데”...시장 파고드는 패션 플랫폼",
+        "기업인 1000명 제주로 집결…AI시대 생존전략 모색",
+        "한경협, 7월 제주서 하계포럼 개최…이세돌·백준호 등 강연"
+      ],
+      "membership": "candidate",
+      "telcos": []
+    },
+    {
+      "brand": "설빙",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 1.34,
+      "dl_recent_avg": 1.7,
+      "news_spike": 3.0,
+      "news_7d": 24,
+      "direction": "pos",
+      "neg_score": 3,
+      "pos_score": 26,
+      "sample_titles": [
+        "'생산할수록 적자'..중동發 '포장 대란' 덮친 식음료업계…비닐·캔 수급...",
+        "파리바게뜨 이어 설빙·컴포즈커피 '포장대란'",
+        "[신상품] 삼양식품 '삼양1963 큰컵 우지파개장' 외"
+      ],
+      "membership": "candidate",
+      "telcos": []
+    },
+    {
+      "brand": "스타벅스코리아",
+      "strength": "mid",
+      "sources": [
+        "DataLab"
+      ],
+      "dl_spike": 14.06,
+      "dl_recent_avg": 6.9,
+      "news_spike": null,
+      "news_7d": 100,
+      "direction": "neg",
+      "neg_score": 995,
+      "pos_score": 12,
+      "sample_titles": [
+        "[ABC뉴스 말말말] &quot;어떠한 변명도 하지 않겠습니다.&quot;",
+        "정민찬 발레단 감독 &quot;마녀사냥 그만…우리 공연엔 하차 없다&quot;",
+        "광주·전남 6개 시민단체, 27일 시국 기자회견… &quot;사법독립·시장경제 훼..."
+      ],
+      "membership": "watchlist",
+      "telcos": []
+    },
+    {
+      "brand": "쏘카",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 1.1,
+      "dl_recent_avg": 26.5,
+      "news_spike": 4.69,
+      "news_7d": 61,
+      "direction": "pos",
+      "neg_score": 12,
+      "pos_score": 24,
+      "sample_titles": [
+        "[애널픽] &quot;크래프톤 손잡은 쏘카, 피지컬AI 고도화 기대&quot;",
+        "쏘카, 순익 상승 기대…목표가 2만원으로 상향-DS",
+        "DS證 &quot;쏘카, 자율주행·차량 커머스로 성장 본격화…목표가 상향&quot;"
+      ],
+      "membership": "watchlist",
+      "telcos": []
+    },
+    {
+      "brand": "맥도날드코리아",
+      "strength": "mid",
+      "sources": [
+        "뉴스"
+      ],
+      "dl_spike": 1.36,
+      "dl_recent_avg": 0.0,
+      "news_spike": 2.88,
+      "news_7d": 49,
+      "direction": "neg",
+      "neg_score": 18,
+      "pos_score": 7,
+      "sample_titles": [
+        "한국맥도날드, 체질개선 완료…배당 가능성 '주목'",
+        "한국맥도날드, '2026 해피워크' 기부금 2억8000만원 마련",
+        "세노비스, '지구런' 건강루틴 캠페인→요리축제 '휘슬러 쿠킹챌린지'"
+      ],
+      "membership": "watchlist",
+      "telcos": []
+    }
+  ],
+  "topic_signal_count": 31,
+  "topic_signals": [
+    {
+      "brand": "쿠팡",
+      "article_count": 140,
+      "topic_count": 9,
+      "topics": [
+        "구독 혜택",
+        "멤버십 개편",
+        "멤버십 출시",
+        "멤버십 혜택 강화",
+        "무료배달 멤버십",
+        "월정액 구독",
+        "제휴 확대",
+        "쿠폰 제공 이벤트",
+        "포인트 적립 혜택"
+      ],
+      "dl_spike": 0.76,
+      "dl_verified": false,
+      "score": 164,
+      "strength": "strong",
+      "sample_titles": [
+        "쿠팡은 ‘전고객 무료 배달’이라는 폭탄을 던질까?",
+        "&quot;쿠팡·무신사에 뺏긴 고객 탈환&quot;…패션업계, 자사몰로 반격 시작",
+        "[오늘의 특가] 매드포갈릭, U+ 멤버십 고객 대상 최대 2만5000원 할인 혜..."
+      ],
+      "membership": "watchlist",
+      "is_new": false
+    },
+    {
+      "brand": "쿠팡이츠",
+      "article_count": 118,
+      "topic_count": 6,
+      "topics": [
+        "구독 혜택",
+        "멤버십 개편",
+        "멤버십 출시",
+        "멤버십 혜택 강화",
+        "무료배달 멤버십",
+        "월정액 구독"
+      ],
+      "dl_spike": 0.7,
+      "dl_verified": false,
+      "score": 133,
+      "strength": "strong",
+      "sample_titles": [
+        "쿠팡은 ‘전고객 무료 배달’이라는 폭탄을 던질까?",
+        "쿠팡이츠 “무료배달 확대로 점주 부담금 5% 줄어”…소상공인 “외식물...",
+        "매출 늘었다는데 왜?…사장님들 '무료배달' 반대하는 이유"
+      ],
+      "membership": "partner",
+      "is_new": false
+    },
+    {
+      "brand": "스타벅스",
+      "article_count": 38,
+      "topic_count": 6,
+      "topics": [
+        "구독 혜택",
+        "마케팅 협업",
+        "멤버십 개편",
+        "멤버십 출시",
+        "제휴 확대",
+        "쿠폰 제공 이벤트"
+      ],
+      "dl_spike": 2.33,
+      "dl_verified": true,
+      "score": 58,
+      "strength": "strong",
+      "sample_titles": [
+        "정용진의 '아픈 손가락' 전락한 스타벅스 : 캐시카우에서 '리스크 축' 돌...",
+        "애물단지로 전락한 PLCC···제휴사 평판리스크에 카드사 '울상'",
+        "스타벅스 불매 확산에 '카드사들도 긴장'…제휴카드 영향 미치나"
+      ],
+      "membership": "partner",
+      "is_new": false
+    },
+    {
+      "brand": "롯데백화점",
+      "article_count": 33,
+      "topic_count": 8,
+      "topics": [
+        "구독 혜택",
+        "마케팅 협업",
+        "멤버십 개편",
+        "멤버십 출시",
+        "멤버십 혜택 강화",
+        "제휴 확대",
+        "쿠폰 제공 이벤트",
+        "포인트 적립 혜택"
+      ],
+      "dl_spike": 0.74,
+      "dl_verified": false,
+      "score": 54,
+      "strength": "strong",
+      "sample_titles": [
+        "LG전자 베스트샵 롯데백화점 평촌점, 그랜드오픈 기념 가전 특별행사 진...",
+        "[초점] 외국인 홀린 롯데백화점…역대급 '황금기' 수혜",
+        "“10억 침대에 람보르기니까지”… 백화점, ‘상위 0.1%’ 모시기 전쟁"
+      ],
+      "membership": "watchlist",
+      "is_new": false
+    },
+    {
+      "brand": "다이소",
+      "article_count": 27,
+      "topic_count": 7,
+      "topics": [
+        "구독 서비스 출시",
+        "구독 혜택",
+        "멤버십 출시",
+        "멤버십 혜택 강화",
+        "무료배달 멤버십",
+        "제휴 확대",
+        "쿠폰 제공 이벤트"
+      ],
+      "dl_spike": 0.83,
+      "dl_verified": false,
+      "score": 45,
+      "strength": "strong",
+      "sample_titles": [
+        "SKT·KT, ‘OTT 구독’ 불꽃 대결…가입자 회복 ‘안간힘’",
+        "KT, '티빙 생활구독팩' 출시",
+        "KT, 티빙에 GS25·다이소·올리브영 쿠폰 묶었다 &quot;생활구독팩 출시&quot;"
+      ],
+      "membership": "partner",
+      "is_new": false
+    },
+    {
+      "brand": "롯데마트",
+      "article_count": 16,
+      "topic_count": 6,
+      "topics": [
+        "구독 서비스 출시",
+        "구독 혜택",
+        "멤버십 출시",
+        "멤버십 혜택 강화",
+        "쿠폰 제공 이벤트",
+        "포인트 적립 혜택"
+      ],
+      "dl_spike": 0.71,
+      "dl_verified": false,
+      "score": 31,
+      "strength": "strong",
+      "sample_titles": [
+        "대형마트 휴무일, 이마트·롯데마트·홈플러스·코스트코 ‘여기 열었네...",
+        "대형마트 휴무일? 이마트·롯데마트·홈플러스·코스트코 ‘할인품목은...",
+        "롯데마트, '베트남 최고 브랜드' 선정…3년 연속"
+      ],
+      "membership": "partner",
+      "is_new": false
+    },
+    {
+      "brand": "롯데면세점",
+      "article_count": 22,
+      "topic_count": 4,
+      "topics": [
+        "마케팅 협업",
+        "제휴 확대",
+        "쿠폰 제공 이벤트",
+        "포인트 적립 혜택"
+      ],
+      "dl_spike": 0.73,
+      "dl_verified": false,
+      "score": 31,
+      "strength": "strong",
+      "sample_titles": [
+        "[유통/식음료] 동원F&amp;B 타이펙스 참가 / 오리온 단백질드링크 1000만 병 ...",
+        "“대만 관광객 잡아라”…롯데免, 간편결제 편의성 제고",
+        "[유통레이더] 롯데백화점, 7개 계열사 총출동…온라인 통합 캠페인 ‘엘..."
+      ],
+      "membership": "partner",
+      "is_new": false
+    },
+    {
+      "brand": "올리브영",
+      "article_count": 15,
+      "topic_count": 6,
+      "topics": [
+        "구독 서비스 출시",
+        "구독 혜택",
+        "마케팅 협업",
+        "멤버십 개편",
+        "멤버십 출시",
+        "멤버십 혜택 강화"
+      ],
+      "dl_spike": 0.72,
+      "dl_verified": false,
+      "score": 30,
+      "strength": "strong",
+      "sample_titles": [
+        "SKT·KT, ‘OTT 구독’ 불꽃 대결…가입자 회복 ‘안간힘’",
+        "KT, '티빙 생활구독팩' 출시",
+        "KT, 티빙에 GS25·다이소·올리브영 쿠폰 묶었다 &quot;생활구독팩 출시&quot;"
+      ],
+      "membership": "candidate",
+      "is_new": false
+    },
+    {
+      "brand": "요기요",
+      "article_count": 16,
+      "topic_count": 5,
+      "topics": [
+        "멤버십 개편",
+        "무료배달 멤버십",
+        "제휴 확대",
+        "쿠폰 제공 이벤트",
+        "포인트 적립 혜택"
+      ],
+      "dl_spike": 0.76,
+      "dl_verified": false,
+      "score": 28,
+      "strength": "strong",
+      "sample_titles": [
+        "매출 늘었다는데 왜?…사장님들 '무료배달' 반대하는 이유",
+        "움버거앤윙스, 요기요와 적립 프로모션 진행…할라피뇨 세트 주문 시 추...",
+        "&quot;교촌치킨 최대 9천원 할인&quot; 요기요, 단독 프로모션"
+      ],
+      "membership": "candidate",
+      "is_new": false
+    },
+    {
+      "brand": "티빙",
+      "article_count": 9,
+      "topic_count": 6,
+      "topics": [
+        "구독 서비스 출시",
+        "구독 혜택",
+        "멤버십 출시",
+        "멤버십 혜택 강화",
+        "제휴 확대",
+        "쿠폰 제공 이벤트"
+      ],
+      "dl_spike": null,
+      "dl_verified": false,
+      "score": 24,
+      "strength": "strong",
+      "sample_titles": [
+        "KT, '티빙 생활구독팩' 출시",
+        "KT, '티빙 생활구독팩' 출시",
+        "유튜브·티빙 구독료 낮춘다…SKT·KT, 맞춤형 구독상품 경쟁"
+      ],
+      "membership": "watchlist",
+      "is_new": true
+    },
+    {
+      "brand": "GS25",
+      "article_count": 12,
+      "topic_count": 4,
+      "topics": [
+        "구독 서비스 출시",
+        "구독 혜택",
+        "멤버십 출시",
+        "멤버십 혜택 강화"
+      ],
+      "dl_spike": 0.77,
+      "dl_verified": false,
+      "score": 21,
+      "strength": "strong",
+      "sample_titles": [
+        "KT, '티빙 생활구독팩' 출시",
+        "KT, 티빙에 GS25·다이소·올리브영 쿠폰 묶었다 &quot;생활구독팩 출시&quot;",
+        "KT, '티빙 생활구독팩' 출시"
+      ],
+      "membership": "partner",
+      "is_new": false
+    },
+    {
+      "brand": "네이버플러스",
+      "article_count": 11,
+      "topic_count": 4,
+      "topics": [
+        "멤버십 개편",
+        "멤버십 출시",
+        "멤버십 혜택 강화",
+        "무료배달 멤버십"
+      ],
+      "dl_spike": null,
+      "dl_verified": false,
+      "score": 20,
+      "strength": "strong",
+      "sample_titles": [
+        "'노이즈캔슬링 헤드폰 추천'에 구매링크까지…네이버 'AI탭' 써보니",
+        "AI 시대 검색 미래는…네이버, '맥락 데이터'로 정면승부 [현장+]",
+        "신한은행, 나라사랑카드 점유율 우위…하나銀 추격"
+      ],
+      "membership": "watchlist",
+      "is_new": true
+    },
+    {
+      "brand": "매드포갈릭",
+      "article_count": 10,
+      "topic_count": 4,
+      "topics": [
+        "멤버십 개편",
+        "멤버십 출시",
+        "멤버십 혜택 강화",
+        "제휴 확대"
+      ],
+      "dl_spike": 0.45,
+      "dl_verified": false,
+      "score": 19,
+      "strength": "strong",
+      "sample_titles": [
+        "[오늘의 특가] 매드포갈릭, U+ 멤버십 고객 대상 최대 2만5000원 할인 혜...",
+        "[프로모션] 매드포갈릭 '유플투쁠'·원할머니 '땡겨요' 外",
+        "[유통 브리핑] BHC·맘스터치·매드포갈릭"
+      ],
+      "membership": "partner",
+      "is_new": false
+    },
+    {
+      "brand": "이마트",
+      "article_count": 8,
+      "topic_count": 4,
+      "topics": [
+        "구독 혜택",
+        "멤버십 출시",
+        "멤버십 혜택 강화",
+        "제휴 확대"
+      ],
+      "dl_spike": 0.88,
+      "dl_verified": false,
+      "score": 17,
+      "strength": "strong",
+      "sample_titles": [
+        "대형마트 휴무일, 이마트·롯데마트·홈플러스·코스트코 ‘여기 열었네...",
+        "대형마트 휴무일? 이마트·롯데마트·홈플러스·코스트코 ‘할인품목은...",
+        "대형마트 휴무일, 이마트·롯데마트·홈플러스·코스트코 ‘여기 열었네..."
+      ],
+      "membership": "watchlist",
+      "is_new": false
+    },
+    {
+      "brand": "컴포즈커피",
+      "article_count": 11,
+      "topic_count": 3,
+      "topics": [
+        "멤버십 개편",
+        "멤버십 출시",
+        "멤버십 혜택 강화"
+      ],
+      "dl_spike": 0.91,
+      "dl_verified": false,
+      "score": 17,
+      "strength": "strong",
+      "sample_titles": [
+        "[FC 브리핑] 차지, 컴포즈커피, 빽다방",
+        "스탬프 슬쩍 없앴다... 컴포즈커피, 과징금 가능성",
+        "스탬프 슬쩍 없앴다... 컴포즈커피, 과징금 가능성"
+      ],
+      "membership": "candidate",
+      "is_new": false
+    },
+    {
+      "brand": "무신사",
+      "article_count": 7,
+      "topic_count": 4,
+      "topics": [
+        "마케팅 협업",
+        "멤버십 개편",
+        "멤버십 출시",
+        "멤버십 혜택 강화"
+      ],
+      "dl_spike": 0.85,
+      "dl_verified": false,
+      "score": 16,
+      "strength": "strong",
+      "sample_titles": [
+        "[패션·잡화 트렌드] 삼양그룹, 무신사와 협업한 한정판 '스페셜티 티셔...",
+        "&quot;쿠팡·무신사에 뺏긴 고객 탈환&quot;…패션업계, 자사몰로 반격 시작",
+        "&quot;쿠팡·무신사에 뺏긴 고객 탈환&quot;…패션업계, 자사몰로 반격 시작"
+      ],
+      "membership": "candidate",
+      "is_new": false
+    },
+    {
+      "brand": "여기어때",
+      "article_count": 7,
+      "topic_count": 3,
+      "topics": [
+        "마케팅 협업",
+        "제휴 확대",
+        "쿠폰 제공 이벤트"
+      ],
+      "dl_spike": 0.82,
+      "dl_verified": false,
+      "score": 13,
+      "strength": "mid",
+      "sample_titles": [
+        "여기어때, 일본 소도시 공략 통했다... 마쓰야마 예약 증가",
+        "[여행업계 이모저모] 롯데호텔앤리조트, 한화호텔앤드리조트, 여기어때...",
+        "여기어때, 日 에히메현 숙소 거래액 증가"
+      ],
+      "membership": "candidate",
+      "is_new": false
+    },
+    {
+      "brand": "유튜브",
+      "article_count": 6,
+      "topic_count": 3,
+      "topics": [
+        "구독 서비스 출시",
+        "구독 혜택",
+        "쿠폰 제공 이벤트"
+      ],
+      "dl_spike": null,
+      "dl_verified": false,
+      "score": 12,
+      "strength": "mid",
+      "sample_titles": [
+        "유튜브·티빙 구독료 낮춘다…SKT·KT, 맞춤형 구독상품 경쟁",
+        "[#통신 풍향계] LGU+ '월드컵 중계회선' 구축·SKT '유튜브 구독 서비스...",
+        "유튜브·티빙 구독료 낮춘다…SKT·KT, 맞춤형 구독상품 경쟁"
+      ],
+      "membership": "watchlist",
+      "is_new": true
+    },
+    {
+      "brand": "맘스터치",
+      "article_count": 4,
+      "topic_count": 3,
+      "topics": [
+        "멤버십 개편",
+        "멤버십 출시",
+        "멤버십 혜택 강화"
+      ],
+      "dl_spike": 0.69,
+      "dl_verified": false,
+      "score": 10,
+      "strength": "mid",
+      "sample_titles": [
+        "[프로모션] 매드포갈릭 '유플투쁠'·원할머니 '땡겨요' 外",
+        "[유통 브리핑] BHC·맘스터치·매드포갈릭",
+        "[프로모션] 매드포갈릭 '유플투쁠'·원할머니 '땡겨요' 外"
+      ],
+      "membership": "candidate",
+      "is_new": false
+    },
+    {
+      "brand": "배달의민족",
+      "article_count": 7,
+      "topic_count": 2,
+      "topics": [
+        "멤버십 개편",
+        "무료배달 멤버십"
+      ],
+      "dl_spike": 0.87,
+      "dl_verified": false,
+      "score": 10,
+      "strength": "mid",
+      "sample_titles": [
+        "매출 늘었다는데 왜?…사장님들 '무료배달' 반대하는 이유",
+        "매출 늘었다는데 왜?…사장님들 '무료배달' 반대하는 이유",
+        "“소비자엔 이득” vs “기만 마케팅”…쿠팡이츠 ‘무료배달’ 논란"
+      ],
+      "membership": "candidate",
+      "is_new": false
+    },
+    {
+      "brand": "SK텔레콤이",
+      "article_count": 7,
+      "topic_count": 2,
+      "topics": [
+        "구독 서비스 출시",
+        "구독 혜택"
+      ],
+      "dl_spike": null,
+      "dl_verified": false,
+      "score": 10,
+      "strength": "mid",
+      "sample_titles": [
+        "SK텔레콤, 월 7900원 구독 '유튜브 프리미엄 라이트' 출시",
+        "SKT, 시원하게 광고 패스!…구독료 할인부터 무료 혜택까지 ‘So Cool’",
+        "SKT, T우주서 '유튜브 프리미엄 라이트' 출시...월 7900원"
+      ],
+      "membership": "watchlist",
+      "is_new": true
+    },
+    {
+      "brand": "네이버페이",
+      "article_count": 3,
+      "topic_count": 3,
+      "topics": [
+        "구독 혜택",
+        "멤버십 혜택 강화",
+        "쿠폰 제공 이벤트"
+      ],
+      "dl_spike": 0.77,
+      "dl_verified": false,
+      "score": 9,
+      "strength": "mid",
+      "sample_titles": [
+        "[배민, 8조 공룡되다 (下)] &quot;거대 배달 커머스 탄생&quot;…네이버 '녹색 배민...",
+        "&quot;OTT에 생활 혜택 결합&quot;... KT, '티빙 생활구독팩' 선봬",
+        "&quot;OTT에 생활 혜택 결합&quot;... KT, '티빙 생활구독팩' 선봬"
+      ],
+      "membership": "watchlist",
+      "is_new": false
+    },
+    {
+      "brand": "마이홈플러스",
+      "article_count": 5,
+      "topic_count": 2,
+      "topics": [
+        "멤버십 출시",
+        "멤버십 혜택 강화"
+      ],
+      "dl_spike": null,
+      "dl_verified": false,
+      "score": 8,
+      "strength": "mid",
+      "sample_titles": [
+        "대형마트 휴무일, 이마트·롯데마트·홈플러스·코스트코 ‘여기 열었네...",
+        "대형마트 휴무일? 이마트·롯데마트·홈플러스·코스트코 ‘할인품목은...",
+        "대형마트 휴무일, 이마트·롯데마트·홈플러스·코스트코 ‘여기 열었네..."
+      ],
+      "membership": "watchlist",
+      "is_new": true
+    },
+    {
+      "brand": "빽다방",
+      "article_count": 4,
+      "topic_count": 2,
+      "topics": [
+        "멤버십 출시",
+        "멤버십 혜택 강화"
+      ],
+      "dl_spike": 0.78,
+      "dl_verified": false,
+      "score": 7,
+      "strength": "mid",
+      "sample_titles": [
+        "[FC 브리핑] 차지, 컴포즈커피, 빽다방",
+        "[이주의 유통포인트] 롯데免, 'K-공공캐릭터 팝업' 운영…켄싱턴호텔앤...",
+        "[커피·음료 트렌드] 더본코리아 빽다방, 네이버웹툰 '냐한남자-춘배와..."
+      ],
+      "membership": "candidate",
+      "is_new": false
+    },
+    {
+      "brand": "토스",
+      "article_count": 4,
+      "topic_count": 2,
+      "topics": [
+        "구독 서비스 출시",
+        "제휴 확대"
+      ],
+      "dl_spike": 0.73,
+      "dl_verified": false,
+      "score": 7,
+      "strength": "mid",
+      "sample_titles": [
+        "&quot;100칸짜리 AI 열차, 무조건 첫 칸에 타라&quot; [GCC 2026]",
+        "그린재킷, NH농협카드와 '캐디피 즉시 할인' 이벤트 진행",
+        "그린재킷-NH농협카드, 캐디피 간편결제 할인 행사 운영"
+      ],
+      "membership": "watchlist",
+      "is_new": false
+    },
+    {
+      "brand": "정품PASS",
+      "article_count": 3,
+      "topic_count": 2,
+      "topics": [
+        "구독 서비스 출시",
+        "멤버십 출시"
+      ],
+      "dl_spike": null,
+      "dl_verified": false,
+      "score": 6,
+      "strength": "low",
+      "sample_titles": [
+        "“정품 걱정 덜어준다”…트렌비, ‘정품PASS 멤버십’ 출시",
+        "트렌비, 연간 무제한 감정 '정품PASS 멤버십' 출시",
+        "“정품 걱정 덜어준다”…트렌비, ‘정품PASS 멤버십’ 출시"
+      ],
+      "membership": "watchlist",
+      "is_new": true
+    },
+    {
+      "brand": "밀리의서재",
+      "article_count": 3,
+      "topic_count": 2,
+      "topics": [
+        "월정액 구독",
+        "쿠폰 제공 이벤트"
+      ],
+      "dl_spike": 0.77,
+      "dl_verified": false,
+      "score": 6,
+      "strength": "low",
+      "sample_titles": [
+        "제로베이스원, 목소리로 전하는 '다정한 위로'… 오디오북 공개",
+        "책 안 읽는다?…스마트폰으로 독서하는 20대 [전자책의 현재①]",
+        "“AI 시대 본질은 사유”…구독혁명으로 ‘독서 패러다임’ 바꾸다[Hera..."
+      ],
+      "membership": "partner",
+      "is_new": false
+    },
+    {
+      "brand": "오키클럽",
+      "article_count": 3,
+      "topic_count": 1,
+      "topics": [
+        "멤버십 개편"
+      ],
+      "dl_spike": null,
+      "dl_verified": false,
+      "score": 3,
+      "strength": "low",
+      "sample_titles": [
+        "SK플래닛, '오키클럽 플러스' 출시…OK캐쉬백 적립형 멤버십 강화",
+        "복잡한 할인 구조 버리고 적립으로 통합… OK캐쉬백 새 멤버십",
+        "“쓸수록 포인트 쌓인다”…SK플래닛, ‘오키클럽 플러스’ 출시"
+      ],
+      "membership": "watchlist",
+      "is_new": true
+    },
+    {
+      "brand": "오키",
+      "article_count": 3,
+      "topic_count": 1,
+      "topics": [
+        "멤버십 개편"
+      ],
+      "dl_spike": null,
+      "dl_verified": false,
+      "score": 3,
+      "strength": "low",
+      "sample_titles": [
+        "SK플래닛, '오키클럽 플러스' 출시…OK캐쉬백 적립형 멤버십 강화",
+        "복잡한 할인 구조 버리고 적립으로 통합… OK캐쉬백 새 멤버십",
+        "“쓸수록 포인트 쌓인다”…SK플래닛, ‘오키클럽 플러스’ 출시"
+      ],
+      "membership": "watchlist",
+      "is_new": true
+    },
+    {
+      "brand": "롯데시네마",
+      "article_count": 3,
+      "topic_count": 1,
+      "topics": [
+        "쿠폰 제공 이벤트"
+      ],
+      "dl_spike": 0.75,
+      "dl_verified": false,
+      "score": 3,
+      "strength": "low",
+      "sample_titles": [
+        "롯데백화점, ‘엘패스’ 띄운다…롯데타운 쇼핑 구조 온라인으로 옮겨",
+        "정용진 고개 숙인 날..롯데, '7개사 연합군'으로 온오프라인 공습",
+        "롯데百, 7개 계열사 뭉친 통합 프로모션 ‘엘패스’ 진행"
+      ],
+      "membership": "candidate",
+      "is_new": false
+    },
+    {
+      "brand": "배민",
+      "article_count": 3,
+      "topic_count": 1,
+      "topics": [
+        "무료배달 멤버십"
+      ],
+      "dl_spike": null,
+      "dl_verified": false,
+      "score": 3,
+      "strength": "low",
+      "sample_titles": [
+        "배민·쿠팡이츠 무료배달 경쟁 재점화⋯ 속타는 자영업자들",
+        "무료 배달 확대에 사장님들 울상?... 쿠팡이츠 &quot;무료배달 비용 우리가 다...",
+        "쿠팡이츠 &quot;일반회원 무료배달 프로모션, 업주 추가 비용 없다&quot;"
+      ],
+      "membership": "watchlist",
+      "is_new": true
+    }
+  ]
+}
