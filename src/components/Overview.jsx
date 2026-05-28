@@ -188,12 +188,13 @@ export default function Overview() {
         <div className="ovkey">
           <div className="ovkey-lbl">🔑 이번달 놓치면 안될 것</div>
           <div className="ovki-grid">
-            <a href="#sn" className="ovki ovki-neg">
-              <div className="ovki-cat">🚨 고객반응</div>
-              <div className="ovki-title">T day 5/27 '별거 없다' 부정 · KT 고객보답 긍정 유지</div>
+            <a href="#sn" className="ovki ovki-warn">
+              <div className="ovki-cat">💬 고객반응</div>
+              <div className="ovki-title">T day 긍정 우세 · VIP PICK 혜택 축소 불만 지속</div>
               <ul className="ovki-list">
-                <li>T day 5/27 — 루리웹 조회 15,651 "요번엔 별거 없구먼" 부정 / VIP PICK 혜택 축소 불만 지속</li>
-                <li>KT 고객보답 — 루리웹 조회 44,751 긍정 · 2차 투썸·노랑통닭도 호응 이어짐</li>
+                <li>T day 5/27 — 긍정 다수(쉐이크쉑 1+1·피자헛 등) / 루리웹 "별거 없구먼" 고조회 1건 혼재</li>
+                <li>VIP PICK — 9,900원 쿠폰 폐지·우주패스 개악 불만 지속 · SKT 부정 신호</li>
+                <li>KT 고객보답 — 투썸·노랑통닭 2차 긍정 압도 · 루리웹 조회 44,751</li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>
