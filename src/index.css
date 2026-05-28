@@ -456,7 +456,7 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
   .comp-table{min-width:560px}
 }
 
-/* ── 트렌드 레이더 (#ai 섹션 4) ────────────────────────────── */
+/* ── 제휴사 이슈 레이더 (#ai 섹션 4) ───────────────────────── */
 .tr-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 @media(max-width:600px){.tr-grid{grid-template-columns:1fr}}
 .tr-card{border-radius:var(--r);border:1px solid var(--bd);overflow:hidden;background:var(--bg);display:flex;flex-direction:column;transition:.2s;border-left-width:4px;border-left-style:solid}
