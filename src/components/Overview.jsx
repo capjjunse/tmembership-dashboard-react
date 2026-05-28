@@ -199,10 +199,10 @@ export default function Overview() {
             </a>
             <a href="#tr" className="ovki ovki-trend">
               <div className="ovki-cat">📈 검색어 트렌드</div>
-              <div className="ovki-title">5/25주 갱신 — SKT 0.6 · KT 1.0 (잠정)</div>
+              <div className="ovki-title">5/25주 최신 — SKT 1.3 · KT 1.5 (잠정)</div>
               <ul className="ovki-list">
-                <li>SKT 5/25 잠정 0.6 (전주比 +140%) · 5/18 최종 2.5 연중 최저점</li>
-                <li>KT 5/25 잠정 1.0 / 5/18 최종 4.1 — 달달혜택 종료 후 집계 중</li>
+                <li>SKT 5/25 잠정 1.3 (전주比 +52%) · 5/18 최종 2.5 연중 최저점</li>
+                <li>KT 5/25 잠정 1.5 / 5/18 최종 4.1 — 달달혜택 종료 후 집계 중</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>

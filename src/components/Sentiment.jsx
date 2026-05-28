@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.05.27 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.05.28 갱신)</span>
         
       </div>
       <div className="tr2">
@@ -85,6 +85,7 @@ export default function Sentiment() {
           {sktKw === 'kw2' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T멤버십 이번주 T데이 혜택 (5/27) — "요번엔 별거 없구먼" (조회 15,651)</div><div className="rsrc">2026.05.27 · <a href="https://bbs.ruliweb.com/pc/board/1020/read/104359" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">&lt;내돈내산&gt; 쉐이크쉑 쉑버거 1+1 T데이 후기 — "VIP는 버거 1+1 혜택이라 쉬림프쉑도 먹어봤어요"</div><div className="rsrc">2026.05.27 · <a href="https://blog.naver.com/yu_pingu/224298031540" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">T DAY 5월 27일 혜택 총정리 — 쉐이크쉑·뚜레쥬르·파스쿠찌·백억커피·CGV 한눈에 정리</div><div className="rsrc">2026.05.26 · <a href="https://blog.naver.com/dkdpdldhdn93/224294954907" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT T데이 5월 27일 혜택 후기 — "쉐이크쉑 버거 30% 할인, VIP 고객님은 버거 1+1이에요" / 뚜레쥬르·파스쿠찌·백억커피 동시 운영</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/heejk1125/224295691706" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">5월 마지막 T데이 총정리 — "쉐이크쉡 1+1·뚜레쥬르 할인·파스쿠찌 40%·백억커피 100원" (#알뜰지출 정리글)</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/191130_/224294429402" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -164,6 +165,8 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw3' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 2차 투썸 50% 사용후기 — "케이크·음료 반값으로 즐겼어요" (투썸 방문 후기)</div><div className="rsrc">2026.05.28 · <a href="https://blog.naver.com/suntrit/224298546315" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 8,000원으로 노랑통닭 후기 — "배달민족 8천원 할인 쿠폰으로 노랑통닭 시켜먹었어요"</div><div className="rsrc">2026.05.27 · <a href="https://blog.naver.com/sabin0719/224298320639" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 노랑통닭 마늘치킨 후기 — "KT 개인정보 유출 보상 쿠폰으로 노랑통닭 3종 치킨 시켰다" 긍정 평가</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/byeol_arii/224295613535" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 투썸 방문 일상 — "엄마랑 KT 고객 보답 프로그램 쿠폰 쓰러 왔다, 투썸에서 케이크·음료 반값"</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/92yebinee/224295720090" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 5월 고객보답 2차 (투썸50%/배민×노랑통닭) 공유 — "오랜만에 노통 함 조져야겠네" "메가커피 오늘 먹어야겠네 2잔 아메리카노 공짜!!"</div><div className="rsrc">2026.05.15 · <a href="https://www.fmkorea.com/9827869002" target="_blank" rel="noreferrer">원문 보기</a></div></div>
