@@ -103,7 +103,7 @@ export default function Overview() {
             <div className="ov">6월 제휴 변동 3건 동시 공시</div>
             <div className="od">
               <span>후지필름 신규·청소연구소 변경·농협맛선·도그메이트 종료 예고</span>
-              <span>VIP Pick T우주패스 8월 개편 예고 진행 중 / 커뮤니티 부정 반응 지속</span>
+              <span>VIP Pick T우주패스 8월 개편 예고 진행 중 / 커뮤니티 불만 제기(4/30), 이후 신규 미식별</span>
             </div>
             <div className="octabs">
               <a href="#hs" className="octab">변경이력</a>
