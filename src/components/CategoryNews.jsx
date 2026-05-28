@@ -62,7 +62,6 @@ export function CategoryNewsContent({ excludeBrands = [] }) {
         const expandKey = `${category}:${topic}`;
         const isExp     = expanded[expandKey];
         const visible   = isExp ? articles : articles.slice(0, MAX_VISIBLE);
-        const maxCq     = Math.max(...articles.map(a => a.cross_query_count));
         const isTrending = max_velocity > 10;
         const isRising   = !isTrending && max_velocity > 5;
 
@@ -84,8 +83,7 @@ export function CategoryNewsContent({ excludeBrands = [] }) {
               <div className="cn-topic-row">
                 <span className="cn-topic">{topic}</span>
                 <div className="cn-badges">
-                  {maxCq >= 2 && <span className="cn-badge cn-cq">×{maxCq}</span>}
-                  {articles.length > 1 && <span className="cn-badge cn-num">{articles.length}건</span>}
+                  <span className="cn-badge cn-num">관련 기사 {articles.length}건</span>
                 </div>
               </div>
               {insight && <p className="cn-insight">{insight}</p>}
