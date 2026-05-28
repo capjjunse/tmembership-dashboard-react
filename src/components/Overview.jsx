@@ -200,20 +200,19 @@ export default function Overview() {
             </a>
             <a href="#tr" className="ovki ovki-trend">
               <div className="ovki-cat">📈 검색어 트렌드</div>
-              <div className="ovki-title">5/25주 최신 — SKT 1.3 · KT 1.5 (잠정)</div>
+              <div className="ovki-title">SKT 3개월 연속 하락 · KT 이벤트 의존 구조 확인</div>
               <ul className="ovki-list">
-                <li>SKT 5/25 잠정 1.3 (전주比 +52%) · 5/18 최종 2.5 연중 최저점</li>
-                <li>KT 5/25 잠정 1.5 / 5/18 최종 4.1 — 달달혜택 종료 후 집계 중</li>
+                <li>SKT — 2월(3.9) 이후 꾸준히 내려와 5/25주 연중 최저 · T day 관심 회복 필요 신호</li>
+                <li>KT — 달달혜택 운영 중 4.1, 종료 직후 1.5로 급락 · 이벤트 없으면 관심도 낮음</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
             <a href="#ai" className="ovki ovki-warn">
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스</div>
-              <div className="ovki-title">SKT 열위 브랜드 3건 확인</div>
+              <div className="ovki-title">T day 열위 1건 · SKT 미제휴 1건 확인</div>
               <ul className="ovki-list">
-                <li>공차 — LGU+ 하루 먼저, 동일 혜택 (SKT 열위)</li>
-                <li>피자헛 — LGU+ 1주 먼저 + 5%p 높음 (SKT 열위)</li>
-                <li>컬리 — KT·LGU+ 동시 운영, SKT 없음</li>
+                <li>피자헛 — LGU+ 55%+파스타 증정 vs T day 50% · 혜택 수준 열위</li>
+                <li>컬리 — KT·LGU+ 운영 중, SKT T day 미제휴</li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>
