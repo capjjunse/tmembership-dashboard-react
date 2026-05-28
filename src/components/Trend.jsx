@@ -109,13 +109,16 @@ export default function Trend() {
         <div className="kwchips">
           <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>T멤버십</span>
           <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>T데이</span>
-          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>0week</span>
+          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>0day</span>
+          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>클럽T</span>
+          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>VIP pick</span>
           <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>KT멤버십</span>
           <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>달달혜택</span>
-          <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>KT고객보답</span>
+          <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>달달초이스</span>
+          <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>y혜택</span>
           <span className="kchip" style={{ background: 'var(--lgu-bg)', color: 'var(--lgu-t)' }}>U+멤버십</span>
           <span className="kchip" style={{ background: 'var(--lgu-bg)', color: 'var(--lgu-t)' }}>유플투쁠</span>
-          <span className="kchip" style={{ background: 'var(--lgu-bg)', color: 'var(--lgu-t)' }}>유플러스멤버십</span>
+          <span className="kchip" style={{ background: 'var(--lgu-bg)', color: 'var(--lgu-t)' }}>VIP콕</span>
         </div>
       </div>
     </div>
