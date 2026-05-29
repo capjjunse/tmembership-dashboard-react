@@ -18,9 +18,14 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT T우주에 '유튜브 프리미엄 라이트' 월 7,900원 출시 — 광고 제거·배경재생 지원</span></div>
+            <div className="nsum">T우주 구독 플랫폼에 유튜브 프리미엄 라이트 추가. 유튜브 광고 제거·배경재생 지원, 오프라인 저장 및 유튜브 뮤직은 미포함. VIP Pick T우주패스 연계 활용 가능.</div>
+            <div className="nmeta">2026-05-26 · <a href="https://news.sktelecom.com/225239" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">SKT 'T 장기고객 숲캉스 데이' 성료 — 10년↑ 장기고객 1,800명 초청, 최대 863:1 경쟁률</span></div>
             <div className="nsum">T멤버십 앱 응모로 진행. 에버랜드 단독 대관 체험 이벤트. 파인 다이닝·놀이공원·뮤지컬 등 장기고객 전용 초청 이벤트 지속 예정으로, SKT 장기고객 우대 전략 강화 기조 확인.</div>
-            <div className="nmeta">2026-05-19 · <a href="https://news.sktelecom.com/225003" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nmeta">2026-05-19 · <a href="https://news.sktelecom.com/225016" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">5월 T멤버십 혜택 총정리 — 루덴시아·더벤티 신규, 가정의달 테마파크 특별전, VIP Pick 혜택</span></div>

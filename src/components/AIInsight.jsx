@@ -12,7 +12,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.05.28';
+const RADAR_SCANNED = '2026.05.29';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -26,15 +26,7 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [
-      {
-        brand: '쉐이크쉑',
-        skt: { lines: [{ grade: '전 등급', b: '쉑버거 30% 할인 · VIP 1+1' }], date: '5.27~5.31 · T day 3주차' },
-        kt: { lines: [{ grade: '전 등급', b: '프라이+소다(S) 무료 (1만원↑)' }], date: '5.15~31 · 달달혜택' },
-        lgu: null,
-        v: 'good', basis: 'SKT VIP 쉑버거 1+1 vs KT 사이드 무료', note: 'SKT VIP는 버거 1+1, KT는 전 등급 프라이+소다 증정',
-      },
-    ],
+    rows: [], // KT 6월 달달혜택 미공개 (매월 15일경 공개 예정)
   },
   {
     id: 'skt-lgu',
@@ -42,39 +34,18 @@ const compGroups = [
     desc: 'KT 미운영 · 양자 대결',
     rows: [
       {
-        brand: '공차',
-        skt: { lines: [{ grade: '전 등급', b: '50% 할인/적립' }], date: '5.13 · T day 1주차' },
+        brand: '쉐이크쉑',
+        skt: { lines: [{ grade: 'VIP', b: '40% 할인' }, { grade: 'Gold/Silver', b: '20% 할인' }], date: '6.17~6.21 · T day 2주차' },
         kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상, 최대 5천원)' }], date: '5.12 · 투쁠데이' },
-        v: 'neut', basis: '동일 할인율', note: 'LGU+ 하루 먼저',
+        lgu: null, // LGU+ 6월 유플투쁠 미공개
+        v: 'good', basis: 'SKT T day 2주차 확정 · LGU+ 미공개', note: 'LGU+ 6월 유플투쁠 라인업 미공개 — 공개 후 비교 반영',
       },
       {
-        brand: '피자헛',
-        skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (최대 22,500원)' }], date: '5.20 · T day 2주차' },
+        brand: '도미노피자',
+        skt: { lines: [{ grade: '전 등급', b: '방문포장 50% (T day)' }], date: '6.17~6.21 · T day 2주차' },
         kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 55% 할인 + 파스타 증정' }], date: '5.14 · 투쁠데이' },
-        v: 'warn', basis: 'LGU+ 5%p↑ + 파스타 증정', note: 'LGU+ 1주 먼저',
-      },
-      {
-        brand: '배스킨라빈스',
-        skt: { lines: [{ grade: '전 등급', b: '파인트 40% 할인/적립 (9,800원→5,880원)' }], date: '5.20 · T day 2주차' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '패밀리 사이즈 최대 9천원 할인' }], date: '5.20 · 투쁠데이+스페셜데이' },
-        v: 'neut', basis: '상품 티어 상이', note: '같은 날 동시 운영',
-      },
-      {
-        brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매+매점 쿠폰 2종' }], date: '5.4~5.8 · 0 week / 5.13 · T day 1주차 / 5.20 · T day 2주차' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트 (팝콘M+음료M) 무료' }], date: '5.20 · 투쁠데이' },
-        v: 'good', basis: 'SKT 예매권+스낵 vs LGU+ 스낵만', note: 'SKT 3회 vs LGU+ 1회',
-      },
-      {
-        brand: '하프클럽',
-        skt: { lines: [{ grade: '전 등급', b: '장바구니 20%+온리하프 35%' }], date: '5.4~5.8 · 0 week' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '30% 할인쿠폰+온리하프 35% 중복쿠폰 증정' }], date: '5.19 · 스페셜데이' },
-        v: 'warn', basis: 'LGU+ 10%p↑', note: '기간 분산 · 직접 경쟁 없음',
+        lgu: { lines: [{ grade: 'VVIP/VIP', b: '20% 할인 (상시)' }, { grade: '우수', b: '15% 할인 (상시)' }], date: '상시' },
+        v: 'good', basis: 'T day 50% vs LGU+ 상시 최대 20%', note: 'T day 기간(6/17-21) 한정 월등 우위',
       },
     ],
   },
@@ -86,9 +57,9 @@ const compGroups = [
       {
         brand: '컬리',
         skt: null,
-        kt: { lines: [{ grade: '전 등급', b: '5천원 할인 (4만원 이상)' }], date: '5.15~31 · 달달스페셜' },
-        lgu: { lines: [{ grade: '선착순', b: '5천원 할인 (4만원 이상)' }], date: '5.19 · 스페셜데이' },
-        v: 'miss', basis: 'SKT 미운영', note: 'KT 2주간 vs LGU+ 1일',
+        kt: { lines: [{ grade: '전 등급', b: '5천원 할인 (4만원 이상)' }], date: '달달혜택 (월간)' },
+        lgu: { lines: [{ grade: '선착순', b: '5천원 할인 (4만원 이상)' }], date: '스페셜데이 (월간)' },
+        v: 'miss', basis: 'SKT 미운영', note: 'SKT T day 미제휴 · KT·LGU+ 월간 지속',
       },
     ],
   },
@@ -96,15 +67,7 @@ const compGroups = [
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [
-      {
-        brand: '파리바게뜨',
-        skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원/P 할인/적립' }], date: '5.4~5.8 · 0 week' },
-        kt: { lines: [{ grade: '전 등급', b: '4천원 할인 (1만원 이상) · 선착순 소진' }], date: '5.15~31 · 달달초이스' },
-        lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원 이상)' }], date: '5.19 · 스페셜데이' },
-        v: 'neut', basis: '3사 구조 상이', note: 'KT 달달초이스 쿠폰 선착순 소진 · SKT 0week / LGU+ 스페셜데이',
-      },
-    ],
+    rows: [], // KT·LGU+ 6월 미공개 — 15일 이후 반영 예정
   },
 ];
 
@@ -119,8 +82,8 @@ const alCats = [
     ]}],
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
-      { partner: 'G car', deadline: 'VIP PICK · 5월', rows: [{ grade: 'V', desc: '대여료 60%+보험료 5% 할인 (2시간 이상)' }] },
-      { partner: 'TMAP 렌터카', deadline: 'VIP PLUS · 5월', rows: [{ grade: 'V', desc: '10,000원 할인 쿠폰' }] },
+      { partner: 'G car', deadline: 'VIP PICK · 월간', rows: [{ grade: 'V', desc: '대여료 60%+보험료 5% 할인 (2시간 이상)' }] },
+      { partner: 'TMAP 렌터카', deadline: 'VIP PLUS · 월간', rows: [{ grade: 'V', desc: '10,000원 할인 쿠폰' }] },
     ]}],
     reasons: ['T멤버십: SK렌터카 상시 + G car VIP PICK 60% · TMAP 렌터카 PLUS까지 렌터카 3종 커버', '네이버플러스: 쏘카 50% 기간한정 (~26.06.30) · 경유 조건 있음'],
   },
@@ -132,8 +95,8 @@ const alCats = [
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
-      { partner: 'VIP PICK · 5월', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '폴 바셋·잠바주스 50% / 피자헛 세트 10,000원 중 택1' }] },
-      { partner: '고반식당', deadline: 'VIP PLUS · 5월', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상)' }] },
+      { partner: 'VIP PICK · 월간', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '폴 바셋·잠바주스 50% / 피자헛 세트 10,000원 중 택1' }] },
+      { partner: '고반식당', deadline: 'VIP PLUS · 월간', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상)' }] },
     ]}],
     reasons: ['T멤버십: 상시 10~30% + Tday 최대 55% + VIP PICK 카페·외식 50% 다수 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
@@ -194,7 +157,7 @@ const alCats = [
     ],
     tm: [{ platform: 'T멤버십', items: [
       { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
-      { partner: 'GS SHOP', deadline: 'VIP PICK · 5월', rows: [{ grade: 'V', desc: '30% 할인 최대 10,000원' }] },
+      { partner: 'GS SHOP', deadline: 'VIP PICK · 월간', rows: [{ grade: 'V', desc: '30% 할인 최대 10,000원' }] },
     ]}],
     reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 11% + VIP PICK GS SHOP 30% (SK 생태계·제휴처 한정)'],
   },
@@ -347,7 +310,7 @@ export default function AIInsight() {
     <div className="sec" id="ai">
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
-        <span className="ss">2026년 5월 기준</span>
+        <span className="ss">2026년 6월 기준</span>
         
       </div>
 
@@ -396,7 +359,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 5월)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 6월 · KT·LGU+ 15일 이후 공개)</div>
         </div>
       </div>
 
@@ -541,7 +504,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer">2026.05.26 스캔 · 매주 크롤링 후 수동 반영</div>
+        <div className="tr-footer">2026.05.29 스캔 · 매주 크롤링 후 수동 반영</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

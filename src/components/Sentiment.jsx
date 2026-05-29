@@ -5,7 +5,7 @@ const SKT_TABS = [
   { id: 'kw2', label: 'T day',          hasData: true  },
   { id: 'kw5', label: '해피아워',        hasData: true  },
   { id: 'kw3', label: '0week·0day',     hasData: true  },
-  { id: 'kw4', label: 'VIP PICK',       hasData: true  },
+  { id: 'kw4', label: 'VIP PICK',       hasData: false },
 ];
 
 const KT_TABS = [
@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.05.28 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.05.29 갱신)</span>
         
       </div>
       <div className="tr2">
@@ -63,9 +63,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '45%' }}>긍정 45%</div>
-              <div className="rbs rn" style={{ width: '40%' }}>부정 40%</div>
-              <div className="rbs ru" style={{ width: '15%' }}>중립 15%</div>
+              <div className="rbs rp" style={{ width: '75%' }}>긍정 75%</div>
+              <div className="rbs rn" style={{ width: '20%' }}>부정 20%</div>
+              <div className="rbs ru" style={{ width: '5%' }}>중립 5%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -185,9 +185,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '50%' }}>긍정 50%</div>
-              <div className="rbs rn" style={{ width: '30%' }}>부정 30%</div>
-              <div className="rbs ru" style={{ width: '20%' }}>중립 20%</div>
+              <div className="rbs rp" style={{ width: '65%' }}>긍정 65%</div>
+              <div className="rbs rn" style={{ width: '20%' }}>부정 20%</div>
+              <div className="rbs ru" style={{ width: '15%' }}>중립 15%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -209,7 +209,6 @@ export default function Sentiment() {
           {lguKw === 'kw4' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">VIP콕 배스킨라빈스 무료교환 혜택 정리 — "유플멤버십 VIP콕 혜택으로 배스킨라빈스에서 무료 교환 가능한 메뉴" 상세 안내</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/amazing_0070/224295711582" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">유플러스 VIP콕으로 스타벅스 — "언니가 VIP콕으로 스벅 쏴줬다" (겟꿀 카페)</div><div className="rsrc">2026.04.30 · <a href="http://cafe.naver.com/dpdtydzzz/8906" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
         </div>

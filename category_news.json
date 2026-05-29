@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026.05.28 11:02",
-  "total_collected": 742,
-  "total_valid": 377,
-  "total_skipped": 365,
-  "total_top": 27,
+  "generated_at": "2026.05.29 10:55",
+  "total_collected": 754,
+  "total_valid": 384,
+  "total_skipped": 370,
+  "total_top": 28,
   "topic_groups": [
     {
       "category": "risk",
-      "topic": "스타벅스 탱크데이 사태",
-      "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
+      "topic": "스타벅스 탱크데이 불매운동",
+      "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
       "signal_strength": 3,
-      "max_velocity": -20.1,
+      "max_velocity": -23.0,
       "articles": [
         {
           "title": "스타벅스 ‘탱크데이’ 논란, 정용진 대국민 사과·진상조사 결과도 공...",
@@ -18,7 +18,7 @@
           "pub_date": "2026.05.26",
           "priority": 3,
           "cross_query_count": 2,
-          "datalab_velocity": -20.1
+          "datalab_velocity": -23.0
         },
         {
           "title": "&quot;이 카드 써도 되나&quot;…스벅 불매에 제휴 카드사들 긴장",
@@ -26,7 +26,7 @@
           "pub_date": "2026.05.25",
           "priority": 3,
           "cross_query_count": 2,
-          "datalab_velocity": -20.1
+          "datalab_velocity": -23.0
         },
         {
           "title": "‘스벅 불매운동’ 확산…제휴 맺은 카드사들, 리스크 떠안을까 긴장",
@@ -34,15 +34,7 @@
           "pub_date": "2026.05.25",
           "priority": 3,
           "cross_query_count": 2,
-          "datalab_velocity": -20.1
-        },
-        {
-          "title": "스타벅스 불매, 카드사도 불똥…“제휴카드 해지 여부 예의주시”",
-          "link": "https://www.donga.com/news/Economy/article/all/20260525/133986111/1",
-          "pub_date": "2026.05.25",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -20.1
+          "datalab_velocity": -23.0
         },
         {
           "title": "불매운동 확산에 카드사 ‘불똥’…스타벅스 제휴카드 어쩌나",
@@ -50,15 +42,31 @@
           "pub_date": "2026.05.25",
           "priority": 3,
           "cross_query_count": 2,
-          "datalab_velocity": -20.1
+          "datalab_velocity": -23.0
         },
         {
-          "title": "5·18 단체 등, 전국 스타벅스 불매운동 돌입 &quot;정용진 책임져야&quot;",
-          "link": "https://www.yna.co.kr/view/AKR20260527104000004?input=1195m",
-          "pub_date": "2026.05.27",
+          "title": "&quot;회장, 직원들 뒤에 숨는 비겁함&quot;…배우 한정수 '스타벅스 불매' 동참",
+          "link": "https://news.tvchosun.com/site/data/html_dir/2026/05/28/2026052890129.html",
+          "pub_date": "2026.05.28",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -20.1
+          "datalab_velocity": -23.0
+        },
+        {
+          "title": "“참을 수 없는 존재의 가벼움”…‘스벅 불매’ 배우 한정수, 공개 저...",
+          "link": "https://biz.heraldcorp.com/article/10757883?ref=naver",
+          "pub_date": "2026.05.28",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -23.0
+        },
+        {
+          "title": "“NO 스타벅스” 정부 차원 불매에… 커피 배우려던 어르신·격오지 장...",
+          "link": "https://www.seoul.co.kr/news/society/2026/05/28/20260528500245?wlog_tag3=naver",
+          "pub_date": "2026.05.28",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -23.0
         },
         {
           "title": "146개 시민사회단체 &quot;스타벅스 전국 불매운동 공식화&quot;",
@@ -66,7 +74,7 @@
           "pub_date": "2026.05.28",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -20.1
+          "datalab_velocity": -23.0
         },
         {
           "title": "4일 만에 25% 증발했는데…증권가도 “스타벅스 불매운동, 계열사까지 ...",
@@ -74,7 +82,7 @@
           "pub_date": "2026.05.27",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -20.1
+          "datalab_velocity": -23.0
         },
         {
           "title": "5·18 단체 등, 정용진 규탄·전국 스타벅스 불매운동 돌입",
@@ -82,40 +90,24 @@
           "pub_date": "2026.05.27",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -20.1
-        },
-        {
-          "title": "146개 시민단체, 전국 스타벅스 불매운동 돌입...&quot;정용진 규탄&quot;",
-          "link": "https://www.ytn.co.kr/_ln/0103_202605271505450885",
-          "pub_date": "2026.05.27",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -20.1
+          "datalab_velocity": -23.0
         }
       ]
     },
     {
       "category": "battle",
-      "topic": "통신사 구독팩 경쟁",
-      "insight": "통신사의 OTT·생활 구독팩 번들 전략 강화 — T멤버십의 차별화된 할인·혜택 포트폴리오 확대 필요",
+      "topic": "KT 티빙 생활구독팩",
+      "insight": "통신사 구독팩 다각화 — 생활용품 쿠폰 번들링으로 T멤버십 제휴처 확대 전략 참고",
       "signal_strength": 2,
-      "max_velocity": 13.6,
+      "max_velocity": 26.2,
       "articles": [
-        {
-          "title": "SKT, 월 7900원에 유튜브 프리미엄 구독 출시",
-          "link": "https://zdnet.co.kr/view/?no=20260526092903",
-          "pub_date": "2026.05.26",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 13.6
-        },
         {
           "title": "KT, 티빙 생활구독팩 출시…쿠폰 혜택 선택",
           "link": "https://www.news1.kr/it-science/cc-newmedia/6177207",
           "pub_date": "2026.05.26",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 13.6
+          "datalab_velocity": 26.2
         },
         {
           "title": "티빙 구독에 올영·다이소 쿠폰까지…KT, 생활구독팩 출시",
@@ -123,15 +115,7 @@
           "pub_date": "2026.05.26",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 13.6
-        },
-        {
-          "title": "유튜브 광고 없이 더 싸게 본다…SKT, 월 7900원 구독상품으로 출시",
-          "link": "https://www.newsis.com/view/NISX20260526_0003643478",
-          "pub_date": "2026.05.26",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 13.6
+          "datalab_velocity": 26.2
         },
         {
           "title": "KT, '티빙 생활구독팩' 출시",
@@ -139,65 +123,90 @@
           "pub_date": "2026.05.26",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 13.6
-        },
-        {
-          "title": "KT, ‘티빙 생활구독팩’ 출시… OTT에 편의점·뷰티 쿠폰 더했다",
-          "link": "https://biz.chosun.com/it-science/ict/2026/05/26/NLMLCFVDZJG5TJFODVTTIIQMSI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-          "pub_date": "2026.05.26",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 13.6
+          "datalab_velocity": 26.2
         }
       ]
     },
     {
       "category": "battle",
-      "topic": "네카오 AI 커머스 경쟁",
-      "insight": "네이버·카카오의 AI 쇼핑·배송 플랫폼 강화 — T멤버십의 온라인 유통 파트너십 재정렬 필요",
+      "topic": "배달앱 무료배달 경쟁",
+      "insight": "배달앱 수익성 악화 심화 — T멤버십 배달 혜택 지속가능성 재평가 필요",
       "signal_strength": 2,
-      "max_velocity": 6.7,
+      "max_velocity": 0.0,
       "articles": [
         {
-          "title": "배송은 쿠팡‧AI쇼핑은 네이버…온라인 유통 60% 시대",
-          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=841041",
-          "pub_date": "2026.05.27",
+          "title": "쿠팡이츠 ‘0원 배달’ 확대…소비자 혜택 경쟁 신호탄 될까",
+          "link": "https://www.dailian.co.kr/news/view/1647659/?sc=Naver",
+          "pub_date": "2026.05.22",
           "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 6.7
+          "cross_query_count": 2,
+          "datalab_velocity": -2.9
         },
         {
-          "title": "[네카오 AI 잔혹사] 네이버, 'AI 검색·쇼핑' 승부수…&quot;독창적인 사용자...",
-          "link": "https://www.ajunews.com/view/20260527142456316",
-          "pub_date": "2026.05.27",
+          "title": "'무료배달' 승부수 쿠팡이츠…매각 앞둔 배민 정조준",
+          "link": "https://www.sisaon.co.kr/news/articleView.html?idxno=201418",
+          "pub_date": "2026.05.28",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 6.7
+          "datalab_velocity": 0.0
         },
         {
-          "title": "[초점] 네카오 AI 승부처는 '거래 전환'…광고·커머스 수익화 경쟁",
-          "link": "http://www.itdaily.kr/news/articleView.html?idxno=239513",
-          "pub_date": "2026.05.27",
+          "title": "쿠팡이츠-배민, '무료배달 전쟁' 2라운드",
+          "link": "https://view.asiae.co.kr/article/2026052216093046673",
+          "pub_date": "2026.05.25",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 6.7
+          "datalab_velocity": 0.0
         },
         {
-          "title": "AI 돈 쏟는 네이버…카톡 올인하는 카카오",
-          "link": "https://www.hankyung.com/article/2026052463081",
-          "pub_date": "2026.05.24",
+          "title": "[라이벌열전] [배달앱] 앞서가는 배민·맹추격 쿠팡이츠·쇠락하는 요기...",
+          "link": "https://www.topdaily.kr/articles/110294",
+          "pub_date": "2026.05.28",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 6.7
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "쿠팡이츠 무료배달 확대 반발 확산…&quot;소비자·업주에 부담 전가&quot;",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260525010007219",
+          "pub_date": "2026.05.28",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
         }
       ]
     },
     {
-      "category": "trend",
-      "topic": "온스타일 AI 쇼핑 플랫폼",
-      "insight": "대화형 AI로 사용자 유입 4배 증대 — T멤버십의 AI 기반 개인화 추천 기능 강화 필수",
-      "signal_strength": 1,
-      "max_velocity": 6.7,
+      "category": "battle",
+      "topic": "배달의민족 매각",
+      "insight": "배민 소유권 변화 예상 — 제휴 정책 변동 시 T멤버십 배달 혜택 재계약 전략 사전 준비",
+      "signal_strength": 2,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "매물로 나온 '배달의민족'…&quot;수익 정체, 발목 잡나&quot;",
+          "link": "http://www.srtimes.kr/news/articleView.html?idxno=204137",
+          "pub_date": "2026.05.28",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "몸값 8조 배달의민족 매각설...네이버·우버 연합 인수 가능성에 플랫폼...",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=522049",
+          "pub_date": "2026.05.28",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        }
+      ]
+    },
+    {
+      "category": "benchmark",
+      "topic": "CJ온스타일 AI 커머스 전환",
+      "insight": "대화형 AI로 쇼핑 유입 4배 증대 — T멤버십의 AI 기반 개인화 추천 및 쇼핑 경험 강화 전략 필요",
+      "signal_strength": 2,
+      "max_velocity": 16.7,
       "articles": [
         {
           "title": "CJ온스타일 “대화형 AI 플랫폼 효과…유입 4배 급증”",
@@ -205,7 +214,15 @@
           "pub_date": "2026.05.28",
           "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 6.7
+          "datalab_velocity": 16.7
+        },
+        {
+          "title": "CJ온스타일, 대화형 AI 쇼핑 유입 4배 ↑…&quot;AI 커머스 경쟁력 강화&quot;",
+          "link": "http://www.srtimes.kr/news/articleView.html?idxno=204119",
+          "pub_date": "2026.05.28",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 16.7
         },
         {
           "title": "온스타일, 대화형 AI 플랫폼 통한 앱 유입 늘어",
@@ -213,74 +230,74 @@
           "pub_date": "2026.05.28",
           "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 6.7
+          "datalab_velocity": 16.7
+        }
+      ]
+    },
+    {
+      "category": "benchmark",
+      "topic": "T멤버십 제휴사 할인 확대",
+      "insight": "제휴사와 연계한 차등할인으로 회원 체감가치 상승 — 식음료 등 주요 카테고리 할인 프로그램 강화 추진",
+      "signal_strength": 2,
+      "max_velocity": -2.9,
+      "articles": [
+        {
+          "title": "매드포갈릭, SKT와 'T day' 맞손… 최대 '반값 할인' 혜택 쏟아진다",
+          "link": "http://www.financialreview.co.kr/news/articleView.html?idxno=42547",
+          "pub_date": "2026.05.28",
+          "priority": 2,
+          "cross_query_count": 3,
+          "datalab_velocity": -2.9
         },
         {
-          "title": "&quot;검색 대신 대화로&quot; CJ온스타일, AI 플랫폼 유입 4배 성장",
-          "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=359602",
-          "pub_date": "2026.05.28",
+          "title": "내 소비패턴 맞는 할인 혜택 매달 내가 선택할 수 있네",
+          "link": "https://www.hankookilbo.com/news/article/A2026052817210002785?did=NA",
+          "pub_date": "2026.05.29",
           "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 6.7
+          "datalab_velocity": -2.9
+        }
+      ]
+    },
+    {
+      "category": "trend",
+      "topic": "생성형 AI 유료구독 확산",
+      "insight": "AI 유료화 트렌드 확산으로 멤버십 가치전달 차별화 필요 — 금융·보험 등 고부가 서비스 연계 강화",
+      "signal_strength": 2,
+      "max_velocity": 16.7,
+      "articles": [
+        {
+          "title": "AI 이용자 4명 중 1명 '유료 구독'…금융·보험 만족도 '최하위'",
+          "link": "https://www.yna.co.kr/view/AKR20260529047700030?input=1195m",
+          "pub_date": "2026.05.29",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 16.7
         },
         {
-          "title": "CJ온스타일, AI 플랫폼 유입 4배 급증… 챗GPT 전용 앱으로 대화형 쇼핑...",
-          "link": "https://www.fashionbiz.co.kr/article/226627",
+          "title": "생성형 AI 이용자 4명 중 1명 유료 구독…20대 비율 가장 높아",
+          "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2278200",
+          "pub_date": "2026.05.29",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 16.7
+        }
+      ]
+    },
+    {
+      "category": "trend",
+      "topic": "AI 기반 유통 경쟁",
+      "insight": "검색을 대체하는 AI 도입 확대 — T멤버십 쇼핑 추천·검색 경험을 생성형 AI로 고도화 전략 수립",
+      "signal_strength": 2,
+      "max_velocity": 16.7,
+      "articles": [
+        {
+          "title": "&quot;검색 대신 AI에게 묻는다&quot;…유통家, 생성형 AI 경쟁 본격화",
+          "link": "https://www.youthdaily.co.kr/news/article.html?no=219851",
           "pub_date": "2026.05.28",
           "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 6.7
-        }
-      ]
-    },
-    {
-      "category": "trend",
-      "topic": "AI 기반 생활앱 경쟁",
-      "insight": "AI와 구독형 광고모델이 앱 수익 핵심으로 부상 — T멤버십 프리미엄 광고 제거 옵션 추가 검토",
-      "signal_strength": 1,
-      "max_velocity": 6.7,
-      "articles": [
-        {
-          "title": "AI는 생활필수앱 됐다…OTT는 광고요금제 대세",
-          "link": "https://www.yna.co.kr/view/AKR20260526125700017?input=1195m",
-          "pub_date": "2026.05.26",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 6.7
-        }
-      ]
-    },
-    {
-      "category": "trend",
-      "topic": "AI 기반 판매 경쟁력",
-      "insight": "AI가 물류·배송을 넘어 판매 전환율 경쟁력으로 작용 — T멤버십의 AI 예측 구매 기능 개발 시급",
-      "signal_strength": 1,
-      "max_velocity": 6.7,
-      "articles": [
-        {
-          "title": "AI가 대신 쇼핑하는 시대…물류, 배송 넘어 ‘판매 경쟁력’으로",
-          "link": "https://biz.chosun.com/industry/business-venture/2026/05/28/DVXKAY4VTNFK3FVV4QYUZY4UD4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-          "pub_date": "2026.05.28",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 6.7
-        }
-      ]
-    },
-    {
-      "category": "trend",
-      "topic": "미니앱 플랫폼 확산",
-      "insight": "앱 설치 없는 미니앱이 주류로 전환 — T멤버십 앱 내 미니앱 생태계 구축 전략 수립 필요",
-      "signal_strength": 1,
-      "max_velocity": 6.7,
-      "articles": [
-        {
-          "title": "“앱 설치 없이 게임-쇼핑 즐겨라”… ‘미니앱’에 빠진 플랫폼들",
-          "link": "https://www.donga.com/news/Economy/article/all/20260527/134003613/2",
-          "pub_date": "2026.05.28",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 6.7
+          "datalab_velocity": 16.7
         }
       ]
     }
@@ -289,16 +306,16 @@
     "risk": [
       {
         "title": "스타벅스 ‘탱크데이’ 논란, 정용진 대국민 사과·진상조사 결과도 공...",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
         "desc": "일각에서는 스타벅스코리아의 ‘탱크데이’ 프로모션 논란은 단순한 마케팅 실수로 보기 어렵다고 지적한다. 두 개의 문구가 5·18 민주화운동 기념일 당일에 동시에 사용됐다는 사실은 기업 내부에서 역사적 감수성이... ",
         "link": "https://www.segye.com/newsView/20260526501853?OutUrl=naver",
         "pub_date": "2026.05.26",
-        "reason": "제휴사(스타벅스) 논란 확산, 즉각 대응 필요",
+        "reason": "스타벅스 탱크데이 사태, 브랜드 신뢰도 타격",
         "priority": 3,
         "cross_query_count": 2,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
         "queries": [
           "마케팅 논란",
           "불매운동"
@@ -306,16 +323,16 @@
       },
       {
         "title": "&quot;이 카드 써도 되나&quot;…스벅 불매에 제휴 카드사들 긴장",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
         "desc": "여러 가맹점의 혜택을 포괄적으로 섞어 제공해 리스크가 분산되는 일반 제휴카드와 달리, PLCC는 카드사와 제휴 브랜드가 마케팅 비용과 수익을 공동으로 부담하고 해당 브랜드 혜택에만 재원을 집중해 상품을 설계하기... ",
         "link": "https://www.hankyung.com/article/2026052571537",
         "pub_date": "2026.05.25",
-        "reason": "스타벅스 불매운동 제휴사 영향, 즉각 제휴 리스크 평가 필요",
+        "reason": "스타벅스 불매운동 확산, 제휴 카드사 리스크",
         "priority": 3,
         "cross_query_count": 2,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
         "queries": [
           "브랜드 제휴",
           "불매운동"
@@ -323,33 +340,16 @@
       },
       {
         "title": "‘스벅 불매운동’ 확산…제휴 맺은 카드사들, 리스크 떠안을까 긴장",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
         "desc": "카드사 관계자는 “피엘시시는 제휴 브랜드의 충성 고객을 유입시키는 효과가 큰 만큼, 마케팅 비용도 크고 불매 운동 등이 일어나면 타격을 고스란히 나눠 가지게 되는 구조적 약점이 있다”고 말했다.",
         "link": "https://www.hani.co.kr/arti/economy/finance/1260244.html",
         "pub_date": "2026.05.25",
-        "reason": "스타벅스 불매확산에 제휴카드 해지 우려, 긴급 대응 검토 필요",
+        "reason": "스타벅스 불매 심화, 제휴사 위험 신호 긴급",
         "priority": 3,
         "cross_query_count": 2,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
-        "queries": [
-          "브랜드 제휴",
-          "불매운동"
-        ]
-      },
-      {
-        "title": "스타벅스 불매, 카드사도 불똥…“제휴카드 해지 여부 예의주시”",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
-        "desc": "PLCC는 카드사와 제휴사가 비용을 공동 부담해 특정 브랜드 혜택에 집중한 상품이다. 카드사들은 가맹점 수수료 인하와 카드론 규제 등 본업 수익성 악화로 배달의민족, 무신사 등 파트너사를 넓히며 PLCC를 확대하는... ",
-        "link": "https://www.donga.com/news/Economy/article/all/20260525/133986111/1",
-        "pub_date": "2026.05.25",
-        "reason": "스타벅스 제휴카드 불똥, 제휴 지속성 평가 즉시 실시",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
         "queries": [
           "브랜드 제휴",
           "불매운동"
@@ -357,97 +357,113 @@
       },
       {
         "title": "불매운동 확산에 카드사 ‘불똥’…스타벅스 제휴카드 어쩌나",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
         "desc": "문제는 상업자표시신용카드(PLCC) 상품 구조상 브랜드 이미지가 곧 카드 경쟁력으로 이어진다는 점이다. 일반 제휴카드가 여러 가맹점 혜택을 혼합하는 방식이라면 PLCC는 특정 브랜드 혜택에 집중돼 있어 소비자 반응에 더... ",
         "link": "https://www.mk.co.kr/article/12056744",
         "pub_date": "2026.05.25",
-        "reason": "스타벅스 불매로 제휴카드 해지 위험, T멤버십 제휴전략 재검토",
+        "reason": "스타벅스 불매운동, 카드사 제휴 파급 리스크",
         "priority": 3,
         "cross_query_count": 2,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
         "queries": [
           "브랜드 제휴",
           "불매운동"
         ]
       },
       {
-        "title": "5·18 단체 등, 전국 스타벅스 불매운동 돌입 &quot;정용진 책임져야&quot;",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
-        "desc": "5·18 단체를 비롯한 시민단체들이 정용진 신세계그룹 회장의 '탱크데이' 관련 사과 내용을 비판하며 전국적인 스타벅스 불매운동에 돌입한다고 선언했다. 전국민중행동 등 146개 단체는 27일 서울 종로구 스타벅스... ",
-        "link": "https://www.yna.co.kr/view/AKR20260527104000004?input=1195m",
-        "pub_date": "2026.05.27",
-        "reason": "스타벅스 불매운동 조직화, 제휴 재검토 필수",
+        "title": "&quot;회장, 직원들 뒤에 숨는 비겁함&quot;…배우 한정수 '스타벅스 불매' 동참",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
+        "desc": "앞서 한정수는 지난 20일 자신의 소셜미디어에 &quot;이제 가지 맙시다&quot;라는 글과 함께 가위로 자른 스타벅스 카드 사진을 게재하며 불매 운동에 동참했다. 정용진 신세계그룹 회장은 지난 26일 스타벅스코리아의 ‘5·18... ",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/05/28/2026052890129.html",
+        "pub_date": "2026.05.28",
+        "reason": "스타벅스 불매운동 확산, 제휴 재검토 필요",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "“참을 수 없는 존재의 가벼움”…‘스벅 불매’ 배우 한정수, 공개 저...",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
+        "desc": "그럼에도 불구하고 각계 비판과 불매 운동이 확산하고 추가 논란이 불거지자 재차 공개 석상에 나서 사과했다. 앞서 한정수는 지난 20일 자신의 소셜미디어에 “이제 가지 맙시다”라는 글과 함께 가위로 자른 스타벅스... ",
+        "link": "https://biz.heraldcorp.com/article/10757883?ref=naver",
+        "pub_date": "2026.05.28",
+        "reason": "스타벅스 불매 여론 확산 심화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "“NO 스타벅스” 정부 차원 불매에… 커피 배우려던 어르신·격오지 장...",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
+        "desc": "정부, 스타벅스와의 사회공헌 협업 중단 시니어 바리스타 교육·軍자녀 장학금 등 스타벅스코리아의 ‘탱크데이’ 프로모션 논란 이후 정부가 국민적 불매 운동을 독려하고 나선 가운데 각 부처와 스타벅스가... ",
+        "link": "https://www.seoul.co.kr/news/society/2026/05/28/20260528500245?wlog_tag3=naver",
+        "pub_date": "2026.05.28",
+        "reason": "정부 차원 불매, 스타벅스 제휴 위험 고조",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
         "queries": [
           "불매운동"
         ]
       },
       {
         "title": "146개 시민사회단체 &quot;스타벅스 전국 불매운동 공식화&quot;",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
         "desc": "▲ 스타벅스 불매운동선언 기자회견 한국진보연대, 전국민중행동, 민주노총, 민족문제연구소 등 146개 단체 연명으로 27일 오후 1시 광화문 스타벅스 주변에서 열린 기자회견 ⓒ 전국민중행동 전국 146개 시민사회단체가... ",
         "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003238038&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
         "pub_date": "2026.05.28",
-        "reason": "스타벅스 불매운동 공식화, 즉시 대응",
+        "reason": "146개 단체 불매운동 공식화, 긴급 대응",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
         "queries": [
           "불매운동"
         ]
       },
       {
         "title": "4일 만에 25% 증발했는데…증권가도 “스타벅스 불매운동, 계열사까지 ...",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
         "desc": "박 연구원은 “스타벅스코리아에서 시작된 불매운동은 신세계푸드 등 계열사 매출액에도 직접적인 영향을 끼칠 것”이라고 분석했다. 다만 유통업 전반에 대한 하반기 전망은 비교적 긍정적이라는 평가도 나온다.... ",
         "link": "https://www.sedaily.com/article/20048988?ref=naver",
         "pub_date": "2026.05.27",
-        "reason": "스타벅스 주가 급락, 제휴 리스크 심화",
+        "reason": "스타벅스 주가 25% 하락, 계열사 영향 확산",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
         "queries": [
           "불매운동"
         ]
       },
       {
         "title": "5·18 단체 등, 정용진 규탄·전국 스타벅스 불매운동 돌입",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
+        "topic": "스타벅스 탱크데이 불매운동",
+        "insight": "브랜드 신뢰 위기로 제휴사 피해 확산 — T멤버십 파트너사 리스크 관리 및 신뢰도 기반 차별화 강화 필요",
         "desc": "5·18 단체를 비롯한 시민단체들이 정용진 신세계그룹 회장의 '탱크데이' 관련 사과 내용을 비판하며 전국적인 스타벅스 불매운동에 돌입한다고 선언했습니다. 전국민중행동 등 146개 단체는 오늘(27일) 서울 종로구... ",
         "link": "http://www.yonhapnewstv.co.kr/news/AKR20260527145840fbQ",
         "pub_date": "2026.05.27",
-        "reason": "스타벅스 불매운동 조직화, 제휴 위험 고조",
+        "reason": "5·18단체 공식 불매운동, 제휴 위기 심화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "146개 시민단체, 전국 스타벅스 불매운동 돌입...&quot;정용진 규탄&quot;",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "브랜드 신뢰도 급락으로 제휴사 리스크 확대 — T멤버십 파트너사 관계 관리 기준 강화 필요",
-        "desc": "5·18 단체를 비롯한 시민단체들이 전국적인 스타벅스 불매운동에 돌입한다고 선언했다. 27일 전국민중행동 등 146개 단체는 서울 종로구 스타벅스 광화문점 앞에서 '스타벅스 불매운동 전국화' 발표 기자회견을 열고... ",
-        "link": "https://www.ytn.co.kr/_ln/0103_202605271505450885",
-        "pub_date": "2026.05.27",
-        "reason": "스타벅스 대규모 불매운동 확산, 제휴 재검토 긴급",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 65.8,
-        "datalab_velocity": -20.1,
+        "datalab_score": 61.3,
+        "datalab_velocity": -23.0,
         "queries": [
           "불매운동"
         ]
@@ -455,180 +471,197 @@
     ],
     "battle": [
       {
-        "title": "SKT, 월 7900원에 유튜브 프리미엄 구독 출시",
-        "topic": "통신사 구독팩 경쟁",
-        "insight": "통신사의 OTT·생활 구독팩 번들 전략 강화 — T멤버십의 차별화된 할인·혜택 포트폴리오 확대 필요",
-        "desc": "구독 서비스 플랫폼 ‘T우주’에 유튜브 프리미엄 라이트 상품을 월 7900원에 이용할 수 있다. 유튜브 프리미엄 라이트는 광고로 인한 끊김 없이 동영상 대부분을 시청할 수 있으며, 오프라인 저장과 백그라운드 재생을... ",
-        "link": "https://zdnet.co.kr/view/?no=20260526092903",
-        "pub_date": "2026.05.26",
-        "reason": "SKT 유튜브 프리미엄 저가 출시, 직접 경쟁 상황",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 60.8,
-        "datalab_velocity": 13.6,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
         "title": "KT, 티빙 생활구독팩 출시…쿠폰 혜택 선택",
-        "topic": "통신사 구독팩 경쟁",
-        "insight": "통신사의 OTT·생활 구독팩 번들 전략 강화 — T멤버십의 차별화된 할인·혜택 포트폴리오 확대 필요",
+        "topic": "KT 티빙 생활구독팩",
+        "insight": "통신사 구독팩 다각화 — 생활용품 쿠폰 번들링으로 T멤버십 제휴처 확대 전략 참고",
         "desc": "콘텐츠 이용 경험과 생활 혜택을 결합해 고객 만족도를 높인 상품&quot;이라며 &quot;앞으로도 다양한 제휴와 차별화된 혜택을 기반으로 고객 일상에 실질적인 가치를 제공하는 구독 서비스를 확대하겠다&quot;고 말했다.",
         "link": "https://www.news1.kr/it-science/cc-newmedia/6177207",
         "pub_date": "2026.05.26",
-        "reason": "KT 생활구독팩 출시, 직접 경쟁 모델 분석 필요",
+        "reason": "KT 생활구독팩 출시, 직접 경쟁 제휴사 포함",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 60.8,
-        "datalab_velocity": 13.6,
+        "datalab_score": 58.4,
+        "datalab_velocity": 26.2,
         "queries": [
           "구독 서비스"
         ]
       },
       {
         "title": "티빙 구독에 올영·다이소 쿠폰까지…KT, 생활구독팩 출시",
-        "topic": "통신사 구독팩 경쟁",
-        "insight": "통신사의 OTT·생활 구독팩 번들 전략 강화 — T멤버십의 차별화된 할인·혜택 포트폴리오 확대 필요",
+        "topic": "KT 티빙 생활구독팩",
+        "insight": "통신사 구독팩 다각화 — 생활용품 쿠폰 번들링으로 T멤버십 제휴처 확대 전략 참고",
         "desc": "콘텐츠 이용 경험과 생활 혜택을 결합해 고객 만족도를 높인 상품&quot;이라며 &quot;앞으로도 다양한 제휴와 차별화된 혜택을 기반으로 고객 일상에 실질적인 가치를 제공하는 구독 서비스를 지속 확대해 나가겠다&quot;고 말했다.",
         "link": "https://www.newsis.com/view/NISX20260526_0003643416",
         "pub_date": "2026.05.26",
-        "reason": "KT 멀티 브랜드 구독팩, 경쟁 벤치마킹 필수",
+        "reason": "KT 티빙+생활용품 구독팩 출시, T멤버십 경쟁 직결",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 60.8,
-        "datalab_velocity": 13.6,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "유튜브 광고 없이 더 싸게 본다…SKT, 월 7900원 구독상품으로 출시",
-        "topic": "통신사 구독팩 경쟁",
-        "insight": "통신사의 OTT·생활 구독팩 번들 전략 강화 — T멤버십의 차별화된 할인·혜택 포트폴리오 확대 필요",
-        "desc": "SK텔레콤은 구독 서비스 플랫폼 ‘T 우주’에서 '유튜브 프리미엄 라이트' 상품을 신규 출시한다고 26일 밝혔다. 유튜브 프리미엄 라이트는 광고로 인한 끊김 없이 대부분의 동영상을 시청할 수 있는 상품이다. 오프라인... ",
-        "link": "https://www.newsis.com/view/NISX20260526_0003643478",
-        "pub_date": "2026.05.26",
-        "reason": "SKT 유튜브 저가 구독 공격, 즉시 경쟁 대응 검토",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 60.8,
-        "datalab_velocity": 13.6,
+        "datalab_score": 58.4,
+        "datalab_velocity": 26.2,
         "queries": [
           "구독 서비스"
         ]
       },
       {
         "title": "KT, '티빙 생활구독팩' 출시",
-        "topic": "통신사 구독팩 경쟁",
-        "insight": "통신사의 OTT·생활 구독팩 번들 전략 강화 — T멤버십의 차별화된 할인·혜택 포트폴리오 확대 필요",
+        "topic": "KT 티빙 생활구독팩",
+        "insight": "통신사 구독팩 다각화 — 생활용품 쿠폰 번들링으로 T멤버십 제휴처 확대 전략 참고",
         "desc": "콘텐츠 이용 경험과 생활 혜택을 결합해 고객 만족도를 높인 상품&quot;이라며 &quot;앞으로도 다양한 제휴와 차별화된 혜택을 기반으로 고객 일상에 실질적인 가치를 제공하는 구독 서비스를 지속 확대해 나가겠다&quot;고 말했다.",
         "link": "http://www.metroseoul.co.kr/article/20260526500332",
         "pub_date": "2026.05.26",
-        "reason": "KT 생활구독팩, 경쟁사 제휴 전략 분석 필요",
+        "reason": "KT 생활구독팩 출시, T멤버십 직접 경쟁 위협",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 60.8,
-        "datalab_velocity": 13.6,
+        "datalab_score": 58.4,
+        "datalab_velocity": 26.2,
         "queries": [
           "구독 서비스"
         ]
       },
       {
-        "title": "KT, ‘티빙 생활구독팩’ 출시… OTT에 편의점·뷰티 쿠폰 더했다",
-        "topic": "통신사 구독팩 경쟁",
-        "insight": "통신사의 OTT·생활 구독팩 번들 전략 강화 — T멤버십의 차별화된 할인·혜택 포트폴리오 확대 필요",
-        "desc": "(상무)은 “콘텐츠 이용 경험과 생활 혜택을 결합해 고객 만족도를 높인 상품”이라며 “다양한 제휴와 차별화된 혜택을 바탕으로 고객 일상에 실질적인 가치를 제공하는 구독 서비스를 확대하겠다”고 말했다.",
-        "link": "https://biz.chosun.com/it-science/ict/2026/05/26/NLMLCFVDZJG5TJFODVTTIIQMSI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "pub_date": "2026.05.26",
-        "reason": "KT 멀티 브랜드 구독팩, 제휴 포트폴리오 우위 분석",
+        "title": "쿠팡이츠 ‘0원 배달’ 확대…소비자 혜택 경쟁 신호탄 될까",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 수익성 악화 심화 — T멤버십 배달 혜택 지속가능성 재평가 필요",
+        "desc": "쿠팡이츠가 와우회원에게만 제공하던 무료배달 혜택을 일반 회원까지 전격 확대하면서 이해관계자들의 찬반... 이미 배달의민족은 유료 멤버십 가입 여부와 상관없이 비회원 및 일반 회원 전체를 대상으로 전방위적인... ",
+        "link": "https://www.dailian.co.kr/news/view/1647659/?sc=Naver",
+        "pub_date": "2026.05.22",
+        "reason": "배달앱 무료배달 경쟁 확대, 고객 혜택 전쟁",
         "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 60.8,
-        "datalab_velocity": 13.6,
+        "cross_query_count": 2,
+        "datalab_score": 17.1,
+        "datalab_velocity": -2.9,
         "queries": [
-          "구독 서비스"
+          "멤버십 혜택",
+          "배달 시장"
         ]
       },
       {
-        "title": "배송은 쿠팡‧AI쇼핑은 네이버…온라인 유통 60% 시대",
-        "topic": "네카오 AI 커머스 경쟁",
-        "insight": "네이버·카카오의 AI 쇼핑·배송 플랫폼 강화 — T멤버십의 온라인 유통 파트너십 재정렬 필요",
-        "desc": "네이버는 AI쇼핑 실적 개선에 힘입어 1분기 매출이 연결 기준 전년 동기 대비 16.3% 증가한 3조2411억원, 영업이익은 7.2% 늘어난 5418억원으로 집계됐다. 매출은 사상 최고치이며, 1분기 기준 3조원을 넘은 것도 이번이... ",
-        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=841041",
-        "pub_date": "2026.05.27",
-        "reason": "배송·AI쇼핑 플랫폼 경쟁 재편, 긴급 대응 필요",
+        "title": "'무료배달' 승부수 쿠팡이츠…매각 앞둔 배민 정조준",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 수익성 악화 심화 — T멤버십 배달 혜택 지속가능성 재평가 필요",
+        "desc": "쿠팡이츠가 무료배달 혜택을 앞세워 배달앱 시장 점유율 확대에 속도를 내고 있다. 공격적인 프로모션을 통해 매각 이슈로 배달의민족과의 격차를 좁히겠다는 전략이다. 무료배달 확대 쿠팡이츠…소상공인 반발 정면... ",
+        "link": "https://www.sisaon.co.kr/news/articleView.html?idxno=201418",
+        "pub_date": "2026.05.28",
+        "reason": "쿠팡이츠 공격적 전략으로 배민 약화, 멤버십 경쟁 재편",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "AI 쇼핑"
+          "배달 시장"
         ]
       },
       {
-        "title": "[네카오 AI 잔혹사] 네이버, 'AI 검색·쇼핑' 승부수…&quot;독창적인 사용자...",
-        "topic": "네카오 AI 커머스 경쟁",
-        "insight": "네이버·카카오의 AI 쇼핑·배송 플랫폼 강화 — T멤버십의 온라인 유통 파트너십 재정렬 필요",
-        "desc": "최근 가정의 달 시즌에는 AI 쇼핑 에이전트에 ‘선물 추천’ 기능을 시범 적용했다. 이용자가 구체적인 상품명을 입력하지 않아도 AI가 상황과 목적에 맞는 선물 후보를 추천해주는 방식이다. 네이버에 따르면 해당 기능... ",
-        "link": "https://www.ajunews.com/view/20260527142456316",
-        "pub_date": "2026.05.27",
-        "reason": "네이버 AI 검색·쇼핑 공격, 직접 경쟁 위협",
+        "title": "쿠팡이츠-배민, '무료배달 전쟁' 2라운드",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 수익성 악화 심화 — T멤버십 배달 혜택 지속가능성 재평가 필요",
+        "desc": "업계 관계자는 &quot;쿠팡이츠의 무료배달 확대 등 배달 앱 시장 경쟁이 치열한 상황에서 기업 가치를 높이기 위해서는 배민클럽 가입자를 확대할 필요가 있다고 판단했을 것&quot;이라고 했다. 시장 선두 기업들이 앞서거니... ",
+        "link": "https://view.asiae.co.kr/article/2026052216093046673",
+        "pub_date": "2026.05.25",
+        "reason": "배민·쿠팡이츠 무료배달 경쟁 심화, 멤버십 가치 재정의 필요",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "AI 쇼핑"
+          "배달 시장"
         ]
       },
       {
-        "title": "[초점] 네카오 AI 승부처는 '거래 전환'…광고·커머스 수익화 경쟁",
-        "topic": "네카오 AI 커머스 경쟁",
-        "insight": "네이버·카카오의 AI 쇼핑·배송 플랫폼 강화 — T멤버십의 온라인 유통 파트너십 재정렬 필요",
-        "desc": "올해 2월 쇼핑 AI 에이전트를 출시한 데 이어, 4월에는 AI 탭(AI Tab)을 선보이며 검색 경험 고도화에 나섰다. 하반기에는 광고주와 사업자를 위한 AI 에이전트도 출시할 계획이다. 회사 측은 올해 1분기 광고 매출 성장분... ",
-        "link": "http://www.itdaily.kr/news/articleView.html?idxno=239513",
-        "pub_date": "2026.05.27",
-        "reason": "네카오 AI 거래 전환 경쟁, 고객 이탈 위험",
+        "title": "[라이벌열전] [배달앱] 앞서가는 배민·맹추격 쿠팡이츠·쇠락하는 요기...",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 수익성 악화 심화 — T멤버십 배달 혜택 지속가능성 재평가 필요",
+        "desc": "쿠팡이츠, 2024년 요기요 꺾고 배달앱 2위 등극 배민·쿠팡이츠, 무료 배달 경쟁 치열… 요기요는 적립 혜택 강화 배달 시장 규모가 3년 연속 커지고 있다. 시장조사업체 와이즈앱·리테일에 따르면 주요 배달 플랫폼의... ",
+        "link": "https://www.topdaily.kr/articles/110294",
+        "pub_date": "2026.05.28",
+        "reason": "배달앱 시장 점유율 변화, T멤버십 제휴처 전략 영향",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "AI 쇼핑"
+          "배달 시장"
         ]
       },
       {
-        "title": "AI 돈 쏟는 네이버…카톡 올인하는 카카오",
-        "topic": "네카오 AI 커머스 경쟁",
-        "insight": "네이버·카카오의 AI 쇼핑·배송 플랫폼 강화 — T멤버십의 온라인 유통 파트너십 재정렬 필요",
-        "desc": "검색·쇼핑을 AI로 정교화해 광고 효율과 커머스 거래액을 높이는 동시에 대규모 GPU와 데이터센터 인프라를 기업 고객에게 빌려주는 ‘AI B2B 사업’으로 직결하겠다는 계산이다. GPU 확보를 넘어 데이터센터와 전력... ",
-        "link": "https://www.hankyung.com/article/2026052463081",
-        "pub_date": "2026.05.24",
-        "reason": "네이버·카카오 AI 및 슈퍼앱 올인, 경쟁 심화",
+        "title": "매물로 나온 '배달의민족'…&quot;수익 정체, 발목 잡나&quot;",
+        "topic": "배달의민족 매각",
+        "insight": "배민 소유권 변화 예상 — 제휴 정책 변동 시 T멤버십 배달 혜택 재계약 전략 사전 준비",
+        "desc": "쿠팡이츠와 출혈경쟁 속…정률제 확대한 배달의민족, 경쟁력 약화  독일 딜리버리히어로(DH)가 국내 배달앱 시장 1위 플랫폼 업체인 우아한형제들(배달의민족 운영사)의 매각을 추진하는 가운데 매출이 하락하고 있는... ",
+        "link": "http://www.srtimes.kr/news/articleView.html?idxno=204137",
+        "pub_date": "2026.05.28",
+        "reason": "배민 매각설 확산, 멤버십 제휴 안정성 재검토 필요",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "AI 쇼핑"
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "몸값 8조 배달의민족 매각설...네이버·우버 연합 인수 가능성에 플랫폼...",
+        "topic": "배달의민족 매각",
+        "insight": "배민 소유권 변화 예상 — 제휴 정책 변동 시 T멤버십 배달 혜택 재계약 전략 사전 준비",
+        "desc": "다만 일각에서는 배달시장 성장 둔화와 자영업자 수수료 논란, 플랫폼 규제 강화 흐름 등을 감안하면 가격 부담이 상당하다는 시각도 존재한다. 최근 쿠팡이츠가 무료배달 정책을 앞세워 공격적으로 점유율을 확대하고... ",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=522049",
+        "pub_date": "2026.05.28",
+        "reason": "배민 네이버·우버 인수설, 멤버십 제휴 재편 리스크",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "쿠팡이츠 무료배달 확대 반발 확산…&quot;소비자·업주에 부담 전가&quot;",
+        "topic": "배달앱 무료배달 경쟁",
+        "insight": "배달앱 수익성 악화 심화 — T멤버십 배달 혜택 지속가능성 재평가 필요",
+        "desc": "무료배달이 표면적으로는 소비자 혜택처럼 보이지만, 결국 플랫폼 경쟁 비용이 수수료·광고비·배달단가 조정 등의 형태로 시장 참여자들에게 전가될 수 있다는 우려 때문이다. 전문가들 역시 무료배달 경쟁이 장기화될... ",
+        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260525010007219",
+        "pub_date": "2026.05.28",
+        "reason": "쿠팡이츠 무료배달 공격, 배달앱 경쟁 심화 신호",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
         ]
       }
     ],
-    "benchmark": [],
-    "trend": [
+    "benchmark": [
       {
         "title": "CJ온스타일 “대화형 AI 플랫폼 효과…유입 4배 급증”",
-        "topic": "온스타일 AI 쇼핑 플랫폼",
-        "insight": "대화형 AI로 사용자 유입 4배 증대 — T멤버십의 AI 기반 개인화 추천 기능 강화 필수",
+        "topic": "CJ온스타일 AI 커머스 전환",
+        "insight": "대화형 AI로 쇼핑 유입 4배 증대 — T멤버십의 AI 기반 개인화 추천 및 쇼핑 경험 강화 전략 필요",
         "desc": "(인공지능) 플랫폼을 통한 유입이 1월 같은 기간 대비 4배 이상 증가했다고 밝혔다. 지난해부터 추진한... 연결하느냐가 핵심 경쟁력이 될 것”이라며 “앞으로도 AI 기반 커머스 경쟁력을 강화하겠다”고 말했다.",
         "link": "https://biz.heraldcorp.com/article/10757696?ref=naver",
         "pub_date": "2026.05.28",
-        "reason": "AI 플랫폼 쇼핑 성장, 소비자 행동 변화 신호",
+        "reason": "AI 쇼핑 플랫폼 고객 유입 성과 참고",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
+        "datalab_score": 62.5,
+        "datalab_velocity": 16.7,
+        "queries": [
+          "플랫폼 경쟁",
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "CJ온스타일, 대화형 AI 쇼핑 유입 4배 ↑…&quot;AI 커머스 경쟁력 강화&quot;",
+        "topic": "CJ온스타일 AI 커머스 전환",
+        "insight": "대화형 AI로 쇼핑 유입 4배 증대 — T멤버십의 AI 기반 개인화 추천 및 쇼핑 경험 강화 전략 필요",
+        "desc": "업계에서는 생성형 AI 기반 'AI 커머스 플랫폼' 경쟁이 본격화하는 분위기다. 이달 LF몰과 롯데홈쇼핑은 각각 챗GPT 내 전용 앱을 선보이며 대화형 쇼핑 서비스 확대에 나섰다. CJ온스타일 관계자는 &quot;AI 쇼핑... ",
+        "link": "http://www.srtimes.kr/news/articleView.html?idxno=204119",
+        "pub_date": "2026.05.28",
+        "reason": "AI 커머스 유입 성과, 제휴전략 벤치마킹",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 62.5,
+        "datalab_velocity": 16.7,
         "queries": [
           "플랫폼 경쟁",
           "AI 쇼핑"
@@ -636,103 +669,106 @@
       },
       {
         "title": "온스타일, 대화형 AI 플랫폼 통한 앱 유입 늘어",
-        "topic": "온스타일 AI 쇼핑 플랫폼",
-        "insight": "대화형 AI로 사용자 유입 4배 증대 — T멤버십의 AI 기반 개인화 추천 기능 강화 필수",
+        "topic": "CJ온스타일 AI 커머스 전환",
+        "insight": "대화형 AI로 쇼핑 유입 4배 증대 — T멤버십의 AI 기반 개인화 추천 및 쇼핑 경험 강화 전략 필요",
         "desc": "사진=CJ온스타일 매일일보 = 민경식 기자  |  CJ온스타일(온스타일 이하)이 대화형 AI 플랫폼을 통한 앱... 핵심 경쟁력이 될 것&quot;이라며 &quot;상품 데이터와 커머스 기능을 지속 고도화해 AI 기반 커머스 경쟁력을 강화할... ",
         "link": "https://www.m-i.kr/news/articleView.html?idxno=1376749",
         "pub_date": "2026.05.28",
-        "reason": "AI 플랫폼 유입 성장, 채널 전략 벤치마킹",
+        "reason": "AI 플랫폼 고객 유입 효과 사례 참고",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
+        "datalab_score": 62.5,
+        "datalab_velocity": 16.7,
         "queries": [
           "플랫폼 경쟁",
           "AI 쇼핑"
         ]
       },
       {
-        "title": "&quot;검색 대신 대화로&quot; CJ온스타일, AI 플랫폼 유입 4배 성장",
-        "topic": "온스타일 AI 쇼핑 플랫폼",
-        "insight": "대화형 AI로 사용자 유입 4배 증대 — T멤버십의 AI 기반 개인화 추천 기능 강화 필수",
-        "desc": "CJ온스타일이 생성형 AI 기술을 활용한 대화형 쇼핑 경험을 대폭 확장하며 디지털 커머스 경쟁력을 강화하고 있다. 28일 CJ온스타일에 따르면, 5월 1일부터 25일까지 챗GPT, 제미나이 등 대화형 AI 플랫폼을 통한 앱·웹... ",
-        "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=359602",
+        "title": "매드포갈릭, SKT와 'T day' 맞손… 최대 '반값 할인' 혜택 쏟아진다",
+        "topic": "T멤버십 제휴사 할인 확대",
+        "insight": "제휴사와 연계한 차등할인으로 회원 체감가치 상승 — 식음료 등 주요 카테고리 할인 프로그램 강화 추진",
+        "desc": "할인 혜택은 T 멤버십 등급에 따라 차등 적용된다. VIP 등급 고객은 정가 기준 주문 금액 한도 10만 원 내에서 최대 5만 원까지 50% 할인을 받을 수 있으며, GOLD 및 SILVER 등급 고객은 최대 3만 원까지 30% 할인 혜택이... ",
+        "link": "http://www.financialreview.co.kr/news/articleView.html?idxno=42547",
         "pub_date": "2026.05.28",
-        "reason": "대화형 AI 쇼핑 성장, 고객 채널 전략 참고",
+        "reason": "제휴사 T day 할인 구조 벤치마킹 필요",
+        "priority": 2,
+        "cross_query_count": 3,
+        "datalab_score": 17.1,
+        "datalab_velocity": -2.9,
+        "queries": [
+          "멤버십 혜택",
+          "소비자 할인",
+          "브랜드 제휴"
+        ]
+      },
+      {
+        "title": "내 소비패턴 맞는 할인 혜택 매달 내가 선택할 수 있네",
+        "topic": "T멤버십 제휴사 할인 확대",
+        "insight": "제휴사와 연계한 차등할인으로 회원 체감가치 상승 — 식음료 등 주요 카테고리 할인 프로그램 강화 추진",
+        "desc": "△해외 2% △다이소·여행·도서·와인 5% △디지털콘텐츠·온라인멤버십 50% 할인을 제공한다. 삼성 iD SELECT ALL 카드는 카드를 발급할 때 원하는 혜택을 선택할 수 있을 뿐만 아니라, 카드를 이용하면서도 매달 혜택을... ",
+        "link": "https://www.hankookilbo.com/news/article/A2026052817210002785?did=NA",
+        "pub_date": "2026.05.29",
+        "reason": "소비패턴 맞춤 할인 제도 설계 참고",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
+        "datalab_score": 17.1,
+        "datalab_velocity": -2.9,
+        "queries": [
+          "멤버십 혜택",
+          "소비자 할인"
+        ]
+      }
+    ],
+    "trend": [
+      {
+        "title": "AI 이용자 4명 중 1명 '유료 구독'…금융·보험 만족도 '최하위'",
+        "topic": "생성형 AI 유료구독 확산",
+        "insight": "AI 유료화 트렌드 확산으로 멤버십 가치전달 차별화 필요 — 금융·보험 등 고부가 서비스 연계 강화",
+        "desc": "소비자원 '소비생활지표' 발표…금융 플랫폼 이용률 45.3%로 역대 최대 폭 상승 생성형 인공지능(AI) 서비스 이용자 가운데 24%는 해당 서비스를 유료로 구독하는 것으로 나타났다. 29일 한국소비자원이 발간한 '2025... ",
+        "link": "https://www.yna.co.kr/view/AKR20260529047700030?input=1195m",
+        "pub_date": "2026.05.29",
+        "reason": "AI 구독 유료화 트렌드, 신규 구독팩 기획 신호",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 62.5,
+        "datalab_velocity": 16.7,
+        "queries": [
+          "구독 서비스",
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "&quot;검색 대신 AI에게 묻는다&quot;…유통家, 생성형 AI 경쟁 본격화",
+        "topic": "AI 기반 유통 경쟁",
+        "insight": "검색을 대체하는 AI 도입 확대 — T멤버십 쇼핑 추천·검색 경험을 생성형 AI로 고도화 전략 수립",
+        "desc": "챗GPT 기반 쇼핑·여행 추천 확대 AI로 상품 탐색·일정 설계 혁신 업계 &quot;AI가 플랫폼 경쟁력 좌우&quot; 【 청년일보 】 검색창 대신 AI와 대화하며 상품과 서비스를 추천받는 소비 방식이 빠르게 확산되면서 유통업계가... ",
+        "link": "https://www.youthdaily.co.kr/news/article.html?no=219851",
+        "pub_date": "2026.05.28",
+        "reason": "AI 검색 기반 유통 경쟁, 멤버십 채널 전략 영향",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 62.5,
+        "datalab_velocity": 16.7,
         "queries": [
           "플랫폼 경쟁",
           "AI 쇼핑"
         ]
       },
       {
-        "title": "CJ온스타일, AI 플랫폼 유입 4배 급증… 챗GPT 전용 앱으로 대화형 쇼핑...",
-        "topic": "온스타일 AI 쇼핑 플랫폼",
-        "insight": "대화형 AI로 사용자 유입 4배 증대 — T멤버십의 AI 기반 개인화 추천 기능 강화 필수",
-        "desc": "AI 플랫폼을 통한 앱·웹 유입이 지난 1월 같은 기간 대비 4배 이상 증가했다고 밝혔다. 지난해부터 상품... 핵심 경쟁력이 될 것&quot;이라며 &quot;상품 데이터와 커머스 기능을 지속 고도화해 AI 기반 커머스 경쟁력을 강화할... ",
-        "link": "https://www.fashionbiz.co.kr/article/226627",
-        "pub_date": "2026.05.28",
-        "reason": "AI 플랫폼 쇼핑 성과, 마케팅 채널 벤치마크",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
-        "queries": [
-          "플랫폼 경쟁",
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "AI는 생활필수앱 됐다…OTT는 광고요금제 대세",
-        "topic": "AI 기반 생활앱 경쟁",
-        "insight": "AI와 구독형 광고모델이 앱 수익 핵심으로 부상 — T멤버십 프리미엄 광고 제거 옵션 추가 검토",
-        "desc": "보고서는 생성형 AI와 OTT, 숏폼, 디지털 광고, 온라인 쇼핑, 웹콘텐츠, 재테크 등 7개 분야의 디지털 소비 트렌드를 분석했다. 서울·경기와 5대 광역시 거주 만 15∼59세 남녀 1천명을 대상으로 한 온라인 설문조사를... ",
-        "link": "https://www.yna.co.kr/view/AKR20260526125700017?input=1195m",
-        "pub_date": "2026.05.26",
-        "reason": "AI 생활화·OTT 광고요금제 확산, 구독팩 기획 및 타겟팅 전략 참고",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
-        "queries": [
-          "AI 쇼핑",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "AI가 대신 쇼핑하는 시대…물류, 배송 넘어 ‘판매 경쟁력’으로",
-        "topic": "AI 기반 판매 경쟁력",
-        "insight": "AI가 물류·배송을 넘어 판매 전환율 경쟁력으로 작용 — T멤버십의 AI 예측 구매 기능 개발 시급",
-        "desc": "소비와 배송 생태계가 변곡점을 맞으면서 AI 기반 물류 플랫폼 구축 경쟁도 이어지고 있다. 위킵은 자체 개발한 AI 기반 솔루션으로 수요 예측 기능과 자동 입고신청 시스템을 구축했다. 파스토 역시 AI로 운영 시스템을... ",
-        "link": "https://biz.chosun.com/industry/business-venture/2026/05/28/DVXKAY4VTNFK3FVV4QYUZY4UD4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "pub_date": "2026.05.28",
-        "reason": "AI 쇼핑 트렌드 심화, 장기 채널 전략 참고",
+        "title": "생성형 AI 이용자 4명 중 1명 유료 구독…20대 비율 가장 높아",
+        "topic": "생성형 AI 유료구독 확산",
+        "insight": "AI 유료화 트렌드 확산으로 멤버십 가치전달 차별화 필요 — 금융·보험 등 고부가 서비스 연계 강화",
+        "desc": "생성형 인공지능(AI) 서비스 이용자 4명 중 1명은 해당 서비스를 유료로 구독하는 것으로 나타났다. 29일 한국소비자원이 발간한 '2025 한국의 소비생활지표'에 따르면 전체 조사 대상자 1만 명 중 생성형 AI 서비스를... ",
+        "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2278200",
+        "pub_date": "2026.05.29",
+        "reason": "AI 유료 구독 이용률 데이터 참고",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
+        "datalab_score": 62.5,
+        "datalab_velocity": 16.7,
         "queries": [
-          "플랫폼 경쟁",
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "“앱 설치 없이 게임-쇼핑 즐겨라”… ‘미니앱’에 빠진 플랫폼들",
-        "topic": "미니앱 플랫폼 확산",
-        "insight": "앱 설치 없는 미니앱이 주류로 전환 — T멤버십 앱 내 미니앱 생태계 구축 전략 수립 필요",
-        "desc": "별도의 애플리케이션(앱)을 새로 설치하지 않아도 결제, 게임, 쇼핑, 생활 서비스를 곧바로 플랫폼 안에서 이용할 수 있게 한 ‘미니앱’이 국내 플랫폼 업계의 새 경쟁 축으로 떠오르고 있다. 특히 앱 설치 없이 가볍게... ",
-        "link": "https://www.donga.com/news/Economy/article/all/20260527/134003613/2",
-        "pub_date": "2026.05.28",
-        "reason": "미니앱 트렌드, 장기 플랫폼 전략 모니터링",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 65.0,
-        "datalab_velocity": 6.7,
-        "queries": [
-          "플랫폼 경쟁",
+          "구독 서비스",
           "AI 쇼핑"
         ]
       }

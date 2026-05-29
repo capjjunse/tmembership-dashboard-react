@@ -100,10 +100,10 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">6월 제휴 변동 3건 동시 공시</div>
+            <div className="ov">6월 변동 임박 · T우주 유튜브 프리미엄 라이트 출시</div>
             <div className="od">
-              <span>후지필름 신규·청소연구소 변경·농협맛선·도그메이트 종료 예고</span>
-              <span>VIP Pick T우주패스 8월 개편 예고 진행 중 / 커뮤니티 불만 제기(4/30), 이후 신규 미식별</span>
+              <span>후지필름 6/15 신규·매드포갈릭 6/1 하향·청소연구소 에어컨 6/1 시즌혜택·농협맛선·도그메이트 6/30 종료</span>
+              <span>T우주패스에 유튜브 프리미엄 라이트(월 7,900원) 5/26 출시 / VIP PICK T우주패스 8월 개편 예고 중 / 4/30 이후 신규 불만 미식별</span>
             </div>
             <div className="octabs">
               <a href="#hs" className="octab">변경이력</a>
@@ -130,10 +130,10 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">5월 달달혜택 성황 · 6월 매드포갈릭 축소 예고</div>
+            <div className="ov">5월 달달혜택·고객보답 성황 마무리 · 6월 매드포갈릭 하향 적용</div>
             <div className="od">
-              <span>고객보답 2차 동시 운영으로 이달 혜택 풍부</span>
-              <span>6월부터 매드포갈릭 전 등급 20% → 등급별 15%·5%로 하향 예정</span>
+              <span>달달혜택 패밀리컬렉션 + 고객보답 2차 동시 운영, 5/31 종료 예정 — 3사 중 5월 혜택 밀도 최상</span>
+              <span>6월 1일부터 매드포갈릭 VVIP/VIP/골드 15% · 일반/화이트/실버 5% 하향 적용</span>
             </div>
             <div className="octabs">
               <a href="#mo" className="octab">월별혜택</a>
@@ -188,31 +188,31 @@ export default function Overview() {
         <div className="ovkey">
           <div className="ovkey-lbl">🔑 이번달 놓치면 안될 것</div>
           <div className="ovki-grid">
-            <a href="#sn" className="ovki ovki-warn">
-              <div className="ovki-cat">💬 고객반응</div>
-              <div className="ovki-title">T day·KT 보답 긍정 우세 · VIP PICK 불만 제기(4월 이후 신규 미식별)</div>
+            <a href="#sn" className="ovki ovki-trend">
+              <div className="ovki-cat">✅ 고객반응</div>
+              <div className="ovki-title">SKT·KT 전반 긍정 우세 · VIP PICK 4주 윈도우 만료</div>
               <ul className="ovki-list">
-                <li>T day 5/27 — 긍정 다수(쉐이크쉑 1+1·피자헛 등) / 루리웹 "별거 없구먼" 고조회 1건 혼재</li>
-                <li>VIP PICK — 9,900원 쿠폰 폐지·우주패스 개악 불만(4/30), 이후 신규 반응 미식별</li>
+                <li>T day 5/27 — 쉐이크쉑 1+1·파스쿠찌·백억커피 긍정 다수 / 루리웹 "별거 없구먼" 고조회 1건 혼재</li>
+                <li>VIP PICK — 9,900원 쿠폰 폐지·우주패스 불만(4/30), 4주 윈도우 만료 · 신규 미식별</li>
                 <li>KT 고객보답 — 투썸·노랑통닭 2차 긍정 압도 · 루리웹 조회 44,751</li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>
             <a href="#tr" className="ovki ovki-trend">
               <div className="ovki-cat">📈 검색어 트렌드</div>
-              <div className="ovki-title">SKT 3개월 연속 하락 · KT 이벤트 의존 구조 확인</div>
+              <div className="ovki-title">SKT 연초 대비 절반 이하로 하락 · KT 달달혜택 종료 주 급락</div>
               <ul className="ovki-list">
-                <li>SKT — 2월(3.9) 이후 꾸준히 내려와 5/25주 연중 최저 · T day 관심 회복 필요 신호</li>
-                <li>KT — 달달혜택 운영 중 4.1, 종료 직후 1.5로 급락 · 이벤트 없으면 관심도 낮음</li>
+                <li>SKT — 연초 대비 절반 이하로 하락, 5/25주 연중 최저 갱신 · 6월 T day 라인업 공개로 반등 여부 주목</li>
+                <li>KT — 달달혜택 운영 중 최고 4.1 → 종료 직전 주 반토막 · 이벤트 없으면 관심도 낮음 패턴 재확인</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
             <a href="#ai" className="ovki ovki-warn">
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스</div>
-              <div className="ovki-title">T day 열위 1건 · SKT 미제휴 1건 확인</div>
+              <div className="ovki-title">T day 경쟁우위 · 컬리 SKT 미제휴 지속</div>
               <ul className="ovki-list">
-                <li>피자헛 — LGU+ 55%+파스타 증정 vs T day 50% · 혜택 수준 열위</li>
-                <li>컬리 — KT·LGU+ 운영 중, SKT T day 미제휴</li>
+                <li>도미노피자 — T day 2주차 50% vs LGU+ 상시 20% · SKT 기간 우위</li>
+                <li>컬리 — KT·LGU+ 월간 운영 중, SKT T day 미제휴 지속</li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>
