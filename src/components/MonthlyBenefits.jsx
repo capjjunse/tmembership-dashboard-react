@@ -14,41 +14,38 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>0 week (6.1~6.7)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>0 week (6.1~6.5)</div>
               <ul className="mblist">
                 <li>파리바게뜨 1,000원당 200원/P 할인/적립</li>
-                <li>매드포갈릭 VIP/Gold 15% · Silver 5% 할인</li>
-                <li>크리스탈 제이드 40% 할인</li>
-                <li>이디야커피 50% 할인</li>
+                <li>매드포갈릭 30% 할인 (VIP 50%)</li>
+                <li>크리스탈 제이드 5만원↑ 40% 할인</li>
+                <li>이디야커피 컵빙수 50% 할인</li>
                 <li>백미당 아이스크림 1+1</li>
-                <li>이케아 · 풀무원 · 사보텐/히바린 30% 할인</li>
-                <li>헉슬리 · W컨셉 · 런드리고 · 코토나 할인</li>
-                <li>스피드메이트 할인</li>
+                <li>이케아 가구 3만원↑ 할인 · 스웨디시레스토랑 3만원↑ 1만원 할인</li>
+                <li>풀무원 3만원↑ 1.2만원 할인 + T day 전용 10종 10% 할인</li>
+                <li>사보텐/히바린 3.5만원↑ 30% 할인</li>
+                <li>헉슬리 최대 3만원 할인 · W컨셉 기존 10%/신규 15% 더블 할인</li>
+                <li>런드리고 아우터 30% + 첫 이용 30% · 코토나 최대 5만원 할인</li>
+                <li>스피드메이트 엔진오일 50% + 와이퍼 무료</li>
                 <li>CGV 8,500원 예매 + 매점 할인 쿠폰 2종</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (6.10~6.12)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (6.8~6.12)</div>
               <ul className="mblist">
-                <li>요기요 × 호식이두마리치킨 VIP 8,000원 · Gold/Silver 6,000원 할인</li>
+                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 8일 공개 예정</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day 2주차 (6.17~6.21)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 2주차 (6.17)</div>
               <ul className="mblist">
-                <li>쉐이크쉑 VIP 40% · Gold/Silver 20% 할인</li>
-                <li>폴바셋 50% 할인</li>
-                <li>이마트에브리데이 20% 할인</li>
-                <li>도미노피자 방문포장 50% 할인</li>
+                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 17일 공개 예정</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#f59e0b' }}></span>T day 3주차 (6.24~6.28)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 3주차 (6.24)</div>
               <ul className="mblist">
-                <li>뚜레쥬르 1,000원당 300원/P 할인/적립</li>
-                <li>다운타우너 35% 할인</li>
-                <li>역전우동 냉모밀 50% 할인</li>
-                <li>CGV 8,500원 예매 + 매점 할인 쿠폰 2종</li>
+                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 24일 공개 예정</li>
               </ul>
             </div>
           </div>
@@ -63,7 +60,6 @@ export default function MonthlyBenefits() {
               <div className="mbtit"><span className="mbdot" style={{ background: 'var(--kt)' }}></span>6월 달달혜택 — 미공개</div>
               <ul className="mblist">
                 <li>매월 15일경 공개 예정</li>
-                <li>매드포갈릭 6.1부터 VVIP/VIP/골드 15% · 일반/화이트/실버 5% 하향 적용</li>
               </ul>
             </div>
           </div>
@@ -78,8 +74,6 @@ export default function MonthlyBenefits() {
               <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>6월 유플투쁠 — 업데이트 예정</div>
               <ul className="mblist">
                 <li>6월 투쁠데이·스페셜데이 라인업 공개 예정</li>
-                <li>신규 제휴 4개 (모던하우스·유니스터디·위피·B1불스원카케어) 6.1 적용</li>
-                <li>굿웨어몰 10% 할인 6.30 종료 예정</li>
               </ul>
             </div>
           </div>
