@@ -32,36 +32,13 @@ const compGroups = [
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
     desc: 'KT 미운영 · 양자 대결',
-    rows: [
-      {
-        brand: '쉐이크쉑',
-        skt: { lines: [{ grade: 'VIP', b: '40% 할인' }, { grade: 'Gold/Silver', b: '20% 할인' }], date: '6.17~6.21 · T day 2주차' },
-        kt: null,
-        lgu: null, // LGU+ 6월 유플투쁠 미공개
-        v: 'good', basis: 'SKT T day 2주차 확정 · LGU+ 미공개', note: 'LGU+ 6월 유플투쁠 라인업 미공개 — 공개 후 비교 반영',
-      },
-      {
-        brand: '도미노피자',
-        skt: { lines: [{ grade: '전 등급', b: '방문포장 50% (T day)' }], date: '6.17~6.21 · T day 2주차' },
-        kt: null,
-        lgu: { lines: [{ grade: 'VVIP/VIP', b: '20% 할인 (상시)' }, { grade: '우수', b: '15% 할인 (상시)' }], date: '상시' },
-        v: 'good', basis: 'T day 50% vs LGU+ 상시 최대 20%', note: 'T day 기간(6/17-21) 한정 월등 우위',
-      },
-    ],
+    rows: [], // LGU+ 6월 유플투쁠 미공개 — 공개 후 반영 예정
   },
   {
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT·LGU+ 경쟁',
-    rows: [
-      {
-        brand: '컬리',
-        skt: null,
-        kt: { lines: [{ grade: '전 등급', b: '5천원 할인 (4만원 이상)' }], date: '달달혜택 (월간)' },
-        lgu: { lines: [{ grade: '선착순', b: '5천원 할인 (4만원 이상)' }], date: '스페셜데이 (월간)' },
-        v: 'miss', basis: 'SKT 미운영', note: 'SKT T day 미제휴 · KT·LGU+ 월간 지속',
-      },
-    ],
+    rows: [], // KT·LGU+ 6월 월간 혜택 미공개 — 공개 후 반영 예정
   },
   {
     id: 'three',
