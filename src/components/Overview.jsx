@@ -100,7 +100,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">6월 제휴 개편 진행 중 · T우주패스 유튜브 프리미엄 라이트 출시</div>
+            <div className="ov">매주 T day로 기습 고할인 — 타이밍 맞추면 최강 혜택</div>
             <div className="od">
               <span>후지필름 포토북 신규(6/15) · 농협맛선·도그메이트 6/30 종료 예정</span>
               <span>매드포갈릭 6/1 하향 · 청소연구소 에어컨 시즌할인(최대 1만원) 추가</span>
@@ -140,7 +140,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">5월 달달혜택·고객보답 2차 동시 운영 마무리 · 6월 매드포갈릭 할인 하향</div>
+            <div className="ov">달마다 달달혜택 공개 + 깜짝 고객보답 — 이벤트 시즌에 혜택 밀도 최고조</div>
             <div className="od">
               <span>달달혜택 패밀리컬렉션(5.15~) + 고객보답 2차(5.18~31) 동시 운영</span>
               <span>3사 중 5월 혜택 밀도 최상 — 5월 31일 종료</span>
@@ -179,7 +179,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cl">
             <div className="ol"><span className="cb bl">LGU+</span></div>
-            <div className="ov">6월 신규 제휴 4개 추가 · 굿웨어몰 종료 예정</div>
+            <div className="ov">제휴처 지속 확장 · 일상 할인 밀도 집중형</div>
             <div className="od">
               <span>6월 1일 신규 — 모던하우스 · 유니스터디 · 위피 · B1불스원카케어</span>
               <span>굿웨어몰 10% 할인 6월 30일 종료 예정</span>
