@@ -112,7 +112,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">6월 T day 1~3주차 라인업 미공개</span>
+                <span className="od-txt">6월 T day 1주차 Lucky Week 공개 · 2~3주차 미공개</span>
               </div>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt">5월 고객보답 투썸·노랑통닭 긍정 압도 — 3사 중 반응 최상</span>
+                <span className="od-txt">6월 1차 고객보답(올리브영 3천원권, 6/1~15) — 커뮤니티 부정 반응 다수</span>
               </div>
             </div>
           </div>
@@ -164,7 +164,7 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">
-                <div className="tt-top">매드포갈릭 할인율 하향<span className="ovb ovb-chg">6월 1일 예정</span></div>
+                <div className="tt-top">매드포갈릭 할인율 하향<span className="ovb ovb-chg">6월 1일 적용</span></div>
                 <div className="tt-sub">전 등급 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5%</div>
               </div>
             </div>
@@ -178,8 +178,8 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">
-                <div className="tt-top">고객보답 2차 이벤트<span className="ovb ovb-new">5월 18일 신규</span></div>
-                <div className="tt-sub">투썸플레이스 50% 또는 배민 × 노랑통닭 8,000원</div>
+                <div className="tt-top">고객보답 6월 1차 시작<span className="ovb ovb-new">6월 1일 신규</span></div>
+                <div className="tt-sub">올리브영 3천원권 또는 쇼핑라운지 6천원 할인 택1 (6/1~15)</div>
               </div>
             </div>
           </div>
@@ -232,31 +232,31 @@ export default function Overview() {
         <div className="ovkey">
           <div className="ovkey-lbl">🔑 이번달 놓치면 안될 것</div>
           <div className="ovki-grid">
-            <a href="#sn" className="ovki ovki-trend">
-              <div className="ovki-cat">✅ 고객반응</div>
-              <div className="ovki-title">SKT·KT 전반 긍정 우세 · 5월 들어 신규 부정 반응 잠잠</div>
+            <a href="#sn" className="ovki ovki-warn">
+              <div className="ovki-cat">💬 고객반응</div>
+              <div className="ovki-title">6월 전환 — SKT 0week 긍정·KT 1차 고객보답 부정 혼재</div>
               <ul className="ovki-list">
-                <li>T day 5/27 — 쉐이크쉑 1+1·파스쿠찌·백억커피 긍정 다수 · 루리웹 "별거 없구먼" 소수 혼재</li>
-                <li>VIP PICK — 4/30 쿠폰 폐지·우주패스 불만 이후 5월 들어 신규 부정 게시물 없음</li>
-                <li>KT 고객보답 — 투썸·노랑통닭 2차 긍정 압도 · 루리웹 조회 44,751</li>
+                <li>SKT 0week(6.1~) — 6월 매드포갈릭·크리스탈제이드 0week 총정리 블로그 긍정·중립 다수</li>
+                <li>KT 6월 1차 고객보답(올리브영 3천원) — 루리웹 "완전 조졌네" 부정 반응 다수 (조회 6,115)</li>
+                <li>LGU+ 유플투쁠 6월 — 카카오웹툰·웅진플레이도시 라인업 블로그 긍정 확인</li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>
             <a href="#tr" className="ovki ovki-trend">
               <div className="ovki-cat">📈 검색어 트렌드</div>
-              <div className="ovki-title">SKT 연초 대비 절반 이하로 하락 · KT 달달혜택 종료 주 급락</div>
+              <div className="ovki-title">SKT 5/25주 2.7 기간 내 최저 · LGU+ 5월말 8.7로 급락</div>
               <ul className="ovki-list">
-                <li>SKT — 연초 대비 절반 이하로 하락, 5/25주 연중 최저 갱신 · 6월 T day 라인업 공개로 반등 여부 주목</li>
-                <li>KT — 달달혜택 운영 중 최고 4.1 → 종료 직전 주 반토막 · 이벤트 없으면 관심도 낮음 패턴 재확인</li>
+                <li>SKT — 5주 연속 하락, 5/25주 2.7 기간 내 최저 기록 · 6월 0week 시작으로 반등 여부 주목</li>
+                <li>KT — 4.0→4.2 소폭 회복 중 · 달달혜택 부재 시 저점, 이벤트 의존 구조 재확인</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
-            <a href="#ai-matrix" className="ovki ovki-warn">
-              <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스</div>
-              <div className="ovki-title">6월 KT·LGU+ 월간 혜택 미공개 — 경쟁 비교 대기 중</div>
+            <a href="#ai-recommend" className="ovki ovki-trend">
+              <div className="ovki-cat">🤖 AI 인사이트 — 신규 제휴 추천</div>
+              <div className="ovki-title">설빙·청년다방 여름 성수기 진입 — 3사 미제휴, SKT 선점 타이밍</div>
               <ul className="ovki-list">
-                <li>KT 달달혜택·LGU+ 투쁠데이 6월 라인업 아직 미공개</li>
-                <li>공개 후 3사 겹치는 브랜드·할인율 경쟁 비교 자동 업데이트 예정</li>
+                <li>설빙 6종 여름 신메뉴 출시(5.28) · 6월 성수기 직진 · 3사 모두 미제휴 — SKT 단독 선점 가능</li>
+                <li>청년다방 검색량 6개월 연속 상승 · 저단가 고빈도 방문 구조로 멤버십 활용 적합</li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>

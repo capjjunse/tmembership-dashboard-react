@@ -72,7 +72,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>매드포갈릭</td><td>[VIP/Gold] 15% 할인 (최대 2만원) · [Silver] 5% 할인 (최대 1만원)</td><td>[VVIP/VIP/골드] 15% 할인 · [일반/화이트/실버] 5% 할인</td><td>[VVIP/VIP] 15% 할인 · [우수] 5% 할인</td></tr>
+          <tr><td>매드포갈릭</td><td>[VIP/Gold] 15% 할인 (최대 15,000원) · [Silver] 5% 할인 (최대 5,000원)</td><td>[VVIP/VIP/골드] 15% 할인 · [일반/화이트/실버] 5% 할인</td><td>[VVIP/VIP] 15% 할인 · [우수] 5% 할인</td></tr>
           <tr><td>아웃백</td><td>[VIP/Gold] 15% 할인 · [Silver] 5% 할인</td><td>[VVIP/VIP/골드] 15% 할인 · [화이트/일반] 5% 할인</td><td className="na">미제공</td></tr>
           <tr><td>VIPS</td><td>[VIP/Gold] 15% 할인 · [Silver] 5% 할인</td><td>[VVIP/VIP] 15% 할인 · [Gold/일반] 5% 할인</td><td>[VVIP/VIP] 15% 할인 · [우수] 5% 할인</td></tr>
         </tbody>

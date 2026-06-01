@@ -18,6 +18,16 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">6월 T멤버십 — 프로야구 Lucky Week·시험 기간 혜택까지 풍성</span></div>
+            <div className="nsum">T day 1주차(6.8~6.12) '프로야구 Lucky Week' 신설, 티빙 구독자 고척돔 직관 응모·요기요×호식이두마리치킨 VIP 8천원/Gold·Silver 6천원 할인, 루메나 무선선풍기 응모. 후지필름 6.15 신규 제휴(포토북 40%·사진인화 20%) 예고.</div>
+            <div className="nmeta">2026-06-01 · <a href="https://news.sktelecom.com/225691" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">"6월 첫 주말엔 매드포갈릭 반값" — T day 0 week VIP 50%·Gold/Silver 30% 쿠폰</span></div>
+            <div className="nsum">매드포갈릭이 SKT T day 0 week(6.1~6.5) 연계로 VIP 최대 5만원 50% 할인, Gold·Silver 최대 3만원 30% 할인 쿠폰 제공. 쿠폰 다운로드 6.1~6.5, 사용 기한 6.7. 자체 할인 쿠폰과 중복 사용 가능.</div>
+            <div className="nmeta">2026-05-28 · <a href="https://www.etoday.co.kr/news/view/2588705" target="_blank" rel="noreferrer">이투데이</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT T우주에 '유튜브 프리미엄 라이트' 월 7,900원 출시 — 광고 제거·배경재생 지원</span></div>
             <div className="nsum">T우주 구독 플랫폼에 유튜브 프리미엄 라이트 추가. 유튜브 광고 제거·배경재생 지원, 오프라인 저장 및 유튜브 뮤직은 미포함. VIP Pick T우주패스 연계 활용 가능.</div>
             <div className="nmeta">2026-05-26 · <a href="https://news.sktelecom.com/225239" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -42,6 +52,11 @@ export default function News() {
 
       {tab === 'kt' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT 6월 멤버십 혜택 강화 — 바캉스 테마 달달혜택 6.17 공개 예정</span></div>
+            <div className="nsum">6월 달달혜택 '바캉스' 테마로 6.17~6.30 운영 예정. 달달초이스·달달스페셜·달달찬스 3종 구성, 여름 휴가철 여행·외식·쇼핑 브랜드 참여. 영화관 할인 강화(롯데시네마·메가박스 추가 1천원) 병행.</div>
+            <div className="nmeta">2026-06-01 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?datNo=18377" target="_blank" rel="noreferrer">KT 보도자료</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT 멤버십 5월 고객보답 2차 — 투썸플레이스 50%·배민×노랑통닭 8천원 (5.18~31)</span></div>
             <div className="nsum">KT멤버십 5월 고객보답 2차로 투썸플레이스 전 메뉴 50%(최대 5천원) 또는 배달의민족×노랑통닭 8천원 할인(16천원↑) 중 택1. 5.18~31 전 등급 이용 가능.</div>

@@ -14,7 +14,7 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>0 week (6.1~6.5)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>0 week (6.1~6.5)</div>
               <ul className="mblist">
                 <li>파리바게뜨 1,000원당 200원/P 할인/적립</li>
                 <li>매드포갈릭 30% 할인 (VIP 50%)</li>
@@ -28,6 +28,7 @@ export default function MonthlyBenefits() {
                 <li>런드리고 아우터 30% + 첫 이용 30% · 코토나 최대 5만원 할인</li>
                 <li>스피드메이트 엔진오일 50% + 와이퍼 무료</li>
                 <li>CGV 8,500원 예매 + 매점 할인 쿠폰 2종</li>
+                <li>착한소비 닭가슴살 제품 50% 할인</li>
               </ul>
             </div>
             <div className="mblk">
