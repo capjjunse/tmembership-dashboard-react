@@ -102,14 +102,18 @@ export default function Overview() {
             <div className="ol"><span className="cb bs">SKT</span></div>
             <div className="ov">매주 T day로 기습 고할인 — 타이밍 맞추면 최강 혜택</div>
             <div className="od">
-              <span>후지필름 포토북 신규(6/15) · 농협맛선·도그메이트 6/30 종료 예정</span>
-              <span>매드포갈릭 6/1 하향 · 청소연구소 에어컨 시즌할인(최대 1만원) 추가</span>
-              <span>T우주패스 유튜브 프리미엄 라이트(월 7,900원) 출시 · VIP PICK 8월 개편 예고</span>
-            </div>
-            <div className="octabs">
-              <a href="#hs" className="octab">변경이력</a>
-              <a href="#vp" className="octab">VIP혜택</a>
-              <a href="#sn" className="octab octab-warn">⚠ 고객반응</a>
+              <div className="od-item">
+                <a href="#sn" className="octab octab-warn">⚠ 고객반응</a>
+                <span className="od-txt">VIP PICK 8월 개편 관련 부정 반응 식별 중</span>
+              </div>
+              <div className="od-item">
+                <a href="#vp" className="octab">VIP혜택</a>
+                <span className="od-txt">T우주패스 8월 구조 개편 예고 — 9,900원 쿠폰 폐지·분리</span>
+              </div>
+              <div className="od-item">
+                <a href="#mo" className="octab">월별혜택</a>
+                <span className="od-txt">6월 T day 1~3주차 라인업 미공개</span>
+              </div>
             </div>
           </div>
           <div className="ovchanges">
@@ -142,13 +146,18 @@ export default function Overview() {
             <div className="ol"><span className="cb bk">KT</span></div>
             <div className="ov">달마다 달달혜택 공개 + 깜짝 고객보답 — 이벤트 시즌에 혜택 밀도 최고조</div>
             <div className="od">
-              <span>달달혜택 패밀리컬렉션(5.15~) + 고객보답 2차(5.18~31) 동시 운영</span>
-              <span>3사 중 5월 혜택 밀도 최상 — 5월 31일 종료</span>
-              <span>매드포갈릭 6월 1일부터 하향 — 기존 전 등급 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5%</span>
-            </div>
-            <div className="octabs">
-              <a href="#mo" className="octab">월별혜택</a>
-              <a href="#hs" className="octab">변경이력</a>
+              <div className="od-item">
+                <a href="#mo" className="octab">월별혜택</a>
+                <span className="od-txt">6월 달달혜택 미발표 — 15일경 공개 예정</span>
+              </div>
+              <div className="od-item">
+                <a href="#hs" className="octab">변경이력</a>
+                <span className="od-txt">매드포갈릭 6/1 하향 — 전 등급 상시 할인율 약화</span>
+              </div>
+              <div className="od-item">
+                <a href="#sn" className="octab">고객반응</a>
+                <span className="od-txt">5월 고객보답 투썸·노랑통닭 긍정 압도 — 3사 중 반응 최상</span>
+              </div>
             </div>
           </div>
           <div className="ovchanges">
@@ -181,13 +190,18 @@ export default function Overview() {
             <div className="ol"><span className="cb bl">LGU+</span></div>
             <div className="ov">제휴처 지속 확장 · 일상 할인 밀도 집중형</div>
             <div className="od">
-              <span>6월 1일 신규 — 모던하우스 · 유니스터디 · 위피 · B1불스원카케어</span>
-              <span>굿웨어몰 10% 할인 6월 30일 종료 예정</span>
-              <span>밀크T 네이버페이 월 할인한도 3만원 → 2만원(5월 1일 적용)</span>
-            </div>
-            <div className="octabs">
-              <a href="#hs" className="octab">변경이력</a>
-              <a href="#rg" className="octab">상시혜택</a>
+              <div className="od-item">
+                <a href="#mo" className="octab">월별혜택</a>
+                <span className="od-txt">6월 투쁠데이·스페셜데이 미공개 — 라인업 대기 중</span>
+              </div>
+              <div className="od-item">
+                <a href="#rg" className="octab">상시혜택</a>
+                <span className="od-txt">신규 4개 추가 · 굿웨어몰 6/30 종료로 순증 확인 필요</span>
+              </div>
+              <div className="od-item">
+                <a href="#hs" className="octab">변경이력</a>
+                <span className="od-txt">밀크T 네이버페이 한도 5/1 이미 축소 — 체감 혜택 감소</span>
+              </div>
             </div>
           </div>
           <div className="ovchanges">
