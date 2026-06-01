@@ -100,10 +100,13 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">6월 변동 임박 · T우주 유튜브 프리미엄 라이트 출시</div>
+            <div className="ov">6월 제휴 개편 진행 중 · T우주패스 유튜브 프리미엄 라이트 출시</div>
             <div className="od">
-              <span>후지필름 6/15 신규·매드포갈릭 6/1 하향·청소연구소 에어컨 6/1 시즌혜택·농협맛선·도그메이트 6/30 종료</span>
-              <span>T우주패스에 유튜브 프리미엄 라이트(월 7,900원) 5/26 출시 / VIP PICK T우주패스 8월 개편 예고 중 / 4/30 이후 신규 불만 미식별</span>
+              <span>후지필름 포토북 신규 제휴 — 6월 15일부터 이용 가능</span>
+              <span>농협맛선·도그메이트 6월 30일 종료 예정</span>
+              <span>매드포갈릭 할인율 6월 1일 하향 · 청소연구소 에어컨 시즌 할인 추가</span>
+              <span>T우주패스에 유튜브 프리미엄 라이트(월 7,900원) 5월 26일 출시</span>
+              <span>VIP PICK T우주패스 8월 개편 예고 중</span>
             </div>
             <div className="octabs">
               <a href="#hs" className="octab">변경이력</a>
@@ -130,10 +133,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">5월 달달혜택·고객보답 성황 마무리 · 6월 매드포갈릭 하향 적용</div>
+            <div className="ov">5월 달달혜택·고객보답 2차 동시 운영 마무리 · 6월 매드포갈릭 할인 하향</div>
             <div className="od">
-              <span>달달혜택 패밀리컬렉션 + 고객보답 2차 동시 운영, 5/31 종료 예정 — 3사 중 5월 혜택 밀도 최상</span>
-              <span>6월 1일부터 매드포갈릭 VVIP/VIP/골드 15% · 일반/화이트/실버 5% 하향 적용</span>
+              <span>달달혜택 패밀리컬렉션(5.15~) + 고객보답 2차(5.18~31) 동시 운영</span>
+              <span>3사 중 5월 혜택 밀도 최상 — 5월 31일 종료</span>
+              <span>매드포갈릭 6월 1일부터 하향 — 기존 전 등급 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5%</span>
             </div>
             <div className="octabs">
               <a href="#mo" className="octab">월별혜택</a>
@@ -159,10 +163,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cl">
             <div className="ol"><span className="cb bl">LGU+</span></div>
-            <div className="ov">6월 제휴 변동 선제 공개</div>
+            <div className="ov">6월 신규 제휴 4개 추가 · 굿웨어몰 종료 예정</div>
             <div className="od">
-              <span>신규 제휴 + 굿웨어몰 종료 예정</span>
-              <span>상시 혜택 6월 업데이트 예정</span>
+              <span>6월 1일 신규 — 모던하우스 · 유니스터디 · 위피 · B1불스원카케어</span>
+              <span>굿웨어몰 10% 할인 6월 30일 종료 예정</span>
+              <span>밀크T 네이버페이 월 할인한도 3만원 → 2만원(5월 1일 적용)</span>
             </div>
             <div className="octabs">
               <a href="#hs" className="octab">변경이력</a>
@@ -190,10 +195,10 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#sn" className="ovki ovki-trend">
               <div className="ovki-cat">✅ 고객반응</div>
-              <div className="ovki-title">SKT·KT 전반 긍정 우세 · VIP PICK 4주 윈도우 만료</div>
+              <div className="ovki-title">SKT·KT 전반 긍정 우세 · 5월 들어 신규 부정 반응 잠잠</div>
               <ul className="ovki-list">
-                <li>T day 5/27 — 쉐이크쉑 1+1·파스쿠찌·백억커피 긍정 다수 / 루리웹 "별거 없구먼" 고조회 1건 혼재</li>
-                <li>VIP PICK — 9,900원 쿠폰 폐지·우주패스 불만(4/30), 4주 윈도우 만료 · 신규 미식별</li>
+                <li>T day 5/27 — 쉐이크쉑 1+1·파스쿠찌·백억커피 긍정 다수 · 루리웹 "별거 없구먼" 소수 혼재</li>
+                <li>VIP PICK — 4/30 쿠폰 폐지·우주패스 불만 이후 5월 들어 신규 부정 게시물 없음</li>
                 <li>KT 고객보답 — 투썸·노랑통닭 2차 긍정 압도 · 루리웹 조회 44,751</li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
@@ -209,10 +214,10 @@ export default function Overview() {
             </a>
             <a href="#ai" className="ovki ovki-warn">
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스</div>
-              <div className="ovki-title">T day 경쟁우위 · 컬리 SKT 미제휴 지속</div>
+              <div className="ovki-title">6월 KT·LGU+ 월간 혜택 미공개 — 경쟁 비교 대기 중</div>
               <ul className="ovki-list">
-                <li>도미노피자 — T day 2주차 50% vs LGU+ 상시 20% · SKT 기간 우위</li>
-                <li>컬리 — KT·LGU+ 월간 운영 중, SKT T day 미제휴 지속</li>
+                <li>KT 달달혜택·LGU+ 투쁠데이 6월 라인업 아직 미공개</li>
+                <li>공개 후 3사 겹치는 브랜드·할인율 경쟁 비교 자동 업데이트 예정</li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>

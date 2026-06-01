@@ -7,8 +7,8 @@ export const trendSignals = [
     brand: '스타벅스',
     membership: 'partner',
     telcos: [
-      { id: 'kt', label: 'KT', prog: '상시', benefit: '음료 무료 사이즈업' },
       { id: 'skt', label: 'SKT', prog: 'Tday 5월 (종료)', benefit: '추첨 아메리카노 1잔' },
+      { id: 'kt', label: 'KT', prog: '상시', benefit: '음료 무료 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: 'VIP 음료 무료 1잔' },
     ],
     strength: 'strong',
