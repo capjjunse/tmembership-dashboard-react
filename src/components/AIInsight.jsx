@@ -292,7 +292,7 @@ export default function AIInsight() {
       </div>
 
       {/* 섹션 1 — 3사 경쟁 매트릭스 */}
-      <div className="ai-sec">
+      <div className="ai-sec" id="ai-matrix">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">3사 경쟁 매트릭스</span>
           <span className="ai-sec-desc">월간 혜택 겹치는 브랜드 · SKT 경쟁 포지션 판정</span>
@@ -341,7 +341,7 @@ export default function AIInsight() {
       </div>
 
       {/* 섹션 2 — 비통신 비교 */}
-      <div className="ai-sec">
+      <div className="ai-sec" id="ai-nontelecom">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">비통신 비교</span>
           <span className="ai-sec-desc">월간·상시·특화 전범위 · 카테고리별 T멤버십 vs 비통신</span>
@@ -375,7 +375,7 @@ export default function AIInsight() {
       </div>
 
       {/* 섹션 3 — 신규 제휴 추천 */}
-      <div className="ai-sec">
+      <div className="ai-sec" id="ai-recommend">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">신규 제휴 추천</span>
           <span className="ai-sec-desc">뜨는 브랜드 × 3사 미운영 교차 분석 · Top 3</span>
@@ -485,7 +485,7 @@ export default function AIInsight() {
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
-      <div className="ai-sec">
+      <div className="ai-sec" id="ai-market">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">📡 마켓 시그널</span>
           <span className="ai-sec-desc">경쟁·소비 동향 · 뉴스 {news7dPeriod(cnData.generated_at)}</span>

@@ -251,7 +251,7 @@ export default function Overview() {
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
-            <a href="#ai" className="ovki ovki-warn">
+            <a href="#ai-matrix" className="ovki ovki-warn">
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스</div>
               <div className="ovki-title">6월 KT·LGU+ 월간 혜택 미공개 — 경쟁 비교 대기 중</div>
               <ul className="ovki-list">
