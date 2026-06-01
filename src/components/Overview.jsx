@@ -102,11 +102,9 @@ export default function Overview() {
             <div className="ol"><span className="cb bs">SKT</span></div>
             <div className="ov">6월 제휴 개편 진행 중 · T우주패스 유튜브 프리미엄 라이트 출시</div>
             <div className="od">
-              <span>후지필름 포토북 신규 제휴 — 6월 15일부터 이용 가능</span>
-              <span>농협맛선·도그메이트 6월 30일 종료 예정</span>
-              <span>매드포갈릭 할인율 6월 1일 하향 · 청소연구소 에어컨 시즌 할인 추가</span>
-              <span>T우주패스에 유튜브 프리미엄 라이트(월 7,900원) 5월 26일 출시</span>
-              <span>VIP PICK T우주패스 8월 개편 예고 중</span>
+              <span>후지필름 포토북 신규(6/15) · 농협맛선·도그메이트 6/30 종료 예정</span>
+              <span>매드포갈릭 6/1 하향 · 청소연구소 에어컨 시즌할인(최대 1만원) 추가</span>
+              <span>T우주패스 유튜브 프리미엄 라이트(월 7,900원) 출시 · VIP PICK 8월 개편 예고</span>
             </div>
             <div className="octabs">
               <a href="#hs" className="octab">변경이력</a>
