@@ -72,9 +72,57 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>6월 유플투쁠 — 업데이트 예정</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>투쁠데이 1차 (6/9·11·12)</div>
               <ul className="mblist">
-                <li>6월 투쁠데이·스페셜데이 라인업 공개 예정</li>
+                <li>카카오웹툰·카카오페이지 최대 5천 캐시 증정</li>
+                <li>아모레몰 멤버십플러스 1개월 + 2,000p</li>
+                <li>웅진플레이도시 54% 할인 (동반3인)</li>
+                <li>스피드메이트 엔진오일 할인 + 정비 4종</li>
+                <li>파리바게뜨 최대 6천원 할인</li>
+                <li>투루카 최대 1.6만원 할인</li>
+                <li>카페 스와로브스키 스완라떼 1+1</li>
+                <li>신라아이파크면세점 아이캐시 3천원 + 선불카드 2.5만원</li>
+                <li>GS25 롯데 월드콘 60% 할인</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>투쁠데이 2차 + 컬처 (6/15·16)</div>
+              <ul className="mblist">
+                <li>배스킨라빈스 패밀리 사이즈 최대 9천원 할인</li>
+                <li>컬리 5천원 + 웰컴백 1만원 할인쿠폰</li>
+                <li>롯데백화점몰 1만원 쿠폰 / 그리팅 2만원 할인</li>
+                <li>씨네Q 8천원 관람권 증정</li>
+                <li>아웃백 최대 25% 할인 / 모던하우스 30%+20%</li>
+                <li>컬처: LG아트센터·NOL티켓·페인터즈·미피전 30~50% 할인</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>투쁠데이 3차 (6/17·18·19)</div>
+              <ul className="mblist">
+                <li>배민×처갓집 9천원 할인 / 투썸 아메리카노 무료</li>
+                <li>아쿠아플라넷 최대 40% / 롯데렌터카 1만원 할인</li>
+                <li>CGV 유플투쁠세트(팝콘+음료) 무료</li>
+                <li>피자헛 55% + 리치치즈파스타 증정</li>
+                <li>공차 최대 50% / 서울랜드 55% 할인</li>
+                <li>B1불스원카케어 세차 20% + 엔진오일 2.5만원 할인</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>투쁠데이 4차 (6/20·23)</div>
+              <ul className="mblist">
+                <li>다이소 최대 2천원 금액권 / CU 최대 65% 할인</li>
+                <li>LG생활건강 비욘드 핸드크림 3종 증정</li>
+                <li>사조몰 30% / 베베쿡 30% 할인</li>
+                <li>유쓰: 밀리의서재 1개월 무료 / 폴라리스 오피스 70% 할인</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>장기고객데이 (6/25)</div>
+              <ul className="mblist">
+                <li>파리바게뜨 최대 6천원 할인</li>
+                <li>윌라 1개월 무료이용권</li>
+                <li>NOL티켓 빌리 엘리어트 40% 할인</li>
+                <li>노브랜드 파워에너지 블루레몬 무료 증정</li>
               </ul>
             </div>
           </div>

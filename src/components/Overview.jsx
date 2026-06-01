@@ -192,7 +192,7 @@ export default function Overview() {
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">6월 투쁠데이·스페셜데이 미공개 — 라인업 대기 중</span>
+                <span className="od-txt">6월 전체 공개 — 투쁠데이 9~23일 · 장기고객데이 25일 운영</span>
               </div>
               <div className="od-item">
                 <a href="#rg" className="octab">상시혜택</a>
