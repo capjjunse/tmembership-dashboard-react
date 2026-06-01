@@ -28,7 +28,7 @@ function IssueRadarCard() {
     ].slice(0, 2).join(' · ');
 
     return (
-      <a href="#ai" className="ovki ovki-urgent">
+      <a href="#ai-radar" className="ovki ovki-urgent">
         <div className="ovki-cat">🚨 긴급 대응 필요</div>
         <div className="ovki-title">{titleBrands} — 즉각 검토 필요</div>
         {urgentS.map((s, i) => (
@@ -74,7 +74,7 @@ function IssueRadarCard() {
   const title = titleParts.length > 0 ? `${titleParts.join(' · ')} 모니터링 중` : '현재 주목 이슈 없음';
 
   return (
-    <a href="#ai" className="ovki ovki-radar">
+    <a href="#ai-radar" className="ovki ovki-radar">
       <div className="ovki-cat">🔍 이슈 레이더 · 마켓 시그널</div>
       <div className="ovki-title">{title}</div>
       <ul className="ovki-list">

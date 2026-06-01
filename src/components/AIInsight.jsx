@@ -422,7 +422,7 @@ export default function AIInsight() {
       </div>
 
       {/* 섹션 4 — 제휴사 이슈 레이더 */}
-      <div className="ai-sec">
+      <div className="ai-sec" id="ai-radar">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">🔍 제휴사 이슈 레이더</span>
           <span className="ai-sec-desc">제휴 브랜드 이슈 모니터링 · 뉴스 {news7dPeriod(RADAR_SCANNED)}</span>
