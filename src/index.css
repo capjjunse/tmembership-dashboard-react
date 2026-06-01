@@ -45,7 +45,7 @@ a{color:var(--p);text-decoration:none}a:hover{text-decoration:underline}
 .og{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 @media(max-width:720px){.og{grid-template-columns:1fr 1fr}}
 .ovg{display:flex;flex-direction:column;gap:18px}
-.ovrow{display:grid;grid-template-columns:3fr 2fr;gap:12px;align-items:stretch}
+.ovrow{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:stretch}
 @media(max-width:720px){.ovrow{grid-template-columns:1fr}}
 .ovchanges{display:flex;flex-direction:column;justify-content:space-evenly;gap:6px}
 .ovb{font-size:10px;padding:1px 7px;border-radius:20px;font-weight:700;display:inline-block;margin-left:4px;vertical-align:middle}
