@@ -106,8 +106,10 @@ a{color:var(--p);text-decoration:none}a:hover{text-decoration:underline}
 .od span{display:block;margin-bottom:4px}.od{font-size:11px;color:var(--tx2);margin-top:5px;line-height:1.6;flex:1}
 .tl{display:flex;flex-direction:column;gap:7px;margin-top:12px}
 .ti{display:flex;align-items:flex-start;gap:9px;padding:9px 13px;border-radius:var(--r);background:var(--bg3);border:1px solid var(--bd);flex:1}
-.tdot{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:5px}
-.tt{font-size:12px;line-height:1.65}
+.tdot{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:6px}
+.tt{display:flex;flex-direction:column;gap:3px;flex:1}
+.tt-top{font-size:12px;font-weight:700;line-height:1.4;color:var(--tx);display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.tt-sub{font-size:10.5px;color:var(--tx2);line-height:1.45}
 .cl2{font-size:12px;font-weight:700;color:var(--tx2);margin:1rem 0 7px;padding-bottom:5px;border-bottom:2px solid var(--bd);display:flex;align-items:center;gap:7px}
 .cl2:first-child{margin-top:0}
 .cl2::before{content:'';width:3px;height:13px;background:var(--p);border-radius:2px;display:inline-block}

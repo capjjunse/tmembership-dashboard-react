@@ -115,15 +115,24 @@ export default function Overview() {
           <div className="ovchanges">
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--skt)' }}></div>
-              <div className="tt">후지필름 신규 제휴 — 포토북 40%·사진인화 20%·액세서리 10%·무료배송권{' '}<span className="ovb ovb-new">6월 15일 신규</span></div>
+              <div className="tt">
+                <div className="tt-top">후지필름 신규 제휴<span className="ovb ovb-new">6월 15일 신규</span></div>
+                <div className="tt-sub">포토북 40% · 사진인화 20% · 액세서리 10% · 무료배송권</div>
+              </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--skt)' }}></div>
-              <div className="tt">농협맛선·도그메이트 제휴 종료 예정{' '}<span className="ovb ovb-end">6월 30일 종료</span></div>
+              <div className="tt">
+                <div className="tt-top">농협맛선 · 도그메이트 제휴 종료<span className="ovb ovb-end">6월 30일 종료</span></div>
+                <div className="tt-sub">종료 후 T멤버십 혜택에서 제외</div>
+              </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--skt)' }}></div>
-              <div className="tt">청소연구소 에어컨 청소 7% 할인 시즌 혜택 추가 (최대 1만원){' '}<span className="ovb ovb-chg">6월 1일 적용</span></div>
+              <div className="tt">
+                <div className="tt-top">청소연구소 에어컨 시즌 할인 추가<span className="ovb ovb-chg">6월 1일 적용</span></div>
+                <div className="tt-sub">에어컨 청소 7% 할인 · 최대 1만원 절약</div>
+              </div>
             </div>
           </div>
         </div>
@@ -145,15 +154,24 @@ export default function Overview() {
           <div className="ovchanges">
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
-              <div className="tt">매드포갈릭 할인율 하향 — 전 등급 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5%{' '}<span className="ovb ovb-chg">6월 1일 예정</span></div>
+              <div className="tt">
+                <div className="tt-top">매드포갈릭 할인율 하향<span className="ovb ovb-chg">6월 1일 예정</span></div>
+                <div className="tt-sub">전 등급 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5%</div>
+              </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
-              <div className="tt">달달혜택 패밀리컬렉션 (5.15~) / 달달초이스 국민학교떡볶이 신규{' '}<span className="ovb ovb-new">5월 15일 신규</span></div>
+              <div className="tt">
+                <div className="tt-top">달달혜택 패밀리컬렉션 신규<span className="ovb ovb-new">5월 15일 신규</span></div>
+                <div className="tt-sub">달달초이스 국민학교떡볶이 포함 운영</div>
+              </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
-              <div className="tt">고객보답 2차 (5.18~31) — 투썸플레이스 50% 또는 배달의민족×노랑통닭 8,000원{' '}<span className="ovb ovb-new">5월 18일 신규</span></div>
+              <div className="tt">
+                <div className="tt-top">고객보답 2차 이벤트<span className="ovb ovb-new">5월 18일 신규</span></div>
+                <div className="tt-sub">투썸플레이스 50% 또는 배민 × 노랑통닭 8,000원</div>
+              </div>
             </div>
           </div>
         </div>
@@ -175,15 +193,24 @@ export default function Overview() {
           <div className="ovchanges">
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
-              <div className="tt">굿웨어몰 10% 할인 종료 예정{' '}<span className="ovb ovb-end">6월 30일 종료</span></div>
+              <div className="tt">
+                <div className="tt-top">신규 제휴 4개 추가<span className="ovb ovb-new">6월 1일 신규</span></div>
+                <div className="tt-sub">모던하우스 · 유니스터디 · 위피 · B1불스원카케어</div>
+              </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
-              <div className="tt">밀크T 네이버페이 월 할인한도 3만원→2만원{' '}<span className="ovb ovb-chg">5월 1일 적용</span></div>
+              <div className="tt">
+                <div className="tt-top">굿웨어몰 10% 할인 종료<span className="ovb ovb-end">6월 30일 종료</span></div>
+                <div className="tt-sub">종료 후 LGU+ 멤버십 할인 혜택에서 제외</div>
+              </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
-              <div className="tt">6월 신규 4개 — 모던하우스·유니스터디·위피·B1불스원카케어{' '}<span className="ovb ovb-new">6월 1일 신규</span></div>
+              <div className="tt">
+                <div className="tt-top">밀크T 네이버페이 한도 축소<span className="ovb ovb-chg">5월 1일 적용</span></div>
+                <div className="tt-sub">월 최대 할인 3만원 → 2만원으로 변경</div>
+              </div>
             </div>
           </div>
         </div>
