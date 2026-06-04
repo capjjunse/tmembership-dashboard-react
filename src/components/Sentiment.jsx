@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.06.02 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.06.04 갱신)</span>
         
       </div>
       <div className="tr2">
@@ -63,9 +63,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '71%' }}>긍정 71%</div>
-              <div className="rbs rn" style={{ width: '17%' }}>부정 17%</div>
-              <div className="rbs ru" style={{ width: '12%' }}>중립 12%</div>
+              <div className="rbs rp" style={{ width: '65%' }}>긍정 65%</div>
+              <div className="rbs rn" style={{ width: '16%' }}>부정 16%</div>
+              <div className="rbs ru" style={{ width: '19%' }}>중립 19%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -84,7 +84,9 @@ export default function Sentiment() {
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw2' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">T데이 이디야 컵빙수 50% 할인 — "이디야 멤버스에 쿠폰 등록해야 사용되네요.. 멤버스 가입유도인 것 같긴한데..ㅋㅋ"</div><div className="rsrc">2026.06.04 · <a href="https://www.fmkorea.com/9910956875" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T멤버십 T데이, 이디야 컵빙수 50% 할인 외 (6/1~5) — "오 이케아!! 때마침 가려했는데!" (조회 다수)</div><div className="rsrc">2026.06.01 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104474" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">T데이 엔진오일 할인 행사해요 — "[T day] 스피드메이트 국산차 엔진오일 50% 할인+와이퍼 무료 교체, 결국 35,000원 할인에 와이퍼 무료임"</div><div className="rsrc">2026.06.01 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=car&no=970369" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">쉑쉑버거가 엄청 작았군요ㅎㅎ — "T데이 30% 쿠폰 받은거 사용해서 먹었는데..원래 이렇게 작았나요?^^;; 배가 안차네요ㅋㅋ"</div><div className="rsrc">2026.05.30 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=freeboard&no=9955639" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">아카라이브</span></div><div className="rtx">T데이 진짜 맛없내,, — "맛없어서 눔나함 커피 나가고 부기만 남음" (이디야 컵빙수 나눔 글)</div><div className="rsrc">2026.05.27 · <a href="https://arca.live/b/breaking/171907157" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T멤버십 이번주 T데이 혜택 (5/27) — "요번엔 별거 없구먼" (조회 15,651)</div><div className="rsrc">2026.05.27 · <a href="https://bbs.ruliweb.com/pc/board/1020/read/104359" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -127,9 +129,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '60%' }}>긍정 60%</div>
-              <div className="rbs rn" style={{ width: '30%' }}>부정 30%</div>
-              <div className="rbs ru" style={{ width: '10%' }}>중립 10%</div>
+              <div className="rbs rp" style={{ width: '54%' }}>긍정 54%</div>
+              <div className="rbs rn" style={{ width: '42%' }}>부정 42%</div>
+              <div className="rbs ru" style={{ width: '4%' }}>4%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -167,6 +169,7 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">[Kt멤버십] 6월 고객보답(1차) — "조또 쓸모없는 케이티" "저 정도면 그냥 마케팅 아니냐?" "3천원이면 화장솜이나 가능한건가"</div><div className="rsrc">2026.05.30 · <a href="https://www.fmkorea.com/9889962492" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">KT멤버십 고객보답 6월 1차 (올리브영 3천원권·쇼핑라운지 6천원 택1, 6/1~15) — "완전 조졌네" "이게 혜택인가 쇼핑라운지 장사지" 부정 반응 다수 (조회 6,115)</div><div className="rsrc">2026.05.30 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104452" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">KT 고객보답 6월 1차 — "둘 다 이용 안 하는 곳이라 또 고를 게 없네..." "올리브영에서 음료나 과자 사던지" "아 이런게 있었지 디플말곤 쓰지도 않게된"</div><div className="rsrc">2026.05.29 · <a href="https://bbs.ruliweb.com/community/board/300143/read/75363481" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">KT 고객보답 6월1차 (올리브영 3천원권) — "오 올영 좋네요 ㅎㅎ" / "오랜만에 또 괜찮은거 나왔네요 올리브영 바로 가야겠어요" / "가족계정 5개 몰아 써야겠네요"</div><div className="rsrc">2026.05.29 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=money&no=544494" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">오 KT고객보답 이벤트 티빙 3개월 또주네 ㅋㅋ — "개꿀 ㅋㅋ" / "한삼식 3개월씩 나눠준다해서 ㅋㅋ"</div><div className="rsrc">2026.05.28 · <a href="https://www.fmkorea.com/9880980134" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 2차 투썸 50% 사용후기 — "케이크·음료 반값으로 즐겼어요" (투썸 방문 후기)</div><div className="rsrc">2026.05.28 · <a href="https://blog.naver.com/suntrit/224298546315" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 8,000원으로 노랑통닭 후기 — "배달민족 8천원 할인 쿠폰으로 노랑통닭 시켜먹었어요"</div><div className="rsrc">2026.05.27 · <a href="https://blog.naver.com/sabin0719/224298320639" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -174,6 +177,8 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 투썸 방문 일상 — "엄마랑 KT 고객 보답 프로그램 쿠폰 쓰러 왔다, 투썸에서 케이크·음료 반값"</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/92yebinee/224295720090" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">kt 고객보답 5월 2차 혜택 — "둘 다 이용을 안 해서 고를게 없네.." "이번건 좀 별로네" "50프로라면서 최대 5천원 할인 조금 짜긴 하네.."</div><div className="rsrc">2026.05.18 · <a href="https://bbs.ruliweb.com/community/board/300143/read/75221584" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 5월 고객보답 2차 (투썸50%/배민×노랑통닭) 공유 — "오랜만에 노통 함 조져야겠네" "메가커피 오늘 먹어야겠네 2잔 아메리카노 공짜!!"</div><div className="rsrc">2026.05.15 · <a href="https://www.fmkorea.com/9827869002" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT 고객보답 너프당했네 — "뭐이리 짜노 전에는 티빙 디플 구독 뿌리더니" / 댓글: "통신사 혜택 점점 구려지더라"</div><div className="rsrc">2026.05.11 · <a href="https://www.fmkorea.com/9812098152" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">Kt 고객보답 컵빙은 안되네 — "음료만 되는거라 ㄲㅂ 퐁크러쉬 하나 먹어야겠다" / 댓글: "컵빙 안되면 2차 봐야겠넹"</div><div className="rsrc">2026.05.09 · <a href="https://www.fmkorea.com/9804000513" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">5월 KT 고객감사 메가커피 2잔 무료 — "U플러스는 고객감사 안하나ㅡ.ㅡ"</div><div className="rsrc">2026.05.08 · <a href="https://www.fmkorea.com/9800753363" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">5월 KT멤버십 커피2잔 — "쭈차뿔라 공짜 2잔?!"</div><div className="rsrc">2026.05.07 · <a href="https://www.fmkorea.com/9795918182" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
@@ -187,8 +192,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '67%' }}>긍정 67%</div>
-              <div className="rbs ru" style={{ width: '33%' }}>중립 33%</div>
+              <div className="rbs rp" style={{ width: '83%' }}>긍정 83%</div>
+              <div className="rbs ru" style={{ width: '17%' }}>중립 17%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>

@@ -228,15 +228,18 @@ def main():
     for prog_data in all_programs.values():
         brand_set.update(prog_data.keys())
 
+    today_ym = datetime.today().strftime("%Y.%m")
+
     brands: dict = {}
     for brand in sorted(brand_set):
         entry = {}
         for prog, prog_data in all_programs.items():
             months = prog_data.get(brand, [])
             if months:
+                past_months = [m for m in months if m <= today_ym]
                 entry[prog] = {
-                    "months": months,
-                    "last":   max(months),
+                    "months": past_months,
+                    "last":   max(past_months) if past_months else None,
                     "active": is_active(months),
                 }
             else:

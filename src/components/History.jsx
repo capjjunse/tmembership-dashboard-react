@@ -17,6 +17,13 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td>2026.05.20</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+멤버십</td>
+            <td>우리동네 멤버십 제휴 일시 중단 지점 안내</td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
             <td>2026.05.26</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십</td>

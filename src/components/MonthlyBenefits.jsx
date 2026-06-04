@@ -12,7 +12,7 @@ export default function MonthlyBenefits() {
             <span>SKT — T day + 0 week</span>
             <a href="https://sktmembership.tworld.co.kr/mps/pc-bff/program/tday.do" target="_blank" rel="noreferrer" className="mlink">T day →</a>
           </div>
-          <div className="mtheme">프로야구와 함께하는 럭키 위크</div>
+          <div className="mtheme">럭키위크와 함께하는 T day</div>
           <div className="mcb">
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>0 week (6.1~6.5)</div>
@@ -22,7 +22,7 @@ export default function MonthlyBenefits() {
                 <li>크리스탈 제이드 5만원↑ 40% 할인</li>
                 <li>이디야커피 컵빙수 50% 할인</li>
                 <li>백미당 아이스크림 1+1</li>
-                <li>이케아 가구 3만원↑ 할인 · 스웨디시레스토랑 3만원↑ 1만원 할인</li>
+                <li>이케아 가구 10만원↑ 3만원 할인 · 스웨디시레스토랑 3만원↑ 1만원 할인</li>
                 <li>풀무원 3만원↑ 1.2만원 할인 + T day 전용 10종 10% 할인</li>
                 <li>사보텐/히바린 3.5만원↑ 30% 할인</li>
                 <li>헉슬리 최대 3만원 할인 · W컨셉 기존 10%/신규 15% 더블 할인</li>
@@ -35,7 +35,7 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (6.8~6.12)</div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 8일 공개 예정</li>
+                <li>요기요×호식이두마리치킨 6,000원 할인 (VIP 8,000원)</li>
               </ul>
             </div>
             <div className="mblk">
@@ -54,8 +54,8 @@ export default function MonthlyBenefits() {
           <div className="mpnt">
             <div className="mpnt-hd">📌 이달 포인트</div>
             <ul className="mpnt-list">
-              <li>프로야구 Lucky Week 브랜딩 — 이달 T day 전체 시즌 테마. 혜택 자체는 식음·리빙·뷰티 다양</li>
-              <li>0 week 13개 브랜드 현재 운영 중 / T day 1·2·3주차 6/8·17·24 순차 공개 대기</li>
+              <li>럭키위크 T day 테마 — 이달 전체 시즌 브랜딩. 0 week 식음·리빙·뷰티·라이프 다양</li>
+              <li>0 week 운영 중 (6.1~6.5) · 1주차 요기요×호식이두마리치킨 예고 공개 (6.8~6.12) · 2·3주차 공개 대기</li>
             </ul>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function MonthlyBenefits() {
                 <li>아모레몰 멤버십플러스 1개월 + 2,000p</li>
                 <li>웅진플레이도시 54% 할인 (동반3인)</li>
                 <li>스피드메이트 엔진오일 할인 + 정비 4종</li>
-                <li>파리바게뜨 최대 6천원 할인</li>
+                <li>파리바게뜨 최대 6천원 할인 (2만원↑)</li>
                 <li>투루카 최대 1.6만원 할인</li>
                 <li>카페 스와로브스키 스완라떼 1+1</li>
                 <li>신라아이파크면세점 아이캐시 3천원 + 선불카드 2.5만원</li>
@@ -108,7 +108,7 @@ export default function MonthlyBenefits() {
                 <li>청연 가사청소 신규 2만원·기존 5천원 할인</li>
                 <li>스마트홈 요금제 신규 가입 시 경품 증정</li>
                 <li>교보문고 e교환권 1천원</li>
-                <li>컬처: LG아트센터·NOL티켓·페인터즈·미피전 30~50% 할인</li>
+                <li>컬처: LG아트센터·NOL티켓·페인터즈·미피와 마법우체통 30~50% 할인</li>
               </ul>
             </div>
             <div className="mblk">
@@ -149,7 +149,7 @@ export default function MonthlyBenefits() {
           <div className="mpnt">
             <div className="mpnt-hd">📌 이달 포인트</div>
             <ul className="mpnt-list">
-              <li>FIFA 월드컵 배지데이 3탄 운영 — 6/12(GS25 간식) · 6/19(피자헛 55%·공차 50%·서울랜드 55%) · 6/25(노브랜드·파바)</li>
+              <li>FIFA 월드컵 매치데이 3탄 운영 — 6/12(GS25) · 6/19(피자헛 55%·공차 50%·서울랜드 55%) · 6/25(노브랜드·파바)</li>
               <li>응원 음식 집중: 배달의민족×처갓집 9천원 할인 (6/17) · CGV 팝콘+음료 무료 (6/18)</li>
               <li>컬처 특화 (6/15): LG아트센터·페인터즈·NOL티켓 30~50% 할인 패키지</li>
             </ul>

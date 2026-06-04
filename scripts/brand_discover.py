@@ -70,8 +70,10 @@ def skt_history_label(brand: str, history: dict) -> str:
         if d["active"]:
             parts.append(f"{label} 🟢현재")
         else:
-            last = d["last"]
-            # 공백 개월 계산
+            last = d.get("last")
+            if not last:
+                continue
+            # 공백 개월 계산 (last는 항상 과거 날짜)
             y1, m1 = int(last[:4]), int(last[5:])
             now = datetime.today()
             gap = (now.year - y1) * 12 + (now.month - m1)

@@ -12,7 +12,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.06.02';
+const RADAR_SCANNED = '2026.06.04';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -96,14 +96,14 @@ const alCats = [
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: '버거킹 40~55%, 공차 50%, 피자헛 50% 등 다수 브랜드' }] },
+      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: '0 week 매드포갈릭 30%(VIP 50%)·이디야커피 50%·크리스탈제이드 40%·백미당 1+1·사보텐 30% 등' }] },
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
       { partner: 'VIP PICK · 월간', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '파스쿠찌 40%(최대 7,000원) / 쉐이크쉑 바닐라쉐이크 2,000원 / 피자헛 세트 10,000원 중 택1' }] },
       { partner: '고반식당', deadline: 'VIP PLUS · 월간', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상)' }] },
     ]}],
-    reasons: ['T멤버십: 상시 10~30% + Tday 최대 55% + VIP PICK 파스쿠찌·쉐이크쉑·피자헛 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 10~30% + 0 week 이디야커피·매드포갈릭 VIP 최대 50% + VIP PICK 파스쿠찌·쉐이크쉑·피자헛 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -162,8 +162,9 @@ const alCats = [
     ],
     tm: [{ platform: 'T멤버십', items: [
       { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
+      { partner: '11번가', deadline: 'VIP PICK · 월간', rows: [{ grade: 'V', desc: '5,000원 할인 쿠폰 (2만원↑)' }] },
     ]}],
-    reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 11% (SK 생태계 한정) · VIP PICK 이커머스 혜택 6월 미운영'],
+    reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 상시 11% + VIP PICK 5천원 쿠폰 (SK 생태계 한정)'],
   },
   // ── 유사 수준 ──
   {
@@ -187,8 +188,11 @@ const alCats = [
         { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
+      { partner: 'CGV', deadline: '6.1~6.5 · 0 week', rows: [
+        { grade: '전 등급', desc: '8,500원 예매 + 매점쿠폰 2종' },
+      ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버', 'T멤버십: CGV 커버 (롯데시네마 2026.02 종료) → CGV·롯데 채널 분리'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 상시 4천원 + 0 week 8,500원+매점쿠폰 · VIP 무료연3회/1+1연9회'],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -363,7 +367,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 6월 · KT·LGU+ 15일 이후 공개)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 6월 · KT 미공개 — 15일 이후 반영 예정)</div>
         </div>
       </div>
 
@@ -508,7 +512,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer">2026.06.01 스캔 · 매주 크롤링 후 수동 반영</div>
+        <div className="tr-footer">2026.06.04 스캔 · 매주 크롤링 후 수동 반영</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

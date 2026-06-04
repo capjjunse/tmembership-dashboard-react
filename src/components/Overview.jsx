@@ -100,11 +100,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">프로야구 Lucky Week — 0 week 13개 브랜드 공개, T day 1~3주차 순차 대기</div>
+            <div className="ov">T day 1주차 요기요 공개 · 2~3주차 대기 — 6/01주 검색량 1.8 기간 최저 갱신</div>
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt">T day 긍정 71% 우세 · VIP PICK 이번 주 반응 미수집</span>
+                <span className="od-txt">T day 긍정 65% 우세 · VIP PICK 반응 미수집</span>
               </div>
               <div className="od-item">
                 <a href="#vp" className="octab">VIP혜택</a>
@@ -112,7 +112,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">6월 0 week 13개 운영 중 (6.1~5) · T day 1~3주차 미공개</span>
+                <span className="od-txt">T day 1주차 요기요×호식이두마리치킨 공개 · 2~3주차 미공개</span>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">6월 달달혜택 미발표 · 매드포갈릭 6/1 하향 — 공개 전 혜택 강도 약화 선확인</div>
+            <div className="ov">6월 달달혜택 미공개 · 6/01주 검색량 2.1 급락 — 이벤트 부재 시 관심 직결</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
@@ -156,7 +156,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt">6월 1차 고객보답(올리브영 3천원) — 루리웹 '완전 조졌네' 부정 1건 (조회 6,115)</span>
+                <span className="od-txt">6월 1차 고객보답(올리브영 3천원) — 루리웹·에펨코리아 부정 반응 다수 (조회 최다 6,115)</span>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cl">
             <div className="ol"><span className="cb bl">LGU+</span></div>
-            <div className="ov">FIFA 월드컵 배지데이 3탄 — 경기 주간마다 응원 음식·레저 집중, 6/15 컬처 특화</div>
+            <div className="ov">FIFA 월드컵 매치데이 3탄 — 경기 주간마다 응원 음식·레저 집중, 6/15 컬처 특화</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
@@ -215,15 +215,15 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
               <div className="tt">
-                <div className="tt-top">굿웨어몰 10% 할인 종료<span className="ovb ovb-end">6월 30일 종료</span></div>
-                <div className="tt-sub">종료 후 LGU+ 멤버십 할인 혜택에서 제외</div>
+                <div className="tt-top">우리동네 멤버십 제휴 일시 중단<span className="ovb ovb-chg">5월 20일 변경</span></div>
+                <div className="tt-sub">일부 지점 제휴 서비스 일시 중단 — 재개 일정 미정</div>
               </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
               <div className="tt">
-                <div className="tt-top">신규 제휴 4개 추가<span className="ovb ovb-new">6월 1일 신규</span></div>
-                <div className="tt-sub">모던하우스 · 유니스터디 · 위피 · B1불스원카케어</div>
+                <div className="tt-top">굿웨어몰 10% 할인 종료<span className="ovb ovb-end">6월 30일 종료</span></div>
+                <div className="tt-sub">종료 후 LGU+ 멤버십 할인 혜택에서 제외</div>
               </div>
             </div>
           </div>
@@ -244,10 +244,10 @@ export default function Overview() {
             </a>
             <a href="#tr" className="ovki ovki-trend">
               <div className="ovki-cat">📈 검색어 트렌드</div>
-              <div className="ovki-title">SKT 5/25주 2.7 기간 내 최저 · LGU+ 5월말 8.7로 급락</div>
+              <div className="ovki-title">SKT 6/01주 1.8 기간 최저 갱신 · KT·LGU+ 동반 급락</div>
               <ul className="ovki-list">
-                <li>SKT — 5주 연속 하락, 5/25주 2.7 기간 내 최저 기록 · 6월 0week 시작으로 반등 여부 주목</li>
-                <li>KT — 4.0→4.2 소폭 회복 중 · 달달혜택 부재 시 저점, 이벤트 의존 구조 재확인</li>
+                <li>SKT — 5/25주 2.7→6/01주 1.8 기간 최저 갱신 · 0week 개막에도 반등 미확인</li>
+                <li>KT — 5/25주 4.2→6/01주 2.1 급락, 달달혜택 미공개 이벤트 의존 구조 재확인</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>

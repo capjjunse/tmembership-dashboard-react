@@ -15,12 +15,12 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: 2.18,
-    news7d: 80,
+    news7d: 70,
     negScore: 945,
     headline: [
       '6.1~14 선불충전금 전액 환불 접수 중 · 주간 결제액 321억→236억(80억↓) · 카카오톡 선물하기 1위→5위 밖',
       '불매 실효 지속 — 매출 84.7억↓(26.3% 감소) · 앱 신규 설치 23.6%↓ 수치로 확인됨',
-      '충전금 4,276억 이탈 규모 · KT 상시·LGU+ VIP콕 운영 중 · SKT 6월 Tday 미운영',
+      '협력업체 발주 끊기고 매출 타격 확산 (5.29 뉴시스) · 환불 4,276억 규모 이탈 · SKT Tday 6월 미운영 · KT 상시·LGU+ VIP콕 유지',
     ],
     impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT Tday 6월 미운영 · 환불 접수 중(~6.14) · 주간 결제액 80억↓ 지속',
     links: [
@@ -36,7 +36,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 20,
+    news7d: 15,
     negScore: 246,
     headline: [
       '가맹점주 323명 차액가맹금 소송 진행 중 · 추가 소송 준비 중 · 공정위 과징금 23억(4월)',
@@ -57,7 +57,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 10,
+    news7d: 8,
     negScore: 242,
     headline: [
       '신세계 계열 불매 검색량 감소세 지속 · 이마트24 직접 이슈 없음',
@@ -77,7 +77,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 30,
+    news7d: 22,
     negScore: 0,
     headline: [
       '6월 여름 성수기 본격 진입 · 수박화채·메론빙수 SNS 확산 중 · 성수기 특가 진행',
