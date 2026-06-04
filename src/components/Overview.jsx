@@ -104,7 +104,7 @@ export default function Overview() {
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt">T day 긍정 65% 우세 · VIP PICK 반응 미수집</span>
+                <span className="od-txt">T day 긍정 69% 우세 · VIP PICK 반응 미수집</span>
               </div>
               <div className="od-item">
                 <a href="#vp" className="octab">VIP혜택</a>
@@ -234,7 +234,7 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#sn" className="ovki ovki-pos">
               <div className="ovki-cat">💬 고객반응 <span className="ovki-skt ovki-skt-pos">SKT 호재</span></div>
-              <div className="ovki-title">6월 전환 — SKT 0week 긍정·KT 1차 고객보답 부정 혼재</div>
+              <div className="ovki-title">6월 초 — SKT 0week·LGU+ 투쁠 긍정, KT 고객보답 부정 혼재</div>
               <ul className="ovki-list">
                 <li>SKT 0week(6.1~) — 6월 매드포갈릭·크리스탈제이드 0week 총정리 블로그 긍정·중립 다수</li>
                 <li>KT 6월 1차 고객보답(올리브영 3천원) — 루리웹·에펨코리아 부정 반응 다수 (최다 조회 6,115)</li>
@@ -244,7 +244,7 @@ export default function Overview() {
             </a>
             <a href="#tr" className="ovki ovki-neg">
               <div className="ovki-cat">📈 검색어 트렌드 <span className="ovki-skt ovki-skt-neg">SKT 악재</span></div>
-              <div className="ovki-title">SKT 6/01주 1.8 기간 최저 갱신 · KT·LGU+ 동반 급락</div>
+              <div className="ovki-title">SKT 6/01주 1.8 기간 최저 갱신 · KT 달달혜택 공백으로 2.1 급락</div>
               <ul className="ovki-list">
                 <li>SKT — 5/25주 2.7→6/01주 1.8 기간 최저 갱신 · 0week 개막에도 반등 미확인</li>
                 <li>KT — 5/25주 4.2→6/01주 2.1 급락, 달달혜택 미공개 이벤트 의존 구조 재확인</li>

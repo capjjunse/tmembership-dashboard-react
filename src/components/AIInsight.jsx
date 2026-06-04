@@ -100,7 +100,7 @@ const alCats = [
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
-      { partner: 'VIP PICK · 월간', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '파스쿠찌 40%(최대 7,000원) / 쉐이크쉑 바닐라쉐이크 2,000원 / 피자헛 세트 10,000원 중 택1' }] },
+      { partner: 'VIP PICK · 월간', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '파스쿠찌 40%(최대 7,000원) / 쉐이크쉑 바닐라쉐이크 2,000원 / 피자헛 크래프티드세트 10,000원 또는 파스타 무료 중 택1' }] },
       { partner: '고반식당', deadline: 'VIP PLUS · 월간', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상)' }] },
     ]}],
     reasons: ['T멤버십: 상시 10~30% + 0 week 이디야커피·매드포갈릭 VIP 최대 50% + VIP PICK 파스쿠찌·쉐이크쉑·피자헛 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],

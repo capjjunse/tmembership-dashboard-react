@@ -78,6 +78,11 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">응원과 혜택을 한 번에, 6월을 위한 유플투쁬 혜택</span></div>
+            <div className="nsum">6월 한 달간 식음료, 문화/여가, 쇼핑 분야에서 다양한 혜택. 피자헛 프리미엄 피자 55% 할인(6/19), 아웃백 최대 25% 할인(6/16), 배스킨라빈스 패밀리 사이즈 최대 9천원 할인(6/15), CGV 유플투쁬세트 무료(6/18), 서울랜드 파크이용권 55% 할인(6/19), 컬리 5천원 할인(6/15), 다이소 최대 2천원 금액권(6/23) 등. U+one 앱 유플투쁬 타임 오전 11시 선착순.</div>
+            <div className="nmeta">2026-06-02 · <a href="https://news.lguplus.com/21954" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">'탱크데이'에 거리 두는 통신사들…6월 유플투쁠에서 스타벅스 별 리워드 이벤트 중단</span></div>
             <div className="nsum">스타벅스 탱크데이 논란 이후 LGU+ 유플투쁠이 5월까지 운영한 스타벅스 별 리워드 이벤트를 6월부터 중단. 투썸플레이스·공차 등 다른 음료 혜택은 유지. SKT·KT도 초기화면 노출·로고 삭제 등 스타벅스 연계를 축소.</div>
             <div className="nmeta">2026-06-01 · <a href="https://www.newspim.com/news/view/20260601001109" target="_blank" rel="noreferrer">뉴스핌</a></div>
