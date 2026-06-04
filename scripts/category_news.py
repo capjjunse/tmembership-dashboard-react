@@ -459,6 +459,8 @@ def assign_topics(top: dict[str, list]) -> tuple[dict[str, list], list[dict]]:
 
         for t in seen_topics:
             arts     = groups_map[t]
+            if len(arts) < 2:
+                continue
             insight  = next((a.get('insight', '') for a in arts if a.get('insight')), '')
             max_cq   = max(a.get('cross_query_count', 1) for a in arts)
             max_vel  = max(a.get('datalab_velocity', 0.0) for a in arts)
