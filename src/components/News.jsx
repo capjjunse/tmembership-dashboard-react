@@ -78,6 +78,11 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">'탱크데이'에 거리 두는 통신사들…6월 유플투쁠에서 스타벅스 별 리워드 이벤트 중단</span></div>
+            <div className="nsum">스타벅스 탱크데이 논란 이후 LGU+ 유플투쁠이 5월까지 운영한 스타벅스 별 리워드 이벤트를 6월부터 중단. 투썸플레이스·공차 등 다른 음료 혜택은 유지. SKT·KT도 초기화면 노출·로고 삭제 등 스타벅스 연계를 축소.</div>
+            <div className="nmeta">2026-06-01 · <a href="https://www.newspim.com/news/view/20260601001109" target="_blank" rel="noreferrer">뉴스핌</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">LGU+ 장기고객 대상 '레고랜드 RUN' 체험형 행사 성황 — VIP↑·5년이상 4천명 초청</span></div>
             <div className="nsum">강원도 춘천 레고랜드 코리아에서 멤버십 VIP 이상 5년 이상 장기고객 4천명 대상 참여형 프로그램 진행. 가정의 달 맞아 가족 콘텐츠 구성. 장기고객 대상 체험형 행사 연속 개최로 우대 전략 지속 강화.</div>
             <div className="nmeta">2026-05-18 · <a href="https://news.lguplus.com/21847" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>

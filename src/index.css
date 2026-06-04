@@ -137,7 +137,13 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .mch.ml{background:var(--lgu-bg);color:var(--lgu-t)}
 .mlink{font-size:10px;font-weight:700;padding:3px 9px;border-radius:20px;background:rgba(255,255,255,.7);border:1px solid currentColor;text-decoration:none;white-space:nowrap;flex-shrink:0;transition:.15s}
 .mlink:hover{background:rgba(255,255,255,.95)}
+.mtheme{font-size:10.5px;padding:5px 14px 6px;color:var(--tx2);background:rgba(0,0,0,.025);border-bottom:1px solid var(--bd);font-style:italic}
 .mcb{padding:13px 14px}
+.mpnt{padding:10px 14px 12px;border-top:1px solid var(--bd);background:rgba(0,0,0,.015)}
+.mpnt-hd{font-size:10px;font-weight:800;color:var(--tx3);margin-bottom:5px;letter-spacing:.03em}
+.mpnt-list{font-size:11px;line-height:1.8;color:var(--tx2);list-style:none;margin:0;padding:0}
+.mpnt-list li{padding-left:1rem;position:relative}
+.mpnt-list li::before{content:'→';position:absolute;left:0;color:var(--tx3);font-size:9px;top:.15em}
 .mblk{margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid var(--bd)}
 .mblk:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
 .mbtit{font-size:11px;font-weight:800;color:var(--tx);margin-bottom:5px;display:flex;align-items:center;gap:5px}

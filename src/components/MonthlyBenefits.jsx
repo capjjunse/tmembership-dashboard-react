@@ -12,6 +12,7 @@ export default function MonthlyBenefits() {
             <span>SKT — T day + 0 week</span>
             <a href="https://sktmembership.tworld.co.kr/mps/pc-bff/program/tday.do" target="_blank" rel="noreferrer" className="mlink">T day →</a>
           </div>
+          <div className="mtheme">프로야구와 함께하는 럭키 위크</div>
           <div className="mcb">
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>0 week (6.1~6.5)</div>
@@ -50,6 +51,13 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
           </div>
+          <div className="mpnt">
+            <div className="mpnt-hd">📌 이달 포인트</div>
+            <ul className="mpnt-list">
+              <li>프로야구 Lucky Week 브랜딩 — 이달 T day 전체 시즌 테마. 혜택 자체는 식음·리빙·뷰티 다양</li>
+              <li>0 week 13개 브랜드 현재 운영 중 / T day 1·2·3주차 6/8·17·24 순차 공개 대기</li>
+            </ul>
+          </div>
         </div>
         <div className="mc">
           <div className="mch mk">
@@ -70,6 +78,7 @@ export default function MonthlyBenefits() {
             <span>LGU+ — 유플투쁠</span>
             <a href="https://www.lguplus.com/benefit-plus" target="_blank" rel="noreferrer" className="mlink">유플투쁠 →</a>
           </div>
+          <div className="mtheme">🏆 2026 FIFA 월드컵 응원 kick-off</div>
           <div className="mcb">
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>투쁠데이 1차 (6/9·11·12)</div>
@@ -83,6 +92,7 @@ export default function MonthlyBenefits() {
                 <li>카페 스와로브스키 스완라떼 1+1</li>
                 <li>신라아이파크면세점 아이캐시 3천원 + 선불카드 2.5만원</li>
                 <li>GS25 롯데 월드콘 60% 할인</li>
+                <li>엘리하이/엠베스트 무료체험 + 4만원 상당 혜택 증정</li>
               </ul>
             </div>
             <div className="mblk">
@@ -90,9 +100,14 @@ export default function MonthlyBenefits() {
               <ul className="mblist">
                 <li>배스킨라빈스 패밀리 사이즈 최대 9천원 할인</li>
                 <li>컬리 5천원 + 웰컴백 1만원 할인쿠폰</li>
+                <li>쿠캣 20% 할인 (5만원↑ 최대 3만원)</li>
                 <li>롯데백화점몰 1만원 쿠폰 / 그리팅 2만원 할인</li>
                 <li>씨네Q 8천원 관람권 증정</li>
                 <li>아웃백 최대 25% 할인 / 모던하우스 30%+20%</li>
+                <li>하프클럽 30% + 온리하프 35% 중복쿠폰</li>
+                <li>청연 가사청소 신규 2만원·기존 5천원 할인</li>
+                <li>스마트홈 요금제 신규 가입 시 경품 증정</li>
+                <li>교보문고 e교환권 1천원</li>
                 <li>컬처: LG아트센터·NOL티켓·페인터즈·미피전 30~50% 할인</li>
               </ul>
             </div>
@@ -100,20 +115,25 @@ export default function MonthlyBenefits() {
               <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>투쁠데이 3차 (6/17·18·19)</div>
               <ul className="mblist">
                 <li>배민×처갓집 9천원 할인 / 투썸 아메리카노 무료</li>
+                <li>CJ더마켓 1.3만원 할인 (5만원↑) / 오뚜기몰 최대 30% 할인</li>
                 <li>아쿠아플라넷 최대 40% / 롯데렌터카 1만원 할인</li>
-                <li>CGV 유플투쁠세트(팝콘+음료) 무료</li>
+                <li>노브랜드 냉메밀소바 무료 / CGV 유플투쁠세트(팝콘+음료) 무료</li>
+                <li>윌라스토리 300젤리 / 아워홈몰 20% (5만원↑ 최대 2만원)</li>
+                <li>스파오 최대 1.5만원 할인 (5만원↑) / 포텔리어 최대 3개월 구독권</li>
                 <li>피자헛 55% + 리치치즈파스타 증정</li>
                 <li>공차 최대 50% / 서울랜드 55% 할인</li>
                 <li>B1불스원카케어 세차 20% + 엔진오일 2.5만원 할인</li>
+                <li>위피 젤리 30개 / 비플레인 최대 40% 할인 (최대 2만원)</li>
               </ul>
             </div>
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>투쁠데이 4차 (6/20·23)</div>
               <ul className="mblist">
+                <li>유쓰: 밀리의서재 1개월 무료 / 폴라리스 오피스 70% 할인</li>
                 <li>다이소 최대 2천원 금액권 / CU 최대 65% 할인</li>
                 <li>LG생활건강 비욘드 핸드크림 3종 증정</li>
+                <li>메디코치 첫달 50% + 매월 5천원 할인 (연간)</li>
                 <li>사조몰 30% / 베베쿡 30% 할인</li>
-                <li>유쓰: 밀리의서재 1개월 무료 / 폴라리스 오피스 70% 할인</li>
               </ul>
             </div>
             <div className="mblk">
@@ -125,6 +145,14 @@ export default function MonthlyBenefits() {
                 <li>노브랜드 파워에너지 블루레몬 무료 증정</li>
               </ul>
             </div>
+          </div>
+          <div className="mpnt">
+            <div className="mpnt-hd">📌 이달 포인트</div>
+            <ul className="mpnt-list">
+              <li>FIFA 월드컵 배지데이 3탄 운영 — 6/12(GS25 간식) · 6/19(피자헛 55%·공차 50%·서울랜드 55%) · 6/25(노브랜드·파바)</li>
+              <li>응원 음식 집중: 배달의민족×처갓집 9천원 할인 (6/17) · CGV 팝콘+음료 무료 (6/18)</li>
+              <li>컬처 특화 (6/15): LG아트센터·페인터즈·NOL티켓 30~50% 할인 패키지</li>
+            </ul>
           </div>
         </div>
       </div>

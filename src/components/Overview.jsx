@@ -100,11 +100,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">매주 T day로 기습 고할인 — 타이밍 맞추면 최강 혜택</div>
+            <div className="ov">프로야구 Lucky Week — 0 week 13개 브랜드 공개, T day 1~3주차 순차 대기</div>
             <div className="od">
               <div className="od-item">
-                <a href="#sn" className="octab octab-warn">⚠ 고객반응</a>
-                <span className="od-txt">VIP PICK 8월 개편 관련 부정 반응 식별 중</span>
+                <a href="#sn" className="octab">고객반응</a>
+                <span className="od-txt">T day 긍정 71% 우세 · VIP PICK 이번 주 반응 미수집</span>
               </div>
               <div className="od-item">
                 <a href="#vp" className="octab">VIP혜택</a>
@@ -112,7 +112,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">6월 T day 1주차 Lucky Week 공개 · 2~3주차 미공개</span>
+                <span className="od-txt">6월 0 week 13개 운영 중 (6.1~5) · T day 1~3주차 미공개</span>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">달마다 달달혜택 공개 + 깜짝 고객보답 — 이벤트 시즌에 혜택 밀도 최고조</div>
+            <div className="ov">6월 달달혜택 미발표 · 매드포갈릭 6/1 하향 — 공개 전 혜택 강도 약화 선확인</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
@@ -156,7 +156,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt">6월 1차 고객보답(올리브영 3천원권, 6/1~15) — 커뮤니티 부정 반응 다수</span>
+                <span className="od-txt">6월 1차 고객보답(올리브영 3천원) — 루리웹 '완전 조졌네' 부정 1건 (조회 6,115)</span>
               </div>
             </div>
           </div>
@@ -164,22 +164,22 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">
+                <div className="tt-top">달달초이스 국민학교떡볶이 신규<span className="ovb ovb-new">5월 15일 신규</span></div>
+                <div className="tt-sub">달달혜택 달달초이스 신규 참여 (5.15~31)</div>
+              </div>
+            </div>
+            <div className="ti">
+              <div className="tdot" style={{ background: 'var(--kt)' }}></div>
+              <div className="tt">
+                <div className="tt-top">고객보답 2차 이벤트<span className="ovb ovb-new">5월 15일 신규</span></div>
+                <div className="tt-sub">투썸플레이스 50% / 배달의민족×노랑통닭 8,000원 할인 (5.18~31)</div>
+              </div>
+            </div>
+            <div className="ti">
+              <div className="tdot" style={{ background: 'var(--kt)' }}></div>
+              <div className="tt">
                 <div className="tt-top">매드포갈릭 할인율 하향<span className="ovb ovb-chg">6월 1일 적용</span></div>
                 <div className="tt-sub">전 등급 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5%</div>
-              </div>
-            </div>
-            <div className="ti">
-              <div className="tdot" style={{ background: 'var(--kt)' }}></div>
-              <div className="tt">
-                <div className="tt-top">달달혜택 패밀리컬렉션 신규<span className="ovb ovb-new">5월 15일 신규</span></div>
-                <div className="tt-sub">달달초이스 국민학교떡볶이 포함 운영</div>
-              </div>
-            </div>
-            <div className="ti">
-              <div className="tdot" style={{ background: 'var(--kt)' }}></div>
-              <div className="tt">
-                <div className="tt-top">고객보답 6월 1차 시작<span className="ovb ovb-new">6월 1일 신규</span></div>
-                <div className="tt-sub">올리브영 3천원권 또는 쇼핑라운지 6천원 할인 택1 (6/1~15)</div>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cl">
             <div className="ol"><span className="cb bl">LGU+</span></div>
-            <div className="ov">제휴처 지속 확장 · 일상 할인 밀도 집중형</div>
+            <div className="ov">FIFA 월드컵 배지데이 3탄 — 경기 주간마다 응원 음식·레저 집중, 6/15 컬처 특화</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
@@ -200,7 +200,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#hs" className="octab">변경이력</a>
-                <span className="od-txt">밀크T 네이버페이 한도 5/1 이미 축소 — 체감 혜택 감소</span>
+                <span className="od-txt">등급 상향 주기 7/1 변경 — 가입 시점별 승급 일정 달라짐 주의</span>
               </div>
             </div>
           </div>
@@ -208,8 +208,8 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
               <div className="tt">
-                <div className="tt-top">신규 제휴 4개 추가<span className="ovb ovb-new">6월 1일 신규</span></div>
-                <div className="tt-sub">모던하우스 · 유니스터디 · 위피 · B1불스원카케어</div>
+                <div className="tt-top">등급 상향 주기 변경<span className="ovb ovb-chg">7월 1일 적용</span></div>
+                <div className="tt-sub">월 2~15일 가입 → 익월 1일 / 16~말일 가입 → 익월 16일 승급</div>
               </div>
             </div>
             <div className="ti">
@@ -222,8 +222,8 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
               <div className="tt">
-                <div className="tt-top">밀크T 네이버페이 한도 축소<span className="ovb ovb-chg">5월 1일 적용</span></div>
-                <div className="tt-sub">월 최대 할인 3만원 → 2만원으로 변경</div>
+                <div className="tt-top">신규 제휴 4개 추가<span className="ovb ovb-new">6월 1일 신규</span></div>
+                <div className="tt-sub">모던하우스 · 유니스터디 · 위피 · B1불스원카케어</div>
               </div>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function Overview() {
               <div className="ovki-title">6월 전환 — SKT 0week 긍정·KT 1차 고객보답 부정 혼재</div>
               <ul className="ovki-list">
                 <li>SKT 0week(6.1~) — 6월 매드포갈릭·크리스탈제이드 0week 총정리 블로그 긍정·중립 다수</li>
-                <li>KT 6월 1차 고객보답(올리브영 3천원) — 루리웹 "완전 조졌네" 부정 반응 다수 (조회 6,115)</li>
+                <li>KT 6월 1차 고객보답(올리브영 3천원) — 루리웹·에펨코리아 부정 반응 다수 (최다 조회 6,115)</li>
                 <li>LGU+ 유플투쁠 6월 — 카카오웹툰·웅진플레이도시 라인업 블로그 긍정 확인</li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
@@ -251,12 +251,12 @@ export default function Overview() {
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
-            <a href="#ai-recommend" className="ovki ovki-trend">
-              <div className="ovki-cat">🤖 AI 인사이트 — 신규 제휴 추천</div>
-              <div className="ovki-title">설빙·청년다방 여름 성수기 진입 — 3사 미제휴, SKT 선점 타이밍</div>
+            <a href="#ai-matrix" className="ovki ovki-warn">
+              <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스</div>
+              <div className="ovki-title">파리바게뜨 T day 열위 · CGV 우위 — KT 미공개로 비교 일부 보류</div>
               <ul className="ovki-list">
-                <li>설빙 6종 여름 신메뉴 출시(5.28) · 6월 성수기 직진 · 3사 모두 미제휴 — SKT 단독 선점 가능</li>
-                <li>청년다방 검색량 6개월 연속 상승 · 저단가 고빈도 방문 구조로 멤버십 활용 적합</li>
+                <li>SKT 0 week vs LGU+ 투쁠데이: 파리바게뜨 — LGU+ 낮은 진입 기준(2만원↑ vs SKT 3만원)으로 T day 열위</li>
+                <li>CGV — SKT 예매 8,500원+스낵쿠폰 2종 구성이 LGU+ 스낵세트 단독보다 우위</li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>

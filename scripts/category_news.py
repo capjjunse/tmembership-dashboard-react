@@ -42,6 +42,44 @@ BROAD_QUERIES = [
     '앱 마케팅',
 ]
 
+
+SEASONAL_PROMPT = """\
+오늘은 {today}이다.
+T멤버십(SKT 통신사 멤버십) 전략팀이 이번 주 국내 마케팅·소비·이벤트 동향을 파악하기 위해
+네이버 뉴스 검색에 추가할 시즈널 키워드를 제안해라.
+
+조건:
+- 국내 소비자 마케팅에 직접 연결되는 시즌·이벤트·스포츠·절기 관련 키워드
+- 2~4어절, 한국어, 뉴스 검색에 실제로 등장할 표현
+- 중복·유사어 없이 6개만
+- JSON 배열로만 응답 (앞뒤 설명 없이)
+
+예시 (참고용):
+["야구 마케팅", "KBO 스폰서십", "월드컵 프로모션", "여름 할인", "휴가 이벤트", "뮤직페스티벌 제휴"]
+"""
+
+
+def get_seasonal_queries(api_key: str) -> list[str]:
+    """Claude Haiku가 오늘 날짜 기준으로 시즈널 키워드를 동적 생성"""
+    today_str = datetime.today().strftime('%Y년 %m월 %d일')
+    prompt = SEASONAL_PROMPT.format(today=today_str)
+    try:
+        client = anthropic.Anthropic(api_key=api_key)
+        msg = client.messages.create(
+            model='claude-haiku-4-5-20251001',
+            max_tokens=256,
+            messages=[{'role': 'user', 'content': prompt}],
+        )
+        raw = msg.content[0].text.strip()
+        raw = re.sub(r'^```json\s*', '', raw)
+        raw = re.sub(r'\s*```$', '', raw)
+        parsed = json.loads(raw)
+        if isinstance(parsed, list):
+            return [str(q) for q in parsed if q]
+    except Exception as e:
+        print(f'  ⚠️  시즈널 키워드 생성 실패 (기본 쿼리만 사용): {e}')
+    return []
+
 CATEGORY_LABELS = {
     'risk':      '🚨 제휴사 리스크',
     'battle':    '⚔️  마케팅 경쟁',
@@ -62,12 +100,15 @@ CLASSIFY_PROMPT = """\
              ⚠️ 제외: 이미 risk로 분류되는 제휴사(스타벅스 등) 관련 파급 기사는 battle 아닌 risk
 - benchmark: 국내 소비자 대상 B2C 할인·쿠폰·포인트·구독 패키지·로열티 혜택 사례
              → T멤버십 제휴 기획 시 직접 참고 가능한 국내 브랜드 혜택 구조
+             ✅ 포함: 야구·월드컵·여름·추석 등 시즌 이벤트 활용 브랜드 프로모션·제휴 캠페인
+               (이는 T멤버십 시즈널 기획 참고용 benchmark임)
              ⚠️ 반드시 skip: 소상공인·가맹점 수수료 인하, 플랫폼 수수료 분쟁 (B2B 이슈),
              해외 브랜드·해외 시장, 항공·해운, 농업·어업·임업, 금융투자, 건설·부동산
 - trend:     국내 모바일·이커머스·배달·AI 소비자 행동 변화 및 거시 소비 트렌드
              → T멤버십 고객 타겟팅·채널 전략에 영향을 주는 흐름
+             ✅ 포함: 시즌·이벤트 기간 소비 패턴 변화(야구 시즌 외식 증가, 월드컵 시청 트렌드 등)
              ⚠️ 반드시 skip: 해외 시장·기업 동향, 농협·농업·수산, 금융투자, 부동산·건설,
-             정치·선거, 스포츠, 제조업 생산
+             정치·선거, 스포츠 경기 결과·선수 관련(마케팅·소비 트렌드 아닌 것), 제조업 생산
 - skip:      위 카테고리에 해당하지 않는 기사
 
 priority 기준 (skip이면 1 고정):
@@ -437,6 +478,23 @@ def assign_topics(top: dict[str, list]) -> tuple[dict[str, list], list[dict]]:
 def main():
     today = datetime.today()
     print(f"[{today.strftime('%Y.%m.%d %H:%M')}] 카테고리 뉴스 수집 시작\n")
+
+    api_key = os.environ.get('ANTHROPIC_API_KEY', '')
+    if not api_key:
+        raise RuntimeError(
+            'ANTHROPIC_API_KEY 환경변수가 없습니다.\n'
+            '실행: ANTHROPIC_API_KEY=sk-ant-... python3 category_news.py'
+        )
+
+    # 시즈널 키워드 주입 (Claude Haiku가 오늘 날짜 기준으로 동적 생성)
+    global BROAD_QUERIES
+    print('  📅 시즈널 키워드 생성 중...')
+    seasonal = get_seasonal_queries(api_key)
+    if seasonal:
+        BROAD_QUERIES = BROAD_QUERIES + seasonal
+        print(f"  → 추가됨: {', '.join(seasonal)}")
+    else:
+        print('  → 시즈널 키워드 없음 (기본 쿼리로 진행)')
 
     # Step 1: [D] DataLab 검색량 트렌드 조회
     print(f"[Step 1] DataLab 검색량 트렌드 조회 ({len(BROAD_QUERIES)}개 키워드)...")

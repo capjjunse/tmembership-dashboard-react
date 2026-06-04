@@ -12,7 +12,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.06.01';
+const RADAR_SCANNED = '2026.06.02';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -31,20 +31,48 @@ const compGroups = [
   {
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
-    desc: 'KT 미운영 · 양자 대결',
-    rows: [], // LGU+ 6월 유플투쁠 미공개 — 공개 후 반영 예정
+    desc: 'KT 미공개 · SKT 0 week × LGU+ 투쁠데이',
+    rows: [
+      {
+        brand: '파리바게뜨',
+        skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원 할인/적립 (최대 6천원)' }], date: '6.1~6.5 · 0 week' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원↑)' }], date: '6.11 · 투쁠데이 1차 / 6.25 · 장기고객데이' },
+        v: 'warn',
+        basis: 'LGU+ 2만원↑ 기준, SKT는 3만원에서 동일 한도',
+        note: 'LGU+ 2회 운영 (투쁠데이+장기고객), SKT 0 week',
+      },
+      {
+        brand: '스피드메이트',
+        skt: { lines: [{ grade: '전 등급', b: '국산차 엔진오일 50% + 와이퍼 무료 (최대 35,000원)' }], date: '6.1~6.5 · 0 week (쿠폰 ~6.30)' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '국산·수입차 엔진오일 할인 + 정비 4종' }], date: '6.9 · 투쁠데이 1차' },
+        v: 'neut',
+        basis: 'SKT 50% 명시·국산 전용 vs LGU+ 수입차 포함·정비 4종·% 미기재',
+        note: '차종 범위·혜택 구성 달라 직접 비교 어려움',
+      },
+      {
+        brand: 'CGV',
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점쿠폰 2종 (더블콤보 3천·팝콘M 1천)' }], date: '6.1~6.5 · 0 week' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '6.18 · 투쁠데이 3차' },
+        v: 'good',
+        basis: 'SKT 예매 할인+스낵쿠폰 vs LGU+ 스낵세트만',
+        note: 'SKT 5일 운영 vs LGU+ 1일',
+      },
+    ],
   },
   {
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT·LGU+ 경쟁',
-    rows: [], // KT·LGU+ 6월 월간 혜택 미공개 — 공개 후 반영 예정
+    rows: [], // KT 6월 달달혜택 미공개 (매월 15일경 공개 예정)
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // KT·LGU+ 6월 미공개 — 15일 이후 반영 예정
+    rows: [], // KT 6월 미공개 — 15일 이후 반영 예정
   },
 ];
 
@@ -72,10 +100,10 @@ const alCats = [
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
-      { partner: 'VIP PICK · 월간', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '폴 바셋·잠바주스 50% / 피자헛 세트 10,000원 중 택1' }] },
+      { partner: 'VIP PICK · 월간', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '파스쿠찌 40%(최대 7,000원) / 쉐이크쉑 바닐라쉐이크 2,000원 / 피자헛 세트 10,000원 중 택1' }] },
       { partner: '고반식당', deadline: 'VIP PLUS · 월간', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상)' }] },
     ]}],
-    reasons: ['T멤버십: 상시 10~30% + Tday 최대 55% + VIP PICK 카페·외식 50% 다수 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 10~30% + Tday 최대 55% + VIP PICK 파스쿠찌·쉐이크쉑·피자헛 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -134,9 +162,8 @@ const alCats = [
     ],
     tm: [{ platform: 'T멤버십', items: [
       { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
-      { partner: 'GS SHOP', deadline: 'VIP PICK · 월간', rows: [{ grade: 'V', desc: '30% 할인 최대 10,000원' }] },
     ]}],
-    reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 11% + VIP PICK GS SHOP 30% (SK 생태계·제휴처 한정)'],
+    reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 11% (SK 생태계 한정) · VIP PICK 이커머스 혜택 6월 미운영'],
   },
   // ── 유사 수준 ──
   {
@@ -190,17 +217,17 @@ const recs = [
   {
     rank: 1,
     brand: '설빙',
-    tag: '매장 596개 · DataLab 📈1.22',
-    reason: '5월 내내 검색량 상승 중. 여름 시즌 직전 Tday 재계약 타이밍 — KT·LGU+ 모두 미운영으로 단독 선점 가능.',
+    tag: '매장 596개 · DataLab 📈1.28',
+    reason: '6월 여름 성수기 본격 진입 · DataLab 1.28 상승세 지속. VIP Pick 7월 계약 예정 — Tday 재계약으로 KT·LGU+ 미운영 상태 단독 선점 완성 가능.',
     reach: [
       { label: '매장 규모', text: '전국 596개 · 아이스디저트 카테고리 1위' },
-      { label: '검색 버즈', text: '전월比 +22% 급증 · 블로그 74만은 공차(72만)·메가커피(68만) 동급' },
-      { label: '제휴 포인트', text: '여름 성수기(5~8월) 직전 계약 → KT·LGU+ 미운영 상태에서 선점 가능' },
+      { label: '검색 버즈', text: '전월比 +28% 급증 · 블로그 74만은 공차(72만)·메가커피(68만) 동급 · 여름 성수기 가속' },
+      { label: '제휴 포인트', text: 'VIP Pick 7월 예정 · Tday 재계약으로 여름 시즌 전체 커버 가능 · KT·LGU+ 모두 미운영' },
     ],
-    trend: 'DataLab 1.22 · 블로그 74만 · 카페 25만 · 뉴스 28건',
+    trend: 'DataLab 1.28 · 블로그 74만 · 카페 25만 · 뉴스 79건',
     hot: true,
     skt: [
-      { prog: 'Tday', active: false, last: '2026.03', gap: '2개월 공백' },
+      { prog: 'Tday', active: false, last: '2026.03', gap: '3개월 공백' },
     ],
     kt:  null,
     lgu: null,
@@ -208,14 +235,14 @@ const recs = [
   {
     rank: 2,
     brand: '청년다방',
-    tag: '매장 273개 · DataLab ↗1.14',
-    reason: '4월부터 꾸준히 상승 중. 저가 분식 카테고리로 방문 빈도 높음. 3사 모두 미참여 — 선점 기회.',
+    tag: '매장 271개 · DataLab 📈1.33',
+    reason: '6월까지 꾸준히 상승 중 (DataLab 1.33). 저가 분식 카테고리로 방문 빈도 높음. 3사 모두 미참여 — 선점 기회.',
     reach: [
-      { label: '매장 규모', text: '전국 273개 · 분식 카테고리 빠른 확장 중인 성장형 브랜드' },
-      { label: '검색 버즈', text: '6개월 연속 상승 (DataLab 1.14) · 뉴스 88건 = 경쟁사 대비 2~3배 언론 노출' },
+      { label: '매장 규모', text: '전국 271개 · 분식 카테고리 빠른 확장 중인 성장형 브랜드' },
+      { label: '검색 버즈', text: '지속 상승 (DataLab 1.33) · 뉴스 70건 = 경쟁사 대비 2~3배 언론 노출' },
       { label: '제휴 포인트', text: '저단가(5천~1만원대) 고빈도 방문 구조 → 월간 혜택 건수 누적에 유리' },
     ],
-    trend: 'DataLab 1.14 · 블로그 22만 · 뉴스 88건',
+    trend: 'DataLab 1.33 · 블로그 22만 · 뉴스 70건',
     hot: true,
     skt: [],
     kt:  null,
@@ -223,18 +250,18 @@ const recs = [
   },
   {
     rank: 3,
-    brand: '60계치킨',
-    tag: '매장 628개 · 3사 미운영',
-    reason: '전국 628개 매장 보유로 안정적 제휴 규모. 카페 언급 15만으로 실사용자 버즈 높은 편. 3사 모두 미참여.',
+    brand: '노랑통닭',
+    tag: '매장 888개 · DataLab 1.08',
+    reason: '6월 치킨 카테고리 Top3 전국망. KT는 이미 달달혜택 운영 중 — SKT 미참여로 단독 노출 기회 소멸 우려. 중량표시제 참여로 소비자 신뢰 회복 중.',
     reach: [
-      { label: '매장 규모', text: '전국 628개 · 치킨 카테고리 3위권 전국망' },
-      { label: '검색 버즈', text: '보합세(0.99)지만 카페 15만 = 블로그보다 실구매 후기 비중이 높아 충성 팬덤 탄탄' },
-      { label: '제휴 포인트', text: '중가 치킨(1.5~2만원대) 상시 제휴 공백 → 안정적 모객 기대' },
+      { label: '매장 규모', text: '전국 888개 · 치킨 카테고리 중가형 3위권 (교촌·bhc 다음)' },
+      { label: '검색 버즈', text: 'DataLab 1.08 안정 상승 · 뉴스 63건 = 치킨 카테고리 중 높은 언론 노출' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · KT 이미 운영 중 → SKT 단독 선점으로 치킨 카테고리 1위 포지션 가능' },
     ],
-    trend: '트렌드 0.99 · 블로그 10만 · 카페 15만 · 뉴스 34건',
+    trend: 'DataLab 1.08 · 블로그 13만 · 카페 12만 · 뉴스 63건',
     hot: false,
     skt: [],
-    kt:  null,
+    kt:  '달달혜택 현재 운영',
     lgu: null,
   },
 ];

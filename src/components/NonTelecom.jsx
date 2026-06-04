@@ -73,7 +73,7 @@ export default function NonTelecom() {
         'CJ ONE 포인트 적립 (PINK/BABY 0.5%, GREEN 이상 1.0%)',
         '올리브 데이 등급별 쿠폰 (매월 25일 지급)',
         '리디 포인트 1,000원 (매주 금요일 선착순)',
-        '청연·탈잉 최대 10% 쿠폰',
+        '청연 최대 10%·탈잉 최대 2만원 쿠폰',
         'GOLD·BLACK 전용 라운지 이용권 + 무료 포장',
       ],
       edge: '전국 1,300개+ 오프라인 매장 연동 온·오프 통합 등급 혜택',
@@ -91,7 +91,7 @@ export default function NonTelecom() {
       link: 'https://www.musinsa.com/onboarding/benefit',
       benefits: [
         '구매실적 기반 1~9레벨 등급 (9레벨 VVIP 신설)',
-        '등급별 장바구니 쿠폰 월 1회 (최대 5%, 다품목 적용)',
+        '아즈니섬 무료 커피 쿠폰 (매월 2장)',
         '관심 브랜드 쿠폰 최대 40%',
         '관심 상품 쿠폰 최대 30%',
         '출석체크·무퀴즈 랜덤 혜택 일 적립',
