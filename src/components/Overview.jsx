@@ -232,8 +232,8 @@ export default function Overview() {
         <div className="ovkey">
           <div className="ovkey-lbl">🔑 이번달 놓치면 안될 것</div>
           <div className="ovki-grid">
-            <a href="#sn" className="ovki ovki-warn">
-              <div className="ovki-cat">💬 고객반응</div>
+            <a href="#sn" className="ovki ovki-pos">
+              <div className="ovki-cat">💬 고객반응 <span className="ovki-skt ovki-skt-pos">SKT 호재</span></div>
               <div className="ovki-title">6월 전환 — SKT 0week 긍정·KT 1차 고객보답 부정 혼재</div>
               <ul className="ovki-list">
                 <li>SKT 0week(6.1~) — 6월 매드포갈릭·크리스탈제이드 0week 총정리 블로그 긍정·중립 다수</li>
@@ -242,8 +242,8 @@ export default function Overview() {
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>
-            <a href="#tr" className="ovki ovki-trend">
-              <div className="ovki-cat">📈 검색어 트렌드</div>
+            <a href="#tr" className="ovki ovki-neg">
+              <div className="ovki-cat">📈 검색어 트렌드 <span className="ovki-skt ovki-skt-neg">SKT 악재</span></div>
               <div className="ovki-title">SKT 6/01주 1.8 기간 최저 갱신 · KT·LGU+ 동반 급락</div>
               <ul className="ovki-list">
                 <li>SKT — 5/25주 2.7→6/01주 1.8 기간 최저 갱신 · 0week 개막에도 반등 미확인</li>
@@ -251,11 +251,11 @@ export default function Overview() {
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
-            <a href="#ai-matrix" className="ovki ovki-warn">
-              <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스</div>
+            <a href="#ai-matrix" className="ovki ovki-mix">
+              <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
               <div className="ovki-title">파리바게뜨 T day 열위 · CGV 우위 — KT 미공개로 비교 일부 보류</div>
               <ul className="ovki-list">
-                <li>SKT 0 week vs LGU+ 투쁠데이: 파리바게뜨 — LGU+ 낮은 진입 기준(2만원↑ vs SKT 3만원)으로 T day 열위</li>
+                <li>SKT 0 week vs LGU+ 투쁠데이: 파리바게뜨 — LGU+ 낮은 진입 기준(2만원 이상 vs SKT 3만원)으로 T day 열위</li>
                 <li>CGV — SKT 예매 8,500원+스낵쿠폰 2종 구성이 LGU+ 스낵세트 단독보다 우위</li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>

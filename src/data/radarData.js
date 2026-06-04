@@ -7,9 +7,8 @@ export const trendSignals = [
     brand: '스타벅스',
     membership: 'partner',
     telcos: [
-      { id: 'skt', label: 'SKT', prog: 'Tday 6월 미운영', benefit: '추첨 아메리카노 1잔 (5월 종료)' },
-      { id: 'kt', label: 'KT', prog: '상시', benefit: '음료 무료 사이즈업' },
-      { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: 'VIP 음료 무료 1잔' },
+      { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
+      { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
     ],
     strength: 'strong',
     sources: ['DataLab', '뉴스'],
@@ -20,7 +19,7 @@ export const trendSignals = [
     headline: [
       '6.1~14 선불충전금 전액 환불 접수 중 · 주간 결제액 321억→236억(80억↓) · 카카오톡 선물하기 1위→5위 밖',
       '불매 실효 지속 — 매출 84.7억↓(26.3% 감소) · 앱 신규 설치 23.6%↓ 수치로 확인됨',
-      '협력업체 발주 끊기고 매출 타격 확산 (5.29 뉴시스) · 환불 4,276억 규모 이탈 · SKT Tday 6월 미운영 · KT 상시·LGU+ VIP콕 유지',
+      '협력업체 발주 끊기고 매출 타격 확산 (5.29 뉴시스) · 환불 4,276억 규모 이탈',
     ],
     impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT Tday 6월 미운영 · 환불 접수 중(~6.14) · 주간 결제액 80억↓ 지속',
     links: [

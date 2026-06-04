@@ -18,7 +18,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>CGV</td><td>[전 등급] 최대 4,000원 할인 (11,000원↑)</td><td>[전 등급] 최대 5,000원 할인 (동반 4인, 일1회 2026.05.01~)</td><td>[전 등급] 2D영화 최대 4,000원 할인</td></tr>
-          <tr><td>메가박스</td><td>[전 등급] 최대 4,000원 할인</td><td>[전 등급] 최대 6,000원 할인 (1,000~6,000원)</td><td className="na">미제공</td></tr>
+          <tr><td>메가박스</td><td>[전 등급] 최대 4,000원 할인</td><td>[전 등급] 최대 6,000원 할인 (동반 4인)</td><td className="na">미제공</td></tr>
           <tr><td>롯데시네마</td><td className="na">미제공</td><td>[전 등급] 최대 5,000원 할인</td><td className="na">미제공</td></tr>
         </tbody>
       </table></div>
@@ -51,7 +51,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>에버랜드</td><td>[전 등급] 본인 40%·동반 3인 30% 할인</td><td>[전 등급] 본인 40%·동반 3인 20% 할인 (현장)</td><td className="na">미제공</td></tr>
-          <tr><td>롯데월드 어드벤처</td><td>[VIP/Gold] 본인 40%·동반 3인 30% 할인 · [Silver] 본인 40%·동반 3인 20% 할인</td><td>[전 등급] 본인 40%·동반 3인 30% 할인 (일1회)</td><td>[전 등급] 부산점 본인 25%·동반 3인 10% 할인</td></tr>
+          <tr><td>롯데월드 어드벤처</td><td>[VIP/Gold] 본인 40%·동반 3인 30% 할인 · [Silver] 본인 40%·동반 3인 20% 할인</td><td>[전 등급] 본인 40%·동반 3인 30% 할인 (일1회, 온/오프라인)</td><td>[전 등급] 부산점 본인 25%·동반 3인 10% 할인</td></tr>
         </tbody>
       </table></div>
 

@@ -148,7 +148,7 @@ const alCats = [
     reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 (Tday 월간 1~2회에 그침)'],
   },
   {
-    icon: '🛍', cat: '이커머스', v: 'warn',
+    icon: '🛍', cat: '이커머스', v: 'neut',
     nb: [
       { platform: '네이버플러스', items: [
         { partner: '네이버쇼핑', deadline: '월 20만원까지', rows: [{ grade: null, desc: '최대 5% Npay 포인트 적립' }] },
@@ -162,9 +162,9 @@ const alCats = [
     ],
     tm: [{ platform: 'T멤버십', items: [
       { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
-      { partner: '11번가', deadline: 'VIP PICK · 월간', rows: [{ grade: 'V', desc: '5,000원 할인 쿠폰 (2만원↑)' }] },
+      { partner: '11번가', deadline: 'VIP PICK · 월간', rows: [{ grade: 'V', desc: '5,000원 할인 쿠폰 (2만원 이상)' }] },
     ]}],
-    reasons: ['네이버플러스 5% 적립 + 쿠팡 로켓배송 무료 — 이커머스 전반 커버', 'T멤버십: 11번가 상시 11% + VIP PICK 5천원 쿠폰 (SK 생태계 한정)'],
+    reasons: ['T멤버십 11번가 11% > 비통신 5% — 혜택 수준은 T멤버십 우위', '비통신: 네이버쇼핑 전반 + 쿠팡 커버리지 우위 — 플랫폼 다양성에서 앞섬'],
   },
   // ── 유사 수준 ──
   {
@@ -265,7 +265,7 @@ const recs = [
     trend: 'DataLab 1.08 · 블로그 13만 · 카페 12만 · 뉴스 63건',
     hot: false,
     skt: [],
-    kt:  '달달혜택 현재 운영',
+    kt:  '달달혜택 운영 중',
     lgu: null,
   },
 ];
@@ -442,12 +442,6 @@ export default function AIInsight() {
                 ))
               )}
             </div>
-            {(r.kt !== null || r.lgu !== null) && (
-              <div className="rec-comp-row">
-                {r.kt  !== null && <span className="rcomp-badge rcomp-kt">KT 🟢 현재 운영</span>}
-                {r.lgu !== null && <span className="rcomp-badge rcomp-lgu">LGU+ 🟢 현재 운영</span>}
-              </div>
-            )}
           </div>
         ))}
       </div>
@@ -507,7 +501,6 @@ export default function AIInsight() {
                     );
                   })}
                 </div>
-                <div className="tr-impact">→ {s.impact}</div>
               </div>
             </div>
           ))}

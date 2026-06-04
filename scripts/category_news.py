@@ -16,6 +16,7 @@ import requests
 import json
 import re
 import time
+import unicodedata
 from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -126,6 +127,13 @@ priority 기준 (skip이면 1 고정):
 기사 목록:
 """
 
+# [F] 전 카테고리 공통 — 통신사 멤버십 직접 혜택 기사 제외 (S06 뉴스 스크랩과 중복)
+TELECOM_NOISE: list[str] = [
+    'T멤버십', 'T day', 'T데이', 'T-day',
+    'KT멤버십', '달달혜택', '달달초이스', '달달스페셜',
+    '유플투쁠', 'U+멤버십', 'VIP콕',
+]
+
 # [F] 제목 키워드 기반 카테고리별 노이즈 제거
 NOISE_TITLE: dict[str, list[str]] = {
     'benchmark': [
@@ -219,7 +227,7 @@ def fetch_broad_news(dl_scores: dict[str, dict]) -> list[dict]:
                 except Exception:
                     pub_date = ''
 
-                prefix   = title[:15]
+                prefix   = unicodedata.normalize('NFKC', title)[:18]
                 dl_data  = dl_scores.get(query, {})
                 dls      = dl_data.get('score', 0.0)
                 dlv      = dl_data.get('velocity', 0.0)
@@ -310,12 +318,17 @@ def classify_with_claude(articles: list[dict]) -> list[dict]:
 
 
 def _post_filter(classified: list[dict]) -> list[dict]:
-    """[F] NOISE_TITLE 키워드가 제목에 포함된 기사를 카테고리별로 제거"""
+    """[F] 노이즈 제거 — 통신사 멤버십 직접 혜택 기사(전 카테고리) + 카테고리별 노이즈"""
     result = []
     for a in classified:
-        cat = a.get('category', 'skip')
+        cat   = a.get('category', 'skip')
+        title = a['title']
+        # 전 카테고리: 통신사 멤버십 혜택 기사 제외 (S06과 중복)
+        if cat != 'skip' and any(kw in title for kw in TELECOM_NOISE):
+            continue
+        # 카테고리별 노이즈
         noisy = NOISE_TITLE.get(cat, [])
-        if noisy and any(kw in a['title'] for kw in noisy):
+        if noisy and any(kw in title for kw in noisy):
             continue
         result.append(a)
     return result
@@ -389,7 +402,7 @@ TOPIC_PROMPT = """\
 def assign_topics(top: dict[str, list]) -> tuple[dict[str, list], list[dict]]:
     """[C] Claude Haiku로 카테고리별 top 기사에 topic/insight 부여 + topic_groups 빌드"""
     client = anthropic.Anthropic(api_key=os.environ.get('ANTHROPIC_API_KEY', ''))
-    CAT_ORDER = ['risk', 'battle', 'benchmark', 'trend']
+    CAT_ORDER = ['trend', 'risk', 'battle', 'benchmark']  # trend 먼저 — 마지막일 때 토큰 부족 현상 방지
     result: dict[str, list] = {}
     topic_groups: list[dict] = []
 
@@ -402,24 +415,34 @@ def assign_topics(top: dict[str, list]) -> tuple[dict[str, list], list[dict]]:
         titles_text = '\n'.join(f'{i}. {a["title"]}' for i, a in enumerate(items))
         prompt = TOPIC_PROMPT + titles_text
 
-        try:
-            msg = client.messages.create(
-                model='claude-haiku-4-5-20251001',
-                max_tokens=2048,
-                messages=[{'role': 'user', 'content': prompt}],
-            )
-            raw = msg.content[0].text.strip()
-            raw = re.sub(r'^```json\s*', '', raw)
-            raw = re.sub(r'\s*```$', '', raw)
-            parsed      = json.loads(raw)
+        parsed = None
+        for attempt in range(2):  # 최대 2회 시도
+            try:
+                msg = client.messages.create(
+                    model='claude-haiku-4-5-20251001',
+                    max_tokens=4096,  # 2048 → 4096: JSON 잘림 방지
+                    messages=[{'role': 'user', 'content': prompt}],
+                )
+                raw = msg.content[0].text.strip()
+                # JSON 블록 추출 — 코드펜스 안팎 모두 처리
+                m = re.search(r'\[.*\]', raw, re.DOTALL)
+                raw = m.group(0) if m else raw
+                parsed = json.loads(raw)
+                break  # 성공
+            except Exception as e:
+                print(f'    토픽 부여 실패 [{cat}] 시도 {attempt + 1}/2: {e}')
+                if attempt == 0:
+                    time.sleep(1)
+
+        if parsed:
             topic_map   = {item['id']: item.get('topic', '') for item in parsed}
             insight_map = {item['id']: item.get('insight', '') for item in parsed}
             result[cat] = [
                 {**a, 'topic': topic_map.get(i, ''), 'insight': insight_map.get(i, '')}
                 for i, a in enumerate(items)
             ]
-        except Exception as e:
-            print(f'    토픽 부여 실패 [{cat}]: {e}')
+        else:
+            print(f'    토픽 부여 최종 실패 [{cat}] — topic 공백으로 저장')
             result[cat] = [{**a, 'topic': '', 'insight': ''} for a in items]
 
         time.sleep(0.3)

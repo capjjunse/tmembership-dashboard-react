@@ -17,13 +17,6 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
-            <td>2026.05.20</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+멤버십</td>
-            <td>우리동네 멤버십 제휴 일시 중단 지점 안내</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
             <td>2026.05.26</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십</td>
@@ -59,25 +52,11 @@ export default function History() {
             <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
-            <td>2026.04.30</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
-            <td>매드포갈릭 할인율 조정 — [전 등급] 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5% (6.1~)</td>
+            <td>2026.05.20</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+멤버십</td>
+            <td>우리동네 멤버십 제휴 일시 중단 지점 안내</td>
             <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.04.30</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
-            <td>CGV 동반할인 3인→4인까지 확대 (5.1~)</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.04.30</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
-            <td>앱티핏 제휴 종료 (6.1)</td>
-            <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
             <td>2026.05.15</td>
@@ -106,6 +85,27 @@ export default function History() {
             <td>U+멤버십 상시</td>
             <td>6월 신규 4개 — 모던하우스(상품 20%↑), 유니스터디(단과 50%), 위피(젤리 15개), B1불스원카케어(세차 10%+엔진오일 2만원↓) (6.1~)</td>
             <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
+            <td>2026.04.30</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td>매드포갈릭 할인율 조정 — [전 등급] 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5% (6.1~)</td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td>2026.04.30</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td>CGV 동반할인 3인→4인까지 확대 (5.1~)</td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td>2026.04.30</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td>앱티핏 제휴 종료 (6.1)</td>
+            <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
             <td>2026.04.30</td>
