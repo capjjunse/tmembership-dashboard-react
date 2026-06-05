@@ -100,7 +100,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">럭키위크 테마 0 week 완료 · T day 1주차(6.8~) 공개 대기 — 검색량 2.2 연속 하락세</div>
+            <div className="ov"><span className="upd">럭키위크 테마 0 week 완료 · T day 1주차(6.8~) 공개 대기 — 검색량 2.2 연속 하락세</span></div>
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
@@ -112,7 +112,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">럭키위크 T day — 0 week 완료(6.1~6.5) · 1주차 요기요×호식이두마리치킨(6.8~) · 2~3주차 미공개</span>
+                <span className="od-txt"><span className="upd">럭키위크 T day — 0 week 완료(6.1~6.5) · 1주차 요기요×호식이두마리치킨(6.8~) · 2~3주차 미공개</span></span>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">6월 달달혜택 미공개 · 6/01주 검색량 2.7 급락 — 이벤트 부재 시 관심 저하 패턴 반복</div>
+            <div className="ov"><span className="upd">6월 달달혜택 미공개 · 6/01주 검색량 2.7 급락 — 이벤트 부재 시 관심 저하 패턴 반복</span></div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
@@ -246,17 +246,17 @@ export default function Overview() {
               <div className="ovki-cat">📈 검색어 트렌드 <span className="ovki-skt ovki-skt-neg">SKT 악재</span></div>
               <div className="ovki-title">SKT 6/01주 2.2 · KT 2.7 — 두 통신사 동반 하락, SKT 연속 하락세</div>
               <ul className="ovki-list">
-                <li>SKT — 5/25주 2.7→6/01주 2.2 하락세 지속 · 0week 개막에도 반등 미확인</li>
-                <li>KT — 5/25주 4.2→6/01주 2.7 급락, 달달혜택 미공개 이벤트 의존 구조 재확인</li>
+                <li><span className="upd">SKT — 5/25주 2.7→6/01주 2.2 하락세 지속 · 0week 개막에도 반등 미확인</span></li>
+                <li><span className="upd">KT — 5/25주 4.2→6/01주 2.7 급락, 달달혜택 미공개 이벤트 의존 구조 재확인</span></li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title">CGV T day 우위 · 파리바게뜨·스피드메이트 비교 불가 — KT 미공개 비교 보류</div>
+              <div className="ovki-title"><span className="upd">CGV T day 우위 · 파리바게뜨·스피드메이트 비교 불가 — KT 미공개 비교 보류</span></div>
               <ul className="ovki-list">
                 <li>CGV — SKT 0 week 예매 8,500원+스낵쿠폰 2종이 LGU+ 투쁠데이 스낵세트 단독보다 우위</li>
-                <li>파리바게뜨·스피드메이트 — 할인 단위 불일치로 직접 비교 불가 (SKT vs LGU+)</li>
+                <li><span className="upd">파리바게뜨·스피드메이트 — 할인 단위 불일치로 직접 비교 불가 (SKT vs LGU+)</span></li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>
