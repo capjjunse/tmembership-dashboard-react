@@ -38,9 +38,9 @@ const compGroups = [
         skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원 할인/적립 (최대 6천원)' }], date: '6.1~6.5 · 0 week' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원↑)' }], date: '6.11 · 투쁠데이 1차 / 6.25 · 장기고객데이' },
-        v: 'warn',
-        basis: 'LGU+ 2만원↑ 기준, SKT는 3만원에서 동일 한도',
-        note: 'LGU+ 2회 운영 (투쁠데이+장기고객), SKT 0 week',
+        v: 'neut',
+        basis: '비교 불가',
+        note: 'SKT 20% 명시 vs LGU+ 정률/정액 미표기 — 공식 페이지 할인율 미기재로 단위 비교 불가',
       },
       {
         brand: '스피드메이트',
