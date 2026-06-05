@@ -222,11 +222,11 @@ const recs = [
     rank: 1,
     brand: '설빙',
     tag: '매장 596개 · DataLab 📈1.28',
-    reason: '6월 여름 성수기 본격 진입 · DataLab 1.28 상승세 지속. VIP Pick 7월 계약 예정 — Tday 재계약으로 KT·LGU+ 미운영 상태 단독 선점 완성 가능.',
+    reason: '6월 여름 성수기 본격 진입 · DataLab 1.28 상승세 지속. KT·LGU+ 미운영 상태로 단독 선점 가능.',
     reach: [
       { label: '매장 규모', text: '전국 596개 · 아이스디저트 카테고리 1위' },
       { label: '검색 버즈', text: '전월比 +28% 급증 · 블로그 74만은 공차(72만)·메가커피(68만) 동급 · 여름 성수기 가속' },
-      { label: '제휴 포인트', text: 'VIP Pick 7월 예정 · Tday 재계약으로 여름 시즌 전체 커버 가능 · KT·LGU+ 모두 미운영' },
+      { label: '제휴 포인트', text: 'Tday 재계약으로 여름 시즌 커버 가능 · KT·LGU+ 모두 미운영' },
     ],
     trend: 'DataLab 1.28 · 블로그 74만 · 카페 25만 · 뉴스 79건',
     hot: true,
