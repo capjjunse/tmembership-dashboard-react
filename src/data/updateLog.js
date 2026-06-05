@@ -6,4 +6,5 @@ export const updateItems = [
   { section: '#mo', label: '월간혜택', desc: 'LGU+ 투쁠데이 전체 라인업 반영' },
   { section: '#rg', label: '상시혜택', desc: 'LGU+ 도미노·피자헛 최대금액 조건 추가' },
   { section: '#ai-radar', label: '이슈 레이더', desc: '스타벅스 환불 접수 중 · 협력업체 매출 타격 확산' },
+  { section: '#ov', label: '핵심동향', desc: '검색량 수치 갱신(SKT 2.2·KT 2.7) · AI인사이트 파리바게뜨 비교 오류 수정' },
 ];

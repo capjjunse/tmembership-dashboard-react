@@ -59,7 +59,7 @@ const compGroups = [
         lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '6.18 · 투쁠데이 3차' },
         v: 'good',
         basis: 'SKT 예매 할인+스낵쿠폰 vs LGU+ 스낵세트만',
-        note: 'SKT 5일 운영 vs LGU+ 1일',
+        note: 'SKT 0 week 5일+3주차 5일 vs LGU+ 1일',
       },
     ],
   },
@@ -88,8 +88,8 @@ const alCats = [
     ]}],
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
-      { partner: 'G car', deadline: 'VIP PICK · 월간', rows: [{ grade: 'V', desc: '대여료 60%+보험료 5% 할인 (2시간 이상)' }] },
-      { partner: 'TMAP 렌터카', deadline: 'VIP PLUS · 월간', rows: [{ grade: 'V', desc: '10,000원 할인 쿠폰' }] },
+      { partner: 'G car', deadline: 'VIP PICK · 6월', rows: [{ grade: 'V', desc: '대여료 60%+보험료 5% 할인 (2시간 이상)' }] },
+      { partner: 'TMAP 렌터카', deadline: 'VIP PLUS · 6월', rows: [{ grade: 'V', desc: '10,000원 할인 쿠폰 (5만원 이상 결제 시)' }] },
     ]}],
     reasons: ['T멤버십: SK렌터카 상시 + G car VIP PICK 60% · TMAP 렌터카 PLUS까지 렌터카 3종 커버', '네이버플러스: 쏘카 50% 기간한정 (~26.06.30) · 경유 조건 있음'],
   },
@@ -101,8 +101,8 @@ const alCats = [
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
-      { partner: 'VIP PICK · 월간', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '파스쿠찌 40%(최대 7,000원) / 쉐이크쉑 바닐라쉐이크 2,000원 / 피자헛 크래프티드세트 10,000원 또는 파스타 무료 중 택1' }] },
-      { partner: '고반식당', deadline: 'VIP PLUS · 월간', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상 구매 시)' }] },
+      { partner: 'VIP PICK · 6월', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '파스쿠찌 40%(최대 7,000원) / 쉐이크쉑 바닐라쉐이크 2,000원 / 피자헛 크래프티드세트 10,000원 또는 파스타 무료 중 택1' }] },
+      { partner: '고반식당', deadline: 'VIP PLUS · 6월', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상 구매 시)' }] },
     ]}],
     reasons: ['T멤버십: 상시 10~30% + 0 week 이디야커피·매드포갈릭 VIP 최대 50% + VIP PICK 파스쿠찌·쉐이크쉑·피자헛 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
@@ -110,12 +110,15 @@ const alCats = [
     icon: '🎡', cat: '테마파크', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
+      { partner: '에버랜드', deadline: '상시', rows: [
+        { grade: '전 등급', desc: '본인 40% 할인, 동반 3인 30% 할인' },
+      ]},
       { partner: '롯데월드어드벤처', deadline: '상시', rows: [
         { grade: 'V', desc: '본인 40% 할인, 동반 3인 30% 할인' },
         { grade: 'G, S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
       ]},
     ]}],
-    reasons: ['T멤버십: 롯데월드 종합이용권 본인 40%+동반 할인 상시 운영', '비통신 멤버십: 테마파크 제휴 없음'],
+    reasons: ['T멤버십: 에버랜드·롯데월드 본인 40%+동반 30% 상시 2종 운영', '비통신 멤버십: 테마파크 제휴 없음'],
   },
   // ── T멤버십 열위 ──
   {
@@ -163,7 +166,7 @@ const alCats = [
     ],
     tm: [{ platform: 'T멤버십', items: [
       { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
-      { partner: '11번가', deadline: 'VIP PICK · 월간', rows: [{ grade: 'V', desc: '5,000원 할인 쿠폰 (2만원 이상 구매 시)' }] },
+      { partner: '11번가', deadline: 'VIP PICK · 6월', rows: [{ grade: 'V', desc: '5,000원 할인 쿠폰 (2만원 이상 구매 시)' }] },
     ]}],
     reasons: ['T멤버십 11번가 11% > 비통신 5% — 혜택 수준은 T멤버십 우위', '비통신: 네이버쇼핑 전반 + 쿠팡 커버리지 우위 — 플랫폼 다양성에서 앞섬'],
   },
@@ -221,15 +224,31 @@ const alVdLabel = { warn: 'T멤버십 열위', good: 'T멤버십 우위', neut: 
 const recs = [
   {
     rank: 1,
+    brand: '청년다방',
+    tag: '매장 269개 · DataLab 📈1.50',
+    reason: 'DataLab 1.50 급상승으로 분식 카테고리 검색 버즈 1위 등극. 저단가 고빈도 구조로 월간 혜택 건수 채우기 가장 유리한 브랜드. SKT 미참여 — 선점 기회.',
+    reach: [
+      { label: '매장 규모', text: '전국 269개 · 분식 카테고리 빠른 확장 중인 성장형 브랜드' },
+      { label: '검색 버즈', text: 'DataLab 1.50 (전월比 +17p 급상승) · 블로그 22만 · 카페 9만 · 뉴스 63건' },
+      { label: '제휴 포인트', text: '저단가(5천~1만원대) 고빈도 방문 구조 → 월간 혜택 건수 누적에 유리' },
+    ],
+    trend: 'DataLab 1.50 · 블로그 22만 · 카페 9만 · 뉴스 63건',
+    hot: true,
+    skt: [],
+    kt:  null,
+    lgu: null,
+  },
+  {
+    rank: 2,
     brand: '설빙',
-    tag: '매장 596개 · DataLab 📈1.28',
-    reason: '6월 여름 성수기 본격 진입 · DataLab 1.28 상승세 지속. 아이스디저트 카테고리 단독 선점 기회.',
+    tag: '매장 596개 · DataLab 📈1.40',
+    reason: '여름 신메뉴 4종 출시(5.28~) · DataLab 1.40 급상승. 아이스디저트 카테고리 SKT 3개월 공백 — 여름 성수기 재계약 타이밍.',
     reach: [
       { label: '매장 규모', text: '전국 596개 · 아이스디저트 카테고리 1위' },
-      { label: '검색 버즈', text: '전월比 +28% 급증 · 블로그 74만은 공차(72만)·메가커피(68만) 동급 · 여름 성수기 가속' },
-      { label: '제휴 포인트', text: 'Tday 재계약으로 여름 시즌 전체 커버 가능' },
+      { label: '검색 버즈', text: 'DataLab 1.40 지속 상승 · 수박화채·메론빙수 SNS 확산 · 블로그 74만 · 뉴스 73건' },
+      { label: '제휴 포인트', text: 'Tday 재계약으로 여름 시즌 전체 커버 가능 (최근 3개월 공백 해소 시 효과 큼)' },
     ],
-    trend: 'DataLab 1.28 · 블로그 74만 · 카페 25만 · 뉴스 79건',
+    trend: 'DataLab 1.40 · 블로그 74만 · 카페 25만 · 뉴스 73건',
     hot: true,
     skt: [
       { prog: 'Tday', active: false, last: '2026.03', gap: '3개월 공백' },
@@ -238,32 +257,16 @@ const recs = [
     lgu: null,
   },
   {
-    rank: 2,
-    brand: '청년다방',
-    tag: '매장 271개 · DataLab 📈1.33',
-    reason: '6월까지 꾸준히 상승 중 (DataLab 1.33). 저가 분식 카테고리로 방문 빈도 높음. SKT 미참여 — 선점 기회.',
-    reach: [
-      { label: '매장 규모', text: '전국 271개 · 분식 카테고리 빠른 확장 중인 성장형 브랜드' },
-      { label: '검색 버즈', text: '지속 상승 (DataLab 1.33) · 뉴스 70건 = 경쟁사 대비 2~3배 언론 노출' },
-      { label: '제휴 포인트', text: '저단가(5천~1만원대) 고빈도 방문 구조 → 월간 혜택 건수 누적에 유리' },
-    ],
-    trend: 'DataLab 1.33 · 블로그 22만 · 뉴스 70건',
-    hot: true,
-    skt: [],
-    kt:  null,
-    lgu: null,
-  },
-  {
     rank: 3,
     brand: '노랑통닭',
-    tag: '매장 888개 · DataLab 1.08',
-    reason: '6월 치킨 카테고리 Top3 전국망. SKT 미참여 상태 — 중량표시제 참여로 소비자 신뢰 회복 중. 치킨 카테고리 선점 기회.',
+    tag: '매장 889개 · DataLab ↗1.15',
+    reason: '치킨 카테고리 전국망 889개. SKT 미참여 상태 — 중량표시제 자발적 참여로 소비자 신뢰 회복 중. 치킨 카테고리 선점 기회.',
     reach: [
-      { label: '매장 규모', text: '전국 888개 · 치킨 카테고리 중가형 3위권 (교촌·bhc 다음)' },
-      { label: '검색 버즈', text: 'DataLab 1.08 안정 상승 · 뉴스 63건 = 치킨 카테고리 중 높은 언론 노출' },
+      { label: '매장 규모', text: '전국 889개 · 치킨 카테고리 중가형 3위권 (교촌·bhc 다음)' },
+      { label: '검색 버즈', text: 'DataLab 1.15 상승 · 뉴스 64건 = 치킨 카테고리 중 높은 언론 노출' },
       { label: '제휴 포인트', text: 'SKT 미참여 — 치킨 카테고리 선점으로 1위 포지션 가능' },
     ],
-    trend: 'DataLab 1.08 · 블로그 13만 · 카페 12만 · 뉴스 63건',
+    trend: 'DataLab 1.15 · 블로그 13만 · 카페 12만 · 뉴스 64건',
     hot: false,
     skt: [],
     kt:  null,
@@ -521,7 +524,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer">2026.06.04 스캔 · 매주 크롤링 후 수동 반영</div>
+        <div className="tr-footer">2026.06.05 스캔 · 매주 크롤링 후 수동 반영</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

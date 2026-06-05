@@ -116,7 +116,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>GS25</td><td>[전 등급] 매주 화요일 신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)</td><td>[VVIP/VIP/골드] 100원 할인 · [실버/일반] 50원 할인 (일 최대 2만원)</td><td>[VVIP/VIP] 100원 할인 · [우수] 50원 할인 (일 최대 2만원, 월 10만원)</td></tr>
-          <tr><td>CU</td><td>[VIP/Gold] 100원 할인 · [Silver] 50원 할인</td><td>[전 등급] 오전5~9시 간편식 200원 할인 (일1회, 월 2만원 한도)</td><td className="na">미제공</td></tr>
+          <tr><td>CU</td><td>[VIP/Gold] 100원 할인 · [Silver] 50원 할인</td><td>[전 등급] 오전5~9시 간편식 1,000원당 200원 할인 (일1회, 최대 1,000원)</td><td className="na">미제공</td></tr>
           <tr><td>세븐일레븐</td><td>[VIP/Gold] 100원 할인 · [Silver] 50원 할인</td><td className="na">미제공</td><td className="na">미제공</td></tr>
         </tbody>
       </table></div>
