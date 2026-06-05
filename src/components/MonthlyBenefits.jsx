@@ -71,6 +71,12 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
           </div>
+          <div className="mpnt">
+            <div className="mpnt-hd">📌 이달 포인트</div>
+            <ul className="mpnt-list">
+              <li style={{ color: 'var(--tx3)' }}>달달혜택 공개 후 업데이트 예정 (매월 15일경)</li>
+            </ul>
+          </div>
         </div>
         <div className="mc">
           <div className="mch ml">
