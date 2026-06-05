@@ -34,17 +34,28 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>0 week (6.8~6.12)</div>
               <ul className="mblist">
+                <li>메가MGC커피 아이스 아메리카노 50% 할인</li>
+                <li>투썸플레이스 제조 음료 40% 할인 · 조각 케이크 40% 할인</li>
+                <li>바나프레소 인기음료 2종 50% 할인</li>
+                <li>배스킨라빈스 블록팩 1+1</li>
+                <li>NOL티켓 뮤지컬 빌리 엘리어트 35% 할인 (~6.30) · 전시 키크니 특별전 40% 할인 (~6.30)</li>
+                <li>럭키찬스: One Universe Festival 무료관람권 (7.26 · 100명) / 토이콘 서울 무료관람권 (7.30~8.2 · 250명)</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (6.8~6.12)</div>
+              <ul className="mblist">
                 <li>요기요×호식이두마리치킨 6,000원 할인 (VIP 8,000원)</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (6.17)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 2주차 (6.17)</div>
               <ul className="mblist">
                 <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 17일 공개 예정</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 2주차 (6.24)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 3주차 (6.24)</div>
               <ul className="mblist">
                 <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 24일 공개 예정</li>
               </ul>
@@ -54,7 +65,7 @@ export default function MonthlyBenefits() {
             <div className="mpnt-hd">📌 이달 포인트</div>
             <ul className="mpnt-list">
               <li>럭키위크 T day 테마 — Week 혜택(6.1~6.5) 식음·리빙·뷰티·라이프 다양</li>
-              <li>0 week 요기요×호식이두마리치킨 (6.8~6.12) · T day 1·2주차 공개 대기</li>
+              <li>0 week(6.8~6.12) 카페·공연·전시 집중 · T day 1주차 요기요×호식이두마리치킨 동시 운영 · 2·3주차 공개 대기</li>
             </ul>
           </div>
         </div>
