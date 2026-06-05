@@ -157,6 +157,3 @@ export default function MonthlyBenefits() {
     </div>
   );
 }
-    </div>
-  );
-}
