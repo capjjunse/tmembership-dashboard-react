@@ -14,7 +14,7 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>0 week (6.1~6.5)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>Week 혜택 (6.1~6.5)</div>
               <ul className="mblist">
                 <li>파리바게뜨 1,000원당 200원/P 할인/적립</li>
                 <li>매드포갈릭 30% 할인 (VIP 50%)</li>
@@ -32,19 +32,19 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (6.8~6.12)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>0 week (6.8~6.12)</div>
               <ul className="mblist">
                 <li>요기요×호식이두마리치킨 6,000원 할인 (VIP 8,000원)</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 2주차 (6.17)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 1주차 (6.17)</div>
               <ul className="mblist">
                 <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 17일 공개 예정</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 3주차 (6.24)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 2주차 (6.24)</div>
               <ul className="mblist">
                 <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 24일 공개 예정</li>
               </ul>
@@ -53,8 +53,8 @@ export default function MonthlyBenefits() {
           <div className="mpnt">
             <div className="mpnt-hd">📌 이달 포인트</div>
             <ul className="mpnt-list">
-              <li>럭키위크 T day 테마 — 이달 전체 시즌 브랜딩. 0 week 식음·리빙·뷰티·라이프 다양</li>
-              <li>0 week 운영 중 (6.1~6.5) · 1주차 요기요×호식이두마리치킨 예고 공개 (6.8~6.12) · 2·3주차 공개 대기</li>
+              <li>럭키위크 T day 테마 — Week 혜택(6.1~6.5) 식음·리빙·뷰티·라이프 다양</li>
+              <li>0 week 요기요×호식이두마리치킨 (6.8~6.12) · T day 1·2주차 공개 대기</li>
             </ul>
           </div>
         </div>
