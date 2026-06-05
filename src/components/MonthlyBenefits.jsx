@@ -50,6 +50,13 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
           </div>
+          <div className="mpnt">
+            <div className="mpnt-hd">📌 이달 포인트</div>
+            <ul className="mpnt-list">
+              <li>럭키위크 T day 테마 — 이달 전체 시즌 브랜딩. 0 week 식음·리빙·뷰티·라이프 다양</li>
+              <li>0 week 운영 중 (6.1~6.5) · 1주차 요기요×호식이두마리치킨 예고 공개 (6.8~6.12) · 2·3주차 공개 대기</li>
+            </ul>
+          </div>
         </div>
         <div className="mc">
           <div className="mch mk">
@@ -137,20 +144,8 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="mpnt-section">
-        <div className="mpnt-hd2">📌 이달 포인트</div>
-        <div className="mpnt-row">
-          <div className="mpnt-card mpnt-skt">
-            <div className="mpnt-carrier">SKT</div>
-            <ul className="mpnt-list">
-              <li>럭키위크 T day 테마 — 이달 전체 시즌 브랜딩. 0 week 식음·리빙·뷰티·라이프 다양</li>
-              <li>0 week 운영 중 (6.1~6.5) · 1주차 요기요×호식이두마리치킨 예고 공개 (6.8~6.12) · 2·3주차 공개 대기</li>
-            </ul>
-          </div>
-          <div className="mpnt-card mpnt-lgu">
-            <div className="mpnt-carrier">LGU+</div>
+          <div className="mpnt">
+            <div className="mpnt-hd">📌 이달 포인트</div>
             <ul className="mpnt-list">
               <li>FIFA 월드컵 매치데이 3탄 운영 — 6/12(GS25) · 6/19(피자헛 55%·공차 50%·서울랜드 55%) · 6/25(노브랜드·파바)</li>
               <li>응원 음식 집중: 배달의민족×처갓집 9천원 할인 (6/17) · CGV 팝콘+음료 무료 (6/18)</li>
@@ -159,6 +154,9 @@ export default function MonthlyBenefits() {
           </div>
         </div>
       </div>
+    </div>
+  );
+}
     </div>
   );
 }
