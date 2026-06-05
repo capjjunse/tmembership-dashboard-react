@@ -92,10 +92,10 @@ export default function MonthlyBenefits() {
                 <li>웅진플레이도시 54% 할인 (동반3인)</li>
                 <li>스피드메이트 엔진오일 할인 + 정비 4종</li>
                 <li>파리바게뜨 최대 6천원 할인 (2만원 이상 구매 시)</li>
-                <li>투루카 최대 1.6만원 할인 (6시간 이상 렌트 시)</li>
+                <li><span className="upd">투루카 최대 1.6만원 할인 (6시간 이상 렌트 시)</span></li>
                 <li>카페 스와로브스키 스완라떼 1+1</li>
                 <li>신라아이파크면세점 아이캐시 3천원 + 선불카드 2.5만원</li>
-                <li>GS25 롯데 월드콘 60% 할인 (GS Pay로 결제 시)</li>
+                <li><span className="upd">GS25 롯데 월드콘 60% 할인 (GS Pay로 결제 시)</span></li>
                 <li>엘리하이/엠베스트 무료체험 + 4만원 상당 혜택 증정</li>
               </ul>
             </div>
@@ -105,7 +105,7 @@ export default function MonthlyBenefits() {
                 <li>배스킨라빈스 패밀리 사이즈 최대 9천원 할인</li>
                 <li>컬리 5천원 + 웰컴백 1만원 할인쿠폰</li>
                 <li>쿠캣 20% 할인 (5만원 이상 최대 3만원)</li>
-                <li>롯데백화점몰 1만원 쿠폰 (3만원 이상 구매 시) / 그리팅 2만원 할인 (5.5만원 이상 구매 시)</li>
+                <li><span className="upd">롯데백화점몰 1만원 쿠폰 (3만원 이상 구매 시) / 그리팅 2만원 할인 (5.5만원 이상 구매 시)</span></li>
                 <li>씨네Q 8천원 관람권 증정</li>
                 <li>아웃백 최대 25% 할인 / 모던하우스 30%+20%</li>
                 <li>하프클럽 30% + 온리하프 35% 중복쿠폰</li>
@@ -118,14 +118,14 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: 'var(--lgu)' }}></span>투쁠데이 3차 (6/17·18·19)</div>
               <ul className="mblist">
-                <li>배민×처갓집 9천원 할인 (1.6만원 이상 주문 시) / 투썸 조각케이크 구매 시 아메리카노 무료</li>
-                <li>CJ더마켓 1.3만원 할인 (5만원 이상 구매 시) / 오뚜기몰 최대 30% 할인 (최대 2만원)</li>
-                <li>아쿠아플라넷 최대 40% / 롯데렌터카 최대 1만원 할인 (24시간 이상 대여 시)</li>
+                <li><span className="upd">배민×처갓집 9천원 할인 (1.6만원 이상 주문 시) / 투썸 조각케이크 구매 시 아메리카노 무료</span></li>
+                <li>CJ더마켓 1.3만원 할인 (5만원 이상 구매 시) / <span className="upd">오뚜기몰 최대 30% 할인 (최대 2만원)</span></li>
+                <li>아쿠아플라넷 최대 40% / <span className="upd">롯데렌터카 최대 1만원 할인 (24시간 이상 대여 시)</span></li>
                 <li>노브랜드 냉메밀소바 무료 / CGV 유플투쁠세트(팝콘+음료) 무료</li>
                 <li>윌라스토리 300젤리 / 아워홈몰 20% (5만원 이상 최대 2만원)</li>
                 <li>스파오 최대 1.5만원 할인 (5만원 이상 구매 시) / 포텔리어 최대 3개월 구독권</li>
                 <li>피자헛 55% + 리치치즈파스타 증정</li>
-                <li>공차 최대 50% (1만원 이상 주문 시) / 서울랜드 55% 할인</li>
+                <li><span className="upd">공차 최대 50% (1만원 이상 주문 시)</span> / 서울랜드 55% 할인</li>
                 <li>B1불스원카케어 세차 20% + 엔진오일 2.5만원 할인</li>
                 <li>위피 젤리 30개 / 비플레인 최대 40% 할인 (최대 2만원)</li>
               </ul>
@@ -137,7 +137,7 @@ export default function MonthlyBenefits() {
                 <li>다이소 최대 2천원 금액권 / CU 최대 65% 할인</li>
                 <li>LG생활건강 비욘드 핸드크림 3종 증정</li>
                 <li>메디코치 첫달 50% + 매월 5천원 할인 (연간)</li>
-                <li>사조몰 30% (3만원 이상 구매 시, 최대 2만원) / 베베쿡 30% 할인</li>
+                <li><span className="upd">사조몰 30% (3만원 이상 구매 시, 최대 2만원)</span> / 베베쿡 30% 할인</li>
               </ul>
             </div>
             <div className="mblk">
