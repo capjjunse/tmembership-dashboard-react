@@ -317,11 +317,17 @@ function renderCarrier(data, colorClass) {
 export default function AIInsight() {
   const trGridRef = useRef(null);
   useEffect(() => {
-    const cards = trGridRef.current?.querySelectorAll('.tr-card');
-    if (!cards?.length) return;
-    cards.forEach(c => { c.style.minHeight = ''; });
-    const maxH = Math.max(...Array.from(cards).map(c => c.offsetHeight));
-    cards.forEach(c => { c.style.minHeight = maxH + 'px'; });
+    const g = trGridRef.current;
+    if (!g) return;
+    const equalize = (sel) => {
+      const els = g.querySelectorAll(sel);
+      if (!els.length) return;
+      els.forEach(el => { el.style.minHeight = ''; });
+      const maxH = Math.max(...Array.from(els).map(el => el.offsetHeight));
+      els.forEach(el => { el.style.minHeight = maxH + 'px'; });
+    };
+    equalize('.tr-card');
+    equalize('.tr-foot');
   }, []);
 
   return (
