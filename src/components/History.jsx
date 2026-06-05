@@ -27,7 +27,7 @@ export default function History() {
             <td>2026.05.26</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T멤버십 상시</td>
-            <td>후지필름 신규 제휴 — 포토북 40%+사진인화 20%+액세서리 10%+무료배송권(2만원↑) (6.15~)</td>
+            <td>후지필름 신규 제휴 — 포토북 40%+사진인화 20%+액세서리 10%+무료배송권(2만원 이상) (6.15~)</td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
@@ -83,7 +83,7 @@ export default function History() {
             <td>2026.05.11</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십 상시</td>
-            <td>6월 신규 4개 — 모던하우스(상품 20%↑), 유니스터디(단과 50%), 위피(젤리 15개), B1불스원카케어(세차 10%+엔진오일 2만원↓) (6.1~)</td>
+            <td>6월 신규 4개 — 모던하우스(상품 20% 이상), 유니스터디(단과 50%), 위피(젤리 15개), B1불스원카케어(세차 10%+엔진오일 2만원↓) (6.1~)</td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>

@@ -33,7 +33,7 @@ export default function News() {
             <div className="nmeta">2026-05-26 · <a href="https://news.sktelecom.com/225239" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">SKT 'T 장기고객 숲캉스 데이' 성료 — 10년↑ 장기고객 1,800명 초청, 최대 863:1 경쟁률</span></div>
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">SKT 'T 장기고객 숲캉스 데이' 성료 — 10년 이상 장기고객 1,800명 초청, 최대 863:1 경쟁률</span></div>
             <div className="nsum">T멤버십 앱 응모로 진행. 에버랜드 단독 대관 체험 이벤트. 파인 다이닝·놀이공원·뮤지컬 등 장기고객 전용 초청 이벤트 지속 예정으로, SKT 장기고객 우대 전략 강화 기조 확인.</div>
             <div className="nmeta">2026-05-19 · <a href="https://news.sktelecom.com/225016" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
@@ -59,7 +59,7 @@ export default function News() {
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT 멤버십 5월 고객보답 2차 — 투썸플레이스 50%·배민×노랑통닭 8천원 (5.18~31)</span></div>
-            <div className="nsum">KT멤버십 5월 고객보답 2차로 투썸플레이스 전 메뉴 50%(최대 5천원) 또는 배달의민족×노랑통닭 8천원 할인(16천원↑) 중 택1. 5.18~31 전 등급 이용 가능.</div>
+            <div className="nsum">KT멤버십 5월 고객보답 2차로 투썸플레이스 전 메뉴 50%(최대 5천원) 또는 배달의민족×노랑통닭 8천원 할인(16천원 이상) 중 택1. 5.18~31 전 등급 이용 가능.</div>
             <div className="nmeta">2026-05-15 · <a href="https://biz.heraldcorp.com/article/10738436" target="_blank" rel="noreferrer">헤럴드경제</a></div>
           </div>
           <div className="nc">
@@ -88,7 +88,7 @@ export default function News() {
             <div className="nmeta">2026-06-01 · <a href="https://www.newspim.com/news/view/20260601001109" target="_blank" rel="noreferrer">뉴스핌</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">LGU+ 장기고객 대상 '레고랜드 RUN' 체험형 행사 성황 — VIP↑·5년이상 4천명 초청</span></div>
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">LGU+ 장기고객 대상 '레고랜드 RUN' 체험형 행사 성황 — VIP 이상·5년이상 4천명 초청</span></div>
             <div className="nsum">강원도 춘천 레고랜드 코리아에서 멤버십 VIP 이상 5년 이상 장기고객 4천명 대상 참여형 프로그램 진행. 가정의 달 맞아 가족 콘텐츠 구성. 장기고객 대상 체험형 행사 연속 개최로 우대 전략 지속 강화.</div>
             <div className="nmeta">2026-05-18 · <a href="https://news.lguplus.com/21847" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
