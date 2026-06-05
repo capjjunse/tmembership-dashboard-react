@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import cnData from '../../category_news.json';
 import { CategoryNewsContent } from './CategoryNews';
 import { trendSignals } from '../data/radarData';
@@ -314,6 +315,15 @@ function renderCarrier(data, colorClass) {
 }
 
 export default function AIInsight() {
+  const trGridRef = useRef(null);
+  useEffect(() => {
+    const cards = trGridRef.current?.querySelectorAll('.tr-card');
+    if (!cards?.length) return;
+    cards.forEach(c => { c.style.minHeight = ''; });
+    const maxH = Math.max(...Array.from(cards).map(c => c.offsetHeight));
+    cards.forEach(c => { c.style.minHeight = maxH + 'px'; });
+  }, []);
+
   return (
     <div className="sec" id="ai">
       <div className="sh">
@@ -452,7 +462,7 @@ export default function AIInsight() {
           <span className="ai-sec-title">🔍 제휴사 이슈 레이더</span>
           <span className="ai-sec-desc">제휴 브랜드 이슈 모니터링 · 뉴스 {news7dPeriod(RADAR_SCANNED)}</span>
         </div>
-        <div className="tr-grid">
+        <div className="tr-grid" ref={trGridRef}>
           {trendSignals.map((s, i) => (
             <div key={i} className={`tr-card tr-card-${s.direction} tr-str-${s.strength}`}>
               {/* 헤더: 브랜드명 + 방향/강도 — 색상으로 즉시 인지 */}
