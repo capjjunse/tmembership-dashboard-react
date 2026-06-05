@@ -27,7 +27,7 @@ export default function History() {
             <td>2026.05.26</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T멤버십 상시</td>
-            <td>후지필름 신규 제휴 — 포토북 40%+사진인화 20%+액세서리 10%+무료배송권(2만원 이상) (6.15~)</td>
+            <td>후지필름 신규 제휴 — 포토북 40%+사진인화 20%+액세서리 10%+무료배송권(2만원 이상 구매 시) (6.15~)</td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
