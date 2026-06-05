@@ -534,3 +534,25 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .tr-tc-none .tr-tc-benefit{color:var(--tx3)}
 .tr-impact{font-size:11.5px;color:var(--tx2);line-height:1.65}
 .tr-footer{font-size:10px;color:var(--tx3);margin-top:8px;text-align:right}
+
+/* ── 업데이트 하이라이트 ── */
+.upd{color:var(--neg);font-weight:700}
+
+/* ── 업데이트 위젯 ── */
+.upd-widget{position:fixed;bottom:28px;right:28px;z-index:200;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.upd-btn{width:48px;height:48px;border-radius:50%;background:var(--p);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(68,34,224,.35);transition:.2s;position:relative}
+.upd-btn:hover{background:var(--pm);transform:scale(1.06)}
+.upd-icon{font-size:20px;line-height:1}
+.upd-badge{position:absolute;top:-4px;right:-4px;background:var(--neg);color:#fff;font-size:10px;font-weight:800;min-width:18px;height:18px;border-radius:20px;display:flex;align-items:center;justify-content:center;padding:0 4px;border:2px solid var(--bg)}
+.upd-panel{background:var(--bg);border:1.5px solid var(--bd2);border-radius:var(--r);box-shadow:0 8px 32px rgba(0,0,0,.12);width:300px;overflow:hidden;animation:upd-in .15s ease}
+@keyframes upd-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.upd-panel-hd{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:var(--bg3);border-bottom:1px solid var(--bd);font-size:12px;font-weight:800;color:var(--tx)}
+.upd-panel-date{font-size:10px;font-weight:500;color:var(--tx3)}
+.upd-panel-body{max-height:320px;overflow-y:auto}
+.upd-item{display:block;padding:10px 14px;border-bottom:1px solid var(--bd);text-decoration:none;transition:.15s}
+.upd-item:last-child{border-bottom:none}
+.upd-item:hover{background:var(--bg3)}
+.upd-item-sec{display:inline-block;font-size:10px;font-weight:800;background:var(--neg-bg);color:var(--neg);padding:2px 7px;border-radius:20px;margin-bottom:5px}
+.upd-item-descs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:3px}
+.upd-item-descs li{font-size:11.5px;color:var(--tx2);line-height:1.5;padding-left:.8rem;position:relative}
+.upd-item-descs li::before{content:'·';position:absolute;left:0;color:var(--neg)}

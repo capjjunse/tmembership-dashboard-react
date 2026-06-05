@@ -10,6 +10,7 @@ import Sentiment from './components/Sentiment';
 import Trend from './components/Trend';
 import NonTelecom from './components/NonTelecom';
 import AIInsight from './components/AIInsight';
+import UpdateWidget from './components/UpdateWidget';
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
       <Trend />
       <NonTelecom />
       <AIInsight />
+      <UpdateWidget />
     </div>
   );
 }
