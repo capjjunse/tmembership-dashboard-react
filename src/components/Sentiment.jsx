@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.06.05 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.06.08 갱신)</span>
         
       </div>
       <div className="tr2">
@@ -63,9 +63,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '69%' }}>긍정 69%</div>
-              <div className="rbs rn" style={{ width: '14%' }}>부정 14%</div>
-              <div className="rbs ru" style={{ width: '17%' }}>중립 17%</div>
+              <div className="rbs rp" style={{ width: '74%' }}>긍정 74%</div>
+              <div className="rbs rn" style={{ width: '13%' }}>부정 13%</div>
+              <div className="rbs ru" style={{ width: '13%' }}>중립 13%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -119,6 +119,9 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw5' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">쉑쉑버거 T멤버십 해피아워 — "T멤버십 매직 바코드 치킨 버거 세일해서 3,700원에 먹을 수 있었어요"</div><div className="rsrc">2026.06.07 · <a href="https://blog.naver.com/ru__by/224308743459" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">금요일 쉑쉑 포장 후기 — "대박 유용한 SKT T멤버십 해피아워 할인 꿀팁!"</div><div className="rsrc">2026.06.06 · <a href="https://blog.naver.com/kplove27/224307373698" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">쉐이크쉑 수지점 SKT 해피아워 — "VIP 고객 대상 해피아워 2~5시에 버거 2종에 대해 5천원 할인"</div><div className="rsrc">2026.06.04 · <a href="https://blog.naver.com/jin37_/224305910064" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">5월 SKT T멤버십 VIP 전용 해피아워 & 0 week — "파스쿠찌에서 오후 2시~5시 방문 시 쥐라또 1+1 혜택 받을 수 있어요"</div><div className="rsrc">2026.05.19 · <a href="https://blog.naver.com/psnm_gojan/224290370410" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">T멤버십 해피아워 파스쿠찌 쥐라또 1+1 — VIP 전용, 매일 오후 2~5시 방문 시 1+1 (5/4~5/31) / "결제 전에 해피아워 혜택이라고 말하고 이용하시면 됩니다"</div><div className="rsrc">2026.05.15 · <a href="https://blog.naver.com/ldb1118/224286072077" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
@@ -132,9 +135,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '55%' }}>긍정 55%</div>
-              <div className="rbs rn" style={{ width: '41%' }}>부정 41%</div>
-              <div className="rbs ru" style={{ width: '4%' }}>4%</div>
+              <div className="rbs rp" style={{ width: '58%' }}>긍정 58%</div>
+              <div className="rbs rn" style={{ width: '34%' }}>부정 34%</div>
+              <div className="rbs ru" style={{ width: '8%' }}>중립 8%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -166,6 +169,7 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw3' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">kt 고객 보답 올리브영 3천원권으로 릴리바이레드 워터틴트 구입 — "상큼 달달 좋았어요"</div><div className="rsrc">2026.06.06 · <a href="https://blog.naver.com/ddu_baeng/224308037333" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">KT멤버십 고객 보답 프로그램 6월 1차 — "올리브영 3천원 모바일 상품권이 그나마 괜찮은 거 같은데... 사용 기한이나 다운로드 기한 동일하네요;;; 6월 15일까지" (셰에라자드)</div><div className="rsrc">2026.06.02 · <a href="http://cafe.naver.com/schezade/295502" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">[Kt멤버십] 6월 고객보답(1차) — "조또 쓸모없는 케이티" "저 정도면 그냥 마케팅 아니냐?" "3천원이면 화장솜이나 가능한건가"</div><div className="rsrc">2026.05.30 · <a href="https://www.fmkorea.com/9889962492" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">KT멤버십 고객보답 6월 1차 (올리브영 3천원권·쇼핑라운지 6천원 택1, 6/1~15) — "완전 조졌네" "이게 혜택인가 쇼핑라운지 장사지" 부정 반응 다수 (조회 6,115)</div><div className="rsrc">2026.05.30 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104452" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -176,6 +180,7 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 8,000원으로 노랑통닭 후기 — "배달민족 8천원 할인 쿠폰으로 노랑통닭 시켜먹었어요"</div><div className="rsrc">2026.05.27 · <a href="https://blog.naver.com/sabin0719/224298320639" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 노랑통닭 마늘치킨 후기 — "KT 개인정보 유출 보상 쿠폰으로 노랑통닭 3종 치킨 시켰다" 긍정 평가</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/byeol_arii/224295613535" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 고객보답 투썸 방문 일상 — "엄마랑 KT 고객 보답 프로그램 쿠폰 쓰러 왔다, 투썸에서 케이크·음료 반값"</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/92yebinee/224295720090" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">[KT멤버십] 고객보답 5월 2차(노랑통닭 8천원권/투썸 50%할인)(5/18~31) — 긍정·부정 반응 혼재 (조회 95,125)</div><div className="rsrc">2026.05.20 · <a href="https://bbs.ruliweb.com/etcs/board/1020/read/104246" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">kt 고객보답 5월 2차 혜택 — "둘 다 이용을 안 해서 고를게 없네.." "이번건 좀 별로네" "50프로라면서 최대 5천원 할인 조금 짜긴 하네.."</div><div className="rsrc">2026.05.18 · <a href="https://bbs.ruliweb.com/community/board/300143/read/75221584" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT멤버십 5월 고객보답 2차 (투썸50%/배민×노랑통닭) 공유 — "오랜만에 노통 함 조져야겠네" "메가커피 오늘 먹어야겠네 2잔 아메리카노 공짜!!"</div><div className="rsrc">2026.05.15 · <a href="https://www.fmkorea.com/9827869002" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT 고객보답 너프당했네 — "뭐이리 짜노 전에는 티빙 디플 구독 뿌리더니" / 댓글: "통신사 혜택 점점 구려지더라"</div><div className="rsrc">2026.05.11 · <a href="https://www.fmkorea.com/9812098152" target="_blank" rel="noreferrer">원문 보기</a></div></div>

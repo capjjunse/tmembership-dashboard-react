@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT T멤버십, 대학생 목소리 담은 맞춤 혜택 선보인다 — 6월 시험기간 0 week 운영, 메가MGC·바나프레소·투썸플레이스 할인</span></div>
+            <div className="nsum">T멤버십이 대학생 고객 제안 아이디어를 반영해 6월 시험기간용 혜택 강화. 2주차(6.8~12) '0 week' 특별 운영으로 메가MGC커피 50% 할인, 바나프레소·투썸플레이스·배스킨라빈스 할인 쿠폰 제공. 경희대·광운대·서울시립대·성균관대·세종대 등 서울 대학가 방문으로 오프라인 커피 무료 제공.</div>
+            <div className="nmeta">2026-06-07 · <a href="https://news.sktelecom.com/226090" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">6월 T멤버십 — 프로야구 Lucky Week·시험 기간 혜택까지 풍성</span></div>
             <div className="nsum">T day 1주차(6.8~6.12) '프로야구 Lucky Week' 신설, 티빙 구독자 고척돔 직관 응모·요기요×호식이두마리치킨 VIP 8천원/Gold·Silver 6천원 할인, 루메나 무선선풍기 응모. 후지필름 6.15 신규 제휴(포토북 40%·사진인화 20%) 예고.</div>
             <div className="nmeta">2026-06-01 · <a href="https://news.sktelecom.com/225691" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
