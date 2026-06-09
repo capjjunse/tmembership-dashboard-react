@@ -100,11 +100,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov"><span className="upd">럭키위크 T day 1~3주차 전 라인업 공개 완료 · 6/01주 2.7→3.1 소폭 반등 — 0week 개막 후 관심 회복 확인</span></div>
+            <div className="ov"><span className="upd">0week 진행 중(6.8~6.12) · 1~3주차 라인업 전 공개 — 해피아워·T day 긍정 우세로 6월 혜택 풀가동</span></div>
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt"><span className="upd">T day 긍정 74% 우세 · VIP PICK 반응 미수집</span></span>
+                <span className="od-txt"><span className="upd">T day 긍정 74% 우세 · 해피아워(쉑쉑) 6월 긍정 · VIP PICK 반응 미수집</span></span>
               </div>
               <div className="od-item">
                 <a href="#vp" className="octab">VIP혜택</a>
@@ -112,7 +112,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt"><span className="upd">럭키위크 T day — 0 week + 1~3주차 전 공개 · 2주차 쉐이크쉑·도미노피자, 3주차 역전우동·CGV 등 외식·레저 중심</span></span>
+                <span className="od-txt">럭키위크 T day — 0 week + 1~3주차 전 공개 · 2주차 쉐이크쉑·도미노피자, 3주차 역전우동·CGV 등 외식·레저 중심</span>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov"><span className="upd">6월 달달혜택 미공개 · 6/01주 4.0 소폭 하락 — 달달혜택 공개 전 이벤트 공백 지속</span></div>
+            <div className="ov">6월 달달혜택 미공개 · 6/01주 4.0 소폭 하락 — 달달혜택 공개 전 이벤트 공백 지속</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
@@ -234,9 +234,9 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#sn" className="ovki ovki-pos">
               <div className="ovki-cat">💬 고객반응 <span className="ovki-skt ovki-skt-pos">SKT 호재</span></div>
-              <div className="ovki-title">6월 초 — SKT 0week·LGU+ 투쁠 긍정, KT 고객보답 부정 혼재</div>
+              <div className="ovki-title"><span className="upd">6월 초 — SKT 0week·해피아워 진행 중, LGU+ 투쁠 긍정, KT 고객보답 부정 혼재</span></div>
               <ul className="ovki-list">
-                <li>SKT 0week(6.1~) — 6월 매드포갈릭·크리스탈제이드 0week 총정리 블로그 긍정·중립 다수</li>
+                <li><span className="upd">SKT 0week(6.8~12) + 해피아워(쉑쉑) — T day·0week·해피아워 긍정 74% 우세</span></li>
                 <li>KT 6월 1차 고객보답(올리브영 3천원) — 루리웹·에펨코리아 부정 반응 다수 (최다 조회 6,115)</li>
                 <li>LGU+ 유플투쁠 6월 — 카카오웹툰·웅진플레이도시 라인업 블로그 긍정 확인</li>
               </ul>
@@ -244,10 +244,10 @@ export default function Overview() {
             </a>
             <a href="#tr" className="ovki ovki-warn">
               <div className="ovki-cat">📈 검색어 트렌드 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title"><span className="upd">SKT 6/01주 3.1 반등 · KT 4.0 소폭 하락 — SKT 0week 개막 후 관심 소폭 회복</span></div>
+              <div className="ovki-title">SKT 6/01주 3.1 반등 · KT 4.0 소폭 하락 — SKT 0week 개막 후 관심 소폭 회복</div>
               <ul className="ovki-list">
-                <li><span className="upd">SKT — 5/25주 2.7→6/01주 3.1 반등 · 0week 개막 효과로 관심 소폭 회복</span></li>
-                <li><span className="upd">KT — 5/25주 4.2→6/01주 4.0 소폭 하락 · 달달혜택 미공개 이벤트 의존 구조 확인</span></li>
+                <li>SKT — 5/25주 2.7→6/01주 3.1 반등 · 0week 개막 효과로 관심 소폭 회복</li>
+                <li>KT — 5/25주 4.2→6/01주 4.0 소폭 하락 · 달달혜택 미공개 이벤트 의존 구조 확인</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>

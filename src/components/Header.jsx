@@ -6,7 +6,7 @@ export default function Header() {
         <h1>통신 3사 멤버십 현황 대시보드</h1>
         <div className="hdr-meta">
           <span className="hdr-dot"></span>
-          <span id="lastUpdated">2026.06.08 기준</span>
+          <span id="lastUpdated">2026.06.09 기준</span>
         </div>
       </div>
     </div>
