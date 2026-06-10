@@ -26,9 +26,12 @@ function IssueRadarCard() {
       ...urgentS.map(s => s.brand),
       ...urgentM.map(m => m.topic.split(' ').slice(0, 2).join(' ')),
     ].slice(0, 2).join(' · ');
+    // 제휴사 이슈가 있으면 레이더, 마켓 시그널만 긴급이면 마켓으로
+    const href = urgentS.length > 0 ? '#ai-radar' : '#ai-market';
+    const goText = urgentS.length > 0 ? '이슈 레이더 보기 →' : '마켓 시그널 보기 →';
 
     return (
-      <a href="#ai-radar" className="ovki ovki-urgent">
+      <a href={href} className="ovki ovki-urgent">
         <div className="ovki-cat">🚨 긴급 대응 필요</div>
         <div className="ovki-title">{titleBrands} — 즉각 검토 필요</div>
         {urgentS.map((s, i) => (
@@ -56,7 +59,7 @@ function IssueRadarCard() {
             </div>
           </div>
         ))}
-        <div className="ovki-go">이슈 레이더 보기 →</div>
+        <div className="ovki-go">{goText}</div>
       </a>
     );
   }
@@ -72,9 +75,12 @@ function IssueRadarCard() {
     ...(notableS.length === 0 ? notableM.slice(0, 1).map(m => m.topic.split(' ').slice(0, 2).join(' ')) : []),
   ];
   const title = titleParts.length > 0 ? `${titleParts.join(' · ')} 모니터링 중` : '현재 주목 이슈 없음';
+  // 제휴사 주목 이슈 있으면 레이더, 마켓 시그널만 있으면 마켓으로
+  const href = notableS.length > 0 ? '#ai-radar' : (notableM.length > 0 ? '#ai-market' : '#ai-radar');
+  const goText = notableS.length > 0 ? '이슈 레이더 보기 →' : (notableM.length > 0 ? '마켓 시그널 보기 →' : '이슈 레이더 보기 →');
 
   return (
-    <a href="#ai-radar" className="ovki ovki-radar">
+    <a href={href} className="ovki ovki-radar">
       <div className="ovki-cat">🔍 이슈 레이더 · 마켓 시그널</div>
       <div className="ovki-title">{title}</div>
       <ul className="ovki-list">
@@ -83,7 +89,7 @@ function IssueRadarCard() {
           : <li>이번 주 주목 이슈 없음 · 정기 모니터링 유지</li>
         }
       </ul>
-      <div className="ovki-go">이슈 레이더 보기 →</div>
+      <div className="ovki-go">{goText}</div>
     </a>
   );
 }
