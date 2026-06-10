@@ -229,35 +229,6 @@ export default function Overview() {
           </div>
         </div>
 
-        <div className="ovrow">
-          <div className="oc">
-            <div className="ol"><span className="cb">AI분석</span></div>
-            <div className="ov">비통신 우위 3개(카셰어링·외식카페·테마파크) · 설빙·청년다방·깐부치킨 제휴 후보 — 배달·주유 공백, 이슈 5개 모니터링</div>
-            <div className="od">
-              <div className="od-item">
-                <a href="#nt" className="octab">비통신멤버십</a>
-                <span className="od-txt"><span className="upd">구독형 3종(네이버플러스 4,900원·로켓와우 7,890원·배민클럽 3,990원) · 등급제 2종(올리브영·무신사) · 카드연계 1종(현대카드) — 6개 트래킹</span></span>
-              </div>
-              <div className="od-item">
-                <a href="#ai-nontelecom" className="octab">비통신비교</a>
-                <span className="od-txt"><span className="upd">T멤버십 우위 3개(카셰어링·외식카페·테마파크) · 열위 2개(주유·배달) · 유사 4개 — 배달·주유 공백 지속</span></span>
-              </div>
-              <div className="od-item">
-                <a href="#ai-recommend" className="octab">신규제휴추천</a>
-                <span className="od-txt"><span className="upd">설빙 DataLab 1.51(Tday 3개월 공백) · 청년다방 1.58(분식 버즈 1위) · 깐부치킨 1.36(젠슨황 효과) — SKT 3종 모두 미참여</span></span>
-              </div>
-              <div className="od-item">
-                <a href="#ai-radar" className="octab">이슈레이더</a>
-                <span className="od-txt"><span className="upd">깐부치킨 강·긍정(젠슨황 재방문) · 스타벅스·피자헛 중·부정 · 메가커피·이마트24 약·부정 — 5개 모니터링</span></span>
-              </div>
-              <div className="od-item">
-                <a href="#ai-market" className="octab">마켓시그널</a>
-                <span className="od-txt"><span className="upd">경쟁·소비 동향 뉴스 시그널 — 제휴사 제외 카테고리별 자동 집계 · 시그널 강도별 표시</span></span>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="ovkey">
           <div className="ovkey-lbl">🔑 이번달 놓치면 안될 것</div>
           <div className="ovki-grid">
