@@ -100,11 +100,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov"><span className="upd">0week 진행 중(6.8~6.12) · 1~3주차 라인업 전 공개 — 해피아워·T day 긍정 우세로 6월 혜택 풀가동</span></div>
+            <div className="ov">0week 진행 중(6.8~6.12) · 1~3주차 라인업 전 공개 — 해피아워·T day 긍정 우세로 6월 혜택 풀가동</div>
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt"><span className="upd">T day 긍정 74% 우세 · 해피아워(쉑쉑) 6월 긍정 · VIP PICK 반응 미수집</span></span>
+                <span className="od-txt">T day 긍정 74% 우세 · 해피아워(쉑쉑) 6월 긍정 · VIP PICK 반응 미수집</span>
               </div>
               <div className="od-item">
                 <a href="#vp" className="octab">VIP혜택</a>
@@ -148,7 +148,7 @@ export default function Overview() {
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">6월 달달혜택 미발표 — 15일경 공개 예정</span>
+                <span className="od-txt"><span className="upd">6월 달달혜택 미발표 — 바캉스 테마 6.17 공개 예정</span></span>
               </div>
               <div className="od-item">
                 <a href="#hs" className="octab">변경이력</a>
@@ -234,9 +234,9 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#sn" className="ovki ovki-pos">
               <div className="ovki-cat">💬 고객반응 <span className="ovki-skt ovki-skt-pos">SKT 호재</span></div>
-              <div className="ovki-title"><span className="upd">6월 초 — SKT 0week·해피아워 진행 중, LGU+ 투쁠 긍정, KT 고객보답 부정 혼재</span></div>
+              <div className="ovki-title">6월 초 — SKT 0week·해피아워 진행 중, LGU+ 투쁠 긍정, KT 고객보답 부정 혼재</div>
               <ul className="ovki-list">
-                <li><span className="upd">SKT 0week(6.8~12) + 해피아워(쉑쉑) — T day·0week·해피아워 긍정 74% 우세</span></li>
+                <li>SKT 0week(6.8~12) + 해피아워(쉑쉑) — T day·0week·해피아워 긍정 74% 우세</li>
                 <li>KT 6월 1차 고객보답(올리브영 3천원) — 루리웹·에펨코리아 부정 반응 다수 (최다 조회 6,115)</li>
                 <li>LGU+ 유플투쁠 6월 — 카카오웹툰·웅진플레이도시 라인업 블로그 긍정 확인</li>
               </ul>
@@ -253,10 +253,11 @@ export default function Overview() {
             </a>
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title">CGV T day 우위 · 파리바게뜨·스피드메이트 비교 불가 — KT 미공개 비교 보류</div>
+              <div className="ovki-title"><span className="upd">CGV 우위 1건 · 투썸·배스킨 등 5종 유사·비교불가 — SKT↔LGU+ 6종 비교, KT 미공개</span></div>
               <ul className="ovki-list">
-                <li>CGV — SKT 0 week 예매 8,500원+스낵쿠폰 2종이 LGU+ 투쁠데이 스낵세트 단독보다 우위</li>
-                <li>파리바게뜨·스피드메이트 — 할인 단위 불일치로 직접 비교 불가 (SKT vs LGU+)</li>
+                <li>CGV — SKT 0 week 8,500원+매점쿠폰 2종이 LGU+ 스낵세트 단독보다 우위</li>
+                <li><span className="upd">파리바게뜨·스피드메이트·배스킨라빈스·투썸 4종 — 혜택 단위·구성 상이로 직접 비교 불가</span></li>
+                <li><span className="upd">NOL티켓 — LGU+ 빌리엘리어트 40% vs SKT 35%·키크니 추가 포함 → 유사 판정</span></li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>

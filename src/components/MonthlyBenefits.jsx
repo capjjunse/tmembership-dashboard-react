@@ -52,7 +52,7 @@ export default function MonthlyBenefits() {
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 2주차 (6.17)</div>
               <ul className="mblist">
                 <li>쉐이크쉑 VIP 40% 할인 (최대 8,000원) / Gold·Silver 20% 할인 (최대 4,000원)</li>
-                <li>폴 바셋 지정 커피 3종 50% 할인</li>
+                <li>폴 바셋 <span className="upd">시그니처 커피 4종</span> 50% 할인</li>
                 <li>이마트에브리데이 4만원 이상 구매 시 20% 할인 (최대 1만원)</li>
                 <li>도미노피자 2.5만원 이상 피자+사이드 50% 할인 (최대 22,500원)</li>
               </ul>

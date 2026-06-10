@@ -32,11 +32,11 @@ const compGroups = [
   {
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
-    desc: 'KT 미공개 · SKT 0 week × LGU+ 투쁠데이',
+    desc: 'KT 미공개 · SKT 월간 혜택 × LGU+ 투쁠데이',
     rows: [
       {
         brand: '파리바게뜨',
-        skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원 할인/적립 (최대 6천원)' }], date: '6.1~6.5 · 0 week' },
+        skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원 할인/적립 (최대 6천원)' }], date: '6.1~6.5 · Week 혜택' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원 이상 구매 시)' }], date: '6.9·11·12 · 투쁠데이 1차 / 6.25 · 장기고객데이' },
         v: 'neut',
@@ -45,7 +45,7 @@ const compGroups = [
       },
       {
         brand: '스피드메이트',
-        skt: { lines: [{ grade: '전 등급', b: '국산차 엔진오일 50% + 와이퍼 무료 (최대 35,000원)' }], date: '6.1~6.5 · 0 week (쿠폰 ~6.30)' },
+        skt: { lines: [{ grade: '전 등급', b: '국산차 엔진오일 50% + 와이퍼 무료 (최대 35,000원)' }], date: '6.1~6.5 · Week 혜택 (쿠폰 ~6.30)' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '국산·수입차 엔진오일 할인 + 정비 4종' }], date: '6.9·11·12 · 투쁠데이 1차' },
         v: 'neut',
@@ -54,12 +54,12 @@ const compGroups = [
       },
       {
         brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점쿠폰 2종 (더블콤보 3천·팝콘M 1천)' }], date: '6.1~6.5 · 0 week / 6.24 · T day 3주차' },
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점쿠폰 2종 (더블콤보 3천·팝콘M 1천)' }], date: '6.1~6.5 · Week 혜택 / 6.24 · T day 3주차' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '6.17·18·19 · 투쁠데이 3차' },
         v: 'good',
         basis: 'SKT 예매 할인+스낵쿠폰 vs LGU+ 스낵세트만',
-        note: 'SKT 0 week 5일+T day 3주차 1일 vs LGU+ 3일',
+        note: 'SKT Week 혜택 5일+T day 3주차 1일 vs LGU+ 3일',
       },
       {
         brand: '배스킨라빈스',
@@ -74,10 +74,10 @@ const compGroups = [
         brand: '투썸플레이스',
         skt: { lines: [{ grade: '전 등급', b: '제조음료 40% + 조각케이크 40%' }], date: '6.8~6.12 · 0 week' },
         kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노 무료' }], date: '6.17 · 투쁠데이 3차' },
+        lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노 무료' }], date: '6.17·18·19 · 투쁠데이 3차' },
         v: 'neut',
         basis: 'SKT 음료·케이크 40% vs LGU+ 케이크 구매 시 무료 증정',
-        note: '혜택 구성 달라 직접 비교 어려움 · SKT 6.8~12 · LGU+ 6.17 1일',
+        note: '혜택 구성 달라 직접 비교 어려움 · SKT 6.8~12 · LGU+ 6.17~19',
       },
       {
         brand: 'NOL티켓',
