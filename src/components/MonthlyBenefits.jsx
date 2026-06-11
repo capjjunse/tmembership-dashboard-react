@@ -60,10 +60,7 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 3주차 (6.24)</div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>뚜레쥬르 — 혜택 상세 공개 예정</li>
-                <li>다운타우너 시그니처 버거 더블패티 세트 35% 할인 + 애프터쿠폰 10%</li>
-                <li>역전우동 냉모밀 3,500원 할인 (정가 7,000원)</li>
-                <li>CGV 8,500원 예매 + 더블콤보 3,000원 할인·팝콘(M) 1,000원 할인</li>
+                <li style={{ color: 'var(--tx3)' }}>혜택 상세 공개 예정 (6.24)</li>
               </ul>
             </div>
           </div>
@@ -71,7 +68,7 @@ export default function MonthlyBenefits() {
             <div className="mpnt-hd">📌 이달 포인트</div>
             <ul className="mpnt-list">
               <li>럭키위크 T day 테마 — Week 혜택(6.1~6.5) 식음·리빙·뷰티·라이프 다양</li>
-              <li>2주차(6.17) 외식 4종 — 쉐이크쉑(VIP 40%)·폴바셋·도미노피자·이마트에브리데이 / 3주차(6.24) 다운타우너·역전우동·CGV 공개</li>
+              <li>2주차(6.17) 외식 4종 — 쉐이크쉑(VIP 40%)·폴바셋·도미노피자·이마트에브리데이 / 3주차(6.24) 공개 예정</li>
             </ul>
           </div>
         </div>
