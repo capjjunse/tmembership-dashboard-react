@@ -18,7 +18,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>CGV</td><td>[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)</td><td>[전 등급] 최대 5,000원 할인 (동반 4인, 일1회 2026.05.01~)</td><td>[전 등급] 2D영화 최대 4,000원 할인</td></tr>
-          <tr><td>메가박스</td><td>[전 등급] 최대 4,000원 할인</td><td>[전 등급] 최대 6,000원 할인 (동반 4인)</td><td className="na">미제공</td></tr>
+          <tr><td>메가박스</td><td>[전 등급] 최대 4,000원 할인 <span className="upd">(11,000원 이상 예매 시)</span></td><td>[전 등급] 최대 6,000원 할인 (동반 4인)</td><td className="na">미제공</td></tr>
           <tr><td>롯데시네마</td><td className="na">미제공</td><td>[전 등급] 최대 5,000원 할인</td><td className="na">미제공</td></tr>
         </tbody>
       </table></div>
@@ -66,7 +66,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>매드포갈릭</td><td>[VIP/Gold] 15% 할인 (최대 15,000원) · [Silver] 5% 할인 (최대 5,000원)</td><td>[VVIP/VIP/골드] 15% 할인 · [일반/화이트/실버] 5% 할인</td><td><span className="upd">[VVIP/VIP] 15% 할인 (최대 15,000원) · [우수] 5% 할인 (최대 5,000원)</span></td></tr>
+          <tr><td>매드포갈릭</td><td>[VIP/Gold] 15% 할인 (최대 15,000원) · [Silver] 5% 할인 (최대 5,000원)</td><td>[VVIP/VIP/골드] 15% 할인 · [일반/화이트/실버] 5% 할인</td><td>[VVIP/VIP] 15% 할인 (최대 15,000원) · [우수] 5% 할인 (최대 5,000원)</td></tr>
           <tr><td>아웃백</td><td>[VIP/Gold] 15% 할인 · [Silver] 5% 할인</td><td>[VVIP/VIP/골드] 15% 할인 · [화이트/일반] 5% 할인</td><td className="na">미제공</td></tr>
           <tr><td>VIPS</td><td>[VIP/Gold] 15% 할인 · [Silver] 5% 할인</td><td>[VVIP/VIP] 15% 할인 · [Gold/일반] 5% 할인</td><td>[VVIP/VIP] 15% 할인 · [우수] 5% 할인</td></tr>
         </tbody>
@@ -84,7 +84,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>도미노</td><td>[VIP] 30% 할인 · [Gold/Silver] 20% 할인</td><td>[VVIP/VIP] 20% 할인 · [Gold/일반] 15% 할인</td><td>[VVIP/VIP] 20% 할인 (최대 4만원) · [우수] 15% 할인 (최대 3만원)</td></tr>
-          <tr><td>피자헛</td><td>[VIP] 30% 할인 · [Gold/Silver] 20% 할인</td><td><span className="upd">[VVIP/VIP] 20% 할인 · [Gold/일반] 15% 할인</span></td><td>[전 등급] 15% 할인 (최대 3만원)</td></tr>
+          <tr><td>피자헛</td><td>[VIP] 30% 할인 · [Gold/Silver] 20% 할인</td><td>[VVIP/VIP] 20% 할인 · [Gold/일반] 15% 할인</td><td>[전 등급] 15% 할인 (최대 3만원)</td></tr>
         </tbody>
       </table></div>
 
