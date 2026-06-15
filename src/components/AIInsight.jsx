@@ -27,12 +27,12 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [], // KT 6월 달달혜택 미공개 (매월 15일경 공개 예정)
+    rows: [], // 6월 SKT T day·0 week ↔ KT 달달혜택 겹치는 브랜드 없음
   },
   {
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
-    desc: 'KT 미공개 · SKT 월간 혜택 × LGU+ 투쁠데이',
+    desc: 'KT 미참여 · SKT 월간 혜택 × LGU+ 투쁠데이',
     rows: [
       {
         brand: '파리바게뜨',
@@ -93,14 +93,42 @@ const compGroups = [
   {
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
-    desc: 'SKT 미참여 · KT·LGU+ 경쟁',
-    rows: [], // KT 6월 달달혜택 미공개 (매월 15일경 공개 예정)
+    desc: 'SKT 미참여 · KT 달달혜택 × LGU+ 투쁠데이',
+    rows: [
+      {
+        brand: '공차',
+        skt: null,
+        kt: { lines: [{ grade: '전 등급', b: '인기 음료 6종 50% 할인 (최대 5천원)' }], date: '6.15~6.30 · 달달초이스' },
+        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 주문 시)' }], date: '6.17·18·19 · 투쁠데이 3차' },
+        v: 'miss',
+        basis: 'SKT 미운영 · KT·LGU+ 모두 최대 50%',
+        note: 'KT 음료 6종 지정 vs LGU+ 1만원 이상 조건',
+      },
+      {
+        brand: '아모레몰',
+        skt: null,
+        kt: { lines: [{ grade: '전 등급', b: '5천원 할인 (3만원 이상 구매 시)' }], date: '6.15~6.30 · 달달스페셜' },
+        lgu: { lines: [{ grade: '선착순', b: '멤버십플러스 1개월 + 2,000p' }], date: '6.9·11·12 · 투쁠데이 1차' },
+        v: 'miss',
+        basis: 'SKT 미운영 · 혜택 성격 상이',
+        note: 'KT 즉시할인 vs LGU+ 구독권+포인트 · LGU+ 먼저(6.9)',
+      },
+      {
+        brand: '그리팅',
+        skt: null,
+        kt: { lines: [{ grade: '전 등급', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: '6.15~6.30 · 달달스페셜' },
+        lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: '6.15·16 · 투쁠데이 2차' },
+        v: 'miss',
+        basis: 'SKT 미운영 · KT·LGU+ 동일 조건·금액',
+        note: 'LGU+ 6.15·16 2일 · KT 6.15~6.30 15일간',
+      },
+    ],
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // KT 6월 미공개 — 15일 이후 반영 예정
+    rows: [], // 6월 3사 공통 브랜드 없음
   },
 ];
 

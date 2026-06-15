@@ -99,14 +99,14 @@ export default function Overview() {
     <div className="sec" id="ov">
       <div className="sh">
         <span className="st">📊 이달의 핵심 동향</span>
-        
+
       </div>
       <div className="ovg">
 
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">0week 진행 중(6.8~6.12) · 1~3주차 라인업 전 공개 — 해피아워·T day 긍정 우세로 6월 혜택 풀가동</div>
+            <div className="ov">1~3주차 전 공개 완료 · T day 2주차(6.17) 앞두고 긍정 우세 유지 — 쉐이크쉑·도미노피자·역전우동 포진</div>
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
@@ -118,7 +118,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">럭키위크 T day — 0 week + 1~3주차 전 공개 · 2주차 쉐이크쉑·도미노피자, 3주차 역전우동·CGV 등 외식·레저 중심</span>
+                <span className="od-txt">럭키위크 T day — 1~3주차 전 공개 · 2주차(6.17) 쉐이크쉑·도미노피자, 3주차(6.24) 다운타우너·역전우동·CGV</span>
               </div>
             </div>
           </div>
@@ -150,11 +150,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">6월 달달혜택 미공개 · 6/01주 4.0 소폭 하락 — 달달혜택 공개 전 이벤트 공백 지속</div>
+            <div className="ov">달달혜택 6.15 공개 — 버거킹·공차·VIPS 등 초이스 6종 + 스페셜 5종 · 검색량 3.5 하락, 이벤트 의존 구조 확인</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">6월 달달혜택 미발표 — 바캉스 테마 6.17 공개 예정</span>
+                <span className="od-txt">달달초이스 6종(버거킹·공차·VIPS 등) + 달달스페셜 5종(GS칼텍스·아모레몰 등) 6.15 공개</span>
               </div>
               <div className="od-item">
                 <a href="#hs" className="octab">변경이력</a>
@@ -194,11 +194,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cl">
             <div className="ol"><span className="cb bl">LGU+</span></div>
-            <div className="ov">FIFA 월드컵 매치데이 3탄 — 경기 주간마다 응원 음식·레저 집중, 6/15 컬처 특화</div>
+            <div className="ov">FIFA 매치데이 3탄 진행 중 — 오늘(6.15) 투쁠 2차 컬처(아웃백·씨네Q·LG아트센터) · 6/17·19 응원 음식 예정</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">6월 전체 공개 — 투쁠데이 9~23일 · 장기고객데이 25일 운영</span>
+                <span className="od-txt">FIFA 매치데이 3탄 — 오늘(6.15) 컬처·아웃백, 6/17 배달·6/25 장기고객데이 운영</span>
               </div>
               <div className="od-item">
                 <a href="#rg" className="octab">상시혜택</a>
@@ -240,30 +240,30 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#sn" className="ovki ovki-pos">
               <div className="ovki-cat">💬 고객반응 <span className="ovki-skt ovki-skt-pos">SKT 호재</span></div>
-              <div className="ovki-title">6월 초 — SKT 0week·해피아워 진행 중, LGU+ 투쁠 긍정, KT 고객보답 부정 혼재</div>
+              <div className="ovki-title"><span className="upd">SKT T day 긍정 74% 우세 · KT 1차 고객보답(올리브영) 부정 혼재 (6.11 기준)</span></div>
               <ul className="ovki-list">
-                <li>SKT 0week(6.8~12) + 해피아워(쉑쉑) — T day·0week·해피아워 긍정 74% 우세</li>
+                <li><span className="upd">SKT 0week(6.8~12) 종료 · 해피아워(쉑쉑) 6월 긍정 지속 — T day 긍정 74% 우세</span></li>
                 <li>KT 6월 1차 고객보답(올리브영 3천원) — 루리웹·에펨코리아 부정 반응 다수 (최다 조회 6,115)</li>
-                <li>LGU+ 유플투쁠 6월 — 카카오웹툰·웅진플레이도시 라인업 블로그 긍정 확인</li>
+                <li><span className="upd">LGU+ 유플투쁠 — 카카오페이지(6.11) 수령 긍정 · 오늘(6.15) 아웃백·씨네Q 대기 중</span></li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>
             <a href="#tr" className="ovki ovki-warn">
               <div className="ovki-cat">📈 검색어 트렌드 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title">SKT 6/01주 3.1 반등 · KT 4.0 소폭 하락 — SKT 0week 개막 후 관심 소폭 회복</div>
+              <div className="ovki-title">SKT 6/08주 2.7 재하락 · KT 3.5 하락 지속 — 달달혜택 공개에도 반등 없는 이벤트 의존 구조</div>
               <ul className="ovki-list">
-                <li>SKT — 5/25주 2.7→6/01주 3.1 반등 · 0week 개막 효과로 관심 소폭 회복</li>
-                <li>KT — 5/25주 4.2→6/01주 4.0 소폭 하락 · 달달혜택 미공개 이벤트 의존 구조 확인</li>
+                <li>SKT — 6/01주 3.1 반등 후 6/08주 2.7로 재하락 · 0week 일시 효과에 그침</li>
+                <li>KT — 6/01주 4.0→6/08주 3.5 하락 · 달달혜택 공개 전후로 관심 반등 없음</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title">CGV 우위 1건 · 투썸·배스킨 등 5종 유사·비교불가 — SKT↔LGU+ 6종 비교, KT 미공개</div>
+              <div className="ovki-title">CGV 우위 · 공차·그리팅·아모레몰 SKT 없음 — KT 달달혜택 공개로 KT↔LGU+ 경쟁 3종 확인</div>
               <ul className="ovki-list">
-                <li>CGV — SKT 0 week 8,500원+매점쿠폰 2종이 LGU+ 스낵세트 단독보다 우위</li>
-                <li>파리바게뜨·스피드메이트·배스킨라빈스·투썸 4종 — 혜택 단위·구성 상이로 직접 비교 불가</li>
-                <li>NOL티켓 — LGU+ 빌리엘리어트 40% vs SKT 35%·키크니 추가 포함 → 유사 판정</li>
+                <li>CGV — SKT Week 혜택(8,500원+매점쿠폰)+T day 3주차 vs LGU+ 스낵세트 → SKT 우위</li>
+                <li>공차·그리팅 — KT·LGU+ 각각 동일 조건 운영 · SKT 미제휴 확인</li>
+                <li>아모레몰 — KT 달달스페셜 5천원 할인 vs LGU+ 구독권+포인트 · SKT 미제휴</li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>
