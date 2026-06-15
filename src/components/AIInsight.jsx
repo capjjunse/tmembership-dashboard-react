@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.06.10';
+const RADAR_SCANNED = '2026.06.15';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -152,7 +152,7 @@ const alCats = [
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: 'Week혜택(6.1~6.5): 매드포갈릭 30%(VIP 50%)·이디야커피 빙수 50%·크리스탈제이드 40%·백미당 1+1·사보텐 30% 등 / 0 week(6.8~6.12): 메가MGC커피 50%·투썸플레이스 40%·바나프레소 50% / T day 2주차(6.17): 쉐이크쉑 VIP 40%/G·S 20%·폴바셋 시그니처 커피 4종 50%·도미노피자 50% / T day 3주차(6.24): 다운타우너 35%·역전우동 3,500원' }] },
+      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: 'Week혜택(6.1~6.5): 매드포갈릭 30%(VIP 50%)·이디야커피 빙수 50%·크리스탈제이드 40%·백미당 1+1·사보텐 30% 등 / 0 week(6.8~6.12): 메가MGC커피 50%·투썸플레이스 40%·바나프레소 50% / T day 2주차(6.17): 쉐이크쉑 VIP 40%/G·S 20%·폴바셋 시그니처 커피 4종 50%·도미노피자 50% / T day 3주차(6.24): 다운타우너 35%·역전우동 냉모밀 50%' }] },
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
@@ -582,7 +582,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.06.10</span> 스캔 · 매주 크롤링 후 수동 반영</div>
+        <div className="tr-footer"><span className="upd">2026.06.15</span> 스캔 · 매주 크롤링 후 수동 반영</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

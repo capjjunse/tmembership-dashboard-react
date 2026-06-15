@@ -240,11 +240,11 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#sn" className="ovki ovki-pos">
               <div className="ovki-cat">💬 고객반응 <span className="ovki-skt ovki-skt-pos">SKT 호재</span></div>
-              <div className="ovki-title"><span className="upd">SKT T day 긍정 74% 우세 · KT 1차 고객보답(올리브영) 부정 혼재 (6.11 기준)</span></div>
+              <div className="ovki-title">SKT T day 긍정 74% 우세 · KT 1차 고객보답(올리브영) 부정 혼재 (6.11 기준)</div>
               <ul className="ovki-list">
-                <li><span className="upd">SKT 0week(6.8~12) 종료 · 해피아워(쉑쉑) 6월 긍정 지속 — T day 긍정 74% 우세</span></li>
+                <li>SKT 0week(6.8~12) 종료 · 해피아워(쉑쉑) 6월 긍정 지속 — T day 긍정 74% 우세</li>
                 <li>KT 6월 1차 고객보답(올리브영 3천원) — 루리웹·에펨코리아 부정 반응 다수 (최다 조회 6,115)</li>
-                <li><span className="upd">LGU+ 유플투쁠 — 카카오페이지(6.11) 수령 긍정 · 오늘(6.15) 아웃백·씨네Q 대기 중</span></li>
+                <li>LGU+ 유플투쁠 — 카카오페이지(6.11) 수령 긍정 · 오늘(6.15) 아웃백·씨네Q 대기 중</li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>

@@ -1,79 +1,29 @@
 {
-  "generated_at": "2026.06.10 16:21",
-  "total_collected": 1027,
-  "total_valid": 527,
-  "total_skipped": 474,
-  "total_top": 31,
+  "generated_at": "2026.06.15 16:55",
+  "total_collected": 963,
+  "total_valid": 511,
+  "total_skipped": 452,
+  "total_top": 33,
   "topic_groups": [
     {
       "category": "trend",
-      "topic": "애플 앱스토어 개편",
-      "insight": "앱스토어 구독 모델·AI 추천 강화 — T멤버십 앱 내 구독 연계 전략 조정 필요",
-      "signal_strength": 1,
-      "max_velocity": -18.2,
-      "articles": [
-        {
-          "title": "애플, 앱스토어 대대적 개편… AI 기반 추천·그룹 구독·신규 마케팅 기...",
-          "link": "https://www.aitimes.kr/news/articleView.html?idxno=40416",
-          "pub_date": "2026.06.09",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": -18.2
-        },
-        {
-          "title": "애플, '앱스토어' 대대적 개편…새 구독 모델·마케팅 도구 대거 도입",
-          "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01908966645480080",
-          "pub_date": "2026.06.09",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": -18.2
-        }
-      ]
-    },
-    {
-      "category": "trend",
-      "topic": "여름 시즌 유통 프로모션",
-      "insight": "폭염·장마 대비 유통사 공격적 할인전 — T멤버십 시즌별 쿠폰·혜택 강화 기획 필수",
-      "signal_strength": 2,
-      "max_velocity": 13.3,
-      "articles": [
-        {
-          "title": "여름 수요 잡아라…유통가 ‘장마·무더위’ 할인전",
-          "link": "https://www.segye.com/newsView/20260606502375?OutUrl=naver",
-          "pub_date": "2026.06.06",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 13.3
-        },
-        {
-          "title": "“여름아 부탁해”…빨라진 폭염에 분주해진 유통가, 기획전 확대",
-          "link": "https://www.mk.co.kr/article/12065634",
-          "pub_date": "2026.06.04",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 13.3
-        }
-      ]
-    },
-    {
-      "category": "trend",
-      "topic": "패션플랫폼 AI 기반 초개인화",
-      "insight": "AI 챗봇·초개인화 쇼핑 확산 — T멤버십 패션 카테고리 AI 추천 고도화 시급",
+      "topic": "AI 마케팅 도구 확산",
+      "insight": "AI 활용 콘텐츠 생성으로 소비자 접점 다양화. T멤버십 회원사의 마케팅 협력 모델 재편 기회",
       "signal_strength": 1,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "“검색 대신 대화로 쇼핑”… 패션 플랫폼에 스며든 ‘생성형 AI’",
-          "link": "https://www.mk.co.kr/article/12069401",
-          "pub_date": "2026.06.09",
+          "title": "내가 만든 영상이 실제 광고판에?…AI가 바꾼 유통가 마케팅",
+          "link": "https://www.segye.com/newsView/20260610515097?OutUrl=naver",
+          "pub_date": "2026.06.10",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
         },
         {
-          "title": "패션 플랫폼 새 승부처는 '초개인화' …'AI' 활용 경쟁 본격화",
-          "link": "http://www.srtimes.kr/news/articleView.html?idxno=204877",
-          "pub_date": "2026.06.09",
+          "title": "LG전자, 챗GPT 전용 앱 출시…AI 대화창이 새 쇼핑 플랫폼으로",
+          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=130409",
+          "pub_date": "2026.06.10",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
@@ -82,100 +32,254 @@
     },
     {
       "category": "risk",
-      "topic": "스타벅스 탱크데이 불매 사태",
-      "insight": "불매 운동 진정 단계 — T멤버십 스타벅스 제휴 프로모션 회복력 모니터링 및 타사 카페 포트폴리오 강화 검토",
+      "topic": "스타벅스 탱크데이 사태",
+      "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
       "signal_strength": 3,
-      "max_velocity": -6.7,
+      "max_velocity": 0.0,
       "articles": [
-        {
-          "title": "불매 운동 끝?… 스타벅스 카드 결제액, '탱크데이' 논란 3주 만에 반등",
-          "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=262148",
-          "pub_date": "2026.06.10",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -6.7
-        },
         {
           "title": "[단독]스타벅스 불매운동 여파에 제휴카드 발급 88% 급감",
           "link": "https://www.etnews.com/20260609000207",
           "pub_date": "2026.06.09",
           "priority": 3,
           "cross_query_count": 2,
-          "datalab_velocity": -6.7
+          "datalab_velocity": -0.2
         },
         {
-          "title": "스타벅스 불매 끝났나? 결제액 12.8%↑… 카톡 선물 상위권 ‘싹쓸이’",
-          "link": "https://www.seoul.co.kr/news/economy/2026/06/10/20260610500098?wlog_tag3=naver",
-          "pub_date": "2026.06.10",
+          "title": "정용진도 참석..'5·18 논란' 스벅, 조기 폐점하고 전직원 역사인식 교육...",
+          "link": "http://www.fnnews.com/news/202606150823405996",
+          "pub_date": "2026.06.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -6.7
+          "datalab_velocity": 0.0
         },
         {
-          "title": "잦아드는 '탱크 데이' 불매 여론?…스타벅스 결제액 3주 만에 '반등'",
-          "link": "http://www.yonhapnewstv.co.kr/news/MYH202606101437533Dd",
-          "pub_date": "2026.06.10",
+          "title": "&quot;22일 오후 3시 영업종료&quot;‥'논란 끝낸다' 스벅 강수",
+          "link": "https://imnews.imbc.com/news/2026/econo/article/6830227_36932.html",
+          "pub_date": "2026.06.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -6.7
+          "datalab_velocity": 0.0
         },
         {
-          "title": "&quot;탈벅 인증 어디로&quot;… 스타벅스 불매 열풍 넘어 회복세",
-          "link": "https://www.kmaeil.com/news/articleView.html?idxno=642100",
-          "pub_date": "2026.06.10",
+          "title": "정용진 회장도 역사교육 받는다…신세계, 스타벅스 논란 후속대책 발표",
+          "link": "https://news.tvchosun.com/site/data/html_dir/2026/06/15/2026061590094.html",
+          "pub_date": "2026.06.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -6.7
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "'탱크데이' 마케팅 논란 스타벅스, 전 직원 역사교육",
+          "link": "http://news.ebs.co.kr/ebsnews/allView/60737141/N",
+          "pub_date": "2026.06.15",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "'스타벅스 논란' 정용진 회장, 역사인식교육 받는다…후속대책 발표",
+          "link": "https://view.asiae.co.kr/article/2026061508540189046",
+          "pub_date": "2026.06.15",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "신세계그룹, 스타벅스 마케팅 논란 후 역사·사회 감수성 교육 실시",
+          "link": "http://www.metroseoul.co.kr/article/20260615500188",
+          "pub_date": "2026.06.15",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "'탱크데이' 논란 스타벅스, 22일 전 직원 대상 역사교육",
+          "link": "https://www.jbnews.com/news/articleView.html?idxno=1505924",
+          "pub_date": "2026.06.15",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "'5·18 역사 폄훼 논란' 신세계그룹 임직원, 역사·사회 교육 받는다",
+          "link": "https://www.ddaily.co.kr/page/view/2026061509095663039",
+          "pub_date": "2026.06.15",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "신세계그룹, 스타벅스 논란에 전사 교육…'역사 감수성' 다시 세운다",
+          "link": "https://www.newspim.com/news/view/20260615000123",
+          "pub_date": "2026.06.15",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
         }
       ]
     },
     {
-      "category": "risk",
-      "topic": "식품 건강광고 가짜의사 논란",
-      "insight": "AI 허위광고 적발 강화 — T멤버십 제휴 식품 브랜드 광고 신뢰도 및 규정 준수 점검 강화",
-      "signal_strength": 3,
+      "category": "battle",
+      "topic": "배달앱 시장 재편",
+      "insight": "배민 매각설에 따른 시장 변동성 — T멤버십 배달 파트너십 전략 재검토 필요",
+      "signal_strength": 2,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "젊어진다던 비타민 광고 실체… AI 가짜 의사였다",
-          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3066030",
-          "pub_date": "2026.06.10",
+          "title": "우버發 배민 매각설에 쿠팡이츠 총공세…배달앱 판 흔들린다",
+          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1376095",
+          "pub_date": "2026.06.14",
+          "priority": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "배달앱 수수료 논쟁 재가열... 배민 매각, 변수로 부상",
+          "link": "https://www.ajunews.com/view/20260611145306695",
+          "pub_date": "2026.06.11",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "신체나이 줄여준다고?…AI 가짜 의사 내세운 식품 불법광고 업체 검찰 ...",
-          "link": "http://www.foodnews.co.kr/news/articleView.html?idxno=118916",
-          "pub_date": "2026.06.10",
+          "title": "선거 끝나자 다시 불붙는 배달앱 규제… 합의 불발 땐 입법 가능성",
+          "link": "https://biz.chosun.com/distribution/food/2026/06/09/D7OTHAZKDVBKXCV5LLRP5KAP2E/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "pub_date": "2026.06.09",
           "priority": 3,
           "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "AI로 '배달 품질경쟁' 기어 올리는 배민",
+          "link": "https://view.asiae.co.kr/article/2026061507460517835",
+          "pub_date": "2026.06.15",
+          "priority": 2,
+          "cross_query_count": 2,
           "datalab_velocity": 0.0
         }
       ]
     },
     {
-      "category": "risk",
-      "topic": "셀럽 논란 광고 불매 운동",
-      "insight": "셀럽 광고 불매 이슈 확산 — T멤버십 제휴사 광고 모델 논란 리스크 사전 점검 체계 필요",
-      "signal_strength": 3,
-      "max_velocity": -6.7,
+      "category": "battle",
+      "topic": "KT 멤버십 강화전략",
+      "insight": "이동통신사 차별화된 고객경험 전쟁 — 데이터·혜택의 통합 패키지로 경쟁력 강화",
+      "signal_strength": 2,
+      "max_velocity": 22.7,
       "articles": [
         {
-          "title": "아이유·박보영이 무슨 죄…SNS 테러 이어 광고 불매 운동까지 [왓IS]",
-          "link": "https://isplus.com/article/view/isp202606070110",
-          "pub_date": "2026.06.08",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -6.7
+          "title": "KT, 외국인 AI 상담부터 멤버십 혜택 확대까지…고객 경험 강화",
+          "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=263517",
+          "pub_date": "2026.06.15",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
         },
         {
-          "title": "아이유, 박보영 향한 댓글 테러 넘어 광고 불매 운동 파문…누리꾼들 &quot;...",
-          "link": "https://www.mydaily.co.kr/page/view/2026060810561743246",
-          "pub_date": "2026.06.08",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -6.7
+          "title": "KT, 다국어 AI 상담사 전국 확대…스포츠 시즌 멤버십 혜택 강화",
+          "link": "https://www.pointe.co.kr/news/articleView.html?idxno=80646",
+          "pub_date": "2026.06.15",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "[테크스냅] KT, 월드컵 맞아 6월 멤버십 프로그램 강화",
+          "link": "https://www.yna.co.kr/view/AKR20260615086800017?input=1195m",
+          "pub_date": "2026.06.15",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 22.7
+        }
+      ]
+    },
+    {
+      "category": "battle",
+      "topic": "카드사 구독혜택 경쟁",
+      "insight": "금융사 OTT·AI 구독 결합 혜택 — T멤버십 제휴 카테고리 확대 필요",
+      "signal_strength": 1,
+      "max_velocity": -11.3,
+      "articles": [
+        {
+          "title": "신한카드 AI ·OTT 등 구독 이벤트…캐시백 혜택",
+          "link": "https://biz.sbs.co.kr/article_hub/20000316115?division=NAVER",
+          "pub_date": "2026.06.12",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": -11.3
+        },
+        {
+          "title": "&quot;신한카드로 OTT·AI 구독하면 캐시백 혜택 제공&quot;",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7169094",
+          "pub_date": "2026.06.12",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": -11.3
+        }
+      ]
+    },
+    {
+      "category": "benchmark",
+      "topic": "CJ올리브영 멤버십 제휴 확대",
+      "insight": "올리브영의 제휴 생태계 확장으로 멤버십 락인 전략 강화 — T멤버십의 카테고리별 차별화 혜택 포트폴리오 보강 시급",
+      "signal_strength": 2,
+      "max_velocity": 22.7,
+      "articles": [
+        {
+          "title": "CJ올리브영, 멤버십 혜택 확장…탈잉·리디·청연 제휴 추가",
+          "link": "https://www.ajunews.com/view/20260609155112342",
+          "pub_date": "2026.06.09",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 22.7
+        },
+        {
+          "title": "CJ올리브영, 멤버십 락인 강화…클래스·제휴 혜택 확대",
+          "link": "https://www.ziksir.com/news/articleView.html?idxno=136214",
+          "pub_date": "2026.06.09",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 22.7
+        },
+        {
+          "title": "CJ올리브영 '올리브 클래스'에 탈잉·리디 제휴…멤버십 혜택 강화",
+          "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=843307",
+          "pub_date": "2026.06.09",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 22.7
+        },
+        {
+          "title": "CJ올리브영 멤버십 혜택 확대, 체험 프로그램 마련하고 생활 서비스와 ...",
+          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=439619",
+          "pub_date": "2026.06.09",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 22.7
+        },
+        {
+          "title": "CJ올리브영, 멤버십 혜택 확대...소비자 관심 증가",
+          "link": "http://www.thebigdata.co.kr/view.php?ud=202606090953013974a79b9f00ab_23",
+          "pub_date": "2026.06.09",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 22.7
+        },
+        {
+          "title": "CJ올리브영, '올리브 클래스'에 탈잉·리디 제휴…멤버십 혜택 확대",
+          "link": "https://www.cnbnews.com/news/articleView.html?idxno=1003971",
+          "pub_date": "2026.06.09",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 22.7
+        },
+        {
+          "title": "올리브영, '올리브 클래스' 제휴 혜택 확대…체험형 콘텐츠도 강화",
+          "link": "https://www.news1.kr/industry/distribution/6191520",
+          "pub_date": "2026.06.09",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 22.7
         }
       ]
     }
@@ -183,478 +287,264 @@
   "categories": {
     "trend": [
       {
-        "title": "애플, 앱스토어 대대적 개편… AI 기반 추천·그룹 구독·신규 마케팅 기...",
-        "topic": "애플 앱스토어 개편",
-        "insight": "앱스토어 구독 모델·AI 추천 강화 — T멤버십 앱 내 구독 연계 전략 조정 필요",
-        "desc": "애플 비즈니스 매니저(Apple Business Manager)와 애플 스쿨 매니저(Apple School Manager)를 통해 조직 단위로 구독 서비스를 배포할 수 있다. 대량 구매 기능은 올가을, 그룹 구매 기능은 올겨울부터 제공될 예정이다. 여러... ",
-        "link": "https://www.aitimes.kr/news/articleView.html?idxno=40416",
-        "pub_date": "2026.06.09",
-        "reason": "애플 AI 구독 모델 개편, OTT 시장 변화 신호",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 62.5,
-        "datalab_velocity": -18.2,
+        "title": "AI 구독 늘고 콘텐츠 멤버십 줄었다",
+        "topic": "AI 구독서비스 성장",
+        "insight": "AI 기반 구독 수요 증가로 프리미엄 멤버십 차별화 기회 확대. T멤버십 AI 서비스 연계 전략 강화 필요",
+        "desc": "특히 가격 경쟁력뿐 아니라 개인화 데이터와 멤버십 혜택, 이용 편의성이 장기 구독자를 확보하는 핵심 요소로 작용할 것이라는 분석이 나온다. 업계 관계자는 &quot;소비자들은 구독료 부담이 커져도 무조건 해지하기보다... ",
+        "link": "https://www.namdonews.com/news/articleView.html?idxno=913487",
+        "pub_date": "2026.06.14",
+        "reason": "AI 구독 성장, 콘텐츠 멤버십 축소 추세 모니터링",
+        "priority": 1,
+        "cross_query_count": 3,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
+          "멤버십 혜택",
           "구독 서비스",
-          "앱 마케팅"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "애플, '앱스토어' 대대적 개편…새 구독 모델·마케팅 도구 대거 도입",
-        "topic": "애플 앱스토어 개편",
-        "insight": "앱스토어 구독 모델·AI 추천 강화 — T멤버십 앱 내 구독 연계 전략 조정 필요",
-        "desc": "기능과 서비스를 사전 공개했다. 올해부터 순차적으로 도입될 이번 업데이트는 강력한 마케팅 도구와 다중 사용자 구독 모델, 그리고 자녀 보호 기능을 지원하기 위한 앱 분류 체계 개편 등을 골자로 한다.... ",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01908966645480080",
-        "pub_date": "2026.06.09",
-        "reason": "애플 구독 마케팅 혁신, 멤버십 전략 영향",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 62.5,
-        "datalab_velocity": -18.2,
-        "queries": [
-          "구독 서비스",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "여름 수요 잡아라…유통가 ‘장마·무더위’ 할인전",
-        "topic": "여름 시즌 유통 프로모션",
-        "insight": "폭염·장마 대비 유통사 공격적 할인전 — T멤버십 시즌별 쿠폰·혜택 강화 기획 필수",
-        "desc": "레인부츠와 여름 가방 등 시즌 상품을 최대 30% 할인 판매한다. 행사 기간 헌터 단일 브랜드 구매 고객에게는... 신세계백화점은 여름 휴가철을 앞두고 강남점 4층에서 오는 14일까지 리커버리 슈즈 브랜드 ‘우포스’... ",
-        "link": "https://www.segye.com/newsView/20260606502375?OutUrl=naver",
-        "pub_date": "2026.06.06",
-        "reason": "계절 소비 트렌드 변화, 타겟팅 전략 수립 참고",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 40.7,
-        "datalab_velocity": 13.3,
-        "queries": [
-          "여름 휴가 시즌",
-          "장마철 프로모션"
-        ]
-      },
-      {
-        "title": "“여름아 부탁해”…빨라진 폭염에 분주해진 유통가, 기획전 확대",
-        "topic": "여름 시즌 유통 프로모션",
-        "insight": "폭염·장마 대비 유통사 공격적 할인전 — T멤버십 시즌별 쿠폰·혜택 강화 기획 필수",
-        "desc": "향수와 헤어·바디 제품, 홈 프래그런스 등으로 구성된 이번 컬렉션은 여름철 야외 활동과 휴가 시즌 수요를 겨냥했다. 업계 관계자는 “기온 상승 시점이 앞당겨지면서 소비자들의 계절 상품 구매 시기도 함께 빨라지고... ",
-        "link": "https://www.mk.co.kr/article/12065634",
-        "pub_date": "2026.06.04",
-        "reason": "폭염 기반 소비 시즈널 프로모션 기획 참고",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 40.7,
-        "datalab_velocity": 13.3,
-        "queries": [
-          "여름 휴가 시즌",
-          "여름 패션위크"
-        ]
-      },
-      {
-        "title": "“검색 대신 대화로 쇼핑”… 패션 플랫폼에 스며든 ‘생성형 AI’",
-        "topic": "패션플랫폼 AI 기반 초개인화",
-        "insight": "AI 챗봇·초개인화 쇼핑 확산 — T멤버십 패션 카테고리 AI 추천 고도화 시급",
-        "desc": "추천과 오프라인 매장 연계 기능을 추가해 개인화 서비스를 강화할 방침이다. 패션업계가 검색 중심 쇼핑에서 대화형 AI 커머스로 전환하는 가운데 AI 플랫폼 내 고객 접점을 확보하기 위한 경쟁도 치열해지고 있다.",
-        "link": "https://www.mk.co.kr/article/12069401",
-        "pub_date": "2026.06.09",
-        "reason": "AI 기반 쇼핑 트렌드 모니터링",
+        "title": "내가 만든 영상이 실제 광고판에?…AI가 바꾼 유통가 마케팅",
+        "topic": "AI 마케팅 도구 확산",
+        "insight": "AI 활용 콘텐츠 생성으로 소비자 접점 다양화. T멤버십 회원사의 마케팅 협력 모델 재편 기회",
+        "desc": "기존의 키워드 검색 중심 쇼핑에서 벗어나 AI와 대화를 통해 상품을 탐색하는 새로운 쇼핑 환경을 구현하는 것이 목표다. 무신사는 최근 AI가 글로벌 패션 트렌드를 실시간으로 분석해 상품을 추천하는 ‘AI 트렌드... ",
+        "link": "https://www.segye.com/newsView/20260610515097?OutUrl=naver",
+        "pub_date": "2026.06.10",
+        "reason": "AI 기반 유통 마케팅 트렌드 장기 모니터링",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "플랫폼 경쟁",
-          "AI 쇼핑"
+          "AI 쇼핑",
+          "앱 마케팅"
         ]
       },
       {
-        "title": "패션 플랫폼 새 승부처는 '초개인화' …'AI' 활용 경쟁 본격화",
-        "topic": "패션플랫폼 AI 기반 초개인화",
-        "insight": "AI 챗봇·초개인화 쇼핑 확산 — T멤버십 패션 카테고리 AI 추천 고도화 시급",
-        "desc": "무신사, 챗GPT 내 앱 선봬…'AI 트렌드 큐레이션' 확대 에이블리·지그재그, 개인화 기술 고도화  인공지능(AI)을 앞다퉈 도입하며 시스템 고도화를 추진 중인 패션 플랫폼 업체들의 경쟁이 '초개인화' 쇼핑으로 발전하고... ",
-        "link": "http://www.srtimes.kr/news/articleView.html?idxno=204877",
-        "pub_date": "2026.06.09",
-        "reason": "개인화 쇼핑 플랫폼 경쟁 동향 참고",
+        "title": "LG전자, 챗GPT 전용 앱 출시…AI 대화창이 새 쇼핑 플랫폼으로",
+        "topic": "AI 마케팅 도구 확산",
+        "insight": "AI 활용 콘텐츠 생성으로 소비자 접점 다양화. T멤버십 회원사의 마케팅 협력 모델 재편 기회",
+        "desc": "| 이코노미사이언스 박성현 기자 | 검색창 중심이던 온라인 쇼핑 환경이 인공지능(AI) 대화창 중심으로 이동하고 있다. LG전자가 최근 챗GPT 내 전용 서비스를 선보이면서 소비자는 AI와 대화하는 과정에서 제품 정보를... ",
+        "link": "https://www.e-science.co.kr/news/articleView.html?idxno=130409",
+        "pub_date": "2026.06.10",
+        "reason": "AI 기반 쇼핑 플랫폼 혁신 동향 모니터링",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "플랫폼 경쟁",
-          "AI 쇼핑"
+          "AI 쇼핑",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "[라이프 Pick] 여름 휴가철 앞두고 여행·레저 업계 시즌 마케팅 본격화",
+        "topic": "여행레저 시즌 마케팅",
+        "insight": "성수기 여행·레저 수요 증가로 카테고리 제휴 기회 확대. T멤버십 여행상품 번들 전략 시의성 있게 추진",
+        "desc": "이는 비용 부담 완화를 원하는 소비자층을 흡수하는 동시에 차별화된 마케팅을 통해 시장 내 브랜드... 롯데호텔앤리조트는 여름 성수기를 겨냥해 자체 멤버십 회원을 대상으로 한 공식 앱 전용 객실 프로모션인 '썸머... ",
+        "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=203424",
+        "pub_date": "2026.06.15",
+        "reason": "여름 시즌 소비 트렌드 모니터링",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 3.3,
+        "datalab_velocity": -0.7,
+        "queries": [
+          "앱 마케팅",
+          "여름 휴가 시즌"
         ]
       }
     ],
     "risk": [
       {
-        "title": "불매 운동 끝?… 스타벅스 카드 결제액, '탱크데이' 논란 3주 만에 반등",
-        "topic": "스타벅스 탱크데이 불매 사태",
-        "insight": "불매 운동 진정 단계 — T멤버십 스타벅스 제휴 프로모션 회복력 모니터링 및 타사 카페 포트폴리오 강화 검토",
-        "desc": "'탱크데이' 마케팅 논란 이후 감소세를 보이던 스타벅스코리아의 카드 결제액이 3주 만에 반등했다. 불매 움직임과 선불 충전금 환불 요구가 이어지며 주요 지표가 흔들렸지만, 6월 첫째 주 들어 결제액과 앱 이용자... ",
-        "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=262148",
-        "pub_date": "2026.06.10",
-        "reason": "스타벅스 불매 반등, 제휴 안정성 재평가 필요",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 81.6,
-        "datalab_velocity": -6.7,
-        "queries": [
-          "마케팅 논란",
-          "불매운동"
-        ]
-      },
-      {
         "title": "[단독]스타벅스 불매운동 여파에 제휴카드 발급 88% 급감",
-        "topic": "스타벅스 탱크데이 불매 사태",
-        "insight": "불매 운동 진정 단계 — T멤버십 스타벅스 제휴 프로모션 회복력 모니터링 및 타사 카페 포트폴리오 강화 검토",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
         "desc": "카드 혜택이 제휴 브랜드에 집중돼 있고, 카드 디자인에도 브랜드 로고가 그려져 있는 이유다. 스타벅스 브랜드에 대한 불매가 관련 상품으로까지 퍼지며 향후 제휴카드 발급에도 제동이 걸리게 됐다. 스타벅스와... ",
         "link": "https://www.etnews.com/20260609000207",
         "pub_date": "2026.06.09",
-        "reason": "제휴사 논란이 카드사까지 영향, 긴급 대응 필요",
+        "reason": "제휴사 논란으로 카드 발급 급감, 즉시 대응 필요",
         "priority": 3,
         "cross_query_count": 2,
-        "datalab_score": 81.6,
-        "datalab_velocity": -6.7,
+        "datalab_score": 6.2,
+        "datalab_velocity": -0.2,
         "queries": [
           "브랜드 제휴",
           "불매운동"
         ]
       },
       {
-        "title": "젊어진다던 비타민 광고 실체… AI 가짜 의사였다",
-        "topic": "식품 건강광고 가짜의사 논란",
-        "insight": "AI 허위광고 적발 강화 — T멤버십 제휴 식품 브랜드 광고 신뢰도 및 규정 준수 점검 강화",
-        "desc": "식약처,AI,과대광고 식약처는 AI 기술로 생성한 가짜 의사를 내세워 일반식품을 노화 방지 효과가 있는... 수사 결과, 유통업체 A와 사업 본부 대표 B씨는 온라인 쇼핑몰과 유튜브를 통해 비타민C, 효모식품 등으로 만든... ",
-        "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3066030",
-        "pub_date": "2026.06.10",
-        "reason": "AI 가짜 의사 광고 논란, 불법광고 우려",
+        "title": "정용진도 참석..'5·18 논란' 스벅, 조기 폐점하고 전직원 역사인식 교육...",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
+        "desc": "최근 '5·18 마케팅' 논란을 계기로 재발 방지 대책을 마련하고 내부 의사결정 체계도 전면 재정비한다. 마케팅 검증 체계 전면 개편 신세계그룹은 오는 17일 이마트부문 계열사 임원과 스타벅스 코리아 본사 임직원을... ",
+        "link": "http://www.fnnews.com/news/202606150823405996",
+        "pub_date": "2026.06.15",
+        "reason": "스타벅스 5·18 논란 확산, T멤버십 제휴사 위기 관리 필수",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 100.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "AI 쇼핑"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "신체나이 줄여준다고?…AI 가짜 의사 내세운 식품 불법광고 업체 검찰 ...",
-        "topic": "식품 건강광고 가짜의사 논란",
-        "insight": "AI 허위광고 적발 강화 — T멤버십 제휴 식품 브랜드 광고 신뢰도 및 규정 준수 점검 강화",
-        "desc": "SNS에 AI로 만든 가짜 의사를 등장시켜 일반식품을 신체나이 감소와 노화 방지에 효과가 있는 것처럼 불법... 식약처에 따르면, 유통업체 A와 사업 본부 대표 B씨는 자사 온라인 쇼핑몰과 유튜브 등을 통해 비타민C... ",
-        "link": "http://www.foodnews.co.kr/news/articleView.html?idxno=118916",
-        "pub_date": "2026.06.10",
-        "reason": "AI 가짜 의사 불법광고 검찰 적발, 규제 확산",
+        "title": "&quot;22일 오후 3시 영업종료&quot;‥'논란 끝낸다' 스벅 강수",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
+        "desc": "신세계그룹은 스타벅스 코리아의 이번 조치가 '5.18 탱크데이 마케팅'과 관련 사회적 물의를 일으킨 것을... 또 보고체계를 강화해 마케팅 콘텐츠의 적절성 여부를 실행 직전까지 꼼꼼히 검토하고, 이 과정에서의 협의... ",
+        "link": "https://imnews.imbc.com/news/2026/econo/article/6830227_36932.html",
+        "pub_date": "2026.06.15",
+        "reason": "스타벅스 폐점·후속대책, 제휴 영향도·불매 확대 우려",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 100.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "AI 쇼핑"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "스타벅스 불매 끝났나? 결제액 12.8%↑… 카톡 선물 상위권 ‘싹쓸이’",
-        "topic": "스타벅스 탱크데이 불매 사태",
-        "insight": "불매 운동 진정 단계 — T멤버십 스타벅스 제휴 프로모션 회복력 모니터링 및 타사 카페 포트폴리오 강화 검토",
-        "desc": "스타벅스의 주간 결제금액과 앱 사용자 수가 회복세를 보였으나, 일각에서는 여전히 불매운동이 지속되고 있어 논란 이전 수준 회복까지 얼마나 걸릴지는 지켜봐야 할 것으로 보인다. 앞서 스타벅스코리아는 5·18... ",
-        "link": "https://www.seoul.co.kr/news/economy/2026/06/10/20260610500098?wlog_tag3=naver",
-        "pub_date": "2026.06.10",
-        "reason": "제휴사 불매 영향도 추이 긴급 모니터링",
+        "title": "정용진 회장도 역사교육 받는다…신세계, 스타벅스 논란 후속대책 발표",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
+        "desc": "신세계그룹이 스타벅스 5.18 탱크데이 마케팅 관련 후속 조치로 임직원 역사교육과 마케팅 관리 방안을 발표했다. 신세계그룹은 오는 17일 그룹 연수원인 신세계남산에서 이마트부문 계열사 임원과 스타벅스 코리아 본사... ",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/06/15/2026061590094.html",
+        "pub_date": "2026.06.15",
+        "reason": "스타벅스 논란 신세계 경영진 교육, 제휴사 신뢰도 하락",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 81.6,
-        "datalab_velocity": -6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "불매운동"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "잦아드는 '탱크 데이' 불매 여론?…스타벅스 결제액 3주 만에 '반등'",
-        "topic": "스타벅스 탱크데이 불매 사태",
-        "insight": "불매 운동 진정 단계 — T멤버십 스타벅스 제휴 프로모션 회복력 모니터링 및 타사 카페 포트폴리오 강화 검토",
-        "desc": "지난달 '탱크데이' 논란 이후 불매 운동이 확산하면서 매출 감소세가 이어졌지만, 최근 다시 회복 조짐을 보이는 것 아니냐는 분석이 나옵니다. 오늘(10일) AI 데이터 테크기업 아이지에이웍스의 모바일인덱스에... ",
-        "link": "http://www.yonhapnewstv.co.kr/news/MYH202606101437533Dd",
-        "pub_date": "2026.06.10",
-        "reason": "제휴사 불매 회복 추세 추적 필수",
+        "title": "'탱크데이' 마케팅 논란 스타벅스, 전 직원 역사교육",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
+        "desc": "이른바 '탱크데이' 마케팅 논란을 빚은 정용진 신세계그룹 회장과 그룹 경영진, 스타벅스 코리아 임직원들이 역사 인식과 사회적 감수성을 높이기 위한 교육을 받습니다. 정 회장은 오는 24일 사장단 회의에 앞서 계열사... ",
+        "link": "http://news.ebs.co.kr/ebsnews/allView/60737141/N",
+        "pub_date": "2026.06.15",
+        "reason": "스타벅스 탱크데이 논란 후속, 제휴사 위기 지속",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 81.6,
-        "datalab_velocity": -6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "불매운동"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "&quot;올림픽공원 선결제 안 해? 아이유·박보영 광고 불매&quot;",
-        "topic": "올림픽공원 선결제 불매 운동",
-        "insight": "셀럽 광고 불매 이슈 확산 — T멤버십 제휴사 광고 모델 논란 리스크 사전 점검 체계 필요",
-        "desc": "가수 겸 배우 아이유와 배우 박보영을 향한 온라인 공격이 댓글 테러를 넘어 광고 불매 운동으로까지 번졌다. 8일 연예계에 따르면 최근 온라인 커뮤니티에는 '아이유·박보영 광고 불매 운동'이라는 제목의 게시물이... ",
-        "link": "https://www.newsis.com/view/NISX20260608_0003660270",
-        "pub_date": "2026.06.08",
-        "reason": "제휴사 불매 논란 재확산 긴급 대응",
+        "title": "'스타벅스 논란' 정용진 회장, 역사인식교육 받는다…후속대책 발표",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
+        "desc": "신세계그룹이 스타벅스 코리아 마케팅 논란 재발 방지를 위해 전사 차원의 역사 인식 및 사회적 감수성 교육에 나선다. 정용진 회장을 비롯한 이마트부문 경영진과 스타벅스 본사·매장 직원들은 순차적으로 교육을 받고... ",
+        "link": "https://view.asiae.co.kr/article/2026061508540189046",
+        "pub_date": "2026.06.15",
+        "reason": "스타벅스 논란 신세계 CEO 교육, 제휴 신뢰도 관리 필수",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 81.6,
-        "datalab_velocity": -6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "불매운동"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "&quot;탈벅 인증 어디로&quot;… 스타벅스 불매 열풍 넘어 회복세",
-        "topic": "스타벅스 탱크데이 불매 사태",
-        "insight": "불매 운동 진정 단계 — T멤버십 스타벅스 제휴 프로모션 회복력 모니터링 및 타사 카페 포트폴리오 강화 검토",
-        "desc": "'탈(脫)스타벅스' 인증이 사회관계망서비스(SNS)를 뒤덮었던 스타벅스 불매운동이 한 달여 만에 힘을 잃는 모습이다. 한때 스타벅스 앱 삭제와 회원 탈퇴 인증이 잇따랐지만 최근 결제액과 이용자 수가 반등한 데 이어... ",
-        "link": "https://www.kmaeil.com/news/articleView.html?idxno=642100",
-        "pub_date": "2026.06.10",
-        "reason": "제휴사 불매 여론 변화 추적",
+        "title": "신세계그룹, 스타벅스 마케팅 논란 후 역사·사회 감수성 교육 실시",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
+        "desc": "위해 마케팅 프로세스도 정비한다. 외부 전문기관 자문을 바탕으로 '사회적 민감도' 체크리스트를 만들고, 기획 단계부터 역사, 기념일, 정치, 재난, 군사, 젠더, 폭력, 혐오표현 등 사회적 민감 사안을 점검한다. 마케팅... ",
+        "link": "http://www.metroseoul.co.kr/article/20260615500188",
+        "pub_date": "2026.06.15",
+        "reason": "스타벅스 논란 신세계 전사교육, 제휴 위험 지속",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 81.6,
-        "datalab_velocity": -6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "불매운동"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "아이유·박보영이 무슨 죄…SNS 테러 이어 광고 불매 운동까지 [왓IS]",
-        "topic": "셀럽 논란 광고 불매 운동",
-        "insight": "셀럽 광고 불매 이슈 확산 — T멤버십 제휴사 광고 모델 논란 리스크 사전 점검 체계 필요",
-        "desc": "가수 아이유와 배우 박보영이 모델로 활동 중인 브랜드 불매 운동이 확산되며 논란이 일고 있다. 6·3 지방선거 투표용지 부족 사태를 둘러싼 집회에서 비롯된 여론 갈등이 연예인 개인으로 확산되는 양상으로, 과도한... ",
-        "link": "https://isplus.com/article/view/isp202606070110",
-        "pub_date": "2026.06.08",
-        "reason": "광고 모델 논란으로 인한 제휴사 이미지 악화",
+        "title": "'탱크데이' 논란 스타벅스, 22일 전 직원 대상 역사교육",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
+        "desc": "［중부매일 양정아 기자］ '탱크데이' 마케팅 논란으로 비판을 받은 스타벅스 코리아가 전 직원을 대상으로 역사 인식 및 사회적 감수성 교육에 나선다. 오는 22일 전국 모든 매장의 영업을 오후 3시에 종료하고 점포별... ",
+        "link": "https://www.jbnews.com/news/articleView.html?idxno=1505924",
+        "pub_date": "2026.06.15",
+        "reason": "스타벅스 탱크데이 논란 직원교육, 제휴사 위기 관리",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 81.6,
-        "datalab_velocity": -6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "불매운동"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "아이유, 박보영 향한 댓글 테러 넘어 광고 불매 운동 파문…누리꾼들 &quot;...",
-        "topic": "셀럽 논란 광고 불매 운동",
-        "insight": "셀럽 광고 불매 이슈 확산 — T멤버십 제휴사 광고 모델 논란 리스크 사전 점검 체계 필요",
-        "desc": "가수 겸 배우 아이유와 배우 박보영을 향한 온라인 공격이 댓글 테러를 넘어 광고 불매 운동으로까지 번지고 있다. 최근 온라인 커뮤니티와 SNS에는 '아이유·박보영 광고 불매 운동'이라는 제목의 게시물이 잇따라... ",
-        "link": "https://www.mydaily.co.kr/page/view/2026060810561743246",
-        "pub_date": "2026.06.08",
-        "reason": "광고 모델 논란 불매 확산 모니터링",
+        "title": "'5·18 역사 폄훼 논란' 신세계그룹 임직원, 역사·사회 교육 받는다",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
+        "desc": "회사는 &quot;이번 교육이 향후 그룹 전체에서 스타벅스 코리아 텀블러 프로모션 마케팅에서 비롯된 역사 폄훼 논란과 유사한 일이 재발하지 않도록 하겠다는 의미&quot;라고 설명했다. 스타벅스 코리아 매장에 근무하는 파트너들은... ",
+        "link": "https://www.ddaily.co.kr/page/view/2026061509095663039",
+        "pub_date": "2026.06.15",
+        "reason": "스타벅스 5·18 논란 신세계 교육, 제휴 영향도 지속",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 81.6,
-        "datalab_velocity": -6.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "불매운동"
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "신세계그룹, 스타벅스 논란에 전사 교육…'역사 감수성' 다시 세운다",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 위기 상황에서 제휴카드 이탈 위험 — T멤버십 제휴사 리스크 관리 체계 강화 필요",
+        "desc": "신세계그룹이 스타벅스 코리아 마케팅 논란을 계기로 그룹 차원의 역사 인식 및 사회적 감수성 교육에 나선다. 스타벅스 코리아는 전국 모든 매장의 영업을 조기 종료하고 전 직원 교육을 진행하는 등 재발 방지 의지를... ",
+        "link": "https://www.newspim.com/news/view/20260615000123",
+        "pub_date": "2026.06.15",
+        "reason": "스타벅스 논란 신세계 전사교육, 제휴 신뢰도 추적",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
         ]
       }
     ],
     "battle": [
       {
-        "title": "우리은행 WON모바일 &quot;통신비 0원·최대 200만원 혜택 쏜다&quot;",
-        "topic": "우리은행 WON모바일 통신비 혜택",
-        "insight": "금융사의 통신 서비스 진출 — T멤버십 금융·통신 통합 혜택 경쟁력 강화 필요",
-        "desc": "페이백 혜택이다. 이달 중 해당 15종의 요금제에 가입하고 이벤트에 응모한 고객은 기본 통신요금 할인과 더불어 6개월간 매월 우리금융그룹 통합 멤버십 포인트인 '꿀머니'를 지원받는다. 고객은 사실상 통신망을... ",
-        "link": "https://www.dt.co.kr/article/12066413?ref=naver",
-        "pub_date": "2026.06.08",
-        "reason": "우리은행 통신비 무료·200만원 혜택은 직접 경쟁",
+        "title": "일회성 혜택을 상시 적용처럼 기만… 쿠팡에 과징금 5억",
+        "topic": "쿠팡 허위광고 과징금",
+        "insight": "플랫폼 허위표시 적발 강화 — T멤버십 혜택 투명성 강화로 신뢰도 선제 확보",
+        "desc": "공정위 이영희 표시광고감시팀장은 “이번 조치는 온라인 쇼핑몰의 유료 멤버십 서비스와 연계된 가격 할인 혜택 광고를 제재한 첫 사례”라며 “유료 멤버십 서비스의 할인 적용 조건과 범위를 소비자가 명확히... ",
+        "link": "https://www.busan.com/view/busan/view.php?code=2026060918413499316",
+        "pub_date": "2026.06.09",
+        "reason": "쿠팡 기만 과징금, 이커머스 경쟁사 신뢰도 하락",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 17.5,
-        "datalab_velocity": 0.5,
+        "datalab_score": 37.6,
+        "datalab_velocity": 22.7,
         "queries": [
           "멤버십 혜택"
         ]
       },
       {
-        "title": "공정위 “쿠폰가를 회원가로…소비자 기만 쿠팡 과징금”",
-        "topic": "",
-        "insight": "",
-        "desc": "[이영희/공정위 표시광고팀장 : &quot;소비자들의 와우멤버십 가입 여부 결정 시 회원 전용 할인 가격의 존부는 중요한 고려사항에 해당함에도 이를 은폐·누락한...&quot;] 실제 이같은 광고가 이뤄진 2020년 8월부터 1년 8개월 동안... ",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8581566&ref=A",
-        "pub_date": "2026.06.09",
-        "reason": "쿠팡 과징금, 광고 신뢰도 추락으로 경쟁 우위 기회",
+        "title": "우버發 배민 매각설에 쿠팡이츠 총공세…배달앱 판 흔들린다",
+        "topic": "배달앱 시장 재편",
+        "insight": "배민 매각설에 따른 시장 변동성 — T멤버십 배달 파트너십 전략 재검토 필요",
+        "desc": "사진=연합뉴스  글로벌 자본의 움직임과 플랫폼 간 경쟁 심화가 맞물리면서 국내 배달앱 시장 경쟁이 한층 치열해지고 있다. 시장 1위 배달의민족이 매각 시험대에 오른 가운데 쿠팡이츠가 무료배달 확대와 24시간... ",
+        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1376095",
+        "pub_date": "2026.06.14",
+        "reason": "배달앱 판도 변화, 쿠팡이츠 공세 가속화",
         "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "‘와우회원 전용 특가’라더니…쿠팡, 소비자 기만 광고로 과징금 5억원",
-        "topic": "",
-        "insight": "",
-        "desc": "쿠팡은 ‘와우회원가’와 ‘와우 전용 할인쿠폰’이 별개인 것처럼 표기해 소비자들이 ‘와우회원가’가 일회성 쿠폰이 적용된 가격이라는 것을 알기 어렵게 한 것으로 조사됐다. 광고 문구로는 ‘와우회원가로 ○원... ",
-        "link": "https://www.hani.co.kr/arti/economy/economy_general/1262600.html",
-        "pub_date": "2026.06.09",
-        "reason": "쿠팡 소비자 기만 과징금, 신뢰도 저하로 고객 유입 기회",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "'회원 전용 특가'라더니 1회만 할인…쿠팡에 과징금 5억",
-        "topic": "",
-        "insight": "",
-        "desc": "[이영희/공정거래위원회 표시광고팀장 : 유료 멤버십 서비스와 연계된 가격 할인 혜택 광고를 제재한 첫 사례로서 유료 멤버십 서비스의 할인 적용 조건과 범위를 소비자가 명확하게 인식할 수 있도록 표시해야 함을... ",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008602320&plink=ORI&cooper=NAVER",
-        "pub_date": "2026.06.09",
-        "reason": "쿠팡 허위광고 과징금, 경쟁사 신뢰 추락 활용 기회",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "‘회원 되면 상시할인’ 소비자 기만 쿠팡에 공정위, 과징금 5억",
-        "topic": "",
-        "insight": "",
-        "desc": "‘쿠폰 할인 사실을 함께 표시한 버전’을 병행 운영하며 소비자 반응을 실험한 것으로 나타났다. 공정위는 이를 두고 “중요한 가격 정보를 은폐해 소비자를 기만한 행위”라고 판단했다. 다른 온라인 쇼핑몰들은... ",
-        "link": "https://www.khan.co.kr/article/202606092036025",
-        "pub_date": "2026.06.09",
-        "reason": "경쟁사 구독팩 허위광고로 고객신뢰 훼손",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "일회성 쿠폰을 상시 할인가처럼…쿠팡, '법정 최고' 과징금 5억",
-        "topic": "",
-        "insight": "",
-        "desc": "공정위 관계자는 &quot;이번 조치는 온라인 쇼핑몰의 유료 멤버십 서비스와 연계된 가격 할인 광고를 제재한 첫 사례&quot;라며 &quot;유료 멤버십의 할인 조건과 범위를 소비자에게 명확히 알려야 한다는 점을 확립했다는 데 의의가 있다... ",
-        "link": "https://www.etoday.co.kr/news/view/2591786",
-        "pub_date": "2026.06.09",
-        "reason": "쿠팡 와우회원 구독팩 신뢰성 이슈",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "&quot;상시 할인처럼 속여&quot;…'와우회원가 허위광고' 쿠팡 과징금 5억원",
-        "topic": "",
-        "insight": "",
-        "desc": "하지만 실제 와우 회원가는 와우멤버십에 가입할 경우 1회에 한해 사용 가능한 할인쿠폰이 적용된 가격이었으며, 소비자가 동일한 와우 회원가로 상품을 반복해 구매할 수는 없는 구조였습니다. 공정위는 이와 같은 광고... ",
-        "link": "http://www.yonhapnewstv.co.kr/news/AKR20260609114834Bkc",
-        "pub_date": "2026.06.09",
-        "reason": "쿠팡 구독팩 허위광고 공정위 제재",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "'1회용 쿠폰'인데 상시 할인처럼…과징금 5억 원",
-        "topic": "",
-        "insight": "",
-        "desc": "문제는 와우회원 가입 시 한 번만 사용할 수 있는 할인쿠폰이 적용된 가격을 마치 상시 제공되는 할인 가격인 것처럼 광고했다는 점입니다. 하지만 소비자는 같은 상품을 동일한 '와우회원가'로 반복 구매할 수... ",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008601540&plink=ORI&cooper=NAVER",
-        "pub_date": "2026.06.09",
-        "reason": "경쟁사 구독팩 과징금으로 신뢰도 하락",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "'회원가'라더니 '1회만 할인'…쿠팡에 과징금 5억 원",
-        "topic": "",
-        "insight": "",
-        "desc": "[이영희/공정거래위원회 표시광고팀장 : 유료 멤버십 서비스와 연계된 가격 할인 혜택 광고를 제재한 첫 사례로서 유료 멤버십 서비스의 할인 적용 조건과 범위를 소비자가 명확하게 인식할 수 있도록 표시해야 함을... ",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008602527&plink=ORI&cooper=NAVER",
-        "pub_date": "2026.06.10",
-        "reason": "쿠팡 와우회원가 광고 조작 이슈",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "'1회성 할인을 상시가처럼' 와우회원가 쿠팡 광고에 과징금 5억 부과",
-        "topic": "",
-        "insight": "",
-        "desc": "이영희 공정위 표시광고감시팀장은 &quot;이번 조치는 온라인 쇼핑몰의 유료 멤버십 서비스와 연계된 가격 할인 혜택 광고를 제재한 첫 사례&quot;라며 &quot;유료 멤버십 서비스의 할인 적용 조건과 범위를 소비자가 명확하게 인식할... ",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/06/09/2026060990289.html",
-        "pub_date": "2026.06.09",
-        "reason": "구독팩 기만광고 과징금 처분",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인"
-        ]
-      }
-    ],
-    "benchmark": [
-      {
-        "title": "장마 대비하고 휴가 떠나자…백화점 여름 쇼핑전 '풍성'[위클리 쇼핑]",
-        "topic": "백화점 여름 시즌 프로모션",
-        "insight": "백화점의 시즌별 쇼핑전 강화 — T멤버십 시즌 상품/카테고리별 차별화된 혜택 기획 필요",
-        "desc": "여행 플랫폼 '놀(NOL)'과 함께 협업해 다양한 여름 휴가 혜택을 제공한다. 백화점 전점 및 아울렛... 헌터의 대표 상품인 레인부츠를 비롯해 여름 가방 등의 기능성 시즌 상품들을 최대 30% 할인해 롯데백화점 단독... ",
-        "link": "https://www.newsis.com/view/NISX20260605_0003657997",
-        "pub_date": "2026.06.06",
-        "reason": "시즌 기획전 활용, 여름 시즌 프로모션 벤치마크",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 40.7,
-        "datalab_velocity": 13.3,
-        "queries": [
-          "여름 휴가 시즌",
-          "장마철 프로모션"
-        ]
-      },
-      {
-        "title": "이커머스와 배송경쟁 대신…백화점이 파고든 '쇼핑 포인트'",
-        "topic": "백화점 포인트 마케팅",
-        "insight": "백화점의 포인트 강화로 차별화 추진 — T멤버십 포인트 적립/사용 경쟁력 재점검 시점",
-        "desc": "기존 이커머스 플랫폼이 빠른 배송과 가격 경쟁력을 앞세웠다면 해당 플랫폼은 프리미엄 상품과 취향 기반 콘텐츠를 기반으로 차별화를 꾀했다는 설명이다. 백화점의 프리미엄 전략이 가장 두드러지는 공간은 식품관.... ",
-        "link": "https://www.hankyung.com/article/202606084160g",
-        "pub_date": "2026.06.08",
-        "reason": "포인트 할인 경쟁 확대, T멤버십 차별화 전략 검토",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "플랫폼 경쟁",
-          "이커머스 전략"
-        ]
-      },
-      {
-        "title": "하나은행, 공공배달앱 '먹깨비' 계좌 개설 고객에 최대 1만3000원 혜택",
-        "topic": "배달앱 은행제휴 혜택",
-        "insight": "금융사의 배달앱 제휴 혜택 확대 — T멤버십 배달 파트너십 강화로 금융 고객 유입 기회 창출",
-        "desc": "배달앱 시장에서는 민간 플랫폼 중심의 경쟁이 이어지는 가운데, 공공배달앱이 소상공인 수수료 부담을 낮추는 대안 채널로 주목받고 있다. 하나은행은 먹깨비 가맹점주 등 소상공인을 대상으로 지역 신용보증재단과... ",
-        "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=267264",
-        "pub_date": "2026.06.04",
-        "reason": "금융사 연계 배달앱 혜택, 제휴 기획 참고",
-        "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
@@ -664,37 +554,292 @@
         ]
       },
       {
-        "title": "[카드 pick] 할인·구독·재테크… 카드사, 생활밀착형 서비스 강화",
-        "topic": "카드사 생활밀착형 서비스",
-        "insight": "카드사의 구독·할인·재테크 통합 전략 — T멤버십 다층적 서비스 결합으로 생활밀착 가치 강화 필수",
-        "desc": "롯데카드는 삼성전자와 협업해 AI 구독클럽 등 삼성전자 구독 서비스 이용자를 위한 '삼성구독엔로카' 카드를 출시했다. 이 카드는 삼성전자 구독료 자동납부 시 전월 이용실적에 따라 월 최대 2만7000원을 할인해준다.... ",
-        "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=203209",
-        "pub_date": "2026.06.09",
-        "reason": "카드사 혜택 트렌드, 장기 벤치마킹 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 62.5,
-        "datalab_velocity": -18.2,
+        "title": "배달앱 수수료 논쟁 재가열... 배민 매각, 변수로 부상",
+        "topic": "배달앱 시장 재편",
+        "insight": "배민 매각설에 따른 시장 변동성 — T멤버십 배달 파트너십 전략 재검토 필요",
+        "desc": "이번 공정위의 판단과 입법 규제 수위는 향후 국내 배달 플랫폼 시장의 판도를 바꿀 최대 인수합병(M&amp;A)에도 영향을 줄 전망이다. 배달앱 수수료 정책은 이재명 대통령과 민주당이 공약으로 제시했던 사안인 만큼... ",
+        "link": "https://www.ajunews.com/view/20260611145306695",
+        "pub_date": "2026.06.11",
+        "reason": "배민 매각으로 배달 시장 구도 급변",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스",
-          "소비자 할인"
+          "배달 시장"
         ]
       },
       {
-        "title": "hy, 마이루틴과 손잡고 '영양제 습관' 공략…정기구독·루틴앱 결합",
-        "topic": "정기구독 건강용품 결합",
-        "insight": "구독 서비스와 라이프스타일앱 연계 확대 — T멤버십 정기구독 카테고리 확장 및 앱 통합 전략 검토",
-        "desc": "hy가 건강기능식품 정기구독 서비스와 습관 형성 플랫폼을 결합한 협업에 나선다. 건강기능식품 시장이 단순 제품 판매를 넘어 꾸준한 섭취 관리 중심으로 재편되는 가운데, 정기배송 서비스와 루틴 관리 애플리케이션을... ",
-        "link": "http://www.inews24.com/view/1975223",
-        "pub_date": "2026.06.10",
-        "reason": "정기구독 기획사례, 혜택 구조 참고용",
+        "title": "선거 끝나자 다시 불붙는 배달앱 규제… 합의 불발 땐 입법 가능성",
+        "topic": "배달앱 시장 재편",
+        "insight": "배민 매각설에 따른 시장 변동성 — T멤버십 배달 파트너십 전략 재검토 필요",
+        "desc": "플랫폼 업계 관계자는 “배달 시장은 소비자와 라이더, 입점업주, 플랫폼 사업자가 연결된 다면시장 구조”라며 “특정 수수료만 인위적으로 제한할 경우 소비자 배달비 인상이나 광고 상품 확대 등 예상치 못한 영역에서... ",
+        "link": "https://biz.chosun.com/distribution/food/2026/06/09/D7OTHAZKDVBKXCV5LLRP5KAP2E/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "pub_date": "2026.06.09",
+        "reason": "배달앱 규제 입법 가능성, 시장 재편",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "KT, 외국인 AI 상담부터 멤버십 혜택 확대까지…고객 경험 강화",
+        "topic": "KT 멤버십 강화전략",
+        "insight": "이동통신사 차별화된 고객경험 전쟁 — 데이터·혜택의 통합 패키지로 경쟁력 강화",
+        "desc": "화이트페이퍼, WHITEPAPER고객이 KT 파워콜 안산역점에서 다국어 AI 상담사를 통해 상담을 받는 모습 (사진=KT)  KT가 외국인 고객을 위한 AI 기반 상담 서비스를 도입하는 동시에 멤버십 혜택을 확대하며 고객 경험 강화에... ",
+        "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=263517",
+        "pub_date": "2026.06.15",
+        "reason": "경쟁사 AI·멤버십 혜택 확대 전략 모니터링",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택",
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "KT, 다국어 AI 상담사 전국 확대…스포츠 시즌 멤버십 혜택 강화",
+        "topic": "KT 멤버십 강화전략",
+        "insight": "이동통신사 차별화된 고객경험 전쟁 — 데이터·혜택의 통합 패키지로 경쟁력 강화",
+        "desc": "KT가 대면 서비스 역량을 높이는 동시에 실속형 멤버십 혜택을 대거 확대하며 국내외 이용자 모두를 겨냥한 전방위적 고객 만족 정책을 펼친다. 매장에는 다국어 소통이 가능한 인공지능을 도입해 외국인 이용자의 문턱을... ",
+        "link": "https://www.pointe.co.kr/news/articleView.html?idxno=80646",
+        "pub_date": "2026.06.15",
+        "reason": "경쟁사 AI 상담·시즌 멤버십 결합 전략 추적",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택",
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "AI로 '배달 품질경쟁' 기어 올리는 배민",
+        "topic": "배달앱 시장 재편",
+        "insight": "배민 매각설에 따른 시장 변동성 — T멤버십 배달 파트너십 전략 재검토 필요",
+        "desc": "무료 배달 등 배달 시장 경쟁이 치열하게 전개되는 가운데 서비스 차별화를 위한 AI 활용이 확대되고 있다는 평가다. 15일 업계에 따르면 배민은 오는 17일 '가게배달 배달시간 AI 예측 기능'을 오픈한다. 가게배달 주문... ",
+        "link": "https://view.asiae.co.kr/article/2026061507460517835",
+        "pub_date": "2026.06.15",
+        "reason": "배민 AI 품질경쟁 강화로 배달앱 경쟁 심화",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장",
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "[테크스냅] KT, 월드컵 맞아 6월 멤버십 프로그램 강화",
+        "topic": "KT 멤버십 강화전략",
+        "insight": "이동통신사 차별화된 고객경험 전쟁 — 데이터·혜택의 통합 패키지로 경쟁력 강화",
+        "desc": "샤오미코리아, 여름맞이 스마트 냉방·환기 가전 2종 출시 KT가 월드컵 시즌에 맞춰 응원 문화와 소비 트렌드를 겨냥한 6월 멤버십 혜택을 준비했다. ▲ KT는 월드컵 시즌을 맞아 멤버십 쇼핑라운지에서 국가대표... ",
+        "link": "https://www.yna.co.kr/view/AKR20260615086800017?input=1195m",
+        "pub_date": "2026.06.15",
+        "reason": "경쟁사 KT 월드컵 멤버십 강화 공세 대응 필요",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 37.6,
+        "datalab_velocity": 22.7,
+        "queries": [
+          "멤버십 혜택",
+          "소비 트렌드"
+        ]
+      },
+      {
+        "title": "신한카드 AI ·OTT 등 구독 이벤트…캐시백 혜택",
+        "topic": "카드사 구독혜택 경쟁",
+        "insight": "금융사 OTT·AI 구독 결합 혜택 — T멤버십 제휴 카테고리 확대 필요",
+        "desc": "이외에도 넷플릭스, 웨이브, 멜론 멤버십을 구독한 고객에게는 항목별 2천원씩, 도합 6천원을 캐시백해줍니다. 최신 AI 서비스 구독 고객을 위한 혜택도 마련했습니다. 신한 SOL페이에서 이벤트 응모 후 이달 말일까지... ",
+        "link": "https://biz.sbs.co.kr/article_hub/20000316115?division=NAVER",
+        "pub_date": "2026.06.12",
+        "reason": "경쟁사 신한카드 AI·OTT 구독 캐시백 이벤트",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 81.1,
+        "datalab_velocity": -11.3,
+        "queries": [
+          "멤버십 혜택",
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "&quot;신한카드로 OTT·AI 구독하면 캐시백 혜택 제공&quot;",
+        "topic": "카드사 구독혜택 경쟁",
+        "insight": "금융사 OTT·AI 구독 결합 혜택 — T멤버십 제휴 카테고리 확대 필요",
+        "desc": "캐시백 혜택을 제공하는 이벤트를 진행한다고 12일 밝혔다. 신한카드에 따르면 이달까지 네이버플러스 멤버십, 쿠팡와우, 유튜브 프리미엄을 구독한 고객 대상으로 각각 4900원, 4000원, 5000원을 캐시백 해준다. 또... ",
+        "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7169094",
+        "pub_date": "2026.06.12",
+        "reason": "경쟁사 OTT·AI 구독 캐시백 혜택 추적",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 81.1,
+        "datalab_velocity": -11.3,
+        "queries": [
+          "멤버십 혜택",
+          "구독 서비스"
+        ]
+      }
+    ],
+    "benchmark": [
+      {
+        "title": "CJ올리브영, 멤버십 혜택 확장…탈잉·리디·청연 제휴 추가",
+        "topic": "CJ올리브영 멤버십 제휴 확대",
+        "insight": "올리브영의 제휴 생태계 확장으로 멤버십 락인 전략 강화 — T멤버십의 카테고리별 차별화 혜택 포트폴리오 보강 시급",
+        "desc": "피부과 전문의 진단·대표 제품 체험 제공 아주경제=조재형 기자 grind@ajunews.com CJ올리브영이 멤버십 ‘올리브 멤버스’ 혜택을 체험형 콘텐츠와 외부 플랫폼 제휴로 다각화하고 있다. 올리브영은 스킨케어 브랜드... ",
+        "link": "https://www.ajunews.com/view/20260609155112342",
+        "pub_date": "2026.06.09",
+        "reason": "올리브영 제휴 혜택 구조 벤치마킹 참고",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 37.6,
+        "datalab_velocity": 22.7,
+        "queries": [
+          "멤버십 혜택",
+          "브랜드 제휴"
+        ]
+      },
+      {
+        "title": "CJ올리브영, 멤버십 락인 강화…클래스·제휴 혜택 확대",
+        "topic": "CJ올리브영 멤버십 제휴 확대",
+        "insight": "올리브영의 제휴 생태계 확장으로 멤버십 락인 전략 강화 — T멤버십의 카테고리별 차별화 혜택 포트폴리오 보강 시급",
+        "desc": "멤버십 회원을 위한 제휴 혜택도 강화하고 있다. 오는 7월까지 매일 오전 10시, 전 등급 회원을 대상으로 온라인몰 내 '올리브 멤버스' 이벤트 페이지에서 온라인 강의 플랫폼 '탈잉' 할인 쿠폰팩을 선착순 제공한다. 골드... ",
+        "link": "https://www.ziksir.com/news/articleView.html?idxno=136214",
+        "pub_date": "2026.06.09",
+        "reason": "올리브영 클래스·제휴 락인 전략 벤치마킹",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 37.6,
+        "datalab_velocity": 22.7,
+        "queries": [
+          "멤버십 혜택",
+          "브랜드 제휴"
+        ]
+      },
+      {
+        "title": "CJ올리브영 '올리브 클래스'에 탈잉·리디 제휴…멤버십 혜택 강화",
+        "topic": "CJ올리브영 멤버십 제휴 확대",
+        "insight": "올리브영의 제휴 생태계 확장으로 멤버십 락인 전략 강화 — T멤버십의 카테고리별 차별화 혜택 포트폴리오 보강 시급",
+        "desc": "올리브영은 멤버십 회원을 위한 제휴 혜택도 강화하고 있다. 7월까지 매일 오전 10시 전 등급 회원에게 온라인몰 올리브 멤버스 이벤트 페이지에서 온라인 강의 플랫폼 '탈잉' 할인 쿠폰팩을 선착순 제공한다. 골드·블랙... ",
+        "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=843307",
+        "pub_date": "2026.06.09",
+        "reason": "올리브영 교육·콘텐츠 제휴 혜택 구조 참고",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 37.6,
+        "datalab_velocity": 22.7,
+        "queries": [
+          "멤버십 혜택",
+          "브랜드 제휴"
+        ]
+      },
+      {
+        "title": "체코전 승리에 금융권 월드컵 마케팅 주목, 특화상품·응원전으로 고객...",
+        "topic": "금융권 스포츠 마케팅 경쟁",
+        "insight": "월드컵 등 이벤트 기반 감정 마케팅 확산 — T멤버십의 감정 연결형 캠페인 기획 및 실시간 응대 역량 강화 필요",
+        "desc": "효과와 브랜드 이미지 제고를 동시에 기대할 수 있기 때문이다. 특히 월드컵이나 KBO리그처럼 전 국민적 관심이 집중되는 행사는 고객과 접점을 확대하는 데 효과적이라고 여겨진다. 제휴 상품이나 금융 플랫폼 이벤트... ",
+        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=439891",
+        "pub_date": "2026.06.14",
+        "reason": "금융권 월드컵 마케팅 사례, T멤버십 시즌 기획 참고",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "브랜드 제휴",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "CJ올리브영 멤버십 혜택 확대, 체험 프로그램 마련하고 생활 서비스와 ...",
+        "topic": "CJ올리브영 멤버십 제휴 확대",
+        "insight": "올리브영의 제휴 생태계 확장으로 멤버십 락인 전략 강화 — T멤버십의 카테고리별 차별화 혜택 포트폴리오 보강 시급",
+        "desc": "CJ올리브영이 멤버십 혜택을 확대한다. CJ올리브영은 자체 멤버십 프로그램 '올리브 멤버스' 회원을 대상으로 체험형 콘텐츠와 제휴 혜택을 강화한다고 9일 밝혔다. CJ올리브영이 자체 멤버십 '올리브 멤버스' 회원에... ",
+        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=439619",
+        "pub_date": "2026.06.09",
+        "reason": "올리브영 멤버십 혜택 확대 사례 참고",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 62.5,
-        "datalab_velocity": -18.2,
+        "datalab_score": 37.6,
+        "datalab_velocity": 22.7,
         "queries": [
-          "구독 서비스",
-          "앱 마케팅"
+          "멤버십 혜택",
+          "브랜드 제휴"
+        ]
+      },
+      {
+        "title": "CJ올리브영, 멤버십 혜택 확대...소비자 관심 증가",
+        "topic": "CJ올리브영 멤버십 제휴 확대",
+        "insight": "올리브영의 제휴 생태계 확장으로 멤버십 락인 전략 강화 — T멤버십의 카테고리별 차별화 혜택 포트폴리오 보강 시급",
+        "desc": "올리브영은 외부 파트너십을 활용한 멤버십 혜택도 확대하고 있다. 온라인 강의 플랫폼 탈잉과 협업해 할인 쿠폰팩을 제공하는 한편, 골드·블랙 회원을 대상으로 메이크업과 셀프 케어 등을 주제로 한 전용 클래스도... ",
+        "link": "http://www.thebigdata.co.kr/view.php?ud=202606090953013974a79b9f00ab_23",
+        "pub_date": "2026.06.09",
+        "reason": "올리브영 멤버십 혜택 확대 동향 모니터링",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 37.6,
+        "datalab_velocity": 22.7,
+        "queries": [
+          "멤버십 혜택",
+          "브랜드 제휴"
+        ]
+      },
+      {
+        "title": "CJ올리브영, '올리브 클래스'에 탈잉·리디 제휴…멤버십 혜택 확대",
+        "topic": "CJ올리브영 멤버십 제휴 확대",
+        "insight": "올리브영의 제휴 생태계 확장으로 멤버십 락인 전략 강화 — T멤버십의 카테고리별 차별화 혜택 포트폴리오 보강 시급",
+        "desc": "올리브영은 멤버십 회원을 위한 제휴 혜택도 강화하고 있다. 오는 7월까지 매일 오전 10시 전 등급 회원에게 온라인몰 올리브 멤버스 이벤트 페이지에서 온라인 강의 플랫폼 '탈잉' 할인 쿠폰팩을 선착순 제공한다. 골드... ",
+        "link": "https://www.cnbnews.com/news/articleView.html?idxno=1003971",
+        "pub_date": "2026.06.09",
+        "reason": "올리브영 제휴 혜택 확대 사례 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 37.6,
+        "datalab_velocity": 22.7,
+        "queries": [
+          "멤버십 혜택",
+          "브랜드 제휴"
+        ]
+      },
+      {
+        "title": "올리브영, '올리브 클래스' 제휴 혜택 확대…체험형 콘텐츠도 강화",
+        "topic": "CJ올리브영 멤버십 제휴 확대",
+        "insight": "올리브영의 제휴 생태계 확장으로 멤버십 락인 전략 강화 — T멤버십의 카테고리별 차별화 혜택 포트폴리오 보강 시급",
+        "desc": "올리브영 관계자는 &quot;팬덤을 위한 차별화된 체험형 콘텐츠와 멤버십 혜택을 지속 확대하고, 온라인으로 이용 가능한 혜택도 추가 도입할 계획&quot;이라고 말했다. 유통업계에서는 구매 할인 중심의 멤버십을 넘어 클래스... ",
+        "link": "https://www.news1.kr/industry/distribution/6191520",
+        "pub_date": "2026.06.09",
+        "reason": "올리브영 체험형 콘텐츠 멤버십 사례 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 37.6,
+        "datalab_velocity": 22.7,
+        "queries": [
+          "멤버십 혜택",
+          "브랜드 제휴"
+        ]
+      },
+      {
+        "title": "뷰티 플랫폼 경쟁력 강화하는 컬리... 신규 브랜드 입점·할인전 전개",
+        "topic": "뷰티 플랫폼 경쟁 심화",
+        "insight": "컬리 등 신진 플레이어의 카테고리 확장 경쟁 심화 — T멤버십의 뷰티/생활용품 제휴 강화로 선제적 차별화 필요",
+        "desc": "단순 상품 판매를 넘어 브랜드 큐레이션 역량을 강화하며 차별화된 뷰티 플랫폼 경쟁력을 확보하는 데 주력하고 있다는 설명이다. 컬리 관계자는 &quot;이번 행사는 상반기 뷰티 트렌드와 여름철 수요를 반영해 기획했다&quot;며... ",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=201298",
+        "pub_date": "2026.06.15",
+        "reason": "뷰티 플랫폼 할인전 마케팅 사례 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "플랫폼 경쟁",
+          "소비자 할인"
         ]
       }
     ]
