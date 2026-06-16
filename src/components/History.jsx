@@ -20,7 +20,7 @@ export default function History() {
             <td><span className="upd">2026.06.15</span></td>
             <td><span className="cb bk">KT</span></td>
             <td>달달혜택</td>
-            <td><span className="upd">고객보답 3차 (6.16~30): VIPS 채끝스테이크 무료 / 배달의민족×노모어피자 최대 1만원 할인 등 8종 (GS25, 던킨, 더벤티, 공차, 버거킹, 롯데시네마 포함)</span></td>
+            <td><span className="upd">고객보답 3차 (6.16~30): VIPS 채끝스테이크 무료 등 8종</span></td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
@@ -34,7 +34,7 @@ export default function History() {
             <td><span className="upd">2026.06.09</span></td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십</td>
-            <td><span className="upd">7월 신규 제휴 8개 — 프린트베이커리·수공당·설성목장(온/오프라인)·히키니쿠토코메 도산·설성갈비·설성마켓 스마트팩토리점·반려생활 (7.1~)</span></td>
+            <td><span className="upd">7월 신규 제휴 8개 — 프린트베이커리·수공당 등 (7.1~)</span></td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
@@ -48,21 +48,21 @@ export default function History() {
             <td><span className="upd">2026.05.29</span></td>
             <td><span className="cb bk">KT</span></td>
             <td>달달혜택 상시</td>
-            <td><span className="upd">라그릴리아 신규 제휴 — VVIP/VIP/GOLD 10% 할인, SILVER/WHITE/일반 5% 할인 (일 1회, 최대 2만원 한도) (6.1~)</span></td>
+            <td><span className="upd">라그릴리아 신규 제휴 — 등급별 5~10% 할인 (6.1~)</span></td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
             <td><span className="upd">2026.05.29</span></td>
             <td><span className="cb bk">KT</span></td>
             <td>달달혜택 상시</td>
-            <td><span className="upd">온누리몰 10% 할인쿠폰 추가 — 한도 없음, ID당 무제한 (6.1~12.31)</span></td>
+            <td><span className="upd">온누리몰 10% 할인쿠폰 추가 (6.1~12.31)</span></td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td><span className="upd">2026.05.29</span></td>
             <td><span className="cb bk">KT</span></td>
             <td>달달혜택 상시</td>
-            <td><span className="upd">AICE 혜택 축소 — 시험응시료 20%+교육VOD 20% 할인 → 시험응시료 20% 할인만 유지, VOD 할인 폐지 (7.1~)</span></td>
+            <td><span className="upd">AICE 혜택 축소 — 교육VOD 할인 폐지 (7.1~)</span></td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
