@@ -140,9 +140,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '54%' }}>긍정 54%</div>
+              <div className="rbs rp" style={{ width: '58%' }}>긍정 58%</div>
               <div className="rbs rn" style={{ width: '31%' }}>부정 31%</div>
-              <div className="rbs ru" style={{ width: '15%' }}>중립 15%</div>
+              <div className="rbs ru" style={{ width: '11%' }}>중립 11%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
