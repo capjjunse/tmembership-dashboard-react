@@ -58,11 +58,6 @@ export default function News() {
       {tab === 'kt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT 6월 멤버십 혜택 강화 — 바캉스 테마 달달혜택 6.17 공개 예정</span></div>
-            <div className="nsum">6월 달달혜택 '바캉스' 테마로 6.17~6.30 운영 예정. 달달초이스·달달스페셜·달달찬스 3종 구성, 여름 휴가철 여행·외식·쇼핑 브랜드 참여. 영화관 할인 강화(롯데시네마·메가박스 추가 1천원) 병행.</div>
-            <div className="nmeta">2026-06-01 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?datNo=18377" target="_blank" rel="noreferrer">KT 보도자료</a></div>
-          </div>
-          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT 멤버십 5월 고객보답 2차 — 투썸플레이스 50%·배민×노랑통닭 8천원 (5.18~31)</span></div>
             <div className="nsum">KT멤버십 5월 고객보답 2차로 투썸플레이스 전 메뉴 50%(최대 5천원) 또는 배달의민족×노랑통닭 8천원 할인(16천원 이상 주문 시) 중 택1. 5.18~31 전 등급 이용 가능.</div>
             <div className="nmeta">2026-05-15 · <a href="https://biz.heraldcorp.com/article/10738436" target="_blank" rel="noreferrer">헤럴드경제</a></div>
