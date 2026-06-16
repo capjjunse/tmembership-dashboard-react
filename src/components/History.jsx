@@ -24,6 +24,27 @@ export default function History() {
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
+            <td><span className="upd">2026.06.11</span></td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>우리동네 멤버십</td>
+            <td><span className="upd">하얀풍차·아비앙또 다대점·니드카페 안산점 제휴 종료 (6.17)</span></td>
+            <td><span className="tb t종료">종료</span></td>
+          </tr>
+          <tr>
+            <td><span className="upd">2026.06.09</span></td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+멤버십</td>
+            <td><span className="upd">7월 신규 제휴 8개 — 프린트베이커리·수공당·설성목장(온/오프라인)·히키니쿠토코메 도산·설성갈비·설성마켓 스마트팩토리점·반려생활 (7.1~)</span></td>
+            <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
+            <td><span className="upd">2026.06.09</span></td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+멤버십</td>
+            <td><span className="upd">포텔리어 구독권 혜택 축소 — 무료 1개월 → 무료 2주 (7.1 적용)</span></td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
             <td>2026.05.26</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십</td>
