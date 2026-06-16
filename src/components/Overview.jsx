@@ -110,7 +110,7 @@ export default function Overview() {
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt">T day 긍정 74% 우세 · 해피아워(쉑쉑) 6월 긍정 · VIP PICK 반응 미수집</span>
+                <span className="od-txt">T day 긍정 74% 우세 · 해피아워(쉑쉑) 6월 긍정 · VIP PICK 반응 중립 2건 수집</span>
               </div>
               <div className="od-item">
                 <a href="#vp" className="octab">VIP혜택</a>
@@ -170,22 +170,22 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">
-                <div className="tt-top">달달초이스 국민학교떡볶이 신규<span className="ovb ovb-new">5월 15일 신규</span></div>
-                <div className="tt-sub">달달혜택 달달초이스 신규 참여 (5.15~31)</div>
+                <div className="tt-top">고객보답 3차 이벤트<span className="ovb ovb-new">6월 16일 신규</span></div>
+                <div className="tt-sub">VIPS 채끝스테이크 무료 등 8종 (6.16~30)</div>
               </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">
-                <div className="tt-top">고객보답 2차 이벤트<span className="ovb ovb-new">5월 15일 신규</span></div>
-                <div className="tt-sub">투썸플레이스 50% / 배달의민족×노랑통닭 8,000원 할인 (5.18~31)</div>
+                <div className="tt-top">라그릴리아 신규 제휴<span className="ovb ovb-new">5월 29일 신규</span></div>
+                <div className="tt-sub">등급별 5~10% 할인 (6.1~)</div>
               </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">
-                <div className="tt-top">매드포갈릭 할인율 하향<span className="ovb ovb-chg">6월 1일 적용</span></div>
-                <div className="tt-sub">전 등급 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5%</div>
+                <div className="tt-top">클럽디오아시스 제휴 종료<span className="ovb ovb-end">7월 1일 종료</span></div>
+                <div className="tt-sub">KT멤버십 상시 혜택에서 제외</div>
               </div>
             </div>
           </div>

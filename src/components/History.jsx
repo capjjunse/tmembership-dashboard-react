@@ -47,28 +47,28 @@ export default function History() {
           <tr>
             <td><span className="upd">2026.05.29</span></td>
             <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
+            <td>KT멤버십 상시</td>
             <td><span className="upd">라그릴리아 신규 제휴 — 등급별 5~10% 할인 (6.1~)</span></td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
             <td><span className="upd">2026.05.29</span></td>
             <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
+            <td>KT멤버십 상시</td>
             <td><span className="upd">온누리몰 10% 할인쿠폰 추가 (6.1~12.31)</span></td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td><span className="upd">2026.05.29</span></td>
             <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
+            <td>KT멤버십 상시</td>
             <td><span className="upd">AICE 혜택 축소 — 교육VOD 할인 폐지 (7.1~)</span></td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td><span className="upd">2026.05.29</span></td>
             <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
+            <td>KT멤버십 상시</td>
             <td><span className="upd">클럽디오아시스 제휴 종료 (7.1)</span></td>
             <td><span className="tb t종료">종료</span></td>
           </tr>
@@ -145,21 +145,21 @@ export default function History() {
           <tr>
             <td>2026.04.30</td>
             <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
+            <td>KT멤버십 상시</td>
             <td>매드포갈릭 할인율 조정 — [전 등급] 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5% (6.1~)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td>2026.04.30</td>
             <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
+            <td>KT멤버십 상시</td>
             <td>CGV 동반할인 3인→4인까지 확대 (5.1~)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td>2026.04.30</td>
             <td><span className="cb bk">KT</span></td>
-            <td>달달혜택 상시</td>
+            <td>KT멤버십 상시</td>
             <td>앱티핏 제휴 종료 (6.1)</td>
             <td><span className="tb t종료">종료</span></td>
           </tr>
