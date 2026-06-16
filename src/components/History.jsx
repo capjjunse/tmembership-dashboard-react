@@ -17,6 +17,13 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td><span className="upd">2026.06.15</span></td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택</td>
+            <td><span className="upd">고객보답 3차 (6.16~30): VIPS 채끝스테이크 무료 / 배달의민족×노모어피자 최대 1만원 할인 등 8종 (GS25, 던킨, 더벤티, 공차, 버거킹, 롯데시네마 포함)</span></td>
+            <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
             <td>2026.05.26</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십</td>
