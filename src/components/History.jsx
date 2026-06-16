@@ -45,6 +45,34 @@ export default function History() {
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
+            <td><span className="upd">2026.05.29</span></td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td><span className="upd">라그릴리아 신규 제휴 — VVIP/VIP/GOLD 10% 할인, SILVER/WHITE/일반 5% 할인 (일 1회, 최대 2만원 한도) (6.1~)</span></td>
+            <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
+            <td><span className="upd">2026.05.29</span></td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td><span className="upd">온누리몰 10% 할인쿠폰 추가 — 한도 없음, ID당 무제한 (6.1~12.31)</span></td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td><span className="upd">2026.05.29</span></td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td><span className="upd">AICE 혜택 축소 — 시험응시료 20%+교육VOD 20% 할인 → 시험응시료 20% 할인만 유지, VOD 할인 폐지 (7.1~)</span></td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td><span className="upd">2026.05.29</span></td>
+            <td><span className="cb bk">KT</span></td>
+            <td>달달혜택 상시</td>
+            <td><span className="upd">클럽디오아시스 제휴 종료 (7.1)</span></td>
+            <td><span className="tb t종료">종료</span></td>
+          </tr>
+          <tr>
             <td>2026.05.26</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십</td>
