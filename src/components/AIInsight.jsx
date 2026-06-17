@@ -54,12 +54,12 @@ const compGroups = [
       },
       {
         brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점쿠폰 2종 (더블콤보 3천·팝콘M 1천)' }], date: '6.1~6.5 · Week 혜택 / 6.24 · T day 3주차' },
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점쿠폰 2종 (더블콤보 3천·팝콘M 1천)' }], date: '6.1~6.5 · Week 혜택' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '6.17·18·19 · 투쁠데이 3차' },
         v: 'good',
         basis: 'SKT 예매 할인+스낵쿠폰 vs LGU+ 스낵세트만',
-        note: 'SKT Week 혜택 5일+T day 3주차 1일 vs LGU+ 3일',
+        note: 'SKT Week 혜택 5일 vs LGU+ 3일',
       },
       {
         brand: '배스킨라빈스',
@@ -444,7 +444,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 6월 · KT 미공개 — 15일 이후 반영 예정)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 <span className="upd">(2026년 6월 · KT 달달혜택 반영 완료)</span></div>
         </div>
       </div>
 
@@ -582,7 +582,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.06.15</span> 스캔 · 매주 크롤링 후 수동 반영</div>
+        <div className="tr-footer">2026.06.15 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

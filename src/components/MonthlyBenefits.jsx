@@ -49,21 +49,18 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 2주차 (6.17)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day 2주차 (6.17)</div>
               <ul className="mblist">
                 <li>쉐이크쉑 VIP 40% 할인 (최대 8,000원) / Gold·Silver 20% 할인 (최대 4,000원)</li>
-                <li>폴 바셋 <span className="upd">라벤더 아이스크림 블루베리 라떼 또는 시그니처 커피 4종</span> 50% 할인</li>
+                <li>폴 바셋 라벤더 아이스크림 블루베리 라떼 또는 시그니처 커피 4종 50% 할인</li>
                 <li>이마트에브리데이 4만원 이상 구매 시 20% 할인 (최대 1만원)</li>
-                <li>도미노피자 <span className="upd">방문 포장</span> 50% 할인</li>
+                <li>도미노피자 방문 포장 50% 할인</li>
               </ul>
             </div>
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 3주차 (6.24)</div>
               <ul className="mblist">
-                <li><span className="upd">다운타우너 시그니처 버거 더블 패티 세트 35% 할인</span></li>
-                <li><span className="upd">역전우동 냉모밀 50% 할인</span></li>
-                <li><span className="upd">CGV 8,500원 예매 + 매점 할인 쿠폰 2종</span></li>
-                <li style={{ color: 'var(--tx3)' }}>뚜레쥬르 — Coming Soon</li>
+                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 24일 공개 예정</li>
               </ul>
             </div>
           </div>
@@ -72,7 +69,7 @@ export default function MonthlyBenefits() {
             <ul className="mpnt-list">
               <li>럭키위크 T day 테마 — Week 혜택(6.1~6.5) 식음·리빙·뷰티·라이프 다양</li>
               <li>2주차(6.17) 외식 4종 — 쉐이크쉑(VIP 40%)·폴바셋·도미노피자·이마트에브리데이</li>
-              <li><span className="upd">3주차(6.24) — 다운타우너 35%·역전우동 50%·CGV / 뚜레쥬르 공개 예정</span></li>
+              <li style={{ color: 'var(--tx3)' }}>3주차(6.24) — Coming Soon (6.24 공개 예정)</li>
             </ul>
           </div>
         </div>
@@ -83,32 +80,32 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--kt)' }}></span><span className="upd">달달초이스 (통합 1회 / 6.15~6.30)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--kt)' }}></span>달달초이스 (통합 1회 / 6.15~6.30)</div>
               <ul className="mblist">
-                <li><span className="upd">버거킹 불고기와퍼 세트 45% 할인 또는 와퍼+와퍼주니어 2인팩 50% 할인</span></li>
-                <li><span className="upd">배민×노모어피자 최대 1만원 할인 (1.8만원 이상 주문 시)</span></li>
-                <li><span className="upd">공차 인기 음료 6종 50% 할인 (최대 5천원)</span></li>
-                <li><span className="upd">더벤티 아이스 아메리카노 1천원 할인 (2매)</span></li>
-                <li><span className="upd">롯데시네마 7천원 영화예매권</span></li>
-                <li><span className="upd">VIPS 채끝 스테이크(210g) 무료 (성인 샐러드 바 2인 이상 주문 시)</span></li>
+                <li>버거킹 불고기와퍼 세트 45% 할인 또는 와퍼+와퍼주니어 2인팩 50% 할인</li>
+                <li>배민×노모어피자 최대 1만원 할인 (1.8만원 이상 주문 시)</li>
+                <li>공차 인기 음료 6종 50% 할인 (최대 5천원)</li>
+                <li>더벤티 아이스 아메리카노 1천원 할인 (2매)</li>
+                <li>롯데시네마 7천원 영화예매권</li>
+                <li>VIPS 채끝 스테이크(210g) 무료 (성인 샐러드 바 2인 이상 주문 시)</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--kt)' }}></span><span className="upd">달달스페셜 (제휴사별 각 1회)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: 'var(--kt)' }}></span>달달스페셜 (제휴사별 각 1회)</div>
               <ul className="mblist">
-                <li><span className="upd">GS칼텍스 최대 5천원 할인 (신규 5천원 / 기존 3천원)</span></li>
-                <li><span className="upd">아모레몰 5천원 할인 (3만원 이상 구매 시)</span></li>
-                <li><span className="upd">그리팅 2만원 할인 (5.5만원 이상 구매 시)</span></li>
-                <li><span className="upd">KKday 투어·SIM 12% 할인</span></li>
-                <li><span className="upd">원스토어 게임 30% 할인 (최대 1만원)</span></li>
+                <li>GS칼텍스 최대 5천원 할인 (신규 5천원 / 기존 3천원)</li>
+                <li>아모레몰 5천원 할인 (3만원 이상 구매 시)</li>
+                <li>그리팅 2만원 할인 (5.5만원 이상 구매 시)</li>
+                <li>KKday 투어·SIM 12% 할인</li>
+                <li>원스토어 게임 30% 할인 (최대 1만원)</li>
               </ul>
             </div>
           </div>
           <div className="mpnt">
             <div className="mpnt-hd">📌 이달 포인트</div>
             <ul className="mpnt-list">
-              <li><span className="upd">달달초이스 (통합 1회): 외식·배달·영화·패스트푸드 6개 중 선택 — 버거킹·배민×노모어피자·공차·더벤티·롯데시네마·VIPS</span></li>
-              <li><span className="upd">달달스페셜 (제휴사별 1회): 주유·뷰티·식품·여행·게임 5개 모두 이용 가능 — GS칼텍스·아모레몰·그리팅·KKday·원스토어</span></li>
+              <li>달달초이스 (통합 1회): 외식·배달·영화·패스트푸드 6개 중 선택 — 버거킹·배민×노모어피자·공차·더벤티·롯데시네마·VIPS</li>
+              <li>달달스페셜 (제휴사별 1회): 주유·뷰티·식품·여행·게임 5개 모두 이용 가능 — GS칼텍스·아모레몰·그리팅·KKday·원스토어</li>
             </ul>
           </div>
         </div>

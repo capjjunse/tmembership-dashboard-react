@@ -58,6 +58,11 @@ export default function News() {
       {tab === 'kt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">KT, 월드컵 시즌 맞아 6월 멤버십 강화 — GS25 컵라면/던킨 50%, 쇼핑·문화 최대 50% 할인</span></span></div>
+            <div className="nsum"><span className="upd">KT멤버십이 2026 FIFA 월드컵 시즌을 맞아 6월 16~30일 고객보답 프로그램 강화. GS25 컵라면·디저트 50%(최대 1,900원) 또는 던킨 전 품목 50%(최대 6,000원) 중 선택. 달달혜택은 VIPS 채끝스테이크 무료, 배민·노모어피자 최대 1만원 할인, 공차·버거킹 50%, 롯데시네마 영화표 제공. 문화혜택으로 뮤지컬·전시 최대 50% 할인.</span></div>
+            <div className="nmeta"><span className="upd">2026-06-15</span> · <a href="https://www.etoday.co.kr/news/view/2593577" target="_blank" rel="noreferrer">이투데이</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT 멤버십 5월 고객보답 2차 — 투썸플레이스 50%·배민×노랑통닭 8천원 (5.18~31)</span></div>
             <div className="nsum">KT멤버십 5월 고객보답 2차로 투썸플레이스 전 메뉴 50%(최대 5천원) 또는 배달의민족×노랑통닭 8천원 할인(16천원 이상 주문 시) 중 택1. 5.18~31 전 등급 이용 가능.</div>
             <div className="nmeta">2026-05-15 · <a href="https://biz.heraldcorp.com/article/10738436" target="_blank" rel="noreferrer">헤럴드경제</a></div>
