@@ -4,8 +4,8 @@ export const updateItems = [
   { section: '#rg', label: '상시혜택', desc: '에버랜드 KT 동반 20% 하향 · 매드포갈릭·아웃백 KT 일반등급 5% 추가 · 피자헛 KT 전 등급 15%로 변경 · GS25 KT 일반등급 50원 할인 추가' },
   { section: '#vp', label: 'VIP 혜택', desc: 'KT VVIP 초이스 영화·생일 항목 업데이트 · LGU+ CGV 월1회 무료 연3회 표기 명확화' },
   { section: '#hs', label: '공지 히스토리', desc: 'KT 고객보답 3차(6.16~30) VIPS 채끝스테이크 등 8종 · LGU+ 우리동네 3지점 6.17 종료·7월 신규 8개·포텔리어 구독권 축소 추가' },
-  { section: '#nw', label: '뉴스', desc: 'KT 고객보답 6월 2차(GS25 컵라면·모찌 또는 던킨 50%) 6.15 기사 추가' },
-  { section: '#tr', label: '검색어 트렌드', desc: 'SKT 0.8 (전주 2.7 대비 급락) · KT 1.9 (전주 3.5 대비 하락) — 양사 6/15주 동반 급락' },
-  { section: '#ai-matrix', label: '경쟁 매트릭스', desc: 'KT 달달혜택 반영 완료 · SKT↔LGU+ CGV 우위 포함 6행 · KT↔LGU+ 공차·아모레몰·그리팅 3행' },
-  { section: '#ov', label: '핵심동향', desc: 'SKT 3주차 Coming Soon 반영·KT 검색량 1.9 업데이트·변경이력 5.29 4건·LGU+ ovchanges 6.11~6.09 최신 3건 교체·4카드 최신 반응' },
+  { section: '#nw', label: '뉴스', desc: 'KT 월드컵 시즌 6월 멤버십 강화 기사 추가 (GS25·던킨 50%·달달혜택 공개)' },
+  { section: '#ai-radar', label: '이슈 레이더', desc: '메가박스 강·부정(기업회생 신청) · 스타벅스·피자헛 중·부정(탱크데이 경찰 조사·PH코리아 체제전환) — 6개 모니터링' },
+  { section: '#ai-market', label: '마켓 시그널', desc: '스타벅스 탱크데이 경찰 조사 · 피자헛 4조 매각 · 카카오페이 6월 혜택 · 신한 슈퍼SOL — signal3 1개·signal2 3개' },
+  { section: '#ai-recommend', label: '신규 제휴 추천', desc: '설빙·청년다방·깐부치킨 top3 — 총 46개 스캔' },
 ];

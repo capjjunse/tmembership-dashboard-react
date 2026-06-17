@@ -17,9 +17,9 @@ export const trendSignals = [
     news7d: 30,
     negScore: 945,
     headline: [
-      '6.22 전국 매장 오후 3시 조기 영업 종료 → 임직원·파트너 전원 역사 인식 교육 (파이낸셜뉴스·ZDNet 6.15)',
+      '6.17 신세계 남산 임원·파트너사 직원 역사 인식 교육 실시 · 6.22 전 점포 오후 3시 조기 영업 종료 예정 (SBS·MBC)',
       '6.1~7 결제액 242억 (+12.8%) 3주 만에 반등 · 선불충전금 환불 6.14 종료',
-      '탱크데이 논란 대응 마무리 단계 · 6.22 조기 영업 종료 조치가 여론 회복 분수령',
+      '탱크데이 논란 대응 마무리 단계 · 6.22 역사 교육으로 여론 회복 시도 중',
     ],
     impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT Tday 6월 미운영 · 환불 종료 후 이미지 회복 조치 중',
     links: [
@@ -35,7 +35,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 12,
+    news7d: 8,
     negScore: 246,
     headline: [
       '가맹점주 323명 차액가맹금 소송 진행 중 · 추가 소송 준비 · 공정위 과징금 23억(4월) 리스크 지속',
@@ -56,7 +56,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 8,
+    news7d: 6,
     negScore: 100,
     headline: [
       '6.12 월드컵 한국-체코전 광화문 인근 점포 매출 최대 59% 증가 · 컵얼음 233% (인사이트)',
@@ -72,16 +72,16 @@ export const trendSignals = [
     brand: '깐부치킨',
     membership: 'candidate',
     telcos: [],
-    strength: 'mid',
+    strength: 'low',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 25,
+    news7d: 15,
     negScore: 0,
     headline: [
-      '젠슨 황·최태원 SK회장 6.7 깐부치킨 삼성점 재회동 · 치킨 시민·취재진 증정 (뉴시스·서울신문)',
-      '재고 부족·직영 14곳 영업 중단 발생 · 전국 매장 수요 폭증',
-      '2025년 매출 330억(+14%) · 영업이익 54억(+9.1%) 실적 성장 지속',
+      '6.7 젠슨 황·최태원 재회동 이후 이슈 진정 국면 · 재고 부족·직영 14곳 영업 중단 정상화 중',
+      '2025년 매출 330억(+14%) · 영업이익 54억(+9.1%) 실적 성장 지속 (뉴스1)',
+      '이슈 극대화 후 안정화 단계 — 브랜드 인지도 상승 효과 지속',
     ],
     impact: '3사 미제휴 · 젠슨 황 재방문 이후 이슈 진정 중 — 제휴 타이밍 검토 시기',
     links: [
@@ -106,7 +106,7 @@ export const trendSignals = [
     headline: [
       '6.1 PH코리아 공식 출범 — 회생절차 마무리 · 윈터골드·케이클라비스 합작법인으로 운영 주체 전환',
       '차액가맹금 215억 반환 판결 확정(1.16 대법원) · 기존 가맹점주 소송 후속 처리 진행 중',
-      '비효율 점포 정리·신규 출점 재정비 추진 — "다시 1위 간다" 선언 (뉴스1·헤럴드경제)',
+      '글로벌 피자헛 4조원에 매각 · 얌 브랜즈→롱레인지캐피탈 인수 · 3분기 마무리 예정 (인사이트)',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · PH코리아 체제전환 후 제휴 지속성 모니터링 필요',
     links: [
@@ -125,17 +125,18 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 60,
+    news7d: 65,
     negScore: 850,
     headline: [
       '6.14 메가박스중앙 기업회생절차 신청 · 5년 연속 영업적자 직접원인 (미디어오늘·SBS)',
       '롯데시네마 합병 협상 사실상 무산 수순 · MOU 6월 말 만료 앞두고 원점 재검토 (뉴데일리 6.15)',
-      'JTBC·콘텐트리중앙·중앙홀딩스 연쇄 회생 신청 — 중앙그룹 유동성 위기 전면화',
+      '6.15 콘텐트리중앙 주권거래 정지 · 중앙홀딩스·JTBC 연쇄 회생신청 — 중앙그룹 유동성 위기 전면화 (머니투데이·SBS)',
     ],
     impact: 'SKT·KT 상시 운영 중 · 기업회생 이후 제휴 계약 유지 여부 즉시 모니터링 필요',
     links: [
       { label: '메가박스중앙 6.14 기업회생 신청 (미디어오늘)', url: 'https://www.mediatoday.co.kr/news/articleView.html?idxno=335178' },
       { label: '롯데시네마 합병 기존안 무산 수순 (뉴데일리 6.15)', url: 'https://biz.newdaily.co.kr/site/data/html/2026/06/15/2026061500096.html' },
+      { label: '콘텐트리중앙 주권거래 정지 · 메가박스 동반 회생신청 (머니투데이 6.15)', url: 'https://www.mt.co.kr/stock/2026/06/15/2026061508302623507' },
     ],
   },
 ];

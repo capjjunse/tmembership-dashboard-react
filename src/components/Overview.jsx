@@ -106,7 +106,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov"><span className="upd">럭키위크 T day — Week·0 week·T day 1~2주차 공개 완료 · 3주차(6.24) 미공개 · 2주차(6.17) 쉐이크쉑·폴바셋·도미노피자 외식 집중</span></div>
+            <div className="ov">럭키위크 T day — Week·0 week·T day 1~2주차 공개 완료 · 3주차(6.24) 미공개 · 2주차(6.17) 쉐이크쉑·폴바셋·도미노피자 외식 집중</div>
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
@@ -118,7 +118,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt"><span className="upd">럭키위크 T day — 1~2주차 공개 · 3주차(6.24) 미공개 (Coming Soon) · 2주차(6.17) 쉐이크쉑·도미노피자·폴바셋</span></span>
+                <span className="od-txt">럭키위크 T day — 1~2주차 공개 · 3주차(6.24) 미공개 (Coming Soon) · 2주차(6.17) 쉐이크쉑·도미노피자·폴바셋</span>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov"><span className="upd">달달혜택 6.15 공개 + 고객보답 3차(VIPS) 운영 중 — 검색량 1.9로 추가 하락 · 보답 2차 '컵라면 고객보답' 부정 반응 강세</span></div>
+            <div className="ov">달달혜택 6.15 공개 + 고객보답 3차(VIPS) 운영 중 — 검색량 1.9로 추가 하락 · 보답 2차 '컵라면 고객보답' 부정 반응 강세</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
@@ -158,7 +158,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#hs" className="octab">변경이력</a>
-                <span className="od-txt"><span className="upd">5.29 변경 4건 — 라그릴리아 신규·온누리몰 쿠폰 추가·AICE 축소·클럽디오아시스 7/1 종료</span></span>
+                <span className="od-txt">5.29 변경 4건 — 라그릴리아 신규·온누리몰 쿠폰 추가·AICE 축소·클럽디오아시스 7/1 종료</span>
               </div>
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
@@ -184,8 +184,8 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">
-                <div className="tt-top"><span className="upd">온누리몰 10% 할인쿠폰 추가</span><span className="ovb ovb-chg">5월 29일 변경</span></div>
-                <div className="tt-sub"><span className="upd">6.1~12.31 전 등급 이용 가능</span></div>
+                <div className="tt-top">온누리몰 10% 할인쿠폰 추가<span className="ovb ovb-chg">5월 29일 변경</span></div>
+                <div className="tt-sub">6.1~12.31 전 등급 이용 가능</div>
               </div>
             </div>
           </div>
@@ -194,11 +194,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cl">
             <div className="ol"><span className="cb bl">LGU+</span></div>
-            <div className="ov"><span className="upd">FIFA 매치데이 3탄 진행 중 — 오늘(6.17) 배달·피자헛·공차·CGV 응원 혜택 · 6/20·23 4차 대기</span></div>
+            <div className="ov">FIFA 매치데이 3탄 진행 중 — 오늘(6.17) 배달·피자헛·공차·CGV 응원 혜택 · 6/20·23 4차 대기</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt"><span className="upd">FIFA 매치데이 3탄 진행 중 — 6/17·19 배달·피자헛·공차·CGV · 6/20·23 4차(다이소·CU) · 6/25 장기고객데이</span></span>
+                <span className="od-txt">FIFA 매치데이 3탄 진행 중 — 6/17·19 배달·피자헛·공차·CGV · 6/20·23 4차(다이소·CU) · 6/25 장기고객데이</span>
               </div>
               <div className="od-item">
                 <a href="#rg" className="octab">상시혜택</a>
@@ -206,7 +206,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#hs" className="octab">변경이력</a>
-                <span className="od-txt"><span className="upd">우리동네 멤버십 3지점 6.17 종료 · 7월 신규 8개(프린트베이커리 등) 예고 · 포텔리어 구독권 1개월→2주 축소</span></span>
+                <span className="od-txt">우리동네 멤버십 3지점 6.17 종료 · 7월 신규 8개(프린트베이커리 등) 예고 · 포텔리어 구독권 1개월→2주 축소</span>
               </div>
             </div>
           </div>
@@ -214,22 +214,22 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
               <div className="tt">
-                <div className="tt-top"><span className="upd">우리동네 멤버십 3지점 제휴 종료</span><span className="ovb ovb-end">6월 11일 종료</span></div>
-                <div className="tt-sub"><span className="upd">하얀풍차·아비앙또 다대점·니드카페 안산점 (6.17 종료)</span></div>
+                <div className="tt-top">우리동네 멤버십 3지점 제휴 종료<span className="ovb ovb-end">6월 11일 종료</span></div>
+                <div className="tt-sub">하얀풍차·아비앙또 다대점·니드카페 안산점 (6.17 종료)</div>
               </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
               <div className="tt">
-                <div className="tt-top"><span className="upd">7월 신규 제휴 8개 예고</span><span className="ovb ovb-new">6월 9일 신규</span></div>
-                <div className="tt-sub"><span className="upd">프린트베이커리·수공당 등 8개 브랜드 7.1~</span></div>
+                <div className="tt-top">7월 신규 제휴 8개 예고<span className="ovb ovb-new">6월 9일 신규</span></div>
+                <div className="tt-sub">프린트베이커리·수공당 등 8개 브랜드 7.1~</div>
               </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
               <div className="tt">
-                <div className="tt-top"><span className="upd">포텔리어 구독권 혜택 축소</span><span className="ovb ovb-chg">6월 9일 변경</span></div>
-                <div className="tt-sub"><span className="upd">무료 1개월 → 무료 2주 (7.1 적용)</span></div>
+                <div className="tt-top">포텔리어 구독권 혜택 축소<span className="ovb ovb-chg">6월 9일 변경</span></div>
+                <div className="tt-sub">무료 1개월 → 무료 2주 (7.1 적용)</div>
               </div>
             </div>
           </div>
@@ -240,28 +240,28 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#sn" className="ovki ovki-pos">
               <div className="ovki-cat">💬 고객반응 <span className="ovki-skt ovki-skt-pos">SKT 호재</span></div>
-              <div className="ovki-title"><span className="upd">SKT T day 긍정 우세 · KT 고객보답 2차(컵라면·모찌) 강한 부정 (조회 23,151)</span></div>
+              <div className="ovki-title">SKT T day 긍정 우세 · KT 고객보답 2차(컵라면·모찌) 강한 부정 (조회 23,151)</div>
               <ul className="ovki-list">
-                <li><span className="upd">SKT T day 긍정 68% 우세(전반) · 2주차(6.17) 쉐이크쉑·폴바셋 혜택 진행 중</span></li>
-                <li><span className="upd">KT 고객보답 2차(6.15~30) GS25 컵라면·모찌 50% — 루리웹 '컵라면이 고객보답이야 재고정리야' 강한 부정 (조회 23,151)</span></li>
-                <li><span className="upd">LGU+ 유플투쁠 88% 긍정 · 아웃백(6.16) 긍정 · 3차(6.17) 배달·피자헛 진행 중</span></li>
+                <li>SKT T day 긍정 68% 우세(전반) · 2주차(6.17) 쉐이크쉑·폴바셋 혜택 진행 중</li>
+                <li>KT 고객보답 2차(6.15~30) GS25 컵라면·모찌 50% — 루리웹 '컵라면이 고객보답이야 재고정리야' 강한 부정 (조회 23,151)</li>
+                <li>LGU+ 유플투쁠 88% 긍정 · 아웃백(6.16) 긍정 · 3차(6.17) 배달·피자헛 진행 중</li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>
             <a href="#tr" className="ovki ovki-warn">
               <div className="ovki-cat">📈 검색어 트렌드 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title"><span className="upd">SKT 6/15주 0.8 급락 · KT 1.9 급락 — 양사 연중 최저권 진입</span></div>
+              <div className="ovki-title">SKT 6/15주 0.8 급락 · KT 1.9 급락 — 양사 연중 최저권 진입</div>
               <ul className="ovki-list">
-                <li><span className="upd">SKT — 6/08 2.7에서 6/15 0.8로 급락 · 기간 내 최저값 근접 · T day 2주차 반등 여부 주목</span></li>
-                <li><span className="upd">KT — 6/08 3.5에서 6/15 1.9로 급락 · 달달혜택 공개일에도 반등 신호 없음</span></li>
+                <li>SKT — 6/08 2.7에서 6/15 0.8로 급락 · 기간 내 최저값 근접 · T day 2주차 반등 여부 주목</li>
+                <li>KT — 6/08 3.5에서 6/15 1.9로 급락 · 달달혜택 공개일에도 반등 신호 없음</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title"><span className="upd">CGV 우위 · 공차·그리팅·아모레몰 SKT 없음 — KT 달달혜택+고객보답 운영으로 KT↔LGU+ 경쟁 3종</span></div>
+              <div className="ovki-title">CGV 우위 · 공차·그리팅·아모레몰 SKT 없음 — KT 달달혜택+고객보답 운영으로 KT↔LGU+ 경쟁 3종</div>
               <ul className="ovki-list">
-                <li><span className="upd">CGV — SKT Week 혜택(6.1~6.5) 8,500원+매점쿠폰 vs LGU+ 투쁠3차 스낵세트 → SKT 우위</span></li>
+                <li>CGV — SKT Week 혜택(6.1~6.5) 8,500원+매점쿠폰 vs LGU+ 투쁠3차 스낵세트 → SKT 우위</li>
                 <li>공차·그리팅 — KT·LGU+ 각각 동일 조건 운영 · SKT 미제휴 확인</li>
                 <li>아모레몰 — KT 달달스페셜 5천원 할인 vs LGU+ 구독권+포인트 · SKT 미제휴</li>
               </ul>

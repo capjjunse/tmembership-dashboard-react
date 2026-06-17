@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.06.15';
+const RADAR_SCANNED = '2026.06.17';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -152,7 +152,7 @@ const alCats = [
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: 'Week혜택(6.1~6.5): 매드포갈릭 30%(VIP 50%)·이디야커피 빙수 50%·크리스탈제이드 40%·백미당 1+1·사보텐 30% 등 / 0 week(6.8~6.12): 메가MGC커피 50%·투썸플레이스 40%·바나프레소 50% / T day 2주차(6.17): 쉐이크쉑 VIP 40%/G·S 20%·폴바셋 시그니처 커피 4종 50%·도미노피자 50% / T day 3주차(6.24): 다운타우너 35%·역전우동 냉모밀 50%' }] },
+      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: 'Week혜택(6.1~6.5): 매드포갈릭 30%(VIP 50%)·이디야커피 빙수 50%·크리스탈제이드 40%·백미당 1+1·사보텐 30% 등 / 0 week(6.8~6.12): 메가MGC커피 50%·투썸플레이스 40%·바나프레소 50% / T day 2주차(6.17): 쉐이크쉑 VIP 40%/G·S 20%·폴바셋 시그니처 커피 4종 50%·도미노피자 50%' }] },
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
@@ -203,8 +203,12 @@ const alCats = [
         ]},
       ]},
     ],
-    tm: null,
-    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 (Tday 월간 1~2회에 그침)'],
+    tm: [{ platform: 'T멤버십', items: [
+      { partner: '요기요', deadline: 'T day 1주차 · 6.8~6.12', rows: [
+        { grade: '전 등급', desc: '×호식이두마리치킨 6,000원 할인 (VIP 8,000원, 18,000원 이상 주문 시)' },
+      ]},
+    ]}],
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 · T day 1주차(6.8~6.12) 요기요×호식이두마리치킨 6천원 한정 혜택'],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'neut',
@@ -247,11 +251,11 @@ const alCats = [
         { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
-      { partner: 'CGV', deadline: '6.1~6.5 (Week혜택) + 6.24 (T day 3주차)', rows: [
+      { partner: 'CGV', deadline: '6.1~6.5 (Week혜택)', rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점쿠폰 (더블콤보 3천원·팝콘M 1천원)' },
       ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 상시 4천원 + 6.1~6.5·6.24 Tday 8,500원+매점쿠폰 · VIP 무료연3회/1+1연9회'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 상시 4천원 + 6.1~6.5 Week혜택 8,500원+매점쿠폰 · VIP 무료연3회/1+1연9회'],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -318,11 +322,11 @@ const recs = [
     rank: 3,
     brand: '깐부치킨',
     tag: '매장 167개 · DataLab 📈1.36',
-    reason: '젠슨 황·최태원 6.7 깐부치킨 재회동 확인 — 브랜드 인지도 정점. DataLab 1.36 급상승 · 뉴스 100건. SKT 미참여 — 치킨 카테고리 선점 기회.',
+    reason: '6.7 젠슨 황·최태원 재회동 이후 이슈 진정 국면. 재고 부족·직영 중단까지 인지도 극대화 완료 — 이슈 안정화 후 제휴 계약 진입 적기. SKT 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 167개 · 치킨 카테고리 성장 브랜드' },
-      { label: '검색 버즈', text: 'DataLab 1.36 급상승 · 블로그 6만 · 카페 1만 · 뉴스 100건' },
-      { label: '제휴 포인트', text: 'SKT 미참여 — 치킨 카테고리 신규 선점으로 여름 배달·외식 수요 흡수 가능' },
+      { label: '검색 버즈', text: '젠슨 황 효과로 DataLab 1.36·뉴스 100건 이상 피크 달성 후 이슈 진정 중' },
+      { label: '제휴 포인트', text: 'SKT 미참여 — 이슈 안정화 시점이 오히려 계약 협상 최적기' },
     ],
     trend: 'DataLab 1.36 · 블로그 6만 · 카페 1만 · 뉴스 100건',
     hot: false,
@@ -444,7 +448,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 <span className="upd">(2026년 6월 · KT 달달혜택 반영 완료)</span></div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 6월 · KT 달달혜택 반영 완료)</div>
         </div>
       </div>
 
