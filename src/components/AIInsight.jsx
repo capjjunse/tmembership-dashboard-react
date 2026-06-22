@@ -54,12 +54,12 @@ const compGroups = [
       },
       {
         brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점쿠폰 2종 (더블콤보 3천·팝콘M 1천)' }], date: '6.1~6.5 · Week 혜택' },
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점쿠폰 2종 (더블콤보 3천·팝콘M 1천)' }], date: '6.1~6.5 · Week 혜택 / 6.24~6.28 · T day 3주차' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '6.17·18·19 · 투쁠데이 3차' },
         v: 'good',
         basis: 'SKT 예매 할인+스낵쿠폰 vs LGU+ 스낵세트만',
-        note: 'SKT Week 혜택 5일 vs LGU+ 3일',
+        note: 'SKT Week·3주차 2회 vs LGU+ 1회',
       },
       {
         brand: '배스킨라빈스',
@@ -99,7 +99,7 @@ const compGroups = [
         brand: '공차',
         skt: null,
         kt: { lines: [{ grade: '전 등급', b: '인기 음료 6종 50% 할인 (최대 5천원)' }], date: '6.15~6.30 · 달달초이스' },
-        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 주문 시)' }], date: '6.17·18·19 · 투쁠데이 3차' },
+        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 구매 시, 최대 5천원)' }], date: '6.17·18·19 · 투쁠데이 3차' },
         v: 'miss',
         basis: 'SKT 미운영 · KT·LGU+ 모두 최대 50%',
         note: 'KT 음료 6종 지정 vs LGU+ 1만원 이상 조건',

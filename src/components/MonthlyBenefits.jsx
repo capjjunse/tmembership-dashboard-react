@@ -49,7 +49,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span>T day 2주차 (6.17)</div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 2주차 (6.17)</div>
               <ul className="mblist">
                 <li>쉐이크쉑 VIP 40% 할인 (최대 8,000원) / Gold·Silver 20% 할인 (최대 4,000원)</li>
                 <li>폴 바셋 라벤더 아이스크림 블루베리 라떼 또는 시그니처 커피 4종 50% 할인</li>
@@ -60,7 +60,10 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span>T day 3주차 (6.24)</div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 6월 24일 공개 예정</li>
+                <li><span className="upd">뚜레쥬르 1,000원당 300원 할인/적립 (2만원 한도, 최대 6,000원)</span></li>
+                <li><span className="upd">다운타우너 시그니처 버거 더블 패티 세트 3종 35% 할인 (6.24~6.28)</span></li>
+                <li><span className="upd">역전우동 냉모밀 3,500원 (6.24~6.28)</span></li>
+                <li><span className="upd">CGV 8,500원 예매 + 매점 쿠폰 2종 (더블콤보 3,000원·팝콘M 1,000원) (6.24~6.28)</span></li>
               </ul>
             </div>
           </div>
@@ -69,7 +72,7 @@ export default function MonthlyBenefits() {
             <ul className="mpnt-list">
               <li>럭키위크 T day 테마 — Week 혜택(6.1~6.5) 식음·리빙·뷰티·라이프 다양</li>
               <li>2주차(6.17) 외식 4종 — 쉐이크쉑(VIP 40%)·폴바셋·도미노피자·이마트에브리데이</li>
-              <li style={{ color: 'var(--tx3)' }}>3주차(6.24) — Coming Soon (6.24 공개 예정)</li>
+              <li><span className="upd">3주차(6.24) 식음 4종 — 뚜레쥬르·다운타우너·역전우동·CGV (6.24 시작)</span></li>
             </ul>
           </div>
         </div>
@@ -86,7 +89,7 @@ export default function MonthlyBenefits() {
                 <li>배민×노모어피자 최대 1만원 할인 (1.8만원 이상 주문 시)</li>
                 <li>공차 인기 음료 6종 50% 할인 (최대 5천원)</li>
                 <li>더벤티 아이스 아메리카노 1천원 할인 (2매)</li>
-                <li>롯데시네마 7천원 영화예매권</li>
+                <li>롯데시네마 7천원 영화예매권 <span className="upd">(선착순 종료)</span></li>
                 <li>VIPS 채끝 스테이크(210g) 무료 (성인 샐러드 바 2인 이상 주문 시)</li>
               </ul>
             </div>
@@ -156,7 +159,7 @@ export default function MonthlyBenefits() {
                 <li>윌라스토리 300젤리 / 아워홈몰 20% (5만원 이상 최대 2만원)</li>
                 <li>스파오 최대 1.5만원 할인 (5만원 이상 구매 시) / 포텔리어 최대 3개월 구독권</li>
                 <li>피자헛 55% + 리치치즈파스타 증정</li>
-                <li>공차 최대 50% (1만원 이상 주문 시) / 서울랜드 55% 할인</li>
+                <li>공차 최대 50% <span className="upd">(1만원 이상 구매 시, 최대 5천원)</span> / 서울랜드 55% 할인 <span className="upd">(동반 1인 45% 할인)</span></li>
                 <li>B1불스원카케어 세차 20% + 엔진오일 2.5만원 할인</li>
                 <li>위피 젤리 30개 / 비플레인 최대 40% 할인 (최대 2만원)</li>
               </ul>
@@ -168,7 +171,7 @@ export default function MonthlyBenefits() {
                 <li>다이소 최대 2천원 금액권 / CU 최대 65% 할인</li>
                 <li>LG생활건강 비욘드 핸드크림 3종 증정</li>
                 <li>메디코치 첫달 50% + 매월 5천원 할인 (연간)</li>
-                <li>사조몰 30% (3만원 이상 구매 시, 최대 2만원) / 베베쿡 30% 할인</li>
+                <li>사조몰 30% (3만원 이상 구매 시, 최대 2만원) / 베베쿡 30% 할인 <span className="upd">(최대 5만원)</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -176,7 +179,7 @@ export default function MonthlyBenefits() {
               <ul className="mblist">
                 <li>파리바게뜨 최대 6천원 할인 (2만원 이상 구매 시)</li>
                 <li>윌라 최대 1개월 무료이용권</li>
-                <li>NOL티켓 빌리 엘리어트 40% 할인</li>
+                <li>NOL티켓 빌리 엘리어트 40% 할인 <span className="upd">(1인 최대 4매)</span></li>
                 <li>노브랜드 파워에너지 블루레몬 무료 증정</li>
               </ul>
             </div>

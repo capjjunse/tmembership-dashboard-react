@@ -106,11 +106,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">럭키위크 T day — Week·0 week·T day 1~2주차 공개 완료 · 3주차(6.24) 미공개 · 2주차(6.17) 쉐이크쉑·폴바셋·도미노피자 외식 집중</div>
+            <div className="ov"><span className="upd">럭키위크 T day 전 일정 공개 — Week·0week·1~3주차 완료 · 3주차(6.24) 뚜레쥬르·다운타우너·역전우동·CGV 식음 집중</span></div>
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt">T day 긍정 74% 우세 · 해피아워(쉑쉑) 6월 긍정 · VIP PICK 반응 중립 2건 수집</span>
+                <span className="od-txt"><span className="upd">T day 전반 긍정 55% 우세 · VIP PICK 중립·부정 혼재(3건) · 해피아워 긍정 우세</span></span>
               </div>
               <div className="od-item">
                 <a href="#vp" className="octab">VIP혜택</a>
@@ -118,7 +118,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">럭키위크 T day — 1~2주차 공개 · 3주차(6.24) 미공개 (Coming Soon) · 2주차(6.17) 쉐이크쉑·도미노피자·폴바셋</span>
+                <span className="od-txt"><span className="upd">럭키위크 T day 전 일정 공개 — 3주차(6.24) 뚜레쥬르·다운타우너·역전우동·CGV 식음 4종 확정</span></span>
               </div>
             </div>
           </div>
@@ -150,11 +150,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">달달혜택 6.15 공개 + 고객보답 3차(VIPS) 운영 중 — 검색량 1.9로 추가 하락 · 보답 2차 '컵라면 고객보답' 부정 반응 강세</div>
+            <div className="ov"><span className="upd">달달혜택 전 일정 공개·고객보답 3차(VIPS 무료) 운영 중 — 검색량 6/15주 9.3 반등 · 보답 2차(컵라면) 강한 부정 반응 지속</span></div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">달달초이스 6종(버거킹·공차·VIPS 등) + 달달스페셜 5종(GS칼텍스·아모레몰 등) 6.15 공개</span>
+                <span className="od-txt"><span className="upd">달달초이스 6종(버거킹·공차·VIPS 등) + 달달스페셜 5종 운영 중 · 롯데시네마 선착순 종료</span></span>
               </div>
               <div className="od-item">
                 <a href="#hs" className="octab">변경이력</a>
@@ -162,7 +162,7 @@ export default function Overview() {
               </div>
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
-                <span className="od-txt">6월 1차 고객보답(올리브영 3천원) — 루리웹·에펨코리아 부정 반응 다수 (조회 최다 6,115)</span>
+                <span className="od-txt"><span className="upd">6월 2차 고객보답(던킨·GS25 컵라면) — 루리웹 '고객보답이야 재고정리야' 강한 부정 (조회 23,151)</span></span>
               </div>
             </div>
           </div>
@@ -194,11 +194,11 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cl">
             <div className="ol"><span className="cb bl">LGU+</span></div>
-            <div className="ov">FIFA 매치데이 3탄 진행 중 — 오늘(6.17) 배달·피자헛·공차·CGV 응원 혜택 · 6/20·23 4차 대기</div>
+            <div className="ov"><span className="upd">FIFA 매치데이 3·4탄 완료 — 6.25 장기고객데이(파리바게뜨·윌라·NOL빌리 엘리어트) 남음</span></div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
-                <span className="od-txt">FIFA 매치데이 3탄 진행 중 — 6/17·19 배달·피자헛·공차·CGV · 6/20·23 4차(다이소·CU) · 6/25 장기고객데이</span>
+                <span className="od-txt"><span className="upd">FIFA 매치데이 3·4탄 완료 — 6.25 장기고객데이(파리바게뜨·윌라·NOL빌리 엘리어트) 남음</span></span>
               </div>
               <div className="od-item">
                 <a href="#rg" className="octab">상시혜택</a>
@@ -242,18 +242,18 @@ export default function Overview() {
               <div className="ovki-cat">💬 고객반응 <span className="ovki-skt ovki-skt-pos">SKT 호재</span></div>
               <div className="ovki-title">SKT T day 긍정 우세 · KT 고객보답 2차(컵라면·모찌) 강한 부정 (조회 23,151)</div>
               <ul className="ovki-list">
-                <li>SKT T day 긍정 68% 우세(전반) · 2주차(6.17) 쉐이크쉑·폴바셋 혜택 진행 중</li>
-                <li>KT 고객보답 2차(6.15~30) GS25 컵라면·모찌 50% — 루리웹 '컵라면이 고객보답이야 재고정리야' 강한 부정 (조회 23,151)</li>
-                <li>LGU+ 유플투쁠 88% 긍정 · 아웃백(6.16) 긍정 · 3차(6.17) 배달·피자헛 진행 중</li>
+                <li><span className="upd">SKT T day 전반 긍정 55% 우세 · 3주차(6.24) 뚜레쥬르·다운타우너·역전우동·CGV 진행</span></li>
+                <li>KT 고객보답 2차(6.16~30) GS25 컵라면·모찌 50% — 루리웹 '컵라면이 고객보답이야 재고정리야' 강한 부정 (조회 23,151)</li>
+                <li><span className="upd">LGU+ 유플투쁠 70% 긍정 · 3·4차 완료 · 6.25 장기고객데이 남음</span></li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>
             <a href="#tr" className="ovki ovki-warn">
               <div className="ovki-cat">📈 검색어 트렌드 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title">SKT 6/15주 0.8 급락 · KT 1.9 급락 — 양사 연중 최저권 진입</div>
+              <div className="ovki-title"><span className="upd">SKT 6/15주 5.9 소폭 반등 · KT 9.3 반등 — KT 달달혜택 공개 후 관심 회복</span></div>
               <ul className="ovki-list">
-                <li>SKT — 6/08 2.7에서 6/15 0.8로 급락 · 기간 내 최저값 근접 · T day 2주차 반등 여부 주목</li>
-                <li>KT — 6/08 3.5에서 6/15 1.9로 급락 · 달달혜택 공개일에도 반등 신호 없음</li>
+                <li><span className="upd">SKT — 6/08 5.7에서 6/15 5.9로 소폭 반등(+0.2) · 연중 저점권 유지 · 3주차 반응 추이 주목</span></li>
+                <li><span className="upd">KT — 6/08 7.5에서 6/15 9.3으로 +1.8 반등 · 달달혜택 6.15 공개 효과 확인</span></li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
@@ -261,7 +261,7 @@ export default function Overview() {
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
               <div className="ovki-title">CGV 우위 · 공차·그리팅·아모레몰 SKT 없음 — KT 달달혜택+고객보답 운영으로 KT↔LGU+ 경쟁 3종</div>
               <ul className="ovki-list">
-                <li>CGV — SKT Week 혜택(6.1~6.5) 8,500원+매점쿠폰 vs LGU+ 투쁠3차 스낵세트 → SKT 우위</li>
+                <li><span className="upd">CGV — SKT Week(6.1~6.5)+3주차(6.24~6.28) 2회 운영 vs LGU+ 투쁠3차 스낵세트 1회 → SKT 우위</span></li>
                 <li>공차·그리팅 — KT·LGU+ 각각 동일 조건 운영 · SKT 미제휴 확인</li>
                 <li>아모레몰 — KT 달달스페셜 5천원 할인 vs LGU+ 구독권+포인트 · SKT 미제휴</li>
               </ul>

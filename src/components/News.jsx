@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">여름방학을 더 가볍고 알차게, 대학생을 위한 SKT 혜택 모아보기</span></span></div>
+            <div className="nsum"><span className="upd">T멤버십이 여름방학 대학생 고객 지원 콘텐츠 발행. 식음료·카페(T 우주 구독 할인), 해외여행(34세 이하 로밍 특가), 자기계발(Class101·어학 플랫폼), 문화(0 week 뮤지컬·전시 할인) 4가지 카테고리로 일상 지출 관리·학습 지원 혜택 강화.</span></div>
+            <div className="nmeta"><span className="upd">2026-06-17</span> · <a href="https://news.sktelecom.com/226659" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT T멤버십, 대학생 목소리 담은 맞춤 혜택 선보인다 — 6월 시험기간 0 week 운영, 메가MGC·바나프레소·투썸플레이스 할인</span></div>
             <div className="nsum">T멤버십이 대학생 고객 제안 아이디어를 반영해 6월 시험기간용 혜택 강화. 2주차(6.8~12) '0 week' 특별 운영으로 메가MGC커피 50% 할인, 바나프레소·투썸플레이스·배스킨라빈스 할인 쿠폰 제공. 경희대·광운대·서울시립대·성균관대·세종대 등 서울 대학가 방문으로 오프라인 커피 무료 제공.</div>
             <div className="nmeta">2026-06-07 · <a href="https://news.sktelecom.com/226090" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -58,9 +63,9 @@ export default function News() {
       {tab === 'kt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">KT, 월드컵 시즌 맞아 6월 멤버십 강화 — GS25 컵라면/던킨 50%, 쇼핑·문화 최대 50% 할인</span></span></div>
-            <div className="nsum"><span className="upd">KT멤버십이 2026 FIFA 월드컵 시즌을 맞아 6월 16~30일 고객보답 프로그램 강화. GS25 컵라면·디저트 50%(최대 1,900원) 또는 던킨 전 품목 50%(최대 6,000원) 중 선택. 달달혜택은 VIPS 채끝스테이크 무료, 배민·노모어피자 최대 1만원 할인, 공차·버거킹 50%, 롯데시네마 영화표 제공. 문화혜택으로 뮤지컬·전시 최대 50% 할인.</span></div>
-            <div className="nmeta"><span className="upd">2026-06-15</span> · <a href="https://www.etoday.co.kr/news/view/2593577" target="_blank" rel="noreferrer">이투데이</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 월드컵 시즌 맞아 6월 멤버십 강화 — GS25 컵라면/던킨 50%, 쇼핑·문화 최대 50% 할인</span></div>
+            <div className="nsum">KT멤버십이 2026 FIFA 월드컵 시즌을 맞아 6월 16~30일 고객보답 프로그램 강화. GS25 컵라면·디저트 50%(최대 1,900원) 또는 던킨 전 품목 50%(최대 6,000원) 중 선택. 달달혜택은 VIPS 채끝스테이크 무료, 배민·노모어피자 최대 1만원 할인, 공차·버거킹 50%, 롯데시네마 영화표 제공. 문화혜택으로 뮤지컬·전시 최대 50% 할인.</div>
+            <div className="nmeta">2026-06-15 · <a href="https://www.etoday.co.kr/news/view/2593577" target="_blank" rel="noreferrer">이투데이</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT 멤버십 5월 고객보답 2차 — 투썸플레이스 50%·배민×노랑통닭 8천원 (5.18~31)</span></div>
