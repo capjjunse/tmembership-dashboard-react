@@ -6,6 +6,5 @@ export const updateItems = [
   { section: '#vp', label: 'VIP 혜택', desc: 'LGU+ CGV 무료관람 연3회/1+1 연9회 표기 명확화 · KT VIP 생일 던킨·할리스·롯시 업데이트' },
   { section: '#hs', label: '공지 히스토리', desc: 'KT 고객보답 3차(6.16~30) VIPS 채끝스테이크 등 8종 · LGU+ 우리동네 3지점 6.17 종료·7월 신규 8개·포텔리어 구독권 축소 추가' },
   { section: '#nw', label: '뉴스', desc: 'SKT 여름방학 대학생 혜택 모아보기 기사 추가 (2026-06-17)' },
-  { section: '#sn', label: '고객반응', desc: 'SKT T day 3주차(6.17) 쉑쉑버거 VIP 등급 분등·도미노 지역편차 부정 추가 · 해피아워 탭 신규 — 쉑쉑 6.04~6.07 반응 3건' },
-  { section: '#ov', label: '핵심동향', desc: 'SKT 3주차 공개 반영 · KT 검색량 9.3 반등·고객보답 2차 기준 갱신 · LGU+ 매치데이 3·4탄 완료 반영' },
+  { section: '#sn', label: '고객반응', desc: 'SKT T day 호식이 두마리치킨 요기요 미등록 부정(6.12) · KT 올리브영 쿠폰 발행처 문의·쇼핑라운지 탐색 어려움 부정 2건 추가' },
 ];

@@ -17,7 +17,7 @@ const KT_TABS = [
 const LGU_TABS = [
   { id: 'kw1', label: 'U+ 멤버십 전반', hasData: false },
   { id: 'kw2', label: '유플투쁠',        hasData: true  },
-  { id: 'kw4', label: 'VIP 콕',          hasData: true  },
+  { id: 'kw4', label: 'VIP 콕',          hasData: false },
 ];
 
 function firstActive(tabs) {
@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (<span className="upd">2026.06.23 갱신</span>)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (2026.06.23 갱신)</span>
 
       </div>
       <div className="tr2">
@@ -63,9 +63,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '55%' }}>긍정 55%</div>
-              <div className="rbs rn" style={{ width: '26%' }}>부정 26%</div>
-              <div className="rbs ru" style={{ width: '19%' }}>중립 19%</div>
+              <div className="rbs rp" style={{ width: '52%' }}>긍정 52%</div>
+              <div className="rbs rn" style={{ width: '28%' }}>부정 28%</div>
+              <div className="rbs ru" style={{ width: '20%' }}>중립 20%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -88,6 +88,7 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">t데이 쉑쉑버거 40프로 쿠폰 구해요ㅠㅠ — "어제 다운못받앗어요ㅠㅠ 도와주실분 계실까요오오" (맘이베베)</div><div className="rsrc">2026.06.18 · <a href="http://cafe.naver.com/skybluezw4rh/14676690" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T데이 이제 한번 더 급나누기 들어가네 — "이제는 빞 등급한테 40% 주고 나머지는 20%면 간에 기별도 안가겠다" (비추력 12,699)</div><div className="rsrc">2026.06.17 · <a href="https://bbs.ruliweb.com/etcs/board/300143/read/75598238" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">[T멤버십] T데이, 도미노피자 포장 50% 할인 외 (6/17) — "우리동네 도미노는 너무 맛없는데다 창렬임" / 지역별 품질 편차 불만 다수</div><div className="rsrc">2026.06.17 · <a href="https://bbs.ruliweb.com/etcs/board/1020/read/104866" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx"><span className="upd">T데이라서 호식이 두마리 치킨 쓰려고 했더니 — "요기요에 들어온 호식이가 없네 쓰읍"</span></div><div className="rsrc"><span className="upd">2026.06.12</span> · <a href="https://www.fmkorea.com/9947549236" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">요번주 T데이는 좀 아쉽네요... — "요번주 T데이는 좀 아쉽네요..." (배라맘)</div><div className="rsrc">2026.06.10 · <a href="http://cafe.naver.com/chch6534/1294448" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">T데이 크리스탈제이드 쿠폰 사용 — "슼에서 쿠폰 안줬음 나도 안갔을듯"</div><div className="rsrc">2026.06.09 · <a href="https://bbs.ruliweb.com/community/board/300143/read/75502607" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">T데이 이케아 3만원 할인 + 멤버십 무료커피 활용 (꿀 통)</div><div className="rsrc">2026.06.07 · <a href="http://cafe.naver.com/postmore/75418" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -105,8 +106,6 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">T DAY 5월 27일 혜택 총정리 — 쉐이크쉑·뚜레쥬르·파스쿠찌·백억커피·CGV 한눈에 정리</div><div className="rsrc">2026.05.26 · <a href="https://blog.naver.com/dkdpdldhdn93/224294954907" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT T데이 5월 27일 혜택 후기 — "쉐이크쉑 버거 30% 할인, VIP 고객님은 버거 1+1이에요" / 뚜레쥬르·파스쿠찌·백억커피 동시 운영</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/heejk1125/224295691706" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">5월 마지막 T데이 총정리 — "쉐이크쉡 1+1·뚜레쥬르 할인·파스쿠찌 40%·백억커피 100원" (#알뜰지출 정리글)</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/191130_/224294429402" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">SKT T데이·VIP 혜택 던킨 50% 할인 — "먼치킨 팩이랑 도넛 구입했습니다!" (컬처블룸)</div><div className="rsrc">2026.05.21 · <a href="http://cafe.naver.com/culturebloom/3226583" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">T day VIP 고객 던킨 반값 내돈내산 — "GOLD/SILVER 30% + VIP 고객 50% 할인, 직접 써봤어요"</div><div className="rsrc">2026.05.21 · <a href="https://blog.naver.com/kmkmj99/224291365697" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {sktKw === 'kw3' && (
@@ -119,7 +118,6 @@ export default function Sentiment() {
             <div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">skt vip 우주패스 또 바뀌네 — 너프됐다는 지적 vs 개꿀이라는 반응 혼재</div><div className="rsrc">2026.05.28 · <a href="https://www.fmkorea.com/9882482767" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">난 SKT 혜택 알차게 뽑아먹고 있긴 함 — VIP 혜택 전반적 만족, 구체적 감정 유보</div><div className="rsrc">2026.05.28 · <a href="https://www.fmkorea.com/9882411653" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">t우주패스도 대놓고 혜택좋은거 단종 — "lte요금제 시절 좋은 혜택 다 축소 실비보험마냥 옛날이 더 좋음"</div><div className="rsrc">2026.05.21 · <a href="https://bbs.ruliweb.com/etcs/board/300010/read/2289310" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {sktKw === 'kw5' && (
@@ -138,9 +136,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '57%' }}>긍정 57%</div>
-              <div className="rbs rn" style={{ width: '33%' }}>부정 33%</div>
-              <div className="rbs ru" style={{ width: '10%' }}>중립 10%</div>
+              <div className="rbs rp" style={{ width: '50%' }}>긍정 50%</div>
+              <div className="rbs rn" style={{ width: '41%' }}>부정 41%</div>
+              <div className="rbs ru" style={{ width: '9%' }}>중립 9%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -164,11 +162,11 @@ export default function Sentiment() {
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">달달혜택 — "kt달달혜택 버거킹 할인하네욥 저는 와퍼주니어 남편은 와퍼ㅋㅋ 딱이에요" (탕정신도시맘)</div><div className="rsrc">2026.06.16 · <a href="http://cafe.naver.com/tjnewtownmom/62687" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">KT멤버십 6월 달달초이스 (버거킹·빕스·더벤티·롯데시네마·던킨 등, 6/16~30) — "이번달엔 다행히 롯데시네마 안빠졌네" vs "빕스 샐러드바 진짜 맛없던데" "버거킹 원래 가격이 얼마인지 써놓아야지"</div><div className="rsrc">2026.06.15 · <a href="https://bbs.ruliweb.com/market/board/1020/read/104825" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 달달혜택 국민학교떡볶이 최대 60% 할인 — "달달초이스 신규 참여 브랜드, 5월 15~31일 이용 가능" 후기 긍정</div><div className="rsrc">2026.05.24 · <a href="https://blog.naver.com/kimtolnuna/224294989272" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {ktKw === 'kw3' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx"><span className="upd">KT고객보답 올리브영 모바일상품권 발행처 아시는분 계신가요..? — "올영 3천원권 픽업주문 후 취소되어버리고 유효기간 만료. 이제 좋은 마음 안가지려고요"</span></div><div className="rsrc"><span className="upd">2026.06.19</span> · <a href="http://cafe.naver.com/postmore/77614" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">KT 고객보답 프로그램 6월 2차는..좀.... — "제 기준엔 던킨이 너무 멀구요.. GS편의점 50%품목도 딱!! 정해주다보니 이걸 써? 버려? 그런고민이 든단말이죵~" (줌마렐라)</div><div className="rsrc">2026.06.16 · <a href="http://cafe.naver.com/gimhaezumma/2787046" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">KT멤버십 고객 보답 프로그램 6월 2차 — "6월 2차 혜택도 역시 의미가 없네요;;" (셰에라자드)</div><div className="rsrc">2026.06.16 · <a href="http://cafe.naver.com/schezade/296612" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">KT멤버십 고객보답 6월 2차 (던킨 50%·GS25 컵라면/모찌 50%, 6/16~30) — "컵라면? 모찌롤? 옘병을 하고있네 이게 고객보답이야 재고정리야" "개인정보 탈탈 털리고...혜택까지 1500원짜리 컵라면 반값" (조회 23,151)</div><div className="rsrc">2026.06.15 · <a href="https://bbs.ruliweb.com/etcs/board/1020/read/104822" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -176,6 +174,7 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">KT 고객보답 쿠폰 감사합니다 (배라맘)</div><div className="rsrc">2026.06.10 · <a href="http://cafe.naver.com/chch6534/1294375" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">KT 고객보답 올리브영 이케아 방문시 함께 활용 (꿀 통)</div><div className="rsrc">2026.06.07 · <a href="http://cafe.naver.com/postmore/75418" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">kt 고객 보답 올리브영 3천원권으로 릴리바이레드 워터틴트 구입 — "상큼 달달 좋았어요"</div><div className="rsrc">2026.06.06 · <a href="https://blog.naver.com/ddu_baeng/224308037333" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx"><span className="upd">KT고객보답 6월 쇼핑라운지 쿠폰 번호 확인할 방법 없나요? — "와 돌겠네요. 올리브영·쇼핑라운지 택1 선택 후 쿠폰번호 못 찾아 10분 넘게 앱 헤매는 중"</span></div><div className="rsrc"><span className="upd">2026.06.06</span> · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=phone&no=3918911" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">KT고객보답 올영 3천원 선물 계획 — "바로 꿀릭"</div><div className="rsrc">2026.06.05 · <a href="https://www.fmkorea.com/9915186691" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">KT멤버십 고객 보답 프로그램 6월 1차 — "올리브영 3천원 모바일 상품권이 그나마 괜찮은 거 같은데... 사용 기한이나 다운로드 기한 동일하네요;;; 6월 15일까지" (셰에라자드)</div><div className="rsrc">2026.06.02 · <a href="http://cafe.naver.com/schezade/295502" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">[Kt멤버십] 6월 고객보답(1차) — "조또 쓸모없는 케이티" "저 정도면 그냥 마케팅 아니냐?" "3천원이면 화장솜이나 가능한건가"</div><div className="rsrc">2026.05.30 · <a href="https://www.fmkorea.com/9889962492" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -198,9 +197,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '60%' }}>긍정 60%</div>
-              <div className="rbs rn" style={{ width: '20%' }}>부정 20%</div>
-              <div className="rbs ru" style={{ width: '20%' }}>중립 20%</div>
+              <div className="rbs rp" style={{ width: '67%' }}>긍정 67%</div>
+              <div className="rbs rn" style={{ width: '22%' }}>부정 22%</div>
+              <div className="rbs ru" style={{ width: '11%' }}>중립 11%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -224,11 +223,6 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">6월 유플투쁠 아웃백있어요♡♡ — "뭐 별거 없네 하고 에잇했더니 아웃백이 있네요~ 저거 받음 털러 가봐야겠어요♡♡" (배라맘 카페)</div><div className="rsrc">2026.06.01 · <a href="http://cafe.naver.com/chch6534/1292429" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">유플투쁠 6월예고) 아웃백이 돌아왔어요 — "머선일입니까아 16일에 앗백이 뙇! 유플 VVIP분들 소리질러엇!!!!!!! 내눈엔 앗백만 보임ㅋㅋ" (맘이베베)</div><div className="rsrc">2026.06.01 · <a href="http://cafe.naver.com/skybluezw4rh/14630554" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">26년 6월 유플투쁠 혜택 정리 — 6.9 카카오웹툰·아모레몰·웅진플레이도시 워터파크 등 날짜·브랜드별 라인업 공개</div><div className="rsrc">2026.06.01 · <a href="https://blog.naver.com/chloe7513/224302356530" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-            </div>
-          )}
-          {lguKw === 'kw4' && (
-            <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">VIP콕 배스킨라빈스 무료교환 혜택 정리 — "유플멤버십 VIP콕 혜택으로 배스킨라빈스에서 무료 교환 가능한 메뉴" 상세 안내</div><div className="rsrc">2026.05.25 · <a href="https://blog.naver.com/amazing_0070/224295711582" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
         </div>
