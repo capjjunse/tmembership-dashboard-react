@@ -17,59 +17,59 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
-            <td><span className="upd">2026.06.15</span></td>
+            <td>2026.06.15</td>
             <td><span className="cb bk">KT</span></td>
             <td>달달혜택</td>
-            <td><span className="upd">고객보답 3차 (6.16~30): VIPS 채끝스테이크 무료 등 8종</span></td>
+            <td>고객보답 3차 (6.16~30): VIPS 채끝스테이크 무료 등 8종</td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
-            <td><span className="upd">2026.06.11</span></td>
+            <td>2026.06.11</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>우리동네 멤버십</td>
-            <td><span className="upd">하얀풍차·아비앙또 다대점·니드카페 안산점 제휴 종료 (6.17)</span></td>
+            <td>하얀풍차·아비앙또 다대점·니드카페 안산점 제휴 종료 (6.17)</td>
             <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
-            <td><span className="upd">2026.06.09</span></td>
+            <td>2026.06.09</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십</td>
-            <td><span className="upd">7월 신규 제휴 8개 — 프린트베이커리·수공당 등 (7.1~)</span></td>
+            <td>7월 신규 제휴 8개 — 프린트베이커리·수공당 등 (7.1~)</td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
-            <td><span className="upd">2026.06.09</span></td>
+            <td>2026.06.09</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+멤버십</td>
-            <td><span className="upd">포텔리어 구독권 혜택 축소 — 무료 1개월 → 무료 2주 (7.1 적용)</span></td>
+            <td>포텔리어 구독권 혜택 축소 — 무료 1개월 → 무료 2주 (7.1 적용)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
-            <td><span className="upd">2026.05.29</span></td>
+            <td>2026.05.29</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT멤버십 상시</td>
-            <td><span className="upd">라그릴리아 신규 제휴 — 등급별 5~10% 할인 (6.1~)</span></td>
+            <td>라그릴리아 신규 제휴 — 등급별 5~10% 할인 (6.1~)</td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
-            <td><span className="upd">2026.05.29</span></td>
+            <td>2026.05.29</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT멤버십 상시</td>
-            <td><span className="upd">온누리몰 10% 할인쿠폰 추가 (6.1~12.31)</span></td>
+            <td>온누리몰 10% 할인쿠폰 추가 (6.1~12.31)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
-            <td><span className="upd">2026.05.29</span></td>
+            <td>2026.05.29</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT멤버십 상시</td>
-            <td><span className="upd">AICE 혜택 축소 — 교육VOD 할인 폐지 (7.1~)</span></td>
+            <td>AICE 혜택 축소 — 교육VOD 할인 폐지 (7.1~)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
-            <td><span className="upd">2026.05.29</span></td>
+            <td>2026.05.29</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT멤버십 상시</td>
-            <td><span className="upd">클럽디오아시스 제휴 종료 (7.1)</span></td>
+            <td>클럽디오아시스 제휴 종료 (7.1)</td>
             <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
