@@ -240,30 +240,30 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#sn" className="ovki ovki-pos">
               <div className="ovki-cat">💬 고객반응 <span className="ovki-skt ovki-skt-pos">SKT 호재</span></div>
-              <div className="ovki-title">SKT T day 긍정 우세 · KT 고객보답 2차(컵라면·모찌) 강한 부정 (조회 23,151)</div>
+              <div className="ovki-title">SKT T day 긍정 52% · KT 컵라면 고객보답 강한 부정</div>
               <ul className="ovki-list">
-                <li>SKT T day 전반 긍정 52% 우세 · 3주차(6.24~28) 뚜레쥬르·다운타우너·역전우동·CGV 진행 중</li>
-                <li>KT 고객보답 2차(6.16~30) GS25 컵라면·모찌 50% — 루리웹 '컵라면이 고객보답이야 재고정리야' 강한 부정 (조회 23,151)</li>
-                <li>LGU+ 유플투쁠 67% 긍정 · 3·4차 완료 · 6.25 마지막 매치데이+장기고객데이</li>
+                <li>SKT T day 3주차(6.24~28) 뚜레쥬르·다운타우너·역전우동·CGV 진행 중</li>
+                <li>KT 고객보답 2차 컵라면 — '재고정리야' 강한 부정 (루리웹 조회 23,151)</li>
+                <li>LGU+ 유플투쁠 67% 긍정 · 6.25 장기고객데이 남음</li>
               </ul>
               <div className="ovki-go">고객반응 보기 →</div>
             </a>
             <a href="#tr" className="ovki ovki-warn">
               <div className="ovki-cat">📈 검색어 트렌드 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title">SKT 6/15 5.9 저점권 유지 · KT 9.3 달달혜택 효과 — 6/22주 T day 3주차 시작 · 수집 중</div>
+              <div className="ovki-title">SKT 저점권 유지 · KT +1.8 반등 — 6/22주 수집 중</div>
               <ul className="ovki-list">
-                <li>SKT — 6/15 5.9 소폭 반등 후 저점 유지 · 오늘(6.24) T day 3주차 시작 — 다음 주 수집 결과 모니터링</li>
-                <li>KT — 6/08 7.5에서 6/15 9.3으로 +1.8 반등 · 달달혜택 6.15 공개 효과 확인</li>
+                <li>SKT 6/15주 5.9 — T day 3주차 효과, 6/22주 결과 다음 주 확인</li>
+                <li>KT 6/15주 9.3 — 달달혜택 공개 직후 반등 (+1.8), 이벤트 의존 구조</li>
               </ul>
               <div className="ovki-go">트렌드 보기 →</div>
             </a>
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">🤖 AI 인사이트 — 경쟁 매트릭스 <span className="ovki-skt ovki-skt-mix">혼재</span></div>
-              <div className="ovki-title">CGV 우위 · 공차·그리팅·아모레몰 SKT 없음 — KT 달달혜택+고객보답 운영으로 KT↔LGU+ 경쟁 3종</div>
+              <div className="ovki-title">CGV SKT 2회 우위 · 공차·아모레몰 SKT 미제휴</div>
               <ul className="ovki-list">
-                <li>CGV — SKT Week(6.1~6.5)+3주차(6.24~6.28) 2회 운영 vs LGU+ 투쁠3차 스낵세트 1회 → SKT 우위</li>
-                <li>공차·그리팅 — KT·LGU+ 각각 동일 조건 운영 · SKT 미제휴 확인</li>
-                <li>아모레몰 — KT 달달스페셜 5천원 할인 vs LGU+ 구독권+포인트 · SKT 미제휴</li>
+                <li>CGV — SKT Week+3주차 2회 vs LGU+ 1회 → SKT 우위</li>
+                <li>공차·그리팅 — KT·LGU+ 각각 운영, SKT 미제휴</li>
+                <li>아모레몰 — KT 달달스페셜 5천원 할인 vs LGU+ 구독권, SKT 없음</li>
               </ul>
               <div className="ovki-go">AI 인사이트 보기 →</div>
             </a>
