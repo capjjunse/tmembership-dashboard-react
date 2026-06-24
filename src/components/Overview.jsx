@@ -106,7 +106,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cs">
             <div className="ol"><span className="cb bs">SKT</span></div>
-            <div className="ov">럭키위크 T day 전 일정 공개 — Week·0week·1~3주차 완료 · 3주차(6.24) 뚜레쥬르·다운타우너·역전우동·CGV 식음 집중</div>
+            <div className="ov">T day 3주차 진행 중 · VIP PICK 중립 혼재</div>
             <div className="od">
               <div className="od-item">
                 <a href="#sn" className="octab">고객반응</a>
@@ -150,7 +150,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc ck">
             <div className="ol"><span className="cb bk">KT</span></div>
-            <div className="ov">달달혜택 전 일정 공개·고객보답 3차(VIPS 무료) 운영 중 — 검색량 6/15주 9.3 반등 · 보답 2차(컵라면) 강한 부정 반응 지속</div>
+            <div className="ov">고객보답 3차 운영 중 · 올리브영 쿠폰 만료 불만</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
@@ -177,15 +177,15 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">
-                <div className="tt-top">라그릴리아 신규 제휴<span className="ovb ovb-new">5월 29일 신규</span></div>
-                <div className="tt-sub">등급별 5~10% 할인 (6.1~)</div>
+                <div className="tt-top">CGV 동반할인 4인으로 확대<span className="ovb ovb-chg">6월 24일 변경</span></div>
+                <div className="tt-sub">VVIP·VIP 기존 3인 → 4인 동반 적용</div>
               </div>
             </div>
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--kt)' }}></div>
               <div className="tt">
-                <div className="tt-top">온누리몰 10% 할인쿠폰 추가<span className="ovb ovb-chg">5월 29일 변경</span></div>
-                <div className="tt-sub">6.1~12.31 전 등급 이용 가능</div>
+                <div className="tt-top">VIP 생일 VVIP 혜택 변경<span className="ovb ovb-chg">6월 24일 변경</span></div>
+                <div className="tt-sub">꾸까·스타벅스케이크·롯데시네마 3종 택1</div>
               </div>
             </div>
           </div>
@@ -194,7 +194,7 @@ export default function Overview() {
         <div className="ovrow">
           <div className="oc cl">
             <div className="ol"><span className="cb bl">LGU+</span></div>
-            <div className="ov">FIFA 매치데이 3·4탄 완료 — 6.25 장기고객데이(파리바게뜨·윌라·NOL빌리 엘리어트) 남음</div>
+            <div className="ov">투쁠데이 3·4차 진행 · 6.25 장기고객데이</div>
             <div className="od">
               <div className="od-item">
                 <a href="#mo" className="octab">월별혜택</a>
@@ -228,8 +228,8 @@ export default function Overview() {
             <div className="ti">
               <div className="tdot" style={{ background: 'var(--lgu)' }}></div>
               <div className="tt">
-                <div className="tt-top">포텔리어 구독권 혜택 축소<span className="ovb ovb-chg">6월 9일 변경</span></div>
-                <div className="tt-sub">무료 1개월 → 무료 2주 (7.1 적용)</div>
+                <div className="tt-top">투쁠데이 3차 B1 불스원카케어 추가<span className="ovb ovb-new">6월 24일 신규</span></div>
+                <div className="tt-sub">세차용품 5종 혜택 반영 · 4차 폴라리스 AI요금제·LG비욘드 스페셜에디션 정품</div>
               </div>
             </div>
           </div>
