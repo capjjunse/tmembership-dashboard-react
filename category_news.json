@@ -1,606 +1,179 @@
 {
-  "generated_at": "2026.06.17 17:15",
-  "total_collected": 1049,
-  "total_valid": 565,
-  "total_skipped": 484,
-  "total_top": 35,
-  "topic_groups": [
-    {
-      "category": "trend",
-      "topic": "카카오페이 6월 결제 혜택",
-      "insight": "경쟁사 결제앱의 계절 프로모션 강화 — T멤버십 결제 혜택 패키지의 차별화 및 타이밍 최적화 검토 필요",
-      "signal_strength": 2,
-      "max_velocity": 27.8,
-      "articles": [
-        {
-          "title": "카카오페이, 여름맞이 6월 결제 혜택 공개",
-          "link": "https://biz.sbs.co.kr/article_hub/20000316787?division=NAVER",
-          "pub_date": "2026.06.16",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 27.8
-        },
-        {
-          "title": "카카오페이, 6월 브랜드 혜택 프로모션 진행 내용은?",
-          "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=431457",
-          "pub_date": "2026.06.16",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -25.3
-        }
-      ]
-    },
-    {
-      "category": "risk",
-      "topic": "스타벅스 탱크데이 사태",
-      "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-      "signal_strength": 3,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "&quot;21억 포기&quot;...스타벅스, 불매 진정세에도 전 매장 '셧다운 역사교육'",
-          "link": "https://www.mt.co.kr/living/2026/06/15/2026061510435376631",
-          "pub_date": "2026.06.15",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -4.3
-        },
-        {
-          "title": "서지연 &quot;부산시 스타벅스 불매 검토, 정치적 중립 위반 소지&quot;",
-          "link": "https://www.newsis.com/view/NISX20260612_0003667136",
-          "pub_date": "2026.06.12",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -4.3
-        },
-        {
-          "title": "들끓던 스타벅스 불매 움직임 어디로…한 달 만에 식은 분노?",
-          "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000042524",
-          "pub_date": "2026.06.15",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -4.3
-        },
-        {
-          "title": "'탱크데이' 불매운동 끝?... 스타벅스 결제액 3주 만에 반등",
-          "link": "http://woman.chosun.com/news/articleView.html?idxno=126091",
-          "pub_date": "2026.06.12",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -4.3
-        },
-        {
-          "title": "경찰, '스벅 탱크데이 논란' 신세계그룹 감사팀장 참고인 조사",
-          "link": "https://www.nocutnews.co.kr/news/6534491?utm_source=naver&utm_medium=article&utm_campaign=20260617030815",
-          "pub_date": "2026.06.17",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "경찰, 스타벅스 '탱크데이' 논란 신세계 감사팀장 참고인 조사",
-          "link": "https://zdnet.co.kr/view/?no=20260617135223",
-          "pub_date": "2026.06.17",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "정용진도 참석..'5·18 논란' 스벅, 조기 폐점하고 전직원 역사인식 교육...",
-          "link": "http://www.fnnews.com/news/202606150823405996",
-          "pub_date": "2026.06.15",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "&quot;탱크데이 논란 후속조치&quot;…스타벅스·이마트, 역사 인식 교육",
-          "link": "http://www.yonhapnewstv.co.kr/news/AKR20260617165553yEJ",
-          "pub_date": "2026.06.17",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "&quot;22일 오후 3시 영업종료&quot;‥'논란 끝낸다' 스벅 강수",
-          "link": "https://imnews.imbc.com/news/2026/econo/article/6830227_36932.html",
-          "pub_date": "2026.06.15",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        }
-      ]
-    },
-    {
-      "category": "battle",
-      "topic": "피자헛 4조 원 매각",
-      "insight": "배달앱·경쟁 심화로 외식 프랜차이즈 구조조정 — 가맹점주 등 파트너 이탈 리스크 모니터링 필요",
-      "signal_strength": 2,
-      "max_velocity": 12.0,
-      "articles": [
-        {
-          "title": "피자헛, 4조원 몸값에 팔린다…'피자 제국' 몰락",
-          "link": "https://www.ezyeconomy.com/news/articleView.html?idxno=236472",
-          "pub_date": "2026.06.17",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 12.0
-        },
-        {
-          "title": "'업계 1위'의 굴욕… 피자헛, 도미노·배달앱 공세에 결국 4조 원 매각",
-          "link": "https://economist.co.kr/article/view/ecn202606170008",
-          "pub_date": "2026.06.17",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "배달앱·비만약 열풍에 흔들린 피자헛…결국 4조원 매각",
-          "link": "https://magazine.hankyung.com/business/article/202606171418b",
-          "pub_date": "2026.06.17",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        }
-      ]
-    },
-    {
-      "category": "battle",
-      "topic": "신한금융 슈퍼앱 출시",
-      "insight": "금융사 슈퍼앱 경쟁 심화 — T멤버십의 金·生활 통합 가치 강화로 차별성 확보 필요",
-      "signal_strength": 2,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "신한 '슈퍼 SOL' 금융사 칸막이 없앴다…'슈퍼앱' 경쟁 참전",
-          "link": "https://www.etnews.com/20260617000283",
-          "pub_date": "2026.06.17",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "신한금융, 차세대 통합 플랫폼 '신한 슈퍼SOL' 공개",
-          "link": "https://www.newspim.com/news/view/20260617000543",
-          "pub_date": "2026.06.17",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        }
-      ]
-    },
-    {
-      "category": "benchmark",
-      "topic": "오아시스마켓 구독 멤버십 출시",
-      "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-      "signal_strength": 1,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "오아시스마켓, '20% 적립' 멤버십 출시…&quot;실질 구독료 0원&quot;",
-          "link": "http://www.inews24.com/view/1977332",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "오아시스마켓, 온라인 구독 멤버십 출시…장보기 20% 적립",
-          "link": "https://www.yna.co.kr/view/AKR20260617033600030?input=1195m",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "오아시스마켓, '20% 적립' 장보기 구독 멤버십 선봬",
-          "link": "https://news.mtn.co.kr/news-detail/2026061716133032142",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "오아시스마켓, 월 2000원 멤버십 출시…“장보기 20% 적립”",
-          "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02870006645482704",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "&quot;장볼 때마다 20% 돌려준다&quot; 오아시스마켓, 구독 멤버십 출시",
-          "link": "https://www.newsis.com/view/NISX20260617_0003672097",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "&quot;실질 구독료 0원&quot;…오아시스마켓, 장보기 구독 멤버십 '클럽 오아시스...",
-          "link": "https://www.news1.kr/industry/distribution/6199631",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "오아시스마켓, 업계 최초 ‘20% 적립’ 구독형 멤버십 론칭",
-          "link": "https://www.etoday.co.kr/news/view/2594370",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "오아시스마켓, 장보기 구독 멤버십 '클럽 오아시스' 출시",
-          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1377195",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "오아시스마켓, 월 2000원 구독 멤버십 출시…장보기 20% 적립",
-          "link": "https://www.ajunews.com/view/20260617111859884",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "오아시스, 장보기 구독 멤버십 '클럽 오아시스' 구축",
-          "link": "https://www.m-i.kr/news/articleView.html?idxno=1382284",
-          "pub_date": "2026.06.17",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        }
-      ]
-    }
-  ],
+  "generated_at": "2026.06.24 17:04",
+  "total_collected": 917,
+  "total_valid": 38,
+  "total_skipped": 871,
+  "total_top": 28,
+  "topic_groups": [],
   "categories": {
     "trend": [
       {
-        "title": "카카오페이, 여름맞이 6월 결제 혜택 공개",
-        "topic": "카카오페이 6월 결제 혜택",
-        "insight": "경쟁사 결제앱의 계절 프로모션 강화 — T멤버십 결제 혜택 패키지의 차별화 및 타이밍 최적화 검토 필요",
-        "desc": "CU에서는 CU멤버십 연결 후 참여 신청 시 카카오페이머니 5% 현장 할인과 5% 카카오페이포인트 적립을 함께 주는 ‘오! 오! 혜택’이 연중 진행 중입니다. GS25에서는 지인에게 프로모션을 전파해 참여시키면 2,801원까지... ",
-        "link": "https://biz.sbs.co.kr/article_hub/20000316787?division=NAVER",
-        "pub_date": "2026.06.16",
-        "reason": "카카오페이 시즌 프로모션, 소비 트렌드 신호",
+        "title": "한국관광공사...AI가 여행 짜고, 쇼핑몰이 휴가를 연다",
+        "topic": "",
+        "insight": "",
+        "desc": "올여름 국내여행의 첫 페이지가 쇼핑몰 한복판에서 열리고 있다. 대한민국구석구석,한국관광공사,스타필드수원,국내여행,여름휴가,AI콕콕플래너,오디,디지털관광주민증,밤밤곡곡,수원여행",
+        "link": "https://www.newscj.com/news/articleView.html?idxno=3411303",
+        "pub_date": "2026.06.23",
+        "reason": "AI 기반 여행·쇼핑 소비 행동 변화",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 76.5,
-        "datalab_velocity": 27.8,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "여름 축제"
+          "AI 쇼핑",
+          "여름휴가 마케팅"
         ]
       },
       {
-        "title": "&quot;쇼핑도 이제 보는 시대&quot;...자사몰 생존 전략은 '숏폼'",
-        "topic": "자사몰 숏폼 마케팅",
-        "insight": "쇼핑 플랫폼의 숏폼 콘텐츠 의존도 증가 — T멤버십 앱 내 영상 콘텐츠 강화로 구매 전환 기회 포착",
-        "desc": "온사이트 전략'을 주제로 발표했다. 방 이사는 국내 이커머스 시장이 모바일과 영상 중심으로 빠르게 재편되고 있다고 진단했다. 온라인 쇼핑의 76%가 모바일에서 이뤄지고 있으며 숏폼 시청 경험률은 2022년 대비 27... ",
-        "link": "https://zdnet.co.kr/view/?no=20260617145819",
-        "pub_date": "2026.06.17",
-        "reason": "숏폼 쇼핑 트렌드 확산, T멤버십 콘텐츠 전략 영향",
+        "title": "앱 밖으로 나온 패션 플랫폼…오프라인 매장 확대 경쟁",
+        "topic": "",
+        "insight": "",
+        "desc": "이들의 주요 경쟁 무대가 온라인에서 오프라인으로 확장하고 있다는 분석도 나온다. 22일 패션업계에 따르면 카카오스타일이 운영하는 커머스 플랫폼 지그재그는 최근 자사 입점 신발 브랜드 착한구두의 서울 성수동... ",
+        "link": "https://www.hankyung.com/article/2026062211241",
+        "pub_date": "2026.06.23",
+        "reason": "이커머스 채널 전략 변화",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 81.2,
-        "datalab_velocity": 18.8,
-        "queries": [
-          "이커머스 전략",
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "경험 소비 트렌드 확산…맘스터치, 치킨 메뉴로 QSR 플랫폼 경쟁력 강화",
-        "topic": "QSR 경험 소비 확대",
-        "insight": "맛/경험 기반 QSR 차별화 전략 확산 — T멤버십 제휴 음식점의 체험형 혜택 개발로 경쟁력 강화",
-        "desc": "업계에서는 패스트푸드 시장이 버거 중심 경쟁에서 벗어나 치킨과 피자 등 다양한 카테고리를 결합한 QSR(Quick Service Restaurant) 플랫폼 경쟁으로 확대되고 있다고 분석한다. 특히 객단가가 높은 치킨 메뉴는 가맹점... ",
-        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=201540",
-        "pub_date": "2026.06.17",
-        "reason": "경험소비 확산 트렌드, T멤버십 외식제휴 타겟팅 참고",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 29.0,
-        "datalab_velocity": 12.0,
+        "datalab_score": 10.9,
+        "datalab_velocity": 0.0,
         "queries": [
           "플랫폼 경쟁",
-          "소비 트렌드"
+          "앱 마케팅"
         ]
       },
       {
-        "title": "‘무더위·월드컵’ 수요 잡아라…유통업계, 여름 성수기 선점 총력전",
-        "topic": "여름 성수기 프로모션",
-        "insight": "계절별 소비 수요 변화에 대응한 집중 마케팅 — T멤버십의 여름 시즌 타겟 캠페인 조기 구성 필수",
-        "desc": "가장 주목받고 있는 건 여름 휴가철을 겨냥한 숙박과 국내 여행 상품이다. 문화체육관광부와... 선글라스, 여름 샌들 등 시즌 필수 아이템을 특가로 선보인다. 신규 확장된 키즈 카테고리에선 오는 21일까지 할인 혜택을... ",
-        "link": "https://www.busan.com/view/busan/view.php?code=2026061413074755044",
-        "pub_date": "2026.06.14",
-        "reason": "여름·월드컵 성수기 소비패턴, T멤버십 타이밍 기획 참고",
+        "title": "“이른 더위에 여름 특수 잡아라”…유통가, 할인 경쟁 본격화",
+        "topic": "",
+        "insight": "",
+        "desc": "주요 이커머스 업체들은 제철 먹거리와 여름 생활용품, 휴가 상품을 앞세운 대규모 할인 행사로 소비자 공략에 나서고 있다. G마켓 제공 21일 업계에 따르면 G마켓과 옥션은 이날까지 ‘6월 SUPER 마트&amp;리빙’ 프로모션을... ",
+        "link": "https://www.segye.com/newsView/20260621501728?OutUrl=naver",
+        "pub_date": "2026.06.21",
+        "reason": "여름 특수 시기 소비 할인 트렌드 확산",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 12.8,
-        "datalab_velocity": 3.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "여름 휴가 시즌",
-          "무더위 이벤트"
+          "소비자 할인",
+          "여름휴가 마케팅"
         ]
       },
       {
-        "title": "카카오페이, 6월 브랜드 혜택 프로모션 진행 내용은?",
-        "topic": "카카오페이 6월 결제 혜택",
-        "insight": "경쟁사 결제앱의 계절 프로모션 강화 — T멤버십 결제 혜택 패키지의 차별화 및 타이밍 최적화 검토 필요",
-        "desc": "세븐일레븐에서는 이달 말까지 카카오페이머니 결제 시 맥주 번들과 치킨 상품 할인 혜택을 제공하며, CU는 멤버십 연결 후 참여 신청 고객을 대상으로 현장 할인과 포인트 적립 혜택을 운영한다. GS25에서는 지인 추천... ",
-        "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=431457",
-        "pub_date": "2026.06.16",
-        "reason": "카카오페이 시즌 혜택 프로모션, 참고용",
+        "title": "경동나비엔, '나비엔 하우스' 앱 론칭…제품 상담·구독·AS 하나로",
+        "topic": "",
+        "insight": "",
+        "desc": "제품 구매 후에는 A/S 신청, 1대1 문의, 자가진단 기능을 이용할 수 있으며, 보유 제품 등록 시 맞춤형 관리 방법과 환기청정기 필터 교체 알림 등의 안내 서비스를 받는다. 구독 제품 역시 상담 신청부터 계약까지 앱에서 한... ",
+        "link": "https://news.tf.co.kr/read/economy/2335497.htm",
+        "pub_date": "2026.06.23",
+        "reason": "구독 서비스 확대 트렌드",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 41.0,
-        "datalab_velocity": -25.3,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
         "queries": [
-          "멤버십 혜택",
-          "브랜드 제휴"
+          "구독 서비스",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "&quot;상담·구매·구독·A/S까지 한 번에&quot; 경동나비엔, 앱 출시",
+        "topic": "",
+        "insight": "",
+        "desc": "이와 함께 구독 제품 및 서비스 정보를 확인하고 상담 신청부터 계약까지 앱에서 간편하게 진행할 수 있어 편의성을 한층 높였다. 이외에도 주문 및 배송 현황, 앱 전용 쿠폰 소식 등을 실시간으로 확인할 수 있고, 위치... ",
+        "link": "https://www.mhj21.com/news/articleView.html?idxno=252832",
+        "pub_date": "2026.06.24",
+        "reason": "구독 서비스 확대 트렌드",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
+        "queries": [
+          "구독 서비스",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "&quot;보일러 수리부터 가전 구독까지&quot;… 경동나비엔, 모바일 앱 서비스 확장",
+        "topic": "",
+        "insight": "",
+        "desc": "최근 가전업계에서는 정기 관리와 구독 서비스 시장이 확대되면서 관련 플랫폼 경쟁도 이어지고 있다. 한 유통업계 관계자는 &quot;필터 교체, 점검, 소모품 교체 등 주기적인 관리가 필요한 제품이 늘어나면서 이를 효율적으로... ",
+        "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=659168",
+        "pub_date": "2026.06.23",
+        "reason": "구독 서비스 확대 트렌드",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
+        "queries": [
+          "구독 서비스",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "“상담·구매·구독·A/S까지 한 번에”…경동나비엔, ‘나비엔 하우스...",
+        "topic": "",
+        "insight": "",
+        "desc": "이와 함께 구독 제품과 서비스 정보를 확인하고 상담 신청부터 계약까지 앱에서 간편하게 진행할 수 있어 편의성을 한층 높였다. 이외에도 주문 및 배송 현황, 앱 전용 쿠폰 소식 등을 실시간으로 확인할 수 있고 위치... ",
+        "link": "https://www.viva100.com/article/20260623500603",
+        "pub_date": "2026.06.23",
+        "reason": "구독 서비스 확대 트렌드",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
+        "queries": [
+          "구독 서비스",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "제품 탐색부터 구매, 구독, AS까지 한 번에...경동나비엔, '나비엔 하우...",
+        "topic": "",
+        "insight": "",
+        "desc": "경동나비엔은 최근 보일러와 환기청정기 등을 중심으로 구독 서비스를 확대하며 제품 판매 이후 관리 서비스 경쟁력 강화에도 나서고 있다. 제품 이용과 정기 점검, 유지관리 서비스를 결합한 구독 모델을 강화하는... ",
+        "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=757988",
+        "pub_date": "2026.06.23",
+        "reason": "구독 서비스 확대 트렌드",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
+        "queries": [
+          "구독 서비스",
+          "앱 마케팅"
         ]
       }
     ],
-    "risk": [
-      {
-        "title": "피자헛, 4조원 매각 결정…한국법인 청산 수순",
-        "topic": "피자헛 한국 사업 철수",
-        "insight": "외식 프랜차이즈 구조 변화 — T멤버십 식음료 제휴사 포트폴리오 재정비 필요",
-        "desc": "업계에서는 피자 시장 자체가 성숙 단계에 접어든 가운데 배달 플랫폼 경쟁 심화와 소비 트렌드 변화가 복합적으로 영향을 미친 것으로 분석하고 있다. 국내에서는 한국피자헛이 사실상 역사 속으로 사라지는 수순을... ",
-        "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7169955",
-        "pub_date": "2026.06.17",
-        "reason": "T멤버십 제휴사 피자헛 청산, 긴급 대응 필요",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 29.0,
-        "datalab_velocity": 12.0,
-        "queries": [
-          "소비 트렌드"
-        ]
-      },
-      {
-        "title": "&quot;21억 포기&quot;...스타벅스, 불매 진정세에도 전 매장 '셧다운 역사교육'",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-        "desc": "시장에서는 탱크데이 파문으로 촉발됐던 불매운동 분위기가 다소 진정세를 보이고 있다는 분석이 나온다. 모바일인덱스에 따르면 스타벅스코리아의 이달 첫째 주(6월 1~7일) 신용·체크카드 추정 결제액은 전주 대비 약 13... ",
-        "link": "https://www.mt.co.kr/living/2026/06/15/2026061510435376631",
-        "pub_date": "2026.06.15",
-        "reason": "스타벅스 불매 확산, 제휴 재검토 필요",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 22.4,
-        "datalab_velocity": -4.3,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "서지연 &quot;부산시 스타벅스 불매 검토, 정치적 중립 위반 소지&quot;",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-        "desc": "서지연 부산시의원이 부산시가 정부의 이른바 '스타벅스 보이콧' 기류에 맞춰 특정 기업에 대한 불매운동 참여를 검토한 것과 관련해 행정의 중립성과 절차적 정당성을 훼손한 사례라고 비판했다. 서 의원은 제336회... ",
-        "link": "https://www.newsis.com/view/NISX20260612_0003667136",
-        "pub_date": "2026.06.12",
-        "reason": "스타벅스 불매 정치화, T멤버십 이미지 위험",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 22.4,
-        "datalab_velocity": -4.3,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "들끓던 스타벅스 불매 움직임 어디로…한 달 만에 식은 분노?",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-        "desc": "묵혀뒀던 기프티콘도 쓸 겸 다시 찾게 되네요.&quot; 이른바 5월18일 '탱크데이' 사태로 거센 불매운동의 직격탄을 맞았던 스타벅스를 둘러싼 논란이 한 달 가까이 지나면서 전국적으로 진정 국면에 접어드는 모습이다. 한때... ",
-        "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000042524",
-        "pub_date": "2026.06.15",
-        "reason": "스타벅스 불매 동향 모니터링 필요",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 22.4,
-        "datalab_velocity": -4.3,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "'탱크데이' 불매운동 끝?... 스타벅스 결제액 3주 만에 반등",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-        "desc": "불매 움직임이 사그라지고 소비가 회복 국면에 접어든 것 아니냐는 분석이 나온다. 10일 AI 데이터 테크기업 아이지에이웍스의 모바일인덱스에 따르면 6월 첫째 주(1~7일) 스타벅스코리아의 신용·체크카드 추정... ",
-        "link": "http://woman.chosun.com/news/articleView.html?idxno=126091",
-        "pub_date": "2026.06.12",
-        "reason": "탱크데이 불매 파급, 제휴사 신뢰도 영향",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 22.4,
-        "datalab_velocity": -4.3,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "경찰, '스벅 탱크데이 논란' 신세계그룹 감사팀장 참고인 조사",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-        "desc": "스타벅스 코리아의 '5·18 탱크데이' 마케팅 논란과 관련해 경찰이 신세계그룹 감사팀장을 소환했다. 서울경찰청 공공범죄수사대는 17일 오전 신세계그룹 양종완 감사팀장(상무)을 참고인 신분으로 불러 조사하고... ",
-        "link": "https://www.nocutnews.co.kr/news/6534491?utm_source=naver&utm_medium=article&utm_campaign=20260617030815",
-        "pub_date": "2026.06.17",
-        "reason": "스타벅스 탱크데이 논란 확산, 즉시 대응",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란"
-        ]
-      },
-      {
-        "title": "경찰, 스타벅스 '탱크데이' 논란 신세계 감사팀장 참고인 조사",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-        "desc": "스타벅스 코리아 '탱크데이' 마케팅 논란을 수사 중인 경찰이 신세계그룹 감사 책임자를 참고인으로 불러 당시 자체 조사 과정과 결과를 확인하고 있다. 17일 경찰 등에 따르면 서울경찰청 공공범죄수사대는 이날 양종완... ",
-        "link": "https://zdnet.co.kr/view/?no=20260617135223",
-        "pub_date": "2026.06.17",
-        "reason": "스타벅스 탱크데이 논란, 제휴재검토 필요",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란"
-        ]
-      },
-      {
-        "title": "정용진도 참석..'5·18 논란' 스벅, 조기 폐점하고 전직원 역사인식 교육...",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-        "desc": "최근 '5·18 마케팅' 논란을 계기로 재발 방지 대책을 마련하고 내부 의사결정 체계도 전면 재정비한다. 마케팅 검증 체계 전면 개편 신세계그룹은 오는 17일 이마트부문 계열사 임원과 스타벅스 코리아 본사 임직원을... ",
-        "link": "http://www.fnnews.com/news/202606150823405996",
-        "pub_date": "2026.06.15",
-        "reason": "스타벅스 논란 심화, 신세계그룹 이슈",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란"
-        ]
-      },
-      {
-        "title": "&quot;탱크데이 논란 후속조치&quot;…스타벅스·이마트, 역사 인식 교육",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-        "desc": "이번 교육은 지난 5월 18일 광주민주화운동 기념일에 스타벅스가 '탱크데이' 마케팅을 진행해 논란이 된 이후 마련된 후속 조치입니다. 스타벅스 본사 직원과 이마트 계열사 임원 등 150여 명은 민주화운동의 역사적... ",
-        "link": "http://www.yonhapnewstv.co.kr/news/AKR20260617165553yEJ",
-        "pub_date": "2026.06.17",
-        "reason": "스타벅스·이마트 논란 재확산",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란"
-        ]
-      },
-      {
-        "title": "&quot;22일 오후 3시 영업종료&quot;‥'논란 끝낸다' 스벅 강수",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "불매운동 진정에도 브랜드 신뢰 손상 지속 — T멤버십 제휴사 리스크 관리 강화",
-        "desc": "신세계그룹은 스타벅스 코리아의 이번 조치가 '5.18 탱크데이 마케팅'과 관련 사회적 물의를 일으킨 것을... 또 보고체계를 강화해 마케팅 콘텐츠의 적절성 여부를 실행 직전까지 꼼꼼히 검토하고, 이 과정에서의 협의... ",
-        "link": "https://imnews.imbc.com/news/2026/econo/article/6830227_36932.html",
-        "pub_date": "2026.06.15",
-        "reason": "스타벅스 강수, 브랜드 이슈 심각",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란"
-        ]
-      }
-    ],
+    "risk": [],
     "battle": [
       {
-        "title": "AI·에이전트·포털 모은 ‘업스테이지 컴퍼니’ 출범",
-        "topic": "업스테이지 AI 플랫폼 출범",
-        "insight": "AI·에이전트 기반 플랫폼 경쟁 심화 — T멤버십 AI 기반 추천·개인화 서비스 고도화 필요",
-        "desc": "버티컬(쇼핑, 부동산 등 분야별 특화) 제휴사들과 제휴를 추진 중”이라고 설명했다. 한편 최근 미국 행정부가 앤스로픽의 최신 AI모델 페이블5와 미토스5에 한국을 포함한 외국 이용자의 접근을 차단한 것과 관련해 김... ",
-        "link": "https://www.mk.co.kr/article/12075293",
-        "pub_date": "2026.06.16",
-        "reason": "업스테이지 포털·AI·에이전트 통합, 경쟁 위협",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 81.2,
-        "datalab_velocity": 18.8,
-        "queries": [
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "KT, '멤버십·IPTV' 경쟁력 강화...가입자 반등 추진",
-        "topic": "통신사 멤버십 가입자 경쟁",
-        "insight": "KT, 멤버십·IPTV로 가입자 반등 추진 — T멤버십의 차별화된 번들 가치제안 강화 시급",
-        "desc": "멤버십 혜택을 확대했다. 인터넷(IP)TV 요금제를 개편했다. 16일 KT는 유무선 상품 가입자 반등을 추진하고 있다. 1분기 KT 이동전화(MNO) 가입자와 유료 방송 가입자는 하락세다. 1분기 MNO 가입자는 전기대비 1.0% 감소한... ",
-        "link": "https://www.techm.kr/news/articleView.html?idxno=152640",
-        "pub_date": "2026.06.16",
-        "reason": "경쟁사 IPTV·멤버십 통합으로 가입자 확보 경쟁",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 41.0,
-        "datalab_velocity": -25.3,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "도미노피자, 오늘(17일) 단 하루 SKT 고객 ‘반값 &amp; 적립’ 혜택",
-        "topic": "SKT 도미노피자 제휴 프로모션",
-        "insight": "통신사-외식업 제휴 프로모션 확대 — T멤버십 타사 제휴 프로모션 경쟁력 강화 필요",
-        "desc": "도미노피자는 17일 단 하루 동안 SKT T 멤버십 고객을 대상으로 할인 및 적립 혜택을 제공하는 ‘SKT T day’ 프로모션을 진행한다고 밝혔다. ▲ 도미노피자 ‘SKT T day’ 프로모션. [사진=도미노피자] 이번... ",
-        "link": "https://swtvnews.com/news/newsview.php?ncode=1065580690553019",
-        "pub_date": "2026.06.17",
-        "reason": "도미노피자 SKT 제휴 반값 할인 행사",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 41.0,
-        "datalab_velocity": -25.3,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "&quot;와우 멤버십 가격 인상하나&quot;…쿠팡, 지난해 영업이익 증발에 '고심'",
-        "topic": "쿠팡 와우 멤버십 가격인상",
-        "insight": "쿠팡 수익성 악화로 멤버십 가격 인상 검토 — T멤버십 가격 정책 재검토 및 차별화 기회",
-        "desc": "이에 일각에서는 쿠팡이 ▲와우 멤버십 가격 인상 ▲와우 멤버십 혜택 축소 ▲쿠팡 입점 셀러 대상 광고비 인상 등에 나설 수 있다는 관측이 나오고 있다. 현재 쿠팡의 고정 수입원 중 하나는 유료 멤버십 서비스인 와우... ",
-        "link": "https://www.youthdaily.co.kr/news/article.html?no=220943",
-        "pub_date": "2026.06.16",
-        "reason": "쿠팡 와우 멤버십 인상 검토, 경쟁사 가격 전략 변화 긴급 모니터링",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 41.0,
-        "datalab_velocity": -25.3,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "피자헛, 4조원 몸값에 팔린다…'피자 제국' 몰락",
-        "topic": "피자헛 4조 원 매각",
-        "insight": "배달앱·경쟁 심화로 외식 프랜차이즈 구조조정 — 가맹점주 등 파트너 이탈 리스크 모니터링 필요",
-        "desc": "글로벌 시장 지배력을 자랑하던 '피자 제국'이 변화한 소비 트렌드와 경쟁 심화의 파고를 넘지 못하면서 대규모 매각이라는 결말을 맞게 됐다. 16일(현지시간) CNBC 등에 따르면 글로벌 외식기업 얌브랜드는 피자헛... ",
-        "link": "https://www.ezyeconomy.com/news/articleView.html?idxno=236472",
-        "pub_date": "2026.06.17",
-        "reason": "주요 제휴 브랜드 피자헛 매각, 배달앱·도미노 경쟁 심화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 29.0,
-        "datalab_velocity": 12.0,
-        "queries": [
-          "소비 트렌드"
-        ]
-      },
-      {
-        "title": "우버發 배민 매각설에 쿠팡이츠 총공세…배달앱 판 흔들린다",
-        "topic": "배달앱 시장 판도 변화",
-        "insight": "배민 매각설·쿠팡이츠 공세로 배달앱 경쟁 재편 — T멤버십 배달 제휴 포트폴리오 다각화 전략 필요",
-        "desc": "사진=연합뉴스  글로벌 자본의 움직임과 플랫폼 간 경쟁 심화가 맞물리면서 국내 배달앱 시장 경쟁이 한층 치열해지고 있다. 시장 1위 배달의민족이 매각 시험대에 오른 가운데 쿠팡이츠가 무료배달 확대와 24시간... ",
-        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1376095",
-        "pub_date": "2026.06.14",
-        "reason": "배달앱 시장 판도 변화, T멤버십 배달제휴 경쟁력 재평가 긴급",
+        "title": "&quot;한 번 고객은 영원한 고객&quot;…불붙은 이커머스 멤버십 경쟁",
+        "topic": "",
+        "insight": "",
+        "desc": "이커머스 업계, 멤버십 혜택 강화하는 이유는? 업계에서는 이들 기업이 일제히 멤버십 서비스를 강화하는 원인으로 락인 효과를 통한 충성고객 확보를 꼽는다. 코로나19 팬데믹 기간 급격하게 커진 국내 이커머스... ",
+        "link": "https://www.econovill.com/news/articleView.html?idxno=743212",
+        "pub_date": "2026.06.23",
+        "reason": "멤버십 경쟁 본격화",
         "priority": 3,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
+        "datalab_score": 12.0,
+        "datalab_velocity": -1.1,
+        "queries": [
+          "멤버십 혜택",
+          "이커머스 전략"
+        ]
+      },
+      {
+        "title": "배달앱 3600억 상생안 퇴짜…공정위, 과징금 폭탄 예고",
+        "topic": "",
+        "insight": "",
+        "desc": "공정거래위원회는 배달 애플리케이션(앱) 시장의 최혜대우 요구, 자사 배달 우대, 멤버십 끼워팔기 등 핵심 혐의의 중대성을 고려할 때 동의의결로 사건을 종결하기 어렵다고 판단했다. 배달앱 사건이 본심의로... ",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04185286645483032",
+        "pub_date": "2026.06.18",
+        "reason": "배달앱 공정위 규제 강화 시장 구도 변화",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 10.9,
         "datalab_velocity": 0.0,
         "queries": [
           "배달 시장",
@@ -608,239 +181,312 @@
         ]
       },
       {
-        "title": "신한 '슈퍼 SOL' 금융사 칸막이 없앴다…'슈퍼앱' 경쟁 참전",
-        "topic": "신한금융 슈퍼앱 출시",
-        "insight": "금융사 슈퍼앱 경쟁 심화 — T멤버십의 金·生활 통합 가치 강화로 차별성 확보 필요",
-        "desc": "신한금융그룹의 모든 기능을 하나의 앱에서 처리할 수 있게 되며 금융사 슈퍼앱 경쟁에 본격 참전한다.... 금융 플랫폼”이라고 밝혔다. 슈퍼SOL 앱 개편의 핵심은 금융사 간 끊임없이 금융서비스를 이용할 수 있는... ",
-        "link": "https://www.etnews.com/20260617000283",
-        "pub_date": "2026.06.17",
-        "reason": "신한금융 슈퍼앱 본격 경쟁, 긴급 대응 필요",
+        "title": "배민·쿠팡이츠, 합의종결 무산… 공정위가 겨눈 건 '배달앱 지배력'",
+        "topic": "",
+        "insight": "",
+        "desc": "시장의 관심은 과징금 규모를 넘어 배달앱 시장의 경쟁 질서와 플랫폼 사업모델을 어떻게 재설계할 것인가에 쏠리고 있다. ◆ 공정위, 동의의결 전면 기각 공정위는 지난 18일 우아한형제들(배달의민족)과 쿠팡(쿠팡이츠)... ",
+        "link": "https://www.newscj.com/news/articleView.html?idxno=3411150",
+        "pub_date": "2026.06.22",
+        "reason": "배민·쿠팡이츠 경쟁 격화 및 규제 심화",
         "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
+        "cross_query_count": 2,
+        "datalab_score": 10.9,
         "datalab_velocity": 0.0,
         "queries": [
-          "플랫폼 경쟁"
+          "배달 시장",
+          "앱 마케팅"
         ]
       },
       {
-        "title": "신한금융, 차세대 통합 플랫폼 '신한 슈퍼SOL' 공개",
-        "topic": "신한금융 슈퍼앱 출시",
-        "insight": "금융사 슈퍼앱 경쟁 심화 — T멤버십의 金·生활 통합 가치 강화로 차별성 확보 필요",
-        "desc": "신한금융그룹이 그룹사 금융 서비스를 하나로 통합한 차세대 금융 플랫폼 '신한 슈퍼SOL'을 공개하며 디지털 금융 경쟁력 강화에 나섰다. 신한금융그룹은 17일 서울 중구 신한금융 본사에서 '신한 슈퍼SOL Open Day-내 손... ",
-        "link": "https://www.newspim.com/news/view/20260617000543",
-        "pub_date": "2026.06.17",
-        "reason": "신한금융 통합플랫폼 공개, 통신사 멤버십 위협",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "title": "골프존, 구독 서비스 ‘G멤버십 필드 시즌권’ 출시",
+        "topic": "",
+        "insight": "",
+        "desc": "기존 G멤버십 필드 상품의 주요 혜택인 골프장 할인 쿠폰 3종(인기 골프장 그린피 또는 1팀 카트비 할인, 커피 2+2 쿠폰 및 식음료 3+1 쿠폰)을 각 7매씩 제공한다. G멤버십 필드는 스크린 전용 기능인 멀리건 선물, AI... ",
+        "link": "https://biz.heraldcorp.com/article/10784780?ref=naver",
+        "pub_date": "2026.06.23",
+        "reason": "구독팩 경쟁 신호",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
         "queries": [
-          "플랫폼 경쟁"
+          "멤버십 혜택",
+          "구독 서비스"
         ]
       },
       {
-        "title": "'업계 1위'의 굴욕… 피자헛, 도미노·배달앱 공세에 결국 4조 원 매각",
-        "topic": "피자헛 4조 원 매각",
-        "insight": "배달앱·경쟁 심화로 외식 프랜차이즈 구조조정 — 가맹점주 등 파트너 이탈 리스크 모니터링 필요",
-        "desc": "모바일 앱을 통해 소비자들이 접할 수 있는 대체 배달 음식 선택지가 폭발적으로 증가하면서, 피자 하나만으로 시장을 독식하던 피자헛의 독점적 경쟁력이 급격히 약화된 탓이다. 이 같은 위기 상황을 반전시키기 위해... ",
-        "link": "https://economist.co.kr/article/view/ecn202606170008",
-        "pub_date": "2026.06.17",
-        "reason": "피자헛 매각, 배달앱·도미노 경쟁 심화로 T멤버십 제휴 영향",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "title": "골프존, 'G멤버십 필드 시즌권' 출시...다양한 스크린·필드 골프 서비스...",
+        "topic": "",
+        "insight": "",
+        "desc": "기존 G멤버십 필드 상품의 주요 혜택인 골프장 할인 쿠폰 3종(인기 골프장 그린피 또는 1팀 카트비 할인, 커피 2+2 쿠폰 및 식음료 3+1 쿠폰)을 각 7매씩 제공한다. 'G멤버십 필드'는 스크린 전용 기능인 멀리건 선물, AI... ",
+        "link": "https://www.starnewskorea.com/business-life/2026/06/23/2026062310232514554",
+        "pub_date": "2026.06.23",
+        "reason": "구독팩 경쟁 신호",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
         "queries": [
-          "배달 시장"
+          "멤버십 혜택",
+          "구독 서비스"
         ]
       },
       {
-        "title": "배달앱·비만약 열풍에 흔들린 피자헛…결국 4조원 매각",
-        "topic": "피자헛 4조 원 매각",
-        "insight": "배달앱·경쟁 심화로 외식 프랜차이즈 구조조정 — 가맹점주 등 파트너 이탈 리스크 모니터링 필요",
-        "desc": "특히 1980년대 '30분 배달' 전략으로 급성장한 도미노피자에 미국 시장 주도권을 내줬고, 2017년에는 미국 최대 피자 체인 자리를 빼앗겼다. 이후 피자 포장과 배달 수요가 증가하는 가운데 식사 공간 중심의 대형 매장... ",
-        "link": "https://magazine.hankyung.com/business/article/202606171418b",
-        "pub_date": "2026.06.17",
-        "reason": "피자헛 약화, 배달앱·제약 트렌드 반영 경쟁 악화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "title": "골프존, 구독 서비스 'G멤버십 필드 시즌권' 출시",
+        "topic": "",
+        "insight": "",
+        "desc": "필드 혜택으로는 인기 골프장 그린피 또는 1팀 카트비 할인 쿠폰과 골프장 식음료 할인인 커피 2+2 쿠폰, 식음료 3+1 쿠폰, 그리고 필드 홀인원 달성 시 상금 100만 원 지급 혜택도 제공한다. 'G멤버십 필드 시즌권'은... ",
+        "link": "https://www.ggilbo.com/news/articleView.html?idxno=1165316",
+        "pub_date": "2026.06.23",
+        "reason": "구독팩 경쟁 신호",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
         "queries": [
-          "배달 시장"
+          "멤버십 혜택",
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "골프존, 구독형 골프 서비스 강화... 'G멤버십 필드 시즌권' 선봬",
+        "topic": "",
+        "insight": "",
+        "desc": "골프존은 구독 서비스인 G멤버십 이용 고객을 대상으로 스크린골프와 필드 골프 혜택을 결합한 'G멤버십 필드 시즌권'을 출시했다고 23일 밝혔다. 이번 상품은 스크린과 필드 골프를 모두 즐기는 고객을 겨냥해 마련됐다.... ",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=202053",
+        "pub_date": "2026.06.23",
+        "reason": "구독팩 경쟁 신호",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
+        "queries": [
+          "멤버십 혜택",
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "골프존, 구독료 14% 낮춘 'G멤버십 필드 시즌권' 출시",
+        "topic": "",
+        "insight": "",
+        "desc": "골프존(대표이사 박강수)은 스크린과 야외 골프장 혜택을 연계한 구독 서비스인 'G멤버십 필드 시즌권'을 출시했다고 23일 밝혔다. 골프존에 따르면 이번 상품의 이용 기한은 올해 12월31일까지로, 기존 결제 상품과... ",
+        "link": "https://www.newsinside.kr/news/articleView.html?idxno=4783091",
+        "pub_date": "2026.06.23",
+        "reason": "구독팩 경쟁 신호",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 46.0,
+        "datalab_velocity": -9.4,
+        "queries": [
+          "멤버십 혜택",
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "네이버, 상반기 최대 쇼핑 축제 '넾다세일' 혜택 넘친다",
+        "topic": "",
+        "insight": "",
+        "desc": "이번 행사에서는 월 이용자 800만명을 넘어선 네이버플러스 스토어 앱 사용자와 멤버십 회원을 중심으로 다양한 혜택을 제공한다. 본 행사에 앞서 21일까지는 사전 혜택을 제공한다. 매일 오전 11시 네이버플러스 멤버십... ",
+        "link": "https://www.newsis.com/view/NISX20260619_0003675470",
+        "pub_date": "2026.06.19",
+        "reason": "이커머스 공격적 경쟁",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 12.0,
+        "datalab_velocity": -1.1,
+        "queries": [
+          "멤버십 혜택",
+          "상반기 세일"
+        ]
+      },
+      {
+        "title": "여름 성수기 앞두고 승부수···대규모 할인 혜택 공개한 NOL",
+        "topic": "",
+        "insight": "",
+        "desc": "VIP 멤버십인 골드클래스 혜택도 확대했다. 국내 레저 상품에 10% 할인 쿠폰과 전용 특가를 적용하며, 누구나 7일 동안 무료 체험할 수 있도록 했다. 해외여행 부문에서는 해외 숙소 할인 혜택을 강화했다. 매일 선착순으로... ",
+        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2441061",
+        "pub_date": "2026.06.22",
+        "reason": "성수기 플랫폼 경쟁",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 12.0,
+        "datalab_velocity": -1.1,
+        "queries": [
+          "멤버십 혜택",
+          "여름휴가 마케팅"
         ]
       }
     ],
     "benchmark": [
       {
-        "title": "오아시스마켓, '20% 적립' 멤버십 출시…&quot;실질 구독료 0원&quot;",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "최근 이커머스 업계에서는 차별화된 혜택을 내세운 멤버십 서비스가 고객 유치의 핵심 수단으로 활용되고 있다. 고물가 기조 속 소비자들이 확실한 혜택을 제공하는 플랫폼에 집중하는 경향이 나타나고 있어서다. 기존... ",
-        "link": "http://www.inews24.com/view/1977332",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 고적립 멤버십, 적립률 벤치마킹 대상",
+        "title": "&quot;전상품군 400여 브랜드 최대 40% 할인&quot;…롯데백화점, '여름 정기 세일'...",
+        "topic": "",
+        "insight": "",
+        "desc": "&quot;전 상품군에서 총 400여 개 브랜드가 참여해 최대 40% 할인 혜택까지. 롯데백화점이 '2026 여름 정기 세일'을... 하계시즌 기후 변동 트래픽 및 소비자의 쇼핑 이용행동 분석기술과 전사적인 온오프라인 유통 창구를... ",
+        "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=263712",
+        "pub_date": "2026.06.24",
+        "reason": "시즌 할인 전략 벤치마킹",
         "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 80.0,
+        "cross_query_count": 3,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "소비자 할인",
+          "상반기 세일",
+          "여름축제 개최"
         ]
       },
       {
-        "title": "오아시스마켓, 온라인 구독 멤버십 출시…장보기 20% 적립",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "월 구독료 2천원에 일반 장보기 20%·뷰티 30% 포인트 적립 혜택 새벽배송 전문기업 오아시스마켓은 장보기 비용의 20%를 포인트로 적립해주는 온라인 구독 멤버십 서비스 '클럽 오아시스'를 출시한다고 17일 밝혔다. 일반... ",
-        "link": "https://www.yna.co.kr/view/AKR20260617033600030?input=1195m",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 구독 멤버십, 적립률 벤치마킹 대상",
+        "title": "휴가철 앞둔 호텔업계 회원 유치 경쟁… 파라다이스, 혜택 늘려",
+        "topic": "",
+        "insight": "",
+        "desc": "파라다이스 호텔앤리조트는 오는 28일까지 멤버십 회원을 대상으로 '2026 파라다이스 멤버스데이' 프로모션을... 파라다이스시티는 객실 상품 이용 고객에게 원더박스와 씨메르, 수영장, 사우나 이용 혜택을 제공한다. 객실... ",
+        "link": "https://view.asiae.co.kr/article/2026062208111084897",
+        "pub_date": "2026.06.22",
+        "reason": "휴가철 로열티 전략",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 80.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 12.0,
+        "datalab_velocity": -1.1,
         "queries": [
           "멤버십 혜택",
-          "구독 서비스"
+          "여름휴가 마케팅"
         ]
       },
       {
-        "title": "오아시스마켓, '20% 적립' 장보기 구독 멤버십 선봬",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "G마켓은 '꼭 멤버십'을 운영하고 있다.오아시스마켓 관계자는 &quot;장바구니 부담이 가중되는 고물가 시대에, 고객들이 실제로 체감할 수 있는 혜택 제공 방안들을 항상 고민하고 있다&quot;며 &quot;업계 최저 수준을 지향하는 상품... ",
-        "link": "https://news.mtn.co.kr/news-detail/2026061716133032142",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 고적립 멤버십, 적립률 벤치마킹 대상",
+        "title": "유통업계, 여름 맞이 마케팅...치킨 대전부터 해태제과 '얼먹' 과자, 릴...",
+        "topic": "",
+        "insight": "",
+        "desc": "급변하는 소비 트렌드와 MZ세대의 취향을 저격하기 위해 각 기업은 브랜드 세계관 체험부터 맞춤형 패키지, 주차별 릴레이 할인까지 다채로운 전략으로 소비자의 이목을 집중시키고 있다. ◇ CJ제일제당·BBQ, 대형... ",
+        "link": "http://www.dailypop.kr/news/articleView.html?idxno=99997",
+        "pub_date": "2026.06.24",
+        "reason": "시즌 이벤트 활용 유통가 마케팅 전략",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 80.0,
+        "datalab_score": 10.9,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "소비자 할인",
+          "앱 마케팅"
         ]
       },
       {
-        "title": "오아시스마켓, 월 2000원 멤버십 출시…“장보기 20% 적립”",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "오아시스마켓이 온라인 장보기 구독 멤버십을 선보이며 고객 락인 경쟁에 뛰어든다. 낮은 구독료와 높은... ‘클럽 오아시스’에 처음 가입하는 고객에게는 첫 6개월 동안 구독료 전액이 무료 혜택으로 적용된다. 이와... ",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02870006645482704",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 구독 멤버십, 적립률 벤치마킹 대상",
+        "title": "진천군, 공공배달앱 '먹깨비'로 주문하면 4000원 할인",
+        "topic": "",
+        "insight": "",
+        "desc": "충북형 공공배달앱 '먹깨비'는 민간 배달앱 중심의 시장 구조를 개선하고 지역 소상공인을 보호하기 위해 도입한 상생 플랫폼이다. 생거진천페이 결제가 가능해 소비자에게는 추가 혜택을, 소상공인에게는 지역 자금의... ",
+        "link": "https://www.news1.kr/local/sejong-chungbuk/6204125",
+        "pub_date": "2026.06.22",
+        "reason": "지자체 배달앱 할인 혜택 사례 참고",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 80.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "배달 시장",
+          "소비자 할인"
         ]
       },
       {
-        "title": "&quot;장볼 때마다 20% 돌려준다&quot; 오아시스마켓, 구독 멤버십 출시",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "프로모션 종료 후에도 혜택은 이어진다. 가입 7개월 이후부터는 매월 결제되는 구독료 2000원을 전액 포인트로 돌려준다. 6개월 이내 멤버십을 해지하더라도 별도 위약금은 발생하지 않는다. 오아시스마켓은 고물가... ",
-        "link": "https://www.newsis.com/view/NISX20260617_0003672097",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 고적립 멤버십, 적립률 벤치마킹 대상",
+        "title": "2만5000원 배달 주문하면 7000원 아낀다…서울 배달상품권 7월 발행",
+        "topic": "",
+        "insight": "",
+        "desc": "온누리상품권 결제도 가능해 전통시장과 골목상권 소비 활성화와도 연계된다. 서울시는 배달상품권과 페이백, 쿠폰을 결합해 소비자 혜택을 키우는 동시에 공공배달앱 이용 기반을 넓힌다는 계획이다. 이해선 서울시... ",
+        "link": "https://www.thepowernews.co.kr/view.php?ud=202606231452071667de3f0aa1be_7",
+        "pub_date": "2026.06.23",
+        "reason": "배달 할인상품권 혜택 구조 벤치마킹",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 80.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "배달 시장",
+          "소비자 할인"
         ]
       },
       {
-        "title": "&quot;실질 구독료 0원&quot;…오아시스마켓, 장보기 구독 멤버십 '클럽 오아시스...",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "대형 플랫폼이 장악한 멤버십 시장의 틈새를 압도적인 페이백으로 정면 돌파하려는 실속형 리테일 포석이다. 오아시스마켓 관계자는 &quot;장바구니 부담이 가중되는 고물가 시대에, 고객들이 실제로 체감할 수 있는 혜택... ",
-        "link": "https://www.news1.kr/industry/distribution/6199631",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 구독 멤버십, 적립률 벤치마킹 대상",
+        "title": "롯데홈쇼핑, 여름 먹거리 할인전 진행...소비자 관심 증가",
+        "topic": "",
+        "insight": "",
+        "desc": "역시 TV홈쇼핑과 온라인몰을 통해 냉감 침구, 계절가전, 보양식 등 여름 시즌 상품 판매를 확대하고 다양한 할인·적립 혜택을 제공하면서 소비자 관심이 높아진 것으로 보인다&quot;고 말했다. 최용선 빅데이터뉴스 기자",
+        "link": "http://www.thebigdata.co.kr/view.php?ud=202606230854392815a79b9f00ab_23",
+        "pub_date": "2026.06.23",
+        "reason": "여름 시즌 할인 캠페인 전략 참고",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 80.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "소비자 할인",
+          "냉방가전 프로모션"
         ]
       },
       {
-        "title": "오아시스마켓, 업계 최초 ‘20% 적립’ 구독형 멤버십 론칭",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "최근 유통업계는 유료 멤버십을 통해 할인과 적립, 무료배송 등 차별화 혜택을 제공하며 고객 락인 효과를 강화하고 있다. 오아시스마켓은 상대적으로 낮은 구독료와 높은 적립 혜택을 앞세워 소비자들의 장보기 부담을... ",
-        "link": "https://www.etoday.co.kr/news/view/2594370",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 업계 최초 20% 적립, 벤치마크 필수",
+        "title": "롯데百, 폭염 예고에 여름 특수 선점…2026 여름 정기 세일",
+        "topic": "",
+        "insight": "",
+        "desc": "예년보다 이른 폭염 특보가 이어지면서 여름 상품 소비가 급증하고 있는 추세를 반영해, 하절기 베스트셀러 상품을 상반기 최대 할인율과 함께 선보일 예정이다. 여기에 세일 기간 구매하는 고객에게는 상품군별로... ",
+        "link": "https://www.news1.kr/industry/distribution/6206034",
+        "pub_date": "2026.06.24",
+        "reason": "여름 정기 세일 시즌 전략 참고",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 80.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "상반기 세일",
+          "여름축제 개최"
         ]
       },
       {
-        "title": "오아시스마켓, 장보기 구독 멤버십 '클럽 오아시스' 출시",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "만약 6개월 이내에 멤버십을 해지하더라도 해지 위약금이 전혀 발생하지 않는다. 이번 프로모션의 웰컴 혜택 및 상시 페이백 서비스는 새벽배송 업계 최고 수준으로 알려져 있다. 오아시스마켓 관계자는 &quot;장바구니... ",
-        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1377195",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 구독 멤버십, 적립률 벤치마킹 대상",
-        "priority": 2,
+        "title": "CJ올리브영, 국내 뷰티 이커머스 앱·웹 모두 1위…실사용자 1300만 돌파",
+        "topic": "",
+        "insight": "",
+        "desc": "CJ올리브영(이하 올리브영)이 국내 뷰티 이커머스 시장에서 모바일 앱과 웹사이트 모두 1위를 차지하며... 옴니채널 전략을 기반으로 고객이 원하는 방식으로 K뷰티 트렌드를 탐색하고 다양한 상품을 비교·구매할 수... ",
+        "link": "http://www.wikileaks-kr.org/news/articleView.html?idxno=188920",
+        "pub_date": "2026.06.23",
+        "reason": "이커머스 플랫폼 성장 사례 장기 모니터링",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 80.0,
+        "datalab_score": 10.9,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "이커머스 전략",
+          "앱 마케팅"
         ]
       },
       {
-        "title": "오아시스마켓, 월 2000원 구독 멤버십 출시…장보기 20% 적립",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "오아시스마켓이 출시하는 구독 멤버십 서비스 '클럽 오아시스'는 고객이 장보기 상품을 구매하면 결제 금액의 20%를 포인트로 적립해준다. 뷰티 상품은 최대 30%까지 포인트 적립 혜택을 제공한다. 월 구독료는... ",
-        "link": "https://www.ajunews.com/view/20260617111859884",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 구독 멤버십, 적립률 벤치마킹 대상",
-        "priority": 2,
+        "title": "카카오 춘식이 만난 파리바게뜨의 굿즈 마케팅",
+        "topic": "",
+        "insight": "",
+        "desc": "굿즈 마케팅에 나선다. 케이크와 디저트 중심의 캐릭터 협업을 넘어 물놀이와 나들이에 활용할 수 있는... 파리바게뜨는 오는 28일까지 자사 애플리케이션(앱)인 파바앱, 해피오더앱 외 카카오톡 예약하기·선물하기 등를... ",
+        "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5033731",
+        "pub_date": "2026.06.24",
+        "reason": "브랜드 협력 굿즈 마케팅 사례 수집",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 80.0,
+        "datalab_score": 10.9,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "앱 마케팅",
+          "여름휴가 마케팅"
         ]
       },
       {
-        "title": "오아시스, 장보기 구독 멤버십 '클럽 오아시스' 구축",
-        "topic": "오아시스마켓 구독 멤버십 출시",
-        "insight": "온라인 마켓의 고수익 구독 멤버십 모델 확산 — T멤버십의 식품·생활용품 카테고리 적립율 경쟁력 강화 필요",
-        "desc": "6개월 이내 멤버십을 해지하더라도 해지 위약금은 없다. 오아시스 측은 &quot;장바구니 부담이 가중되는 고물가 시대에, 고객들이 실제로 체감할 수 있는 혜택 제공 방안들을 항상 고민하고 있다&quot;며, &quot;업계 최저 수준을... ",
-        "link": "https://www.m-i.kr/news/articleView.html?idxno=1382284",
-        "pub_date": "2026.06.17",
-        "reason": "오아시스 구독 멤버십, 적립률 벤치마킹 대상",
-        "priority": 2,
+        "title": "홈플러스, 여름 생활용품 최대 50% 할인…“물가안정 프로젝트로 장바구...",
+        "topic": "",
+        "insight": "",
+        "desc": "홈플러스가 여름 휴가철을 앞두고 대규모 할인 행사를 열며 소비자들의 장바구니 부담 낮추기에 나선다. 홈플러스는 오는 25일부터 다음 달 1일까지 ‘AI 물가안정 프로젝트’를 진행하고 여름철 생활용품과 식품... ",
+        "link": "https://www.viva100.com/article/20260624500855",
+        "pub_date": "2026.06.24",
+        "reason": "유통사 여름 할인 프로모션 사례 수집",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 80.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "소비자 할인",
+          "여름휴가 마케팅"
         ]
       }
     ]

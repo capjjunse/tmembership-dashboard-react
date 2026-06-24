@@ -14,17 +14,18 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: 2.18,
-    news7d: 40,
+    news7d: 45,
     negScore: 945,
     headline: [
       '6.22 전국 2,160개 매장 일제히 오후 3시 조기 영업 종료 실행 · 전 직원 역사 교육 — 27년 만에 전국 동시 시행 (SBS)',
       '6.1~7 결제액 242억 (+12.8%) 3주 만에 반등 · 선불충전금 환불 6.14 종료',
-      '탱크데이 논란 대응 마무리 단계 · 불매 이후 하루 평균 33% 매출 감소 → 6.22 역사 교육으로 여론 회복 시도',
+      '불매 진정세에도 매장 여전히 한산 · 충성 고객 복귀 여부 불투명 · 역사교육 이후 여론 회복 추이 주목 (헤럴드경제 6.23)',
     ],
     impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT Tday 6월 미운영 · 환불 종료 후 이미지 회복 조치 중',
     links: [
       { label: '전국 2,160개 매장 오후 3시 조기 영업 종료 (SBS)', url: 'https://news.sbs.co.kr/news/endPage.do?news_id=N1008622514' },
       { label: '결제액 3주 만에 반등 · 탱크데이 후 회복 조짐 (헤럴드경제)', url: 'https://biz.heraldcorp.com/article/10768337' },
+      { label: '불매 진정세에도 여전히 한산 · 충성고객 돌아올까 (헤럴드경제 6.23)', url: 'https://biz.heraldcorp.com/article/10772459' },
     ],
   },
   {
@@ -35,12 +36,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 7,
+    news7d: 10,
     negScore: 246,
     headline: [
       '가맹점주 323명 차액가맹금 소송 진행 중 · 추가 소송 준비 · 공정위 과징금 23억(4월) 리스크 지속',
-      '할메가커피 3종 가격 인상 발표 (6.4 EBN·KPI뉴스) — 깜깜이 인상·가격 꼼수 보도',
-      '스타벅스 환불 종료 후 반사이익 여부 모니터링 지속',
+      '할메가커피 3종 가격 인상 발표 (6.4 EBN·KPI뉴스) — 대표 메뉴 2,100원→2,300원 인상 포함 (MBC)',
+      '스타벅스 역사교육 후 불매 진정 국면 진입 · 메가커피 반사이익 효과 약화 예상',
     ],
     impact: 'KT 달달혜택 6월 미공개 · 가격 인상 발표·차액가맹금 소송·공정위 리스크 지속',
     links: [
@@ -56,7 +57,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 8,
+    news7d: 6,
     negScore: 100,
     headline: [
       '6.12 월드컵 한국-체코전 광화문 인근 점포 매출 최대 59% 증가 · 컵얼음 233% (인사이트)',
@@ -66,27 +67,6 @@ export const trendSignals = [
     impact: 'LGU+ 투쁠데이 6월 미공개 · 월드컵 특수 수혜 · 신규 부정 이슈 없음',
     links: [
       { label: '월드컵 광화문 인근 매출 최대 59% 증가 (인사이트)', url: 'https://www.insight.co.kr/news/558447' },
-    ],
-  },
-  {
-    brand: '깐부치킨',
-    membership: 'candidate',
-    telcos: [],
-    strength: 'low',
-    sources: ['뉴스'],
-    direction: 'pos',
-    dlSpike: null,
-    news7d: 12,
-    negScore: 0,
-    headline: [
-      '6.7 젠슨 황·최태원 재회동 이후 이슈 진정 국면 · 재고 부족·직영 14곳 영업 중단 정상화 중',
-      '2025년 매출 330억(+14%) · 영업이익 54억(+9.1%) 실적 성장 지속 (뉴스1)',
-      '이슈 극대화 후 안정화 단계 — DataLab 1.53 상승 지속 · 브랜드 인지도 상승 효과 지속',
-    ],
-    impact: '3사 미제휴 · 젠슨 황 재방문 이후 이슈 진정 중 — 제휴 타이밍 검토 시기',
-    links: [
-      { label: '젠슨 황·최태원 깐부회동 재연 (6.7)', url: 'https://www.mt.co.kr/industry/2026/06/07/2026060718525916145' },
-      { label: '깐부치킨 젠슨 효과로 재고 부족·직영 14곳 영업 중단', url: 'https://www.msn.com/ko-kr/news/other/%EA%B9%90%EB%B6%80%EC%B9%98%ED%82%A8-%EC%A0%A0%EC%8A%A8-%ED%9A%A8%EA%B3%BC%EB%A1%9C-%EC%9E%AC%EA%B3%A0-%EB%B6%80%EC%A1%B1%EC%A7%81%EC%98%81-14%EA%B3%B3-%EC%98%81%EC%97%85-%EC%A4%91%EB%8B%A8-ytn-%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4/vi-AA1PPF2Y' },
     ],
   },
   {
