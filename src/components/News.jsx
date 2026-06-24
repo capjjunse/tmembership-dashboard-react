@@ -18,9 +18,9 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">여름방학을 더 가볍고 알차게, 대학생을 위한 SKT 혜택 모아보기</span></span></div>
-            <div className="nsum"><span className="upd">T멤버십이 여름방학 대학생 고객 지원 콘텐츠 발행. 식음료·카페(T 우주 구독 할인), 해외여행(34세 이하 로밍 특가), 자기계발(Class101·어학 플랫폼), 문화(0 week 뮤지컬·전시 할인) 4가지 카테고리로 일상 지출 관리·학습 지원 혜택 강화.</span></div>
-            <div className="nmeta"><span className="upd">2026-06-17</span> · <a href="https://news.sktelecom.com/226659" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">여름방학을 더 가볍고 알차게, 대학생을 위한 SKT 혜택 모아보기</span></div>
+            <div className="nsum">T멤버십이 여름방학 대학생 고객 지원 콘텐츠 발행. 식음료·카페(T 우주 구독 할인), 해외여행(34세 이하 로밍 특가), 자기계발(Class101·어학 플랫폼), 문화(0 week 뮤지컬·전시 할인) 4가지 카테고리로 일상 지출 관리·학습 지원 혜택 강화.</div>
+            <div className="nmeta">2026-06-17 · <a href="https://news.sktelecom.com/226659" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT T멤버십, 대학생 목소리 담은 맞춤 혜택 선보인다 — 6월 시험기간 0 week 운영, 메가MGC·바나프레소·투썸플레이스 할인</span></div>
@@ -51,11 +51,6 @@ export default function News() {
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">5월 T멤버십 혜택 총정리 — 루덴시아·더벤티 신규, 가정의달 테마파크 특별전, VIP Pick 혜택</span></div>
             <div className="nsum">5월 신규 제휴사로 루덴시아·더벤티 추가. 투루카 65% 할인, 고향사랑기부제 이벤트 포함. 가정의달 맞아 가족 혜택 강화.</div>
             <div className="nmeta">2026-05-01 · <a href="https://news.sktelecom.com/224466" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT T멤버십 새단장 — 0 week 확대·VIP 찬스·VIP only 신설</span></div>
-            <div className="nsum">0 day를 0 week로 확대해 5일간 이용 가능. T day에 VIP 전용 찬스·only 신설. 갤럭시 S26 개통 고객 맞춤 클럽 갤럭시 S26 운영.</div>
-            <div className="nmeta">2026-04-01 · <a href="https://news.sktelecom.com/223425" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
         </div>
       )}

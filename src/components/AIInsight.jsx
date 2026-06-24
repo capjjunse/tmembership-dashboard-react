@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.06.17';
+const RADAR_SCANNED = '2026.06.23';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -152,7 +152,7 @@ const alCats = [
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: 'Week혜택(6.1~6.5): 매드포갈릭 30%(VIP 50%)·이디야커피 빙수 50%·크리스탈제이드 40%·백미당 1+1·사보텐 30% 등 / 0 week(6.8~6.12): 메가MGC커피 50%·투썸플레이스 40%·바나프레소 50% / T day 2주차(6.17): 쉐이크쉑 VIP 40%/G·S 20%·폴바셋 시그니처 커피 4종 50%·도미노피자 50%' }] },
+      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: <>Week혜택(6.1~6.5): 매드포갈릭 30%(VIP 50%)·이디야커피 빙수 50%·크리스탈제이드 40%·백미당 1+1·사보텐 30% 등 / 0 week(6.8~6.12): 메가MGC커피 50%·투썸플레이스 40%·바나프레소 50% / T day 2주차(6.17): 쉐이크쉑 VIP 40%/G·S 20%·폴바셋 시그니처 커피 4종 50%·도미노피자 50% / <span className="upd">T day 3주차(6.24): 뚜레쥬르 300원/P·다운타우너 버거세트 35%·역전우동 냉모밀 3,500원</span></> }] },
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
@@ -251,11 +251,11 @@ const alCats = [
         { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
-      { partner: 'CGV', deadline: '6.1~6.5 (Week혜택)', rows: [
+      { partner: 'CGV', deadline: <>6.1~6.5 · Week혜택 / <span className="upd">6.24~6.28 · T day 3주차</span></>, rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점쿠폰 (더블콤보 3천원·팝콘M 1천원)' },
       ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 상시 4천원 + 6.1~6.5 Week혜택 8,500원+매점쿠폰 · VIP 무료연3회/1+1연9회'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <>T멤버십: CGV 상시 4천원 + <span className="upd">6.1~6.5·6.24~6.28 8,500원+매점쿠폰 (2회)</span> · VIP 무료연3회/1+1연9회</>],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -286,33 +286,31 @@ const alVdLabel = { warn: 'T멤버십 열위', good: 'T멤버십 우위', neut: 
 const recs = [
   {
     rank: 1,
-    brand: '설빙',
-    tag: '매장 596개 · DataLab 📈1.51',
-    reason: '여름 신메뉴 확산 · DataLab 1.51 급상승. 아이스디저트 카테고리 Tday 3개월 공백 — 6월 여름 성수기 선점 최적 타이밍.',
+    brand: '깐부치킨',
+    tag: '매장 168개 · DataLab 📈1.53',
+    reason: '6.7 젠슨 황·최태원 재회동 이후 DataLab 1.53 상승 지속. 이슈 안정화 후 계약 협상 최적기 — SKT 미참여 상태에서 인지도 극대화 완료.',
     reach: [
-      { label: '매장 규모', text: '전국 596개 · 아이스디저트 카테고리 1위' },
-      { label: '검색 버즈', text: 'DataLab 1.51 지속 상승 · 수박화채·메론빙수 SNS 확산 · 블로그 74만 · 뉴스 72건' },
-      { label: '제휴 포인트', text: 'Tday 재계약으로 여름 시즌 전체 커버 가능 (3개월 공백 해소 시 효과 큼)' },
+      { label: '매장 규모', text: '전국 168개 · 치킨 카테고리 빠른 성장 중인 브랜드' },
+      { label: '검색 버즈', text: 'DataLab 📈1.53 상승 지속 · 블로그 6만 · 카페 1만 · 뉴스 100건 — 젠슨 황 효과 피크 후 안정화' },
+      { label: '제휴 포인트', text: 'SKT 미참여 — 이슈 안정화 시점이 오히려 계약 협상 최적기' },
     ],
-    trend: 'DataLab 1.51 · 블로그 74만 · 카페 26만 · 뉴스 72건',
+    trend: 'DataLab 1.53 · 블로그 6만 · 카페 1만 · 뉴스 100건',
     hot: true,
-    skt: [
-      { prog: 'Tday', active: false, last: '2026.03', gap: '3개월 공백' },
-    ],
+    skt: [],
     kt:  null,
     lgu: null,
   },
   {
     rank: 2,
     brand: '청년다방',
-    tag: '매장 269개 · DataLab 📈1.58',
-    reason: 'DataLab 1.58 급상승으로 분식 카테고리 검색 버즈 1위 유지. 저단가 고빈도 구조로 월간 혜택 건수 채우기 가장 유리한 브랜드. SKT 미참여 — 선점 기회.',
+    tag: '매장 269개 · DataLab 📈1.24',
+    reason: 'DataLab 1.24 상승세 유지로 분식 카테고리 검색 버즈 상위권. 저단가 고빈도 구조로 월간 혜택 건수 채우기 가장 유리한 브랜드. SKT 미참여 — 선점 기회.',
     reach: [
       { label: '매장 규모', text: '전국 269개 · 분식 카테고리 빠른 확장 중인 성장형 브랜드' },
-      { label: '검색 버즈', text: 'DataLab 1.58 (전월比 급상승) · 블로그 22만 · 카페 9만 · 뉴스 95건' },
+      { label: '검색 버즈', text: 'DataLab 📈1.24 상승세 · 블로그 22만 · 카페 9만 · 뉴스 100건' },
       { label: '제휴 포인트', text: '저단가(5천~1만원대) 고빈도 방문 구조 → 월간 혜택 건수 누적에 유리' },
     ],
-    trend: 'DataLab 1.58 · 블로그 22만 · 카페 9만 · 뉴스 95건',
+    trend: 'DataLab 1.24 · 블로그 22만 · 카페 9만 · 뉴스 100건',
     hot: true,
     skt: [],
     kt:  null,
@@ -320,17 +318,19 @@ const recs = [
   },
   {
     rank: 3,
-    brand: '깐부치킨',
-    tag: '매장 167개 · DataLab 📈1.36',
-    reason: '6.7 젠슨 황·최태원 재회동 이후 이슈 진정 국면. 재고 부족·직영 중단까지 인지도 극대화 완료 — 이슈 안정화 후 제휴 계약 진입 적기. SKT 미참여.',
+    brand: '설빙',
+    tag: '매장 598개 · DataLab ↗1.15',
+    reason: '여름 성수기 돌입 · 아이스디저트 카테고리 1위. Tday 3개월 공백 해소 시 여름 시즌 전체 커버 가능.',
     reach: [
-      { label: '매장 규모', text: '전국 167개 · 치킨 카테고리 성장 브랜드' },
-      { label: '검색 버즈', text: '젠슨 황 효과로 DataLab 1.36·뉴스 100건 이상 피크 달성 후 이슈 진정 중' },
-      { label: '제휴 포인트', text: 'SKT 미참여 — 이슈 안정화 시점이 오히려 계약 협상 최적기' },
+      { label: '매장 규모', text: '전국 598개 · 아이스디저트 카테고리 1위' },
+      { label: '검색 버즈', text: 'DataLab ↗1.15 상승세 · 블로그 74만 · 카페 26만 · 뉴스 88건' },
+      { label: '제휴 포인트', text: 'Tday 재계약으로 여름 시즌 전체 커버 가능 (3개월 공백 해소 시 효과 큼)' },
     ],
-    trend: 'DataLab 1.36 · 블로그 6만 · 카페 1만 · 뉴스 100건',
+    trend: 'DataLab 1.15 · 블로그 74만 · 카페 26만 · 뉴스 88건',
     hot: false,
-    skt: [],
+    skt: [
+      { prog: 'Tday', active: false, last: '2026.03', gap: '3개월 공백' },
+    ],
     kt:  null,
     lgu: null,
   },
