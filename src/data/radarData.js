@@ -14,12 +14,12 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: 2.18,
-    news7d: 45,
+    news7d: 30,
     negScore: 945,
     headline: [
       '6.22 전국 2,160개점 오후 3시 조기 영업 종료 · 전 직원 역사 교육',
       '결제액 3주 만에 반등 (+12.8%) · 선불충전금 환불 6.14 종료',
-      '불매 진정세 · 역사교육 후 여론 회복 추이 주목',
+      '한 달째 진정세 지속 · 여전히 한산한 매장 · 충성고객 복귀 여부 주목 (6.23)',
     ],
     impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT Tday 6월 미운영 · 환불 종료 후 이미지 회복 조치 중',
     links: [
@@ -31,17 +31,17 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'partner',
-    telcos: [{ id: 'kt', label: 'KT', prog: '달달혜택 (6월 미공개)', benefit: '커피 쿠폰 증정' }],
+    telcos: [],
     strength: 'low',
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 10,
+    news7d: 12,
     negScore: 246,
     headline: [
       '점주 323명 차액가맹금 소송 · 공정위 과징금 23억 리스크',
       '할메가커피 3종 가격 인상 · 대표 메뉴 2,100→2,300원',
-      '스타벅스 불매 진정 → 반사이익 효과 약화 예상',
+      '스타벅스 결제 12.8% 반등 확인 · 메가커피 반사이익 효과 소멸 진행',
     ],
     impact: 'KT 달달혜택 6월 미공개 · 가격 인상 발표·차액가맹금 소송·공정위 리스크 지속',
     links: [
@@ -52,7 +52,7 @@ export const trendSignals = [
   {
     brand: '이마트24',
     membership: 'partner',
-    telcos: [{ id: 'lgu', label: 'LGU+', prog: '투쁠데이 (6월 미공개)', benefit: '할인·증정 쿠폰' }],
+    telcos: [],
     strength: 'low',
     sources: ['뉴스'],
     direction: 'neu',
@@ -117,6 +117,27 @@ export const trendSignals = [
       { label: '메가박스중앙 6.14 기업회생 신청 (미디어오늘)', url: 'https://www.mediatoday.co.kr/news/articleView.html?idxno=335178' },
       { label: '롯데시네마 합병 기존안 무산 수순 (뉴데일리 6.15)', url: 'https://biz.newdaily.co.kr/site/data/html/2026/06/15/2026061500096.html' },
       { label: '콘텐트리중앙 주권거래 정지 · 메가박스 동반 회생신청 (머니투데이 6.15)', url: 'https://www.mt.co.kr/stock/2026/06/15/2026061508302623507' },
+    ],
+  },
+  {
+    brand: '깐부치킨',
+    membership: 'candidate',
+    telcos: [],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'pos',
+    dlSpike: null,
+    news7d: 75,
+    negScore: 0,
+    headline: [
+      '6.7 젠슨 황·최태원, 깐부치킨 삼성점 재방문 — 테이블 코팅 작업 진행',
+      '주요 언론 동시 보도 · 6월 치킨 브랜드평판 8위 상위권 진입',
+      '버즈 2차 상승 구간 · 글로벌 주목 브랜드 이미지 강화',
+    ],
+    impact: 'SKT·KT·LGU+ 3사 미제휴 · 글로벌 버즈 2차 피크로 제휴 협상 최적 시점',
+    links: [
+      { label: '젠슨 황·최태원 깐부치킨 재방문 (이데일리 6.7)', url: 'https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01541606645479424' },
+      { label: '"물 들어올 때 노 젓는다" 테이블 코팅 작업 (네이트뉴스 6.9)', url: 'https://news.nate.com/view/20260609n13229' },
     ],
   },
 ];

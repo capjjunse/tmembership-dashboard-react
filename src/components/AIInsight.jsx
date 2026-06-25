@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.06.24';
+const RADAR_SCANNED = '2026.06.25';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -288,13 +288,13 @@ const recs = [
     rank: 1,
     brand: '깐부치킨',
     tag: '매장 168개 · DataLab 📈1.53',
-    reason: '6.7 젠슨 황·최태원 재회동 이후 17일 경과 · 이슈 안정화 완료. 버즈 피크 구간이 지나기 전 SKT 제휴 협상 진입 최적기.',
+    reason: <span className="upd">6.7 젠슨 황·최태원 재회동으로 버즈 2차 급등 중. 글로벌 주목도 상승한 이 시점이 SKT 제휴 협상 진입 최적기.</span>,
     reach: [
       { label: '매장 규모', text: '전국 168개 · 치킨 카테고리 빠른 성장 중인 브랜드' },
-      { label: '검색 버즈', text: 'DataLab 📈1.53 상승 후 안정화 국면 · 블로그 6만 · 카페 1만 · 뉴스 100건 — 6.7 재회동 이슈 진정 중' },
-      { label: '제휴 포인트', text: 'SKT 미참여 — 이슈 안정화 시점이 오히려 계약 협상 최적기' },
+      { label: '검색 버즈', text: <span className="upd">DataLab 📈1.53 상승 · 6.7 재방문 이슈로 2차 버즈 급등 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+</span> },
+      { label: '제휴 포인트', text: <span className="upd">SKT 미참여 — 버즈 2차 피크 구간에서 계약 체결 시 최대 홍보 효과 기대</span> },
     ],
-    trend: 'DataLab 1.53 · 블로그 6만 · 카페 1만 · 뉴스 100건',
+    trend: 'DataLab 1.53 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+',
     hot: true,
     skt: [],
     kt:  null,
@@ -586,7 +586,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.06.24</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.06.25</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
