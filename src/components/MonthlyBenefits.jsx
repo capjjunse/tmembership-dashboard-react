@@ -67,12 +67,13 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
           </div>
-          <div className="mpnt">
-            <div className="mpnt-hd">📌 이달 포인트</div>
+          <div className="mpnt ms">
+            <div className="mpnt-lbl">이달 포인트</div>
+            <div className="mpnt-concept">럭키위크 테마 — 추첨 이벤트로 참여형 T day 연출</div>
             <ul className="mpnt-list">
-              <li>럭키위크 T day 테마 — Week 혜택(6.1~6.5) 식음·리빙·뷰티·라이프 다양</li>
-              <li>2주차(6.17) 외식 4종 — 쉐이크쉑(VIP 40%)·폴바셋·도미노피자·이마트에브리데이</li>
-              <li>3주차(6.24) 식음 4종 — 뚜레쥬르·다운타우너·역전우동·CGV (6.24 시작)</li>
+              <li>Week혜택(6.1~5) 13종 · 식음·리빙·뷰티 집중</li>
+              <li>2주차 쉐이크쉑 VIP 40% · 등급 체감 차별화</li>
+              <li>럭키찬스 공연권 추첨(100~250명) · 참여형 이벤트</li>
             </ul>
           </div>
         </div>
@@ -104,11 +105,13 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
           </div>
-          <div className="mpnt">
-            <div className="mpnt-hd">📌 이달 포인트</div>
+          <div className="mpnt mk">
+            <div className="mpnt-lbl">이달 포인트</div>
+            <div className="mpnt-concept">달달 평달 수준 · 고객보답으로 체감 플러스</div>
             <ul className="mpnt-list">
-              <li>달달초이스 (통합 1회): 외식·배달·영화·패스트푸드 6개 중 선택 — 버거킹·배민×노모어피자·공차·더벤티·롯데시네마·VIPS</li>
-              <li>달달스페셜 (제휴사별 1회): 주유·뷰티·식품·여행·게임 5개 모두 이용 가능 — GS칼텍스·아모레몰·그리팅·KKday·원스토어</li>
+              <li>달달초이스 VIPS 채끝 포함 · 외식 선택지 소폭 상향</li>
+              <li>달달스페셜 주유·여행·게임 등 5종 · 각 1회 이용</li>
+              <li>고객보답 3차 던킨·GS25 50% · 임시 운영 (6.16~30)</li>
             </ul>
           </div>
         </div>
@@ -184,12 +187,13 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
           </div>
-          <div className="mpnt">
-            <div className="mpnt-hd">📌 이달 포인트</div>
+          <div className="mpnt ml">
+            <div className="mpnt-lbl">이달 포인트</div>
+            <div className="mpnt-concept">FIFA 연동 · 컬처 별도 운영 — 6월 구성력 3사 중 최상</div>
             <ul className="mpnt-list">
-              <li>FIFA 월드컵 매치데이 3탄 운영 — 6/12(GS25) · 6/19(피자헛 55%·공차 50%·서울랜드 55%) · 6/25(노브랜드·파바)</li>
-              <li>응원 음식 집중: 배달의민족×처갓집 9천원 할인 (6/17) · CGV 팝콘+음료 무료 (6/18)</li>
-              <li>컬처 특화 (6/15): LG아트센터·페인터즈·NOL티켓 30~50% 할인 패키지</li>
+              <li>투쁠데이 4차+장기고객데이 · 월 5회 기회 3사 최다</li>
+              <li>FIFA 매치데이(6/12·19·25) · 피자헛·공차·서울랜드 테마</li>
+              <li>컬처(6/15) LG아트센터·NOL티켓·페인터즈 30~50%</li>
             </ul>
           </div>
         </div>
