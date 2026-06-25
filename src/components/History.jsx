@@ -20,7 +20,7 @@ export default function History() {
             <td>2026.06.15</td>
             <td><span className="cb bk">KT</span></td>
             <td>달달혜택</td>
-            <td>고객보답 3차 (6.16~30): VIPS 채끝스테이크 무료 등 8종</td>
+            <td>고객보답 3차 (6.16~30): 던킨 전 품목 50% 또는 GS25 컵라면·모찌 디저트 50% 할인</td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
