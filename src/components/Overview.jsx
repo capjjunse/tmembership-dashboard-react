@@ -131,7 +131,7 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#rg" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>CGV 동반할인 3인 → 4인으로 확대</div>
-            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>생일 꾸까·스벅케이크 택1</div>
+            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>생일 <span className="upd">꾸까·스벅케이크·롯시 택1</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달초이스 6종 + 달달스페셜 5종</div>
