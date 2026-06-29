@@ -27,108 +27,25 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [], // 6월 SKT T day·0 week ↔ KT 달달혜택 겹치는 브랜드 없음
+    rows: [], // 7월 KT 달달혜택 미공개
   },
   {
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
     desc: 'KT 미참여 · SKT 월간 혜택 × LGU+ 투쁠데이',
-    rows: [
-      {
-        brand: '파리바게뜨',
-        skt: { lines: [{ grade: '전 등급', b: '1,000원당 200원 할인/적립 (최대 6천원)' }], date: '6.1~6.5 · Week 혜택' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '최대 6천원 할인 (2만원 이상 구매 시)' }], date: '6.9·11·12 · 투쁠데이 1차 / 6.25 · 장기고객데이' },
-        v: 'neut',
-        basis: '비교 불가',
-        note: 'SKT 적립형 vs LGU+ 정액 할인 — 정률/정액 단위 상이로 직접 비교 불가',
-      },
-      {
-        brand: '스피드메이트',
-        skt: { lines: [{ grade: '전 등급', b: '국산차 엔진오일 50% + 와이퍼 무료 (최대 35,000원)' }], date: '6.1~6.5 · Week 혜택 (쿠폰 ~6.30)' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '국산·수입차 엔진오일 할인 + 정비 4종' }], date: '6.9·11·12 · 투쁠데이 1차' },
-        v: 'neut',
-        basis: 'SKT 50% 명시·국산 전용 vs LGU+ 수입차 포함·정비 4종·% 미기재',
-        note: '차종 범위·혜택 구성 달라 직접 비교 어려움',
-      },
-      {
-        brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점쿠폰 2종 (더블콤보 3천·팝콘M 1천)' }], date: '6.1~6.5 · Week 혜택 / 6.24~6.28 · T day 3주차' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '6.17·18·19 · 투쁠데이 3차' },
-        v: 'good',
-        basis: 'SKT 예매 할인+스낵쿠폰 vs LGU+ 스낵세트만',
-        note: 'SKT Week·3주차 2회 vs LGU+ 1회',
-      },
-      {
-        brand: '배스킨라빈스',
-        skt: { lines: [{ grade: '전 등급', b: '블록팩 1+1' }], date: '6.8~6.12 · 0 week' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '패밀리 사이즈 최대 9천원 할인' }], date: '6.15·16 · 투쁠데이 2차' },
-        v: 'neut',
-        basis: '상품 티어 상이 — SKT 블록팩 1+1 vs LGU+ 패밀리 9천원',
-        note: 'SKT 6.8~12 · LGU+ 6.15·16',
-      },
-      {
-        brand: '투썸플레이스',
-        skt: { lines: [{ grade: '전 등급', b: '제조음료 40% + 조각케이크 40%' }], date: '6.8~6.12 · 0 week' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노 무료' }], date: '6.17·18·19 · 투쁠데이 3차' },
-        v: 'neut',
-        basis: 'SKT 음료·케이크 40% vs LGU+ 케이크 구매 시 무료 증정',
-        note: '혜택 구성 달라 직접 비교 어려움 · SKT 6.8~12 · LGU+ 6.17~19',
-      },
-      {
-        brand: 'NOL티켓',
-        skt: { lines: [{ grade: '전 등급', b: '빌리 엘리어트 35% · 키크니 특별전 40% (~6.30)' }], date: '6.8~6.12 · 0 week' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: 'NOL티켓 30~50% / 빌리 엘리어트 40%' }], date: '6.15·16 · 투쁠데이 2차(컬처) / 6.25 · 장기고객데이' },
-        v: 'neut',
-        basis: 'LGU+ 빌리 40% > SKT 35% · SKT 키크니 추가 커버',
-        note: 'LGU+ 빌리엘리어트 5%p 우위 / SKT 추가 공연 포함',
-      },
-    ],
+    rows: [], // 7월 LGU+ 유플투쁠 미공개
   },
   {
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT 달달혜택 × LGU+ 투쁠데이',
-    rows: [
-      {
-        brand: '공차',
-        skt: null,
-        kt: { lines: [{ grade: '전 등급', b: '인기 음료 6종 50% 할인 (최대 5천원)' }], date: '6.15~6.30 · 달달초이스' },
-        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 구매 시, 최대 5천원)' }], date: '6.17·18·19 · 투쁠데이 3차' },
-        v: 'miss',
-        basis: 'SKT 미운영 · KT·LGU+ 모두 최대 50%',
-        note: 'KT 음료 6종 지정 vs LGU+ 1만원 이상 조건',
-      },
-      {
-        brand: '아모레몰',
-        skt: null,
-        kt: { lines: [{ grade: '전 등급', b: '5천원 할인 (3만원 이상 구매 시)' }], date: '6.15~6.30 · 달달스페셜' },
-        lgu: { lines: [{ grade: '선착순', b: '멤버십플러스 1개월 + 2,000p' }], date: '6.9·11·12 · 투쁠데이 1차' },
-        v: 'miss',
-        basis: 'SKT 미운영 · 혜택 성격 상이',
-        note: 'KT 즉시할인 vs LGU+ 구독권+포인트 · LGU+ 먼저(6.9)',
-      },
-      {
-        brand: '그리팅',
-        skt: null,
-        kt: { lines: [{ grade: '전 등급', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: '6.15~6.30 · 달달스페셜' },
-        lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: '6.15·16 · 투쁠데이 2차' },
-        v: 'miss',
-        basis: 'SKT 미운영 · KT·LGU+ 동일 조건·금액',
-        note: 'LGU+ 6.15·16 2일 · KT 6.15~6.30 15일간',
-      },
-    ],
+    rows: [], // 7월 KT·LGU+ 모두 미공개
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // 6월 3사 공통 브랜드 없음
+    rows: [], // 7월 KT·LGU+ 미공개로 비교 불가
   },
 ];
 
@@ -399,7 +316,7 @@ export default function AIInsight() {
     <div className="sec" id="ai">
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
-        <span className="ss">2026년 6월 기준</span>
+        <span className="ss"><span className="upd">2026년 7월 기준</span></span>
         
       </div>
 
@@ -448,7 +365,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 6월 · KT 달달혜택 반영 완료)</div>
+          <div className="comp-footer"><span className="upd">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · KT 달달혜택·LGU+ 유플투쁠 미공개 — 공개 후 업데이트 예정)</span></div>
         </div>
       </div>
 

@@ -116,30 +116,29 @@ export default function Overview() {
             <div className="ovg2-item">상시혜택 이번달 신규 없음</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>T day 럭키위크 테마 (6월)</div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>3주차 뚜레쥬르·다운타우너·역전우동</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">T day 1주차(7.1) 아웃백·더벤티·피자헛</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">0 week(7.6~) 뚜레쥬르·투썸·GS25 등 7종</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-new">신규</em>후지필름 — 사진인화 20~40% 할인</div>
-            <div className="ovg2-item"><em className="tg tg-end">종료</em>농협맛선 6.30 제휴 종료</div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">원마운트 워터파크 6.25 제휴 종료</span></div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em>농협맛선·도그메이트 6.30 종료 예정</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>T day 52% 우세 — 전반 호의적</div>
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>VIP PICK 중립 반응 공존</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">전반 긍정 48% · 부정 32% 우위</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">VIP PICK T우주패스 너프 불만 (6.24)</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#rg" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>CGV 동반할인 3인 → 4인으로 확대</div>
-            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>생일 <span className="upd">꾸까·스벅케이크·롯시 택1</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>생일 꾸까·스벅케이크·롯시 택1</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달초이스 6종 + 달달스페셜 5종</div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>고객보답 3차 — 던킨·GS25 50% (6.16~30)</div>
+            <div className="ovg2-item"><em className="tg tg-on">미발표</em><span className="upd">7월 달달혜택 미발표 — 15일경 공개 예정</span></div>
           </a>
           <a href="#hs" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-new">신규</em>고객보답 3차 — 던킨·GS25 할인 (6.16~30)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>CGV 동반 4인 — 6.24 적용</div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em>고객보답 3차 — 던킨·GS25 (6.16~30)</div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">라그릴리아 제휴 — 등급별 5~10% (6.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>올리브영 쿠폰 만료 항의</div>
@@ -152,8 +151,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">상시종료</em>굿웨어몰 10% 할인 6.30 종료</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>투쁠데이 3·4차</div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>장기고객데이 6.25 파리바게뜨·윌라</div>
+            <div className="ovg2-item"><em className="tg tg-on">미발표</em><span className="upd">7월 투쁠데이·스페셜데이 미공개 — 공개 예정</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>우리동네 멤버십 3지점 철수</div>
@@ -161,22 +159,22 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>유플투쁠 67% 긍정 우세</div>
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>FIFA 이벤트 종료 아쉬움 표현</div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">노브랜드 수량 소진 빠른 마감 아쉬움</span></div>
           </a>
         </div>
 
         <div className="ovkey">
           <div className="ovkey-lbl">🤖 AI가 픽한 이달의 핵심</div>
           <div className="ovki-grid">
-            <a href="#ai-matrix" className="ovki ovki-mix">
+            <a href="#ai-nontelecom" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스 <span className="ovki-skt ovki-skt-mix">우위·동급</span></div>
-              <div className="ovki-title">제휴 비교 우위·동급 우세 — 명확 열위 없음</div>
+              <div className="ovki-title"><span className="upd">KT·LGU+ 7월 미공개 · 비통신 T멤버십 우위</span></div>
               <ul className="ovki-list">
-                <li>CGV·스피드메이트 — SKT 우위 (횟수·할인율 명시)</li>
-                <li>투썸·배스킨·파리바게뜨 — 구성 달라 동급 판정</li>
-                <li>NOL티켓 빌리 -5%p, SKT 키크니 추가 커버로 상쇄</li>
+                <li><span className="upd">경쟁 매트릭스: KT·LGU+ 달달혜택·유플투쁠 미공개 — 비교 보류</span></li>
+                <li><span className="upd">비통신 비교: 카셰어링·외식·테마파크 T멤버십 우위 유지</span></li>
+                <li><span className="upd">주유·배달 비통신 열위 · 편의점·영화관 동급</span></li>
               </ul>
-              <div className="ovki-go">경쟁 매트릭스 보기 →</div>
+              <div className="ovki-go">비통신 비교 보기 →</div>
             </a>
             <IssueRadarCard />
           </div>

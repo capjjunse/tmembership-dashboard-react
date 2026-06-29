@@ -17,6 +17,13 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td><span className="upd">2026.06.25</span></td>
+            <td><span className="cb bs"><span className="upd">SKT</span></span></td>
+            <td><span className="upd">T멤버십 상시</span></td>
+            <td><span className="upd">원마운트 워터파크/스노우파크 할인 제휴 종료 (6.25)</span></td>
+            <td><span className="tb t종료"><span className="upd">종료</span></span></td>
+          </tr>
+          <tr>
             <td>2026.06.15</td>
             <td><span className="cb bk">KT</span></td>
             <td>달달혜택</td>

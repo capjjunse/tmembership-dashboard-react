@@ -58,7 +58,7 @@ export default function VipBenefits() {
           <tr>
             <td>생일</td>
             <td className="na">미제공</td>
-            <td><span className="upd">VVIP: 꾸까·스벅케이크·롯시 택1</span></td>
+            <td>VVIP: 꾸까·스벅케이크·롯시 택1</td>
             <td className="na">미제공</td>
           </tr>
         </tbody>
