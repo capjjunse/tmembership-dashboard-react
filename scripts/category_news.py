@@ -268,9 +268,9 @@ def fetch_broad_news(dl_scores: dict[str, dict]) -> list[dict]:
 
 
 def classify_with_claude(articles: list[dict]) -> list[dict]:
-    """[A] Claude Haiku로 25개씩 배치 분류 + priority 점수"""
+    """[A] Claude Haiku로 50개씩 배치 분류 + priority 점수"""
     results: list[dict] = []
-    batch_size = 25
+    batch_size = 50
 
     for start in range(0, len(articles), batch_size):
         batch = articles[start:start + batch_size]

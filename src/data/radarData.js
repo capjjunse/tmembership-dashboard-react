@@ -14,7 +14,7 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: 2.18,
-    news7d: 30,
+    news7d: 18,
     negScore: 945,
     headline: [
       '6.22 전국 2,160개점 오후 3시 조기 영업 종료 · 전 직원 역사 교육',
@@ -36,7 +36,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 12,
+    news7d: 8,
     negScore: 246,
     headline: [
       '점주 323명 차액가맹금 소송 · 공정위 과징금 23억 리스크',
@@ -47,26 +47,6 @@ export const trendSignals = [
     links: [
       { label: '점주 323명 차액가맹금 소송 · 추가 소송 준비 중', url: 'https://biz.heraldcorp.com/article/10658005' },
       { label: '스타벅스 환불에 메가커피 반사이익 기대', url: 'https://zdnet.co.kr/view/?no=20260528164428' },
-    ],
-  },
-  {
-    brand: '이마트24',
-    membership: 'partner',
-    telcos: [],
-    strength: 'low',
-    sources: ['뉴스'],
-    direction: 'neu',
-    dlSpike: null,
-    news7d: 6,
-    negScore: 100,
-    headline: [
-      '6.12 월드컵 광화문 인근 매출 최대 59% 증가',
-      '6월 OK캐쉬백 출범 · 포인트 5% 적립 이벤트',
-      '경영주 로열티 전환 6.30까지 · 분배율 71% 개선형',
-    ],
-    impact: 'LGU+ 투쁠데이 6월 미공개 · 월드컵 특수 수혜 · 신규 부정 이슈 없음',
-    links: [
-      { label: '월드컵 광화문 인근 매출 최대 59% 증가 (인사이트)', url: 'https://www.insight.co.kr/news/558447' },
     ],
   },
   {
@@ -81,7 +61,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 22,
+    news7d: 18,
     negScore: 380,
     headline: [
       '6.16 청산형 회생계획 인가 · 기존 법인 소멸 → PH코리아 전환',
@@ -105,10 +85,10 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 55,
+    news7d: 35,
     negScore: 850,
     headline: [
-      '6.23 서울회생법원 대표자 심문기일 진행',
+      '합병 MOU 6.30 기한 · 롯데시네마 협의 불투명',
       '6.14 기업회생 신청 · 5년 연속 영업적자',
       '롯데시네마 합병 사실상 무산 · 중앙그룹 유동성 위기',
     ],
@@ -123,11 +103,11 @@ export const trendSignals = [
     brand: '깐부치킨',
     membership: 'candidate',
     telcos: [],
-    strength: 'mid',
+    strength: 'low',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 75,
+    news7d: 20,
     negScore: 0,
     headline: [
       '6.7 젠슨 황·최태원, 깐부치킨 삼성점 재방문 — 테이블 코팅 작업 진행',
