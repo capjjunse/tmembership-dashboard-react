@@ -166,15 +166,14 @@ export default function Overview() {
         <div className="ovkey">
           <div className="ovkey-lbl">🤖 AI가 픽한 이달의 핵심</div>
           <div className="ovki-grid">
-            <a href="#ai-nontelecom" className="ovki ovki-mix">
-              <div className="ovki-cat">📊 3사 경쟁 매트릭스 <span className="ovki-skt ovki-skt-mix">우위·동급</span></div>
-              <div className="ovki-title"><span className="upd">KT·LGU+ 7월 미공개 · 비통신 T멤버십 우위</span></div>
+            <a href="#ai-matrix" className="ovki ovki-mix">
+              <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
+              <div className="ovki-title"><span className="upd">KT·LGU+ 7월 미공개 — 3사 비교 보류</span></div>
               <ul className="ovki-list">
-                <li><span className="upd">경쟁 매트릭스: KT·LGU+ 달달혜택·유플투쁠 미공개 — 비교 보류</span></li>
-                <li><span className="upd">비통신 비교: 카셰어링·외식·테마파크 T멤버십 우위 유지</span></li>
-                <li><span className="upd">주유·배달 비통신 열위 · 편의점·영화관 동급</span></li>
+                <li><span className="upd">SKT T day 1주차·0 week 기준 반영 완료</span></li>
+                <li><span className="upd">KT 달달혜택·LGU+ 유플투쁠 미공개 — 공개 후 업데이트</span></li>
               </ul>
-              <div className="ovki-go">비통신 비교 보기 →</div>
+              <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>
             <IssueRadarCard />
           </div>
