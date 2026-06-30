@@ -1,63 +1,372 @@
 {
-  "generated_at": "2026.06.24 17:04",
-  "total_collected": 917,
-  "total_valid": 38,
-  "total_skipped": 871,
-  "total_top": 28,
+  "generated_at": "2026.06.29 16:22",
+  "total_collected": 923,
+  "total_valid": 339,
+  "total_skipped": 507,
+  "total_top": 31,
   "topic_groups": [],
   "categories": {
     "trend": [
       {
-        "title": "한국관광공사...AI가 여행 짜고, 쇼핑몰이 휴가를 연다",
+        "title": "월드컵 스트리밍에 젠슨 황…네이버 ‘PK 찬스’에 장갑 고쳐 낀 SOOP [월...",
         "topic": "",
         "insight": "",
-        "desc": "올여름 국내여행의 첫 페이지가 쇼핑몰 한복판에서 열리고 있다. 대한민국구석구석,한국관광공사,스타필드수원,국내여행,여름휴가,AI콕콕플래너,오디,디지털관광주민증,밤밤곡곡,수원여행",
-        "link": "https://www.newscj.com/news/articleView.html?idxno=3411303",
-        "pub_date": "2026.06.23",
-        "reason": "AI 기반 여행·쇼핑 소비 행동 변화",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "AI 쇼핑",
-          "여름휴가 마케팅"
-        ]
-      },
-      {
-        "title": "앱 밖으로 나온 패션 플랫폼…오프라인 매장 확대 경쟁",
-        "topic": "",
-        "insight": "",
-        "desc": "이들의 주요 경쟁 무대가 온라인에서 오프라인으로 확장하고 있다는 분석도 나온다. 22일 패션업계에 따르면 카카오스타일이 운영하는 커머스 플랫폼 지그재그는 최근 자사 입점 신발 브랜드 착한구두의 서울 성수동... ",
-        "link": "https://www.hankyung.com/article/2026062211241",
-        "pub_date": "2026.06.23",
-        "reason": "이커머스 채널 전략 변화",
+        "desc": "지난 5월 부실 운영 논란을 겪던 AI페퍼스 여자 프로배구단 인수를 전격 결정했다. 구단명은 ‘SOOP 수퍼스’로 확정, 신생 구단 운영 및 우승 경험을 가진 김세진 전 한국배구연맹 경기운영본부장을 초대 감독으로... ",
+        "link": "https://economist.co.kr/article/view/ecn202606230047",
+        "pub_date": "2026.06.29",
+        "reason": "월드컵 시즌 콘텐츠 전략",
         "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 10.9,
         "datalab_velocity": 0.0,
         "queries": [
-          "플랫폼 경쟁",
+          "마케팅 논란",
           "앱 마케팅"
         ]
       },
       {
-        "title": "“이른 더위에 여름 특수 잡아라”…유통가, 할인 경쟁 본격화",
+        "title": "절반은 해외여행 간다는데...여름휴가철 인기 카드는?",
         "topic": "",
         "insight": "",
-        "desc": "주요 이커머스 업체들은 제철 먹거리와 여름 생활용품, 휴가 상품을 앞세운 대규모 할인 행사로 소비자 공략에 나서고 있다. G마켓 제공 21일 업계에 따르면 G마켓과 옥션은 이날까지 ‘6월 SUPER 마트&amp;리빙’ 프로모션을... ",
-        "link": "https://www.segye.com/newsView/20260621501728?OutUrl=naver",
-        "pub_date": "2026.06.21",
-        "reason": "여름 특수 시기 소비 할인 트렌드 확산",
-        "priority": 2,
+        "desc": "다만 여름휴가 비용 부담이 커진 만큼 해외여행 관련 혜택을 챙길 수 있는 카드에 관심이 쏠린다. 신용카드... 국내의 경우 숙박세일 페스타 등 혜택까지 활용하면 비용을 보다 아낄 수 있을 것”이라고 말했다.",
+        "link": "https://www.mk.co.kr/article/12084100",
+        "pub_date": "2026.06.27",
+        "reason": "여름휴가 소비 패턴",
+        "priority": 1,
         "cross_query_count": 2,
+        "datalab_score": 54.7,
+        "datalab_velocity": -12.0,
+        "queries": [
+          "여름 세일",
+          "휴가 이벤트"
+        ]
+      }
+    ],
+    "risk": [
+      {
+        "title": "“탱크데이 스타벅스 불매운동 주도 李정부, ‘625% 침투하자 더깊게’...",
+        "topic": "",
+        "insight": "",
+        "desc": "이와 관련 주진우 국민의힘 의원은 최근 유튜브에서 “6·25를 앞둔 시기에 ‘625% 침투’ 광고 문구는 안보에 대한 감수성이 너무 떨어진다”며 “이재명 정부는 5·18 때 (탱크데이 스타벅스 불매운동과)와 왜 이렇게... ",
+        "link": "https://www.munhwa.com/article/11598895?ref=naver",
+        "pub_date": "2026.06.29",
+        "reason": "스타벅스 불매운동 확산 긴급",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 58.7,
+        "datalab_velocity": -33.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "21억 날려도 문 닫았다…스타벅스 불매 끝날 조짐",
+        "topic": "",
+        "insight": "",
+        "desc": "'탱크데이 마케팅' 논란으로 전 직원들에게 역사 교육을 하기 위해서인데, 실제로 불매운동 여파도 진정되는 분위기입니다. 박승원 기자의 보도입니다. &lt;기자&gt; 서울 서대문구에 위치한 스타벅스 매장입니다. 오후 시간... ",
+        "link": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606230284&t=NNv",
+        "pub_date": "2026.06.23",
+        "reason": "스타벅스 불매 제휴사 위기",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 58.7,
+        "datalab_velocity": -33.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "스타벅스 ‘곰돌이컵’도 안 먹혔다…앱 설치 2주새 반토막",
+        "topic": "",
+        "insight": "",
+        "desc": "“다만 신규 유입을 보여주는 앱 설치 지표가 꺾이고, 핵심 굿즈 반응도 예전 같지 않다는 점은 당분간 스타벅스가 공격적인 마케팅보다 브랜드 리스크 관리에 더 무게를 둘 수밖에 없다는 의미”라고 말했다.",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04234486645485328",
+        "pub_date": "2026.06.25",
+        "reason": "제휴사 스타벅스 앱 이탈",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 10.9,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "“스타벅스 마케팅 참패, 역사 교육만으로 안 끝나”",
+        "topic": "",
+        "insight": "",
+        "desc": "‘탱크데이’ 마케팅 논란에 스타벅스 코리아가 국내 진출 이후 최초로 모든 매장의 영업을 조기 종료하는 22일 서울 한 스타벅스 매장 앞에서 한 시민이 영업시간 변경 안내문을 바라보고 있다.(사진=이데일리 이영훈... ",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03913046645485656",
+        "pub_date": "2026.06.26",
+        "reason": "제휴사 스타벅스 탱크데이 논란",
+        "priority": 3,
+        "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "소비자 할인",
-          "여름휴가 마케팅"
+          "마케팅 논란"
         ]
       },
+      {
+        "title": "경찰, 스타벅스 '탱크데이' 논란 강제수사 검토… 포렌식 분석 진행",
+        "topic": "",
+        "insight": "",
+        "desc": "서울경찰청은 29일 정례 기자간담회에서 스타벅스 코리아의 '탱크데이' 마케팅 논란과 관련해 자체 감사 결과와 제출받은 포렌식 자료를 분석하고 있으며, 최근 관련자 조사도 진행했다고 밝혔다. [사진=뉴시안] ［뉴시안... ",
+        "link": "http://www.newsian.co.kr/news/articleView.html?idxno=91554",
+        "pub_date": "2026.06.29",
+        "reason": "스타벅스 경찰 강제수사 착수",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "‘탱크데이 논란 한 달’ 스타벅스 마케팅 재시동",
+        "topic": "",
+        "insight": "",
+        "desc": "스타벅스코리아가 5·18 광주민주화운동 폄훼 마케팅 이른바 ‘탱크데이’ 논란으로 멈췄던 마케팅에 재시동을 걸었다. 24일 스타벅스코리아에 따르면 지난 23일 여름 신메뉴를 출시했다. 신규 음료는... ",
+        "link": "https://www.busan.com/view/busan/view.php?code=2026062409463355598",
+        "pub_date": "2026.06.24",
+        "reason": "스타벅스 탱크데이 논란 재확산 중",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "블룸버그 &quot;스타벅스 마케팅 실패 아직 안 끝나…5·18 기념재단 등과 협...",
+        "topic": "",
+        "insight": "",
+        "desc": "[사진=연합뉴스] 블룸버그통신은 스타벅스코리아가 '탱크데이' 마케팅 논란을 극복하기 위해서는 이번 주 실시한 역사 교육으로는 충분하지 않다며, 5·18 기념재단 등과의 협력을 통해 진정성 있는 모습을 보여야 한다고... ",
+        "link": "https://www.ajunews.com/view/20260626152122463",
+        "pub_date": "2026.06.26",
+        "reason": "스타벅스 마케팅 논란 지속 중",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "스타벅스 초유의 전국 조기폐점…'탱크데이' 논란 일단락 수순",
+        "topic": "",
+        "insight": "",
+        "desc": "그 시간에 5·18 폄훼 논란이 불거진 '탱크데이' 이벤트 사태가 다시는 벌어지지 않도록 전 직원이 역사... &quot; 스타벅스는 앞으로 마케팅 기획 단계에서 사회적 민감도 검증을 강화하는 재발 방지 대책을 마련하기로... ",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/06/22/2026062290337.html",
+        "pub_date": "2026.06.22",
+        "reason": "스타벅스 조기폐점, 제휴 검토 필요",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "'5·18 조롱 마케팅' 스타벅스, 조기 폐점하고 전 직원 역사 교육",
+        "topic": "",
+        "insight": "",
+        "desc": "지난달 5·18 민주화운동을 조롱했다는 비판을 받은 '탱크데이' 마케팅 논란과 관련해, 스타벅스 코리아가 오늘(22일) 오후 3시 광주와 전남 71개를 비롯한 전국 2천160여 개 모든 매장의 문을 일찍 닫고 전 직원 역사... ",
+        "link": "https://kjmbc.co.kr/NewsArticle/1524136",
+        "pub_date": "2026.06.22",
+        "reason": "스타벅스 조롱 마케팅 논란",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "스타벅스, 전국 매장 조기 폐점 후 전 직원 교육…'탱크데이' 논란 후속...",
+        "topic": "",
+        "insight": "",
+        "desc": "스타벅스코리아가 최근 불거진 '탱크데이' 마케팅 논란의 후속 조치로 전국 매장의 영업을 조기 종료하고 전 직원을 대상으로 역사 인식 및 사회적 감수성 교육을 실시했다. 23일 업계에 따르면 스타벅스코리아는 전날... ",
+        "link": "https://www.thepublic.kr/news/articleView.html?idxno=308738",
+        "pub_date": "2026.06.23",
+        "reason": "스타벅스 폐점 후속 조치",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      }
+    ],
+    "battle": [
+      {
+        "title": "카드사, 'AI 구독자' 잡아라…캐시백 경쟁 심화",
+        "topic": "",
+        "insight": "",
+        "desc": "신한카드 관계자는 &quot;디지털 구독 서비스 이용이 일상화되는 가운데 고객들의 실질적인 부담을 줄일 수 있는 혜택을 마련했다&quot;며 &quot;앞으로도 고객의 소비 트렌드 변화에 맞춘 생활밀착형 서비스를 지속 확대해 나갈... ",
+        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1380446",
+        "pub_date": "2026.06.28",
+        "reason": "카드사의 AI 구독 캐시백 경쟁 심화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "LGU+, 휴대폰결제로 'AI 구독료' 최대 45% 청구할인",
+        "topic": "",
+        "insight": "",
+        "desc": "LG유플러스가 챗GPT, 제미나이 등 생성형 인공지능(AI) 서비스 구독 요금을 '휴대폰결제'로 내는 고객에게 최대 45% 청구할인을 제공한다. 26일 LG유플러스에 따르면 이번 프로모션은 다음달 7일까지 진행된다. 챗GPT... ",
+        "link": "https://www.newsis.com/view/NISX20260626_0003684501",
+        "pub_date": "2026.06.26",
+        "reason": "경쟁사 AI 구독료 45% 할인 긴급 대응",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "[테크스냅] LGU+, 챗GPT·제미나이 등 AI 구독료 최대 45% 청구할인",
+        "topic": "",
+        "insight": "",
+        "desc": "KT 희망나눔재단, '빨간밥차' 10주년 맞이 무료급식·디지털교육 봉사 LG유플러스가 주요 생성형 인공지능(AI) 서비스 구독 이용자를 대상으로 휴대전화 결제 할인 프로모션을 실시한다. ▲ LG유플러스는 구글... ",
+        "link": "https://www.yna.co.kr/view/AKR20260626062300017?input=1195m",
+        "pub_date": "2026.06.26",
+        "reason": "경쟁사 AI 구독료 45% 할인 긴급 대응",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "LG유플, 휴대폰 결제시 AI 구독료 최대 45% 할인",
+        "topic": "",
+        "insight": "",
+        "desc": "LG유플러스가 구글 플레이 스토어에서 생성형 인공지능(AI) 서비스 구독 요금을 ‘휴대폰결제’로 결제한 고객에게 최대 45% 청구할인을 제공하는 프로모션을 진행한다고 26일 밝혔다. 이번 프로모션은 오는 7월 7일까지... ",
+        "link": "https://www.sedaily.com/article/20060400?ref=naver",
+        "pub_date": "2026.06.26",
+        "reason": "경쟁사 AI구독 45% 할인 공격",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "LG유플러스, 챗GPT 등 AI 서비스 구독료 할인 프로모션 진행",
+        "topic": "",
+        "insight": "",
+        "desc": "LG유플러스가 생성형 AI 서비스 구독 요금 할인 이벤트를 진행한다. 생성형 AI 서비스 이용자들이 증가하는 가운데 LG유플러스는 고객의 서비스 구독 요금 부담을 낮추고 휴대폰 번호 기반 간편결제 이용 경험 확대를... ",
+        "link": "https://www.epnc.co.kr/news/articleView.html?idxno=403534",
+        "pub_date": "2026.06.26",
+        "reason": "경쟁사 AI구독 45% 할인 공격",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "LG유플러스, 휴대폰결제 AI 구독료 최대 45% 할인 프로모션 진행",
+        "topic": "",
+        "insight": "",
+        "desc": "LG유플러스가 구글 플레이에서 생성형 AI 서비스 구독 요금을 ‘휴대폰결제’로 결제한 고객을 대상으로 최대 45% 청구할인을 제공하는 프로모션을 진행한다. 이번 프로모션은 오는 7월 7일까지 진행되며, 챗GPT·제미나이... ",
+        "link": "https://www.viva100.com/article/20260626500188",
+        "pub_date": "2026.06.26",
+        "reason": "경쟁사 AI구독 45% 할인 공격",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "AI 구독료 문턱 낮춘다…LG U+, 휴대폰결제 프로모션 개시",
+        "topic": "",
+        "insight": "",
+        "desc": "LG유플러스가 AI 서비스 구독 요금의 문턱을 낮춘다. LG유플러스는 구글 플레이 스토어에서 생성형 AI 서비스 구독 요금을 '휴대폰결제'로 결제한 고객을 대상으로 최대 45% 청구할인을 제공하는 프로모션을 진행한다고... ",
+        "link": "https://www.greened.kr/news/articleView.html?idxno=343469",
+        "pub_date": "2026.06.26",
+        "reason": "경쟁사 AI구독 45% 할인 공격",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "LG U+, 휴대폰결제 AI 구독료 최대 45% 할인 프로모션",
+        "topic": "",
+        "insight": "",
+        "desc": "LG유플러스는 구글 플레이 스토어에서 생성형 AI 서비스 구독 요금을 '휴대폰결제'로 결제한 고객을 대상으로 최대 45% 청구할인을 제공하는 프로모션을 진행한다고 26일 밝혔다. 이번 프로모션은 오는 7월 7일까지... ",
+        "link": "https://www.betanews.net/article/view/beta202606260041",
+        "pub_date": "2026.06.26",
+        "reason": "경쟁사 AI구독 45% 할인 공격",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "LG유플러스, AI 구독료 부담 낮춘다…휴대폰결제, 최대 45% 할인",
+        "topic": "",
+        "insight": "",
+        "desc": "사진: LG유플러스는 구글 플레이 스토어에서 생성형 인공지능(GenAI) 서비스 구독 요금을 '휴대폰결제'로 결제한 고객을 대상으로 최대 45% 청구할인을 제공하는 프로모션을 진행한다고 26일 밝혔다. 이번 프로모션은 오는... ",
+        "link": "https://www.aitimes.kr/news/articleView.html?idxno=40706",
+        "pub_date": "2026.06.26",
+        "reason": "경쟁사 AI구독 45% 할인 공격",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "LG U+, 클로드·챗GPT·제미나이 등 AI 구독료 최대 45% 할인",
+        "topic": "",
+        "insight": "",
+        "desc": "더피알=최진 기자｜LG유플러스는 구글 플레이 스토어에서 생성형 인공지능(AI) 서비스 구독료를 휴대폰결제로 지불하는 고객에게 청구할인 프로모션을 제공한다고 26일 밝혔다. 이번 프로모션은 오는 7월 7일까지... ",
+        "link": "https://www.the-pr.co.kr/news/articleView.html?idxno=61718",
+        "pub_date": "2026.06.26",
+        "reason": "경쟁사 AI구독 45% 할인 공격",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      }
+    ],
+    "benchmark": [
       {
         "title": "경동나비엔, '나비엔 하우스' 앱 론칭…제품 상담·구독·AS 하나로",
         "topic": "",
@@ -65,428 +374,150 @@
         "desc": "제품 구매 후에는 A/S 신청, 1대1 문의, 자가진단 기능을 이용할 수 있으며, 보유 제품 등록 시 맞춤형 관리 방법과 환기청정기 필터 교체 알림 등의 안내 서비스를 받는다. 구독 제품 역시 상담 신청부터 계약까지 앱에서 한... ",
         "link": "https://news.tf.co.kr/read/economy/2335497.htm",
         "pub_date": "2026.06.23",
-        "reason": "구독 서비스 확대 트렌드",
-        "priority": 1,
+        "reason": "구독·로열티 서비스 모델",
+        "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
+        "datalab_score": 70.9,
+        "datalab_velocity": -9.6,
         "queries": [
           "구독 서비스",
           "앱 마케팅"
         ]
       },
       {
-        "title": "&quot;상담·구매·구독·A/S까지 한 번에&quot; 경동나비엔, 앱 출시",
+        "title": "“수영복·냉감이불 할인”…롯데百, 여름 정기 세일",
         "topic": "",
         "insight": "",
-        "desc": "이와 함께 구독 제품 및 서비스 정보를 확인하고 상담 신청부터 계약까지 앱에서 간편하게 진행할 수 있어 편의성을 한층 높였다. 이외에도 주문 및 배송 현황, 앱 전용 쿠폰 소식 등을 실시간으로 확인할 수 있고, 위치... ",
-        "link": "https://www.mhj21.com/news/articleView.html?idxno=252832",
+        "desc": "롯데백화점이 여름 정기 세일에 맞춰 패션·수영복·레인웨어·리빙 상품을 대폭 할인하고, 롯데자이언츠와 연계한 체험형 콘텐츠를 선보인다. 서울 중구 롯데백화점 본점 9층 매장에서 소비자들이 여름 의류를 구경하고... ",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02132006645485000",
         "pub_date": "2026.06.24",
-        "reason": "구독 서비스 확대 트렌드",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
-        "queries": [
-          "구독 서비스",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "&quot;보일러 수리부터 가전 구독까지&quot;… 경동나비엔, 모바일 앱 서비스 확장",
-        "topic": "",
-        "insight": "",
-        "desc": "최근 가전업계에서는 정기 관리와 구독 서비스 시장이 확대되면서 관련 플랫폼 경쟁도 이어지고 있다. 한 유통업계 관계자는 &quot;필터 교체, 점검, 소모품 교체 등 주기적인 관리가 필요한 제품이 늘어나면서 이를 효율적으로... ",
-        "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=659168",
-        "pub_date": "2026.06.23",
-        "reason": "구독 서비스 확대 트렌드",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
-        "queries": [
-          "구독 서비스",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "“상담·구매·구독·A/S까지 한 번에”…경동나비엔, ‘나비엔 하우스...",
-        "topic": "",
-        "insight": "",
-        "desc": "이와 함께 구독 제품과 서비스 정보를 확인하고 상담 신청부터 계약까지 앱에서 간편하게 진행할 수 있어 편의성을 한층 높였다. 이외에도 주문 및 배송 현황, 앱 전용 쿠폰 소식 등을 실시간으로 확인할 수 있고 위치... ",
-        "link": "https://www.viva100.com/article/20260623500603",
-        "pub_date": "2026.06.23",
-        "reason": "구독 서비스 확대 트렌드",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
-        "queries": [
-          "구독 서비스",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "제품 탐색부터 구매, 구독, AS까지 한 번에...경동나비엔, '나비엔 하우...",
-        "topic": "",
-        "insight": "",
-        "desc": "경동나비엔은 최근 보일러와 환기청정기 등을 중심으로 구독 서비스를 확대하며 제품 판매 이후 관리 서비스 경쟁력 강화에도 나서고 있다. 제품 이용과 정기 점검, 유지관리 서비스를 결합한 구독 모델을 강화하는... ",
-        "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=757988",
-        "pub_date": "2026.06.23",
-        "reason": "구독 서비스 확대 트렌드",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
-        "queries": [
-          "구독 서비스",
-          "앱 마케팅"
-        ]
-      }
-    ],
-    "risk": [],
-    "battle": [
-      {
-        "title": "&quot;한 번 고객은 영원한 고객&quot;…불붙은 이커머스 멤버십 경쟁",
-        "topic": "",
-        "insight": "",
-        "desc": "이커머스 업계, 멤버십 혜택 강화하는 이유는? 업계에서는 이들 기업이 일제히 멤버십 서비스를 강화하는 원인으로 락인 효과를 통한 충성고객 확보를 꼽는다. 코로나19 팬데믹 기간 급격하게 커진 국내 이커머스... ",
-        "link": "https://www.econovill.com/news/articleView.html?idxno=743212",
-        "pub_date": "2026.06.23",
-        "reason": "멤버십 경쟁 본격화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 12.0,
-        "datalab_velocity": -1.1,
-        "queries": [
-          "멤버십 혜택",
-          "이커머스 전략"
-        ]
-      },
-      {
-        "title": "배달앱 3600억 상생안 퇴짜…공정위, 과징금 폭탄 예고",
-        "topic": "",
-        "insight": "",
-        "desc": "공정거래위원회는 배달 애플리케이션(앱) 시장의 최혜대우 요구, 자사 배달 우대, 멤버십 끼워팔기 등 핵심 혐의의 중대성을 고려할 때 동의의결로 사건을 종결하기 어렵다고 판단했다. 배달앱 사건이 본심의로... ",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04185286645483032",
-        "pub_date": "2026.06.18",
-        "reason": "배달앱 공정위 규제 강화 시장 구도 변화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 10.9,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "배민·쿠팡이츠, 합의종결 무산… 공정위가 겨눈 건 '배달앱 지배력'",
-        "topic": "",
-        "insight": "",
-        "desc": "시장의 관심은 과징금 규모를 넘어 배달앱 시장의 경쟁 질서와 플랫폼 사업모델을 어떻게 재설계할 것인가에 쏠리고 있다. ◆ 공정위, 동의의결 전면 기각 공정위는 지난 18일 우아한형제들(배달의민족)과 쿠팡(쿠팡이츠)... ",
-        "link": "https://www.newscj.com/news/articleView.html?idxno=3411150",
-        "pub_date": "2026.06.22",
-        "reason": "배민·쿠팡이츠 경쟁 격화 및 규제 심화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 10.9,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "골프존, 구독 서비스 ‘G멤버십 필드 시즌권’ 출시",
-        "topic": "",
-        "insight": "",
-        "desc": "기존 G멤버십 필드 상품의 주요 혜택인 골프장 할인 쿠폰 3종(인기 골프장 그린피 또는 1팀 카트비 할인, 커피 2+2 쿠폰 및 식음료 3+1 쿠폰)을 각 7매씩 제공한다. G멤버십 필드는 스크린 전용 기능인 멀리건 선물, AI... ",
-        "link": "https://biz.heraldcorp.com/article/10784780?ref=naver",
-        "pub_date": "2026.06.23",
-        "reason": "구독팩 경쟁 신호",
+        "reason": "백화점 여름 세일 혜택",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "골프존, 'G멤버십 필드 시즌권' 출시...다양한 스크린·필드 골프 서비스...",
-        "topic": "",
-        "insight": "",
-        "desc": "기존 G멤버십 필드 상품의 주요 혜택인 골프장 할인 쿠폰 3종(인기 골프장 그린피 또는 1팀 카트비 할인, 커피 2+2 쿠폰 및 식음료 3+1 쿠폰)을 각 7매씩 제공한다. 'G멤버십 필드'는 스크린 전용 기능인 멀리건 선물, AI... ",
-        "link": "https://www.starnewskorea.com/business-life/2026/06/23/2026062310232514554",
-        "pub_date": "2026.06.23",
-        "reason": "구독팩 경쟁 신호",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "골프존, 구독 서비스 'G멤버십 필드 시즌권' 출시",
-        "topic": "",
-        "insight": "",
-        "desc": "필드 혜택으로는 인기 골프장 그린피 또는 1팀 카트비 할인 쿠폰과 골프장 식음료 할인인 커피 2+2 쿠폰, 식음료 3+1 쿠폰, 그리고 필드 홀인원 달성 시 상금 100만 원 지급 혜택도 제공한다. 'G멤버십 필드 시즌권'은... ",
-        "link": "https://www.ggilbo.com/news/articleView.html?idxno=1165316",
-        "pub_date": "2026.06.23",
-        "reason": "구독팩 경쟁 신호",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "골프존, 구독형 골프 서비스 강화... 'G멤버십 필드 시즌권' 선봬",
-        "topic": "",
-        "insight": "",
-        "desc": "골프존은 구독 서비스인 G멤버십 이용 고객을 대상으로 스크린골프와 필드 골프 혜택을 결합한 'G멤버십 필드 시즌권'을 출시했다고 23일 밝혔다. 이번 상품은 스크린과 필드 골프를 모두 즐기는 고객을 겨냥해 마련됐다.... ",
-        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=202053",
-        "pub_date": "2026.06.23",
-        "reason": "구독팩 경쟁 신호",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "골프존, 구독료 14% 낮춘 'G멤버십 필드 시즌권' 출시",
-        "topic": "",
-        "insight": "",
-        "desc": "골프존(대표이사 박강수)은 스크린과 야외 골프장 혜택을 연계한 구독 서비스인 'G멤버십 필드 시즌권'을 출시했다고 23일 밝혔다. 골프존에 따르면 이번 상품의 이용 기한은 올해 12월31일까지로, 기존 결제 상품과... ",
-        "link": "https://www.newsinside.kr/news/articleView.html?idxno=4783091",
-        "pub_date": "2026.06.23",
-        "reason": "구독팩 경쟁 신호",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 46.0,
-        "datalab_velocity": -9.4,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "네이버, 상반기 최대 쇼핑 축제 '넾다세일' 혜택 넘친다",
-        "topic": "",
-        "insight": "",
-        "desc": "이번 행사에서는 월 이용자 800만명을 넘어선 네이버플러스 스토어 앱 사용자와 멤버십 회원을 중심으로 다양한 혜택을 제공한다. 본 행사에 앞서 21일까지는 사전 혜택을 제공한다. 매일 오전 11시 네이버플러스 멤버십... ",
-        "link": "https://www.newsis.com/view/NISX20260619_0003675470",
-        "pub_date": "2026.06.19",
-        "reason": "이커머스 공격적 경쟁",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 12.0,
-        "datalab_velocity": -1.1,
-        "queries": [
-          "멤버십 혜택",
-          "상반기 세일"
-        ]
-      },
-      {
-        "title": "여름 성수기 앞두고 승부수···대규모 할인 혜택 공개한 NOL",
-        "topic": "",
-        "insight": "",
-        "desc": "VIP 멤버십인 골드클래스 혜택도 확대했다. 국내 레저 상품에 10% 할인 쿠폰과 전용 특가를 적용하며, 누구나 7일 동안 무료 체험할 수 있도록 했다. 해외여행 부문에서는 해외 숙소 할인 혜택을 강화했다. 매일 선착순으로... ",
-        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2441061",
-        "pub_date": "2026.06.22",
-        "reason": "성수기 플랫폼 경쟁",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 12.0,
-        "datalab_velocity": -1.1,
-        "queries": [
-          "멤버십 혜택",
-          "여름휴가 마케팅"
-        ]
-      }
-    ],
-    "benchmark": [
-      {
-        "title": "&quot;전상품군 400여 브랜드 최대 40% 할인&quot;…롯데백화점, '여름 정기 세일'...",
-        "topic": "",
-        "insight": "",
-        "desc": "&quot;전 상품군에서 총 400여 개 브랜드가 참여해 최대 40% 할인 혜택까지. 롯데백화점이 '2026 여름 정기 세일'을... 하계시즌 기후 변동 트래픽 및 소비자의 쇼핑 이용행동 분석기술과 전사적인 온오프라인 유통 창구를... ",
-        "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=263712",
-        "pub_date": "2026.06.24",
-        "reason": "시즌 할인 전략 벤치마킹",
-        "priority": 2,
-        "cross_query_count": 3,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 54.7,
+        "datalab_velocity": -12.0,
         "queries": [
           "소비자 할인",
-          "상반기 세일",
-          "여름축제 개최"
+          "여름 세일"
         ]
       },
       {
-        "title": "휴가철 앞둔 호텔업계 회원 유치 경쟁… 파라다이스, 혜택 늘려",
+        "title": "백화점 3사, 26일부터 여름 정기 세일 돌입",
         "topic": "",
         "insight": "",
-        "desc": "파라다이스 호텔앤리조트는 오는 28일까지 멤버십 회원을 대상으로 '2026 파라다이스 멤버스데이' 프로모션을... 파라다이스시티는 객실 상품 이용 고객에게 원더박스와 씨메르, 수영장, 사우나 이용 혜택을 제공한다. 객실... ",
-        "link": "https://view.asiae.co.kr/article/2026062208111084897",
-        "pub_date": "2026.06.22",
-        "reason": "휴가철 로열티 전략",
+        "desc": "백화점 3사(롯데·신세계·현대백화점)가 26일 부터 다음 달 12일까지 여름 정기세일을 진행한다. 롯데백화점은 '2026 여름 정기 세일' 행사를 열고 패션·스포츠·아동·리빙 등 400여개 브랜드를 대상으로 최대... ",
+        "link": "https://www.newsis.com/view/NISI20260626_0021337912",
+        "pub_date": "2026.06.26",
+        "reason": "백화점 시즌 세일",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 12.0,
-        "datalab_velocity": -1.1,
+        "datalab_score": 54.7,
+        "datalab_velocity": -12.0,
+        "queries": [
+          "여름 세일",
+          "휴가 이벤트"
+        ]
+      },
+      {
+        "title": "&quot;휴가 준비 지금부터&quot; 롯데百, 여름 정기 세일 시작",
+        "topic": "",
+        "insight": "",
+        "desc": "매치데이에서는 롯데백화점 전용 부스를 운영하고 굿즈 증정 이벤트 등을 진행할 예정이다. 롯데백화점은 점포별 포토존과 치어리딩 공연 등 야구 콘텐츠도 함께 선보이며 여름 세일 분위기를 이어간다는 계획이다.",
+        "link": "https://www.newsis.com/view/NISX20260623_0003680607",
+        "pub_date": "2026.06.24",
+        "reason": "대형사 여름 시즌 전략",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 54.7,
+        "datalab_velocity": -12.0,
+        "queries": [
+          "여름 세일",
+          "휴가 이벤트"
+        ]
+      },
+      {
+        "title": "&quot;폭염·휴가철 수요 잡아라&quot;…백화점 3사 여름 세일 포문 연다",
+        "topic": "",
+        "insight": "",
+        "desc": "백화점업계가 여름 정기세일에 돌입하며 휴가철 소비 수요 잡기에 나섰다. 예년보다 이른 폭염과 장마가 예고된 가운데 할인 혜택은 물론 야구, 아이돌, 캐릭터 팝업(임시매장) 등 체험형 콘텐츠를 앞세워 고객 발길을... ",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03250486645485000",
+        "pub_date": "2026.06.24",
+        "reason": "백화점 시즌 세일 포문",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 54.7,
+        "datalab_velocity": -12.0,
+        "queries": [
+          "여름 세일",
+          "휴가 이벤트"
+        ]
+      },
+      {
+        "title": "여름 휴가철 금호타이어 ‘타이어프로’ 클릭하면…“혜택이 우수수”",
+        "topic": "",
+        "insight": "",
+        "desc": "금호타이어가 여름 휴가철 고객들을 대상으로 합리적인 혜택으로 타이어 교체와 함께 안전 점검을 받을 수... 김성 금호타이어 한국영업부문 상무는 “타이어프로 온라인몰과 타이어프로 플러스 멤버십 서비스를 통해... ",
+        "link": "https://www.sedaily.com/article/20060608?ref=naver",
+        "pub_date": "2026.06.26",
+        "reason": "시즌 이벤트 프로모션",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 25.9,
+        "datalab_velocity": 7.4,
         "queries": [
           "멤버십 혜택",
-          "여름휴가 마케팅"
+          "휴가 이벤트"
         ]
       },
       {
-        "title": "유통업계, 여름 맞이 마케팅...치킨 대전부터 해태제과 '얼먹' 과자, 릴...",
+        "title": "“안전도 챙기고 혜택도 더하고”…금호타이어, 고객 마음까지 살핀 여...",
         "topic": "",
         "insight": "",
-        "desc": "급변하는 소비 트렌드와 MZ세대의 취향을 저격하기 위해 각 기업은 브랜드 세계관 체험부터 맞춤형 패키지, 주차별 릴레이 할인까지 다채로운 전략으로 소비자의 이목을 집중시키고 있다. ◇ CJ제일제당·BBQ, 대형... ",
-        "link": "http://www.dailypop.kr/news/articleView.html?idxno=99997",
-        "pub_date": "2026.06.24",
-        "reason": "시즌 이벤트 활용 유통가 마케팅 전략",
-        "priority": 2,
+        "desc": "혜택을 받을 수 있도록 설계했다. 단순히 제품 판매에서 끝나는 것이 아니라 차량 관리 습관 형성과 안전 운행까지 함께 지원하겠다는 취지다. 금호타이어는 지난 4월 리뉴얼한 타이어프로 온라인몰과 새로운 멤버십... ",
+        "link": "https://www.viva100.com/article/20260626500146",
+        "pub_date": "2026.06.26",
+        "reason": "제휴사 여름 마케팅",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 10.9,
-        "datalab_velocity": 0.0,
+        "datalab_score": 25.9,
+        "datalab_velocity": 7.4,
         "queries": [
-          "소비자 할인",
-          "앱 마케팅"
+          "멤버십 혜택",
+          "휴가 이벤트"
         ]
       },
       {
-        "title": "진천군, 공공배달앱 '먹깨비'로 주문하면 4000원 할인",
+        "title": "할인보다 경험…여행업계, 체험형 상품 경쟁 본격화",
         "topic": "",
         "insight": "",
-        "desc": "충북형 공공배달앱 '먹깨비'는 민간 배달앱 중심의 시장 구조를 개선하고 지역 소상공인을 보호하기 위해 도입한 상생 플랫폼이다. 생거진천페이 결제가 가능해 소비자에게는 추가 혜택을, 소상공인에게는 지역 자금의... ",
-        "link": "https://www.news1.kr/local/sejong-chungbuk/6204125",
-        "pub_date": "2026.06.22",
-        "reason": "지자체 배달앱 할인 혜택 사례 참고",
-        "priority": 2,
+        "desc": "여행 소비 트렌드가 '어디를 가느냐'에서 '무엇을 경험하느냐'로 이동하면서 여행업계의 상품 전략이 변화하고 있다. 단순 관광 코스나 가격 할인 중심 경쟁에서 벗어나 러닝, 로컬 체험, 라이브커머스, 맞춤형 일정 등... ",
+        "link": "http://www.kdfnews.com/news/articleView.html?idxno=184660",
+        "pub_date": "2026.06.29",
+        "reason": "여행·체험형 프로모션",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 25.2,
+        "datalab_velocity": -1.2,
         "queries": [
-          "배달 시장",
+          "소비 트렌드",
           "소비자 할인"
         ]
       },
       {
-        "title": "2만5000원 배달 주문하면 7000원 아낀다…서울 배달상품권 7월 발행",
+        "title": "[유통소식] 팬덤 전쟁, 이번엔 컬렉션 카드…아이파크몰 용산서 팝업",
         "topic": "",
         "insight": "",
-        "desc": "온누리상품권 결제도 가능해 전통시장과 골목상권 소비 활성화와도 연계된다. 서울시는 배달상품권과 페이백, 쿠폰을 결합해 소비자 혜택을 키우는 동시에 공공배달앱 이용 기반을 넓힌다는 계획이다. 이해선 서울시... ",
-        "link": "https://www.thepowernews.co.kr/view.php?ud=202606231452071667de3f0aa1be_7",
-        "pub_date": "2026.06.23",
-        "reason": "배달 할인상품권 혜택 구조 벤치마킹",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장",
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "롯데홈쇼핑, 여름 먹거리 할인전 진행...소비자 관심 증가",
-        "topic": "",
-        "insight": "",
-        "desc": "역시 TV홈쇼핑과 온라인몰을 통해 냉감 침구, 계절가전, 보양식 등 여름 시즌 상품 판매를 확대하고 다양한 할인·적립 혜택을 제공하면서 소비자 관심이 높아진 것으로 보인다&quot;고 말했다. 최용선 빅데이터뉴스 기자",
-        "link": "http://www.thebigdata.co.kr/view.php?ud=202606230854392815a79b9f00ab_23",
-        "pub_date": "2026.06.23",
-        "reason": "여름 시즌 할인 캠페인 전략 참고",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인",
-          "냉방가전 프로모션"
-        ]
-      },
-      {
-        "title": "롯데百, 폭염 예고에 여름 특수 선점…2026 여름 정기 세일",
-        "topic": "",
-        "insight": "",
-        "desc": "예년보다 이른 폭염 특보가 이어지면서 여름 상품 소비가 급증하고 있는 추세를 반영해, 하절기 베스트셀러 상품을 상반기 최대 할인율과 함께 선보일 예정이다. 여기에 세일 기간 구매하는 고객에게는 상품군별로... ",
-        "link": "https://www.news1.kr/industry/distribution/6206034",
+        "desc": "이번 프로모션은 초복·중복·말복을 포함한 여름 시즌을 겨냥해 기획됐으며 '헬시 플레저(Healthy Pleasure)'를... 행사 기간 최대 51% 할인 프로모션과 구매 사은품 증정, 컬렉션 카드 라이브 언박싱 이벤트 등 현장... ",
+        "link": "http://www.4th.kr/news/articleView.html?idxno=2113608",
         "pub_date": "2026.06.24",
-        "reason": "여름 정기 세일 시즌 전략 참고",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "상반기 세일",
-          "여름축제 개최"
-        ]
-      },
-      {
-        "title": "CJ올리브영, 국내 뷰티 이커머스 앱·웹 모두 1위…실사용자 1300만 돌파",
-        "topic": "",
-        "insight": "",
-        "desc": "CJ올리브영(이하 올리브영)이 국내 뷰티 이커머스 시장에서 모바일 앱과 웹사이트 모두 1위를 차지하며... 옴니채널 전략을 기반으로 고객이 원하는 방식으로 K뷰티 트렌드를 탐색하고 다양한 상품을 비교·구매할 수... ",
-        "link": "http://www.wikileaks-kr.org/news/articleView.html?idxno=188920",
-        "pub_date": "2026.06.23",
-        "reason": "이커머스 플랫폼 성장 사례 장기 모니터링",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 10.9,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "이커머스 전략",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "카카오 춘식이 만난 파리바게뜨의 굿즈 마케팅",
-        "topic": "",
-        "insight": "",
-        "desc": "굿즈 마케팅에 나선다. 케이크와 디저트 중심의 캐릭터 협업을 넘어 물놀이와 나들이에 활용할 수 있는... 파리바게뜨는 오는 28일까지 자사 애플리케이션(앱)인 파바앱, 해피오더앱 외 카카오톡 예약하기·선물하기 등를... ",
-        "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5033731",
-        "pub_date": "2026.06.24",
-        "reason": "브랜드 협력 굿즈 마케팅 사례 수집",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 10.9,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "앱 마케팅",
-          "여름휴가 마케팅"
-        ]
-      },
-      {
-        "title": "홈플러스, 여름 생활용품 최대 50% 할인…“물가안정 프로젝트로 장바구...",
-        "topic": "",
-        "insight": "",
-        "desc": "홈플러스가 여름 휴가철을 앞두고 대규모 할인 행사를 열며 소비자들의 장바구니 부담 낮추기에 나선다. 홈플러스는 오는 25일부터 다음 달 1일까지 ‘AI 물가안정 프로젝트’를 진행하고 여름철 생활용품과 식품... ",
-        "link": "https://www.viva100.com/article/20260624500855",
-        "pub_date": "2026.06.24",
-        "reason": "유통사 여름 할인 프로모션 사례 수집",
+        "reason": "팝업·경험형 이벤트",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "소비자 할인",
-          "여름휴가 마케팅"
+          "초복 음식 할인",
+          "수상스포츠 이벤트"
         ]
       }
     ]

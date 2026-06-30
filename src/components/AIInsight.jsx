@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.06.25';
+const RADAR_SCANNED = '2026.06.29';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -55,28 +55,22 @@ const alCats = [
   // ── T멤버십 우위 ──
   {
     icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
-    nb: [{ platform: '네이버플러스', items: [
-      { partner: '쏘카', deadline: '~26.06.30', rows: [{ grade: null, desc: '50% 할인 (네이버예약 경유)' }] },
-    ]}],
+    nb: null,
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
-      { partner: 'G car', deadline: 'VIP PICK · 6월', rows: [{ grade: 'V', desc: '대여료 60%+보험료 5% 할인 (2시간 이상)' }] },
-      { partner: 'TMAP 렌터카', deadline: 'VIP PLUS · 6월', rows: [{ grade: 'V', desc: '10,000원 할인 쿠폰 (5만원 이상 결제 시)' }] },
     ]}],
-    reasons: ['T멤버십: SK렌터카 상시 + G car VIP PICK 60% · TMAP 렌터카 PLUS까지 렌터카 3종 커버', '네이버플러스: 쏘카 50% 기간한정 (~26.06.30) · 경유 조건 있음'],
+    reasons: [<span className="upd">T멤버십: SK렌터카 상시 제주 최대 85%·내륙 최대 60% 할인 운영</span>, <span className="upd">비통신 멤버십: 네이버플러스 쏘카 혜택 6.30 종료 · 7월 카셰어링 제휴 없음</span>],
   },
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: 'Week혜택(6.1~6.5): 매드포갈릭 30%(VIP 50%)·이디야커피 빙수 50%·크리스탈제이드 40%·백미당 1+1·사보텐 30% 등 / 0 week(6.8~6.12): 메가MGC커피 50%·투썸플레이스 40%·바나프레소 50% / T day 2주차(6.17): 쉐이크쉑 VIP 40%/G·S 20%·폴바셋 시그니처 커피 4종 50%·도미노피자 50% / T day 3주차(6.24): 뚜레쥬르 300원/P·다운타우너 버거세트 35%·역전우동 냉모밀 3,500원' }] },
+      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: <span className="upd">1주차(7.1): 아웃백 25%·더벤티 아이스 아메리카노 50%·피자헛 방문 포장 50% / 0 week(7.6~7.10): 뚜레쥬르 브라우니 1개 증정·투썸플레이스 음료·케이크 40% / 2~4주차 공개 예정</span> }] },
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
-      { partner: 'VIP PICK · 6월', deadline: '월 1회 선택', rows: [{ grade: 'V', desc: '파스쿠찌 40%(최대 7,000원) / 쉐이크쉑 바닐라쉐이크 2,000원 / 피자헛 크래프티드세트 10,000원 또는 파스타 무료 중 택1' }] },
-      { partner: '고반식당', deadline: 'VIP PLUS · 6월', rows: [{ grade: 'V', desc: '10,000원 할인 (5만원 이상 구매 시)' }] },
     ]}],
-    reasons: ['T멤버십: 상시 10~30% + 매주 카페·외식 Tday 집중 (이디야커피·매드포갈릭·투썸·메가MGC커피·도미노피자 등 최대 50%) + VIP PICK 파스쿠찌·쉐이크쉑·피자헛 운영', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: [<span className="upd">T멤버십: 상시 10~30% + 1주차(7.1) 아웃백·더벤티·피자헛 Tday / 0 week 투썸·뚜레쥬르 + 2~4주차 공개 예정</span>, '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -120,12 +114,8 @@ const alCats = [
         ]},
       ]},
     ],
-    tm: [{ platform: 'T멤버십', items: [
-      { partner: '요기요', deadline: 'T day 1주차 · 6.8~6.12', rows: [
-        { grade: '전 등급', desc: '×호식이두마리치킨 6,000원 할인 (VIP 8,000원, 18,000원 이상 주문 시)' },
-      ]},
-    ]}],
-    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 · T day 1주차(6.8~6.12) 요기요×호식이두마리치킨 6천원 한정 혜택'],
+    tm: null,
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <span className="upd">T멤버십: 배달 상시 제휴 없음 · 7월 T day 배달 혜택 미공개</span>],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'neut',
@@ -142,7 +132,6 @@ const alCats = [
     ],
     tm: [{ platform: 'T멤버십', items: [
       { partner: '11번가', deadline: '상시', rows: [{ grade: null, desc: '최대 11% 적립/할인' }] },
-      { partner: '11번가', deadline: 'VIP PICK · 6월', rows: [{ grade: 'V', desc: '5,000원 할인 쿠폰 (2만원 이상 구매 시)' }] },
     ]}],
     reasons: ['T멤버십 11번가 11% > 비통신 5% — 혜택 수준은 T멤버십 우위', '비통신: 네이버쇼핑 전반 + 쿠팡 커버리지 우위 — 플랫폼 다양성에서 앞섬'],
   },
@@ -153,10 +142,11 @@ const alCats = [
       { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
+      { partner: 'GS25', deadline: <span className="upd">T day 0 week · 7.6~7.10</span>, rows: [{ grade: '전 등급', desc: <span className="upd">샌드위치 50% 할인 (7종 중 택1)</span> }] },
       { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: CU V·G 10% 동급 + 세븐일레븐 추가 운영'],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', <span className="upd">T멤버십: GS25 T day 0 week(7.6~7.10) 샌드위치 50% + CU·세븐일레븐 상시 10% 운영</span>],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -168,11 +158,8 @@ const alCats = [
         { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
-      { partner: 'CGV', deadline: '6.1~6.5 · Week혜택 / 6.24~6.28 · T day 3주차', rows: [
-        { grade: '전 등급', desc: '8,500원 예매 + 매점쿠폰 (더블콤보 3천원·팝콘M 1천원)' },
-      ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 상시 4천원 + 6.1~6.5·6.24~6.28 8,500원+매점쿠폰 (2회) · VIP 무료연3회/1+1연9회'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <span className="upd">T멤버십: CGV 상시 4천원 + VIP 무료연3회/1+1연9회 · 7월 CGV T day 미공개</span>],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -190,11 +177,8 @@ const alCats = [
         { grade: 'V', desc: '짝수월 7%, 홀수월 3% 적립' },
         { grade: 'G, S', desc: '3% 적립' },
       ]},
-      { partner: '이마트에브리데이', deadline: 'T day 2주차 · 6.17', rows: [
-        { grade: '전 등급', desc: '4만원 이상 구매 시 20% 할인 (최대 1만원)' },
-      ]},
     ]}],
-    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 오프라인 3~7% 적립 + 이마트에브리데이 T day(6.17) 20% 할인 → 온/오프 채널 혼재'],
+    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', <span className="upd">T멤버십: 이마트 오프라인 3% 적립 (홀수월 기준) · 7월 T day 마트 혜택 미공개</span>],
   },
 ];
 
@@ -205,11 +189,11 @@ const recs = [
     rank: 1,
     brand: '깐부치킨',
     tag: '매장 168개 · DataLab 📈1.53',
-    reason: <span className="upd">6.7 젠슨 황·최태원 재회동으로 버즈 2차 급등 중. 글로벌 주목도 상승한 이 시점이 SKT 제휴 협상 진입 최적기.</span>,
+    reason: '6.7 젠슨 황·최태원 재회동으로 버즈 2차 급등 중. 글로벌 주목도 상승한 이 시점이 SKT 제휴 협상 진입 최적기.',
     reach: [
       { label: '매장 규모', text: '전국 168개 · 치킨 카테고리 빠른 성장 중인 브랜드' },
-      { label: '검색 버즈', text: <span className="upd">DataLab 📈1.53 상승 · 6.7 재방문 이슈로 2차 버즈 급등 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+</span> },
-      { label: '제휴 포인트', text: <span className="upd">SKT 미참여 — 버즈 2차 피크 구간에서 계약 체결 시 최대 홍보 효과 기대</span> },
+      { label: '검색 버즈', text: 'DataLab 📈1.53 상승 · 6.7 재방문 이슈로 2차 버즈 급등 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+' },
+      { label: '제휴 포인트', text: 'SKT 미참여 — 버즈 2차 피크 구간에서 계약 체결 시 최대 홍보 효과 기대' },
     ],
     trend: 'DataLab 1.53 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+',
     hot: true,
@@ -503,7 +487,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.06.25</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.06.29</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

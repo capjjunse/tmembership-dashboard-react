@@ -124,8 +124,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>농협맛선·도그메이트 6.30 종료 예정</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">전반 긍정 48% · 부정 32% 우위</span></div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">VIP PICK T우주패스 너프 불만 (6.24)</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">전반 긍정 45% · 부정 44% 박빙</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK T우주패스 너프 불만 (6.24)</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
@@ -159,7 +159,7 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>유플투쁠 67% 긍정 우세</div>
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">노브랜드 수량 소진 빠른 마감 아쉬움</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>노브랜드 수량 소진 빠른 마감 아쉬움</div>
           </a>
         </div>
 
