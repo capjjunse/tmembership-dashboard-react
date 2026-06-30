@@ -112,7 +112,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#vp" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>T우주패스 8월 구조 개편 예고</div>
+            <div className="ovg2-item"><span className="upd">VIP Pick 현행 유지 — T우주패스 연3회 운영 중</span></div>
             <div className="ovg2-item">상시혜택 이번달 신규 없음</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
