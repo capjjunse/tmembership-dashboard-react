@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.06.29';
+const RADAR_SCANNED = '2026.07.01';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -96,18 +96,18 @@ const alCats = [
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
     ]}],
-    reasons: [<span className="upd">T멤버십: SK렌터카 상시 제주 최대 85%·내륙 최대 60% 할인 운영</span>, <span className="upd">비통신 멤버십: 네이버플러스 쏘카 혜택 6.30 종료 · 7월 카셰어링 제휴 없음</span>],
+    reasons: ['T멤버십: SK렌터카 상시 제주 최대 85%·내륙 최대 60% 할인 운영', '비통신 멤버십: 네이버플러스 쏘카 혜택 6.30 종료 · 7월 카셰어링 제휴 없음'],
   },
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: <span className="upd">1주차(7.1): 아웃백 25%·더벤티 아이스 아메리카노 50%·피자헛 방문 포장 50% / 0 week(7.6~7.10): 뚜레쥬르 브라우니 1개 증정·투썸플레이스 음료·케이크 40% / 2~4주차 공개 예정</span> }] },
+      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: '1주차(7.1): 아웃백 25%·더벤티 아이스 아메리카노 50%·피자헛 방문 포장 50% / 0 week(7.6~7.10): 뚜레쥬르 브라우니 1개 증정·투썸플레이스 음료·케이크 40% / 2~4주차 공개 예정' }] },
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
     ]}],
-    reasons: [<span className="upd">T멤버십: 상시 10~30% + 1주차(7.1) 아웃백·더벤티·피자헛 Tday / 0 week 투썸·뚜레쥬르 + 2~4주차 공개 예정</span>, '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 10~30% + 1주차(7.1) 아웃백·더벤티·피자헛 Tday / 0 week 투썸·뚜레쥬르 + 2~4주차 공개 예정', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -152,7 +152,7 @@ const alCats = [
       ]},
     ],
     tm: null,
-    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <span className="upd">T멤버십: 배달 상시 제휴 없음 · 7월 T day 배달 혜택 미공개</span>],
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 · 7월 T day 배달 혜택 미공개'],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'neut',
@@ -179,11 +179,11 @@ const alCats = [
       { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'GS25', deadline: <span className="upd">T day 0 week · 7.6~7.10</span>, rows: [{ grade: '전 등급', desc: <span className="upd">샌드위치 50% 할인 (7종 중 택1)</span> }] },
+      { partner: 'GS25', deadline: 'T day 0 week · 7.6~7.10', rows: [{ grade: '전 등급', desc: '샌드위치 50% 할인 (7종 중 택1)' }] },
       { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', <span className="upd">T멤버십: GS25 T day 0 week(7.6~7.10) 샌드위치 50% + CU·세븐일레븐 상시 10% 운영</span>],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 T day 0 week(7.6~7.10) 샌드위치 50% + CU·세븐일레븐 상시 10% 운영'],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -196,7 +196,7 @@ const alCats = [
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <span className="upd">T멤버십: CGV 상시 4천원 + VIP 무료연3회/1+1연9회 · 7월 CGV T day 미공개</span>],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 상시 4천원 + VIP 무료연3회/1+1연9회 · 7월 CGV T day 미공개'],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -215,7 +215,7 @@ const alCats = [
         { grade: 'G, S', desc: '3% 적립' },
       ]},
     ]}],
-    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', <span className="upd">T멤버십: 이마트 오프라인 3% 적립 (홀수월 기준) · 7월 T day 마트 혜택 미공개</span>],
+    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 오프라인 3% 적립 (홀수월 기준) · 7월 T day 마트 혜택 미공개'],
   },
 ];
 
@@ -258,16 +258,16 @@ const recs = [
     rank: 3,
     brand: '설빙',
     tag: '매장 598개 · DataLab ↗1.15',
-    reason: '여름 성수기 본격 돌입 · 아이스디저트 카테고리 1위. Tday 3개월 이상 공백 중 — 계약 지연 시 여름 피크 시즌 전체를 놓칠 수 있음.',
+    reason: <>여름 성수기 본격 돌입 · 아이스디저트 카테고리 1위. Tday <span className="upd">4개월</span> 이상 공백 중 — 계약 지연 시 여름 피크 시즌 전체를 놓칠 수 있음.</>,
     reach: [
       { label: '매장 규모', text: '전국 598개 · 아이스디저트 카테고리 1위' },
       { label: '검색 버즈', text: 'DataLab ↗1.15 상승세 · 블로그 74만 · 카페 26만 · 뉴스 88건 — 여름 성수기 진입으로 버즈 상승 예상' },
-      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 3개월 이상 지속 · 여름 시즌 선점을 위한 조속한 재계약 필요' },
+      { label: '제휴 포인트', text: <>2026.03 이후 Tday 공백 <span className="upd">4개월</span> 이상 지속 · 여름 시즌 선점을 위한 조속한 재계약 필요</> },
     ],
     trend: 'DataLab 1.15 · 블로그 74만 · 카페 26만 · 뉴스 88건',
     hot: false,
     skt: [
-      { prog: 'Tday', active: false, last: '2026.03', gap: '3개월 공백' },
+      { prog: 'Tday', active: false, last: '2026.03', gap: '4개월 공백' },
     ],
     kt:  null,
     lgu: null,
@@ -524,7 +524,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.06.29</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.07.01</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
