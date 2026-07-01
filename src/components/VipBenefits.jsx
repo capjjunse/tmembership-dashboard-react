@@ -28,7 +28,6 @@ export default function VipBenefits() {
             </td>
             <td>
               월 1회 (연 12회)<br />
-              분기별 택1<br />
               <a href="https://www.lguplus.com/benefit-membership" target="_blank" rel="noreferrer" className="vlink">VIP콕 →</a>
             </td>
           </tr>
@@ -36,7 +35,7 @@ export default function VipBenefits() {
             <td>영화</td>
             <td>CGV 무료관람 연3회 /<br />1+1 연9회 택1</td>
             <td>롯데시네마 2인 무료<br />(VVIP 초이스)</td>
-            <td>CGV 무료관람 연3회 / 1+1 연9회</td>
+            <td><span className="upd">CGV 무료 연3회 / 1+1 연9회</span></td>
           </tr>
           <tr>
             <td>OTT·구독</td>
@@ -50,15 +49,14 @@ export default function VipBenefits() {
               도미노 3만원 할인
             </td>
             <td>
-              넷플릭스·유튜브<br />
-              디즈니+·티빙<br />
-              4,000원 할인 (유독)
+              <span className="upd">유독</span><br />
+              <span className="upd">4,000원 할인</span>
             </td>
           </tr>
           <tr>
             <td>생일</td>
             <td className="na">미제공</td>
-            <td>VVIP: 꾸까·스벅케이크·롯시 택1</td>
+            <td>VVIP: 꾸까·스벅케이크·롯시 택1<br /><span className="upd">VIP: 미제공</span></td>
             <td className="na">미제공</td>
           </tr>
         </tbody>

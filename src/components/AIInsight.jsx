@@ -27,25 +27,62 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [], // 7월 KT 달달혜택 미공개
+    rows: [], // 7월 KT 달달혜택 미공개 (15일경 공개 예정)
   },
   {
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
-    desc: 'KT 미참여 · SKT 월간 혜택 × LGU+ 투쁠데이',
-    rows: [], // 7월 LGU+ 유플투쁠 미공개
+    desc: 'KT 미참여 · SKT Tday·0week × LGU+ 투쁠데이',
+    rows: [
+      {
+        brand: <span className="upd">피자헛</span>,
+        skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (프리미엄·US오리진 M·L)' }], date: <span className="upd">7.1 · T day 1주차</span> },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 55% 할인 + 리치치즈파스타 증정' }], date: <span className="upd">7.7 · 투쁠데이</span> },
+        v: 'warn',
+        basis: <span className="upd">LGU+ 5%p↑ + 파스타 증정</span>,
+        note: 'SKT 7.1 먼저, LGU+ 7.7',
+      },
+      {
+        brand: <span className="upd">투썸플레이스</span>,
+        skt: { lines: [{ grade: '전 등급', b: '제조 음료 40% (5종 택1) · 조각케이크 40%' }], date: <span className="upd">7.6~7.10 · 0 week</span> },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: <span className="upd">7.14 · 투쁠데이</span> },
+        v: 'good',
+        basis: <span className="upd">SKT 음료+케이크 각 40% vs LGU+ 케이크 구매 조건부</span>,
+        note: 'SKT 0 week(7.6~7.10), LGU+ 7.14',
+      },
+      {
+        brand: <span className="upd">오뚜기몰</span>,
+        skt: { lines: [{ grade: '전 등급', b: '행사 제품 50% 할인 쿠폰 1매 (~7.15)' }], date: <span className="upd">7.6~7.10 · 0 week</span> },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '전 제품 최대 30% 할인 (최대 2만원)' }], date: <span className="upd">7.17 · 투쁠데이</span> },
+        v: 'good',
+        basis: <span className="upd">SKT 50% vs LGU+ 최대 30%</span>,
+        note: 'SKT 0 week(7.6~7.10)·~7.15, LGU+ 7.17',
+      },
+      {
+        brand: <span className="upd">NOL티켓</span>,
+        skt: { lines: [{ grade: '전 등급', b: '뮤지컬 유미의 세포들 35% · 인상주의를 넘어 전시 25% (~7.31)' }], date: <span className="upd">7.6~7.10 · 0 week</span> },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '맥스 시덴토프 개인전 최대 35%' }], date: <span className="upd">7.13 · 유플투쁠_컬처</span> },
+        v: 'neut',
+        basis: <span className="upd">SKT 2작품(뮤지컬35%+전시25%) vs LGU+ 1작품(전시35%)</span>,
+        note: '동일 플랫폼, 각자 다른 공연·전시',
+      },
+    ],
   },
   {
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT 달달혜택 × LGU+ 투쁠데이',
-    rows: [], // 7월 KT·LGU+ 모두 미공개
+    rows: [], // 7월 KT 달달혜택 미공개
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // 7월 KT·LGU+ 미공개로 비교 불가
+    rows: [], // 7월 KT 달달혜택 미공개로 비교 불가
   },
 ];
 

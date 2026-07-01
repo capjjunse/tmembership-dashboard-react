@@ -17,11 +17,53 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td><span className="upd">2026.06.30</span></td>
+            <td><span className="cb bk"><span className="upd">KT</span></span></td>
+            <td><span className="upd">KT멤버십 상시</span></td>
+            <td><span className="upd">오토오아시스 부가정비 4종(오일·부동액·배터리·타이어) 할인 추가 (7.1~)</span></td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td><span className="upd">2026.06.30</span></td>
+            <td><span className="cb bk"><span className="upd">KT</span></span></td>
+            <td><span className="upd">KT멤버십 상시</span></td>
+            <td><span className="upd">MOVV 인천공항이동 왕복편 10% 편도 추가 (7.1~)</span></td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
             <td><span className="upd">2026.06.25</span></td>
             <td><span className="cb bs"><span className="upd">SKT</span></span></td>
             <td><span className="upd">T멤버십 상시</span></td>
-            <td><span className="upd">원마운트 워터파크/스노우파크 할인 제휴 종료 (6.25)</span></td>
-            <td><span className="tb t종료"><span className="upd">종료</span></span></td>
+            <td><span className="upd">아시아나 인터넷 면세점 10% 할인 제휴 종료 (7.31)</span></td>
+            <td><span className="tb t종료">종료</span></td>
+          </tr>
+          <tr>
+            <td>2026.06.25</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T멤버십 상시</td>
+            <td>원마운트 워터파크/스노우파크 할인 제휴 종료 (6.25)</td>
+            <td><span className="tb t종료">종료</span></td>
+          </tr>
+          <tr>
+            <td><span className="upd">2026.06.25</span></td>
+            <td><span className="cb bs"><span className="upd">SKT</span></span></td>
+            <td><span className="upd">T멤버십 상시</span></td>
+            <td><span className="upd">오붓 오붓패스 15% 할인 (7.1~)</span></td>
+            <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
+            <td><span className="upd">2026.06.25</span></td>
+            <td><span className="cb bs"><span className="upd">SKT</span></span></td>
+            <td><span className="upd">T멤버십 상시</span></td>
+            <td><span className="upd">플래시백 계림 본인+동반1인 30% 할인 (7.1~)</span></td>
+            <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
+            <td><span className="upd">2026.06.25</span></td>
+            <td><span className="cb bs"><span className="upd">SKT</span></span></td>
+            <td><span className="upd">T멤버십 상시</span></td>
+            <td><span className="upd">해커스 어학원 30%, 인강 20% 신규 제휴 (7.1~)</span></td>
+            <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
             <td>2026.06.15</td>

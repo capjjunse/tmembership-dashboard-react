@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">T 멤버십으로 즐기는 특별한 여름, 7월 혜택 총정리</span></span></div>
+            <div className="nsum">여름휴가 시즌 맞아 SUMMER LUCKY WEEK(7월 13~17일) 5성급 호텔 숙박권 응모 이벤트, Young Week 브랜드 개편, 신규 제휴사 3곳 합류, 서울랜드 본인 50%·동반 40% 할인. 토이콘 서울 2026 관람권 30% 할인.</div>
+            <div className="nmeta"><span className="upd">2026-07-01</span> · <a href="https://news.sktelecom.com/227258" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">여름방학을 더 가볍고 알차게, 대학생을 위한 SKT 혜택 모아보기</span></div>
             <div className="nsum">T멤버십이 여름방학 대학생 고객 지원 콘텐츠 발행. 식음료·카페(T 우주 구독 할인), 해외여행(34세 이하 로밍 특가), 자기계발(Class101·어학 플랫폼), 문화(0 week 뮤지컬·전시 할인) 4가지 카테고리로 일상 지출 관리·학습 지원 혜택 강화.</div>
             <div className="nmeta">2026-06-17 · <a href="https://news.sktelecom.com/226659" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -57,6 +62,11 @@ export default function News() {
 
       {tab === 'kt' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">KT, 장기고객 문화혜택 확대, 뮤지컬 그날들 1천200명 초청</span></span></div>
+            <div className="nsum"><span className="upd">KT 장기 고객(모바일·인터넷·TV 합산 5년 이상)을 위한 뮤지컬 '그날들' 7월 25일 공연 1,200명 초청 이벤트. 엄기준·윤시윤 출연 작품. 네컷 스티커 촬영·SNS 이벤트 병행. KT 위즈파크 '캠핑존 초대드림'도 운영 — 야구장 내 캐핑과 경기 관람 동시 즐기기.</span></div>
+            <div className="nmeta"><span className="upd">2026-06-19</span> · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&datNo=19184" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 월드컵 시즌 맞아 6월 멤버십 강화 — GS25 컵라면/던킨 50%, 쇼핑·문화 최대 50% 할인</span></div>
             <div className="nsum">KT멤버십이 2026 FIFA 월드컵 시즌을 맞아 6월 16~30일 고객보답 프로그램 강화. GS25 컵라면·디저트 50%(최대 1,900원) 또는 던킨 전 품목 50%(최대 6,000원) 중 선택. 달달혜택은 VIPS 채끝스테이크 무료, 배민·노모어피자 최대 1만원 할인, 공차·버거킹 50%, 롯데시네마 영화표 제공. 문화혜택으로 뮤지컬·전시 최대 50% 할인.</div>
