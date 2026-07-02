@@ -159,7 +159,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">VIP신규</em><span className="upd">VIP콕 유독 4,000원 할인 (7.1~)</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">투쁠데이 7.7~7.21 공개 — 공차·피자헛·CGV 등</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">투쁠데이 7.7~7.21 공개</span></div>
             <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">유플투쁠_컬처 7.13~17 · 장기고객데이 7.23</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
