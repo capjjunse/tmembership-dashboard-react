@@ -201,7 +201,7 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .ht tr:last-child td{border-bottom:none}
 .ht tr:hover td{background:var(--bg3)}
 .tb{display:inline-block;padding:2px 9px;border-radius:20px;font-size:10px;font-weight:800}
-.t신규{background:#dbeafe;color:#1d4ed8}.t변경{background:var(--warn-bg);color:var(--warn)}.t종료{background:var(--neg-bg);color:var(--neg)}.t재개{background:var(--pos-bg);color:var(--pos)}
+.t신규{background:#dbeafe;color:#1d4ed8}.t변경{background:var(--warn-bg);color:var(--warn)}.t종료{background:var(--neg-bg);color:var(--neg)}.t재개{background:var(--pos-bg);color:var(--pos)}.t예정{background:var(--bg3);color:var(--tx3)}
 .tr2{display:flex;gap:5px;flex-wrap:wrap}
 .ntab,.ctab{padding:7px 16px;border-radius:20px;border:1.5px solid var(--bd2);font-size:12px;font-weight:700;cursor:pointer;background:var(--bg);color:var(--tx2);font-family:inherit;transition:.15s}
 .ntab:hover,.ctab:hover{background:var(--bg3)}

@@ -113,7 +113,7 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#vp" className="ovg2-card cs">
             <div className="ovg2-item">VIP Pick 현행 유지 — T우주패스 연3회 운영 중</div>
-            <div className="ovg2-item"><span className="upd">신규 3개 — 오붓·플래시백·해커스 (7.1~)</span></div>
+            <div className="ovg2-item">신규 3개 — 오붓·플래시백·해커스 (7.1~)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>T day 1주차(7.1) 아웃백·더벤티·피자헛</div>
@@ -131,7 +131,7 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#rg" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>CGV 동반할인 3인 → 4인으로 확대</div>
-            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>생일 꾸까·스벅케이크·롯시 택1</div>
+            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em><span className="upd">VVIP 신규 생일 꾸까·스벅케이크·롯시 택1 (VIP 미제공)</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">미발표</em>7월 달달혜택 미발표 — 15일경 공개 예정</div>
@@ -147,8 +147,8 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-new">상시신규</em><span className="upd">7월 신규 8개 — 프린트베이커리 등 (7.1~)</span></div>
-            <div className="ovg2-item"><em className="tg tg-chg">상시변경</em><span className="upd">포텔리어 구독권 무료 2주로 축소 (7.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">상시신규</em>7월 신규 8개 — 프린트베이커리 등 (7.1~)</div>
+            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em><span className="upd">VIP콕 유독 4,000원 할인 (7.1~)</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">투쁠데이 7.7~7.21 공개 — 공차·피자헛·CGV 등</span></div>

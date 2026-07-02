@@ -34,8 +34,8 @@ export default function History() {
             <td><span className="upd">2026.06.25</span></td>
             <td><span className="cb bs"><span className="upd">SKT</span></span></td>
             <td><span className="upd">T멤버십 상시</span></td>
-            <td><span className="upd">아시아나 인터넷 면세점 10% 할인 제휴 종료 (7.31)</span></td>
-            <td><span className="tb t종료">종료</span></td>
+            <td><span className="upd">아시아나 인터넷 면세점 10% 할인 제휴 종료 예정 (7.31)</span></td>
+            <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
             <td>2026.06.25</td>
