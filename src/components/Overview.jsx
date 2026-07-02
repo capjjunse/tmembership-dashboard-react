@@ -117,15 +117,15 @@ export default function Overview() {
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>T day 1주차(7.1) 아웃백·더벤티·피자헛</div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>0 week(7.6~) 뚜레쥬르·투썸·GS25 등 7종</div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em>Young week(7.6~) 뚜레쥬르·투썸·GS25 등 7종</div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>원마운트 워터파크 6.25 제휴 종료</div>
             <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">오붓·플래시백·해커스 신규 제휴 (7.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>전반 긍정 45% · 부정 44% 박빙</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK T우주패스 너프 불만 (6.24)</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">전반 부정 53% · 긍정 35% — 부정 우세</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">T day 7/1 "뭐가 없네" 불만 다수</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
@@ -142,7 +142,7 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>올리브영 쿠폰 만료 항의</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>컵라면 '재고정리야' 강한 불만</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">7월 보답 1차 '쇼핑라운지 너프' 강한 불만</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
@@ -159,8 +159,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">포텔리어 구독권 무료 2주로 축소 (7.1 적용)</span></div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>유플투쁠 67% 긍정 우세</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>노브랜드 수량 소진 빠른 마감 아쉬움</div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">유플투쁠 긍정·부정 50:50 혼재</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">7월 투쁠 "혜택 줄어" 감소 불만 (7.1)</span></div>
           </a>
         </div>
 

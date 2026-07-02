@@ -9,7 +9,7 @@ export default function MonthlyBenefits() {
       <div className="m3">
         <div className="mc">
           <div className="mch ms">
-            <span>SKT — T day + 0 week</span>
+            <span>SKT — T day + Young week</span>
             <a href="https://sktmembership.tworld.co.kr/mps/pc-bff/program/tday.do" target="_blank" rel="noreferrer" className="mlink">T day →</a>
           </div>
           <div className="mcb">
@@ -28,7 +28,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>0 week (7.6~7.10)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Young week (7.6~7.10)</span></div>
               <ul className="mblist">
                 <li>뚜레쥬르 리얼브라우니 1개 증정 (선착순 20만건, ~7.12)</li>
                 <li>투썸플레이스 제조 음료 40% 할인 (5종 중 택1) · 조각 케이크 40% 할인</li>
@@ -64,7 +64,7 @@ export default function MonthlyBenefits() {
             <div className="mpnt-concept">시원한 여름 테마 — 1주차 외식 집중 구성</div>
             <ul className="mpnt-list">
               <li>1주차(7.1) 아웃백·더벤티·피자헛 조기 공개</li>
-              <li>0 week(7.6~) 뚜레쥬르·투썸·GS25 등 7종</li>
+              <li>Young week(7.6~) 뚜레쥬르·투썸·GS25 등 7종</li>
               <li>Week혜택·2~4주차 전체 미공개 · 확인 예정</li>
             </ul>
           </div>

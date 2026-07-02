@@ -86,7 +86,7 @@ export function CategoryNewsContent({ excludeBrands = [] }) {
                   <span className="cn-badge cn-num">관련 기사 {articles.length}건</span>
                 </div>
               </div>
-              {insight && <p className="cn-insight">{insight}</p>}
+              {insight && <p className="cn-insight">{insight.split(/\s*—\s*T멤버십/)[0]}</p>}
             </div>
 
             <ul className="cn-list">

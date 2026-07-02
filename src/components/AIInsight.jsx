@@ -32,7 +32,7 @@ const compGroups = [
   {
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
-    desc: 'KT 미참여 · SKT Tday·0week × LGU+ 투쁠데이',
+    desc: 'KT 미참여 · SKT Tday·Young week × LGU+ 투쁠데이',
     rows: [
       {
         brand: <span className="upd">피자헛</span>,
@@ -45,25 +45,25 @@ const compGroups = [
       },
       {
         brand: <span className="upd">투썸플레이스</span>,
-        skt: { lines: [{ grade: '전 등급', b: '제조 음료 40% (5종 택1) · 조각케이크 40%' }], date: <span className="upd">7.6~7.10 · 0 week</span> },
+        skt: { lines: [{ grade: '전 등급', b: '제조 음료 40% (5종 택1) · 조각케이크 40%' }], date: <span className="upd">7.6~7.10 · Young week</span> },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: <span className="upd">7.14 · 투쁠데이</span> },
         v: 'good',
         basis: <span className="upd">SKT 음료+케이크 각 40% vs LGU+ 케이크 구매 조건부</span>,
-        note: 'SKT 0 week(7.6~7.10), LGU+ 7.14',
+        note: 'SKT Young week(7.6~7.10), LGU+ 7.14',
       },
       {
         brand: <span className="upd">오뚜기몰</span>,
-        skt: { lines: [{ grade: '전 등급', b: '행사 제품 50% 할인 쿠폰 1매 (~7.15)' }], date: <span className="upd">7.6~7.10 · 0 week</span> },
+        skt: { lines: [{ grade: '전 등급', b: '행사 제품 50% 할인 쿠폰 1매 (~7.15)' }], date: <span className="upd">7.6~7.10 · Young week</span> },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '전 제품 최대 30% 할인 (최대 2만원)' }], date: <span className="upd">7.17 · 투쁠데이</span> },
         v: 'good',
         basis: <span className="upd">SKT 50% vs LGU+ 최대 30%</span>,
-        note: 'SKT 0 week(7.6~7.10)·~7.15, LGU+ 7.17',
+        note: 'SKT Young week(7.6~7.10)·~7.15, LGU+ 7.17',
       },
       {
         brand: <span className="upd">NOL티켓</span>,
-        skt: { lines: [{ grade: '전 등급', b: '뮤지컬 유미의 세포들 35% · 인상주의를 넘어 전시 25% (~7.31)' }], date: <span className="upd">7.6~7.10 · 0 week</span> },
+        skt: { lines: [{ grade: '전 등급', b: '뮤지컬 유미의 세포들 35% · 인상주의를 넘어 전시 25% (~7.31)' }], date: <span className="upd">7.6~7.10 · Young week</span> },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '맥스 시덴토프 개인전 최대 35%' }], date: <span className="upd">7.13 · 유플투쁠_컬처</span> },
         v: 'neut',
@@ -102,12 +102,11 @@ const alCats = [
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'Tday', deadline: '월간', rows: [{ grade: null, desc: '1주차(7.1): 아웃백 25%·더벤티 아이스 아메리카노 50%·피자헛 방문 포장 50% / 0 week(7.6~7.10): 뚜레쥬르 브라우니 1개 증정·투썸플레이스 음료·케이크 40% / 2~4주차 공개 예정' }] },
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
     ]}],
-    reasons: ['T멤버십: 상시 10~30% + 1주차(7.1) 아웃백·더벤티·피자헛 Tday / 0 week 투썸·뚜레쥬르 + 2~4주차 공개 예정', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 10~30% (아웃백·VIPS·도미노·피자헛·공차·폴바셋)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -179,11 +178,11 @@ const alCats = [
       { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'GS25', deadline: 'T day 0 week · 7.6~7.10', rows: [{ grade: '전 등급', desc: '샌드위치 50% 할인 (7종 중 택1)' }] },
+      { partner: 'GS25', deadline: 'T day Young week · 7.6~7.10', rows: [{ grade: '전 등급', desc: '샌드위치 50% 할인 (7종 중 택1)' }] },
       { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 T day 0 week(7.6~7.10) 샌드위치 50% + CU·세븐일레븐 상시 10% 운영'],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 T day Young week(7.6~7.10) 샌드위치 50% + CU·세븐일레븐 상시 10% 운영'],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -386,7 +385,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer"><span className="upd">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · KT 달달혜택·LGU+ 유플투쁠 미공개 — 공개 후 업데이트 예정)</span></div>
+          <div className="comp-footer"><span className="upd">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · KT 달달혜택 미공개 — 공개 후 업데이트 예정)</span></div>
         </div>
       </div>
 
