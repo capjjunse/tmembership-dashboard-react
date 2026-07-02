@@ -30,35 +30,43 @@ function IssueRadarCard() {
     const href = urgentS.length > 0 ? '#ai-radar' : '#ai-market';
     const goText = urgentS.length > 0 ? '이슈 레이더 보기 →' : '마켓 시그널 보기 →';
 
+    const MAX_URGENT_BLOCKS = 3;
+    const urgentBlocks = [
+      ...urgentS.map(s => ({ type: 's', data: s })),
+      ...urgentM.map(m => ({ type: 'm', data: m })),
+    ];
+    const visibleBlocks = urgentBlocks.slice(0, MAX_URGENT_BLOCKS);
+    const hiddenCount = urgentBlocks.length - visibleBlocks.length;
+
     return (
       <a href={href} className="ovki ovki-urgent">
         <div className="ovki-cat">🚨 긴급 대응 필요</div>
         <div className="ovki-title">{titleBrands} — 즉각 검토 필요</div>
-        {urgentS.map((s, i) => (
+        {visibleBlocks.map((b, i) => b.type === 's' ? (
           <div key={i} className="ovki-urgent-blk">
             <div className="ovki-urgent-hdr">
-              <span className="ovki-urgent-brand">{s.brand}</span>
+              <span className="ovki-urgent-brand">{b.data.brand}</span>
               <span className="ovki-ubadge ovki-ubadge-neg">강 · 부정</span>
-              {s.telcos.length > 0 && (
+              {b.data.telcos.length > 0 && (
                 <span className="ovki-ubadge ovki-ubadge-telco">
-                  {s.telcos.map(t => t.label).join('·')} 제휴 중
+                  {b.data.telcos.map(t => t.label).join('·')} 제휴 중
                 </span>
               )}
             </div>
-            <div className="ovki-urgent-hl">{s.headline[0]}</div>
+            <div className="ovki-urgent-hl">{b.data.headline[0]}</div>
           </div>
-        ))}
-        {urgentM.map((m, i) => (
+        ) : (
           <div key={i} className="ovki-urgent-blk">
             <div className="ovki-urgent-hdr">
-              <span className="ovki-urgent-brand">{m.topic}</span>
+              <span className="ovki-urgent-brand">{b.data.topic}</span>
               <span className="ovki-ubadge ovki-ubadge-neg">마켓 긴급</span>
             </div>
             <div className="ovki-urgent-hl">
-              {m.insight.length > 55 ? m.insight.slice(0, 55) + '…' : m.insight}
+              {b.data.insight.length > 55 ? b.data.insight.slice(0, 55) + '…' : b.data.insight}
             </div>
           </div>
         ))}
+        {hiddenCount > 0 && <div className="ovki-urgent-more">+{hiddenCount}건 더 있음</div>}
         <div className="ovki-go">{goText}</div>
       </a>
     );
