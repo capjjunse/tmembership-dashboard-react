@@ -139,7 +139,7 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#rg" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>CGV 동반할인 3인 → 4인으로 확대</div>
-            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em><span className="upd">VVIP 신규 생일 꾸까·스벅케이크·롯시 택1 (VIP 미제공)</span></div>
+            <div className="ovg2-item"><em className="tg tg-note">정정</em><span className="upd">VIP 생일혜택 없음 확인</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">미발표</em>7월 달달혜택 미발표 — 15일경 공개 예정</div>
@@ -156,11 +156,11 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">상시신규</em>7월 신규 8개 — 프린트베이커리 등 (7.1~)</div>
-            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em><span className="upd">VIP콕 유독 4,000원 할인 (7.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-note">정정</em><span className="upd">VIP콕 4,000원 할인 유지</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">투쁠데이 7.7~7.21 공개</span></div>
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">유플투쁠_컬처 7.13~17 · 장기고객데이 7.23</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">컬처 7.13~17·장기고객 7.23</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">7월 신규 8개 — 프린트베이커리 등 (7.1~)</span></div>
