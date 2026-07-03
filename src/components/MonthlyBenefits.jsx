@@ -76,14 +76,22 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>고객보답 1차 (7.1~7.15)</span></div>
               <ul className="mblist">
-                <li>매월 15일경 공개 예정</li>
+                <li>배스킨라빈스 (전 등급) 50% 할인 (최대 5,000원)</li>
+                <li>쇼핑라운지 (전 등급) 전 상품 5,000원 할인</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>달달혜택</span></div>
+              <ul className="mblist">
+                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 매월 15일경 공개 예정</li>
               </ul>
             </div>
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept" style={{ color: 'var(--tx3)' }}>공개 후 업데이트 예정</div>
+            <div className="mpnt-concept" style={{ color: 'var(--tx3)' }}>고객보답 1차 배스킨·쇼핑라운지 / 달달혜택 15일경 공개</div>
           </div>
         </div>
         <div className="mc">

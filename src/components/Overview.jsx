@@ -138,9 +138,9 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#rg" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>CGV 동반 3→4인 확대</div>
-            <div className="ovg2-item"><em className="tg tg-note">정정</em><span className="upd">VIP 생일혜택 없음 확인</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em>고객보답 1차 오픈 (7.1~7.15)</div>
             <div className="ovg2-item"><em className="tg tg-on">미발표</em>달달혜택 미발표 (7.15 예정)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
@@ -154,7 +154,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-note">정정</em><span className="upd">VIP콕 4,000원 할인 유지</span></div>
+            <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">투쁠데이 진행중 (7.7~7.21)</span></div>

@@ -49,14 +49,14 @@ export default function VipBenefits() {
               도미노 3만원 할인
             </td>
             <td>
-              <span className="upd">유독</span><br />
-              <span className="upd">4,000원 할인</span>
+              유독<br />
+              4,000원 할인
             </td>
           </tr>
           <tr>
             <td>생일</td>
             <td className="na">미제공</td>
-            <td>VVIP: 꾸까·스벅케이크·롯시 택1<br /><span className="upd">VIP: 미제공</span></td>
+            <td>VVIP: 꾸까·스벅케이크·롯시 택1<br />VIP: 미제공</td>
             <td className="na">미제공</td>
           </tr>
         </tbody>
