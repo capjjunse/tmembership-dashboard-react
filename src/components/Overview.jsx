@@ -120,7 +120,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#vp" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-note">VIP예정</em>T우주패스 8월 개편 예정</div>
+            <div className="ovg2-item"><em className="tg tg-note">VIP예정</em>T우주패스 개편 (8.1)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>T day 1주차 진행중 (7.1)</div>
@@ -128,7 +128,7 @@ export default function Overview() {
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>원마운트 워터파크 6.25 종료</div>
-            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">오붓·플래시백·해커스</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">오붓·플래시백·해커스 (7.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 53%·긍정 35%</span></div>
@@ -137,15 +137,15 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#rg" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>CGV 동반 3→4인 확대</div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>CGV 동반 4인 확대 (5.1~)</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-new">오픈</em>고객보답 1차 오픈 (7.1~7.15)</div>
             <div className="ovg2-item"><em className="tg tg-on">미발표</em>달달혜택 미발표 (7.15 예정)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">오토오아시스 부가정비 4종</span></div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">MOVV 인천공항 편도 추가</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">오토오아시스 부가정비 (7.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">MOVV 인천공항 (7.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>올리브영 쿠폰 만료 항의</div>
@@ -161,8 +161,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">장기고객데이 진행중 (7.23)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">프린트베이커리 등 8개</span></div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">포텔리어 무료 2주로 축소</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">프린트베이커리 등 (7.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">포텔리어 무료 2주 (7.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">유플투쁠 긍정·부정 50:50</span></div>
