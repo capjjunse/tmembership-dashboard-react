@@ -123,8 +123,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-note">VIP예정</em>T우주패스 8월 개편 예정</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>T day 1주차 (7.1)</div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>Young week(7.6~10)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>T day 1주차 진행중 (7.1)</div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em>Young week 혜택 오픈 (7.6~7.10)</div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>원마운트 워터파크 6.25 종료</div>
@@ -141,7 +141,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-note">정정</em><span className="upd">VIP 생일혜택 없음 확인</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-on">미발표</em>달달혜택 15일경 공개</div>
+            <div className="ovg2-item"><em className="tg tg-on">미발표</em>달달혜택 미발표 (7.15 예정)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">오토오아시스 부가정비 4종</span></div>
@@ -157,8 +157,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-note">정정</em><span className="upd">VIP콕 4,000원 할인 유지</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">투쁠데이 7.7~7.21 공개</span></div>
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">장기고객데이 7.23</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">투쁠데이 진행중 (7.7~7.21)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">장기고객데이 진행중 (7.23)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">프린트베이커리 등 8개</span></div>
