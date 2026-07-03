@@ -571,8 +571,8 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .upd-panel{background:var(--bg);border:1.5px solid var(--bd2);border-radius:var(--r);box-shadow:0 8px 32px rgba(0,0,0,.12);width:300px;overflow:hidden;animation:upd-in .15s ease}
 @keyframes upd-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 .upd-panel-hd{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:var(--bg3);border-bottom:1px solid var(--bd);font-size:12px;font-weight:800;color:var(--tx)}
+.upd-panel-date{font-size:10px;font-weight:500;color:var(--tx3)}
 .upd-panel-body{max-height:320px;overflow-y:auto}
-.upd-empty{padding:20px 14px;font-size:12px;color:var(--tx3);text-align:center}
 .upd-item{display:block;padding:10px 14px;border-bottom:1px solid var(--bd);text-decoration:none;transition:.15s}
 .upd-item:last-child{border-bottom:none}
 .upd-item:hover{background:var(--bg3)}
@@ -580,5 +580,3 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .upd-item-descs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:3px}
 .upd-item-descs li{font-size:11.5px;color:var(--tx2);line-height:1.5;padding-left:.8rem;position:relative}
 .upd-item-descs li::before{content:'·';position:absolute;left:0;color:var(--neg)}
-.upd-item-more{color:var(--tx3)!important;font-style:italic}
-.upd-item-more::before{color:var(--tx3)!important}
