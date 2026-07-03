@@ -121,11 +121,10 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#vp" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-note">VIP예정</em>T우주패스 8월 개편 예정</div>
-            <div className="ovg2-item"><em className="tg tg-new">상시신규</em>오붓·플래시백·해커스</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>T day 1주차 아웃백 등</div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>Young week 7.6~</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>T day 1주차 (7.1)</div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em>Young week(7.6~10)</div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>원마운트 워터파크 6.25 종료</div>
@@ -155,7 +154,6 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-new">상시신규</em>프린트베이커리 등 8개</div>
             <div className="ovg2-item"><em className="tg tg-note">정정</em><span className="upd">VIP콕 4,000원 할인 유지</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
