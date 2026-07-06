@@ -18,9 +18,9 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">T 멤버십으로 즐기는 특별한 여름, 7월 혜택 총정리</span></span></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">T 멤버십으로 즐기는 특별한 여름, 7월 혜택 총정리</span></div>
             <div className="nsum">여름휴가 시즌 맞아 SUMMER LUCKY WEEK(7월 13~17일) 5성급 호텔 숙박권 응모 이벤트, Young Week 브랜드 개편, 신규 제휴사 3곳 합류, 서울랜드 본인 50%·동반 40% 할인. 토이콘 서울 2026 관람권 30% 할인.</div>
-            <div className="nmeta"><span className="upd">2026-07-01</span> · <a href="https://news.sktelecom.com/227258" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nmeta">2026-07-01 · <a href="https://news.sktelecom.com/227258" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">여름방학을 더 가볍고 알차게, 대학생을 위한 SKT 혜택 모아보기</span></div>
@@ -63,9 +63,14 @@ export default function News() {
       {tab === 'kt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">KT, 장기고객 문화혜택 확대, 뮤지컬 그날들 1천200명 초청</span></span></div>
-            <div className="nsum"><span className="upd">KT 장기 고객(모바일·인터넷·TV 합산 5년 이상)을 위한 뮤지컬 '그날들' 7월 25일 공연 1,200명 초청 이벤트. 엄기준·윤시윤 출연 작품. 네컷 스티커 촬영·SNS 이벤트 병행. KT 위즈파크 '캠핑존 초대드림'도 운영 — 야구장 내 캐핑과 경기 관람 동시 즐기기.</span></div>
-            <div className="nmeta"><span className="upd">2026-06-19</span> · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&datNo=19184" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">KT멤버십, 국가서비스대상 수상 기념 고객 참여형 이벤트 진행</span></span></div>
+            <div className="nsum"><span className="upd">KT가 2026 국가서비스대상 통신 멤버십 부문 대상 수상을 기념해 고객 참여형 이벤트를 진행합니다. 7월 2일~14일 KT멤버십 앱 내 취향 밸런스 게임으로 다이소 금액권·외식 할인 쿠폰 증정, 추첨 시 프리미엄 숙박권도 제공. 7월 1~15일 고객 보답 프로그램으로 배스킨라빈스 50%, 쇼핑라운지 5천원 할인 중 선택. 달달혜택은 폴바셋·크리스탈 제이드·VIPS·도미노피자·메가MGC커피 등 일상 활용도 높은 브랜드 구성.</span></div>
+            <div className="nmeta"><span className="upd">2026-06-30</span> · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19198" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">KT, 장기고객 문화혜택 확대, 뮤지컬 그날들 1천200명 초청</span></div>
+            <div className="nsum">KT 장기 고객(모바일·인터넷·TV 합산 5년 이상)을 위한 뮤지컬 '그날들' 7월 25일 공연 1,200명 초청 이벤트. 엄기준·윤시윤 출연 작품. 네컷 스티커 촬영·SNS 이벤트 병행. KT 위즈파크 '캠핑존 초대드림'도 운영 — 야구장 내 캐핑과 경기 관람 동시 즐기기.</div>
+            <div className="nmeta">2026-06-19 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&datNo=19184" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 월드컵 시즌 맞아 6월 멤버십 강화 — GS25 컵라면/던킨 50%, 쇼핑·문화 최대 50% 할인</span></div>
@@ -92,6 +97,11 @@ export default function News() {
 
       {tab === 'lgu' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">휴가부터 시원한 일상까지, 7월을 위한 유플투쁬 혜택</span></span></div>
+            <div className="nsum"><span className="upd">본격적인 여름 휴가 시즌을 맞아 유플투쁬이 다양한 혜택을 준비했습니다. 공차 50% 할인, 피자헛 55% 할인, 투썸플레이스 아메리카노 무료, 배달의민족×KFC 8,500원 할인, 배스킨라빈스 패밀리 9천원 할인, 이마트24 5천원 할인, 매드포갈릭 2만5천원 할인, CU 불닭볶음면 1,200원 할인 등 식음료 혜택과 카카오페이지·카카오웹툰 캐시 증정, 씨네Q 영화표, 신라인터넷면세점 쿠폰 등 문화·쇼핑 혜택도 운영합니다.</span></div>
+            <div className="nmeta"><span className="upd">2026-07-01</span> · <a href="https://news.lguplus.com/22202" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">응원과 혜택을 한 번에, 6월을 위한 유플투쁬 혜택</span></div>
             <div className="nsum">6월 한 달간 식음료, 문화/여가, 쇼핑 분야에서 다양한 혜택. 피자헛 프리미엄 피자 55% 할인(6/19), 아웃백 최대 25% 할인(6/16), 배스킨라빈스 패밀리 사이즈 최대 9천원 할인(6/15), CGV 유플투쁬세트 무료(6/18), 서울랜드 파크이용권 55% 할인(6/19), 컬리 5천원 할인(6/15), 다이소 최대 2천원 금액권(6/23) 등. U+one 앱 유플투쁬 타임 오전 11시 선착순.</div>
