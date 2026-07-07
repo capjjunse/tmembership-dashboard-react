@@ -169,7 +169,7 @@ const alCats = [
       ]},
     ],
     tm: null,
-    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <>T멤버십: 배달 상시 제휴 없음 · <span className="upd">Week혜택(7.6~7.10) 배달의민족 6천원 할인 운영</span></>],
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <>T멤버십: 배달 상시 제휴 없음 · <span className="upd">Week혜택 배민 6천원 할인</span></>],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'neut',
@@ -200,7 +200,7 @@ const alCats = [
       { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', <>T멤버십: GS25 <span className="upd">Young week(7.6~7.10)</span> 샌드위치 50% + CU·세븐일레븐 상시 10% 운영</>],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', <>T멤버십: GS25 <span className="upd">Young week</span> 샌드위치50% + CU·세븐 상시10%</>],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -213,7 +213,7 @@ const alCats = [
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <>T멤버십: CGV 상시 4천원 + VIP 무료연3회/1+1연9회 · <span className="upd">Week혜택(7.6~7.10) CGV 8,500원+매점쿠폰 운영</span></>],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <>T멤버십: CGV 4천원+VIP연3회/1+1연9회 · <span className="upd">Week 8,500원+쿠폰</span></>],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -232,7 +232,7 @@ const alCats = [
         { grade: 'G, S', desc: '3% 적립' },
       ]},
     ]}],
-    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 오프라인 3% 적립 (홀수월 기준) · 7월 T day 마트 혜택 미공개'],
+    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 오프라인 3% 적립(홀수월) · 마트 혜택 미공개'],
   },
 ];
 
