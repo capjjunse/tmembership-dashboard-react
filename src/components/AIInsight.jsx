@@ -63,7 +63,7 @@ const compGroups = [
       },
       {
         brand: '투썸플레이스',
-        skt: { lines: [{ grade: '전 등급', b: '제조 음료 40% (5종 택1) · 조각케이크 40%' }], date: '7.6~7.10 · Young week' },
+        skt: { lines: [{ grade: '전 등급', b: '제조 음료 40% (5종 택1)' }, { grade: '전 등급', b: '조각케이크 40%' }], date: '7.6~7.10 · Young week' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: '7.14 · 투쁠데이' },
         v: 'good',
@@ -81,7 +81,7 @@ const compGroups = [
       },
       {
         brand: 'NOL티켓',
-        skt: { lines: [{ grade: '전 등급', b: '뮤지컬 유미의 세포들 35% · 인상주의를 넘어 전시 25% (~7.31)' }], date: '7.6~7.10 · Young week' },
+        skt: { lines: [{ grade: '전 등급', b: '뮤지컬 유미의 세포들 35%' }, { grade: '전 등급', b: '인상주의를 넘어 전시 25% (~7.31)' }], date: '7.6~7.10 · Young week' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '맥스 시덴토프 개인전 최대 35%' }], date: '7.13 · 유플투쁠_컬처' },
         v: 'neut',
