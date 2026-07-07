@@ -40,7 +40,7 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 55% 할인 + 리치치즈파스타 증정' }], date: '7.7 · 투쁠데이' },
         v: 'warn',
-        basis: { skt: '포장 50% 할인', lgu: '55%+파스타 증정', gap: 'LGU+ 5%p↑+파스타증정' },
+        basis: { skt: '포장 50% 할인', lgu: '55% 할인 + 파스타 증정', gap: 'LGU+ 5%p↑+파스타증정' },
         note: { skt: '7.1', lgu: '7.7' },
       },
       {
@@ -49,7 +49,7 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: <span className="upd">7.9 · 투쁠데이</span> },
         v: 'good',
-        basis: { skt: <span className="upd">5만원↑ 2만원</span>, lgu: '5.5만원↑ 2만원', gap: <span className="upd">SKT 문턱 5천원↓</span> },
+        basis: { skt: <span className="upd">5만원↑ 2만원 할인</span>, lgu: '5.5만원↑ 2만원 할인', gap: <span className="upd">SKT 문턱 5천원↓</span> },
         note: { skt: <span className="upd">7.6~7.10</span>, lgu: <span className="upd">7.9</span> },
       },
       {
@@ -58,7 +58,7 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 무료 (유플투쁠세트)' }], date: <span className="upd">7.17 · 투쁠데이</span> },
         v: 'good',
-        basis: { skt: <span className="upd">8,500원+스낵2종</span>, lgu: '스낵 1종 무료', gap: <span className="upd">SKT 티켓+스낵 우위</span> },
+        basis: { skt: <span className="upd">8,500원+스낵 2종</span>, lgu: '스낵 1종 무료', gap: <span className="upd">SKT 티켓+스낵 우위</span> },
         note: { skt: <span className="upd">7.6~7.10</span>, lgu: <span className="upd">7.17</span> },
       },
       {
@@ -67,7 +67,7 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: '7.14 · 투쁠데이' },
         v: 'good',
-        basis: { skt: '음료·케이크 40%', lgu: '케이크구매시 무료', gap: 'SKT 40%×2 무조건' },
+        basis: { skt: '음료·케이크 각 40%', lgu: '케이크 구매시 무료 아메(조건부)', gap: 'SKT 40%×2 무조건' },
         note: { skt: '7.6~7.10', lgu: '7.14' },
       },
       {
@@ -76,7 +76,7 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '전 제품 최대 30% 할인 (최대 2만원)' }], date: '7.17 · 투쁠데이' },
         v: 'good',
-        basis: { skt: '50% 할인', lgu: '최대 30%', gap: 'SKT 20%p 우위' },
+        basis: { skt: '50% 할인', lgu: '최대 30% 할인', gap: 'SKT 20%p 우위' },
         note: { skt: '7.6~7.10', lgu: '7.17' },
       },
       {
@@ -85,7 +85,7 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '맥스 시덴토프 개인전 최대 35%' }], date: '7.13 · 유플투쁠_컬처' },
         v: 'neut',
-        basis: { skt: '뮤지컬35%+전시25%', lgu: '전시 35%', gap: '동급, 작품수만 차이' },
+        basis: { skt: '2작품(뮤지컬35%+전시25%)', lgu: '1작품(전시35%)', gap: '동급, 작품수만 차이' },
         note: { skt: '7.6~7.10', lgu: '7.13' },
       },
     ],
