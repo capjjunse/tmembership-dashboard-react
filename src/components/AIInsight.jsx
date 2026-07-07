@@ -36,7 +36,7 @@ const compGroups = [
     rows: [
       {
         brand: '피자헛',
-        skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (프리미엄·US오리진 M·L)' }], date: 'T day 1주차 · 7.1' },
+        skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (프리미엄·US오리진 M·L)' }], date: 'Day 1 · 7.1' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 55% 할인 + 리치치즈파스타 증정' }], date: '투쁠데이 · 7.7' },
         v: 'warn',

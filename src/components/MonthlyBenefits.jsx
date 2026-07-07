@@ -14,7 +14,7 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>T day 1주차 (7.1)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 1 (7.1)</span></div>
               <ul className="mblist">
                 <li>아웃백 스테이크하우스 25% 할인/적립 (최대 5만원)</li>
                 <li>더벤티 아이스 아메리카노 50% 할인 (7.1~7.3)</li>
@@ -48,19 +48,19 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>T day 2주차 (7.13~7.17)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (7.13~7.17)</span></div>
               <ul className="mblist">
                 <li style={{ color: 'var(--tx3)' }}>Coming Soon — 7월 13일 공개 예정</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>T day 3주차 (7.22)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (7.22)</span></div>
               <ul className="mblist">
                 <li style={{ color: 'var(--tx3)' }}>Coming Soon — 7월 22일 공개 예정</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>T day 4주차 (7.29)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (7.29)</span></div>
               <ul className="mblist">
                 <li style={{ color: 'var(--tx3)' }}>Coming Soon — 7월 29일 공개 예정</li>
               </ul>
@@ -72,7 +72,7 @@ export default function MonthlyBenefits() {
             <ul className="mpnt-list">
               <li><span className="upd">Week혜택 7.6~10 공개 · VIP찬스 2종 포함</span></li>
               <li><span className="upd">Young week 7.6~10 · 뚜레쥬르·투썸·GS25 등</span></li>
-              <li><span className="upd">T day 2~4주차 미공개 · 7.13부터 순차 오픈</span></li>
+              <li><span className="upd">Day 2~4 미공개 · 7.13부터 순차 오픈</span></li>
             </ul>
           </div>
         </div>
