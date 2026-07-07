@@ -238,7 +238,7 @@ const alCats = [
 
 const alVdLabel = { warn: 'T멤버십 열위', good: 'T멤버십 우위', neut: '유사 수준' };
 
-const recs = [
+export const recs = [
   {
     rank: 1,
     brand: '깐부치킨',

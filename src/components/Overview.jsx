@@ -1,103 +1,80 @@
 import { trendSignals } from '../data/radarData';
-import cnData from '../../category_news.json';
+import { recs } from './AIInsight';
 
 // 긴급·주목 신호를 분류해 카드 내용을 동적으로 결정
+// ⛔ 마켓 시그널(category_news.json)은 이 카드에 절대 포함하지 않는다 — 제휴사 이슈 레이더 · 신규 제휴 추천만 소스로 사용
 function IssueRadarCard() {
-  const topics = cnData.topic_groups || [];
-  const radarBrands = trendSignals.map(s => s.brand);
-
   // 제휴사 레이더: strong + neg = 긴급 대응
   const urgentS = trendSignals.filter(s => s.strength === 'strong' && s.direction === 'neg');
   const notableS = trendSignals.filter(s => s.strength === 'mid' && s.direction === 'neg');
 
-  // 마켓 시그널: signal_strength=3이면서 레이더에 없는 브랜드만 (중복 제거)
-  const urgentM = topics.filter(
-    g => g.signal_strength === 3 && !radarBrands.some(b => g.topic.includes(b))
-  );
-  const notableM = topics.filter(
-    g => g.signal_strength === 2 && ['risk', 'battle'].includes(g.category) &&
-    !radarBrands.some(b => g.topic.includes(b))
-  ).slice(0, 2);
-
-  const isUrgent = urgentS.length > 0 || urgentM.length > 0;
+  const isUrgent = urgentS.length > 0;
 
   if (isUrgent) {
-    const titleBrands = [
-      ...urgentS.map(s => s.brand),
-      ...urgentM.map(m => m.topic.split(' ').slice(0, 2).join(' ')),
-    ].slice(0, 2).join(' · ');
-    // 제휴사 이슈가 있으면 레이더, 마켓 시그널만 긴급이면 마켓으로
-    const href = urgentS.length > 0 ? '#ai-radar' : '#ai-market';
-    const goText = urgentS.length > 0 ? '이슈 레이더 보기 →' : '마켓 시그널 보기 →';
+    const titleBrands = urgentS.map(s => s.brand).slice(0, 2).join(' · ');
 
     const MAX_URGENT_BLOCKS = 3;
-    const urgentBlocks = [
-      ...urgentS.map(s => ({ type: 's', data: s })),
-      ...urgentM.map(m => ({ type: 'm', data: m })),
-    ];
-    const visibleBlocks = urgentBlocks.slice(0, MAX_URGENT_BLOCKS);
-    const hiddenCount = urgentBlocks.length - visibleBlocks.length;
+    const visibleBlocks = urgentS.slice(0, MAX_URGENT_BLOCKS);
+    const hiddenCount = urgentS.length - visibleBlocks.length;
 
     return (
-      <a href={href} className="ovki ovki-urgent">
+      <a href="#ai-radar" className="ovki ovki-urgent">
         <div className="ovki-cat">🚨 긴급 대응 필요</div>
         <div className="ovki-title">{titleBrands} — 즉각 검토 필요</div>
-        {visibleBlocks.map((b, i) => b.type === 's' ? (
+        {visibleBlocks.map((s, i) => (
           <div key={i} className="ovki-urgent-blk">
             <div className="ovki-urgent-hdr">
-              <span className="ovki-urgent-brand">{b.data.brand}</span>
+              <span className="ovki-urgent-brand">{s.brand}</span>
               <span className="ovki-ubadge ovki-ubadge-neg">강 · 부정</span>
-              {b.data.telcos.length > 0 && (
+              {s.telcos.length > 0 && (
                 <span className="ovki-ubadge ovki-ubadge-telco">
-                  {b.data.telcos.map(t => t.label).join('·')} 제휴 중
+                  {s.telcos.map(t => t.label).join('·')} 제휴 중
                 </span>
               )}
             </div>
-            <div className="ovki-urgent-hl">{b.data.headline[0]}</div>
-          </div>
-        ) : (
-          <div key={i} className="ovki-urgent-blk">
-            <div className="ovki-urgent-hdr">
-              <span className="ovki-urgent-brand">{b.data.topic}</span>
-              <span className="ovki-ubadge ovki-ubadge-neg">마켓 긴급</span>
-            </div>
-            <div className="ovki-urgent-hl">
-              {b.data.insight.length > 55 ? b.data.insight.slice(0, 55) + '…' : b.data.insight}
-            </div>
+            <div className="ovki-urgent-hl">{s.headline[0]}</div>
           </div>
         ))}
         {hiddenCount > 0 && <div className="ovki-urgent-more">+{hiddenCount}건 더 있음</div>}
-        <div className="ovki-go">{goText}</div>
+        <div className="ovki-go">이슈 레이더 보기 →</div>
       </a>
     );
   }
 
-  // 긴급 없음 — 주목(mid+neg) + 마켓 notable 요약
-  const items = [
-    ...notableS.map(s => `${s.brand} — ${s.headline[0].length > 40 ? s.headline[0].slice(0, 40) + '…' : s.headline[0]}`),
-    ...notableM.map(m => `${m.topic} — ${m.insight.length > 38 ? m.insight.slice(0, 38) + '…' : m.insight}`),
-  ].slice(0, 3);
+  // 긴급 없음 — 주목(mid+neg) 있으면 레이더, 없으면 신규 제휴 추천으로 대체
+  if (notableS.length > 0) {
+    const items = notableS
+      .map(s => `${s.brand} — ${s.headline[0].length > 40 ? s.headline[0].slice(0, 40) + '…' : s.headline[0]}`)
+      .slice(0, 3);
+    const title = `${notableS.slice(0, 2).map(s => s.brand).join(' · ')} 모니터링 중`;
 
-  const titleParts = [
-    ...notableS.slice(0, 2).map(s => s.brand),
-    ...(notableS.length === 0 ? notableM.slice(0, 1).map(m => m.topic.split(' ').slice(0, 2).join(' ')) : []),
-  ];
-  const title = titleParts.length > 0 ? `${titleParts.join(' · ')} 모니터링 중` : '현재 주목 이슈 없음';
-  // 제휴사 주목 이슈 있으면 레이더, 마켓 시그널만 있으면 마켓으로
-  const href = notableS.length > 0 ? '#ai-radar' : (notableM.length > 0 ? '#ai-market' : '#ai-radar');
-  const goText = notableS.length > 0 ? '이슈 레이더 보기 →' : (notableM.length > 0 ? '마켓 시그널 보기 →' : '이슈 레이더 보기 →');
+    return (
+      <a href="#ai-radar" className="ovki ovki-radar">
+        <div className="ovki-cat">🔍 이슈 레이더</div>
+        <div className="ovki-title">{title}</div>
+        <ul className="ovki-list">
+          {items.map((item, i) => <li key={i}>{item}</li>)}
+        </ul>
+        <div className="ovki-go">이슈 레이더 보기 →</div>
+      </a>
+    );
+  }
+
+  // 이슈 레이더에 주목할 항목 없음 — 신규 제휴 추천 상위 항목으로 대체
+  const topRecs = recs.slice(0, 3);
+  const title = topRecs.length > 0 ? `${topRecs.slice(0, 2).map(r => r.brand).join(' · ')} 신규 추천` : '현재 주목 이슈 없음';
 
   return (
-    <a href={href} className="ovki ovki-radar">
-      <div className="ovki-cat">🔍 이슈 레이더 · 마켓 시그널</div>
+    <a href="#ai-recommend" className="ovki ovki-radar">
+      <div className="ovki-cat">🆕 신규 제휴 추천</div>
       <div className="ovki-title">{title}</div>
       <ul className="ovki-list">
-        {items.length > 0
-          ? items.map((item, i) => <li key={i}>{item}</li>)
+        {topRecs.length > 0
+          ? topRecs.map((r, i) => <li key={i}>{r.brand} — {r.tag}</li>)
           : <li>이번 주 주목 이슈 없음 · 정기 모니터링 유지</li>
         }
       </ul>
-      <div className="ovki-go">{goText}</div>
+      <div className="ovki-go">신규 제휴 추천 보기 →</div>
     </a>
   );
 }
