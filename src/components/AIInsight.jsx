@@ -168,7 +168,12 @@ const alCats = [
         ]},
       ]},
     ],
-    tm: null,
+    tm: [{ platform: 'T멤버십', items: [
+      { partner: '배달의민족×처갓집양념치킨', deadline: <span className="upd">7.6~7.10 · Week혜택</span>, rows: [
+        { grade: 'VIP', desc: <span className="upd">8천원 할인</span> },
+        { grade: '전 등급', desc: <span className="upd">6천원 할인 (1.6만원 이상)</span> },
+      ]},
+    ]}],
     reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <>T멤버십: 배달 상시 제휴 없음 · <span className="upd">Week혜택 배민 6천원 할인</span></>],
   },
   {
