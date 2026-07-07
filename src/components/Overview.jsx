@@ -97,7 +97,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#vp" className="ovg2-card cs">
-            <div className="ovg2-item"><span className="upd">특이 변동 없음</span></div>
+            <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">Week혜택 오픈 (7.6~7.10)</span></div>
@@ -114,7 +114,8 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#rg" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-chg">상시변경</em>CGV 동반 4인 확대 (5.1~)</div>
+            <div className="ovg2-item"><em className="tg tg-chg">상시변경</em><span className="upd">배스킨라빈스 50% 할인 상향 (전 등급)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">VIP 생일 — 던킨·할리스·롯시 1+1 택1</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">고객보답 1차 진행중 (7.1~7.15)</span></div>

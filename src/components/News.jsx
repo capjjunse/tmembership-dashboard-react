@@ -63,9 +63,9 @@ export default function News() {
       {tab === 'kt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">KT멤버십, 국가서비스대상 수상 기념 고객 참여형 이벤트 진행</span></span></div>
-            <div className="nsum"><span className="upd">KT가 2026 국가서비스대상 통신 멤버십 부문 대상 수상을 기념해 고객 참여형 이벤트를 진행합니다. 7월 2일~14일 KT멤버십 앱 내 취향 밸런스 게임으로 다이소 금액권·외식 할인 쿠폰 증정, 추첨 시 프리미엄 숙박권도 제공. 7월 1~15일 고객 보답 프로그램으로 배스킨라빈스 50%, 쇼핑라운지 5천원 할인 중 선택. 달달혜택은 폴바셋·크리스탈 제이드·VIPS·도미노피자·메가MGC커피 등 일상 활용도 높은 브랜드 구성.</span></div>
-            <div className="nmeta"><span className="upd">2026-06-30</span> · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19198" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">KT멤버십, 국가서비스대상 수상 기념 고객 참여형 이벤트 진행</span></div>
+            <div className="nsum">KT가 2026 국가서비스대상 통신 멤버십 부문 대상 수상을 기념해 고객 참여형 이벤트를 진행합니다. 7월 2일~14일 KT멤버십 앱 내 취향 밸런스 게임으로 다이소 금액권·외식 할인 쿠폰 증정, 추첨 시 프리미엄 숙박권도 제공. 7월 1~15일 고객 보답 프로그램으로 배스킨라빈스 50%, 쇼핑라운지 5천원 할인 중 선택. 달달혜택은 폴바셋·크리스탈 제이드·VIPS·도미노피자·메가MGC커피 등 일상 활용도 높은 브랜드 구성.</div>
+            <div className="nmeta">2026-06-30 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19198" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">KT, 장기고객 문화혜택 확대, 뮤지컬 그날들 1천200명 초청</span></div>
@@ -98,9 +98,9 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">휴가부터 시원한 일상까지, 7월을 위한 유플투쁬 혜택</span></span></div>
-            <div className="nsum"><span className="upd">본격적인 여름 휴가 시즌을 맞아 유플투쁬이 다양한 혜택을 준비했습니다. 공차 50% 할인, 피자헛 55% 할인, 투썸플레이스 아메리카노 무료, 배달의민족×KFC 8,500원 할인, 배스킨라빈스 패밀리 9천원 할인, 이마트24 5천원 할인, 매드포갈릭 2만5천원 할인, CU 불닭볶음면 1,200원 할인 등 식음료 혜택과 카카오페이지·카카오웹툰 캐시 증정, 씨네Q 영화표, 신라인터넷면세점 쿠폰 등 문화·쇼핑 혜택도 운영합니다.</span></div>
-            <div className="nmeta"><span className="upd">2026-07-01</span> · <a href="https://news.lguplus.com/22202" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">휴가부터 시원한 일상까지, 7월을 위한 유플투쁬 혜택</span></div>
+            <div className="nsum">본격적인 여름 휴가 시즌을 맞아 유플투쁬이 다양한 혜택을 준비했습니다. 공차 50% 할인, 피자헛 55% 할인, 투썸플레이스 아메리카노 무료, 배달의민족×KFC 8,500원 할인, 배스킨라빈스 패밀리 9천원 할인, 이마트24 5천원 할인, 매드포갈릭 2만5천원 할인, CU 불닭볶음면 1,200원 할인 등 식음료 혜택과 카카오페이지·카카오웹툰 캐시 증정, 씨네Q 영화표, 신라인터넷면세점 쿠폰 등 문화·쇼핑 혜택도 운영합니다.</div>
+            <div className="nmeta">2026-07-01 · <a href="https://news.lguplus.com/22202" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">응원과 혜택을 한 번에, 6월을 위한 유플투쁬 혜택</span></div>
