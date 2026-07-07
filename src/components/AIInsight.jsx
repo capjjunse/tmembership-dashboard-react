@@ -40,8 +40,8 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 55% 할인 + 리치치즈파스타 증정' }], date: '7.7 · 투쁠데이' },
         v: 'warn',
-        basis: 'LGU+ 55% > SKT 50% — 5%p 격차 + 파스타 증정',
-        note: <>SKT : 7.1<br />LGU+ : 7.7</>,
+        basis: { skt: '포장 50% 할인', lgu: '55% 할인 + 파스타 증정', gap: 'LGU+ 5%p↑ + 파스타 증정' },
+        note: { skt: '7.1', lgu: '7.7' },
       },
       {
         brand: <span className="upd">그리팅</span>,
@@ -49,8 +49,8 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: <span className="upd">7.9 · 투쁠데이</span> },
         v: 'good',
-        basis: <span className="upd">SKT 동일 2만원, 구매 문턱 5천원 더 낮음</span>,
-        note: <span className="upd">SKT : 7.6~7.10<br />LGU+ : 7.9</span>,
+        basis: { skt: <span className="upd">5만원↑ 2만원 할인</span>, lgu: '5.5만원↑ 2만원 할인', gap: <span className="upd">SKT 구매 문턱 5천원 낮음</span> },
+        note: { skt: <span className="upd">7.6~7.10</span>, lgu: <span className="upd">7.9</span> },
       },
       {
         brand: <span className="upd">CGV</span>,
@@ -58,8 +58,8 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 무료 (유플투쁠세트)' }], date: <span className="upd">7.17 · 투쁠데이</span> },
         v: 'good',
-        basis: <span className="upd">SKT 티켓+스낵 2종, LGU+는 스낵 1종 — 혜택폭 우위</span>,
-        note: <span className="upd">SKT : 7.6~7.10<br />LGU+ : 7.17</span>,
+        basis: { skt: <span className="upd">8,500원+스낵 2종</span>, lgu: '스낵 1종 무료', gap: <span className="upd">SKT 혜택폭 우위 (티켓+스낵)</span> },
+        note: { skt: <span className="upd">7.6~7.10</span>, lgu: <span className="upd">7.17</span> },
       },
       {
         brand: '투썸플레이스',
@@ -67,8 +67,8 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: '7.14 · 투쁠데이' },
         v: 'good',
-        basis: 'SKT 음료·케이크 각 40%, LGU+는 케이크 구매시만 무료',
-        note: <>SKT : 7.6~7.10<br />LGU+ : 7.14</>,
+        basis: { skt: '음료·케이크 각 40%', lgu: '케이크 구매시 무료 아메(조건부)', gap: 'SKT 무조건 40%×2, LGU+ 조건부 1종' },
+        note: { skt: '7.6~7.10', lgu: '7.14' },
       },
       {
         brand: '오뚜기몰',
@@ -76,8 +76,8 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '전 제품 최대 30% 할인 (최대 2만원)' }], date: '7.17 · 투쁠데이' },
         v: 'good',
-        basis: 'SKT 50% > LGU+ 30% — 20%p 격차',
-        note: <>SKT : 7.6~7.10<br />LGU+ : 7.17</>,
+        basis: { skt: '50% 할인', lgu: '최대 30% 할인', gap: 'SKT 20%p 우위' },
+        note: { skt: '7.6~7.10', lgu: '7.17' },
       },
       {
         brand: 'NOL티켓',
@@ -85,8 +85,8 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '맥스 시덴토프 개인전 최대 35%' }], date: '7.13 · 유플투쁠_컬처' },
         v: 'neut',
-        basis: 'SKT 2작품 vs LGU+ 1작품 — 동급 수준',
-        note: <>SKT : 7.6~7.10<br />LGU+ : 7.13</>,
+        basis: { skt: '2작품(뮤지컬35%+전시25%)', lgu: '1작품(전시35%)', gap: '동급 수준, 작품 수만 차이' },
+        note: { skt: '7.6~7.10', lgu: '7.13' },
       },
     ],
   },
@@ -394,8 +394,17 @@ export default function AIInsight() {
                       <td className="comp-td comp-td-lgu">{renderCarrier(r.lgu, 'cb-lgu')}</td>
                       <td className="comp-td comp-vd-td">
                         <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
-                        {r.basis && <div className="cvd-basis">{r.basis}</div>}
-                        <div className="cvd-note">{r.note}</div>
+                        {r.basis && (
+                          <div className="cvd-basis">
+                            <div className="cvd-line">SKT : {r.basis.skt}</div>
+                            <div className="cvd-line">LGU+ : {r.basis.lgu}</div>
+                            <div className="cvd-gap">→ {r.basis.gap}</div>
+                          </div>
+                        )}
+                        <div className="cvd-note">
+                          <div className="cvd-line">SKT : {r.note.skt}</div>
+                          <div className="cvd-line">LGU+ : {r.note.lgu}</div>
+                        </div>
                       </td>
                     </tr>
                   ))
