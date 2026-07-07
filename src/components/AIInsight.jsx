@@ -420,7 +420,7 @@ export default function AIInsight() {
       <div className="ai-sec" id="ai-nontelecom">
         <div className="ai-sec-hdr">
           <span className="ai-sec-title">비통신 비교</span>
-          <span className="ai-sec-desc">월간·상시·특화 전범위 · 카테고리별 T멤버십 vs 비통신</span>
+          <span className="ai-sec-desc">상시·특화 전범위 · 카테고리별 T멤버십 vs 비통신</span>
         </div>
         <div className="alc-grid">
           {alCats.map((c) => (
