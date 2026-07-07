@@ -100,7 +100,7 @@ export default function Overview() {
             <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">Week혜택 오픈 (7.6~7.10)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">T day 오픈 (7.6~7.10)</span></div>
             <div className="ovg2-item"><em className="tg tg-new">오픈</em>Young week 오픈 (7.6~7.10)</div>
           </a>
           <a href="#hs" className="ovg2-card cs">

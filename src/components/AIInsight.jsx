@@ -45,7 +45,7 @@ const compGroups = [
       },
       {
         brand: <span className="upd">그리팅</span>,
-        skt: { lines: [{ grade: '전 등급', b: '5만원 이상 구매 시 2만원 할인' }], date: <span className="upd">7.6~7.10 · Week혜택</span> },
+        skt: { lines: [{ grade: '전 등급', b: '5만원 이상 구매 시 2만원 할인' }], date: <span className="upd">7.6~7.10 · T day</span> },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: <span className="upd">7.9 · 투쁠데이</span> },
         v: 'good',
@@ -54,7 +54,7 @@ const compGroups = [
       },
       {
         brand: <span className="upd">CGV</span>,
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종 (더블콤보 3천원·팝콘M 1천원)' }], date: <span className="upd">7.6~7.10 · Week혜택</span> },
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종 (더블콤보 3천원·팝콘M 1천원)' }], date: <span className="upd">7.6~7.10 · T day</span> },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 무료 (유플투쁠세트)' }], date: <span className="upd">7.17 · 투쁠데이</span> },
         v: 'good',
@@ -169,12 +169,12 @@ const alCats = [
       ]},
     ],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: '배달의민족×처갓집양념치킨', deadline: <span className="upd">7.6~7.10 · Week혜택</span>, rows: [
+      { partner: '배달의민족×처갓집양념치킨', deadline: <span className="upd">7.6~7.10 · T day</span>, rows: [
         { grade: 'VIP', desc: <span className="upd">8천원 할인</span> },
         { grade: '전 등급', desc: <span className="upd">6천원 할인 (1.6만원 이상)</span> },
       ]},
     ]}],
-    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <>T멤버십: 배달 상시 제휴 없음 · <span className="upd">Week혜택 배민 6천원 할인</span></>],
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <>T멤버십: 배달 상시 제휴 없음 · <span className="upd">T day 배민 6천원 할인</span></>],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'neut',
@@ -217,7 +217,7 @@ const alCats = [
         { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
-      { partner: 'CGV', deadline: <span className="upd">7.6~7.10 · Week혜택</span>, rows: [
+      { partner: 'CGV', deadline: <span className="upd">7.6~7.10 · T day</span>, rows: [
         { grade: '전 등급', desc: <span className="upd">8,500원 예매 + 매점 쿠폰 2종</span> },
       ]},
     ]}],
