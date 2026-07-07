@@ -212,6 +212,9 @@ const alCats = [
         { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
+      { partner: 'CGV', deadline: <span className="upd">7.6~7.10 · Week혜택</span>, rows: [
+        { grade: '전 등급', desc: <span className="upd">8,500원 예매 + 매점 쿠폰 2종</span> },
+      ]},
     ]}],
     reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <>T멤버십: CGV 4천원+VIP연3회/1+1연9회 · <span className="upd">Week 8,500원+쿠폰</span></>],
   },
