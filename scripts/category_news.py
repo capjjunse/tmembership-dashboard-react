@@ -2,7 +2,7 @@
 """
 T멤버십 카테고리 뉴스 수집
 
-넓게 긁어서 Claude CLI로 4개 카테고리 분류 + 가중치 필터:
+넓게 긁어서 Claude API로 4개 카테고리 분류 + 가중치 필터:
   [B] 여러 쿼리에서 중복 등장한 기사 → cross_query 가중치
   [A] Claude가 priority(1~3) 점수 부여
   → 카테고리별 상위 10건만 저장
@@ -12,7 +12,7 @@ T멤버십 카테고리 뉴스 수집
 """
 
 import os
-import subprocess
+import sys
 import requests
 import json
 import re
@@ -22,6 +22,14 @@ from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from collections import defaultdict
+
+import anthropic
+
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "pipeline"))
+from config import ANTHROPIC_API_KEY
+
+CLAUDE_MODEL = "claude-haiku-4-5-20251001"
+_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
 OUTPUT_FILE  = Path(__file__).parent.parent / "category_news.json"
 NAVER_ID     = "kWZuYiDh4bePpyvvJ1Fx"
@@ -60,13 +68,14 @@ T멤버십(SKT 통신사 멤버십) 전략팀이 이번 주 국내 마케팅·�
 """
 
 
-def _claude(prompt: str, max_tokens_hint: str = '') -> str:
-    """Claude Code CLI로 프롬프트 실행 후 stdout 반환"""
-    result = subprocess.run(
-        ['claude', '-p', prompt, '--model', 'claude-haiku-4-5-20251001'],
-        capture_output=True, text=True, timeout=120,
+def _claude(prompt: str, max_tokens: int = 1024) -> str:
+    """Anthropic API로 프롬프트 실행 후 응답 텍스트 반환"""
+    resp = _client.messages.create(
+        model=CLAUDE_MODEL,
+        max_tokens=max_tokens,
+        messages=[{'role': 'user', 'content': prompt}],
     )
-    return result.stdout.strip()
+    return resp.content[0].text.strip()
 
 
 def get_seasonal_queries() -> list[str]:
@@ -279,7 +288,7 @@ def classify_with_claude(articles: list[dict]) -> list[dict]:
 
         print(f'  Claude 분류 중... ({start + 1}~{start + len(batch)}/{len(articles)})')
         try:
-            raw = _claude(prompt)
+            raw = _claude(prompt, max_tokens=4096)
             raw = re.sub(r'^```json\s*', '', raw)
             raw = re.sub(r'\s*```$', '', raw)
 
@@ -408,7 +417,7 @@ def assign_topics(top: dict[str, list]) -> tuple[dict[str, list], list[dict]]:
         parsed = None
         for attempt in range(2):  # 최대 2회 시도
             try:
-                raw = _claude(prompt)
+                raw = _claude(prompt, max_tokens=4096)
                 # JSON 블록 추출 — 코드펜스 안팎 모두 처리
                 m = re.search(r'\[.*\]', raw, re.DOTALL)
                 raw = m.group(0) if m else raw
@@ -518,7 +527,7 @@ def main():
     print(f"  → {len(articles)}개 수집 (중복 쿼리 등장: {multi}건)\n")
 
     # Step 3: [A] Claude 분류 + priority
-    print('[Step 3] Claude CLI 분류 + priority 채점 중...')
+    print('[Step 3] Claude API 분류 + priority 채점 중...')
     classified = classify_with_claude(articles)
 
     # Step 4: [F] 제목 키워드 노이즈 제거 → [A+B+D] 점수 기반 상위 10건 추출

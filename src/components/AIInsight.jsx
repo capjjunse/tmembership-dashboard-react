@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.07.01';
+const RADAR_SCANNED = '2026.07.06';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -169,7 +169,7 @@ const alCats = [
       ]},
     ],
     tm: null,
-    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 · 7월 T day 배달 혜택 미공개'],
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <>T멤버십: 배달 상시 제휴 없음 · <span className="upd">Week혜택(7.6~7.10) 배달의민족 6천원 할인 운영</span></>],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'neut',
@@ -196,11 +196,11 @@ const alCats = [
       { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'GS25', deadline: 'T day Young week · 7.6~7.10', rows: [{ grade: '전 등급', desc: '샌드위치 50% 할인 (7종 중 택1)' }] },
+      { partner: 'GS25', deadline: <span className="upd">Young week · 7.6~7.10</span>, rows: [{ grade: '전 등급', desc: '샌드위치 50% 할인 (7종 중 택1)' }] },
       { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 T day Young week(7.6~7.10) 샌드위치 50% + CU·세븐일레븐 상시 10% 운영'],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', <>T멤버십: GS25 <span className="upd">Young week(7.6~7.10)</span> 샌드위치 50% + CU·세븐일레븐 상시 10% 운영</>],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -213,7 +213,7 @@ const alCats = [
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 상시 4천원 + VIP 무료연3회/1+1연9회 · 7월 CGV T day 미공개'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <>T멤버십: CGV 상시 4천원 + VIP 무료연3회/1+1연9회 · <span className="upd">Week혜택(7.6~7.10) CGV 8,500원+매점쿠폰 운영</span></>],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -243,14 +243,14 @@ const recs = [
     rank: 1,
     brand: '깐부치킨',
     tag: '매장 168개 · DataLab 📈1.53',
-    reason: '6.7 젠슨 황·최태원 재회동으로 버즈 2차 급등 중. 글로벌 주목도 상승한 이 시점이 SKT 제휴 협상 진입 최적기.',
+    reason: <span className="upd">6.7 젠슨 황·최태원 재회동 이후 버즈 진정세 진입. 글로벌 주목도는 유지 중, SKT 미참여 상태.</span>,
     reach: [
       { label: '매장 규모', text: '전국 168개 · 치킨 카테고리 빠른 성장 중인 브랜드' },
-      { label: '검색 버즈', text: 'DataLab 📈1.53 상승 · 6.7 재방문 이슈로 2차 버즈 급등 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+' },
-      { label: '제휴 포인트', text: 'SKT 미참여 — 버즈 2차 피크 구간에서 계약 체결 시 최대 홍보 효과 기대' },
+      { label: '검색 버즈', text: <span className="upd">6.7 재회동 이슈 이후 버즈 정점 경과 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+</span> },
+      { label: '제휴 포인트', text: <span className="upd">SKT 미참여 — 6.7 재회동 이후 버즈 정점 경과, 이슈 지속 활용 가능</span> },
     ],
     trend: 'DataLab 1.53 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+',
-    hot: true,
+    hot: false,
     skt: [],
     kt:  null,
     lgu: null,
@@ -275,11 +275,11 @@ const recs = [
     rank: 3,
     brand: '설빙',
     tag: '매장 598개 · DataLab ↗1.15',
-    reason: <>여름 성수기 본격 돌입 · 아이스디저트 카테고리 1위. Tday <span className="upd">4개월</span> 이상 공백 중 — 계약 지연 시 여름 피크 시즌 전체를 놓칠 수 있음.</>,
+    reason: '여름 성수기 본격 돌입 · 아이스디저트 카테고리 1위. Tday 4개월 이상 공백 중 — 계약 지연 시 여름 피크 시즌 전체를 놓칠 수 있음.',
     reach: [
       { label: '매장 규모', text: '전국 598개 · 아이스디저트 카테고리 1위' },
       { label: '검색 버즈', text: 'DataLab ↗1.15 상승세 · 블로그 74만 · 카페 26만 · 뉴스 88건 — 여름 성수기 진입으로 버즈 상승 예상' },
-      { label: '제휴 포인트', text: <>2026.03 이후 Tday 공백 <span className="upd">4개월</span> 이상 지속 · 여름 시즌 선점을 위한 조속한 재계약 필요</> },
+      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 4개월 이상 지속 · 여름 시즌 선점을 위한 조속한 재계약 필요' },
     ],
     trend: 'DataLab 1.15 · 블로그 74만 · 카페 26만 · 뉴스 88건',
     hot: false,
@@ -541,7 +541,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.07.01</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.07.06</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
