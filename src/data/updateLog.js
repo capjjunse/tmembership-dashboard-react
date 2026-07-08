@@ -6,7 +6,7 @@ export const updateItems = [
   { section: '#hs', label: '공지 히스토리', desc: 'LGU+ 파고다토쿨·파고다원 8월 혜택 변경 예정 추가 · SKT 나뚜루&나뚜루 시그니처 종료(6.30) 추가' },
   { section: '#sn', label: '고객반응', desc: 'SKT T day 처갓집 부정 반응(7.6) · KT 달달혜택 7월 자담치킨/빽다방 반응(7.2~7.4) · LGU+ 오션월드 긍정(7.6) 추가' },
   { section: '#ai-matrix', label: '경쟁 매트릭스', desc: 'CGV 7.22~7.26 2회차 추가 · 공차·오션월드 SKT↔LGU+ 비교 신규 추가 (총 8종 완료)' },
-  { section: '#ai-nontelecom', label: '비통신 비교', desc: 'T day 배달 배민×처갓집 6/8천원 · GS25 Young week 샌드위치 50% · CGV 8,500원+매점쿠폰 반영' },
-  { section: '#ai-recommend', label: '신규 제휴 추천', desc: '깐부치킨 6.7 젠슨황 재회동 이후 버즈 진정세 진입 업데이트' },
+  { section: '#ai-radar', label: '이슈 레이더', desc: '메가박스 회생절차·합병 결렬 긴급대응 추가 · 스타벅스 불매 진정세 업데이트' },
+  { section: '#ai-market', label: '마켓 시그널', desc: '소비자물가 AI구독료·밀키트 반영 등 7월 소비동향 9개 토픽 갱신' },
   { section: '#ov', label: '핵심동향', desc: 'SKT·LGU+ Week혜택 진행중(7.6~7.10) 상태 업데이트 · SKT↔LGU+ 8종 비교 완료 · 나뚜루·농협맛선·도그메이트 종료(6.30) 반영' },
 ];

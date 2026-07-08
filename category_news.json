@@ -1,74 +1,58 @@
 {
-  "generated_at": "2026.07.07 09:51",
-  "total_collected": 1118,
-  "total_valid": 548,
-  "total_skipped": 570,
-  "total_top": 30,
+  "generated_at": "2026.07.08 16:21",
+  "total_collected": 986,
+  "total_valid": 471,
+  "total_skipped": 428,
+  "total_top": 34,
   "topic_groups": [
     {
       "category": "trend",
-      "topic": "도시 여름 축제",
-      "insight": "도심 내 여름 축제 인기 증가, 무더위 대비 야외 레저 수요 상승",
-      "signal_strength": 1,
-      "max_velocity": 0.0,
+      "topic": "소비자물가 품목 개편",
+      "insight": "AI구독료·밀키트 등 신소비 트렌드가 공식 물가지수 반영 대상으로 편입",
+      "signal_strength": 2,
+      "max_velocity": 10.7,
       "articles": [
         {
-          "title": "무더위 날린 ‘2026 앞산축제’ 성황…9만명 찾아 도심 속 피서 즐겨",
-          "link": "https://www.kbmaeil.com/article/20260706500604",
-          "pub_date": "2026.07.06",
+          "title": "소비자물가에 AI구독료·밀키트 반영한다…땅콩·도라지는 제외",
+          "link": "https://view.asiae.co.kr/article/2026070714531597611",
+          "pub_date": "2026.07.07",
           "priority": 1,
           "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "datalab_velocity": 10.7
         },
         {
-          "title": "[주말 갈만한 곳] 무더위 날리는 주말 여름 축제 총정리",
-          "link": "https://www.mhns.co.kr/news/articleView.html?idxno=752242",
-          "pub_date": "2026.07.04",
+          "title": "AI구독료, 마라탕 가격도 조사...소비자물가 대표품목 바뀐다",
+          "link": "https://www.joongang.co.kr/article/25443155",
+          "pub_date": "2026.07.07",
           "priority": 1,
           "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "datalab_velocity": 10.7
+        },
+        {
+          "title": "소비자물가 품목서 땅콩·도시락 빼고 챗GPT 구독료·샐러드·마라탕 포...",
+          "link": "https://www.khan.co.kr/article/202607072031005",
+          "pub_date": "2026.07.07",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": -1.6
+        },
+        {
+          "title": "“주변에 안 쓰는 사람이 없어서”…챗GPT 구독료, 소비자물가에 넣는다",
+          "link": "https://www.mk.co.kr/article/12092957",
+          "pub_date": "2026.07.08",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": -1.6
         }
       ]
     },
     {
       "category": "risk",
       "topic": "스타벅스 탱크데이 사태",
-      "insight": "탱크데이 불매운동으로 결제액 200억 원대 감소, 마케팅 전략 재검토 시점",
+      "insight": "탱크데이 마케팅 논란 이후 스타벅스 결제액 200억원대 감소, 브랜드 이미지 영향",
       "signal_strength": 3,
       "max_velocity": 0.0,
       "articles": [
-        {
-          "title": "&quot;스벅은 불매운동, 아이소이는 침묵?&quot;…'625% 침투' 논란에 이중잣대 비...",
-          "link": "https://sports.hankooki.com/news/articleView.html?idxno=6935738",
-          "pub_date": "2026.06.30",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -27.2
-        },
-        {
-          "title": "'탱크데이'에 갇힌 스타벅스⋯'여름 프리퀀시'도 안갯속",
-          "link": "http://www.inews24.com/view/1982701",
-          "pub_date": "2026.07.06",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -27.2
-        },
-        {
-          "title": "스타벅스 '탱크데이' 여파…결제액 한 달 새 200억 감소",
-          "link": "https://view.asiae.co.kr/article/2026070514333355317",
-          "pub_date": "2026.07.05",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -27.2
-        },
-        {
-          "title": "'탱크데이' 후폭풍 계속… 스타벅스 결제액 한 달 새 208억 원 줄었다",
-          "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=335582",
-          "pub_date": "2026.07.05",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -27.2
-        },
         {
           "title": "'탱크 데이' 마케팅 여파?…스타벅스 6월 결제액 200억원 감소",
           "link": "https://www.dailian.co.kr/news/view/1663394/?sc=Naver",
@@ -78,29 +62,61 @@
           "datalab_velocity": 0.0
         },
         {
-          "title": "스벅 회복하나 했더니...배재고 논란에 '카드 마케팅' 무산 위기",
-          "link": "https://www.mt.co.kr/finance/2026/07/03/2026070312355653657",
+          "title": "'탱크데이 논란' 스타벅스 '매장 셧다운'에도…결제액 200억 증발",
+          "link": "https://view.asiae.co.kr/article/2026070318202444209",
           "pub_date": "2026.07.03",
           "priority": 3,
-          "cross_query_count": 2,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "'탱크데이' 논란 한 달…스타벅스 결제액 200억 줄었다",
+          "link": "https://www.hankookilbo.com/news/article/A2026070418150000701?did=NA",
+          "pub_date": "2026.07.04",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "JK김동욱 &quot;배재 렛츠고&quot; 스타벅스 응원 논란 또다시 '지지'[스타이슈]",
+          "link": "https://www.starnewskorea.com/star/2026/07/02/2026070210074268985",
+          "pub_date": "2026.07.02",
+          "priority": 3,
+          "cross_query_count": 1,
           "datalab_velocity": 0.0
         }
       ]
     },
     {
       "category": "risk",
-      "topic": "배민·배스킨라빈스 협력 강화",
-      "insight": "배민-배스킨라빈스 디지털 협력 확대, 단독 상품·멤버십 혜택으로 고객 확보 전략",
+      "topic": "배민-배스킨라빈스 협력",
+      "insight": "배민과 배스킨라빈스 디지털 협력으로 단독 상품·멤버십 혜택 확대",
       "signal_strength": 3,
-      "max_velocity": 1.3,
+      "max_velocity": 2.6,
       "articles": [
+        {
+          "title": "배민, 배스킨라빈스와 맞손…전용 상품·멤버십 혜택 확대",
+          "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=126490",
+          "pub_date": "2026.07.06",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 2.6
+        },
+        {
+          "title": "우아한형제들 베스킨라빈스와 디지털 사업 맞손, 배민클럽 혜택·단독 ...",
+          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=441653",
+          "pub_date": "2026.07.06",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 2.6
+        },
         {
           "title": "배민·배스킨라빈스, 디지털 협력 강화…단독 상품·멤버십 혜택 확대",
           "link": "https://www.seoultimes.news/news/article.html?no=2000097419",
           "pub_date": "2026.07.06",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 1.3
+          "datalab_velocity": 2.6
         },
         {
           "title": "배민·배스킨라빈스, 디지털 사업 맞손...단독 신제품·멤버십 혜택 확...",
@@ -108,57 +124,41 @@
           "pub_date": "2026.07.06",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 1.3
-        },
-        {
-          "title": "배민, 협업부터 신기능까지 서비스 확장···고객 혜택·상생 행보 강화",
-          "link": "https://www.smartbizn.com/news/articleView.html?idxno=147890",
-          "pub_date": "2026.07.06",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 1.3
-        },
-        {
-          "title": "배민-배스킨라빈스, 온라인 사업 협력···단독 신제품·회원 혜택 강화",
-          "link": "http://www.srtimes.kr/news/articleView.html?idxno=206831",
-          "pub_date": "2026.07.06",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 1.3
+          "datalab_velocity": 2.6
         }
       ]
     },
     {
-      "category": "battle",
-      "topic": "배민 배스킨라빈스 협업",
-      "insight": "배민이 배스킨라빈스와 구독 혜택과 브랜드 협업을 통해 플랫폼 서비스 범위 확대",
-      "signal_strength": 2,
-      "max_velocity": -16.7,
+      "category": "risk",
+      "topic": "티오더-리센느 논란",
+      "insight": "티오더가 논란 브랜드 리센느와 파트너십 추진, 브랜드 선택 기준 지적",
+      "signal_strength": 3,
+      "max_velocity": 0.0,
       "articles": [
         {
-          "title": "배민, 배스킨라빈스와 협업 확대... &quot;구독 혜택부터 단독 메뉴까지&quot;",
-          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=203106",
-          "pub_date": "2026.07.06",
+          "title": "티오더, ‘무섭노’ 논란 리센느와 브랜드 파트너십",
+          "link": "https://biz.heraldcorp.com/article/10800628?ref=naver",
+          "pub_date": "2026.07.07",
           "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -16.7
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
         },
         {
-          "title": "배민, 배스킨라빈스와 손잡아…구독 넘어 브랜드 협업으로 판 넓힌다",
-          "link": "https://www.econovill.com/news/articleView.html?idxno=744358",
+          "title": "&quot;이게 맞노?&quot;...리센느 때아닌 일베 논란에 광고계도 예의주시",
+          "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=434799",
           "pub_date": "2026.07.06",
           "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -16.7
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
         }
       ]
     },
     {
       "category": "battle",
-      "topic": "SKT 구글AI 구독 서비스",
-      "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 출시하며 AI 구독 시장 진출",
+      "topic": "SKT T우주 구글AI 구독",
+      "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 추가해 최대 2,100원 할인 제공",
       "signal_strength": 2,
-      "max_velocity": -16.7,
+      "max_velocity": -1.6,
       "articles": [
         {
           "title": "SKT, T 우주에 구글 AI 구독 도입… 월 최대 2100원 할인",
@@ -166,7 +166,7 @@
           "pub_date": "2026.07.03",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -16.7
+          "datalab_velocity": -1.6
         },
         {
           "title": "SK텔레콤 'T 우주', 구글 AI 구독 서비스 '구글 AI 플랜' 출시",
@@ -174,31 +174,7 @@
           "pub_date": "2026.07.03",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -16.7
-        },
-        {
-          "title": "SKT, T우주 구독으로 구글AI 최대 2100원 할인",
-          "link": "https://zdnet.co.kr/view/?no=20260703084411",
-          "pub_date": "2026.07.03",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -16.7
-        },
-        {
-          "title": "SKT, ‘T 우주‘에 구글 AI 구독 서비스 출시",
-          "link": "https://www.viva100.com/article/20260703500032",
-          "pub_date": "2026.07.03",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -16.7
-        },
-        {
-          "title": "SKT T우주, 구글 AI 구독 서비스 ‘구글 AI 플랜' 출시",
-          "link": "https://www.news1.kr/photos/7989978",
-          "pub_date": "2026.07.03",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -16.7
+          "datalab_velocity": -1.6
         },
         {
           "title": "SKT, T우주서 '구글 AI 플랜' 출시…AI 구독 서비스 확대",
@@ -206,56 +182,106 @@
           "pub_date": "2026.07.03",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -16.7
+          "datalab_velocity": -1.6
         },
         {
-          "title": "SKT '구글 AI 플랜' 출시…AI 구독 시장 공략",
-          "link": "https://www.newspim.com/news/view/20260703000190",
+          "title": "SKT, T우주 구독으로 구글AI 최대 2100원 할인",
+          "link": "https://zdnet.co.kr/view/?no=20260703084411",
           "pub_date": "2026.07.03",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -16.7
+          "datalab_velocity": -1.6
+        },
+        {
+          "title": "SKT, ‘T 우주‘에 구글 AI 구독 서비스 출시",
+          "link": "https://www.viva100.com/article/20260703500032",
+          "pub_date": "2026.07.03",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -1.6
+        }
+      ]
+    },
+    {
+      "category": "battle",
+      "topic": "쿠팡 불매운동 이후 성장",
+      "insight": "쿠팡 불매 운동 이후에도 로켓배송 중심으로 결제액과 이용자가 역대 최고 수준 기록",
+      "signal_strength": 2,
+      "max_velocity": -22.9,
+      "articles": [
+        {
+          "title": "불매보다 강력한 로켓배송...쿠팡 결제액·이용자 ‘역대 최고’",
+          "link": "https://www.etoday.co.kr/news/view/2600333",
+          "pub_date": "2026.07.05",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -22.9
+        },
+        {
+          "title": "탈팡 운동 끝? 쿠팡 이용자·거래액 더 늘었다",
+          "link": "https://m.skyedaily.com/news_view.html?ID=307171",
+          "pub_date": "2026.07.05",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -22.9
+        }
+      ]
+    },
+    {
+      "category": "battle",
+      "topic": "배달앱 성수기 주도권 경쟁",
+      "insight": "배민과 쿠팡이 성수기 시장 점유율 확보를 위해 제재 우려 속 경쟁 심화",
+      "signal_strength": 2,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "배민·쿠팡, 제재 우려 속 성수기 주도권 경쟁에 '사활'",
+          "link": "https://view.asiae.co.kr/article/2026070707365237927",
+          "pub_date": "2026.07.07",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "배민 노리는 네이버, 배달앱서도 쿠팡과 맞붙나",
+          "link": "https://www.hankyung.com/article/2026070686601",
+          "pub_date": "2026.07.06",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
         }
       ]
     },
     {
       "category": "benchmark",
-      "topic": "여름 시즌 할인 경쟁",
-      "insight": "홈캉스 수요 증가에 따라 주요 브랜드들이 온·오프라인 할인 프로모션으로 경쟁 심화",
+      "topic": "BC카드 밀리의서재 무료구독",
+      "insight": "BC카드가 밀리의서재와 협력해 카드 사용자 대상 무료 구독 이벤트 제공",
       "signal_strength": 1,
-      "max_velocity": 0.0,
+      "max_velocity": -1.6,
       "articles": [
         {
-          "title": "한샘, 여름 '홈캉스' 수요 공략…온·오프라인 할인 프로모션 전개",
-          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=203074",
-          "pub_date": "2026.07.06",
+          "title": "&quot;책 읽는 여름 휴가&quot;…BC카드, 밀리의서재 무료 구독 이벤트",
+          "link": "https://economist.co.kr/article/view/ecn202607070034",
+          "pub_date": "2026.07.07",
           "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "datalab_velocity": -1.6
         },
         {
-          "title": "bhc, 공공 배달앱 '땡겨요'서 7월 할인 프로모션…최대 9000원 혜택",
-          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5037683",
+          "title": "“여름엔 책 한 권”…BC카드, 밀리의서재와 손잡고 무료 구독 이벤트",
+          "link": "https://www.viva100.com/article/20260707501037",
           "pub_date": "2026.07.07",
-          "priority": 1,
+          "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "datalab_velocity": -1.6
         },
         {
-          "title": "무신사, 바캉스 잡화위크 연다…스윔웨어·여름 잡화 최대 80% 할인",
-          "link": "https://www.joongangenews.com/news/articleView.html?idxno=530607",
-          "pub_date": "2026.07.06",
-          "priority": 1,
+          "title": "“책 읽는 여름휴가”…BC카드, 밀리의서재 무료 구독권 이용",
+          "link": "https://theviewers.co.kr/View.aspx?No=4139396",
+          "pub_date": "2026.07.07",
+          "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "자담치킨, 여름 맞아 7월 할인 프로모션 확대…배달앱·자사앱 혜택 강...",
-          "link": "https://www.mhns.co.kr/news/articleView.html?idxno=752262",
-          "pub_date": "2026.07.03",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "datalab_velocity": -1.6
         }
       ]
     }
@@ -263,13 +289,13 @@
   "categories": {
     "trend": [
       {
-        "title": "서비스업도 R&amp;D 지원…‘AI 에이전틱 커머스’ 시장 키운다",
-        "topic": "AI 에이전틱 커머스",
-        "insight": "서비스업 분야로 AI 기술 지원 확대, 자동화 커머스 시장 성장 추세",
-        "desc": "자율주행 배달로봇, 부동산·저작권 조각투자, 콘텐츠·유통 결합, 가전 구독 서비스처럼 여러 부처 규제가 얽힌 신산업을 키우려면 부처별 규제를 조정할 법적 근거가 필요하다는 취지다. 정부는 비조치의견서 등을... ",
-        "link": "https://www.sedaily.com/article/20064022?ref=naver",
-        "pub_date": "2026.07.06",
-        "reason": "서비스산업 AI 트렌드 장기 모니터링",
+        "title": "소비자물가에 AI구독료·밀키트 반영한다…땅콩·도라지는 제외",
+        "topic": "소비자물가 품목 개편",
+        "insight": "AI구독료·밀키트 등 신소비 트렌드가 공식 물가지수 반영 대상으로 편입",
+        "desc": "앞으로 소비자물가지수 품목에 챗GPT 등 생성형 인공지능(AI) 구독료와 스마트워치, 마라탕, 샐러드 등이... 스트리밍 서비스이용료로 세분한다. 김치찌개 백반과 된장찌개 백반은 찌개백반으로 통합한다. 목욕료는... ",
+        "link": "https://view.asiae.co.kr/article/2026070714531597611",
+        "pub_date": "2026.07.07",
+        "reason": "소비 트렌드 변화 (AI구독료·밀키트), 장기 모니터링",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 89.3,
@@ -280,131 +306,66 @@
         ]
       },
       {
-        "title": "마케팅 전쟁터 월드컵, 고객은 설명할 시간을 기다려주지 않는다",
-        "topic": "월드컵 마케팅 전쟁",
-        "insight": "주요 이벤트 마케팅 경쟁 심화, 빠른 의사결정과 즉각적 고객 대응 필요",
-        "desc": "일요일 오후, 미국의 어느 집 거실. 티브이(TV)에는 미식축구 경기가 흘러간다. 소파에는 친구들이 앉아 있고, 테이블 위에는 치킨윙과 나초, 맥주가 쌓여 있다. 하프타임이 되면 냉장고 문이 열린다. 경기는 화면 중심에... ",
-        "link": "https://www.hani.co.kr/arti/economy/economy_general/1266538.html",
-        "pub_date": "2026.07.03",
-        "reason": "마케팅 이벤트 소비 심화 트렌드 참고",
+        "title": "AI구독료, 마라탕 가격도 조사...소비자물가 대표품목 바뀐다",
+        "topic": "소비자물가 품목 개편",
+        "insight": "AI구독료·밀키트 등 신소비 트렌드가 공식 물가지수 반영 대상으로 편입",
+        "desc": "앞으로는 인공지능(AI) 확산 등에 지출이 늘어난 소프트웨어 구독료, 클라우드저장공간 이용료가... 스트리밍서비스 이용료로 세분화한다. 반대로 통합한 품목도 있다. 김치찌개 백반과 된장찌개 백반은 찌개백반으로... ",
+        "link": "https://www.joongang.co.kr/article/25443155",
+        "pub_date": "2026.07.07",
+        "reason": "소비 트렌드 변화, 참고용",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 89.3,
+        "datalab_velocity": 10.7,
         "queries": [
-          "앱 마케팅",
-          "여름 스포츠 중계"
+          "구독 서비스",
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "무더위 날린 ‘2026 앞산축제’ 성황…9만명 찾아 도심 속 피서 즐겨",
-        "topic": "도시 여름 축제",
-        "insight": "도심 내 여름 축제 인기 증가, 무더위 대비 야외 레저 수요 상승",
-        "desc": "앞산축제’에 약 9만 명이 방문했다고 6일 밝혔다. ‘도심 속에서 즐기는 여름휴가’를 주제로 열린 이번... 드레스코드 이벤트와 스탬프 투어도 축제의 재미를 더했다. 무대 공연도 축제 분위기를 달궜다. 개막식에는... ",
-        "link": "https://www.kbmaeil.com/article/20260706500604",
-        "pub_date": "2026.07.06",
-        "reason": "여름 축제 도시 피서 수요 증가 트렌드",
+        "title": "소비자물가 품목서 땅콩·도시락 빼고 챗GPT 구독료·샐러드·마라탕 포...",
+        "topic": "소비자물가 품목 개편",
+        "insight": "AI구독료·밀키트 등 신소비 트렌드가 공식 물가지수 반영 대상으로 편입",
+        "desc": "코로나19 이후 제미나이와 클로드 등 생성형AI는 물론 ‘쿠팡와우’ 등 온라인 구독 서비스가 보편화한 영향이다. 전기차 충전료, 영유아 강습료, 스마트워치, 밀키트, 조립식 수납 가구도 새로 추가됐고 외식 서비스... ",
+        "link": "https://www.khan.co.kr/article/202607072031005",
+        "pub_date": "2026.07.07",
+        "reason": "소비 트렌드 변화 신호 (AI구독료·마라탕)",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
         "queries": [
-          "여름 축제 이벤트",
-          "무더위 이벤트"
+          "구독 서비스",
+          "소비 트렌드"
         ]
       },
       {
-        "title": "[주말 갈만한 곳] 무더위 날리는 주말 여름 축제 총정리",
-        "topic": "도시 여름 축제",
-        "insight": "도심 내 여름 축제 인기 증가, 무더위 대비 야외 레저 수요 상승",
-        "desc": "등 여름 분위기를 살린 체험 프로그램이 운영된다. 또한 특이한 선글라스나 화려한 알로하 셔츠를 착용한 관람객에게 시원한 쿨타올을 증정하는 드레스 코드 이벤트도 진행된다. 축제장 곳곳에 숨어 있는 '앞산이... ",
-        "link": "https://www.mhns.co.kr/news/articleView.html?idxno=752242",
-        "pub_date": "2026.07.04",
-        "reason": "여름 축제 문화 소비 트렌드 참고",
+        "title": "“주변에 안 쓰는 사람이 없어서”…챗GPT 구독료, 소비자물가에 넣는다",
+        "topic": "소비자물가 품목 개편",
+        "insight": "AI구독료·밀키트 등 신소비 트렌드가 공식 물가지수 반영 대상으로 편입",
+        "desc": "앞서 과학기술정보통신부가 발표한 ‘2025 인터넷이용실태조사’에 따르면 우리 국민 중 절반 수주인 44.5%가 생성형 AI 서비스를 경험했고, 유료 구독률은 7.9%로 집계됐다. 소비자물가 반영 품목은 올해 기준 약... ",
+        "link": "https://www.mk.co.kr/article/12092957",
+        "pub_date": "2026.07.08",
+        "reason": "AI구독료 대중화, 소비 패턴 변화",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
         "queries": [
-          "여름 축제 이벤트",
-          "무더위 이벤트"
+          "구독 서비스",
+          "소비자 할인"
         ]
       }
     ],
     "risk": [
       {
-        "title": "&quot;스벅은 불매운동, 아이소이는 침묵?&quot;…'625% 침투' 논란에 이중잣대 비...",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 불매운동으로 결제액 200억 원대 감소, 마케팅 전략 재검토 시점",
-        "desc": "ⓒ아이소이 스타벅스와는 다른 李정부 태도…&quot;왜 이번엔 침묵하나&quot; 이번 논란은 지난달 스타벅스코리아의 '탱크데이' 마케팅 논란과 비교되면서 더욱 거세졌다. 당시 스타벅스는 5·18 민주화운동 기념일과 겹치는 날에... ",
-        "link": "https://sports.hankooki.com/news/articleView.html?idxno=6935738",
-        "pub_date": "2026.06.30",
-        "reason": "제휴사 불매/이중잣대 논란 확산, 브랜드 이미지 영향",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 72.0,
-        "datalab_velocity": -27.2,
-        "queries": [
-          "마케팅 논란",
-          "불매운동"
-        ]
-      },
-      {
-        "title": "'탱크데이'에 갇힌 스타벅스⋯'여름 프리퀀시'도 안갯속",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 불매운동으로 결제액 200억 원대 감소, 마케팅 전략 재검토 시점",
-        "desc": "사태 직후 이재명 대통령이 자신의 X(옛 트위터)를 통해 &quot;민주의 가치를 부정하는 저질 장사치의 비인간적 막장 행태&quot;라며 강도 높게 비판하자 정치권에서는 불매운동 격려와 과도한 정치공세라는 반론이 맞붙으며... ",
-        "link": "http://www.inews24.com/view/1982701",
-        "pub_date": "2026.07.06",
-        "reason": "스타벅스 탱크데이 여파, 제휴 영향",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 72.0,
-        "datalab_velocity": -27.2,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "스타벅스 '탱크데이' 여파…결제액 한 달 새 200억 감소",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 불매운동으로 결제액 200억 원대 감소, 마케팅 전략 재검토 시점",
-        "desc": "이후 온라인 커뮤니티를 중심으로 비판 여론이 높아지며 소비자들이 불매운동을 벌였을 뿐만 아니라 공직사회와 노동계까지 확산하는 등 사회적 파장이 커졌다. 신세계그룹은 스타벅스코리아 대표를 해임하고... ",
-        "link": "https://view.asiae.co.kr/article/2026070514333355317",
-        "pub_date": "2026.07.05",
-        "reason": "스타벅스 결제액 감소, 제휴 재검토 필요",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 72.0,
-        "datalab_velocity": -27.2,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "'탱크데이' 후폭풍 계속… 스타벅스 결제액 한 달 새 208억 원 줄었다",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 불매운동으로 결제액 200억 원대 감소, 마케팅 전략 재검토 시점",
-        "desc": "비판이 커지자 정용진 회장은 대국민 공개 사과를 했지만 대대적인 불매운동으로 이어지며 파장이 사그라들지 않고 있다. 최근에는 배재고등학교 야구부 학생들이 광주일고와의 경기 중 &quot;스타벅스 가야지... ",
-        "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=335582",
-        "pub_date": "2026.07.05",
-        "reason": "제휴사 스타벅스 탱크데이 여파로 결제액 급감",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 72.0,
-        "datalab_velocity": -27.2,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
         "title": "'탱크 데이' 마케팅 여파?…스타벅스 6월 결제액 200억원 감소",
         "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 불매운동으로 결제액 200억 원대 감소, 마케팅 전략 재검토 시점",
+        "insight": "탱크데이 마케팅 논란 이후 스타벅스 결제액 200억원대 감소, 브랜드 이미지 영향",
         "desc": "앞서 스타벅스코리아는 지난 5월 18일 5·18 민주화운동 기념일에 텀블러 할인 행사 홍보물에 '탱크 데이' 등의 표현을 사용해 논란을 빚었다. 이후 온라인과 사회관계망서비스(SNS)를 중심으로 비판이 확산됐고... ",
         "link": "https://www.dailian.co.kr/news/view/1663394/?sc=Naver",
         "pub_date": "2026.07.04",
-        "reason": "제휴사 마케팅 논란 매출 영향, 즉각 대응 필요",
+        "reason": "제휴사 스타벅스 불매 여파, 즉시 대응 필요",
         "priority": 3,
         "cross_query_count": 2,
         "datalab_score": 0.0,
@@ -415,313 +376,424 @@
         ]
       },
       {
-        "title": "스벅 회복하나 했더니...배재고 논란에 '카드 마케팅' 무산 위기",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 불매운동으로 결제액 200억 원대 감소, 마케팅 전략 재검토 시점",
-        "desc": "이른바 '탱크데이' 논란으로 카드사의 스타벅스 관련 상품 출시와 마케팅은 전면 중단됐다. 여름 휴가철을 기점으로 조심스럽게 마케팅 재개 전망이 나왔지만 최근 배재고등학교 사건으로 스타벅스 논란이 다시 수면 위로... ",
-        "link": "https://www.mt.co.kr/finance/2026/07/03/2026070312355653657",
-        "pub_date": "2026.07.03",
-        "reason": "제휴사 논란 지속, 카드 마케팅 무산 위기",
+        "title": "배민, 배스킨라빈스와 맞손…전용 상품·멤버십 혜택 확대",
+        "topic": "배민-배스킨라빈스 협력",
+        "insight": "배민과 배스킨라빈스 디지털 협력으로 단독 상품·멤버십 혜택 확대",
+        "desc": "우선 배민 구독 멤버십인 배민클럽 회원을 대상으로 배스킨라빈스 전용 혜택을 정기적으로 제공해 고객 충성도를 높인다. 양사가 공동 기획한 아이스크림 '단짠팝팝 초코해변'도 10일부터 배민과 배스킨라빈스 매장에서... ",
+        "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=126490",
+        "pub_date": "2026.07.06",
+        "reason": "배민·배스킨라빈스 제휴, T멤버십 제휴사 브랜드 결합",
         "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "cross_query_count": 1,
+        "datalab_score": 23.1,
+        "datalab_velocity": 2.6,
         "queries": [
-          "마케팅 논란",
-          "여름 휴가 마케팅"
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "우아한형제들 베스킨라빈스와 디지털 사업 맞손, 배민클럽 혜택·단독 ...",
+        "topic": "배민-배스킨라빈스 협력",
+        "insight": "배민과 배스킨라빈스 디지털 협력으로 단독 상품·멤버십 혜택 확대",
+        "desc": "&lt;우아한형제들&gt; 배달의민족을 운영하는 우아한형제들이 배스킨라빈스와 손잡고 멤버십 혜택과 단독 상품을 확대한다. 우아한형제들은 배스킨라빈스를 운영하는 비알코리아와 '디지털 사업 경쟁력 강화를 위한 전략적... ",
+        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=441653",
+        "pub_date": "2026.07.06",
+        "reason": "배민·배스킨라빈스 디지털 협력, T멤버십 제휴사 위협",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 23.1,
+        "datalab_velocity": 2.6,
+        "queries": [
+          "멤버십 혜택"
         ]
       },
       {
         "title": "배민·배스킨라빈스, 디지털 협력 강화…단독 상품·멤버십 혜택 확대",
-        "topic": "배민·배스킨라빈스 협력 강화",
-        "insight": "배민-배스킨라빈스 디지털 협력 확대, 단독 상품·멤버십 혜택으로 고객 확보 전략",
+        "topic": "배민-배스킨라빈스 협력",
+        "insight": "배민과 배스킨라빈스 디지털 협력으로 단독 상품·멤버십 혜택 확대",
         "desc": "양사는 고객 혜택 강화와 디지털 매출 확대를 위해 멤버십 서비스와 공동 상품 개발, 마케팅, 사회공헌 등 다양한 분야에서 협력하기로 했다. 빠르게 변화하는 소비 환경에 대응하고 온라인 판매 경쟁력을 높이기 위한... ",
         "link": "https://www.seoultimes.news/news/article.html?no=2000097419",
         "pub_date": "2026.07.06",
-        "reason": "제휴사 배스킨라빈스 배민과 독점협력 확대",
+        "reason": "배민·배스킨라빈스 멤버십 확대, T제휴사 협력 강화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 23.8,
-        "datalab_velocity": 1.3,
+        "datalab_score": 23.1,
+        "datalab_velocity": 2.6,
         "queries": [
           "멤버십 혜택"
         ]
       },
       {
         "title": "배민·배스킨라빈스, 디지털 사업 맞손...단독 신제품·멤버십 혜택 확...",
-        "topic": "배민·배스킨라빈스 협력 강화",
-        "insight": "배민-배스킨라빈스 디지털 협력 확대, 단독 상품·멤버십 혜택으로 고객 확보 전략",
+        "topic": "배민-배스킨라빈스 협력",
+        "insight": "배민과 배스킨라빈스 디지털 협력으로 단독 상품·멤버십 혜택 확대",
         "desc": "단순 입점 관계를 넘어 멤버십 연계 혜택과 플랫폼 전용 상품, 한정판 굿즈, 공동 마케팅 등을 통해 고객 경험을 차별화하고 온라인 매출을 확대하는 것이 핵심 전략으로 자리 잡고 있다. 플랫폼 역시 브랜드와의 독점... ",
         "link": "http://www.popcornnews.net/news/articleView.html?idxno=125636",
         "pub_date": "2026.07.06",
-        "reason": "제휴사 배스킨라빈스 배민과 독점협력 강화",
+        "reason": "배민·배스킨라빈스 멤버십 강화, T제휴 영향도 점검",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 23.8,
-        "datalab_velocity": 1.3,
+        "datalab_score": 23.1,
+        "datalab_velocity": 2.6,
         "queries": [
           "멤버십 혜택"
         ]
       },
       {
-        "title": "배민, 협업부터 신기능까지 서비스 확장···고객 혜택·상생 행보 강화",
-        "topic": "배민·배스킨라빈스 협력 강화",
-        "insight": "배민-배스킨라빈스 디지털 협력 확대, 단독 상품·멤버십 혜택으로 고객 확보 전략",
-        "desc": "소상공인 지원 프로그램을 동시에 확대하며 사업 영역을 넓혀가고 있다고 보고 있다. 배달 서비스에 머물지 않고 멤버십 혜택과 커머스, 결제, 교육 및 상생 활동까지 아우르는 생활 플랫폼으로 진화하고 있다는 분석이다.",
-        "link": "https://www.smartbizn.com/news/articleView.html?idxno=147890",
-        "pub_date": "2026.07.06",
-        "reason": "배민의 제휴 확장 및 배스킨라빈스 협업",
+        "title": "티오더, ‘무섭노’ 논란 리센느와 브랜드 파트너십",
+        "topic": "티오더-리센느 논란",
+        "insight": "티오더가 논란 브랜드 리센느와 파트너십 추진, 브랜드 선택 기준 지적",
+        "desc": "리센느 멤버 원이 발언 두고 일베식 표현 논란 확산 티오더는 리센느와 광고·콘텐츠·프로모션 협업 추진... 고객관리, 마케팅 기능을 고도화한다는 전략을 내세우고 있다. 이번 리센느 협업도 가맹 점주 중심의 B2B... ",
+        "link": "https://biz.heraldcorp.com/article/10800628?ref=naver",
+        "pub_date": "2026.07.07",
+        "reason": "제휴사 리센느 일베 논란 확산",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 23.8,
-        "datalab_velocity": 1.3,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "배민-배스킨라빈스, 온라인 사업 협력···단독 신제품·회원 혜택 강화",
-        "topic": "배민·배스킨라빈스 협력 강화",
-        "insight": "배민-배스킨라빈스 디지털 협력 확대, 단독 상품·멤버십 혜택으로 고객 확보 전략",
-        "desc": "먼저 양 사는 배민 구독제 멤버십인 배민클럽 회원에게 배스킨라빈스 특화 혜택을 정기적으로 제공해 고객 로열티를 제고할 계획이다. 또 배민에서만 만나볼 수 있는 신제품도 출시한다. 배민과 배스킨라빈스가 공동... ",
-        "link": "http://www.srtimes.kr/news/articleView.html?idxno=206831",
-        "pub_date": "2026.07.06",
-        "reason": "배스킨라빈스-배민 독점 협력 강화",
+        "title": "'탱크데이 논란' 스타벅스 '매장 셧다운'에도…결제액 200억 증발",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "탱크데이 마케팅 논란 이후 스타벅스 결제액 200억원대 감소, 브랜드 이미지 영향",
+        "desc": "업계에서는 이번 사태가 단순한 마케팅 논란을 넘어 브랜드 신뢰도에 영향을 미치고 있다는 점에 주목하고 있다. 단기적인 매출 감소를 넘어 충성 고객층 이탈로 이어질 경우 중장기적인 타격이 불가피하다는... ",
+        "link": "https://view.asiae.co.kr/article/2026070318202444209",
+        "pub_date": "2026.07.03",
+        "reason": "제휴사 스타벅스 탱크데이 파급, 결제액 감소",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 23.8,
-        "datalab_velocity": 1.3,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "'탱크데이' 논란 한 달…스타벅스 결제액 200억 줄었다",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "탱크데이 마케팅 논란 이후 스타벅스 결제액 200억원대 감소, 브랜드 이미지 영향",
+        "desc": "5·18 광주민주화운동을 폄훼한 스타벅스코리아의 '탱크데이 마케팅' 파장이 좀처럼 가라앉지 않고 있다.... 최근에는 배재고 야구부가 스타벅스의 잘못된 마케팅을 따라한 '5·18 폄훼 응원'으로 비난받고 있다.",
+        "link": "https://www.hankookilbo.com/news/article/A2026070418150000701?did=NA",
+        "pub_date": "2026.07.04",
+        "reason": "제휴사 스타벅스 탱크데이 1개월 후 결제액 감소",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "JK김동욱 &quot;배재 렛츠고&quot; 스타벅스 응원 논란 또다시 '지지'[스타이슈]",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "탱크데이 마케팅 논란 이후 스타벅스 결제액 200억원대 감소, 브랜드 이미지 영향",
+        "desc": "JK김동욱은 최근 스타벅스의 '5·18 탱크 데이' 마케팅 논란과 관련해서도 &quot;가고 싶으면 간다. 선택은 자유&quot;라는 글을 올리며 공개 지지했다. 1975년생인 JK김동욱은 국내에서 활동하고 있지만 한국계 캐나다인으로 알려져... ",
+        "link": "https://www.starnewskorea.com/star/2026/07/02/2026070210074268985",
+        "pub_date": "2026.07.02",
+        "reason": "연예인 스타벅스 배재고 응원, 논란 재확산",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "&quot;이게 맞노?&quot;...리센느 때아닌 일베 논란에 광고계도 예의주시",
+        "topic": "티오더-리센느 논란",
+        "insight": "티오더가 논란 브랜드 리센느와 파트너십 추진, 브랜드 선택 기준 지적",
+        "desc": "앞서 스타벅스가 5.18 마케팅 논란으로 홍역을 치르면서 업계는 모델과 마케팅 리스크 관리의 중요성을 강조하는 분위기다. 이런 와중에 과거 사례도 다시 소환됐다. 이재명 대통령은 최근 스타벅스 논란과 관련해 과거... ",
+        "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=434799",
+        "pub_date": "2026.07.06",
+        "reason": "제휴사 리센느 일베 논란, 광고계 우려",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
         ]
       }
     ],
     "battle": [
       {
-        "title": "쿠팡, 와우회원 겨냥 여름 쇼핑 혜택 확대",
-        "topic": "쿠팡 와우회원 여름 프로모션",
-        "insight": "쿠팡이 와우회원 대상 여름 시즌 쇼핑 혜택을 확대하며 프리미엄 멤버십 가치 강화",
-        "desc": "신선식품과 생필품, 가전, 뷰티 등 15개 카테고리에서 6700여 개 브랜드가 참여해 할인과 쿠폰 혜택을 제공한다. 쿠팡은 오는 12일까지 7일간 와우 멤버십 회원을 대상으로 '와우 멤버스데이'를 진행한다고 6일 밝혔다.... ",
-        "link": "https://www.womentimes.co.kr/news/articleView.html?idxno=104173",
-        "pub_date": "2026.07.06",
-        "reason": "경쟁사 여름 멤버십 혜택 공세, 고객 이탈 위험",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 89.3,
-        "datalab_velocity": 10.7,
-        "queries": [
-          "멤버십 혜택",
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "배민, 배스킨라빈스와 협업 확대... &quot;구독 혜택부터 단독 메뉴까지&quot;",
-        "topic": "배민 배스킨라빈스 협업",
-        "insight": "배민이 배스킨라빈스와 구독 혜택과 브랜드 협업을 통해 플랫폼 서비스 범위 확대",
-        "desc": "구독 멤버십 혜택부터 배민 전용 신제품, 공동 마케팅까지 협력 범위를 넓혀 온라인 판매 시너지를 높이고 고객 접점을 확대한다는 전략이다. 우아한형제들은 배스킨라빈스를 운영하는 비알코리아와 '디지털 사업 경쟁력... ",
-        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=203106",
-        "pub_date": "2026.07.06",
-        "reason": "배민-배라 구독/혜택 협업 확대, 경쟁 우위 위협",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 77.5,
-        "datalab_velocity": -16.7,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "배민, 배스킨라빈스와 손잡아…구독 넘어 브랜드 협업으로 판 넓힌다",
-        "topic": "배민 배스킨라빈스 협업",
-        "insight": "배민이 배스킨라빈스와 구독 혜택과 브랜드 협업을 통해 플랫폼 서비스 범위 확대",
-        "desc": "배달앱 구독 경쟁이 배달비 무료를 넘어 특정 브랜드와의 결합으로 옮겨가는 흐름이 뚜렷해지고 있다.... OTT와 음원 서비스로 넓혀온 배민클럽의 제휴망에 식음료 브랜드가 더해지는 모습이다. 마케팅 협업의 범위도 넓다.... ",
-        "link": "https://www.econovill.com/news/articleView.html?idxno=744358",
-        "pub_date": "2026.07.06",
-        "reason": "배민-배라 전략적 협업 확대, 직접 경쟁 심화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 77.5,
-        "datalab_velocity": -16.7,
-        "queries": [
-          "구독 서비스",
-          "브랜드 제휴"
-        ]
-      },
-      {
         "title": "SKT, T 우주에 구글 AI 구독 도입… 월 최대 2100원 할인",
-        "topic": "SKT 구글AI 구독 서비스",
-        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 출시하며 AI 구독 시장 진출",
+        "topic": "SKT T우주 구글AI 구독",
+        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 추가해 최대 2,100원 할인 제공",
         "desc": "SK텔레콤은 구독 서비스 플랫폼 ‘T 우주’에 구글 인공지능(AI) 구독 서비스 ‘구글 AI 플랜(Google AI Plans)’을 도입했다고 3일 밝혔다. ‘구글 AI 플랜’은 제미나이를 비롯한 구글의 최신 AI 기능 및 모델에... ",
         "link": "https://biz.chosun.com/it-science/ict/2026/07/03/WGEM4EUCCZH3BAWJVK532HMIOY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
         "pub_date": "2026.07.03",
-        "reason": "SKT 구글 AI 구독팩 강화, 직접 경쟁사 신서비스 출시 긴급 대응",
+        "reason": "경쟁사 AI 구독 출시, T멤버십 고객 이탈 위험",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 77.5,
-        "datalab_velocity": -16.7,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
         "queries": [
           "구독 서비스"
         ]
       },
       {
         "title": "SK텔레콤 'T 우주', 구글 AI 구독 서비스 '구글 AI 플랜' 출시",
-        "topic": "SKT 구글AI 구독 서비스",
-        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 출시하며 AI 구독 시장 진출",
+        "topic": "SKT T우주 구글AI 구독",
+        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 추가해 최대 2,100원 할인 제공",
         "desc": "SK텔레콤은 신규 구독 서비스 '구글 AI 플랜'을 출시했다고 3일 밝혔다. 사진=SK텔레콤 제공 SK텔레콤은 구독 서비스 플랫폼 'T 우주'에서 구글 AI 구독 서비스 '구글 AI(인공지능) 플랜'을 출시했다고 3일 밝혔다.... ",
         "link": "https://daily.hankooki.com/news/articleView.html?idxno=1382448",
         "pub_date": "2026.07.03",
-        "reason": "SKT 구글 AI 구독 서비스 출시, 직접 경쟁 신상품 긴급 분석",
+        "reason": "T멤버십의 AI 구독 서비스, 경쟁 우위 전략",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 77.5,
-        "datalab_velocity": -16.7,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "SKT, T우주 구독으로 구글AI 최대 2100원 할인",
-        "topic": "SKT 구글AI 구독 서비스",
-        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 출시하며 AI 구독 시장 진출",
-        "desc": "SK텔레콤이 구독 서비스 플랫폼 T우주에서 제미나이를 비롯한 구글 AI를 구독할 수 있는 ‘구글AI플랜’을 출시했다고 3일 밝혔다. 구글 AI 플랜은 제미나이 외에 나노바나나, 노트북LM 등을 제공하고 클라우드... ",
-        "link": "https://zdnet.co.kr/view/?no=20260703084411",
-        "pub_date": "2026.07.03",
-        "reason": "SKT 구글 AI 할인 출시, 경쟁사 신규 구독팩 긴급 대응",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 77.5,
-        "datalab_velocity": -16.7,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "SKT, ‘T 우주‘에 구글 AI 구독 서비스 출시",
-        "topic": "SKT 구글AI 구독 서비스",
-        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 출시하며 AI 구독 시장 진출",
-        "desc": "SK텔레콤이 구독 서비스 플랫폼 ‘T 우주’에서 구글 인공지능(AI) 구독 서비스 ‘구글 AI 플랜’을 출시했다. 구글 AI 플랜은 제미나이를 비롯한 구글의 최신 AI 기능과 모델에 더 높은 사용량 한도를 제공하고... ",
-        "link": "https://www.viva100.com/article/20260703500032",
-        "pub_date": "2026.07.03",
-        "reason": "SKT 구글 AI 구독 출시, 직접 경쟁사 신서비스 긴급 분석",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 77.5,
-        "datalab_velocity": -16.7,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "SKT T우주, 구글 AI 구독 서비스 ‘구글 AI 플랜' 출시",
-        "topic": "SKT 구글AI 구독 서비스",
-        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 출시하며 AI 구독 시장 진출",
-        "desc": "= SK텔레콤은 구독 서비스 플랫폼 ‘T 우주’에서 구글 AI 구독 서비스 ‘구글 AI 플랜(Google AI Plans)’을 출시했다고 3일 밝혔다. ‘구글 AI 플랜’은 제미나이(Gemini)를 비롯한 구글의 최신 AI 기능 및... ",
-        "link": "https://www.news1.kr/photos/7989978",
-        "pub_date": "2026.07.03",
-        "reason": "SKT 구글 AI 구독팩 출시, 경쟁사 신상품 긴급 대응",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 77.5,
-        "datalab_velocity": -16.7,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
         "queries": [
           "구독 서비스"
         ]
       },
       {
         "title": "SKT, T우주서 '구글 AI 플랜' 출시…AI 구독 서비스 확대",
-        "topic": "SKT 구글AI 구독 서비스",
-        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 출시하며 AI 구독 시장 진출",
+        "topic": "SKT T우주 구글AI 구독",
+        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 추가해 최대 2,100원 할인 제공",
         "desc": "SK텔레콤이 구독 플랫폼 'T 우주'를 통해 구글의 AI 구독 서비스 '구글 AI 플랜(Google AI Plans)'을 선보이며 AI 구독 생태계 확대에 나섰다. 통신사와 관계없이 할인된 가격으로 이용할 수 있는 것은 물론, 신규... ",
         "link": "https://www.dailian.co.kr/news/view/1663228/?sc=Naver",
         "pub_date": "2026.07.03",
-        "reason": "SKT 구글 AI 구독 확대, 경쟁사 AI 서비스 강화 긴급 대응",
+        "reason": "T멤버십의 AI 구독 서비스 출시, 경쟁 전략",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 77.5,
-        "datalab_velocity": -16.7,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
         "queries": [
           "구독 서비스"
         ]
       },
       {
-        "title": "SKT '구글 AI 플랜' 출시…AI 구독 시장 공략",
-        "topic": "SKT 구글AI 구독 서비스",
-        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 출시하며 AI 구독 시장 진출",
-        "desc": "SK텔레콤이 구독 플랫폼 'T 우주'를 통해 구글의 인공지능(AI) 구독 서비스 '구글 AI 플랜'을 출시했다. SK텔레콤은 3일 제미나이(Gemini)를 비롯해 노트북LM, 지메일·구글독스 내 AI 기능 등을 이용할 수 있는 '구글... ",
-        "link": "https://www.newspim.com/news/view/20260703000190",
+        "title": "SKT, T우주 구독으로 구글AI 최대 2100원 할인",
+        "topic": "SKT T우주 구글AI 구독",
+        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 추가해 최대 2,100원 할인 제공",
+        "desc": "SK텔레콤이 구독 서비스 플랫폼 T우주에서 제미나이를 비롯한 구글 AI를 구독할 수 있는 ‘구글AI플랜’을 출시했다고 3일 밝혔다. 구글 AI 플랜은 제미나이 외에 나노바나나, 노트북LM 등을 제공하고 클라우드... ",
+        "link": "https://zdnet.co.kr/view/?no=20260703084411",
         "pub_date": "2026.07.03",
-        "reason": "SKT AI 구독 시장 공략 시작, 경쟁사 신규 서비스 전략 긴급 분석",
+        "reason": "T멤버십의 AI 구독 할인 전략",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 77.5,
-        "datalab_velocity": -16.7,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
         "queries": [
           "구독 서비스"
+        ]
+      },
+      {
+        "title": "SKT, ‘T 우주‘에 구글 AI 구독 서비스 출시",
+        "topic": "SKT T우주 구글AI 구독",
+        "insight": "SKT가 T우주 플랫폼에 구글 AI 구독 서비스를 추가해 최대 2,100원 할인 제공",
+        "desc": "SK텔레콤이 구독 서비스 플랫폼 ‘T 우주’에서 구글 인공지능(AI) 구독 서비스 ‘구글 AI 플랜’을 출시했다. 구글 AI 플랜은 제미나이를 비롯한 구글의 최신 AI 기능과 모델에 더 높은 사용량 한도를 제공하고... ",
+        "link": "https://www.viva100.com/article/20260703500032",
+        "pub_date": "2026.07.03",
+        "reason": "T멤버십의 AI 구독 서비스 출시, 경쟁 전략",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "불매보다 강력한 로켓배송...쿠팡 결제액·이용자 ‘역대 최고’",
+        "topic": "쿠팡 불매운동 이후 성장",
+        "insight": "쿠팡 불매 운동 이후에도 로켓배송 중심으로 결제액과 이용자가 역대 최고 수준 기록",
+        "desc": "책임론과 불매 운동에 직면했던 쿠팡이 불과 반년 만에 결제액과 이용자 수를 역대 최고 수준으로 끌어올렸다. 대규모 정보 유출과 과징금 처분 속에서 소비자들의 이른바 ‘탈팡’(쿠팡 탈퇴) 움직임이 확산하기도... ",
+        "link": "https://www.etoday.co.kr/news/view/2600333",
+        "pub_date": "2026.07.05",
+        "reason": "쿠팡 로켓배송 고객 유입 증가, 경쟁 우위 위협",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 76.4,
+        "datalab_velocity": -22.9,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "탈팡 운동 끝? 쿠팡 이용자·거래액 더 늘었다",
+        "topic": "쿠팡 불매운동 이후 성장",
+        "insight": "쿠팡 불매 운동 이후에도 로켓배송 중심으로 결제액과 이용자가 역대 최고 수준 기록",
+        "desc": "실제로 쿠팡 개인정보 유출 사태 이후 6개월이 지난 시점에서 쿠팡의 거래액과 이용자 수가 증가하면서 쿠팡 불매 운동 및 탈퇴 운동은 일시적인 현상에 그치는 모양새다. 한편 개인정보 유출 사태 발생 전... ",
+        "link": "https://m.skyedaily.com/news_view.html?ID=307171",
+        "pub_date": "2026.07.05",
+        "reason": "쿠팡 사용자 거래액 증가, 배달·이커머스 경쟁 악화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 76.4,
+        "datalab_velocity": -22.9,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "우리은행 '우리WON모바일', 7월 한 달간 통신비 파격 할인 이벤트",
+        "topic": "우리은행 통신비 할인 프로모션",
+        "insight": "우리은행 우리WON모바일이 7월 한 달간 통신비 파격 할인 이벤트 진행",
+        "desc": "우리은행의 통신서비스 '우리WON모바일'이 여름 휴가철을 맞아 통신비 부담을 덜어주기 위한 대규모 할인 이벤트를 실시한다. 우리은행의 통신서비스 '우리WON모바일'이 여름 휴가철을 맞아 통신비 부담을 덜어주기... ",
+        "link": "https://www.newspim.com/news/view/20260706000453",
+        "pub_date": "2026.07.06",
+        "reason": "우리은행 통신비 할인으로 T멤버십 고객이탈 위험",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 25.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "여름 휴가 이벤트"
+        ]
+      },
+      {
+        "title": "배민·쿠팡, 제재 우려 속 성수기 주도권 경쟁에 '사활'",
+        "topic": "배달앱 성수기 주도권 경쟁",
+        "insight": "배민과 쿠팡이 성수기 시장 점유율 확보를 위해 제재 우려 속 경쟁 심화",
+        "desc": "최근 공정거래위원회가 배달의민족과 쿠팡이츠의 동의의결 절차 개시 신청을 기각하는 등 배달 시장에 대한 제재 가능성이 그 어느 때보다 커져서다. 1·2위인 배민과 쿠팡이츠는 무료배달에 이어 심야 시간대로 전선을... ",
+        "link": "https://view.asiae.co.kr/article/2026070707365237927",
+        "pub_date": "2026.07.07",
+        "reason": "배민·쿠팡 공격적 경쟁, T멤버십 배달 제휴 전략 재검토 필요",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "배민 노리는 네이버, 배달앱서도 쿠팡과 맞붙나",
+        "topic": "배달앱 성수기 주도권 경쟁",
+        "insight": "배민과 쿠팡이 성수기 시장 점유율 확보를 위해 제재 우려 속 경쟁 심화",
+        "desc": "네이버와 쿠팡의 커머스 전쟁이 배달앱 시장으로 옮겨붙고 있다. 네이버가 배달의민족 운영사 우아한형제들 인수 및 지분 투자 방안을 검토하면서다. 쿠팡이츠를 앞세워 배민을 추격 중인 쿠팡은 네이버의 배달앱 참전... ",
+        "link": "https://www.hankyung.com/article/2026070686601",
+        "pub_date": "2026.07.06",
+        "reason": "네이버 배달앱 시장진출, 배민·쿠팡 경쟁 격화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
         ]
       }
     ],
     "benchmark": [
       {
+        "title": "&quot;책 읽는 여름 휴가&quot;…BC카드, 밀리의서재 무료 구독 이벤트",
+        "topic": "BC카드 밀리의서재 무료구독",
+        "insight": "BC카드가 밀리의서재와 협력해 카드 사용자 대상 무료 구독 이벤트 제공",
+        "desc": "특히 밀리의서재를 처음 이용하는 고객은 신규 가입 혜택이 추가 적용돼 최대 2개월 동안 무료로 서비스를 이용할 수 있다. 구독권은 밀리의서재 공식 홈페이지에서 회원 가입 후 등록하면 되며, 선착순 2만명에게... ",
+        "link": "https://economist.co.kr/article/view/ecn202607070034",
+        "pub_date": "2026.07.07",
+        "reason": "카드사 구독서비스 제휴, 경쟁사 전략 분석",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
+        "queries": [
+          "구독 서비스",
+          "여름 휴가 이벤트"
+        ]
+      },
+      {
+        "title": "“여름엔 책 한 권”…BC카드, 밀리의서재와 손잡고 무료 구독 이벤트",
+        "topic": "BC카드 밀리의서재 무료구독",
+        "insight": "BC카드가 밀리의서재와 협력해 카드 사용자 대상 무료 구독 이벤트 제공",
+        "desc": "없이 서비스를 이용할 수 있다. 이용을 원하는 회원은 밀리의서재 공식 홈페이지에 가입한 뒤 페이북에서 받은 구독권을 등록하면 된다. 밀리의서재는 누적 회원 1000만명을 넘어선 독서 플랫폼으로, 베스트셀러를 비롯해... ",
+        "link": "https://www.viva100.com/article/20260707501037",
+        "pub_date": "2026.07.07",
+        "reason": "카드사 구독서비스 무료 제공, 벤치마킹 가능",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
+        "queries": [
+          "구독 서비스",
+          "여름 휴가 이벤트"
+        ]
+      },
+      {
+        "title": "“책 읽는 여름휴가”…BC카드, 밀리의서재 무료 구독권 이용",
+        "topic": "BC카드 밀리의서재 무료구독",
+        "insight": "BC카드가 밀리의서재와 협력해 카드 사용자 대상 무료 구독 이벤트 제공",
+        "desc": "무료 구독권’을 제공받을 수 있다. 특히 밀리의서재를 처음 이용하는 회원은 첫 달 무료 혜택이 추가로 적용돼 최대 2개월까지 무료로 서비스를 이용할 수 있다. 밀리의서재 공식 홈페이지를 통해 신규 가입 후 등록... ",
+        "link": "https://theviewers.co.kr/View.aspx?No=4139396",
+        "pub_date": "2026.07.07",
+        "reason": "시즈널 구독 이벤트 (휴가철), 전략 참고",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 83.0,
+        "datalab_velocity": -1.6,
+        "queries": [
+          "구독 서비스",
+          "여름 휴가 이벤트"
+        ]
+      },
+      {
         "title": "호텔신라, 홈페이지·앱 전면 개편…예약 간소화에 멤버십 혜택 강화",
         "topic": "호텔신라 멤버십 강화",
-        "insight": "호텔신라가 디지털 플랫폼 개편과 함께 멤버십 혜택을 확대하여 고객 접근성 개선",
+        "insight": "호텔신라가 디지털 플랫폼 개편을 통해 예약 간소화 및 멤버십 혜택 확대",
         "desc": "이를 통해 예약 편의성과 멤버십 혜택을 강화하고 공식 채널 경쟁력 확대에 나선다는 구상이다. 이번 개편은 예약부터 결제, 여행 정보 탐색까지 전 과정을 보다 쉽고 직관적으로 이용할 수 있도록 개선한 것이 핵심이다.... ",
         "link": "https://view.asiae.co.kr/article/2026070708212679685",
         "pub_date": "2026.07.07",
-        "reason": "호텔 멤버십 앱 개편과 혜택 강화 사례 참고",
+        "reason": "멤버십 혜택 강화 사례, 직접 벤치마킹 대상",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 23.8,
-        "datalab_velocity": 1.3,
+        "datalab_score": 23.1,
+        "datalab_velocity": 2.6,
         "queries": [
           "멤버십 혜택",
           "앱 마케팅"
         ]
       },
       {
+        "title": "SSG닷컴, 7일 '쓱7클럽' 적립 혜택 두 배 제공",
+        "topic": "SSG닷컴 멤버십 프로모션",
+        "insight": "SSG닷컴이 쓱7클럽 멤버를 대상으로 적립 혜택 두 배 이벤트 진행",
+        "desc": "SSG닷컴 관계자는 &quot;쓱7클럽의 핵심 혜택인 7% 적립을 보다 직관적으로 체감할 수 있도록 이번 프로모션을 마련했다&quot;며 &quot;지금 가입하면 두 달간 월 회비를 SSG머니로 돌려받을 수 있는 만큼 부담 없이 멤버십 혜택을... ",
+        "link": "https://www.ziksir.com/news/articleView.html?idxno=139134",
+        "pub_date": "2026.07.06",
+        "reason": "멤버십 기반 적립 혜택 강화 사례",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 23.1,
+        "datalab_velocity": 2.6,
+        "queries": [
+          "멤버십 혜택",
+          "복날 프로모션"
+        ]
+      },
+      {
         "title": "브랜드와 전략적 제휴… 택시·주유까지 멤버십 혜택 확장",
-        "topic": "멤버십 제휴 범위 확장",
-        "insight": "멤버십 혜택이 택시, 주유 등 라이프스타일 전반으로 확대되며 통합 생활 플랫폼화 진행",
+        "topic": "멤버십 혜택 카테고리 확장",
+        "insight": "주요 브랜드들이 전략적 제휴를 통해 택시, 주유 등 생활밀착 카테고리로 멤버십 혜택 확대",
         "desc": "이번 조사에서 네이버플러스 스토어는 유료 멤버십 기반의 파격적인 온·오프라인 혜택 확장을 앞세워 e커머스 시장 주도권을 새롭게 확보했다. 네이버플러스 스토어는 하이퍼클로바X 기반의 AI 쇼핑 가이드를 도입하고... ",
         "link": "https://www.chosun.com/economy/industry-company/2026/07/06/4M5TTQAKQBD5NCA3YMMPYQJL7Q/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
         "pub_date": "2026.07.06",
-        "reason": "제휴 카테고리 확장(택시·주유) 전략 참고",
+        "reason": "택시·주유 등 제휴 확장 전략, 참고용",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 23.8,
-        "datalab_velocity": 1.3,
+        "datalab_score": 23.1,
+        "datalab_velocity": 2.6,
         "queries": [
           "멤버십 혜택",
           "브랜드 제휴"
         ]
       },
       {
-        "title": "한샘, 여름 '홈캉스' 수요 공략…온·오프라인 할인 프로모션 전개",
-        "topic": "여름 시즌 할인 경쟁",
-        "insight": "홈캉스 수요 증가에 따라 주요 브랜드들이 온·오프라인 할인 프로모션으로 경쟁 심화",
-        "desc": "사진=한샘 한샘이 여름 휴가철 '홈캉스(Home+Vacance)' 수요를 겨냥해 가구와 리모델링 할인 혜택을 앞세운 대규모 프로모션을 진행한다. 고물가 영향으로 집에서 휴식을 즐기려는 소비자가 늘면서 홈퍼니싱 업계도 침실... ",
-        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=203074",
-        "pub_date": "2026.07.06",
-        "reason": "여름 시즈널 홈캉스 프로모션 전략 참고",
+        "title": "네네치킨, 펩시 협업 자사앱 프로모션 가동 …최대 7천 원 할인 체계 도...",
+        "topic": "네네치킨 펩시 협업 프로모션",
+        "insight": "네네치킨이 펩시와 협업해 자사앱 사용자에게 최대 7천 원 할인 제공",
+        "desc": "행사 기간 자사앱 주문을 완료한 이용자는 등록된 회원 등급 요건에 부합할 경우 최대 7,000원의 가격 할인 조치를 적용받게 된다. 이번 프로모션은 단순 무작위 추첨 방식을 지양하고 소비자의 선택권을 확보하는 운영... ",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=203307",
+        "pub_date": "2026.07.08",
+        "reason": "브랜드 협업 할인 프로모션, 기획 참고",
         "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인",
-          "여름 휴가 마케팅"
-        ]
-      },
-      {
-        "title": "bhc, 공공 배달앱 '땡겨요'서 7월 할인 프로모션…최대 9000원 혜택",
-        "topic": "여름 시즌 할인 경쟁",
-        "insight": "홈캉스 수요 증가에 따라 주요 브랜드들이 온·오프라인 할인 프로모션으로 경쟁 심화",
-        "desc": "프랜차이즈 외식 업계 한 관계자는 &quot;최근 외식업계는 소비자 가격 부담을 낮추는 동시에 가맹점 수익성을 고려한 플랫폼 연계 마케팅을 확대하는 추세&quot;라며 &quot;공공 배달앱을 활용한 할인 행사는 소비자와 가맹점이... ",
-        "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5037683",
-        "pub_date": "2026.07.07",
-        "reason": "브랜드 배달앱 할인 프로모션 사례",
-        "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
@@ -731,37 +803,55 @@
         ]
       },
       {
-        "title": "무신사, 바캉스 잡화위크 연다…스윔웨어·여름 잡화 최대 80% 할인",
-        "topic": "여름 시즌 할인 경쟁",
-        "insight": "홈캉스 수요 증가에 따라 주요 브랜드들이 온·오프라인 할인 프로모션으로 경쟁 심화",
-        "desc": "합리적인 가격으로 여름 휴가를 준비하려는 소비자들을 겨냥해 다양한 할인 혜택을 마련했다. 쇼핑 패턴을 반영한 큐레이션 콘텐츠도 운영한다. 인기 상품을 특가에 선보이는 '위클리 특가'를 비롯해 카테고리별 대표... ",
-        "link": "https://www.joongangenews.com/news/articleView.html?idxno=530607",
+        "title": "김해온몰, 복날·휴가철 맞아 여름 할인전",
+        "topic": "온라인몰 시즈널 할인",
+        "insight": "김해온몰이 복날·휴가철 맞춰 여름 할인전 전개",
+        "desc": "진흥원 관계자는 “이번 여름 프로모션이 복날과 휴가 시즌을 준비하는 소비자들에게 체감도 높은 할인 혜택이 되길 바란다”며 “앞으로도 계절과 소비 흐름에 맞춘 다양한 온라인 행사와 이벤트를 통해 김해온몰... ",
+        "link": "https://www.viva100.com/article/20260706500756",
         "pub_date": "2026.07.06",
-        "reason": "여름 시즈널 할인 프로모션 사례",
+        "reason": "시즈널 할인전 사례, 향후 기획 참고",
         "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
+        "cross_query_count": 3,
+        "datalab_score": 25.0,
         "datalab_velocity": 0.0,
         "queries": [
           "소비자 할인",
-          "여름 휴가 마케팅"
+          "여름 휴가 이벤트",
+          "복날 프로모션"
         ]
       },
       {
-        "title": "자담치킨, 여름 맞아 7월 할인 프로모션 확대…배달앱·자사앱 혜택 강...",
-        "topic": "여름 시즌 할인 경쟁",
-        "insight": "홈캉스 수요 증가에 따라 주요 브랜드들이 온·오프라인 할인 프로모션으로 경쟁 심화",
-        "desc": "자담치킨은 고객이 선호하는 주문 채널에서 합리적인 가격으로 제품을 이용할 수 있도록 채널별 맞춤형 프로모션을 확대하고 있으며, 소비자 혜택과 가맹점 매출 활성화를 함께 고려한 마케팅을 지속 추진할 계획이다.... ",
-        "link": "https://www.mhns.co.kr/news/articleView.html?idxno=752262",
-        "pub_date": "2026.07.03",
-        "reason": "브랜드 여름 할인 프로모션 사례",
+        "title": "[F&amp;B핫이슈] 빕스 '갤러리아 광교점' 오픈·노랑통닭, 멤버십 앱 리뉴얼...",
+        "topic": "F&B 멤버십 강화",
+        "insight": "빕스·노랑통닭 등 F&B 브랜드들이 멤버십 앱 개편 및 프로모션 강화",
+        "desc": "이번 리뉴얼로 PC와 모바일 등 다양한 환경에서 주문할 수 있고, 앱과 웹에서 동일한 멤버십 혜택과 이벤트를 이용할 수 있다. 결제 편의성을 높이기 위해 토스페이, 카카오페이, 네이버페이 등 주요 간편결제 서비스도... ",
+        "link": "https://www.slist.kr/news/articleView.html?idxno=750345",
+        "pub_date": "2026.07.08",
+        "reason": "F&B 브랜드 멤버십 리뉴얼, 참고용",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 23.1,
+        "datalab_velocity": 2.6,
         "queries": [
-          "앱 마케팅",
-          "여름 휴가 마케팅"
+          "멤버십 혜택",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "던킨, 7월 DDAY 운영…할인·포인트 적립 혜택 마련",
+        "topic": "던킨 시즈널 프로모션",
+        "insight": "던킨이 7월 DDAY 운영을 통해 할인 및 포인트 적립 혜택 제공",
+        "desc": "던킨은 브랜드데이 행사인 'DDAY'를 통해 할인과 포인트 적립 혜택을 제공하며 고객 접점 확대에 나선다. 단기간 집중 프로모션을 통해 멤버십 이용률을 높이고 재방문을 유도하려는 전략이다. 신제품과 여름 시즌... ",
+        "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=126623",
+        "pub_date": "2026.07.08",
+        "reason": "시즈널 할인·포인트 혜택 사례",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 23.1,
+        "datalab_velocity": 2.6,
+        "queries": [
+          "멤버십 혜택",
+          "소비자 할인"
         ]
       }
     ]
