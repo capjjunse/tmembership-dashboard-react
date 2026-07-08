@@ -44,22 +44,22 @@ const compGroups = [
         note: { skt: '7.1', lgu: '7.7' },
       },
       {
-        brand: <span className="upd">그리팅</span>,
-        skt: { lines: [{ grade: '전 등급', b: '5만원 이상 구매 시 2만원 할인' }], date: <span className="upd">T day · 7.6~7.10</span> },
+        brand: '그리팅',
+        skt: { lines: [{ grade: '전 등급', b: '5만원 이상 구매 시 2만원 할인' }], date: 'T day · 7.6~7.10' },
         kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: <span className="upd">투쁠데이 · 7.9</span> },
+        lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: '투쁠데이 · 7.9' },
         v: 'good',
-        basis: { skt: <span className="upd">5만원↑ 2만원 할인</span>, lgu: '5.5만원↑ 2만원 할인', gap: <span className="upd">SKT 문턱 5천원↓</span> },
-        note: { skt: <span className="upd">7.6~7.10</span>, lgu: <span className="upd">7.9</span> },
+        basis: { skt: '5만원↑ 2만원 할인', lgu: '5.5만원↑ 2만원 할인', gap: 'SKT 문턱 5천원↓' },
+        note: { skt: '7.6~7.10', lgu: '7.9' },
       },
       {
-        brand: <span className="upd">CGV</span>,
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종 (더블콤보 3천원·팝콘M 1천원)' }], date: <span className="upd">T day · 7.6~7.10</span> },
+        brand: 'CGV',
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종 (더블콤보 3천원·팝콘M 1천원)' }], date: <span className="upd">T day · 7.6~7.10 / T day · 7.22~7.26</span> },
         kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 무료 (유플투쁠세트)' }], date: <span className="upd">투쁠데이 · 7.17</span> },
+        lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 무료 (유플투쁠세트)' }], date: '투쁠데이 · 7.17' },
         v: 'good',
-        basis: { skt: <span className="upd">8,500원+스낵 2종</span>, lgu: '스낵 1종 무료', gap: <span className="upd">SKT 티켓+스낵 우위</span> },
-        note: { skt: <span className="upd">7.6~7.10</span>, lgu: <span className="upd">7.17</span> },
+        basis: { skt: '8,500원+스낵 2종', lgu: '스낵 1종 무료', gap: 'SKT 티켓+스낵 우위' },
+        note: { skt: <span className="upd">7.6~7.10 / 7.22~7.26</span>, lgu: '7.17' },
       },
       {
         brand: '투썸플레이스',
@@ -87,6 +87,24 @@ const compGroups = [
         v: 'neut',
         basis: { skt: '2작품(뮤지컬35%+전시25%)', lgu: '1작품(전시35%)', gap: '동급, 작품수만 차이' },
         note: { skt: '7.6~7.10', lgu: '7.13' },
+      },
+      {
+        brand: <span className="upd">공차</span>,
+        skt: { lines: [{ grade: <span className="upd">V</span>, b: <span className="upd">인기 메뉴 6종 50% 할인</span> }], date: <span className="upd">T day · 7.13~7.17</span> },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상, 최대 5천원)' }], date: '투쁠데이 · 7.7' },
+        v: 'warn',
+        basis: { skt: <span className="upd">V등급 50%</span>, lgu: '선착순 50%', gap: <span className="upd">SKT V등급 한정</span> },
+        note: { skt: <span className="upd">7.13~7.17</span>, lgu: '7.7' },
+      },
+      {
+        brand: <span className="upd">오션월드</span>,
+        skt: { lines: [{ grade: <span className="upd">전 등급</span>, b: <span className="upd">골드시즌 종일 입장권 50% 할인</span> }], date: <span className="upd">T day · 7.13~7.31</span> },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '워터파크 50% 할인' }], date: '투쁠데이 · 7.15' },
+        v: 'neut',
+        basis: { skt: <span className="upd">50% 할인 (7.13~7.31)</span>, lgu: '50% 할인 (7.15)', gap: <span className="upd">동급 50%, 기간 차이만</span> },
+        note: { skt: <span className="upd">7.13~7.31</span>, lgu: '7.15' },
       },
     ],
   },
@@ -420,7 +438,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer"><span className="upd">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · KT 달달혜택 미공개 — 공개 후 업데이트 예정)</span></div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · KT 달달혜택 미공개 — 공개 후 업데이트 예정)</div>
         </div>
       </div>
 

@@ -18,6 +18,20 @@ export default function History() {
         <tbody>
           <tr>
             <td>2026.08.01</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+멤버십</td>
+            <td><span className="upd">파고다토쿨 혜택 변경 — 전화 영어 1만원 할인 → 전화 또는 화상 영어 정규수강 1만원 할인 (8.1~)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.08.01</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+멤버십</td>
+            <td><span className="upd">파고다원 혜택 변경 — 1:1 회화 5%+1:1 화상 1만원 할인 → 1:1 회화 5% 할인 (8.1~)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.08.01</td>
             <td><span className="cb bs">SKT</span></td>
             <td>VIP Pick</td>
             <td>T우주패스 9,900원 쿠폰 → 4,900원+5,000원 2종 분리 (8.1 적용)</td>
@@ -119,6 +133,13 @@ export default function History() {
             <td><span className="cb bs">SKT</span></td>
             <td>T멤버십 상시</td>
             <td>도그메이트 제휴 종료 (6.30)</td>
+            <td><span className="tb t종료">종료</span></td>
+          </tr>
+          <tr>
+            <td>2026.06.30</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T멤버십 상시</td>
+            <td><span className="upd">나뚜루&나뚜루 시그니처 제휴 종료 (6.30)</span></td>
             <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>

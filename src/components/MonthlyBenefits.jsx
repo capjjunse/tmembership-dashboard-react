@@ -24,14 +24,14 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Week 혜택 (7.6~7.10)</span></div>
               <ul className="mblist">
-                <li><span className="upd">배민×처갓집양념치킨 6천원(VIP 8천원)</span></li>
-                <li><span className="upd">파스쿠찌 그라니따 20% 할인 (VIP 1+1)</span></li>
-                <li><span className="upd">파리바게뜨 1천원당 200원(최대6천원)</span></li>
-                <li><span className="upd">도원스타일 여름 세트 50% 할인</span></li>
-                <li><span className="upd">그리팅 5만원 이상 구매 시 2만원 할인</span></li>
-                <li><span className="upd">T deal 핫 아이템 특가 이벤트</span></li>
-                <li><span className="upd">CGV 8,500원+매점쿠폰 2종</span></li>
-                <li><span className="upd">착한소비×코코리제주 최대 65% 할인</span></li>
+                <li>배민×처갓집양념치킨 6천원(VIP 8천원)</li>
+                <li>파스쿠찌 그라니따 20% 할인 (VIP 1+1)</li>
+                <li>파리바게뜨 1천원당 200원(최대6천원)</li>
+                <li>도원스타일 여름 세트 50% 할인</li>
+                <li>그리팅 5만원 이상 구매 시 2만원 할인</li>
+                <li>T deal 핫 아이템 특가 이벤트</li>
+                <li>CGV 8,500원+매점쿠폰 2종</li>
+                <li>착한소비×코코리제주 최대 65% 할인</li>
               </ul>
             </div>
             <div className="mblk">
@@ -68,11 +68,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">시원한 여름 · Week혜택 VIP찬스 포함 8종 공개</span></div>
+            <div className="mpnt-concept">시원한 여름 · Week혜택 VIP찬스 포함 8종 공개</div>
             <ul className="mpnt-list">
-              <li><span className="upd">Week혜택 7.6~10 공개 · VIP찬스 2종 포함</span></li>
-              <li><span className="upd">Young week 7.6~10·뚜레쥬르 등</span></li>
-              <li><span className="upd">Day 2~4 미공개 · 7.13부터 순차 오픈</span></li>
+              <li>Week혜택 7.6~10 공개 · VIP찬스 2종 포함</li>
+              <li>Young week 7.6~10·뚜레쥬르 등</li>
+              <li>Day 2~4 미공개 · 7.13부터 순차 오픈</li>
             </ul>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function MonthlyBenefits() {
                 <li>피자헛 55%+파스타 증정</li>
                 <li>카카오웹툰 (선착순) 최대 5천 캐시 증정</li>
                 <li>스파오 최대1.5만원(5만원↑)</li>
-                <li><span className="upd">스피드메이트 엔진오일+정비4종</span></li>
+                <li>스피드메이트 엔진오일+정비4종</li>
               </ul>
             </div>
             <div className="mblk">
@@ -122,8 +122,8 @@ export default function MonthlyBenefits() {
               <ul className="mblist">
                 <li>카카오페이지 (선착순) 최대 5천 캐시 증정</li>
                 <li>그리팅 2만원(5.5만원↑구매)</li>
-                <li><span className="upd">밀크T 최대7만원 혜택(무료체험시)</span></li>
-                <li>B1불스원카케어 광택시공20%</li>
+                <li>밀크T 최대7만원 혜택(무료체험시)</li>
+                <li>B1불스원카케어 광택시공<span className="upd">30%</span></li>
                 <li>신라면세점 쿠폰3종(5만원상당)</li>
                 <li>씨네Q (선착순) 일반/리클라이너관 8천원 관람권 증정</li>
               </ul>
@@ -166,7 +166,7 @@ export default function MonthlyBenefits() {
                 <li>배민×KFC 8.5천원(2.2만원↑)</li>
                 <li>오션월드 (선착순) 워터파크 50% 할인</li>
                 <li>풀무원 (선착순) 1만원 할인 (4만원 이상 구매 시)</li>
-                <li><span className="upd">반올림피자 라지 7천원(1+1제외)</span></li>
+                <li>반올림피자 라지 7천원(1+1제외)</li>
               </ul>
             </div>
             <div className="mblk">
@@ -174,8 +174,8 @@ export default function MonthlyBenefits() {
               <ul className="mblist">
                 <li>CU (선착순) 불닭볶음면 1,200원 할인</li>
                 <li>아쿠아필드 전권종40%(최대2인)</li>
-                <li><span className="upd">설성목장 1만원+폭립무료(7만원↑)</span></li>
-                <li><span className="upd">서울랜드 55%(동반1인45%)</span></li>
+                <li>설성목장 1만원+폭립무료(7만원↑)</li>
+                <li>서울랜드 55%(동반1인45%)</li>
                 <li>스마트홈 (선착순) 신규 가입 시 경품 증정</li>
               </ul>
             </div>
@@ -183,7 +183,7 @@ export default function MonthlyBenefits() {
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>7.17 (금) — 투쁠데이</span></div>
               <ul className="mblist">
                 <li>이마트24 5천원(1.2만원↑)</li>
-                <li><span className="upd">웅진플레이도시 종일41%(동반3인)</span></li>
+                <li>웅진플레이도시 종일41%(동반3인)</li>
                 <li>CGV (선착순) 팝콘M+음료M 무료</li>
                 <li>오뚜기몰 최대30%(최대2만원)</li>
               </ul>
@@ -198,7 +198,7 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>7.21 (화) — 투쁠데이</span></div>
               <ul className="mblist">
-                <li><span className="upd">배스킨라빈스 (선착순) 패밀리 사이즈 최대 9천원 할인</span></li>
+                <li>배스킨라빈스 (선착순) 패밀리 사이즈 최대 9천원 할인</li>
                 <li>매드포갈릭 최대2.5만원(8만원↑)</li>
                 <li>포텔리어 (선착순) 1개월 구독권</li>
                 <li>LG생활건강 체리블라썸증정(1.5만원↑)</li>
