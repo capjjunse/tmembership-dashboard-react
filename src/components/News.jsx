@@ -98,13 +98,13 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">휴가부터 시원한 일상까지, 7월을 위한 유플투쁬 혜택</span></div>
-            <div className="nsum">본격적인 여름 휴가 시즌을 맞아 유플투쁬이 다양한 혜택을 준비했습니다. 공차 50% 할인, 피자헛 55% 할인, 투썸플레이스 아메리카노 무료, 배달의민족×KFC 8,500원 할인, 배스킨라빈스 패밀리 9천원 할인, 이마트24 5천원 할인, 매드포갈릭 2만5천원 할인, CU 불닭볶음면 1,200원 할인 등 식음료 혜택과 카카오페이지·카카오웹툰 캐시 증정, 씨네Q 영화표, 신라인터넷면세점 쿠폰 등 문화·쇼핑 혜택도 운영합니다.</div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">휴가부터 시원한 일상까지, 7월을 위한 유플투쁠 혜택</span></div>
+            <div className="nsum">본격적인 여름 휴가 시즌을 맞아 유플투쁠이 다양한 혜택을 준비했습니다. 공차 50% 할인, 피자헛 55% 할인, 투썸플레이스 아메리카노 무료, 배달의민족×KFC 8,500원 할인, 배스킨라빈스 패밀리 9천원 할인, 이마트24 5천원 할인, 매드포갈릭 2만5천원 할인, CU 불닭볶음면 1,200원 할인 등 식음료 혜택과 카카오페이지·카카오웹툰 캐시 증정, 씨네Q 영화표, 신라인터넷면세점 쿠폰 등 문화·쇼핑 혜택도 운영합니다.</div>
             <div className="nmeta">2026-07-01 · <a href="https://news.lguplus.com/22202" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">응원과 혜택을 한 번에, 6월을 위한 유플투쁬 혜택</span></div>
-            <div className="nsum">6월 한 달간 식음료, 문화/여가, 쇼핑 분야에서 다양한 혜택. 피자헛 프리미엄 피자 55% 할인(6/19), 아웃백 최대 25% 할인(6/16), 배스킨라빈스 패밀리 사이즈 최대 9천원 할인(6/15), CGV 유플투쁬세트 무료(6/18), 서울랜드 파크이용권 55% 할인(6/19), 컬리 5천원 할인(6/15), 다이소 최대 2천원 금액권(6/23) 등. U+one 앱 유플투쁬 타임 오전 11시 선착순.</div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">응원과 혜택을 한 번에, 6월을 위한 유플투쁠 혜택</span></div>
+            <div className="nsum">6월 한 달간 식음료, 문화/여가, 쇼핑 분야에서 다양한 혜택. 피자헛 프리미엄 피자 55% 할인(6/19), 아웃백 최대 25% 할인(6/16), 배스킨라빈스 패밀리 사이즈 최대 9천원 할인(6/15), CGV 유플투쁠세트 무료(6/18), 서울랜드 파크이용권 55% 할인(6/19), 컬리 5천원 할인(6/15), 다이소 최대 2천원 금액권(6/23) 등. U+one 앱 유플투쁠 타임 오전 11시 선착순.</div>
             <div className="nmeta">2026-06-02 · <a href="https://news.lguplus.com/21954" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">

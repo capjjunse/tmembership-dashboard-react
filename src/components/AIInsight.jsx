@@ -63,11 +63,11 @@ const compGroups = [
       },
       {
         brand: '투썸플레이스',
-        skt: { lines: [{ grade: '전 등급', b: '제조 음료 40% (5종 택1)' }, { grade: '전 등급', b: '조각케이크 40%' }], date: 'Young week · 7.6~7.10' },
+        skt: { lines: [{ grade: '전 등급', b: '제조 음료 40% 할인 (5종 택1)' }, { grade: '전 등급', b: '조각케이크 40% 할인' }], date: 'Young week · 7.6~7.10' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: '투쁠데이 · 7.14' },
         v: 'good',
-        basis: { skt: '음료·케이크 각 40%', lgu: '케이크 구매시 무료 아메(조건부)', gap: 'SKT 40%×2 무조건' },
+        basis: { skt: '음료·케이크 각 40% 할인', lgu: '케이크 구매시 무료 아메(조건부)', gap: 'SKT 40%할인×2 무조건' },
         note: { skt: '7.6~7.10', lgu: '7.14' },
       },
       {
@@ -81,11 +81,11 @@ const compGroups = [
       },
       {
         brand: 'NOL티켓',
-        skt: { lines: [{ grade: '전 등급', b: '뮤지컬 유미의 세포들 35%' }, { grade: '전 등급', b: '인상주의를 넘어 전시 25% (~7.31)' }], date: 'Young week · 7.6~7.10' },
+        skt: { lines: [{ grade: '전 등급', b: '뮤지컬 유미의 세포들 35% 할인' }, { grade: '전 등급', b: '인상주의를 넘어 전시 25% 할인 (~7.31)' }], date: 'Young week · 7.6~7.10' },
         kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '맥스 시덴토프 개인전 최대 35%' }], date: '유플투쁠_컬처 · 7.13' },
+        lgu: { lines: [{ grade: '선착순', b: '맥스 시덴토프 개인전 최대 35% 할인' }], date: '유플투쁠_컬처 · 7.13' },
         v: 'neut',
-        basis: { skt: '2작품(뮤지컬35%+전시25%)', lgu: '1작품(전시35%)', gap: '동급, 작품수만 차이' },
+        basis: { skt: '2작품(각 35%+25% 할인)', lgu: '1작품(35% 할인)', gap: '동급, 작품수만 차이' },
         note: { skt: '7.6~7.10', lgu: '7.13' },
       },
       {
@@ -94,7 +94,7 @@ const compGroups = [
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상, 최대 5천원)' }], date: '투쁠데이 · 7.7' },
         v: 'warn',
-        basis: { skt: <span className="upd">V등급 50%</span>, lgu: '선착순 50%', gap: <span className="upd">SKT V등급 한정</span> },
+        basis: { skt: <span className="upd">V등급 50% 할인</span>, lgu: '선착순 50% 할인', gap: <span className="upd">SKT V등급 한정</span> },
         note: { skt: <span className="upd">7.13~7.17</span>, lgu: '7.7' },
       },
       {
