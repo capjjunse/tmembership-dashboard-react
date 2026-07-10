@@ -131,7 +131,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
-            <div className="ovg2-item">특이 변동 없음</div>
+            <div className="ovg2-item"><em className="tg tg-chg">상시변경</em><span className="upd">CGV 최대 5,000원 할인 (전 등급)</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">투쁠데이 진행중 (7.7~7.21)</span></div>

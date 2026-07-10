@@ -23,7 +23,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>CGV</td><td><G t="[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)"/></td><td><G t="[전 등급] 최대 5,000원 할인 (동반 4인)"/></td><td><G t="[전 등급] 2D영화 최대 4,000원 할인"/></td></tr>
+          <tr><td>CGV</td><td><G t="[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)"/></td><td><G t="[전 등급] 최대 5,000원 할인 (동반 4인)"/></td><td><span className="upd">[전 등급] 최대 5,000원 할인</span></td></tr>
           <tr><td>메가박스</td><td><G t="[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)"/></td><td><G t="[전 등급] 최대 6,000원 할인 (동반 4인)"/></td><td className="na">미제공</td></tr>
           <tr><td>롯데시네마</td><td className="na">미제공</td><td><G t="[전 등급] 최대 5,000원 할인"/></td><td className="na">미제공</td></tr>
         </tbody>
