@@ -56,7 +56,7 @@ export default function VipBenefits() {
           <tr>
             <td>생일</td>
             <td className="na">미제공</td>
-            <td>VVIP: 꾸까·스벅케이크·롯시 택1<br />VIP: 던킨·할리스·<span className="upd">롯시 택1</span></td>
+            <td>VVIP: 꾸까·스벅케이크·롯시 생일당월 택1<br /><span className="upd">VIP: 미제공</span></td>
             <td className="na">미제공</td>
           </tr>
         </tbody>
