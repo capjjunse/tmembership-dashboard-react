@@ -108,7 +108,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>오붓·플래시백·해커스 혜택 신규 (7.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 77%·긍정 23%</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 83%·긍정 17%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>T day "뭐가 없네" 불만</div>
           </a>
 
@@ -142,7 +142,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>포텔리어 무료 2주 혜택 축소 (7.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 56%·부정 44%</div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 50%·부정 50%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>투쁠 "혜택 줄어" 감소 불만</div>
           </a>
         </div>
