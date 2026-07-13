@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.07.08';
+const RADAR_SCANNED = '2026.07.13';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -155,8 +155,14 @@ const alCats = [
         { grade: 'V', desc: '본인 40% 할인, 동반 3인 30% 할인' },
         { grade: 'G, S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
       ]},
+      { partner: '오션월드', deadline: 'T day · 7.13~7.31', rows: [
+        { grade: '전 등급', desc: <span className="upd">이용권 50% 할인</span> },
+      ]},
+      { partner: '캐리비안베이', deadline: 'T day · 7.13~7.17', rows: [
+        { grade: '전 등급', desc: <span className="upd">50% 할인 + 자켓 대여 무료</span> },
+      ]},
     ]}],
-    reasons: ['T멤버십: 에버랜드·롯데월드 본인 40%+동반 30% 상시 2종 운영', '비통신 멤버십: 테마파크 제휴 없음'],
+    reasons: ['T멤버십: 에버랜드·롯데월드 본인 40%+동반 30% 상시 · Day 2 오션월드·캐리비안베이 각 50% 할인', '비통신 멤버십: 테마파크 제휴 없음'],
   },
   // ── T멤버십 열위 ──
   {
@@ -219,11 +225,12 @@ const alCats = [
       { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
+      { partner: 'GS25', deadline: '상시 (매주 화)', rows: [{ grade: '전 등급', desc: <span className="upd">신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)</span> }] },
       { partner: 'GS25', deadline: 'Young week · 7.6~7.10', rows: [{ grade: '전 등급', desc: '샌드위치 50% 할인 (7종 중 택1)' }] },
-      { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
-      { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '10% 할인' }, { grade: 'S', desc: '5% 할인' }] },
+      { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: <span className="upd">100원 할인</span> }, { grade: 'S', desc: <span className="upd">50원 할인</span> }] },
+      { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: <span className="upd">100원 할인</span> }, { grade: 'S', desc: <span className="upd">50원 할인</span> }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 Young week 샌드위치50% + CU·세븐 상시10%'],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 화요일 신선식품 200원+영위크 샌드위치50% · CU·세븐 100원 상시'],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -232,7 +239,7 @@ const alCats = [
     ]}],
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'CGV', deadline: '상시', rows: [
-        { grade: 'V', desc: '무료 연3회, 1+1 연9회, 특별관 12회' },
+        { grade: 'V', desc: <span className="upd">무료관람 연3회 / 1+1 연9회 택1</span> },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
       { partner: 'CGV', deadline: 'T day · 7.6~7.10', rows: [
@@ -258,7 +265,7 @@ const alCats = [
         { grade: 'G, S', desc: '3% 적립' },
       ]},
     ]}],
-    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 오프라인 3% 적립(홀수월) · 마트 혜택 미공개'],
+    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 3% 적립 (홀수월 · V 이상) · 7월 추가 마트 혜택 없음'],
   },
 ];
 
@@ -267,51 +274,51 @@ const alVdLabel = { warn: 'T멤버십 열위', good: 'T멤버십 우위', neut: 
 export const recs = [
   {
     rank: 1,
-    brand: '깐부치킨',
-    tag: '매장 168개 · DataLab 📈1.53',
-    reason: '6.7 젠슨 황·최태원 재회동 이후 버즈 진정세 진입. 글로벌 주목도는 유지 중, SKT 미참여 상태.',
+    brand: <span className="upd">노모어피자</span>,
+    tag: <span className="upd">매장 215개 · DataLab 📈1.40</span>,
+    reason: <span className="upd">DataLab 1.40 급등 · 뉴스 100건+ 폭발적 상승세. 저단가 피자 포지션으로 피자헛·도미노와 차별화. SKT 미참여 상태.</span>,
     reach: [
-      { label: '매장 규모', text: '전국 168개 · 치킨 카테고리 빠른 성장 중인 브랜드' },
-      { label: '검색 버즈', text: '6.7 재회동 이슈 이후 버즈 정점 경과 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+' },
-      { label: '제휴 포인트', text: 'SKT 미참여 — 6.7 재회동 이후 버즈 정점 경과, 이슈 지속 활용 가능' },
+      { label: '매장 규모', text: <span className="upd">전국 215개 · 피자 카테고리 저단가 포지션 (피자헛·도미노 대비 접근성 우위)</span> },
+      { label: '검색 버즈', text: <span className="upd">DataLab 📈1.40 급등 · 블로그 4.7만 · 뉴스 100건+</span> },
+      { label: '제휴 포인트', text: <span className="upd">SKT 미참여 — 피자 카테고리 내 저단가 세분 시장 공백, 신규 고객층 확보 기회</span> },
     ],
-    trend: 'DataLab 1.53 · 블로그 6만+ · 카페 1만+ · 뉴스 75건+',
-    hot: false,
-    skt: [],
-    kt:  null,
-    lgu: null,
-  },
-  {
-    rank: 2,
-    brand: '청년다방',
-    tag: '매장 269개 · DataLab 📈1.24',
-    reason: 'DataLab 1.24 상승세 유지로 분식 카테고리 검색 버즈 상위권. 저단가 고빈도 구조로 월간 혜택 건수 채우기 가장 유리한 브랜드. SKT 미참여 — 선점 기회.',
-    reach: [
-      { label: '매장 규모', text: '전국 269개 · 분식 카테고리 빠른 확장 중인 성장형 브랜드' },
-      { label: '검색 버즈', text: 'DataLab 📈1.24 상승세 · 블로그 22만 · 카페 9만 · 뉴스 100건' },
-      { label: '제휴 포인트', text: '저단가(5천~1만원대) 고빈도 방문 구조 → 월간 혜택 건수 누적에 유리' },
-    ],
-    trend: 'DataLab 1.24 · 블로그 22만 · 카페 9만 · 뉴스 100건',
+    trend: 'DataLab 1.40 · 블로그 4.7만 · 뉴스 100건+',
     hot: true,
     skt: [],
     kt:  null,
     lgu: null,
   },
   {
-    rank: 3,
-    brand: '설빙',
-    tag: '매장 598개 · DataLab ↗1.15',
-    reason: '여름 성수기 본격 돌입 · 아이스디저트 카테고리 1위. Tday 4개월 이상 공백 중 — 계약 지연 시 여름 피크 시즌 전체를 놓칠 수 있음.',
+    rank: 2,
+    brand: <span className="upd">설빙</span>,
+    tag: <span className="upd">매장 605개 · DataLab ↗1.21</span>,
+    reason: <span className="upd">여름 성수기 본격 돌입 · 아이스디저트 카테고리 1위. Tday 4개월 공백 중 — 계약 지연 시 여름 피크 시즌 전체를 놓칠 수 있음.</span>,
     reach: [
-      { label: '매장 규모', text: '전국 598개 · 아이스디저트 카테고리 1위' },
-      { label: '검색 버즈', text: 'DataLab ↗1.15 상승세 · 블로그 74만 · 카페 26만 · 뉴스 88건 — 여름 성수기 진입으로 버즈 상승 예상' },
-      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 4개월 이상 지속 · 여름 시즌 선점을 위한 조속한 재계약 필요' },
+      { label: '매장 규모', text: <span className="upd">전국 605개 · 아이스디저트 카테고리 1위</span> },
+      { label: '검색 버즈', text: <span className="upd">DataLab ↗1.21 상승세 · 블로그 75.6만 · 카페 26.3만 · 뉴스 56건 — 여름 성수기 진입으로 버즈 상승 예상</span> },
+      { label: '제휴 포인트', text: <span className="upd">2026.03 이후 Tday 공백 4개월 지속 · 여름 시즌 선점을 위한 조속한 재계약 필요</span> },
     ],
-    trend: 'DataLab 1.15 · 블로그 74만 · 카페 26만 · 뉴스 88건',
-    hot: false,
+    trend: 'DataLab 1.21 · 블로그 75.6만 · 카페 26.3만 · 뉴스 56건',
+    hot: true,
     skt: [
       { prog: 'Tday', active: false, last: '2026.03', gap: '4개월 공백' },
     ],
+    kt:  null,
+    lgu: null,
+  },
+  {
+    rank: 3,
+    brand: <span className="upd">60계치킨</span>,
+    tag: <span className="upd">매장 622개 · DataLab 0.97</span>,
+    reason: <span className="upd">전국 622개 매장 보유 중가 치킨 브랜드. SKT 미참여 — 치킨 카테고리 상시 제휴 브랜드 없음, 고빈도 방문 카테고리 공백.</span>,
+    reach: [
+      { label: '매장 규모', text: <span className="upd">전국 622개 · 중가 치킨 카테고리 주요 브랜드</span> },
+      { label: '검색 버즈', text: <span className="upd">DataLab 0.97 · 블로그 10.3만 · 뉴스 56건</span> },
+      { label: '제휴 포인트', text: <span className="upd">SKT 미참여 — 치킨 카테고리 상시 제휴 브랜드 없음, 고빈도 방문 카테고리 공백</span> },
+    ],
+    trend: 'DataLab 0.97 · 블로그 10.3만 · 뉴스 56건',
+    hot: false,
+    skt: [],
     kt:  null,
     lgu: null,
   },
@@ -576,7 +583,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.07.08</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.07.13</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
