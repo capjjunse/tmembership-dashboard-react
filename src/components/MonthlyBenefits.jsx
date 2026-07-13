@@ -22,7 +22,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Week 혜택 (7.6~7.10)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Week 혜택 (7.6~7.10)</span></div>
               <ul className="mblist">
                 <li>배민×처갓집 6천원할인(VIP8천원)</li>
                 <li>파스쿠찌 그라니따 20% 할인 (VIP 1+1)</li>
@@ -35,7 +35,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Young week (7.6~7.10)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Young week (7.6~7.10)</span></div>
               <ul className="mblist">
                 <li>뚜레쥬르 리얼브라우니 증정(20만건)</li>
                 <li>투썸 음료·케이크 각40%할인(5종택1)</li>
@@ -48,9 +48,19 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (7.13~7.17)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 2 (7.13~7.17)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 7월 13일 공개 예정</li>
+                <li><span className="upd">럭키찬스: VIP 5성급호텔 1박 추첨(100명)</span></li>
+                <li><span className="upd">캐리비안베이 50%할인+자켓대여무료</span></li>
+                <li><span className="upd">오션월드 이용권 50%할인</span></li>
+                <li><span className="upd">공차 음료6종 50%할인(VIP Only,최대6천원)</span></li>
+                <li><span className="upd">백미당 아이스크림 1+1</span></li>
+                <li><span className="upd">럭키찬스:이니스프리 레티놀PDRN 100%당첨</span></li>
+                <li><span className="upd">아로마티카 2만원할인(3만원↑)</span></li>
+                <li><span className="upd">슬로우캘리 대표메뉴 5천원할인</span></li>
+                <li><span className="upd">디자인밀 최대50%할인</span></li>
+                <li><span className="upd">티젠 최대50%할인(4만원↑)</span></li>
+                <li><span className="upd">오붓 웰니스패스 추가30%할인</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -68,11 +78,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">시원한 여름 · Week혜택 VIP찬스 포함 8종 공개</div>
+            <div className="mpnt-concept"><span className="upd">시원한 여름 · Day2 레저 집중+VIP 2종</span></div>
             <ul className="mpnt-list">
-              <li>Week혜택 7.6~10 공개 · VIP찬스 2종 포함</li>
-              <li>Young week 7.6~10·뚜레쥬르 등</li>
-              <li>Day 2~4 미공개 · 7.13부터 순차 오픈</li>
+              <li><span className="upd">Day2 7.13~17 공개 · 워터파크+뷰티 집중</span></li>
+              <li><span className="upd">VIP찬스 2종 · 호텔1박 추첨+공차 음료6종</span></li>
+              <li><span className="upd">Day 3~4 미공개 · 7.22·29 순차 오픈</span></li>
             </ul>
           </div>
         </div>
@@ -123,7 +133,7 @@ export default function MonthlyBenefits() {
                 <li>카카오페이지 (선착순) 최대 5천 캐시 증정</li>
                 <li>그리팅 2만원할인(5.5만원↑)</li>
                 <li>밀크T 최대7만원 혜택(무료체험시)</li>
-                <li>B1불스원카케어 광택시공 <span className="upd">30%할인</span></li>
+                <li>B1불스원카케어 광택시공 30%할인</li>
                 <li>신라면세점 쿠폰3종(5만원상당)</li>
                 <li>씨네Q (선착순) 일반/리클라이너관 8천원 관람권 증정</li>
               </ul>

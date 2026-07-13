@@ -97,24 +97,24 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#vp" className="ovg2-card cs">
-            <div className="ovg2-item">특이 변동 없음</div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">T우주패스 8.1 쿠폰 분리 예정 (8.1~)</span></div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">T day Week혜택 진행중 (7.6~7.10)</span></div>
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">Young week 진행중 (7.6~7.10)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">T day Day2 진행중 (7.13~7.17)</span></div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">Week혜택·Young week 종료 (7.10)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">나뚜루·농협맛선·도그메이트 종료 (6.30)</span></div>
-            <div className="ovg2-item"><em className="tg tg-new">신규</em>오붓·플래시백·해커스 혜택 신규 (7.1~)</div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">오붓·플래시백·해커스 혜택 신규 (7.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em>나뚜루·농협맛선·도그메이트 종료 (6.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 83%·긍정 17%</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 83%·긍정 17%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>T day "뭐가 없네" 불만</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#rg" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VIP 생일 — 던킨·할리스·롯시 1+1 택1</div>
+            <div className="ovg2-item"><span className="upd">특이 변동 없음</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>고객보답 1차 진행중 (7.1~7.15)</div>
@@ -125,24 +125,24 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>MOVV 인천공항 혜택 변경 (7.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>올리브영 쿠폰 만료 항의</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달혜택 '빽다방만' 불만</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>보답 1차 '라운지 너프' 불만</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-chg">상시변경</em><span className="upd">CGV 최대 5,000원 할인 (전 등급)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">상시변경</em>CGV 최대 5,000원 할인 (전 등급)</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">투쁠데이 진행중 (7.7~7.21)</span></div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>장기고객데이 오픈 (7.23)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>투쁠데이 진행중 (7.7~7.21)</div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">유플투쁠_컬처 오픈 (7.13~7.17)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">파고다토쿨·파고다원 변경 예정 (8.1~)</span></div>
             <div className="ovg2-item"><em className="tg tg-new">신규</em>프린트베이커리 등 혜택 신규 (7.1~)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>포텔리어 무료 2주 혜택 축소 (7.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 50%·부정 50%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 50%·부정 50%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>투쁠 "혜택 줄어" 감소 불만</div>
           </a>
         </div>
@@ -152,9 +152,9 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">KT 미공개 · SKT↔LGU+ 8종 비교 완료</span></div>
+              <div className="ovki-title">KT 미공개 · SKT↔LGU+ 8종 비교 완료</div>
               <ul className="ovki-list">
-                <li><span className="upd">SKT 그리팅·CGV·투썸·오뚜기몰 우위 · 피자헛·공차 LGU+ 앞서</span></li>
+                <li>SKT 그리팅·CGV·투썸·오뚜기몰 우위 · 피자헛·공차 LGU+ 앞서</li>
                 <li>KT 달달혜택 미공개 — 공개 후 3사 비교 업데이트</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
