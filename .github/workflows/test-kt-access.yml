@@ -1,0 +1,17 @@
+name: Test KT access
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl KT membership site
+        run: |
+          echo "membership.kt.com:"
+          curl -sS -o /dev/null -w "HTTP %{http_code}\n" --max-time 10 https://membership.kt.com || echo "curl failed"
+          echo "membership.kt.com/vip/choice/ChoiceInfo.do:"
+          curl -sS -o /dev/null -w "HTTP %{http_code}\n" --max-time 10 https://membership.kt.com/vip/choice/ChoiceInfo.do || echo "curl failed"
+          echo "runner IP:"
+          curl -sS --max-time 10 ifconfig.me || echo "ip lookup failed"
