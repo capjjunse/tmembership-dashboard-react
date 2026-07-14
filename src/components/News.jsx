@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">SKT, 휴가철 로밍·멤버십 혜택 꽉 채웠다</span></span></div>
+            <div className="nsum"><span className="upd">여름 휴가철을 맞아 T 로밍 프로모션과 T 멤버십 혜택을 강화하여 운영. 해외여행 시 로밍 특가와 함께 국내 T멤버십 혜택(0 week, 제휴사 할인 등)을 동시에 제공.</span></div>
+            <div className="nmeta"><span className="upd">2026-07-13</span> · <a href="https://news.sktelecom.com/227702" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">T 멤버십으로 즐기는 특별한 여름, 7월 혜택 총정리</span></div>
             <div className="nsum">여름휴가 시즌 맞아 SUMMER LUCKY WEEK(7월 13~17일) 5성급 호텔 숙박권 응모 이벤트, Young Week 브랜드 개편, 신규 제휴사 3곳 합류, 서울랜드 본인 50%·동반 40% 할인. 토이콘 서울 2026 관람권 30% 할인.</div>
             <div className="nmeta">2026-07-01 · <a href="https://news.sktelecom.com/227258" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -97,6 +102,11 @@ export default function News() {
 
       {tab === 'lgu' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">U+ 장기고객을 위한 레고랜드 워터풀 파티 & U+119 메모리얼런</span></span></div>
+            <div className="nsum"><span className="upd">LGU+ 멤버십 VVIP 이상·10년 이상 장기고객 대상 특별 초청 이벤트. 8월 8~9일 레고랜드 코리아 리조트에서 워터풀 파티 개최(1,500명 참가). 장기고객 우대 전략 지속 강화.</span></div>
+            <div className="nmeta"><span className="upd">2026-07-10</span> · <a href="https://news.lguplus.com/22285" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">휴가부터 시원한 일상까지, 7월을 위한 유플투쁠 혜택</span></div>
             <div className="nsum">본격적인 여름 휴가 시즌을 맞아 유플투쁠이 다양한 혜택을 준비했습니다. 공차 50% 할인, 피자헛 55% 할인, 투썸플레이스 아메리카노 무료, 배달의민족×KFC 8,500원 할인, 배스킨라빈스 패밀리 9천원 할인, 이마트24 5천원 할인, 매드포갈릭 2만5천원 할인, CU 불닭볶음면 1,200원 할인 등 식음료 혜택과 카카오페이지·카카오웹툰 캐시 증정, 씨네Q 영화표, 신라인터넷면세점 쿠폰 등 문화·쇼핑 혜택도 운영합니다.</div>

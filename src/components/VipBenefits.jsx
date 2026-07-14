@@ -34,7 +34,7 @@ export default function VipBenefits() {
           <tr>
             <td>영화</td>
             <td>CGV 무료관람 연3회 /<br />1+1 연9회 택1</td>
-            <td>롯데시네마 2인 무료<br />(VVIP 초이스)</td>
+            <td><span className="upd">롯데시네마 영화 무료</span><br />(VVIP 초이스)</td>
             <td>CGV 무료 연3회 / 1+1 연9회</td>
           </tr>
           <tr>
@@ -45,8 +45,8 @@ export default function VipBenefits() {
             </td>
             <td>
               VVIP 전용:<br />
-              VIPS 스테이크 무료<br />
-              도미노 3만원 할인
+              <span className="upd">VIPS 스테이크 무료(2인 샐러드바 이용시)</span><br />
+              <span className="upd">도미노 3만원 할인(방문, 4만원 결제조건)</span>
             </td>
             <td>
               유독<br />
@@ -56,7 +56,7 @@ export default function VipBenefits() {
           <tr>
             <td>생일</td>
             <td className="na">미제공</td>
-            <td>VVIP: 꾸까·스벅케이크·롯시 생일당월 택1<br /><span className="upd">VIP: 미제공</span></td>
+            <td>VVIP: 꾸까·스벅케이크·롯시 생일당월 택1<br />VIP: 미제공</td>
             <td className="na">미제공</td>
           </tr>
         </tbody>

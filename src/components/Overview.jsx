@@ -97,7 +97,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#vp" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">T우주패스 8.1 쿠폰 분리 예정 (8.1~)</span></div>
+            <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">T day Day2 진행중 (7.13~7.17)</span></div>
@@ -113,8 +113,8 @@ export default function Overview() {
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
-          <a href="#rg" className="ovg2-card ck">
-            <div className="ovg2-item"><span className="upd">특이 변동 없음</span></div>
+          <a href="#vp" className="ovg2-card ck">
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">롯데시네마 무료·VIPS·도미노 VVIP 혜택 변경</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>고객보답 1차 진행중 (7.1~7.15)</div>
