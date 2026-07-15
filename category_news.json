@@ -1,50 +1,122 @@
 {
-  "generated_at": "2026.07.13 16:29",
-  "total_collected": 1076,
-  "total_valid": 496,
-  "total_skipped": 501,
-  "total_top": 34,
+  "generated_at": "2026.07.15 16:23",
+  "total_collected": 962,
+  "total_valid": 479,
+  "total_skipped": 407,
+  "total_top": 32,
   "topic_groups": [
     {
       "category": "trend",
-      "topic": "휴가철 유통·관광 서비스 경쟁",
-      "insight": "휴가철 유통·관광 수요 증가로 주요 서비스 업체들의 프로모션 경쟁 심화",
+      "topic": "SKT 휴가철 로밍·멤버십 혜택",
+      "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
       "signal_strength": 2,
-      "max_velocity": 10.3,
+      "max_velocity": 13.9,
       "articles": [
         {
-          "title": "여행의 시작부터 귀국까지…휴가철 서비스 경쟁 달아오른다",
-          "link": "http://www.kdfnews.com/news/articleView.html?idxno=185131",
+          "title": "&quot;첫 로밍 70% 할인&quot; SKT, 휴가철 로밍·멤버십 혜택 강화",
+          "link": "http://www.fnnews.com/news/202607130909561476",
+          "pub_date": "2026.07.13",
+          "priority": 2,
+          "cross_query_count": 3,
+          "datalab_velocity": 13.9
+        },
+        {
+          "title": "SKT, 여름 휴가철 국내외 여행 혜택 푼다…&quot;2030 첫 로밍 70% 할인&quot;",
+          "link": "https://www.news1.kr/it-science/cc-newmedia/6225772",
+          "pub_date": "2026.07.13",
+          "priority": 2,
+          "cross_query_count": 3,
+          "datalab_velocity": 13.9
+        },
+        {
+          "title": "SK텔레콤, 여름 휴가철 로밍·멤버십 혜택 확대",
+          "link": "https://www.cnbizm.com/news/articleView.html?idxno=308389",
+          "pub_date": "2026.07.13",
+          "priority": 2,
+          "cross_query_count": 3,
+          "datalab_velocity": 13.9
+        },
+        {
+          "title": "SKT, 휴가철 로밍·멤버십 등 맞춤 혜택 강화 나선다",
+          "link": "http://www.srtimes.kr/news/articleView.html?idxno=207369",
+          "pub_date": "2026.07.13",
+          "priority": 2,
+          "cross_query_count": 3,
+          "datalab_velocity": 13.9
+        },
+        {
+          "title": "SKT, 휴가철 로밍·멤버십 혜택 강화",
+          "link": "https://www.dt.co.kr/article/12072596?ref=naver",
           "pub_date": "2026.07.13",
           "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "datalab_velocity": 13.9
         },
         {
-          "title": "삼정KPMG, 인바운드 소비 트렌드 분석…면세점 중심 쇼핑 분산",
-          "link": "http://www.joseilbo.com/news/news_read.php?uid=571754&class=10&grp=",
+          "title": "SKT, 여름 휴가 맞아 T로밍 프로모션·멤버십 혜택 제공",
+          "link": "https://www.etnews.com/20260713000060",
           "pub_date": "2026.07.13",
-          "priority": 1,
+          "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "datalab_velocity": 13.9
         },
         {
-          "title": "여름·추석 특수에 살아난 유통업 기대감… 온라인만 ‘부진’",
-          "link": "https://www.viva100.com/article/20260713500516",
+          "title": "SKT, 여름휴가 맞아 ‘첫 로밍 70% 할인’…휴가철 멤버십 혜택 운영",
+          "link": "https://biz.heraldcorp.com/article/10806363?ref=naver",
           "pub_date": "2026.07.13",
-          "priority": 1,
+          "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 10.3
+          "datalab_velocity": 13.9
+        },
+        {
+          "title": "SKT, 여름휴가 맞이 로밍·멤버십 혜택 강화",
+          "link": "https://www.viva100.com/article/20260713500131",
+          "pub_date": "2026.07.13",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 13.9
+        },
+        {
+          "title": "SKT, 로밍 혜택 확대 등 휴가철 마케팅 나서",
+          "link": "https://www.busan.com/view/busan/view.php?code=2026071309054761851",
+          "pub_date": "2026.07.13",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 13.9
+        },
+        {
+          "title": "SK텔레콤, 휴가철 로밍·멤버십 혜택 강화",
+          "link": "http://www.cctimes.kr/news/articleView.html?idxno=916312",
+          "pub_date": "2026.07.13",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 13.9
         }
       ]
     },
     {
       "category": "risk",
-      "topic": "스타벅스 탱크데이 논란 극복",
-      "insight": "탱크데이 논란으로 인한 매출 부진 극복을 위해 1500만 리워드 회원에게 무료 음료 쿠폰 제공",
+      "topic": "스타벅스 탱크데이 사태",
+      "insight": "스타벅스 탱크데이 논란으로 인한 불매 여파로 경쟁 브랜드까지 연쇄 영향",
       "signal_strength": 3,
-      "max_velocity": 3.8,
+      "max_velocity": 0.0,
       "articles": [
+        {
+          "title": "'탈벅' 수혜도 없었다…낀 브랜드 된 이디야의 굴욕",
+          "link": "http://www.inews24.com/view/1985433",
+          "pub_date": "2026.07.15",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -19.0
+        },
+        {
+          "title": "스타벅스, 매년 사람들 줄 서던 ‘간판 행사’도 접었다…“신뢰 회복이...",
+          "link": "https://www.sedaily.com/article/20068141?ref=naver",
+          "pub_date": "2026.07.15",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -11.5
+        },
         {
           "title": "스타벅스 마케팅 재시동…전 회원 무료 커피 쏜다",
           "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5039071",
@@ -52,22 +124,6 @@
           "priority": 3,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
-        },
-        {
-          "title": "마케팅 논란 이후 첫 승부수...스타벅스, 무료 음료로 1500만 회원 달랜...",
-          "link": "http://www.popcornnews.net/news/articleView.html?idxno=126093",
-          "pub_date": "2026.07.09",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "스타벅스, 전 리워드 회원에 무료 음료 쿠폰…'탱크데이' 논란 후 첫 대...",
-          "link": "https://www.newspim.com/news/view/20260708001236",
-          "pub_date": "2026.07.08",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 3.8
         },
         {
           "title": "스타벅스, 잇단 논란에 '회심 카드'…전 회원에 '무료 커피' 쏜다",
@@ -102,9 +158,9 @@
           "datalab_velocity": 0.0
         },
         {
-          "title": "스타벅스, 리워드 회원에 무료음료 혜택…논란 이후 첫 대규모 행사",
-          "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=264357",
-          "pub_date": "2026.07.08",
+          "title": "마케팅 논란 이후 첫 승부수...스타벅스, 무료 음료로 1500만 회원 달랜...",
+          "link": "http://www.popcornnews.net/news/articleView.html?idxno=126093",
+          "pub_date": "2026.07.09",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
@@ -113,164 +169,90 @@
     },
     {
       "category": "battle",
-      "topic": "KT 구독상품 할인 프로모션",
-      "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
+      "topic": "네이버 AI탭 확산",
+      "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
       "signal_strength": 2,
-      "max_velocity": -43.6,
+      "max_velocity": 5.6,
       "articles": [
         {
-          "title": "KT, 챗GPT 등 '생성AI 6종' 구독료 최대 반값 할인...휴대폰 결제 시",
-          "link": "https://zdnet.co.kr/view/?no=20260713092209",
-          "pub_date": "2026.07.13",
+          "title": "네이버 AI탭, 출시 3주 만에 사용자 1000만명 돌파",
+          "link": "https://www.sidae.com/article/2026071515383798748",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
+          "datalab_velocity": 5.6
         },
         {
-          "title": "KT, 휴대폰결제로 AI·구독상품 이용시 50% 할인",
-          "link": "https://www.etnews.com/20260713000049",
-          "pub_date": "2026.07.13",
+          "title": "‘AI탭’ 뭐길래…초록창 떠났던 사람들 다시 네이버로 온다",
+          "link": "https://www.joongang.co.kr/article/25445268",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
+          "datalab_velocity": 5.6
         },
         {
-          "title": "KT 콘텐츠페이, 구글플레이 구독 상품 최대 50% 할인",
-          "link": "https://www.dt.co.kr/article/12072650?ref=naver",
-          "pub_date": "2026.07.13",
+          "title": "'검색창' 끝난 줄 알았더니…1000만명 몰린 네이버 'AI탭'",
+          "link": "https://www.hankyung.com/article/202607155832g",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
+          "datalab_velocity": 5.6
         },
         {
-          "title": "챗GPT·유튜브 프리미엄 '반값'에 쓴다…KT, 구독료 최대 50% 파격 할인",
-          "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03161926645514192",
-          "pub_date": "2026.07.13",
+          "title": "네이버 AI탭 1000만명 썼다…검색 넘어 실행형 에이전트로 확장",
+          "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04257446645514848",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
+          "datalab_velocity": 5.6
         },
         {
-          "title": "KT, 7월 한 달 구글플레이 구독 상품 최대 50% 할인",
-          "link": "http://www.breaknews.com/1221123",
-          "pub_date": "2026.07.13",
+          "title": "네이버 'AI탭' 이용자 1천만 명… 부동산·웨일·건강 에이전트로 확장",
+          "link": "https://platum.kr/archives/290939",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
+          "datalab_velocity": 5.6
         },
         {
-          "title": "KT 콘텐츠페이, 생성형 AI·일상 구독 서비스 최대 50% 할인",
-          "link": "https://www.sentv.co.kr/article/view/sentv202607130073",
-          "pub_date": "2026.07.13",
+          "title": "검색 넘어 실행까지…네이버 AI탭, '국내형 AI 에이전트' 승부수",
+          "link": "https://www.mt.co.kr/tech/2026/07/15/2026071509000335647",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
+          "datalab_velocity": 5.6
         },
         {
-          "title": "&quot;챗GPT 반값에 쓰세요&quot; KT콘텐츠페이, AI·일상 구독서비스 프로모션",
-          "link": "https://www.catchnews.kr/news/articleView.html?idxno=126105",
-          "pub_date": "2026.07.13",
+          "title": "네이버 ‘AI탭’으로 검색 생태계 변화…이용자도 1000만 넘었다",
+          "link": "https://www.segye.com/newsView/20260715514039?OutUrl=naver",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
+          "datalab_velocity": 5.6
         },
         {
-          "title": "KT, 구글플레이 구독 결제 시 최대 50% 할인…AI 서비스는 추가 5천원 절...",
-          "link": "https://www.nextdaily.co.kr/news/articleView.html?idxno=251237",
-          "pub_date": "2026.07.13",
+          "title": "네이버, AI 검색 'AI탭' 생태계 확장",
+          "link": "https://www.thereport.co.kr/news/articleView.html?idxno=89630",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
+          "datalab_velocity": 5.6
         },
         {
-          "title": "&quot;챗GPT 반값에 이용하세요&quot;…KT, 구독 상품 휴대폰 결제 시 할인",
-          "link": "https://www.ddaily.co.kr/page/view/2026071310124834418",
-          "pub_date": "2026.07.13",
+          "title": "네이버 'AI탭' 이용자 1000만명 돌파…&quot;정보 탐색 넘어 실행까지&quot;",
+          "link": "https://view.asiae.co.kr/article/2026071509404690281",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
+          "datalab_velocity": 5.6
         },
         {
-          "title": "'챗GPT·클로드 최대 1만원 할인'...KT, 7월 구독료 할인 이벤트 진행",
-          "link": "https://www.the-pr.co.kr/news/articleView.html?idxno=61901",
-          "pub_date": "2026.07.13",
+          "title": "1000만명 이용한 네이버 'AI탭', 검색과 실생활 연결한다",
+          "link": "https://www.dailian.co.kr/news/view/1667361/?sc=Naver",
+          "pub_date": "2026.07.15",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -43.6
-        }
-      ]
-    },
-    {
-      "category": "benchmark",
-      "topic": "여름 바캉스 시즌 통합 할인",
-      "insight": "소매·카드사·여행 플랫폼 전방위 프로모션으로 여름 성수기 고객 유입 경쟁",
-      "signal_strength": 1,
-      "max_velocity": -5.4,
-      "articles": [
-        {
-          "title": "SSG닷컴, 여름 바캉스 준비 한곳에…쇼핑부터 여행 예약까지 할인 혜택...",
-          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=131831",
-          "pub_date": "2026.07.13",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -5.4
-        },
-        {
-          "title": "[스마트컨슈머] 여름 바캉스 시즌 할인 SSG·보양식 세일 롯데마트",
-          "link": "https://kpenews.com/View.aspx?No=4146207",
-          "pub_date": "2026.07.13",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -5.4
-        },
-        {
-          "title": "삼성카드, 여름 휴가철 맞이 레저·대형마트 할인 이벤트 진행",
-          "link": "http://www.newsdream.kr/news/articleView.html?idxno=114312",
-          "pub_date": "2026.07.13",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -5.4
-        },
-        {
-          "title": "삼성카드, 바캉스 시즌 겨냥 여행·쇼핑 할인 이벤트",
-          "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=311646",
-          "pub_date": "2026.07.13",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -5.4
-        }
-      ]
-    },
-    {
-      "category": "benchmark",
-      "topic": "복날 건강식품 할인전",
-      "insight": "휴가철·절기 연계 건강식품 카테고리 할인 프로모션으로 수요 전환",
-      "signal_strength": 1,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "제천 한방바이오제천몰, 복날 맞이 할인 특별전 개최",
-          "link": "https://www.ggilbo.com/news/articleView.html?idxno=1168946",
-          "pub_date": "2026.07.13",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "한방바이오제천몰, 복날 특별전 최대 52% 할인",
-          "link": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=898374",
-          "pub_date": "2026.07.13",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "한방바이오제천몰, 8월 복날 특별전…건강식품 70여종 할인",
-          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3633613",
-          "pub_date": "2026.07.13",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "datalab_velocity": 5.6
         }
       ]
     }
@@ -278,166 +260,271 @@
   "categories": {
     "trend": [
       {
-        "title": "여행의 시작부터 귀국까지…휴가철 서비스 경쟁 달아오른다",
-        "topic": "휴가철 유통·관광 서비스 경쟁",
-        "insight": "휴가철 유통·관광 수요 증가로 주요 서비스 업체들의 프로모션 경쟁 심화",
-        "desc": "소비자 입장에서는 여러 서비스를 따로 찾기보다 하나의 플랫폼에서 혜택을 비교하고 준비할 수 있는 환경이 마련되면서 여행 경험 전반의 만족도를 높이려는 경쟁이 더욱 치열해질 것으로 보인다.",
-        "link": "http://www.kdfnews.com/news/articleView.html?idxno=185131",
+        "title": "&quot;첫 로밍 70% 할인&quot; SKT, 휴가철 로밍·멤버십 혜택 강화",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "SK텔레콤이 로밍과 멤버십 혜택을 강화한다. 여름 휴가철을 맞아 국내와 해외 여행에 나서는 고개들을 겨냥해 맞춤형 혜택을 제공하는 것이다. 13일 업계에 따르면 SK텔레콤은 오는 8월21일까지 T 로밍에서 2030... ",
+        "link": "http://www.fnnews.com/news/202607130909561476",
         "pub_date": "2026.07.13",
-        "reason": "휴가철 소비행동 변화 트렌드",
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
+        "priority": 2,
+        "cross_query_count": 3,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
+        "queries": [
+          "멤버십 혜택",
+          "여름 휴가 시즌",
+          "휴가철 통신 프로모션"
+        ]
+      },
+      {
+        "title": "SKT, 여름 휴가철 국내외 여행 혜택 푼다…&quot;2030 첫 로밍 70% 할인&quot;",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "국내 휴가족을 위한 T 멤버십 혜택도 풍성하다. 이날부터 17일까지 진행되는 'T day 위크 2'는 여름 휴가 시즌 맞춤형 '썸머 럭키 위크'(SUMMER LUCKY WEEK)로 운영된다. T 멤버십 고객은 캐리비안 베이 대인 종일권 50... ",
+        "link": "https://www.news1.kr/it-science/cc-newmedia/6225772",
+        "pub_date": "2026.07.13",
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
+        "priority": 2,
+        "cross_query_count": 3,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
+        "queries": [
+          "멤버십 혜택",
+          "여름 휴가 시즌",
+          "휴가철 통신 프로모션"
+        ]
+      },
+      {
+        "title": "SK텔레콤, 여름 휴가철 로밍·멤버십 혜택 확대",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "SK텔레콤이 여름 휴가철을 맞아 해외여행 고객을 위한 로밍 할인과 국내 여행객을 위한 T 멤버십 혜택을 강화한다고 13일 밝혔다. SK텔레콤은 오는 8월 21일까지 T 로밍 이용 고객을 대상으로 '첫 로밍 70% 할인'과 로밍... ",
+        "link": "https://www.cnbizm.com/news/articleView.html?idxno=308389",
+        "pub_date": "2026.07.13",
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
+        "priority": 2,
+        "cross_query_count": 3,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
+        "queries": [
+          "멤버십 혜택",
+          "여름 휴가 시즌",
+          "휴가철 통신 프로모션"
+        ]
+      },
+      {
+        "title": "SKT, 휴가철 로밍·멤버십 등 맞춤 혜택 강화 나선다",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "T 멤버십 혜택을 운영한다고 13일 밝혔다. 최근 해외여행 수요 회복과 함께 통신사들의 로밍 경쟁도 치열해지는 분위기다. 통신업계는 청년 할인과 데이터 추가 제공, 가족·동반 가입 혜택 등 차별화된 로밍 상품을... ",
+        "link": "http://www.srtimes.kr/news/articleView.html?idxno=207369",
+        "pub_date": "2026.07.13",
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
+        "priority": 2,
+        "cross_query_count": 3,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
+        "queries": [
+          "멤버십 혜택",
+          "여름 휴가 시즌",
+          "휴가철 통신 프로모션"
+        ]
+      },
+      {
+        "title": "SKT, 휴가철 로밍·멤버십 혜택 강화",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "SK텔레콤은 여름 휴가철을 맞아 해외여행 고객을 위한 T 로밍 프로모션과 국내 여행·나들이 고객을 위한 T 멤버십 혜택을 운영한다고 13일 밝혔다. 먼저 최근 36개월 내 T 로밍을 이용하지 않은 1986~2006년생 고객을... ",
+        "link": "https://www.dt.co.kr/article/12072596?ref=naver",
+        "pub_date": "2026.07.13",
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
         "queries": [
-          "플랫폼 경쟁",
-          "휴가철 이벤트"
+          "멤버십 혜택",
+          "여름 휴가 시즌"
         ]
       },
       {
-        "title": "삼정KPMG, 인바운드 소비 트렌드 분석…면세점 중심 쇼핑 분산",
-        "topic": "휴가철 유통·관광 서비스 경쟁",
-        "insight": "휴가철 유통·관광 수요 증가로 주요 서비스 업체들의 프로모션 경쟁 심화",
-        "desc": "외국인 관광객의 방한이 회복되면서 방문하는 국적이 다양해지고 단체여행보다 자유여행이 늘어나는 한편, 관광 콘텐츠와 관광 지역이 서울 중심에서 전국으로 확대되는 등 인바운드(Inbound) 소비 트렌드가 변화하고 있다.... ",
-        "link": "http://www.joseilbo.com/news/news_read.php?uid=571754&class=10&grp=",
+        "title": "SKT, 여름 휴가 맞아 T로밍 프로모션·멤버십 혜택 제공",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "SK텔레콤은 여름 휴가철을 맞아 T 로밍 프로모션과 국내 여행 고객을 위한 T 멤버십 혜택을 제공한다고 13일 밝혔다. 해외여행을 준비하는 고객을 위해 오는 8월 21일까지 T 로밍에서 △2030 고객 '첫 로밍 70% 할인... ",
+        "link": "https://www.etnews.com/20260713000060",
         "pub_date": "2026.07.13",
-        "reason": "인바운드 소비 트렌드 분석",
-        "priority": 1,
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
+        "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
         "queries": [
-          "소비 트렌드",
-          "AI 쇼핑"
+          "멤버십 혜택",
+          "여름 휴가 시즌"
         ]
       },
       {
-        "title": "요즘 어딜가나 외국인 관광객…&quot;쇼핑도·체험도 한국인처럼&quot;",
-        "topic": "인바운드 관광객 소비 확대",
-        "insight": "외국인 관광객 증가로 쇼핑과 체험 수요가 한국인 수준으로 다양화",
-        "desc": "국적이 다양해지고 단체여행보다 자유여행이 늘어나는 한편, 관광 콘텐츠와 관광 지역이 서울 중심에서 전국으로 확대되는 등 인바운드(Inbound) 소비 트렌드가 변화하고 있다. 삼정KPMG는 13일 '도약하는 K-관광, 진화하는... ",
-        "link": "https://view.asiae.co.kr/article/2026071309031557577",
+        "title": "SKT, 여름휴가 맞아 ‘첫 로밍 70% 할인’…휴가철 멤버십 혜택 운영",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "2030 고객 대상 첫 로밍 할인 호텔 숙박권 응모 이벤트도 SK텔레콤은 여름휴가철을 맞아 해외여행 고객을 위한 T 로밍 프로모션과 함께 국내여행 고객을 위한 T 멤버십 혜택을 운영한다고 13일 밝혔다. SKT는... ",
+        "link": "https://biz.heraldcorp.com/article/10806363?ref=naver",
         "pub_date": "2026.07.13",
-        "reason": "외국인 관광객 소비 트렌드",
-        "priority": 1,
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
+        "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
         "queries": [
-          "소비 트렌드",
-          "AI 쇼핑"
+          "멤버십 혜택",
+          "여름 휴가 시즌"
         ]
       },
       {
-        "title": "여름·추석 특수에 살아난 유통업 기대감… 온라인만 ‘부진’",
-        "topic": "휴가철 유통·관광 서비스 경쟁",
-        "insight": "휴가철 유통·관광 수요 증가로 주요 서비스 업체들의 프로모션 경쟁 심화",
-        "desc": "여름철 음료와 즉석식품 판매 증가에 대한 기대감과 최근 외국인 관광객들이 편의점을 주요 쇼핑 코스로 찾는 소비 트렌드도 매출 증대를 뒷받침할 것으로 예상됐다. 대형마트는 66에서 112로 상승하며 가장 큰... ",
-        "link": "https://www.viva100.com/article/20260713500516",
+        "title": "SKT, 여름휴가 맞이 로밍·멤버십 혜택 강화",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "SK텔레콤이 여름휴가철을 맞아 해외여행 고객을 위한 T 로밍 프로모션과 국내 여행·나들이 고객을 위한 T 멤버십 혜택을 운영한다. 먼저 해외여행을 준비하는 고객을 위해 오는 8월 21일까지 T 로밍에서 △2030 고객... ",
+        "link": "https://www.viva100.com/article/20260713500131",
         "pub_date": "2026.07.13",
-        "reason": "여름·추석 시즌 유통 소비 패턴",
-        "priority": 1,
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
+        "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 33.1,
-        "datalab_velocity": 10.3,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
         "queries": [
-          "소비 트렌드",
-          "여름 축제 개최"
+          "멤버십 혜택",
+          "여름 휴가 시즌"
+        ]
+      },
+      {
+        "title": "SKT, 로밍 혜택 확대 등 휴가철 마케팅 나서",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "국내에서 여름 휴가·나들이를 계획 중인 가입자를 위한 T 멤버십 혜택이 준비됐다. 13일부터 오는 17일까지 진행되는 ‘T day Week2’는 여름 휴가 시즌에 맞춰 ‘써머 러키 위크(SUMMER LUCKY WEEK)’로 운영된다. T... ",
+        "link": "https://www.busan.com/view/busan/view.php?code=2026071309054761851",
+        "pub_date": "2026.07.13",
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
+        "queries": [
+          "멤버십 혜택",
+          "여름 휴가 시즌"
+        ]
+      },
+      {
+        "title": "SK텔레콤, 휴가철 로밍·멤버십 혜택 강화",
+        "topic": "SKT 휴가철 로밍·멤버십 혜택",
+        "insight": "SKT가 여름 휴가철을 맞아 첫 로밍 70% 할인 등 로밍·멤버십 혜택을 강화하며 고객 유치 경쟁 심화",
+        "desc": "▲ SK텔레콤 제공 SK텔레콤이 휴가철 해외여행 고객을 위한 T 로밍 프로모션, 국내 여행·나들이 고객을 위한 T 멤버십 혜택을 강화한다. 해외여행을 준비하는 고객을 위해 다음 달 21일까지 T 로밍에서 2030 고객 첫... ",
+        "link": "http://www.cctimes.kr/news/articleView.html?idxno=916312",
+        "pub_date": "2026.07.13",
+        "reason": "여름 휴가철 시즌 마케팅 전략 및 소비 패턴",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
+        "queries": [
+          "멤버십 혜택",
+          "여름 휴가 시즌"
         ]
       }
     ],
     "risk": [
       {
+        "title": "'해킹 피해 보상' 이용권으로 티빙 구독했다가 또 정보유출…40만명 날...",
+        "topic": "티빙 정보유출 사건",
+        "insight": "해킹 피해 보상 이용권으로 재가입한 사용자까지 추가 정보유출 피해 발생",
+        "desc": "KT가 해킹 피해 보상으로 지급한 OTT(온라인동영상서비스) 이용권으로 티빙을 구독했다가 또다시 개인정보가 유출된 이용자가 40만명이 넘는 것으로 나타났다. 14일 이정헌 더불어민주당 의원실이 과학기술정보통신부... ",
+        "link": "https://www.mt.co.kr/society/2026/07/14/2026071416141181024",
+        "pub_date": "2026.07.14",
+        "reason": "티빙 정보유출, 제휴사 신뢰 타격",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 66.8,
+        "datalab_velocity": 6.0,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "“애국은 돈쭐, 논란은 불매”… SNS 타고 번지는 ‘기업 사상 검증’",
+        "topic": "기업 사상 검증 확산",
+        "insight": "SNS를 중심으로 기업의 정치·역사 이슈에 대한 사상 검증과 보이콧이 확산되는 추세",
+        "desc": "한 유통업계 관계자는 “최근에는 마케팅과 프로모션에 정치적 의도가 담겼다는 오해를 받지 않도록 기획부터 집행까지 전 과정을 철저히 검수하고 있다”며 “논란을 우려해 과감하거나 공격적인 마케팅을 펼치기... ",
+        "link": "https://biz.chosun.com/topics/topics_social/2026/07/14/F26YTHR77VENTEGEWGZAEYHY3Y/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "pub_date": "2026.07.14",
+        "reason": "불매 운동 확산 추세로 제휴사 논란 주의",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 32.1,
+        "datalab_velocity": -11.5,
+        "queries": [
+          "마케팅 논란",
+          "불매운동"
+        ]
+      },
+      {
+        "title": "'탈벅' 수혜도 없었다…낀 브랜드 된 이디야의 굴욕",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "스타벅스 탱크데이 논란으로 인한 불매 여파로 경쟁 브랜드까지 연쇄 영향",
+        "desc": "국내 커피 소비 트렌드가 프리미엄과 가성비로 양극화되는 경향이 뚜렷해지면서 생긴 변화다. 저가커피 브랜드들이 급성장하며 이디야 특유의 가성비 이미지가 흐릿해졌고, 가심비(가격 대비 심리적 만족도)를... ",
+        "link": "http://www.inews24.com/view/1985433",
+        "pub_date": "2026.07.15",
+        "reason": "이디야커피 제휴 실적 부진 우려",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 31.4,
+        "datalab_velocity": -19.0,
+        "queries": [
+          "소비 트렌드"
+        ]
+      },
+      {
+        "title": "스타벅스, 매년 사람들 줄 서던 ‘간판 행사’도 접었다…“신뢰 회복이...",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "논란 이후 매년 진행하던 주요 프로모션 행사를 중단하며 신뢰 회복에 집중",
+        "desc": "스타벅스는 기존 회원과 신규 가입자를 대상으로 무료 음료와 푸드 할인 쿠폰을 제공하는 ‘스타벅스 리워드 서머 쿠폰’ 이벤트를 이달 말까지 진행하고 있다. 불매 운동에 고소까지 시작된 스타벅스 탱크데이 후폭풍",
+        "link": "https://www.sedaily.com/article/20068141?ref=naver",
+        "pub_date": "2026.07.15",
+        "reason": "스타벅스 간판행사 중단, 신뢰 회복 전략",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 32.1,
+        "datalab_velocity": -11.5,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
         "title": "스타벅스 마케팅 재시동…전 회원 무료 커피 쏜다",
-        "topic": "스타벅스 탱크데이 논란 극복",
-        "insight": "탱크데이 논란으로 인한 매출 부진 극복을 위해 1500만 리워드 회원에게 무료 음료 쿠폰 제공",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "논란 극복을 위해 전 회원 대상 무료 커피 제공으로 고객 신뢰 회복 추진",
         "desc": "지난 5월 마케팅 논란 이후 프로모션과 신제품 출시를 일부 미뤘던 스타벅스가 여름 성수기를 앞두고 고객 혜택 확대에 다시 시동을 거는 모습이다. 9일 카페업계에 따르면, 스타벅스는 다음달 14일까지 스타벅스 리워드... ",
         "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5039071",
         "pub_date": "2026.07.09",
-        "reason": "스타벅스 제휴사 논란 재확산",
+        "reason": "스타벅스 마케팅 재시동, 불매 영향 모니터링",
         "priority": 3,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
+        "datalab_score": 10.0,
         "datalab_velocity": 0.0,
         "queries": [
           "마케팅 논란",
           "앱 마케팅"
-        ]
-      },
-      {
-        "title": "포인트 쓰면 100% 적립?…머지포인트, 환불 제쳐두고 황당 마케팅",
-        "topic": "포인트 적립 마케팅 부작용",
-        "insight": "머지포인트의 100% 적립 마케팅이 환불 문제로 소비자 비판 야기",
-        "desc": "머지포인트가 포인트 소멸을 두 달 앞두고 피해자들에게 여전히 환불을 진행하지 않은 채 현금 환불 대신 포인트 캐시백을 '특별 혜택'으로 포장해 마케팅을 진행해 논란이 일고 있다. 8일 업계에 따르면 머지포인트는... ",
-        "link": "https://www.etnews.com/20260708000276",
-        "pub_date": "2026.07.08",
-        "reason": "포인트 적립 관련 마케팅 논란",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "마케팅 논란 이후 첫 승부수...스타벅스, 무료 음료로 1500만 회원 달랜...",
-        "topic": "스타벅스 탱크데이 논란 극복",
-        "insight": "탱크데이 논란으로 인한 매출 부진 극복을 위해 1500만 리워드 회원에게 무료 음료 쿠폰 제공",
-        "desc": "지난 5월 '탱크데이' 마케팅 논란 이후 처음 내놓는 대규모 고객 혜택으로 여름 성수기를 앞두고 방문객을 늘리는 동시에 흔들린 브랜드 신뢰 회복까지 노린 전략으로 풀이된다. 업계에 따르면 스타벅스는 이날부터 8월... ",
-        "link": "http://www.popcornnews.net/news/articleView.html?idxno=126093",
-        "pub_date": "2026.07.09",
-        "reason": "스타벅스 제휴사 논란 영향",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "배민, 배스킨라빈스와 MOU 체결···멤버십 특화 혜택 키운다",
-        "topic": "배민 멤버십 제휴 확대",
-        "insight": "배민이 배스킨라빈스와 제휴하며 멤버십 특화 혜택 강화",
-        "desc": "이번 협약에 따라 양사는 배민의 구독제 멤버십인 '배민클럽' 회원들에게 배스킨라빈스 특화 혜택을 정기적으로 제공할 예정이다. 배민에서만 만나볼 수 있는 단독 신제품도 선보인다. 양사가 공동 기획한 신제품... ",
-        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2446056",
-        "pub_date": "2026.07.06",
-        "reason": "배스킨라빈스(제휴사) 경쟁사 독점 혜택 위협",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 22.1,
-        "datalab_velocity": 3.8,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "스타벅스, 전 리워드 회원에 무료 음료 쿠폰…'탱크데이' 논란 후 첫 대...",
-        "topic": "스타벅스 탱크데이 논란 극복",
-        "insight": "탱크데이 논란으로 인한 매출 부진 극복을 위해 1500만 리워드 회원에게 무료 음료 쿠폰 제공",
-        "desc": "업계 관계자는 &quot;멤버십 혜택은 스타벅스가 고객과 소통하는 대표적인 방식&quot;이라며 &quot;전 회원 대상 쿠폰 지급은 고객 접점을 다시 넓히고 브랜드 신뢰 회복에 나서는 행보로 보인다&quot;고 말했다.",
-        "link": "https://www.newspim.com/news/view/20260708001236",
-        "pub_date": "2026.07.08",
-        "reason": "스타벅스 탱크데이 논란 대응, 제휴 재검토 필요",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 22.1,
-        "datalab_velocity": 3.8,
-        "queries": [
-          "멤버십 혜택"
         ]
       },
       {
         "title": "스타벅스, 잇단 논란에 '회심 카드'…전 회원에 '무료 커피' 쏜다",
-        "topic": "스타벅스 탱크데이 논란 극복",
-        "insight": "탱크데이 논란으로 인한 매출 부진 극복을 위해 1500만 리워드 회원에게 무료 음료 쿠폰 제공",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "논란 극복을 위해 전 회원 대상 무료 커피 제공으로 고객 신뢰 회복 추진",
         "desc": "이번 이벤트는 지난 5월 '탱크데이' 마케팅 논란 이후 처음 내놓은 대규모 고객 혜택이다. 앞서 스타벅스는 5·18 민주화운동 기념일 이벤트 논란이 불거진 뒤 지난 5월 20일 사내 공지를 통해 &quot;무거운 책임감을 느낀다&quot;며... ",
         "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/09/2026070990174.html",
         "pub_date": "2026.07.09",
-        "reason": "스타벅스 탱크데이 논란 대응 이벤트",
+        "reason": "제휴사 스타벅스 논란→대응 전략",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -448,12 +535,12 @@
       },
       {
         "title": "'탱크데이' 논란에 매출 줄어든 스타벅스, '회심 카드' 꺼냈다",
-        "topic": "스타벅스 탱크데이 논란 극복",
-        "insight": "탱크데이 논란으로 인한 매출 부진 극복을 위해 1500만 리워드 회원에게 무료 음료 쿠폰 제공",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "논란 극복을 위해 전 회원 대상 무료 커피 제공으로 고객 신뢰 회복 추진",
         "desc": "'탱크 데이' 마케팅 논란 이후 결제액 감소를 겪은 스타벅스코리아가 회원들을 대상으로 무료 음료 쿠폰을 제공한다. 소비자 이탈 우려가 커진 가운데 이번 혜택이 고객 발길을 되돌릴 수 있을지 주목된다. 9일 업계에... ",
         "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607090134&t=NN",
         "pub_date": "2026.07.09",
-        "reason": "스타벅스 탱크데이 불매 영향 분석",
+        "reason": "제휴사 스타벅스 탱크데이→회복전략",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -464,12 +551,12 @@
       },
       {
         "title": "역사 논란에 멈춘 스벅의 여름 대목…'공짜 커피'로 반등 노릴까",
-        "topic": "스타벅스 탱크데이 논란 극복",
-        "insight": "탱크데이 논란으로 인한 매출 부진 극복을 위해 1500만 리워드 회원에게 무료 음료 쿠폰 제공",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "논란 극복을 위해 전 회원 대상 무료 커피 제공으로 고객 신뢰 회복 추진",
         "desc": "6월 카드 결제 금액·앱 이용자 수 모두 줄어 여름 프리퀀시 행사는 보류…'무료 음료' 혜택 전 회원에 제공 스타벅스의 '탱크데이' 마케팅 논란이 좀처럼 걷히지 않으면서 스타벅스의 향후 행보도 영향을 받게 됐다. 최근... ",
         "link": "https://www.sisajournal.com/news/articleView.html?idxno=379286",
         "pub_date": "2026.07.09",
-        "reason": "스타벅스 탱크데이 논란 회복 전략",
+        "reason": "제휴사 스타벅스 매출부진→무료 프로모션",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -480,12 +567,12 @@
       },
       {
         "title": "탱크데이 논란 두 달 만에… 스타벅스, 1500만 회원에 '커피 한 잔' 쐈다",
-        "topic": "스타벅스 탱크데이 논란 극복",
-        "insight": "탱크데이 논란으로 인한 매출 부진 극복을 위해 1500만 리워드 회원에게 무료 음료 쿠폰 제공",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "논란 극복을 위해 전 회원 대상 무료 커피 제공으로 고객 신뢰 회복 추진",
         "desc": "한편 스타벅스 코리아가 '탱크데이' 마케팅 논란 이후 하락했던 카드 결제액이 회복세를 보였다. 모바일인덱스 조사에 따르면 7월 첫째 주(6월 29일~7월 5일) 결제액은 244억3228만원으로, 직전 주(231억1910만원) 대비 약... ",
         "link": "https://www.ggilbo.com/news/articleView.html?idxno=1168331",
         "pub_date": "2026.07.12",
-        "reason": "스타벅스 탱크데이 이후 대규모 회원 혜택",
+        "reason": "제휴사 스타벅스 탱크데이→무료음료 대응",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -495,13 +582,13 @@
         ]
       },
       {
-        "title": "스타벅스, 리워드 회원에 무료음료 혜택…논란 이후 첫 대규모 행사",
-        "topic": "스타벅스 탱크데이 논란 극복",
-        "insight": "탱크데이 논란으로 인한 매출 부진 극복을 위해 1500만 리워드 회원에게 무료 음료 쿠폰 제공",
-        "desc": "지난 5월 '탱크데이' 마케팅 논란 이후 처음 선보이는 대규모 혜택이다. 시즌 행사와 신제품 출시를 할 경우 할인 쿠폰을 제공한 경우는 있었지만 제조 음료 1잔을 무료로 제공하는 것은 이례적이라는 평가다. '탱크데이... ",
-        "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=264357",
-        "pub_date": "2026.07.08",
-        "reason": "스타벅스 탱크데이 논란 후 리워드 전략",
+        "title": "마케팅 논란 이후 첫 승부수...스타벅스, 무료 음료로 1500만 회원 달랜...",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "논란 극복을 위해 전 회원 대상 무료 커피 제공으로 고객 신뢰 회복 추진",
+        "desc": "지난 5월 '탱크데이' 마케팅 논란 이후 처음 내놓는 대규모 고객 혜택으로 여름 성수기를 앞두고 방문객을 늘리는 동시에 흔들린 브랜드 신뢰 회복까지 노린 전략으로 풀이된다. 업계에 따르면 스타벅스는 이날부터 8월... ",
+        "link": "http://www.popcornnews.net/news/articleView.html?idxno=126093",
+        "pub_date": "2026.07.09",
+        "reason": "제휴사 스타벅스 마케팅 논란 후속",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -513,336 +600,200 @@
     ],
     "battle": [
       {
-        "title": "KT, 챗GPT 등 '생성AI 6종' 구독료 최대 반값 할인...휴대폰 결제 시",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "휴대폰결제 신규·재이용 가입자 모두 다양한 구독 서비스를 경험할 수 있도록 했다. 강이환 KT 커스터머 서비스본부장은 &quot;생성형 AI를 포함한 다양한 구독 서비스를 KT 휴대폰결제로 더욱 합리적으로 이용할 수 있게... ",
-        "link": "https://zdnet.co.kr/view/?no=20260713092209",
-        "pub_date": "2026.07.13",
-        "reason": "KT AI 구독 할인 공격적 프로모션, 긴급 대응 필요",
+        "title": "네이버 AI탭, 출시 3주 만에 사용자 1000만명 돌파",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "검색·쇼핑·로컬·콘텐츠 등 네이버만의 독보적인 서비스 자산과 AI 기술을 결합해 경쟁력을 갖춘 결과라는 설명이다. 지난달 26일 출시된 AI탭은 대화형 검색을 넘어 실제 행동으로 이어지는 실행형 AI 에이전트로... ",
+        "link": "https://www.sidae.com/article/2026071515383798748",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 1000만명, 검색→구매 통합으로 경쟁 위협",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "KT, 휴대폰결제로 AI·구독상품 이용시 50% 할인",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "대상 상품은 챗GPT·구글 AI 프로·그록·젠스파크·클로드·퍼플렉시티 등 생성형 AI 서비스 6종과 유튜브 프리미엄, 구글원, 카카오톡 톡서랍플러스 등 일상 구독 서비스다. KT는 생성형 AI 서비스 이용이 늘어나는... ",
-        "link": "https://www.etnews.com/20260713000049",
-        "pub_date": "2026.07.13",
-        "reason": "KT 핵심 구독 할인 전략, 긴급 대응 필요",
+        "title": "‘AI탭’ 뭐길래…초록창 떠났던 사람들 다시 네이버로 온다",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "AI탭은 기존 네이버 검색에 AI를 접목해 사용자의 질문 의도와 맥락을 파악하고, 쇼핑·카페·플레이스 등 네이버에 축적된 데이터를 바탕으로 답변을 제공하는 대화형 검색 서비스다. 검색 이후 실제 구매와 예약까지... ",
+        "link": "https://www.joongang.co.kr/article/25445268",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 검색 생태계 재편, 고객 이동 우려",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "KT 콘텐츠페이, 구글플레이 구독 상품 최대 50% 할인",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "대상 상품은 챗GPT·구글 AI 프로·그록(Grok)·젠스파크(Genspark)·클로드(Claude)·퍼플렉시티(Perplexity) 등 생성형 인공지능(AI) 서비스 6종과 유튜브 프리미엄, 구글원, 카카오톡 톡서랍플러스 등 일상 구독 서비스다. AI... ",
-        "link": "https://www.dt.co.kr/article/12072650?ref=naver",
-        "pub_date": "2026.07.13",
-        "reason": "KT 구글플레이 구독 50% 할인, 긴급 경쟁 대응",
+        "title": "'검색창' 끝난 줄 알았더니…1000만명 몰린 네이버 'AI탭'",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "네이버는 20년 이상 축적한 검색 인프라와 블로그·카페 콘텐츠, 쇼핑·지역 정보를 활용해 글로벌 범용 AI와 차별화한다는 구상이다. 국내 이용자의 검색 맥락을 반영하고 답변 이후 예약이나 구매를 연결하는 방식으로... ",
+        "link": "https://www.hankyung.com/article/202607155832g",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 1000만명 급성장, 검색 기반 쇼핑 주도권 위협",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "챗GPT·유튜브 프리미엄 '반값'에 쓴다…KT, 구독료 최대 50% 파격 할인",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "KT(030200)가 일상 속 디지털 구독 서비스는 물론, 최근 이용자가 급증하고 있는 생성형 인공지능(AI) 유료 서비스 부담을 대폭 낮추는 파격적인 할인 프로모션을 선보인다. KT는 휴대폰결제 프로모션 서비스인 ‘KT... ",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03161926645514192",
-        "pub_date": "2026.07.13",
-        "reason": "KT AI·구독 파격 할인 공격, 긴급 전략 검토",
+        "title": "네이버 AI탭 1000만명 썼다…검색 넘어 실행형 에이전트로 확장",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "AI탭은 네이버 검색과 쇼핑, 로컬, 콘텐츠 등 서비스 자산에 AI 기술을 결합한 대화형 검색 서비스다. 이용자는 검색 결과를 확인하는 데 그치지 않고 후속 질문을 이어가며 필요한 정보를 좁혀갈 수 있다. 네이버는... ",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04257446645514848",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 검색→실행 통합, 포털 기반 커머스 확장 위협",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "KT, 7월 한 달 구글플레이 구독 상품 최대 50% 할인",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "일상 구독 서비스들이 모두 포함된다. 특히, KT는 최근 이용률이 급증하고 있는 생성형 AI 서비스 사용자들을 위해 유료 AI 구독 부담을 낮추는 특화 혜택을 더했다.... ",
-        "link": "http://www.breaknews.com/1221123",
-        "pub_date": "2026.07.13",
-        "reason": "KT 구독료 50% 할인 프로모션, 즉시 대응",
+        "title": "네이버 'AI탭' 이용자 1천만 명… 부동산·웨일·건강 에이전트로 확장",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "AI탭은 검색·쇼핑·로컬·콘텐츠 등 네이버 서비스 자산과 AI 기술을 결합한 대화형 검색 서비스다. 네이버는 AI탭이 정보 탐색을 넘어 구매와 예약 등 실제 행동까지 연결하고 국내 사용자의 맥락을 반영한다는 점에서... ",
+        "link": "https://platum.kr/archives/290939",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 1000만명 달성, 부동산·건강 등 확장으로 경쟁 확대",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "KT 콘텐츠페이, 생성형 AI·일상 구독 서비스 최대 50% 할인",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "KT가 생성형 인공지능(AI)과 일상 구독 서비스 이용자를 겨냥해 통신사 결제 기반의 대규모 할인 프로모션을 선보인다. KT는 휴대폰결제 프로모션 서비스 ‘KT 콘텐츠페이’를 통해 7월 한 달간 구글플레이 스토어 구독... ",
-        "link": "https://www.sentv.co.kr/article/view/sentv202607130073",
-        "pub_date": "2026.07.13",
-        "reason": "KT AI·구독 통합 할인 전략, 긴급 검토",
+        "title": "검색 넘어 실행까지…네이버 AI탭, '국내형 AI 에이전트' 승부수",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "네이버는 AI탭이 국내 검색과 쇼핑, 블로그, 카페 등 자사 서비스와 연계해 실제 행동까지 이어지는 것이 강점이라고 설명했다. 이용 지표도 공개했다. 정식 출시 이후 AI탭의 일평균 질의 수는 베타 서비스 대비 7배... ",
+        "link": "https://www.mt.co.kr/tech/2026/07/15/2026071509000335647",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 검색→실행 생태계, 포털 기반 고객 습관 변화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "&quot;챗GPT 반값에 쓰세요&quot; KT콘텐츠페이, AI·일상 구독서비스 프로모션",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "할인 대상 상품은 챗GPT·구글 AI·그록(Grok)·젠스파크(Genspark)·클로드(Claude), 퍼플렉시티(Perplexity) 등 생성형 AI 서비스 6종을 비롯해 유튜브 프리미엄·구글원·카카오톡 톡서랍 플러스 등 일상 구독 서비스다.... ",
-        "link": "https://www.catchnews.kr/news/articleView.html?idxno=126105",
-        "pub_date": "2026.07.13",
-        "reason": "KT AI 구독 파격 할인 프로모션, 긴급 대응",
+        "title": "네이버 ‘AI탭’으로 검색 생태계 변화…이용자도 1000만 넘었다",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "데이터와 쇼핑 후기, UGC를 종합해 정보를 제공하자 검색부터 의사결정까지 걸리는 시간이 최대 60~70% 단축됐다고 네이버는 전했다. 네이버는 상품 구매와 예약 등 실제 행동까지 연결하는 ‘실행형 AI 에이전트’로... ",
+        "link": "https://www.segye.com/newsView/20260715514039?OutUrl=naver",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 1000만명, 검색 생태계 재편 신호",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "KT, 구글플레이 구독 결제 시 최대 50% 할인…AI 서비스는 추가 5천원 절...",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "할인 대상 상품은 챗GPT·구글 AI 프로·그록(Grok)·젠스파크(Genspark)·클로드(Claude)·퍼플렉시티(Perplexity) 등 생성형 AI 서비스 6종과 유튜브 프리미엄·구글원·카카오톡 톡서랍플러스 등 일상 구독 서비스다. AI 6종... ",
-        "link": "https://www.nextdaily.co.kr/news/articleView.html?idxno=251237",
-        "pub_date": "2026.07.13",
-        "reason": "KT 구독료 추가 할인(AI 5천원), 긴급 경쟁 대응",
+        "title": "네이버, AI 검색 'AI탭' 생태계 확장",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "AI탭은 검색과 쇼핑, 로컬, 콘텐츠 등 네이버 서비스와 AI 기술을 결합한 대화형 검색 서비스로 정보 탐색부터 구매와 예약 등 실행까지 연결하는 기능을 제공한다. AI탭은 정식 출시 이후 사용자 이용 행태에도... ",
+        "link": "https://www.thereport.co.kr/news/articleView.html?idxno=89630",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 생태계 확장, 검색 기반 멤버십 경쟁 심화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "&quot;챗GPT 반값에 이용하세요&quot;…KT, 구독 상품 휴대폰 결제 시 할인",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "KT는 7월 한 달간 구글플레이 스토어에서 휴대폰 결제로 구독 서비스를 이용하는 고객을 대상으로 최대 50% 할인 혜택을 제공한다고 13일 밝혔다. 이번 이벤트는 구글플레이 스토어 결제 수단에 'KT 결제'를 등록한 뒤... ",
-        "link": "https://www.ddaily.co.kr/page/view/2026071310124834418",
-        "pub_date": "2026.07.13",
-        "reason": "KT AI 구독 할인 경쟁, T멤버십 AI 패키지 전략 검토 필요",
+        "title": "네이버 'AI탭' 이용자 1000만명 돌파…&quot;정보 탐색 넘어 실행까지&quot;",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "이는 검색·쇼핑·로컬·콘텐츠 등 네이버만의 독보적인 서비스 자산과 AI 기술을 결합해 경쟁력 있는 AI 서비스로 구현해낸 결과라고 네이버는 설명했다. AI탭은 대화형 검색을 넘어 실제 행동으로 이어지는 실행형 AI... ",
+        "link": "https://view.asiae.co.kr/article/2026071509404690281",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 1000만명, 검색→실행 통합으로 고객 이동 우려",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "'챗GPT·클로드 최대 1만원 할인'...KT, 7월 구독료 할인 이벤트 진행",
-        "topic": "KT 구독상품 할인 프로모션",
-        "insight": "KT가 생성AI·OTT 등 구독상품을 휴대폰 결제 시 최대 50% 할인하는 프로모션 진행 중",
-        "desc": "더피알=최진 기자｜KT가 생성형 인공지능(AI)과 일상 구독 서비스 이용자의 부담을 낮추는 할인 프로모션을 선보인다. KT는 7월 한 달 동안 구글플레이 스토어에서 구독 상품을 결제하는 고객을 대상으로 구독료를... ",
-        "link": "https://www.the-pr.co.kr/news/articleView.html?idxno=61901",
-        "pub_date": "2026.07.13",
-        "reason": "KT 구독료 할인 공격, T멤버십 경쟁력 평가 긴급",
+        "title": "1000만명 이용한 네이버 'AI탭', 검색과 실생활 연결한다",
+        "topic": "네이버 AI탭 확산",
+        "insight": "네이버 AI탭이 출시 3주 만에 1000만 사용자 돌파, 검색 기능에서 실행형 에이전트로 진화",
+        "desc": "AI탭은 네이버 검색과 쇼핑, 로컬, 콘텐츠 자산에 AI 기술을 결합한 대화형 검색 서비스다. 국내 이용자의 검색 맥락과 네이버 내부 서비스 데이터를 함께 활용해 답변과 추천을 제공하는 점이 특징이다. 정식 출시 이후... ",
+        "link": "https://www.dailian.co.kr/news/view/1667361/?sc=Naver",
+        "pub_date": "2026.07.15",
+        "reason": "네이버 AI탭 검색과 실생활 연결, 멤버십 고객 습관 변화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 88.9,
+        "datalab_velocity": 5.6,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       }
     ],
     "benchmark": [
       {
-        "title": "HD현대오일뱅크, 고급휘발유 전용 멤버십 '카젠라운지' 출시…프리미엄...",
-        "topic": "HD현대오일뱅크 카젠라운지 출시",
-        "insight": "주유소 브랜드의 프리미엄 멤버십 프로그램 강화로 고객 충성도 확보 경쟁 심화",
-        "desc": "차별화된 혜택을 제공하기 위해 기획됐다. 고객은 카앤 앱을 통해 자신의 주유 이력과 보너스포인트를... HD현대오일뱅크 관계자는 &quot;카젠라운지는 고급휘발유 이용 고객에게 차별화된 디지털 경험과 실질적인 혜택을... ",
-        "link": "http://www.newsdream.kr/news/articleView.html?idxno=114338",
-        "pub_date": "2026.07.13",
-        "reason": "프리미엄 멤버십 구조 벤치마킹",
+        "title": "컬리, '바캉스 원스톱 장보기' 기획전 개최…휴가 먹거리 최대 50% 할인",
+        "topic": "컬리 시즈널 프로모션 확대",
+        "insight": "컬리가 휴가철 맞춤 기획전으로 식품 카테고리 할인 프로모션 강화",
+        "desc": "추가 할인 혜택을 받을 수 있다. 컬리 관계자는 &quot;소비자들이 휴가를 앞두고 번거로운 장보기 과정을 터치 한 번으로 원스톱 해결할 수 있도록 과일부터 정육, 밀키트까지 맞춤형 포트폴리오를 설계했다&quot;며 &quot;고물가... ",
+        "link": "https://www.thedailypost.kr/news/articleView.html?idxno=114676",
+        "pub_date": "2026.07.15",
+        "reason": "컬리의 휴가철 할인 기획전 벤치마킹 사례",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 69.3,
+        "datalab_velocity": 13.9,
+        "queries": [
+          "소비자 할인",
+          "여름 휴가 시즌"
+        ]
+      },
+      {
+        "title": "[유통소식] 신세계百, 스포츠 멤버십 '스포츠크루' 도입",
+        "topic": "신세계백화점 멤버십 다각화",
+        "insight": "신세계백화점이 스포츠 특화 멤버십으로 고객층 확대 및 차별화 멤버십 전략 추진",
+        "desc": "14 사진=신세계백화점 신세계百, 스포츠 멤버십 '스포츠크루' 도입 신세계백화점 사우스시티가 스포츠... 할인 혜택을 제공한다. 세븐일레븐에 따르면 주요 전략 상품인 즉석 스무디는 3월 도입된 이후 3월 11일부터 7월... ",
+        "link": "http://www.4th.kr/news/articleView.html?idxno=2114689",
+        "pub_date": "2026.07.14",
+        "reason": "신세계 스포츠 멤버십 혜택 구조 참고",
         "priority": 1,
         "cross_query_count": 3,
-        "datalab_score": 73.6,
-        "datalab_velocity": -43.6,
+        "datalab_score": 29.3,
+        "datalab_velocity": 10.1,
         "queries": [
           "멤버십 혜택",
-          "구독 서비스",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "SSG닷컴, 여름 바캉스 준비 한곳에…쇼핑부터 여행 예약까지 할인 혜택...",
-        "topic": "여름 바캉스 시즌 통합 할인",
-        "insight": "소매·카드사·여행 플랫폼 전방위 프로모션으로 여름 성수기 고객 유입 경쟁",
-        "desc": "소비자의 부담을 줄이기 위한 할인 혜택도 강화했다. 신세계몰과 신세계백화점몰 상품에 사용할 수 있는 할인 쿠폰을 제공하고, 행사카드 결제 시 추가 청구 할인도 마련해 휴가 준비 비용 절감에 도움을 줄 수 있도록 했다.... ",
-        "link": "https://www.e-science.co.kr/news/articleView.html?idxno=131831",
-        "pub_date": "2026.07.13",
-        "reason": "여름 바캉스 시즌 프로모션",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 79.6,
-        "datalab_velocity": -5.4,
-        "queries": [
-          "소비자 할인",
-          "여름 휴가 시즌"
-        ]
-      },
-      {
-        "title": "[스마트컨슈머] 여름 바캉스 시즌 할인 SSG·보양식 세일 롯데마트",
-        "topic": "여름 바캉스 시즌 통합 할인",
-        "insight": "소매·카드사·여행 플랫폼 전방위 프로모션으로 여름 성수기 고객 유입 경쟁",
-        "desc": "&lt;편집자주&gt;[한국정경신문=최현준 기자] 여름 휴가와 초복을 앞두고 유통업계가 소비자들의 장바구니 부담을 덜기 위한 할인 행사에 나섰다. SSG닷컴은 바캉스 시즌 쇼핑·여행 할인전을 진행하고, 롯데마트는 수박과... ",
-        "link": "https://kpenews.com/View.aspx?No=4146207",
-        "pub_date": "2026.07.13",
-        "reason": "여름 시즌 할인 기획 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 79.6,
-        "datalab_velocity": -5.4,
-        "queries": [
-          "소비자 할인",
-          "여름 휴가 시즌"
-        ]
-      },
-      {
-        "title": "삼성카드, 여름 휴가철 맞이 레저·대형마트 할인 이벤트 진행",
-        "topic": "여름 바캉스 시즌 통합 할인",
-        "insight": "소매·카드사·여행 플랫폼 전방위 프로모션으로 여름 성수기 고객 유입 경쟁",
-        "desc": "삼성카드는 본격적인 여름 휴가 시즌을 맞아 가입자들에게 다양한 제휴 혜택을 제공하는 프로모션을 전개한다고 13일 밝혔다. 먼저 캐리비안 베이 방문객을 겨냥한 할인을 실시한다. 오는 8월 30일까지 삼성카드로... ",
-        "link": "http://www.newsdream.kr/news/articleView.html?idxno=114312",
-        "pub_date": "2026.07.13",
-        "reason": "여름 시즌 할인 기획 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 79.6,
-        "datalab_velocity": -5.4,
-        "queries": [
-          "여름 휴가 시즌",
-          "휴가철 이벤트"
-        ]
-      },
-      {
-        "title": "삼성카드, 바캉스 시즌 겨냥 여행·쇼핑 할인 이벤트",
-        "topic": "여름 바캉스 시즌 통합 할인",
-        "insight": "소매·카드사·여행 플랫폼 전방위 프로모션으로 여름 성수기 고객 유입 경쟁",
-        "desc": "이미지=삼성카드  삼성카드가 본격적인 바캉스 시즌을 맞아 휴가를 준비하는 회원들을 위해 여가 활동부터 일상 소비까지 아우르는 실속형 금융 혜택을 선보인다. 삼성카드는 여름 휴가철을 맞아 고객들에게 유용한... ",
-        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=311646",
-        "pub_date": "2026.07.13",
-        "reason": "여름 시즌 할인 기획 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 79.6,
-        "datalab_velocity": -5.4,
-        "queries": [
-          "여름 휴가 시즌",
-          "휴가철 이벤트"
-        ]
-      },
-      {
-        "title": "[커피·음료 트렌드] 컴포즈커피, 여름 맞이 복숭아·제주 한라봉 활용...",
-        "topic": "계절 시즈널 음료 신제품",
-        "insight": "여름철 프리미엄 음료 소비 수요에 대응한 신맛·지역 식재 활용 한정판 출시",
-        "desc": "이 메뉴는 2030 세대의 코어 소비트렌드로 떠오른 토마토 설탕 절임을 연상시키며, 기분 좋은 단 맛을 선사한다. 춘천 찰토마토로 대표되는 강원도산 토마토는 여름철 3개월간 전국 유통 물량 60~70%를 공급하는 대표적인... ",
-        "link": "https://www.ibabynews.com/news/articleView.html?idxno=152833",
-        "pub_date": "2026.07.13",
-        "reason": "음료 브랜드 시즈널 프로모션",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 33.1,
-        "datalab_velocity": 10.3,
-        "queries": [
-          "소비 트렌드",
-          "무더위 할인"
-        ]
-      },
-      {
-        "title": "호텔신라, 홈페이지·앱 전면 개편…예약 간소화에 멤버십 혜택 강화",
-        "topic": "호텔신라 멤버십 강화",
-        "insight": "예약 플랫폼 디지털화와 멤버십 혜택 고도화로 고객 경험 차별화",
-        "desc": "이를 통해 예약 편의성과 멤버십 혜택을 강화하고 공식 채널 경쟁력 확대에 나선다는 구상이다. 이번 개편은 예약부터 결제, 여행 정보 탐색까지 전 과정을 보다 쉽고 직관적으로 이용할 수 있도록 개선한 것이 핵심이다.... ",
-        "link": "https://view.asiae.co.kr/article/2026070708212679685",
-        "pub_date": "2026.07.07",
-        "reason": "호텔 멤버십 강화 사례 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 22.1,
-        "datalab_velocity": 3.8,
-        "queries": [
-          "멤버십 혜택",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "제천 한방바이오제천몰, 복날 맞이 할인 특별전 개최",
-        "topic": "복날 건강식품 할인전",
-        "insight": "휴가철·절기 연계 건강식품 카테고리 할인 프로모션으로 수요 전환",
-        "desc": "52% 할인된 가격에 판매한다. 행사 상품은 무더위로 지친 몸의 기력 회복과 건강관리에 도움이 되는... 시 관계자는 &quot;연일 이어지는 무더위 속에서 시민과 소비자들이 제천의 우수한 한방천연물 제품을 보다 합리적인... ",
-        "link": "https://www.ggilbo.com/news/articleView.html?idxno=1168946",
-        "pub_date": "2026.07.13",
-        "reason": "시즌 할인 벤치마크(복날)",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인",
-          "무더위 할인"
-        ]
-      },
-      {
-        "title": "한방바이오제천몰, 복날 특별전 최대 52% 할인",
-        "topic": "복날 건강식품 할인전",
-        "insight": "휴가철·절기 연계 건강식품 카테고리 할인 프로모션으로 수요 전환",
-        "desc": "52% 할인된 가격에 판매한다. 행사 상품은 무더위로 지친 몸의 기력 회복과 건강관리에 도움이 되는... 이에 재단 관계자는 &quot;연일 이어지는 무더위 속에서 시민과 소비자들이 제천의 우수한 한방천연물 제품을 보다... ",
-        "link": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=898374",
-        "pub_date": "2026.07.13",
-        "reason": "시즌 할인 벤치마크(복날)",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인",
-          "무더위 할인"
-        ]
-      },
-      {
-        "title": "한방바이오제천몰, 8월 복날 특별전…건강식품 70여종 할인",
-        "topic": "복날 건강식품 할인전",
-        "insight": "휴가철·절기 연계 건강식품 카테고리 할인 프로모션으로 수요 전환",
-        "desc": "52% 할인해 판매한다. 행사 상품은 무더위로 지친 몸의 기력 회복과 건강관리에 도움이 되는 제품으로... 재단 관계자는 &quot;연일 이어지는 무더위 속에서 시민과 소비자들이 제천의 우수한 한방천연물 제품을 보다 합리적인... ",
-        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3633613",
-        "pub_date": "2026.07.13",
-        "reason": "시즌 할인 벤치마크(복날)",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인",
-          "무더위 할인"
+          "복날 음식 프로모션",
+          "폭염 대비 이벤트"
         ]
       }
     ]

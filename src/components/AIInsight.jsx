@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.07.13';
+const RADAR_SCANNED = '2026.07.15';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -138,8 +138,8 @@ const alCats = [
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }] },
-      { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }] },
+      { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: <span className="upd">5% 할인</span> }] },
+      { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: <span className="upd">20% 할인</span> }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
     ]}],
     reasons: ['T멤버십: 상시 10~30% (아웃백·VIPS·도미노·피자헛·공차·폴바셋)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
@@ -156,10 +156,10 @@ const alCats = [
         { grade: 'G, S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
       ]},
       { partner: '오션월드', deadline: 'T day · 7.13~7.31', rows: [
-        { grade: '전 등급', desc: <span className="upd">이용권 50% 할인</span> },
+        { grade: '전 등급', desc: '이용권 50% 할인' },
       ]},
       { partner: '캐리비안베이', deadline: 'T day · 7.13~7.17', rows: [
-        { grade: '전 등급', desc: <span className="upd">50% 할인 + 자켓 대여 무료</span> },
+        { grade: '전 등급', desc: '50% 할인 + 자켓 대여 무료' },
       ]},
     ]}],
     reasons: ['T멤버십: 에버랜드·롯데월드 본인 40%+동반 30% 상시 · Day 2 오션월드·캐리비안베이 각 50% 할인', '비통신 멤버십: 테마파크 제휴 없음'],
@@ -225,10 +225,10 @@ const alCats = [
       { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'GS25', deadline: '상시 (매주 화)', rows: [{ grade: '전 등급', desc: <span className="upd">신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)</span> }] },
+      { partner: 'GS25', deadline: '상시 (매주 화)', rows: [{ grade: '전 등급', desc: '신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)' }] },
       { partner: 'GS25', deadline: 'Young week · 7.6~7.10', rows: [{ grade: '전 등급', desc: '샌드위치 50% 할인 (7종 중 택1)' }] },
-      { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: <span className="upd">100원 할인</span> }, { grade: 'S', desc: <span className="upd">50원 할인</span> }] },
-      { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: <span className="upd">100원 할인</span> }, { grade: 'S', desc: <span className="upd">50원 할인</span> }] },
+      { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
+      { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
     ]}],
     reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 화요일 신선식품 200원+영위크 샌드위치50% · CU·세븐 100원 상시'],
   },
@@ -239,7 +239,7 @@ const alCats = [
     ]}],
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'CGV', deadline: '상시', rows: [
-        { grade: 'V', desc: <span className="upd">무료관람 연3회 / 1+1 연9회 택1</span> },
+        { grade: 'V', desc: '무료관람 연3회 / 1+1 연9회 택1' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
       { partner: 'CGV', deadline: 'T day · 7.6~7.10', rows: [
@@ -274,13 +274,13 @@ const alVdLabel = { warn: 'T멤버십 열위', good: 'T멤버십 우위', neut: 
 export const recs = [
   {
     rank: 1,
-    brand: <span className="upd">노모어피자</span>,
-    tag: <span className="upd">매장 215개 · DataLab 📈1.40</span>,
-    reason: <span className="upd">DataLab 1.40 급등 · 뉴스 100건+ 폭발적 상승세. 저단가 피자 포지션으로 피자헛·도미노와 차별화. SKT 미참여 상태.</span>,
+    brand: '노모어피자',
+    tag: '매장 215개 · DataLab 📈1.40',
+    reason: 'DataLab 1.40 급등 · 뉴스 100건+ 폭발적 상승세. 저단가 피자 포지션으로 피자헛·도미노와 차별화. SKT 미참여 상태.',
     reach: [
-      { label: '매장 규모', text: <span className="upd">전국 215개 · 피자 카테고리 저단가 포지션 (피자헛·도미노 대비 접근성 우위)</span> },
-      { label: '검색 버즈', text: <span className="upd">DataLab 📈1.40 급등 · 블로그 4.7만 · 뉴스 100건+</span> },
-      { label: '제휴 포인트', text: <span className="upd">SKT 미참여 — 피자 카테고리 내 저단가 세분 시장 공백, 신규 고객층 확보 기회</span> },
+      { label: '매장 규모', text: '전국 215개 · 피자 카테고리 저단가 포지션 (피자헛·도미노 대비 접근성 우위)' },
+      { label: '검색 버즈', text: 'DataLab 📈1.40 급등 · 블로그 4.7만 · 뉴스 100건+' },
+      { label: '제휴 포인트', text: 'SKT 미참여 — 피자 카테고리 내 저단가 세분 시장 공백, 신규 고객층 확보 기회' },
     ],
     trend: 'DataLab 1.40 · 블로그 4.7만 · 뉴스 100건+',
     hot: true,
@@ -290,13 +290,13 @@ export const recs = [
   },
   {
     rank: 2,
-    brand: <span className="upd">설빙</span>,
-    tag: <span className="upd">매장 605개 · DataLab ↗1.21</span>,
-    reason: <span className="upd">여름 성수기 본격 돌입 · 아이스디저트 카테고리 1위. Tday 4개월 공백 중 — 계약 지연 시 여름 피크 시즌 전체를 놓칠 수 있음.</span>,
+    brand: '설빙',
+    tag: '매장 605개 · DataLab ↗1.21',
+    reason: '여름 성수기 본격 돌입 · 아이스디저트 카테고리 1위. Tday 4개월 공백 중 — 계약 지연 시 여름 피크 시즌 전체를 놓칠 수 있음.',
     reach: [
-      { label: '매장 규모', text: <span className="upd">전국 605개 · 아이스디저트 카테고리 1위</span> },
-      { label: '검색 버즈', text: <span className="upd">DataLab ↗1.21 상승세 · 블로그 75.6만 · 카페 26.3만 · 뉴스 56건 — 여름 성수기 진입으로 버즈 상승 예상</span> },
-      { label: '제휴 포인트', text: <span className="upd">2026.03 이후 Tday 공백 4개월 지속 · 여름 시즌 선점을 위한 조속한 재계약 필요</span> },
+      { label: '매장 규모', text: '전국 605개 · 아이스디저트 카테고리 1위' },
+      { label: '검색 버즈', text: 'DataLab ↗1.21 상승세 · 블로그 75.6만 · 카페 26.3만 · 뉴스 56건 — 여름 성수기 진입으로 버즈 상승 예상' },
+      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 4개월 지속 · 여름 시즌 선점을 위한 조속한 재계약 필요' },
     ],
     trend: 'DataLab 1.21 · 블로그 75.6만 · 카페 26.3만 · 뉴스 56건',
     hot: true,
@@ -308,13 +308,13 @@ export const recs = [
   },
   {
     rank: 3,
-    brand: <span className="upd">60계치킨</span>,
-    tag: <span className="upd">매장 622개 · DataLab 0.97</span>,
-    reason: <span className="upd">전국 622개 매장 보유 중가 치킨 브랜드. SKT 미참여 — 치킨 카테고리 상시 제휴 브랜드 없음, 고빈도 방문 카테고리 공백.</span>,
+    brand: '60계치킨',
+    tag: '매장 622개 · DataLab 0.97',
+    reason: '전국 622개 매장 보유 중가 치킨 브랜드. SKT 미참여 — 치킨 카테고리 상시 제휴 브랜드 없음, 고빈도 방문 카테고리 공백.',
     reach: [
-      { label: '매장 규모', text: <span className="upd">전국 622개 · 중가 치킨 카테고리 주요 브랜드</span> },
-      { label: '검색 버즈', text: <span className="upd">DataLab 0.97 · 블로그 10.3만 · 뉴스 56건</span> },
-      { label: '제휴 포인트', text: <span className="upd">SKT 미참여 — 치킨 카테고리 상시 제휴 브랜드 없음, 고빈도 방문 카테고리 공백</span> },
+      { label: '매장 규모', text: '전국 622개 · 중가 치킨 카테고리 주요 브랜드' },
+      { label: '검색 버즈', text: 'DataLab 0.97 · 블로그 10.3만 · 뉴스 56건' },
+      { label: '제휴 포인트', text: 'SKT 미참여 — 치킨 카테고리 상시 제휴 브랜드 없음, 고빈도 방문 카테고리 공백' },
     ],
     trend: 'DataLab 0.97 · 블로그 10.3만 · 뉴스 56건',
     hot: false,
