@@ -50,17 +50,17 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 2 (7.13~7.17)</span></div>
               <ul className="mblist">
-                <li><span className="upd">럭키찬스: VIP 5성급호텔 1박 추첨(100명)</span></li>
-                <li><span className="upd">캐리비안베이 50%할인+자켓대여무료</span></li>
-                <li><span className="upd">오션월드 이용권 50%할인</span></li>
-                <li><span className="upd">공차 음료6종 50%할인(VIP Only,최대6천원)</span></li>
-                <li><span className="upd">백미당 아이스크림 1+1</span></li>
-                <li><span className="upd">럭키찬스:이니스프리 레티놀PDRN 100%당첨</span></li>
-                <li><span className="upd">아로마티카 2만원할인(3만원↑)</span></li>
-                <li><span className="upd">슬로우캘리 대표메뉴 5천원할인</span></li>
-                <li><span className="upd">디자인밀 최대50%할인</span></li>
-                <li><span className="upd">티젠 최대50%할인(4만원↑)</span></li>
-                <li><span className="upd">오붓 웰니스패스 추가30%할인</span></li>
+                <li>럭키찬스: VIP 5성급호텔 1박 추첨(100명)</li>
+                <li>캐리비안베이 50%할인+자켓대여무료</li>
+                <li>오션월드 이용권 50%할인</li>
+                <li>공차 음료6종 50%할인(VIP Only,최대6천원)</li>
+                <li>백미당 아이스크림 1+1</li>
+                <li>럭키찬스:이니스프리 레티놀PDRN 100%당첨</li>
+                <li>아로마티카 2만원할인(3만원↑)</li>
+                <li>슬로우캘리 대표메뉴 5천원할인</li>
+                <li>디자인밀 최대50%할인</li>
+                <li>티젠 최대50%할인(4만원↑)</li>
+                <li>오붓 웰니스패스 추가30%할인</li>
               </ul>
             </div>
             <div className="mblk">
@@ -78,11 +78,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">시원한 여름 · Day2 레저 집중+VIP 2종</span></div>
+            <div className="mpnt-concept">시원한 여름 · Day2 레저 집중+VIP 2종</div>
             <ul className="mpnt-list">
-              <li><span className="upd">Day2 7.13~17 공개 · 워터파크+뷰티 집중</span></li>
-              <li><span className="upd">VIP찬스 2종 · 호텔1박 추첨+공차 음료6종</span></li>
-              <li><span className="upd">Day 3~4 미공개 · 7.22·29 순차 오픈</span></li>
+              <li>Day2 7.13~17 공개 · 워터파크+뷰티 집중</li>
+              <li>VIP찬스 2종 · 호텔1박 추첨+공차 음료6종</li>
+              <li>Day 3~4 미공개 · 7.22·29 순차 오픈</li>
             </ul>
           </div>
         </div>
@@ -100,15 +100,29 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>달달혜택</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span><span className="upd">달달초이스 2차 (7.15~7.31)</span></span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 매월 15일경 공개 예정</li>
+                <li><span className="upd">크리스탈제이드·더키친 딴딴면무료+1만원할인</span></li>
+                <li><span className="upd">VIPS 채끝스테이크무료(샐러드바2인↑)</span></li>
+                <li><span className="upd">도미노피자 방문포장50%할인(2.5~4.5만원)</span></li>
+                <li><span className="upd">메가MGC커피 아이스아메리카노1천원할인(2매)</span></li>
+                <li><span className="upd">폴바셋 룽고/라떼(S)50%할인(2매)</span></li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span><span className="upd">컬처앤모어 (7.15~7.31)</span></span></div>
+              <ul className="mblist">
+                <li><span className="upd">인기뮤지컬·전시 최대50%할인(4작품)</span></li>
               </ul>
             </div>
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept" style={{ color: 'var(--tx3)' }}>고객보답 1차 배스킨·쇼핑라운지 / 달달혜택 15일경 공개</div>
+            <div className="mpnt-concept"><span className="upd">달달 2차 · 고급외식 5종+컬처앤모어</span></div>
+            <ul className="mpnt-list">
+              <li><span className="upd">달달초이스 · VIPS·크제이드·도미노 등 5종</span></li>
+              <li><span className="upd">컬처앤모어 · 뮤지컬·전시 4작품 50%</span></li>
+            </ul>
           </div>
         </div>
         <div className="mc">
@@ -150,7 +164,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>7.13~7.17 — 유플투쁠_컬처</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>7.13~7.17 — 유플투쁠_컬처</span></div>
               <ul className="mblist">
                 <li>LG아트센터 전석 35% 할인 (최대 1인 4매)</li>
                 <li>NOL티켓 맥스 시덴토프 개인전 최대 35% 할인</li>
@@ -171,12 +185,12 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>7.15 (수) — 투쁠데이</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>7.15 (수) — 투쁠데이</span></div>
               <ul className="mblist">
                 <li>배민×KFC 8.5천원할인(2.2만원↑)</li>
                 <li>오션월드 (선착순) 워터파크 50% 할인</li>
                 <li>풀무원 (선착순) 1만원 할인 (4만원 이상 구매 시)</li>
-                <li>반올림피자 7천원할인(1+1제외)</li>
+                <li><span className="upd">반올림피자 7천원할인(1+1·세트제외)</span></li>
               </ul>
             </div>
             <div className="mblk">

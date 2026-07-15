@@ -1,13 +1,13 @@
 // 자동 업데이트 S11에서 매 실행마다 갱신
-export const UPDATE_DATE = '2026.07.13';
+export const UPDATE_DATE = '2026.07.15';
 export const updateItems = [
-  { section: '#mo', label: '월간혜택', desc: 'SKT T day Day2(7.13~17) 공개 — 캐리비안베이·오션월드·공차·VIP찬스 2종 반영' },
-  { section: '#rg', label: '상시혜택', desc: 'LGU+ CGV 최대 5,000원 할인(전 등급) 반영' },
-  { section: '#vp', label: 'VIP 혜택', desc: 'KT VIP 생일혜택 미제공으로 정정 (VVIP 전용 확인)' },
-  { section: '#sn', label: '고객반응', desc: 'SKT Young week 나이 제한 불만(7.8) · KT 달달혜택 7월 빽다방/취향뽑기 반응 추가' },
-  { section: '#ov', label: '핵심동향', desc: 'SKT Day2 진행중·T우주패스 8.1 예정 · KT 상시 정정 · LGU+ 컬처 오픈·파고다 변경 예정 반영' },
-  { section: '#ai-nontelecom', label: '비통신 비교', desc: '테마파크 Day2 오션월드·캐리비안베이 추가 · 편의점 CU·세븐일레븐 혜택 % → 원 단위 정정 · CGV VIP 혜택 수정' },
-  { section: '#ai-recommend', label: '신규 제휴 추천', desc: '노모어피자(DataLab 1.40 급등)·설빙(여름 공백 4개월)·60계치킨(치킨 상시 공백) 3종 추천 반영' },
-  { section: '#ai-radar', label: '이슈 레이더', desc: '스타벅스 배재고 논란으로 강도 low→mid 상향 · 메가커피 가격 인상 헤드라인 갱신 · 메가박스 합병 결렬 피해 업데이트' },
-  { section: '#ai-market', label: '마켓 시그널', desc: '휴가철 유통·관광 서비스 경쟁 트렌드로 갱신 (2026.07.13 수집)' },
+  { section: '#mo', label: '월간혜택', desc: 'KT 달달초이스 2차(7.15~7.31) VIPS·크제이드·도미노 공개 + 컬처앤모어 오픈 · LGU+ 반올림피자 추가' },
+  { section: '#vp', label: 'VIP 혜택', desc: 'KT VIP·VVIP 초이스 롯데시네마 무료·VIPS 스테이크·도미노 3만원 할인 반영' },
+  { section: '#hs', label: '공지 히스토리', desc: 'LGU+ 8월 신규 3개(밀킨·롱블랙·아이콘골프) 7.14 이력 추가' },
+  { section: '#nw', label: '뉴스', desc: 'SKT 로밍·멤버십 휴가철 강화(7.13) + LGU+ 레고랜드 장기고객 초청(7.10) 신규 추가' },
+  { section: '#sn', label: '고객반응', desc: 'SKT VIP PICK T우주패스 8월 변경 부정(7.9) · LGU+ 해지방어 후기(7.13) 추가 · 2026.07.14 갱신' },
+  { section: '#ai-matrix', label: '경쟁 매트릭스', desc: 'KT 달달초이스 7.15 공개 — SKT·LGU+ 겹치는 브랜드 없어 skt-kt/kt-lgu/3사 비교 불가 반영' },
+  { section: '#ai-nontelecom', label: '비통신 비교', desc: '테마파크 Day2 오션월드·캐리비안베이 추가 · 편의점 CU·GS25 혜택 업데이트' },
+  { section: '#ai-recommend', label: '신규 제휴 추천', desc: '노모어피자(DataLab 1.40 급등)·설빙(여름 피크 4개월 공백)·60계치킨(치킨 상시 공백) 3종' },
+  { section: '#ov', label: '핵심동향', desc: 'KT 달달초이스 2차 오픈 반영 · LGU+ 파고다 미래예정 제거→포텔리어 교체 · ovkey KT 공개 업데이트' },
 ];

@@ -27,7 +27,7 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [], // 7월 KT 달달혜택 미공개 (15일경 공개 예정)
+    rows: [], // KT 달달초이스 2차(7.15~7.31): VIPS·크리스탈제이드·도미노·메가MGC·폴바셋 — SKT Tday 브랜드와 겹침 없음
   },
   {
     id: 'skt-lgu',
@@ -112,13 +112,13 @@ const compGroups = [
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT 달달혜택 × LGU+ 투쁠데이',
-    rows: [], // 7월 KT 달달혜택 미공개
+    rows: [], // KT 달달초이스 × LGU+ 투쁠데이 겹치는 브랜드 없음
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // 7월 KT 달달혜택 미공개로 비교 불가
+    rows: [], // SKT × KT 겹침 없어 3사 공통 없음
   },
 ];
 
@@ -445,7 +445,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택·고객보답 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · KT 달달혜택 미공개 — 공개 후 업데이트 예정)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · <span className="upd">KT 달달초이스 7.15 공개 — SKT·LGU+ 겹치는 브랜드 없어 skt-kt/kt-lgu/3사 공통 미반영</span>)</div>
         </div>
       </div>
 
