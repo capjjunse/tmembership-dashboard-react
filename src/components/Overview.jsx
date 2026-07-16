@@ -108,7 +108,7 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 83%·긍정 17%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>T day "뭐가 없네" 불만</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">VIP PICK 우주패스 너프 "유튜브 날려버렸네" 불만</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
@@ -124,8 +124,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>MOVV 인천공항 혜택 변경 (7.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달혜택 '빽다방만' 불만</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>보답 1차 '라운지 너프' 불만</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달 2차 '역대급 씁쓸혜택' 불만</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">보답 2차 '파리 마감·프로그램 종료' 불만</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
