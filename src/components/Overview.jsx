@@ -130,7 +130,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
-            <div className="ovg2-item"><span className="upd">특이 변동 없음</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">롯데월드 아쿠아리움·아이스링크 할인 추가</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>투쁠데이 진행중 (7.7~7.21)</div>

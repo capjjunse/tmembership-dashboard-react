@@ -18,9 +18,9 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">SKT, 휴가철 로밍·멤버십 혜택 꽉 채웠다</span></span></div>
-            <div className="nsum"><span className="upd">여름 휴가철을 맞아 T 로밍 프로모션과 T 멤버십 혜택을 강화하여 운영. 해외여행 시 로밍 특가와 함께 국내 T멤버십 혜택(0 week, 제휴사 할인 등)을 동시에 제공.</span></div>
-            <div className="nmeta"><span className="upd">2026-07-13</span> · <a href="https://news.sktelecom.com/227702" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 휴가철 로밍·멤버십 혜택 꽉 채웠다</span></div>
+            <div className="nsum">여름 휴가철을 맞아 T 로밍 프로모션과 T 멤버십 혜택을 강화하여 운영. 해외여행 시 로밍 특가와 함께 국내 T멤버십 혜택(0 week, 제휴사 할인 등)을 동시에 제공.</div>
+            <div className="nmeta">2026-07-13 · <a href="https://news.sktelecom.com/227702" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">T 멤버십으로 즐기는 특별한 여름, 7월 혜택 총정리</span></div>
@@ -103,9 +103,9 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">U+ 장기고객을 위한 레고랜드 워터풀 파티 & U+119 메모리얼런</span></span></div>
-            <div className="nsum"><span className="upd">LGU+ 멤버십 VVIP 이상·10년 이상 장기고객 대상 특별 초청 이벤트. 8월 8~9일 레고랜드 코리아 리조트에서 워터풀 파티 개최(1,500명 참가). 장기고객 우대 전략 지속 강화.</span></div>
-            <div className="nmeta"><span className="upd">2026-07-10</span> · <a href="https://news.lguplus.com/22285" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">U+ 장기고객을 위한 레고랜드 워터풀 파티 & U+119 메모리얼런</span></div>
+            <div className="nsum">LGU+ 멤버십 VVIP 이상·10년 이상 장기고객 대상 특별 초청 이벤트. 8월 8~9일 레고랜드 코리아 리조트에서 워터풀 파티 개최(1,500명 참가). 장기고객 우대 전략 지속 강화.</div>
+            <div className="nmeta">2026-07-10 · <a href="https://news.lguplus.com/22285" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">휴가부터 시원한 일상까지, 7월을 위한 유플투쁠 혜택</span></div>
