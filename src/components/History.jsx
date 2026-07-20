@@ -17,13 +17,6 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
-            <td>2026.07.14</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+ 멤버십 상시</td>
-            <td><span className="upd">8월 신규 제휴 3개 — 밀킨(전 제품 10% 할인·최대 2만원), 롱블랙(노트 플랜 1개월 무료), 아이콘골프(편도 2천원·왕복 1천원 할인) (8.1~)</span></td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
             <td>2026.08.01</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
@@ -50,6 +43,13 @@ export default function History() {
             <td>T 멤버십 상시</td>
             <td>아시아나 인터넷 면세점 10% 할인 제휴 종료 예정 (7.31)</td>
             <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.07.14</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+ 멤버십 상시</td>
+            <td>8월 신규 제휴 3개 — 밀킨(전 제품 10% 할인·최대 2만원), 롱블랙(노트 플랜 1개월 무료), 아이콘골프(편도 2천원·왕복 1천원 할인) (8.1~)</td>
+            <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
             <td>2026.07.01</td>

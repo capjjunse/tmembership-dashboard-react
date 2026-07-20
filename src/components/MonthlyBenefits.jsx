@@ -48,7 +48,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 2 (7.13~7.17)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (7.13~7.17)</span></div>
               <ul className="mblist">
                 <li>럭키찬스: VIP 5성급호텔 1박 추첨(100명)</li>
                 <li>캐리비안베이 50%할인+자켓대여무료</li>
@@ -66,7 +66,10 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (7.22)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 7월 22일 공개 예정</li>
+                <li><span className="upd">던킨 30%할인(VIP50%, 최대8천원)</span></li>
+                <li><span className="upd">쉐이크쉑 20%할인(VIP40%, 최대8천원)</span></li>
+                <li><span className="upd">CGV 8,500원예매+매점쿠폰2종</span></li>
+                <li><span className="upd">내셔널지오그래픽전시 40%할인(동반1인30%)</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -78,11 +81,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">시원한 여름 · Day2 레저 집중+VIP 2종</div>
+            <div className="mpnt-concept"><span className="upd">여름 테마 · Day3 던킨·CGV·전시 공개</span></div>
             <ul className="mpnt-list">
-              <li>Day2 7.13~17 공개 · 워터파크+뷰티 집중</li>
-              <li>VIP찬스 2종 · 호텔1박 추첨+공차 음료6종</li>
-              <li>Day 3~4 미공개 · 7.22·29 순차 오픈</li>
+              <li><span className="upd">Day3 7.22 · 던킨VIP50%·쉐이크쉑VIP40%+전시</span></li>
+              <li>Day2 종료 · 레저·워터파크·뷰티 집중</li>
+              <li>Day4 7.29 미공개 · 오픈 예정</li>
             </ul>
           </div>
         </div>
@@ -93,35 +96,35 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>고객보답 1차 (7.1~7.15)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>고객보답 1차 (7.1~7.15)</span></div>
               <ul className="mblist">
                 <li>배스킨라빈스 50%할인(최대5천원)</li>
                 <li>쇼핑라운지 (전 등급) 전 상품 5,000원 할인</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span><span className="upd">달달초이스 2차 (7.15~7.31)</span></span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>달달초이스 2차 (7.15~7.31)</span></div>
               <ul className="mblist">
-                <li><span className="upd">크리스탈제이드·더키친 딴딴면무료+1만원할인</span></li>
-                <li><span className="upd">VIPS 채끝스테이크무료(샐러드바2인↑)</span></li>
-                <li><span className="upd">도미노피자 방문포장50%할인(2.5~4.5만원)</span></li>
-                <li><span className="upd">메가MGC커피 아이스아메리카노1천원할인(2매)</span></li>
-                <li><span className="upd">폴바셋 룽고/라떼(S)50%할인(2매)</span></li>
+                <li>크리스탈제이드·더키친 딴딴면무료+1만원할인</li>
+                <li>VIPS 채끝스테이크무료(샐러드바2인↑)</li>
+                <li>도미노피자 방문포장50%할인(2.5~4.5만원)</li>
+                <li>메가MGC커피 아이스아메리카노1천원할인(2매)</li>
+                <li>폴바셋 룽고/라떼(S)50%할인(2매)</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span><span className="upd">컬처앤모어 (7.15~7.31)</span></span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>컬처앤모어 (7.15~7.31)</span></div>
               <ul className="mblist">
-                <li><span className="upd">인기뮤지컬·전시 최대50%할인(4작품)</span></li>
+                <li>인기뮤지컬·전시 최대50%할인(4작품)</li>
               </ul>
             </div>
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">달달 2차 · 고급외식 5종+컬처앤모어</span></div>
+            <div className="mpnt-concept">달달 2차 · 고급외식 5종+컬처앤모어</div>
             <ul className="mpnt-list">
-              <li><span className="upd">달달초이스 · VIPS·크제이드·도미노 등 5종</span></li>
-              <li><span className="upd">컬처앤모어 · 뮤지컬·전시 4작품 50%</span></li>
+              <li>달달초이스 · VIPS·크제이드·도미노 등 5종</li>
+              <li>컬처앤모어 · 뮤지컬·전시 4작품 50%</li>
             </ul>
           </div>
         </div>
@@ -164,13 +167,13 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>7.13~7.17 — 유플투쁠_컬처</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>7.13~7.17 — 유플투쁠_컬처</span></div>
               <ul className="mblist">
                 <li>LG아트센터 전석 35% 할인 (최대 1인 4매)</li>
                 <li>NOL티켓 맥스 시덴토프 개인전 최대 35% 할인</li>
                 <li>미셸앙리:위대한 컬러리스트 부산 전시 30% 할인</li>
                 <li>페인터즈 공연 50% 할인</li>
-                <li>프린트베이커리 15% 할인 + 수공당 2종 혜택</li>
+                <li><span className="upd">프린트베이커리 15% 할인</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -185,12 +188,12 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>7.15 (수) — 투쁠데이</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>7.15 (수) — 투쁠데이</span></div>
               <ul className="mblist">
                 <li>배민×KFC 8.5천원할인(2.2만원↑)</li>
                 <li>오션월드 (선착순) 워터파크 50% 할인</li>
                 <li>풀무원 (선착순) 1만원 할인 (4만원 이상 구매 시)</li>
-                <li><span className="upd">반올림피자 7천원할인(1+1·세트제외)</span></li>
+                <li>반올림피자 7천원할인(1+1·세트제외)</li>
               </ul>
             </div>
             <div className="mblk">
@@ -213,7 +216,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>7.20 (월) — 유쓰데이</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>7.20 (월) — 유쓰데이</span></div>
               <ul className="mblist">
                 <li>공차(유쓰) 최대50%할인(1만원↑)</li>
                 <li>밀리의서재 (유쓰) 1개월 무료이용권</li>
@@ -240,11 +243,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ml">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">여름 레저 대거 포함 · 컬처+장기고객 별도 운영</div>
+            <div className="mpnt-concept"><span className="upd">7.20 유쓰데이 오늘 · 7.21 투쁠데이 예정</span></div>
             <ul className="mpnt-list">
-              <li>투쁠데이 7.7~7.21 · 레저·외식·뷰티 망라</li>
-              <li>유플투쁠_컬처 7.13~17 · 공연·전시 5종</li>
-              <li>장기고객데이 7.23 · 다이소·뮤지컬·독서앱</li>
+              <li><span className="upd">7.20 오늘 · 공차+밀리의서재 유쓰 혜택</span></li>
+              <li><span className="upd">7.21 투쁠 · 배스킨+매드포갈릭+뷰티</span></li>
+              <li>7.23 장기고객데이 · 다이소+뮤지컬+독서앱</li>
             </ul>
           </div>
         </div>
