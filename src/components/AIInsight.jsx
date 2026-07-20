@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.07.15';
+const RADAR_SCANNED = '2026.07.20';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -148,8 +148,8 @@ const alCats = [
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: <span className="upd">5% 할인</span> }] },
-      { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: <span className="upd">20% 할인</span> }] },
+      { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: '5% 할인' }] },
+      { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: '20% 할인' }] },
       { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
     ]}],
     reasons: ['T멤버십: 상시 10~30% (아웃백·VIPS·도미노·피자헛·공차·폴바셋)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
@@ -252,11 +252,11 @@ const alCats = [
         { grade: 'V', desc: '무료관람 연3회 / 1+1 연9회 택1' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
-      { partner: 'CGV', deadline: 'T day · 7.6~7.10', rows: [
+      { partner: 'CGV', deadline: <span className="upd">T day · 7.6~7.10 / Day 3 · 7.22</span>, rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점 쿠폰 2종' },
       ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 4천원+VIP연3회/1+1연9회 · Week 8,500원+쿠폰'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <span className="upd">T멤버십: CGV 4천원+VIP연3회/1+1연9회 · T day 8,500원+쿠폰 2회</span>],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -593,7 +593,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.07.13</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.07.20</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

@@ -17,8 +17,8 @@ export default function NonTelecom() {
       edge: '적립·배송·콘텐츠 4,900원 올인원 멤버십',
       edgeDetails: [
         '적립·배송·콘텐츠·클라우드 구독 하나로 해결',
-        '패밀리 3명 동일 5%, 가족 단위 락인',
-        '하반기 무제한 무료배송 예고, 쿠팡과 경쟁',
+        '<span className="upd">패밀리 3명 동일 5% 적립, 최대 혜택 안정화</span>',
+        '<span className="upd">디지털 콘텐츠 1개 선택, 패밀리 공유 가능</span>',
       ],
     },
     {
