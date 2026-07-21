@@ -141,7 +141,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>포텔리어 구독권 무료 2주로 축소 (7.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>긍정 44%·부정 56%</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">긍정 40%·부정 60%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>투쁠 "혜택 줄어" 감소 불만</div>
           </a>
         </div>
