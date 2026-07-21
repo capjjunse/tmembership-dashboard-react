@@ -34,7 +34,7 @@ export default function VipBenefits() {
           <tr>
             <td>영화</td>
             <td>CGV 무료관람 연3회 /<br />1+1 연9회 택1</td>
-            <td><span className="upd">롯데시네마 영화 무료</span><br /><span className="upd">(VIP·VVIP 초이스)</span></td>
+            <td>롯데시네마 영화 무료<br />(VIP·VVIP 초이스)</td>
             <td>CGV 무료 연3회 / 1+1 연9회</td>
           </tr>
           <tr>
