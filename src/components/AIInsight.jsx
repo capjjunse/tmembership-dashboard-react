@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.07.20';
+const RADAR_SCANNED = '2026.07.22';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -155,7 +155,7 @@ const alCats = [
         { grade: 'V', desc: '본인 40% 할인, 동반 3인 30% 할인' },
         { grade: 'G, S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
       ]},
-      { partner: '오션월드', deadline: 'T day · 7.13~7.31', rows: [
+      { partner: '오션월드', deadline: <span className="upd">T day · 7.13~7.17</span>, rows: [
         { grade: '전 등급', desc: '이용권 50% 할인' },
       ]},
       { partner: '캐리비안베이', deadline: 'T day · 7.13~7.17', rows: [
@@ -242,11 +242,11 @@ const alCats = [
         { grade: 'V', desc: '무료관람 연3회 / 1+1 연9회 택1' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
-      { partner: 'CGV', deadline: <span className="upd">T day · 7.6~7.10 / Day 3 · 7.22</span>, rows: [
+      { partner: 'CGV', deadline: 'T day · 7.6~7.10 / Day 3 · 7.22', rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점 쿠폰 2종' },
       ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <span className="upd">T멤버십: CGV 4천원+VIP연3회/1+1연9회 · T day 8,500원+쿠폰 2회</span>],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 4천원+VIP연3회/1+1연9회 · T day 8,500원+쿠폰 2회'],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -280,7 +280,7 @@ export const recs = [
     reach: [
       { label: '매장 규모', text: '전국 215개 · 피자 카테고리 저단가 포지션 (피자헛·도미노 대비 접근성 우위)' },
       { label: '검색 버즈', text: 'DataLab 📈1.40 급등 · 블로그 4.7만 · 뉴스 100건+' },
-      { label: '제휴 포인트', text: 'SKT 미참여 — 피자 카테고리 내 저단가 세분 시장 공백, 신규 고객층 확보 기회' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 저단가 피자 세분 시장 공백 — 가짜치즈 논란·영업적자 이력, 브랜드 신뢰도 모니터링 필요' },
     ],
     trend: 'DataLab 1.40 · 블로그 4.7만 · 뉴스 100건+',
     hot: true,
@@ -292,11 +292,11 @@ export const recs = [
     rank: 2,
     brand: '설빙',
     tag: '매장 605개 · DataLab ↗1.21',
-    reason: '여름 성수기 본격 돌입 · 아이스디저트 카테고리 1위. Tday 4개월 공백 중 — 계약 지연 시 여름 피크 시즌 전체를 놓칠 수 있음.',
+    reason: '아이스디저트 카테고리 1위 · 전국 605개. Tday 4개월+ 공백 지속. 7.20 위생 논란 공식 사과 발표 — 브랜드 리스크 모니터링 중.',
     reach: [
       { label: '매장 규모', text: '전국 605개 · 아이스디저트 카테고리 1위' },
-      { label: '검색 버즈', text: 'DataLab ↗1.21 상승세 · 블로그 75.6만 · 카페 26.3만 · 뉴스 56건 — 여름 성수기 진입으로 버즈 상승 예상' },
-      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 4개월 지속 · 여름 시즌 선점을 위한 조속한 재계약 필요' },
+      { label: '검색 버즈', text: 'DataLab ↗1.21 · 블로그 75.6만 · 카페 26.3만 · 뉴스 56건 — 위생 논란 이후 부정 버즈 급증' },
+      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 4개월 지속 · 7.20 위생 논란 공식 사과, 브랜드 이미지 타격 진행 중' },
     ],
     trend: 'DataLab 1.21 · 블로그 75.6만 · 카페 26.3만 · 뉴스 56건',
     hot: true,
@@ -310,11 +310,11 @@ export const recs = [
     rank: 3,
     brand: '60계치킨',
     tag: '매장 622개 · DataLab 0.97',
-    reason: '전국 622개 매장 보유 중가 치킨 브랜드. SKT 미참여 — 치킨 카테고리 상시 제휴 브랜드 없음, 고빈도 방문 카테고리 공백.',
+    reason: '전국 622개 중가 치킨 브랜드. SKT 미참여 · 치킨 카테고리 공백. 7.5 닭근위 튀김 논란 사과 발표.',
     reach: [
       { label: '매장 규모', text: '전국 622개 · 중가 치킨 카테고리 주요 브랜드' },
       { label: '검색 버즈', text: 'DataLab 0.97 · 블로그 10.3만 · 뉴스 56건' },
-      { label: '제휴 포인트', text: 'SKT 미참여 — 치킨 카테고리 상시 제휴 브랜드 없음, 고빈도 방문 카테고리 공백' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 상시 제휴 공백 — 닭근위 논란(7.5 사과) 진정 여부 모니터링 중' },
     ],
     trend: 'DataLab 0.97 · 블로그 10.3만 · 뉴스 56건',
     hot: false,
@@ -583,7 +583,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.07.20</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.07.22</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

@@ -1,63 +1,30 @@
 {
-  "generated_at": "2026.07.20 16:23",
-  "total_collected": 1032,
-  "total_valid": 516,
-  "total_skipped": 516,
-  "total_top": 32,
+  "generated_at": "2026.07.22 16:25",
+  "total_collected": 1015,
+  "total_valid": 507,
+  "total_skipped": 467,
+  "total_top": 19,
   "topic_groups": [
     {
-      "category": "risk",
-      "topic": "스타벅스 탱크데이 불매사태",
-      "insight": "5·18 탱크데이 논란 이후 광주지역 스타벅스 불매운동 지속",
-      "signal_strength": 3,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "'5·18 탱크데이' 논란 두 달…광주선 스타벅스 반감 여전",
-          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1716929",
-          "pub_date": "2026.07.20",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "마케팅에 데인 스타벅스, e-프리퀀시 행사 안한다…“내부정비 우선”",
-          "link": "https://www.mk.co.kr/article/12098147",
-          "pub_date": "2026.07.14",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        }
-      ]
-    },
-    {
-      "category": "risk",
-      "topic": "쉐이크쉑 태극기 논란",
-      "insight": "UAE 쉐이크쉑 월드컵 굿즈의 태극기 문양 오류로 브랜드 신뢰도 하락",
+      "category": "battle",
+      "topic": "배달앱 슈퍼앱 경쟁",
+      "insight": "우버가 배민 인수로 배달 플랫폼 판도 변화, 슈퍼앱 경쟁 본격화",
       "signal_strength": 2,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "태극기만 왜 이렇게? UAE 쉐이크쉑, 월드컵 굿즈 논란",
-          "link": "http://www.joseilbo.com/news/news_read.php?uid=571860&class=33&grp=",
-          "pub_date": "2026.07.14",
-          "priority": 2,
-          "cross_query_count": 1,
+          "title": "배민 품은 우버, 한국 플랫폼 판도 바뀌나···배달 넘어 '슈퍼앱' 경쟁...",
+          "link": "https://www.smartbizn.com/news/articleView.html?idxno=149107",
+          "pub_date": "2026.07.22",
+          "priority": 3,
+          "cross_query_count": 2,
           "datalab_velocity": 0.0
         },
         {
-          "title": "&quot;태극 문양 틀리고 건곤감리도 없어&quot;…UAE 쉐이크쉑, 월드컵 굿즈 논란",
-          "link": "https://www.sidae.com/article/2026071409542337709",
-          "pub_date": "2026.07.14",
-          "priority": 2,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "“건곤감리 어디 갔어”…‘쉐이크쉑’ 엉터리 태극기 그려진 굿즈 논란",
-          "link": "https://www.nongmin.com/article/20260714500083",
-          "pub_date": "2026.07.14",
-          "priority": 2,
+          "title": "배민·우버 ‘연합군’ 등판…쿠팡이츠와 ‘배달전쟁 시즌2’ 시작되나...",
+          "link": "https://www.joongang.co.kr/article/25446644",
+          "pub_date": "2026.07.21",
+          "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         }
@@ -65,131 +32,58 @@
     },
     {
       "category": "battle",
-      "topic": "우버 배민 모회사 인수",
-      "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
+      "topic": "통신사 AI 글래스 경쟁",
+      "insight": "통신 3사가 레이밴 메타 AI 글래스 동시 출격, 요금제 연계 혜택 경쟁",
       "signal_strength": 2,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "배민 품은 우버 … 한국 플랫폼 경쟁 새 국면",
-          "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/17/2026071700022.html",
-          "pub_date": "2026.07.17",
+          "title": "이통 3사, 세계 1위 AI 글래스 '레이밴 메타' 동시 출격…혜택 경쟁 불붙...",
+          "link": "https://economist.co.kr/article/view/ecn202607220022",
+          "pub_date": "2026.07.22",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "배민까지 美 플랫폼 품으로…한국 배달시장 우버·쿠팡 '양분'",
-          "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/17/2026071790202.html",
-          "pub_date": "2026.07.17",
+          "title": "이통3사, AI 안경 ‘레이밴 메타’ 판매 시작…요금제 연계 혜택은?",
+          "link": "https://view.asiae.co.kr/article/2026072209431341775",
+          "pub_date": "2026.07.22",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "배달의민족 母회사, 우버가 인수한다",
-          "link": "https://www.chosun.com/economy/tech_it/2026/07/16/2CUKCJG3TZAILEYWDCNKDOS7IU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-          "pub_date": "2026.07.16",
+          "title": "이동통신 3사, 다양한 혜택 담고 세계 1위 AI 글래스 '레이밴 메타' 일제...",
+          "link": "https://www.starnewskorea.com/business-life/2026/07/22/2026072213143264284",
+          "pub_date": "2026.07.22",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "우버, 배민 모회사 22조원에 인수…한국 배달시장 본격 진입",
-          "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04621526645515176",
-          "pub_date": "2026.07.16",
+          "title": "이통3사, '레이밴 메타' 동시 출격...요금 할인 혜택 경쟁",
+          "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=362426",
+          "pub_date": "2026.07.22",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "배민 주인 바뀐다…우버, DH 22兆에 인수",
-          "link": "https://www.hankyung.com/article/2026071601531",
-          "pub_date": "2026.07.16",
+          "title": "통신 3사, '레이밴 메타 AI 글라스' 출시…할인·요금제 혜택으로 고객...",
+          "link": "https://www.news1.kr/it-science/cc-newmedia/6234876",
+          "pub_date": "2026.07.22",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "배달의민족 母회사 우버가 인수한다",
-          "link": "https://www.chosun.com/economy/tech_it/2026/07/17/JYWMOGUNZNDRXGQWKJVU67RTEU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-          "pub_date": "2026.07.17",
+          "title": "통신3사, 'AI 안경' 동시 출시···혜택 경쟁 '후끈'",
+          "link": "https://www.smartbizn.com/news/articleView.html?idxno=149075",
+          "pub_date": "2026.07.22",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
-        },
-        {
-          "title": "배달의민족, 우버가 품었다…獨모회사 21조원에 인수",
-          "link": "https://www.mk.co.kr/article/12100844",
-          "pub_date": "2026.07.17",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "우버, 22조에 배민 모회사 DH 인수…판 커진 배민 '배달전쟁'",
-          "link": "https://www.itdaily.kr/news/articleView.html?idxno=240465",
-          "pub_date": "2026.07.19",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "배달의민족, 우버 품으로 갔다",
-          "link": "https://www.mk.co.kr/article/12100558",
-          "pub_date": "2026.07.16",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "'배달의 민족' 독일 모회사, 우버에 팔린다",
-          "link": "https://biz.sbs.co.kr/article_hub/20000322948?division=NAVER",
-          "pub_date": "2026.07.16",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        }
-      ]
-    },
-    {
-      "category": "benchmark",
-      "topic": "카드사 여름시즌 프로모션",
-      "insight": "카드업계, 여름 휴가철 수요 공략 위해 시즌별 트렌드 기반 프로모션 확대",
-      "signal_strength": 1,
-      "max_velocity": -3.5,
-      "articles": [
-        {
-          "title": "[카드 PICK] 휴가철 맞은 카드업계… 여행 트렌드 분석·시즌 프로모션...",
-          "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=205136",
-          "pub_date": "2026.07.20",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": -3.5
-        },
-        {
-          "title": "하나카드·신한은행, 여름철 고객 프로모션 확대",
-          "link": "https://www.pressman.kr/news/articleView.html?idxno=102799",
-          "pub_date": "2026.07.20",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -3.5
-        },
-        {
-          "title": "하나카드, 여름 휴가철 맞이 ‘2026 쿨 서머 페스티벌’ 진행",
-          "link": "https://www.viva100.com/article/20260720500477",
-          "pub_date": "2026.07.20",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -3.5
-        },
-        {
-          "title": "&quot;휴가철 '지갑 잡기' 나섰다&quot;... 하나카드, 생활·여행 혜택 확대",
-          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204118",
-          "pub_date": "2026.07.20",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -3.5
         }
       ]
     }
@@ -197,196 +91,99 @@
   "categories": {
     "trend": [
       {
-        "title": "치킨이 1위 아니네”...아메리카노 배달 주문 60% 급증",
-        "topic": "커피 배달 수요 급증",
-        "insight": "편의점·카페 커피 배달 주문이 급증하며 배달앱 카테고리 다변화 진행 중",
-        "desc": "19일 배민에 따르면 배민외식트렌드는 배민 주문 데이터를 바탕으로 외식업 파트너들에게 소비 트렌드와 운영 전략을 제시하는 콘텐츠다. 이번 보고서는 올해 1월부터 5월까지의 주문 데이터를 분석해 작성됐다. 분석... ",
-        "link": "https://www.mk.co.kr/article/12101610",
-        "pub_date": "2026.07.19",
-        "reason": "배달 음식 카테고리 선호 변화 감지",
+        "title": "[커피·음료 트렌드] 메가MGC커피, '여름휴가를 주문하세요!' 이벤트 진...",
+        "topic": "커피·음료 시즈널 마케팅",
+        "insight": "카페 브랜드들이 계절 맞춤 프로모션으로 고객 확보 경쟁 심화",
+        "desc": "7월 16일 출시된 '비치타월 2종'은 여름철 물놀이와 휴가 시즌에 활용하기 좋고, '토이 스토리'의 '우디'와 '버즈' 등 인기 캐릭터들이 테니스를 비롯한 다양한 스포츠를 즐기는 모습과, '미키와 친구들' 캐릭터들이 서핑과... ",
+        "link": "https://www.ibabynews.com/news/articleView.html?idxno=153026",
+        "pub_date": "2026.07.20",
+        "reason": "여름 시즌 음료·식품 프로모션 트렌드",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 23.9,
-        "datalab_velocity": 4.4,
+        "datalab_score": 16.6,
+        "datalab_velocity": 4.7,
         "queries": [
-          "소비 트렌드",
-          "배달 시장"
+          "여름 휴가 시즌",
+          "여름 스포츠 이벤트"
         ]
       },
       {
-        "title": "사용자 의도 파악, 구매 추천 등 실행…AI 검색 시장 ‘독심술’ 경쟁",
-        "topic": "AI 검색 개인화 경쟁",
-        "insight": "주요 플랫폼들이 AI 기반 사용자 의도 파악과 맞춤 추천 기능 경쟁 심화",
-        "desc": "생성형 AI도 검색시장에서 기존 플랫폼의 경쟁자로 떠오르고 있다. 오픈서베이가 지난 13일 발표한 ‘AI 검색 트렌드 리포트’를 보면 최근 3개월간 네이버 검색 서비스 이용 경험률은 반년 전보다 3.9%포인트 하락한 77.7... ",
-        "link": "https://www.khan.co.kr/article/202607152041005",
-        "pub_date": "2026.07.15",
-        "reason": "AI 검색 구매 추천 소비 트렌드 변화",
+        "title": "편의점과 배달앱, 일상의 빈틈을 파고들다",
+        "topic": "편의점·배달앱 생활밀착화",
+        "insight": "편의점과 배달앱이 소비자 일상의 틈새 수요를 적극 공략 중",
+        "desc": "편의점과 배달 플랫폼, 유통 공기업이 여름철 생활 현장의 중심으로 들어가고 있다. 폭염에 취약한 이웃을... 2023년 아이돌 앨범 판매를 시작한 뒤 전국 점포망과 우리동네GS 앱, 1020세대 고객 기반을 활용해 팬덤 시장... ",
+        "link": "https://www.pressman.kr/news/articleView.html?idxno=102827",
+        "pub_date": "2026.07.22",
+        "reason": "편의점·배달앱 일상 소비 침투 트렌드",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장",
+          "폭염 대비 이벤트"
+        ]
+      },
+      {
+        "title": "백화점에서는 여름템, 마트서는 '여름 미식'[위클리 쇼핑]",
+        "topic": "계절상품 소비 다변화",
+        "insight": "여름 시즌에 패션, 식품 등 다채로운 상품 소비 확대 추세",
+        "desc": "신세계百, '뭍(MUUT)' 아이웨어 팝업 신세계백화점은 본격적인 여름 휴가철을 맞아 선글라스와 안경을... 여름 시즌에 맞춰 본점 7층 스포츠 레저관 공간을 역동적인 비주얼로 새롭게 연출하고, 감사제에서만 만나볼... ",
+        "link": "https://www.newsis.com/view/NISX20260716_0003712975",
+        "pub_date": "2026.07.18",
+        "reason": "여름 성수기 소비 트렌드",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 95.2,
-        "datalab_velocity": 9.5,
+        "datalab_score": 16.6,
+        "datalab_velocity": 4.7,
         "queries": [
-          "플랫폼 경쟁",
-          "AI 쇼핑"
+          "여름 휴가 시즌",
+          "여름 스포츠 이벤트"
         ]
       }
     ],
     "risk": [
       {
-        "title": "“애국은 돈쭐, 논란은 불매”… SNS 타고 번지는 ‘기업 사상 검증’",
-        "topic": "기업 정치이슈 불매운동",
-        "insight": "SNS 기반 불매운동 확산으로 기업 정치적 입장 검증 압박 심화",
-        "desc": "한 유통업계 관계자는 “최근에는 마케팅과 프로모션에 정치적 의도가 담겼다는 오해를 받지 않도록 기획부터 집행까지 전 과정을 철저히 검수하고 있다”며 “논란을 우려해 과감하거나 공격적인 마케팅을 펼치기... ",
-        "link": "https://biz.chosun.com/topics/topics_social/2026/07/14/F26YTHR77VENTEGEWGZAEYHY3Y/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "pub_date": "2026.07.14",
-        "reason": "기업 논란 불매 운동 확산 모니터링",
+        "title": "참이슬 아이유 이어 처음처럼 이수지까지…소주 모델 정치적 논란에 또...",
+        "topic": "소주 브랜드 정치논란",
+        "insight": "연이은 소주 광고 모델 정치적 발언으로 브랜드 이미지 위기 확산",
+        "desc": "소비자 일부가 불매 운동을 거론하는 등 후폭풍이 일었다. 개그맨 이수지는 자신의 유튜브 채널 '핫이슈지'에 공개한 최근 영상 하나로 논란의 중심에 섰다. 지난 14일 공개된 '공무원 김지영 씨의 철밥통 지키기' 편에는... ",
+        "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=436751",
+        "pub_date": "2026.07.16",
+        "reason": "소주 브랜드 모델 논란, 제휴 재검토 필요",
         "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 22.6,
-        "datalab_velocity": -15.5,
+        "cross_query_count": 1,
+        "datalab_score": 23.2,
+        "datalab_velocity": -26.9,
         "queries": [
-          "마케팅 논란",
           "불매운동"
         ]
       },
       {
-        "title": "하나카드도 멤버십 혜택 중단…카드사, 홈플러스 지우기",
-        "topic": "홈플러스 논란 제휴사 이탈",
-        "insight": "홈플러스 정치논란으로 카드사 멤버십 혜택 중단, 제휴처 철수 가속화",
-        "desc": "14일 업계에 따르면 이달 초 하나카드는 쇼핑케어 멤버십 할인 혜택 서비스 목록에서 홈플러스를 제외했다. 이마트, 롯데마트, 홈플러스 가맹점 이용 고객을 대상으로 제공했던 5000원 대형마트 할인권을 이마트... ",
-        "link": "http://www.metroseoul.co.kr/article/20260714500385",
-        "pub_date": "2026.07.14",
-        "reason": "홈플러스 카드사 멤버십 혜택 중단, 제휴 정책 변화 감시",
+        "title": "걸레 만진 장갑으로 빙수 토핑 올려 논란...비판 여론에 고개 숙인 설빙",
+        "topic": "설빙 위생논란",
+        "insight": "카페 체인 위생 관리 미흡으로 소비자 신뢰 훼손",
+        "desc": "일부 소비자들은 불매운동까지 거론하며 위생 관리에 대한 우려를 나타냈다. 빙수 판매가 집중되는 여름 성수기에 불거진 논란인 만큼 브랜드 이미지에도 타격이 예상된다. 설빙은 22일 공식 홈페이지에 사과문을 올리고... ",
+        "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=437668",
+        "pub_date": "2026.07.22",
+        "reason": "설빙 위생 논란 확산, 제휴사 이미지 손상",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 27.5,
-        "datalab_velocity": -16.7,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "참이슬 아이유 이어 처음처럼 이수지까지…소주 모델 정치적 논란에 또...",
-        "topic": "소주업계 모델 정치논란",
-        "insight": "소주 광고모델의 정치적 논쟁 반복으로 브랜드 리스크 노출",
-        "desc": "소비자 일부가 불매 운동을 거론하는 등 후폭풍이 일었다. 개그맨 이수지는 자신의 유튜브 채널 '핫이슈지'에 공개한 최근 영상 하나로 논란의 중심에 섰다. 지난 14일 공개된 '공무원 김지영 씨의 철밥통 지키기' 편에는... ",
-        "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=436751",
-        "pub_date": "2026.07.16",
-        "reason": "소주 브랜드 모델 정치 논란, 제휴사 신뢰 영향",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 22.6,
-        "datalab_velocity": -15.5,
+        "datalab_score": 23.2,
+        "datalab_velocity": -26.9,
         "queries": [
           "불매운동"
         ]
       },
       {
         "title": "'5·18 탱크데이' 논란 두 달…광주선 스타벅스 반감 여전",
-        "topic": "스타벅스 탱크데이 불매사태",
-        "insight": "5·18 탱크데이 논란 이후 광주지역 스타벅스 불매운동 지속",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "정치적 논란 이후 지역 소비심리 악화로 매출 부진 지속",
         "desc": "사람을 어떻게 때렸는지, 망월묘지에 한 번만 다녀와 봐도 그런 말은 절대 못 합니다.&quot; 스타벅스의 '5·18 탱크데이' 마케팅 논란이 불거진 지 약 두 달. 이 기간 신세계그룹이 공식 사과문 발표와 함께 고개를 숙이는 등... ",
         "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1716929",
         "pub_date": "2026.07.20",
-        "reason": "제휴사 스타벅스 불매 지속, 이미지 손상 심각",
+        "reason": "스타벅스 탱크데이 파급, T멤버십 제휴 재검토 긴급",
         "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란"
-        ]
-      },
-      {
-        "title": "마케팅에 데인 스타벅스, e-프리퀀시 행사 안한다…“내부정비 우선”",
-        "topic": "스타벅스 탱크데이 불매사태",
-        "insight": "5·18 탱크데이 논란 이후 광주지역 스타벅스 불매운동 지속",
-        "desc": "지난 5월 ‘탱크 데이’ 등 논란 이후 적극적인 마케팅보다는 내부 정리에 집중하는 모습으로 풀이된다. 14일 식음료업계에 따르면 스타벅스 코리아는 지난 13일 사내 내부망을 통해 당초 지난달 2일부터 이달 26일까지... ",
-        "link": "https://www.mk.co.kr/article/12098147",
-        "pub_date": "2026.07.14",
-        "reason": "제휴사 스타벅스 이벤트 중단, 제휴 가치 하락",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란"
-        ]
-      },
-      {
-        "title": "[기획] 티빙 1953만 유출, 제휴 채널까지 번졌다…개인정보는 왜 자꾸 새...",
-        "topic": "티빙 개인정보 유출사건",
-        "insight": "티빙 1953만 건 개인정보 유출로 제휴채널까지 보안 위험 확산",
-        "desc": "이 격차는 탈퇴‧휴면 회원, 통신사 결합상품‧타사 제휴 계정까지 포함됐기 때문으로 추정된다. 탈퇴... 책임과 브랜드 이미지 실추는 투자자들의 주주대표소송으로 이어져 경영진의 직접적인 퇴임 압박으로 작용할 것... ",
-        "link": "http://www.rightknow.co.kr/news/articleView.html?idxno=34444",
-        "pub_date": "2026.07.20",
-        "reason": "티빙 개인정보 유출 논란 확산, 제휴 신뢰도 영향",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "브랜드 제휴"
-        ]
-      },
-      {
-        "title": "증시 ‘혼쭐’이 부른 소비자 ‘돈쭐’… 상폐 기로 선 ‘장수기업’",
-        "topic": "기업 불매운동 주가연동",
-        "insight": "정치논란 기업의 주가 하락이 소비자 불매운동 촉발, 상폐 위기 직면",
-        "desc": "별도의 할인 행사나 판촉이 없었던 만큼 한성기업을 살리자는 응원 구매가 매출을 끌어올린 것으로 보인다. 한성기업은 1963년 설립된 수산물 가공식품 제조업체로, 맛살 제품 '크래미'가 오랜 기간 소비자들의 사랑을... ",
-        "link": "https://www.dt.co.kr/article/12073449?ref=naver",
-        "pub_date": "2026.07.19",
-        "reason": "기업 논란 소비자 불매 트렌드 주목",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 22.6,
-        "datalab_velocity": -15.5,
-        "queries": [
-          "소비자 할인",
-          "불매운동"
-        ]
-      },
-      {
-        "title": "태극기만 왜 이렇게? UAE 쉐이크쉑, 월드컵 굿즈 논란",
-        "topic": "쉐이크쉑 태극기 논란",
-        "insight": "UAE 쉐이크쉑 월드컵 굿즈의 태극기 문양 오류로 브랜드 신뢰도 하락",
-        "desc": "존중하는 태도부터 확립해야 할 것&quot;이라고 덧붙였다. 한편 이번 논란은 월드컵 관련 글로벌 마케팅이 각국의 국가 상징을 활용하는 과정에서 정확한 검증과 문화적 존중이 필요하다는 점을 다시 드러낸 사례가 됐다.",
-        "link": "http://www.joseilbo.com/news/news_read.php?uid=571860&class=33&grp=",
-        "pub_date": "2026.07.14",
-        "reason": "제휴사 쉐이크쉑 태극기 논란, 브랜드 이미지 위험",
-        "priority": 2,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란"
-        ]
-      },
-      {
-        "title": "&quot;태극 문양 틀리고 건곤감리도 없어&quot;…UAE 쉐이크쉑, 월드컵 굿즈 논란",
-        "topic": "쉐이크쉑 태극기 논란",
-        "insight": "UAE 쉐이크쉑 월드컵 굿즈의 태극기 문양 오류로 브랜드 신뢰도 하락",
-        "desc": "제공해 논란이 일고 있다. 14일 서경덕 성신여대 교수는 아랍에미리트(UAE) 아부다비에 거주하는 한인에게... 세계 각국의 관심이 집중되는 월드컵 마케팅에 활용하면서 기본적인 검수조차 제대로 하지 않았다는 점에서... ",
-        "link": "https://www.sidae.com/article/2026071409542337709",
-        "pub_date": "2026.07.14",
-        "reason": "제휴사 쉐이크쉑 태극기 논란, 브랜드 이미지 위험",
-        "priority": 2,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "마케팅 논란"
-        ]
-      },
-      {
-        "title": "“건곤감리 어디 갔어”…‘쉐이크쉑’ 엉터리 태극기 그려진 굿즈 논란",
-        "topic": "쉐이크쉑 태극기 논란",
-        "insight": "UAE 쉐이크쉑 월드컵 굿즈의 태극기 문양 오류로 브랜드 신뢰도 하락",
-        "desc": "한편 쉐이크쉑 CEO는 5월 월드컵을 앞두고 미국의 한 경제매체를 통해 “미국과 캐나다, 멕시코가 공동 주최하는 2026 북중미 월드컵을 겨냥한 마케팅을 강화할 계획”이라고 밝힌 바 있다.",
-        "link": "https://www.nongmin.com/article/20260714500083",
-        "pub_date": "2026.07.14",
-        "reason": "제휴사 쉐이크쉑 태극기 논란, 브랜드 이미지 위험",
-        "priority": 2,
         "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
@@ -397,13 +194,143 @@
     ],
     "battle": [
       {
-        "title": "배민 품은 우버 … 한국 플랫폼 경쟁 새 국면",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "뉴데일리 김서연 기자 = 세계 최대 모빌리티 플랫폼 우버가 배달의민족을 품으면서 국내 플랫폼 시장의 경쟁 구도가 새 국면에 들어섰다. 모빌리티와 배달을 결합한 우버가 쿠팡과 이용자·멤버십 경쟁까지... ",
-        "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/17/2026071700022.html",
-        "pub_date": "2026.07.17",
-        "reason": "배민 우버 통합, 배달 플랫폼 경쟁 구도 급변",
+        "title": "이통 3사 'AI 구독' 경쟁 활활…요금제·결제 혜택 확대",
+        "topic": "통신사 AI 구독 경쟁",
+        "insight": "통신 3사가 AI 서비스 구독 요금제와 결제 혜택 확대로 경쟁 심화",
+        "desc": "결합 혜택을 설계하는 것도 가능하다. AI 사업자 입장에서도 통신사와의 협력은 국내 이용자를 빠르게 늘릴 수 있는 유통 수단이다. 통신사가 보유한 가입자 기반과 요금 청구 체계, 멤버십과 결제 인프라를... ",
+        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=685652",
+        "pub_date": "2026.07.22",
+        "reason": "통신사 AI 구독팩 경쟁 심화, 요금제·혜택 확대",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 62.2,
+        "datalab_velocity": 16.4,
+        "queries": [
+          "멤버십 혜택",
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "배민 품은 우버, 한국 플랫폼 판도 바뀌나···배달 넘어 '슈퍼앱' 경쟁...",
+        "topic": "배달앱 슈퍼앱 경쟁",
+        "insight": "우버가 배민 인수로 배달 플랫폼 판도 변화, 슈퍼앱 경쟁 본격화",
+        "desc": "국내 배달 시장이 성장 경쟁보다 점유율 경쟁 단계에 들어선 만큼 쿠팡이츠와의 마케팅 경쟁도 한층 치열해질 것이라는 전망이 나온다. B마트를 중심으로 한 퀵커머스 사업 역시 수혜가 예상된다. 배민이 구축한 도심... ",
+        "link": "https://www.smartbizn.com/news/articleView.html?idxno=149107",
+        "pub_date": "2026.07.22",
+        "reason": "배민 우버 통합, 슈퍼앱 경쟁 구도 변화",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "이통 3사, 세계 1위 AI 글래스 '레이밴 메타' 동시 출격…혜택 경쟁 불붙...",
+        "topic": "통신사 AI 글래스 경쟁",
+        "insight": "통신 3사가 레이밴 메타 AI 글래스 동시 출격, 요금제 연계 혜택 경쟁",
+        "desc": "KT는 다이렉트샵 구매 고객에게 KT 멤버십 10% 할인 혜택을 즉시 제공한다. '요고69 요금제 디바이스 B형' 선택 시 24개월 할부 기준 월 1만6000원대에 이용할 수 있다. 오는 8월 3일부터는 전국 일반 대리점으로 유통망을... ",
+        "link": "https://economist.co.kr/article/view/ecn202607220022",
+        "pub_date": "2026.07.22",
+        "reason": "통신사 3사 AI 글래스 동시 출격, 혜택 경쟁",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 14.7,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "이통3사, AI 안경 ‘레이밴 메타’ 판매 시작…요금제 연계 혜택은?",
+        "topic": "통신사 AI 글래스 경쟁",
+        "insight": "통신 3사가 레이밴 메타 AI 글래스 동시 출격, 요금제 연계 혜택 경쟁",
+        "desc": "KT다이렉트샵에서 구매할 수 있고, 멤버십 고객은 10% 할인 혜택을 받을 수 있다. 디바이스(기기) 전용 요금제와 '초이스 더블 디바이스'를 통해 월 1만원대 또는 7000원대 수준으로 이용할 수 있다. LG유플러스는... ",
+        "link": "https://view.asiae.co.kr/article/2026072209431341775",
+        "pub_date": "2026.07.22",
+        "reason": "통신3사 AI 글래스 판매, 요금제 혜택 경쟁",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 14.7,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "이동통신 3사, 다양한 혜택 담고 세계 1위 AI 글래스 '레이밴 메타' 일제...",
+        "topic": "통신사 AI 글래스 경쟁",
+        "insight": "통신 3사가 레이밴 메타 AI 글래스 동시 출격, 요금제 연계 혜택 경쟁",
+        "desc": "KT 멤버십 고객에게는 10% 할인 혜택을 제공한다. 투명·그린·편광·변색 등 다양한 렌즈 옵션도 마련했다. KT 다이렉트샵에서 '요고69 요금제 디바이스 B형'을 선택하면 24개월 할부 기준 월 1만6000원대에 이용할 수... ",
+        "link": "https://www.starnewskorea.com/business-life/2026/07/22/2026072213143264284",
+        "pub_date": "2026.07.22",
+        "reason": "통신3사 AI 글래스 일제 출시, 혜택 경쟁",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 14.7,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "이통3사, '레이밴 메타' 동시 출격...요금 할인 혜택 경쟁",
+        "topic": "통신사 AI 글래스 경쟁",
+        "insight": "통신 3사가 레이밴 메타 AI 글래스 동시 출격, 요금제 연계 혜택 경쟁",
+        "desc": "KT 멤버십 고객에게 10% 할인 혜택을 제공하며 KT 다이렉트샵에서 '요고69 요금제 디바이스 B형' 선택 시 24개월 할부 기준 월 1만6000원대에 이용 가능하다. 다음달 3년부터는 전국 일반 대리점으로 판매를 확대하며... ",
+        "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=362426",
+        "pub_date": "2026.07.22",
+        "reason": "통신사 레이밴 메타 요금 할인 경쟁",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 14.7,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "통신 3사, '레이밴 메타 AI 글라스' 출시…할인·요금제 혜택으로 고객...",
+        "topic": "통신사 AI 글래스 경쟁",
+        "insight": "통신 3사가 레이밴 메타 AI 글래스 동시 출격, 요금제 연계 혜택 경쟁",
+        "desc": "KT는 공식 온라인샵 KT 다이렉트샵에서 KT 멤버십 고객에게 10% 할인 혜택을 제공한다. '요고69 요금제 디바이스 B형' 선택 시 24개월 할부 기준 월 1만 6000원대에 구매할 수 있다. KT는 8월 3일부터 전국 일반... ",
+        "link": "https://www.news1.kr/it-science/cc-newmedia/6234876",
+        "pub_date": "2026.07.22",
+        "reason": "통신3사 AI 글래스 할인·요금제 혜택 경쟁",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 14.7,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "통신3사, 'AI 안경' 동시 출시···혜택 경쟁 '후끈'",
+        "topic": "통신사 AI 글래스 경쟁",
+        "insight": "통신 3사가 레이밴 메타 AI 글래스 동시 출격, 요금제 연계 혜택 경쟁",
+        "desc": "연계 혜택 경쟁에 나섰다. 스마트폰과 스마트워치에 이어 AI 기능을 탑재한 안경을 통신 유통망에서... KT는 KT다이렉트샵에서 먼저 판매하고 멤버십 고객에게 10% 할인을 제공한다. '요고69 요금제 디바이스 B형'을... ",
+        "link": "https://www.smartbizn.com/news/articleView.html?idxno=149075",
+        "pub_date": "2026.07.22",
+        "reason": "통신3사 AI 안경 동시 출시, 혜택 경쟁",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 14.7,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "쿠팡 흔들리자 네이버 질주… 커머스 경쟁력 강화",
+        "topic": "커머스 플랫폼 경쟁",
+        "insight": "쿠팡 약세 속 네이버가 커머스 경쟁력 강화로 플랫폼 판도 변화",
+        "desc": "네이버가 배송 서비스에 특히 공을 들이는 이유는 쿠팡의 강점으로 꼽히는 로켓배송과 무료반품 등 물류 경쟁력을 따라잡기 위해서다. 네이버는 그동안 판매자와 물류업체를 연결하는 플랫폼형 물류 전략을 고수해... ",
+        "link": "https://biz.chosun.com/distribution/channel/2026/07/21/XZU32V363FEKHDX4PK24DBRAK4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "pub_date": "2026.07.21",
+        "reason": "네이버 커머스 공격·쿠팡 위협",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -413,141 +340,13 @@
         ]
       },
       {
-        "title": "배민까지 美 플랫폼 품으로…한국 배달시장 우버·쿠팡 '양분'",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "다른 배달 플랫폼 같은 경우는 최악의 경우에는 아예 그냥 시장에서 퇴출될 가능성도.&quot; 우버는 각국의 규제 심사를 거쳐, 내년 하반기까지 딜리버리히어로 인수를 마칠 계획입니다. TV조선 장동욱입니다.",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/17/2026071790202.html",
-        "pub_date": "2026.07.17",
-        "reason": "배달 시장 우버·쿠팡 독점화 위협",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장"
-        ]
-      },
-      {
-        "title": "배달의민족 母회사, 우버가 인수한다",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "현재 국내 배달앱 시장은 배달의민족과 쿠팡이츠가 점유율 90% 가까이를 차지하는 양강 체제다. 업계에서는 자금력을 갖춘 우버가 배달의민족을 인수하면 국내 시장 지배력 확대를 위해 공격적인 마케팅에 나설... ",
-        "link": "https://www.chosun.com/economy/tech_it/2026/07/16/2CUKCJG3TZAILEYWDCNKDOS7IU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "pub_date": "2026.07.16",
-        "reason": "배민 인수로 국내 배달시장 경쟁 구도 급변",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장"
-        ]
-      },
-      {
-        "title": "우버, 배민 모회사 22조원에 인수…한국 배달시장 본격 진입",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "배달의민족 라이더의 모습 (사진=연합뉴스) 차량호출 넘어 배달까지…우버, 한국 배달시장 본격 진입 우버는 배달의민족 인수와 관련해 “배달의민족과 새로운 여정을 함께할 수 있는 기회를 뜻깊게 생각한다”며... ",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04621526645515176",
-        "pub_date": "2026.07.16",
-        "reason": "우버의 22조 인수로 배달시장 주요 변수 출현",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장"
-        ]
-      },
-      {
-        "title": "배민 주인 바뀐다…우버, DH 22兆에 인수",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "우버이츠를 통해 뛰어든 배달앱 시장에서는 2019년 철수했다. 당장 우버가 한국 시장에서 운영 중인 구독형 멤버십 서비스 ‘우버 원’을 배달의민족의 ‘배민클럽’과 결합해 확대할 가능성이 있다. 기존 모빌리티... ",
-        "link": "https://www.hankyung.com/article/2026071601531",
-        "pub_date": "2026.07.16",
-        "reason": "배민 인수 임박으로 배달시장 구도 재편",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장"
-        ]
-      },
-      {
-        "title": "배달의민족 母회사 우버가 인수한다",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "현재 국내 배달앱 시장은 배달의민족과 쿠팡이츠가 점유율 90% 가까이 차지한다. 업계에서는 자금력을 갖춘 우버가 배달의민족을 인수하면 국내 시장 지배력 확대를 위해 공격적인 마케팅에 나설 것으로 예상한다.... ",
-        "link": "https://www.chosun.com/economy/tech_it/2026/07/17/JYWMOGUNZNDRXGQWKJVU67RTEU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "pub_date": "2026.07.17",
-        "reason": "우버의 배민 인수로 경쟁사 영향력 확대",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장"
-        ]
-      },
-      {
-        "title": "배달의민족, 우버가 품었다…獨모회사 21조원에 인수",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "우버는 이번 인수로 전 세계 99개 시장에서 모빌리티와 배달 사업을 운영하게 된다. 이미 우버는 ‘우버이츠’라는 이름으로 배달 사업에 힘을 싣고 있다. 우버와 딜리버리히어로 간 사업이 겹쳐 경쟁당국 심사가... ",
-        "link": "https://www.mk.co.kr/article/12100844",
-        "pub_date": "2026.07.17",
-        "reason": "배민 인수로 배달앱 시장 경쟁 격화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장"
-        ]
-      },
-      {
-        "title": "우버, 22조에 배민 모회사 DH 인수…판 커진 배민 '배달전쟁'",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "개별 배달 서비스의 경쟁력을 넘어 커머스와 구독 서비스를 함께 보유한 플랫폼의 고객 기반이 배달 시장에도 영향을 미치는 구조다. 우버의 DH 인수는 배민에도 새로운 선택지를 열어준다. 우버는 여러 국가에서 차량... ",
-        "link": "https://www.itdaily.kr/news/articleView.html?idxno=240465",
-        "pub_date": "2026.07.19",
-        "reason": "우버의 배민 인수로 배달전쟁 격화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장"
-        ]
-      },
-      {
-        "title": "배달의민족, 우버 품으로 갔다",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "우버는 이번 인수로 전 세계 99개 시장에서 모빌리티와 배달 사업을 운영하게 된다. 이미 우버는 '우버이츠'라는 이름으로 배달 사업에 힘을 싣고 있다. 우버와 딜리버리히어로 간 사업이 겹쳐 경쟁당국 심사가... ",
-        "link": "https://www.mk.co.kr/article/12100558",
-        "pub_date": "2026.07.16",
-        "reason": "배민 인수 완료로 시장 변화 확정",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "배달 시장"
-        ]
-      },
-      {
-        "title": "'배달의 민족' 독일 모회사, 우버에 팔린다",
-        "topic": "우버 배민 모회사 인수",
-        "insight": "우버가 배달의민족 모회사 딜리버리히어로를 약 22조원에 인수하며 한국 배달시장 재편",
-        "desc": "이번 인수합병은 음식배달 시장의 통합 추세를 보여주는 또 다른 사례로, 앞서 지난해 도어대시가 영국 기반의 딜리버루를 29억파운드에 인수했고, 프로수스는 '저스트 이트 테이크어웨이'를 41억유로에 인수했습니다.... ",
-        "link": "https://biz.sbs.co.kr/article_hub/20000322948?division=NAVER",
-        "pub_date": "2026.07.16",
-        "reason": "배민 모회사 매각으로 경쟁 구도 급변",
+        "title": "배민·우버 ‘연합군’ 등판…쿠팡이츠와 ‘배달전쟁 시즌2’ 시작되나...",
+        "topic": "배달앱 슈퍼앱 경쟁",
+        "insight": "배민·우버 연합이 쿠팡이츠와 경쟁, 배달 플랫폼 2차 전쟁 예상",
+        "desc": "국내 음식 배달 시장 1위 자리를 둘러싼 경쟁이 새 국면을 맞는다. 배달의 민족(운영사 우아한형제들·이하 배민)과 쿠팡이츠가 치열하게 경쟁하는 판에 글로벌 강자 우버가 배민의 손을 잡고 등장하면서다. 2017년... ",
+        "link": "https://www.joongang.co.kr/article/25446644",
+        "pub_date": "2026.07.21",
+        "reason": "우버배민 연합 vs 쿠팡 배달전쟁 본격화",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -559,173 +358,54 @@
     ],
     "benchmark": [
       {
-        "title": "파리바게뜨, KT 멤버십 고객 대상 최대 50% 할인 프로모션 운영",
-        "topic": "파리바게뜨 KT멤버십 협력",
-        "insight": "KT 멤버십과 파리바게뜨가 최대 50% 할인 프로모션으로 고객 혜택 강화",
-        "desc": "혜택은 KT 멤버십 애플리케이션 또는 홈페이지 내 '고객 보답 프로그램'에서 쿠폰을 내려받아 매장 결제 시 제시하면 적용된다. 쿠폰은 행사 기간 중 1인 1회 사용할 수 있으며, 다른 할인과 중복 적용은 불가능하다.... ",
-        "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5042102",
-        "pub_date": "2026.07.20",
-        "reason": "KT 멤버십 제휴사 프로모션 벤치마크",
+        "title": "프리미엄 외식 '통합 멤버십'으로 간편하게…한화푸드테크, 연회비형 서...",
+        "topic": "프리미엄 외식 멤버십 통합",
+        "insight": "한화푸드테크가 연회비형 통합 멤버십으로 프리미엄 외식 채널 통합 제공",
+        "desc": "사진=한화푸드테크 외식업계가 충성 고객 확보를 위해 브랜드별 혜택을 하나로 묶은 통합 멤버십을 확대하고 있다. 단순 할인에서 벗어나 프리미엄 다이닝 브랜드를 연계한 구독·멤버십 서비스가 새로운 고객 관리... ",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204246",
+        "pub_date": "2026.07.21",
+        "reason": "프리미엄 외식 통합 멤버십 구조 벤치마킹",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 27.5,
-        "datalab_velocity": -16.7,
+        "datalab_score": 62.2,
+        "datalab_velocity": 16.4,
         "queries": [
           "멤버십 혜택",
-          "소비자 할인"
+          "구독 서비스"
         ]
       },
       {
-        "title": "[카드 PICK] 휴가철 맞은 카드업계… 여행 트렌드 분석·시즌 프로모션...",
-        "topic": "카드사 여름시즌 프로모션",
-        "insight": "카드업계, 여름 휴가철 수요 공략 위해 시즌별 트렌드 기반 프로모션 확대",
-        "desc": "하나카드가 여름 방학과 휴가 시즌을 맞아 '2026 쿨 썸머 페스티벌'을 진행한다. 프로모션은 생활 소비 할인과 워터파크 이용 혜택, 해외 결제 리워드 등을 중심으로 구성됐다. 이와 함께 온라인 쇼핑과 카페 등 일상... ",
-        "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=205136",
-        "pub_date": "2026.07.20",
-        "reason": "카드사 시즌 프로모션 전략 분석",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 14.7,
-        "datalab_velocity": -3.5,
-        "queries": [
-          "여름 휴가 시즌",
-          "휴가철 프로모션"
-        ]
-      },
-      {
-        "title": "우리카드, 일상 필수 지출 할인 혜택 강화한 '카드의정석2 데일리' 출시",
-        "topic": "카드사 일상소비 할인강화",
-        "insight": "우리카드, 일상 필수 지출 영역 할인 혜택을 강화한 신상품 출시",
-        "desc": "‘카드의정석2 데일리’는 복잡한 조건 없이 국내외 가맹점에서 혜택을 제공하는 ‘기본 할인’에 생활비 지출이 많은 고정소비 영역과 정기결제(OTT, 멤버십) 맞춤형 할인 혜택을 결합했다. 먼저 이 카드는 전월... ",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02112326645516488",
-        "pub_date": "2026.07.20",
-        "reason": "카드사 일상 할인 혜택 구조 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 27.5,
-        "datalab_velocity": -16.7,
-        "queries": [
-          "멤버십 혜택",
-          "소비자 할인"
-        ]
-      },
-      {
-        "title": "“냉감이불 사고 한우도 반값에”…주말 유통가 여름 할인 쏟아진다",
-        "topic": "유통가 여름 할인경쟁",
-        "insight": "주요 유통사, 여름철 의류·식품 등 생필품 대폭 할인으로 고객 수요 흡수",
-        "desc": "업계 관계자는 “휴가를 앞두고 여행용품과 냉감 상품을 찾는 수요가 늘어나는 동시에 집에서 보양식이나 바비큐를 즐기려는 소비자도 증가하고 있다”며 “주말을 중심으로 패션과 먹거리 할인 행사가 집중될 것”... ",
-        "link": "https://www.segye.com/newsView/20260718504256?OutUrl=naver",
-        "pub_date": "2026.07.18",
-        "reason": "여름 시즌 유통가 할인 프로모션 참고",
+        "title": "시놀X더위크앤리조트, 5060 여행 멤버십...코퀴즈, 벤하트 제휴",
+        "topic": "5060세대 여행 멤버십",
+        "insight": "중장년층 특화 여행 멤버십 확대로 고령층 구독 시장 공략 가속화",
+        "desc": "양사는 5060 웰니스 여행 상품 공동 기획, 회원 전용 예약 혜택, 리조트 공간을 활용한 시니어 콘텐츠... 단계별 혜택을 제공하는 이벤트를 진행한다. 코퀴즈 전용 링크로 벤하트플러스 제휴몰에 가입하고 인증하면 코넛... ",
+        "link": "https://www.slist.kr/news/articleView.html?idxno=753095",
+        "pub_date": "2026.07.21",
+        "reason": "여행·멤버십 제휴 사례 참고",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 14.7,
-        "datalab_velocity": -3.5,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택",
+          "브랜드 제휴"
+        ]
+      },
+      {
+        "title": "[경제소식] 교보생명, 통합앱 건강검진 예약 도입…전국 검진센터 할인",
+        "topic": "통합앱 건강검진 서비스",
+        "insight": "교보생명이 통합앱에 건강검진 예약·할인 기능 추가하며 헬스케어 통합 강화",
+        "desc": "서비스와 소비자보호 체계 고도화를 통해 금융소비자 권익 보호를 강화한다는 방침이다. KB국민은행은... 최고 연 4.5% 금리를 제공하는 적금 상품과 함께 전기차 카셰어링 할인, 외식 쿠폰 등 다양한 혜택을 마련해 금융과... ",
+        "link": "http://www.4th.kr/news/articleView.html?idxno=2115005",
+        "pub_date": "2026.07.21",
+        "reason": "통합앱 헬스케어 할인 혜택 사례",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
           "소비자 할인",
-          "여름 휴가 시즌"
-        ]
-      },
-      {
-        "title": "하나카드·신한은행, 여름철 고객 프로모션 확대",
-        "topic": "카드사 여름시즌 프로모션",
-        "insight": "카드업계, 여름 휴가철 수요 공략 위해 시즌별 트렌드 기반 프로모션 확대",
-        "desc": "하나카드는 여름 방학과 휴가 시즌을 맞아 '2026 Cool Summer Festival'을 진행한다고 밝혔다. 매월 20일부터 월말까지 쇼핑·외식 등 생활 밀착형 혜택을 제공하는 'Last 10 Days' 프로모션을 새로 선보이며, 컬리와 GS25, LG전자... ",
-        "link": "https://www.pressman.kr/news/articleView.html?idxno=102799",
-        "pub_date": "2026.07.20",
-        "reason": "카드사 여름철 프로모션 경쟁 사례",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 14.7,
-        "datalab_velocity": -3.5,
-        "queries": [
-          "여름 휴가 시즌",
-          "휴가철 프로모션"
-        ]
-      },
-      {
-        "title": "하나카드, 여름 휴가철 맞이 ‘2026 쿨 서머 페스티벌’ 진행",
-        "topic": "카드사 여름시즌 프로모션",
-        "insight": "카드업계, 여름 휴가철 수요 공략 위해 시즌별 트렌드 기반 프로모션 확대",
-        "desc": "하나카드가 본격적인 여름 휴가철을 맞아 여행과 쇼핑, 외식 혜택을 한데 모은 프로모션을 선보이며 고객... 최근 카드업계는 소비 회복세와 휴가철 성수기에 맞춰 여행과 쇼핑, 외식 혜택을 결합한 시즌성 마케팅을... ",
-        "link": "https://www.viva100.com/article/20260720500477",
-        "pub_date": "2026.07.20",
-        "reason": "카드사 여름 휴가 시즌 기획 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 14.7,
-        "datalab_velocity": -3.5,
-        "queries": [
-          "여름 휴가 시즌",
-          "휴가철 프로모션"
-        ]
-      },
-      {
-        "title": "&quot;휴가철 '지갑 잡기' 나섰다&quot;... 하나카드, 생활·여행 혜택 확대",
-        "topic": "카드사 여름시즌 프로모션",
-        "insight": "카드업계, 여름 휴가철 수요 공략 위해 시즌별 트렌드 기반 프로모션 확대",
-        "desc": "사진=하나카드 여름 휴가철을 맞아 카드업계가 여행과 쇼핑, 외식 등 계절성 소비를 겨냥한 마케팅 경쟁에... 하나카드는 여름 시즌 프로모션 '2026 쿨 서머 페스티벌(Cool Summer Festival)'을 진행한다고 20일 밝혔다. 일상... ",
-        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204118",
-        "pub_date": "2026.07.20",
-        "reason": "카드 여행·휴가 시즈널 마케팅 벤치마크",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 14.7,
-        "datalab_velocity": -3.5,
-        "queries": [
-          "여름 휴가 시즌",
-          "휴가철 프로모션"
-        ]
-      },
-      {
-        "title": "놀유니버스 NOL, 여름 휴가철 공략... '놀데이'로 여행·여가 수요 잡는...",
-        "topic": "놀유니버스 여름휴가마케팅",
-        "insight": "놀유니버스, '놀데이' 통해 여름 휴가·여가 수요층 공략 강화",
-        "desc": "조미선 놀유니버스 마케팅그룹장은 &quot;여름 휴가철 수요에 맞춰 국내외 여행과 여가 콘텐츠를 폭넓게 준비했다&quot;며 &quot;앞으로도 시즌과 고객 취향을 반영한 다양한 서비스를 통해 고객 경험을 확대해 나가겠다&quot;고 말했다.",
-        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204109",
-        "pub_date": "2026.07.20",
-        "reason": "여행·여가 플랫폼 시즌 프로모션 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 14.7,
-        "datalab_velocity": -3.5,
-        "queries": [
-          "여름 휴가 시즌",
-          "휴가철 프로모션"
-        ]
-      },
-      {
-        "title": "메가MGC커피, '여름휴가 주문하세요'→이디야커피, '이직로그' 협업 프로...",
-        "topic": "편의점·카페 여름프로모션",
-        "insight": "커피·편의점 브랜드, 여름휴가 시즌 협업 및 이벤트로 고객 유입 경쟁",
-        "desc": "메가오더에서 여름 시즌 메뉴 1개 이상과 '여름휴가'를 함께 주문하면 자동 응모된다. 단 '여름휴가' 또는 이벤트 대상 메뉴만 단독 주문할 경우 응모가 되지 않으며 반드시 메가오더에서 '여름휴가'와 이벤트 대상... ",
-        "link": "https://www.slist.kr/news/articleView.html?idxno=752753",
-        "pub_date": "2026.07.20",
-        "reason": "카페·음료 시즈널 협업 마케팅 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 14.7,
-        "datalab_velocity": -3.5,
-        "queries": [
-          "여름 휴가 시즌",
-          "휴가철 프로모션"
-        ]
-      },
-      {
-        "title": "KB국민은행, 여름 휴가철 환전 경품 이벤트",
-        "topic": "은행 여름휴가 이벤트",
-        "insight": "KB국민은행, 여름 휴가철 환전 경품 이벤트로 고객 수요 대응",
-        "desc": "KB국민은행이 여름 휴가 시즌을 맞아 해외여행을 준비하는 고객들을 위한 환전 프로모션을 마련했다. 이번 행사는 7월 20일부터 8월 말까지 진행되며, KB스타뱅킹이나 인터넷뱅킹을 통해 베트남 동, 태국 바트, 대만 달러... ",
-        "link": "https://www.job-post.co.kr/news/articleView.html?idxno=221428",
-        "pub_date": "2026.07.16",
-        "reason": "은행 여름 시즈널 이벤트 사례",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 14.7,
-        "datalab_velocity": -3.5,
-        "queries": [
-          "여름 휴가 시즌",
-          "휴가철 프로모션"
+          "폭염 대비 이벤트"
         ]
       }
     ]
