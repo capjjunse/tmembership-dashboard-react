@@ -1,0 +1,234 @@
+- generic [active] [ref=f7e1]:
+  - link "본문 바로가기":
+    - /url: "#content"
+  - banner [ref=f7e2]:
+    - generic [ref=f7e4]:
+      - link [ref=f7e6] [cursor=pointer]:
+        - /url: https://news.lguplus.com
+      - navigation [ref=f7e26]:
+        - list [ref=f7e27]:
+          - listitem [ref=f7e28]:
+            - link "Simply. U+" [ref=f7e29] [cursor=pointer]:
+              - /url: https://news.lguplus.com/category/simply-uplus
+          - listitem [ref=f7e30]:
+            - link "기업뉴스" [ref=f7e31] [cursor=pointer]:
+              - /url: https://news.lguplus.com/category/%ea%b8%b0%ec%97%85%eb%89%b4%ec%8a%a4
+          - listitem [ref=f7e32]:
+            - link "U+인사이드" [ref=f7e33] [cursor=pointer]:
+              - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+          - listitem [ref=f7e34]:
+            - link "프레스센터" [ref=f7e35] [cursor=pointer]:
+              - /url: https://news.lguplus.com/category/%ed%94%84%eb%a0%88%ec%8a%a4%ec%84%bc%ed%84%b0
+      - generic [ref=f7e36]:
+        - link "검색창 열기" [expanded] [ref=f7e38] [cursor=pointer]:
+          - /url: "#"
+        - button "Toggle Menu" [ref=f7e42] [cursor=pointer]
+    - text: "# # # # #"
+  - generic [ref=f7e48]:
+    - generic [ref=f7e49]:
+      - heading "U+인사이드 > 멤버십/혜택" [level=1] [ref=f7e50]
+      - generic [ref=f7e51]: 총 171건의 글이 있습니다
+    - list [ref=f7e52]:
+      - listitem [ref=f7e53]:
+        - link [ref=f7e55] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/22285"
+          - img "U+ 장기고객을 위한 레고랜드 워터풀 파티 & U+119 메모리얼런" [ref=f7e56]
+        - generic [ref=f7e57]:
+          - link "U+ 장기고객을 위한 레고랜드 워터풀 파티 & U+119 메모리얼런" [ref=f7e58] [cursor=pointer]:
+            - /url: https://news.lguplus.com/22285
+          - generic [ref=f7e59]:
+            - 'link "[U+와 함께하는 레고랜드 워터풀 파티] 멤버십 VVIP 고객님과 10년 이상 장기고객을 위한 특별한 초대!올여름, 레고랜드® 코리아 리조트에서 펼쳐지는 시원한 물놀이와 EDM 파티를 함께 즐겨보세요! [안내사항] 📍이벤트 대상: 멤버십 VVIP & 10년 이상 장기고객📍응모 기간: 2026년 7월 3일(금) ~ 7월 24일(금) [22일간]📍참가 인원: 1,500명 (1인 2매)📍당첨자 발표: 2026년 7월 27일(월)당첨 여부는 문자메시지를 통해 개별적으로 안내 드릴" [ref=f7e60] [cursor=pointer]':
+              - /url: https://news.lguplus.com/22285
+            - generic [ref=f7e61]:
+              - link "U+인사이드" [ref=f7e63] [cursor=pointer]:
+                - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+              - text: "|2026.07.10"
+      - listitem [ref=f7e64]:
+        - link [ref=f7e66] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/22202"
+          - img "휴가부터 시원한 일상까지, 7월을 위한 유플투쁠 혜택" [ref=f7e67]
+        - generic [ref=f7e68]:
+          - link "휴가부터 시원한 일상까지, 7월을 위한 유플투쁠 혜택" [ref=f7e69] [cursor=pointer]:
+            - /url: https://news.lguplus.com/22202
+          - generic [ref=f7e70]:
+            - link "본격적인 여름이 시작되는 7월! ☀️ 무더운 날씨에 잠시나마 시원한 기분을 더해드릴 수 있도록,7월에도 다양한 유플투쁠 혜택을 준비했습니다. 공차, 컬리, 투썸플레이스는 물론,쇼핑부터 외식, 여름 나들이까지일상 곳곳에서 알차게 즐길 수 있는 혜택이 기다리고 있어요. 청량한 여름을 즐기기 위한 7월 유플투쁠 혜택,지금 함께 확인해 보세요! [더운 여름을 시원하게, 7월 식음료 혜택] ✅ 7/7(화)✔️ 공차 (선착순) 1만원 이상 구매" [ref=f7e71] [cursor=pointer]:
+              - /url: https://news.lguplus.com/22202
+            - generic [ref=f7e72]:
+              - link "U+인사이드" [ref=f7e74] [cursor=pointer]:
+                - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+              - text: "|2026.07.01"
+      - listitem [ref=f7e75]:
+        - link [ref=f7e77] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/21954"
+          - img "응원과 혜택을 한 번에, 6월을 위한 유플투쁠 혜택" [ref=f7e78]
+        - generic [ref=f7e79]:
+          - link "응원과 혜택을 한 번에, 6월을 위한 유플투쁠 혜택" [ref=f7e80] [cursor=pointer]:
+            - /url: https://news.lguplus.com/21954
+          - generic [ref=f7e81]:
+            - link "응원과 혜택에 대한 기대로 가득한 6월 6월 유플투쁠 주요 혜택으로 피자헛, CGV, 아웃백 등 준비했습니다.경기 응원을 더 재밌게 즐기실 수 있도록 치얼업 데이도 특별 편성했답니다.어떤 혜택이 있는지 더 자세히 알려 드릴게요. [응원 텐션 올리는 맛있는 식음료 혜택] ✅ 6/11(목)✔️ 파리바게뜨 (선착순) 6천원 할인 (2만 원 이상 구매 시)✔️ 카페 스와로브스키 (선착순) 스완라떼 1+1 ✅ 6/12(금)✔️" [ref=f7e82] [cursor=pointer]:
+              - /url: https://news.lguplus.com/21954
+            - generic [ref=f7e83]:
+              - generic [ref=f7e84]:
+                - link "U+인사이드" [ref=f7e85] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+                - text: ">"
+                - link "멤버십/혜택" [ref=f7e86] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d
+              - text: "|2026.06.02"
+      - listitem [ref=f7e87]:
+        - link [ref=f7e89] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/21804"
+          - img "일상부터 특별한 순간까지, 5월을 위한 유플투쁠 혜택" [ref=f7e90]
+        - generic [ref=f7e91]:
+          - link "일상부터 특별한 순간까지, 5월을 위한 유플투쁠 혜택" [ref=f7e92] [cursor=pointer]:
+            - /url: https://news.lguplus.com/21804
+          - generic [ref=f7e93]:
+            - link "외출할 일도, 챙길 사람도 많은 5월 5월 유플투쁠 주요 혜택으로는 공차, 배스킨라빈스, 이마트24, 컬리, 다이소 등이 있는데요.연휴도 많은 5월에는 그 어느 때보다 문화/여가 혜택도 가득해요!그럼 5월 유플투쁠 혜택 자세히 알아볼까요? [나들이 갈 때 활용할 수 있는 식음료 혜택] ✅ 5/12(화)✔️ 공차 (선착순) 30% 할인 (1만원 이상 구매시/최대 5천원 할인) ✅ 5/14(목)✔️ 배달의민족X이삭토스트 (선착순) 5천원 할인(1.5만원" [ref=f7e94] [cursor=pointer]:
+              - /url: https://news.lguplus.com/21804
+            - generic [ref=f7e95]:
+              - generic [ref=f7e96]:
+                - link "U+인사이드" [ref=f7e97] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+                - text: ">"
+                - link "멤버십/혜택" [ref=f7e98] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d
+              - text: "|2026.05.07"
+      - listitem [ref=f7e99]:
+        - link [ref=f7e101] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/21753"
+          - img "5월, 진심을 전할 가장 심플한 타이밍" [ref=f7e102]
+        - generic [ref=f7e103]:
+          - link "5월, 진심을 전할 가장 심플한 타이밍" [ref=f7e104] [cursor=pointer]:
+            - /url: https://news.lguplus.com/21753
+          - generic [ref=f7e105]:
+            - link "[소중한 사람에게 마음을 전하는 심플한 방법] 가정의 달을 맞아 자사/타사 고객님 누구나 U+ 매장 방문만 해도 가족들과 함께 즐길 수 있는 특별한 혜택을 드립니다. 5월, 가족분들과 함께 U+ 매장에서 준비한다양한 이벤트 참여하고 풍성한 경품 받아가세요! 「U+의 진심을 전하는 선물, U+체인지 페스타」 📍참여 대상2007년 12월 31일 이전 출생자라면자사/타사 고객 누구든 참여 가능! 📍참여 방법1. 가까운 LG유플러스" [ref=f7e106] [cursor=pointer]:
+              - /url: https://news.lguplus.com/21753
+            - generic [ref=f7e107]:
+              - generic [ref=f7e108]:
+                - link "U+인사이드" [ref=f7e109] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+                - text: ">"
+                - link "멤버십/혜택" [ref=f7e110] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d
+              - text: "|2026.04.30"
+      - listitem [ref=f7e111]:
+        - link [ref=f7e113] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/21612"
+          - img "유플투쁠 2주년, 모두를 위한 스페셜데이" [ref=f7e114]
+        - generic [ref=f7e115]:
+          - link "유플투쁠 2주년, 모두를 위한 스페셜데이" [ref=f7e116] [cursor=pointer]:
+            - /url: https://news.lguplus.com/21612
+          - generic [ref=f7e117]:
+            - 'link "유플투쁠이 벌써 2주년을 맞이했습니다. 2주년을 기념하고자 아주 특별한 선물을 준비했는데요.4월 22일에는 등급에 상관없이 누구나 받을 수 있는 혜택이 마련되어 있습니다.유플투쁠 2주년 스페셜데이 혜택, 지금 알려 드릴게요. *해당 서비스는 U+one에서 이용 가능합니다. 「누구나 즐기는 4월 스페셜데이 혜택」 ✅일상을 더 simple하게 해줄 혜택! ▶ 다이소: 2천 원 금액권(선착순) ✅여행 결심을 더 simple하게 해줄 혜택! ▶ 트래블버킷: 이스타항공/에어로케이" [ref=f7e118] [cursor=pointer]':
+              - /url: https://news.lguplus.com/21612
+            - generic [ref=f7e119]:
+              - generic [ref=f7e120]:
+                - link "U+인사이드" [ref=f7e121] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+                - text: ">"
+                - link "멤버십/혜택" [ref=f7e122] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d
+              - text: "|2026.04.15"
+      - listitem [ref=f7e123]:
+        - link [ref=f7e125] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/21553"
+          - img "봄맞이 설렘 가득한 4월을 위한 유플투쁠 혜택" [ref=f7e126]
+        - generic [ref=f7e127]:
+          - link "봄맞이 설렘 가득한 4월을 위한 유플투쁠 혜택" [ref=f7e128] [cursor=pointer]:
+            - /url: https://news.lguplus.com/21553
+          - generic [ref=f7e129]:
+            - link "2주년 기념! 차원이 다른 혜택으로 가득한 4월 4월 유플투쁠 주요 혜택으로는 파리바게뜨, 스타벅스, 다이소, 카카오웹툰, 트래블버킷, CGV 등이 있는데요. 유플투쁠 2주년을 맞아 4월 22일에는 등급에 상관없이 누구나 받을 수 있는 스페셜데이도 기다리고 있습니다. 그럼 4월 유플투쁠 혜택, 바로 알아볼까요? *해당 서비스는 U+one에서 이용 가능합니다. 「 입 안 가득한 설렘, 4월의 식음료 혜택 」 ✅ 4/7(화)✔️투썸플레이스:" [ref=f7e130] [cursor=pointer]:
+              - /url: https://news.lguplus.com/21553
+            - generic [ref=f7e131]:
+              - generic [ref=f7e132]:
+                - link "U+인사이드" [ref=f7e133] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+                - text: ">"
+                - link "멤버십/혜택" [ref=f7e134] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d
+              - text: "|2026.04.08"
+      - listitem [ref=f7e135]:
+        - link [ref=f7e137] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/21463"
+          - img "LG유플러스 공식 인스타그램 Simply 웰컴 가이드" [ref=f7e138]
+        - generic [ref=f7e139]:
+          - link "LG유플러스 공식 인스타그램 Simply 웰컴 가이드" [ref=f7e140] [cursor=pointer]:
+            - /url: https://news.lguplus.com/21463
+          - generic [ref=f7e141]:
+            - link "LG유플러스 공식 인스타그램에 찾아와주신 여러분, 반가워요.저는 Studio X+U ‘남극의 셰프’에 출연한 신인 남극 펭귄이에요! 🐧 지금부터 누구나 즐길 수 있는 LG유플러스 공식 인스타그램의 5가지 매력을 하나씩 소개해 드릴게요! 매주 하나씩 올라오는 이벤트! LG유플러스 공식 인스타그램에서는 누구나 함께할 수 있는 다양한 이벤트 콘텐츠를 꾸준히 만나보실 수 있어요! 이벤트 당 대략 1천 명 정도가 참여하고 있다는 사실!" [ref=f7e142] [cursor=pointer]:
+              - /url: https://news.lguplus.com/21463
+            - generic [ref=f7e143]:
+              - generic [ref=f7e144]:
+                - link "U+인사이드" [ref=f7e145] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+                - text: ">"
+                - link "멤버십/혜택" [ref=f7e146] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d
+              - text: "|2026.03.26"
+      - listitem [ref=f7e147]:
+        - link [ref=f7e149] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/21336"
+          - img "별이 빛나는 3월을 위한 유플투쁠 혜택" [ref=f7e150]
+        - generic [ref=f7e151]:
+          - link "별이 빛나는 3월을 위한 유플투쁠 혜택" [ref=f7e152] [cursor=pointer]:
+            - /url: https://news.lguplus.com/21336
+          - generic [ref=f7e153]:
+            - link "혜택의 은하가 펼쳐질, 별이 빛나는 3월 별이 빛나는 3월을 더욱 즐겁게 보내실 수 있도록 식음료, 문화/여가, 쇼핑 관련 다양한 혜택을 준비했습니다. 3월 유플투쁠 주요 혜택 리스트로는 스타벅스, 공차, 백미당, 배스킨라빈스, 파리바게뜨, 배달의 민족 등이 있습니다. 그렇다면 3월 유플투쁠 혜택, 바로 알아볼까요? *해당 서비스는 U+one에서 이용 가능합니다. 풍성한 식음료 혜택으로 채우는 3월 따뜻한 3월의 날씨를 즐기며," [ref=f7e154] [cursor=pointer]:
+              - /url: https://news.lguplus.com/21336
+            - generic [ref=f7e155]:
+              - generic [ref=f7e156]:
+                - link "U+인사이드" [ref=f7e157] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+                - text: ">"
+                - link "멤버십/혜택" [ref=f7e158] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d
+              - text: "|2026.03.10"
+      - listitem [ref=f7e159]:
+        - link [ref=f7e161] [cursor=pointer]:
+          - /url: " https://news.lguplus.com/21199"
+          - img "설 연휴를 가득 채워줄 2월 유플투쁠 혜택" [ref=f7e162]
+        - generic [ref=f7e163]:
+          - link "설 연휴를 가득 채워줄 2월 유플투쁠 혜택" [ref=f7e164] [cursor=pointer]:
+            - /url: https://news.lguplus.com/21199
+          - generic [ref=f7e165]:
+            - link "설레는 설 연휴, 혜택으로 가득한 2월 설 연휴와 함께 여러분의 2월이 더욱 풍성할 수 있도록 식음료, 문화/여가, 쇼핑 관련 다양한 혜택을 준비했습니다.2월 유플투쁠 주요 혜택 리스트로는 배달의민족, 파리바게뜨, 배스킨라빈스, 공차, 스타벅스, 투썸플레이스, 컴포즈커피가 있습니다. 그렇다면 2월 유플투쁠 혜택에 대해 자세히 알아볼까요? 풍성한 2월을 위한 식음료 혜택 설 연휴를 맞아 사랑하는 사람들과의 즐거운 시간이 많아지는 2월,맛있는" [ref=f7e166] [cursor=pointer]:
+              - /url: https://news.lguplus.com/21199
+            - generic [ref=f7e167]:
+              - generic [ref=f7e168]:
+                - link "U+인사이드" [ref=f7e169] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c
+                - text: ">"
+                - link "멤버십/혜택" [ref=f7e170] [cursor=pointer]:
+                  - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d
+              - text: "|2026.02.10"
+    - generic [ref=f7e172]:
+      - generic [ref=f7e173]: "1"
+      - link "2" [ref=f7e174] [cursor=pointer]:
+        - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d/?paged=2
+      - generic [ref=f7e175]: …
+      - link "18" [ref=f7e176] [cursor=pointer]:
+        - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d/?paged=18
+      - link [ref=f7e177] [cursor=pointer]:
+        - /url: https://news.lguplus.com/category/uplus-%ec%9d%b8%ec%82%ac%ec%9d%b4%eb%93%9c/%eb%a9%a4%eb%b2%84%ec%8b%ad-%ed%98%9c%ed%83%9d/?paged=2
+  - contentinfo [ref=f7e179]:
+    - generic [ref=f7e180]:
+      - generic [ref=f7e181]:
+        - generic [ref=f7e182]: Copyright © LG Uplus Corp. All Rights Reserved.
+        - generic [ref=f7e189]:
+          - link "뉴스룸 운영정책|" [ref=f7e190] [cursor=pointer]:
+            - /url: https://news.lguplus.com/%eb%89%b4%ec%8a%a4%eb%a3%b8-%ec%9a%b4%ec%98%81%ec%a0%95%ec%b1%85
+          - link "뉴스룸 콘텐츠 이용 안내" [ref=f7e191] [cursor=pointer]:
+            - /url: https://news.lguplus.com/%eb%89%b4%ec%8a%a4%eb%a3%b8-%ec%bd%98%ed%85%90%ec%b8%a0-%ec%9d%b4%ec%9a%a9-%ec%95%88%eb%82%b4
+      - generic [ref=f7e192]:
+        - link [ref=f7e193] [cursor=pointer]:
+          - /url: https://www.instagram.com/lguplus_/
+        - link [ref=f7e198] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/LGupluslte
+        - link [ref=f7e202] [cursor=pointer]:
+          - /url: https://www.facebook.com/LGUplus/
+        - link [ref=f7e205] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/lg-uplus/
+        - link [ref=f7e208] [cursor=pointer]:
+          - /url: https://x.com/LGUplus
+        - link [ref=f7e212] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@lguplus_

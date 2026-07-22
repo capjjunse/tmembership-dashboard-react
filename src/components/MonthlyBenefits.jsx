@@ -64,12 +64,12 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (7.22)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 3 (7.22)</span></div>
               <ul className="mblist">
-                <li><span className="upd">던킨 30%할인(VIP50%, 최대8천원)</span></li>
-                <li><span className="upd">쉐이크쉑 20%할인(VIP40%, 최대8천원)</span></li>
-                <li><span className="upd">CGV 8,500원예매+매점쿠폰2종</span></li>
-                <li><span className="upd">내셔널지오그래픽전시 40%할인(동반1인30%)</span></li>
+                <li>던킨 30%할인(VIP50%, 최대8천원)</li>
+                <li>쉐이크쉑 20%할인(VIP40%, 최대8천원)</li>
+                <li>CGV 8,500원예매+매점쿠폰2종</li>
+                <li>내셔널지오그래픽전시 40%할인(동반1인30%)</li>
               </ul>
             </div>
             <div className="mblk">
@@ -81,9 +81,9 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">여름 테마 · Day3 던킨·CGV·전시 공개</span></div>
+            <div className="mpnt-concept"><span className="upd">Day3 7.22 진행 중 · 던킨·쉐이크쉑VIP혜택</span></div>
             <ul className="mpnt-list">
-              <li><span className="upd">Day3 7.22 · 던킨VIP50%·쉐이크쉑VIP40%+전시</span></li>
+              <li><span className="upd">Day3 진행 ~7.26 · 던킨VIP50%·쉐이크쉑VIP40%</span></li>
               <li>Day2 종료 · 레저·워터파크·뷰티 집중</li>
               <li>Day4 7.29 미공개 · 오픈 예정</li>
             </ul>
@@ -173,7 +173,7 @@ export default function MonthlyBenefits() {
                 <li>NOL티켓 맥스 시덴토프 개인전 최대 35% 할인</li>
                 <li>미셸앙리:위대한 컬러리스트 부산 전시 30% 할인</li>
                 <li>페인터즈 공연 50% 할인</li>
-                <li><span className="upd">프린트베이커리 15% 할인</span></li>
+                <li>프린트베이커리 15% 할인</li>
               </ul>
             </div>
             <div className="mblk">
@@ -216,7 +216,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>7.20 (월) — 유쓰데이</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>7.20 (월) — 유쓰데이</span></div>
               <ul className="mblist">
                 <li>공차(유쓰) 최대50%할인(1만원↑)</li>
                 <li>밀리의서재 (유쓰) 1개월 무료이용권</li>
@@ -243,11 +243,10 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ml">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">7.20 유쓰데이 오늘 · 7.21 투쁠데이 예정</span></div>
+            <div className="mpnt-concept"><span className="upd">7.22 오늘 공백 · 7.23 장기고객데이 내일</span></div>
             <ul className="mpnt-list">
-              <li><span className="upd">7.20 오늘 · 공차+밀리의서재 유쓰 혜택</span></li>
-              <li><span className="upd">7.21 투쁠 · 배스킨+매드포갈릭+뷰티</span></li>
-              <li>7.23 장기고객데이 · 다이소+뮤지컬+독서앱</li>
+              <li><span className="upd">7.20유쓰·7.21투쁠 종료 · 주요 혜택 마무리</span></li>
+              <li><span className="upd">7.23 내일 장기고객 · 다이소+그날들+윌라</span></li>
             </ul>
           </div>
         </div>

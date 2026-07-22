@@ -275,13 +275,6 @@ export default function History() {
             <td>밀크T 네이버페이 월 할인한도 3만원→2만원 (5.1~)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
-          <tr>
-            <td>2026.04.24</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>루덴시아 신규 제휴 — 주중 50%, 주말 35% (4.24~)</td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
         </tbody>
       </table></div>
     </div>

@@ -1,0 +1,511 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the content" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+  - banner [ref=e3]:
+    - generic:
+      - heading [level=1] [ref=e4]:
+        - link "SKT" [ref=e5] [cursor=pointer]:
+          - /url: https://news.sktelecom.com
+        - link "NewsRoom" [ref=e6] [cursor=pointer]:
+          - /url: https://news.sktelecom.com
+      - navigation "Horizontal" [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "AI & Service" [ref=e11] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/ai-service
+            - list:
+              - listitem [ref=e12]:
+                - link "AI" [ref=e13] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/ai-service/ai
+              - listitem [ref=e14]:
+                - link "Tech" [ref=e15] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/ai-service/tech
+              - listitem [ref=e16]:
+                - link "상품/서비스" [ref=e17] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/ai-service/%ec%83%81%ed%92%88-%ec%84%9c%eb%b9%84%ec%8a%a4
+          - listitem [ref=e18]:
+            - link "Corporate" [ref=e19] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/corporate
+            - list:
+              - listitem [ref=e20]:
+                - link "기업" [ref=e21] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/corporate/%ea%b8%b0%ec%97%85
+              - listitem [ref=e22]:
+                - link "문화" [ref=e23] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/corporate/%eb%ac%b8%ed%99%94
+              - listitem [ref=e24]:
+                - link "ESG" [ref=e25] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/corporate/esg
+          - listitem [ref=e26]:
+            - link "Magazine" [ref=e27] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/magazine
+            - list:
+              - listitem [ref=e28]:
+                - link "트렌드" [ref=e29] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/magazine/%ed%8a%b8%eb%a0%8c%eb%93%9c
+              - listitem [ref=e30]:
+                - link "데이터" [ref=e31] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/magazine/%eb%8d%b0%ec%9d%b4%ed%84%b0
+          - listitem [ref=e32]:
+            - link "Press Center" [ref=e33] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/press-center
+            - list:
+              - listitem [ref=e34]:
+                - link "보도자료" [ref=e35] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/press-center/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c
+              - listitem [ref=e36]:
+                - link "미디어 라이브러리" [ref=e37] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/%eb%af%b8%eb%94%94%ec%96%b4%eb%9d%bc%ec%9d%b4%eb%b8%8c%eb%9f%ac%eb%a6%ac/image
+              - listitem [ref=e38]:
+                - link "알려드립니다" [ref=e39] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/category/press-center/%ec%95%8c%eb%a0%a4%eb%93%9c%eb%a6%bd%eb%8b%88%eb%8b%a4
+      - generic [ref=e40]:
+        - button "검색" [ref=e41] [cursor=pointer]
+        - button "다크모드 전환" [ref=e43] [cursor=pointer]
+        - button "KO" [ref=e45] [cursor=pointer]
+  - main [ref=e47]:
+    - generic [ref=e48]:
+      - heading "뉴스룸 홈" [level=1]
+      - generic [ref=e51]:
+        - heading "뉴스룸 픽" [level=2] [ref=e52]
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - link [ref=e55] [cursor=pointer]:
+              - /url: /tag/굿체인지
+              - strong [ref=e56]: Good Change
+              - paragraph [ref=e57]: AX 혁신, CX 변화의 기록
+          - listitem [ref=e58]:
+            - link [ref=e59] [cursor=pointer]:
+              - /url: /tag/데이터인사이트
+              - strong [ref=e60]: 데이터 인사이트
+              - paragraph [ref=e61]: 데이터로 세상을 읽다
+          - listitem [ref=e62]:
+            - link [ref=e63] [cursor=pointer]:
+              - /url: /tag/팩트시트
+              - strong [ref=e64]: 팩트시트
+              - paragraph [ref=e65]: 주요 사업과 전략을 한눈에
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - link "문화" [ref=e74] [cursor=pointer]:
+                - /url: https://news.sktelecom.com/category/corporate/%eb%ac%b8%ed%99%94
+              - heading [level=2] [ref=e76]:
+                - link "10전 10패 끝에 거둔 첫 승… 다문화 엄마들 농구단 ‘글로벌 마더스’의 이야기" [ref=e77] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/227829
+              - paragraph [ref=e79]:
+                - link "SKT 뉴스룸은 글로벌 마더스의 첫 승 도전과 코트 위에서 굵은 땀방울을 흘린 여성 아마추어 농구 선수들의 열기를 전한다." [ref=e80] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/227829
+              - list [ref=e81]:
+                - listitem [ref=e82]:
+                  - link "글로벌마더스" [ref=e83] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/%ea%b8%80%eb%a1%9c%eb%b2%8c%eb%a7%88%eb%8d%94%ec%8a%a4
+                - listitem [ref=e84]:
+                  - link "스크라이크" [ref=e85] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/%ec%8a%a4%ed%81%ac%eb%9d%bc%ec%9d%b4%ed%81%ac
+                - listitem [ref=e86]:
+                  - link "SK나이츠" [ref=e87] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/sk%eb%82%98%ec%9d%b4%ec%b8%a0
+            - link [ref=e89] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227829
+              - img "10전 10패 끝에 거둔 첫 승… 다문화 엄마들 농구단 ‘글로벌 마더스’의 이야기" [ref=e90]
+            - link "Read Post" [ref=e91] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227829
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - link "트렌드" [ref=e98] [cursor=pointer]:
+                - /url: https://news.sktelecom.com/category/magazine/%ed%8a%b8%eb%a0%8c%eb%93%9c
+              - heading [level=2] [ref=e100]:
+                - link "2026 상반기 AI 트렌드 결산 — 키워드로 읽는 ‘AI 대전환’" [ref=e101] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/227730
+              - paragraph [ref=e103]:
+                - link "SK텔레콤 AI정책연구원과 함께 2026년 상반기 AI 트렌드를 네 가지 키워드로 짚어봤다." [ref=e104] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/227730
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - link "AI" [ref=e107] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai
+                - listitem [ref=e108]:
+                  - link "AI트렌드" [ref=e109] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai%ed%8a%b8%eb%a0%8c%eb%93%9c
+                - listitem [ref=e110]:
+                  - link "AI인프라" [ref=e111] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai%ec%9d%b8%ed%94%84%eb%9d%bc
+            - link [ref=e113] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227730
+              - img "2026 상반기 AI 트렌드 결산 — 키워드로 읽는 ‘AI 대전환’" [ref=e114]
+            - link "Read Post" [ref=e115] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227730
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - link "문화" [ref=e122] [cursor=pointer]:
+                - /url: https://news.sktelecom.com/category/corporate/%eb%ac%b8%ed%99%94
+              - heading [level=2] [ref=e124]:
+                - link "AI 시대를 읽다 — SK텔레콤 경영진 추천 여름 휴가 도서" [ref=e125] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/228085
+              - paragraph [ref=e127]:
+                - link "SK텔레콤 경영진이 사내 도서관 T Library에서 추천한 7권의 책을 통해 AI 시대, 조직 리더십, 국제 정세, 금융 위기 등 세상의 변화를 폭넓게 살펴본다." [ref=e128] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/228085
+              - list [ref=e129]:
+                - listitem [ref=e130]:
+                  - link "T_Library" [ref=e131] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/t_library
+                - listitem [ref=e132]:
+                  - link "AI" [ref=e133] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai
+                - listitem [ref=e134]:
+                  - link "도서추천" [ref=e135] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/%eb%8f%84%ec%84%9c%ec%b6%94%ec%b2%9c
+            - link [ref=e137] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228085
+              - img "AI 시대를 읽다 — SK텔레콤 경영진 추천 여름 휴가 도서" [ref=e138]
+            - link "Read Post" [ref=e139] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228085
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - link "ESG" [ref=e146] [cursor=pointer]:
+                - /url: https://news.sktelecom.com/category/corporate/esg
+              - heading [level=2] [ref=e148]:
+                - link "‘기술로 사회의 빈틈을 메우다’ ··· SK텔레콤, ESG 스타트업과의 동행" [ref=e149] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/228026
+              - paragraph [ref=e151]:
+                - link "SK텔레콤의 차세대 ESG 스타트업 발굴 프로그램 'SKTCH for Good(스케치 포 굿)'의 부트캠프 현장을 찾아가 봤다." [ref=e152] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/228026
+              - list [ref=e153]:
+                - listitem [ref=e154]:
+                  - link "AI스타트업" [ref=e155] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai%ec%8a%a4%ed%83%80%ed%8a%b8%ec%97%85
+                - listitem [ref=e156]:
+                  - link "ESG" [ref=e157] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/esg
+                - listitem [ref=e158]:
+                  - link "SKTCH for Good" [ref=e159] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/sktch-for-good
+            - link [ref=e161] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228026
+              - img "‘기술로 사회의 빈틈을 메우다’ ··· SK텔레콤, ESG 스타트업과의 동행" [ref=e162]
+            - link "Read Post" [ref=e163] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228026
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - link "기업" [ref=e170] [cursor=pointer]:
+                - /url: https://news.sktelecom.com/category/corporate/%ea%b8%b0%ec%97%85
+              - heading [level=2] [ref=e172]:
+                - 'link "T1 팬이라면 놓칠 수 없는 전시, T 팩토리 성수 ‘암행천문: 별을 헤다’" [ref=e173] [cursor=pointer]':
+                  - /url: https://news.sktelecom.com/227902
+              - paragraph [ref=e175]:
+                - 'link "T1의 역사와 우승의 순간을 만나는 체험형 전시 ‘암행천문: 별을 헤다’가 T 팩토리 성수에서 열렸다." [ref=e176] [cursor=pointer]':
+                  - /url: https://news.sktelecom.com/227902
+              - list [ref=e177]:
+                - listitem [ref=e178]:
+                  - link "T1" [ref=e179] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/t1
+                - listitem [ref=e180]:
+                  - link "T팩토리성수" [ref=e181] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/t%ed%8c%a9%ed%86%a0%eb%a6%ac%ec%84%b1%ec%88%98
+                - listitem [ref=e182]:
+                  - link "성수동전시" [ref=e183] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/%ec%84%b1%ec%88%98%eb%8f%99%ec%a0%84%ec%8b%9c
+            - link [ref=e185] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227902
+              - 'img "T1 팬이라면 놓칠 수 없는 전시, T 팩토리 성수 ‘암행천문: 별을 헤다’" [ref=e186]'
+            - link "Read Post" [ref=e187] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227902
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - link "문화" [ref=e194] [cursor=pointer]:
+                - /url: https://news.sktelecom.com/category/corporate/%eb%ac%b8%ed%99%94
+              - heading [level=2] [ref=e196]:
+                - link "10전 10패 끝에 거둔 첫 승… 다문화 엄마들 농구단 ‘글로벌 마더스’의 이야기" [ref=e197] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/227829
+              - paragraph [ref=e199]:
+                - link "SKT 뉴스룸은 글로벌 마더스의 첫 승 도전과 코트 위에서 굵은 땀방울을 흘린 여성 아마추어 농구 선수들의 열기를 전한다." [ref=e200] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/227829
+              - list [ref=e201]:
+                - listitem [ref=e202]:
+                  - link "글로벌마더스" [ref=e203] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/%ea%b8%80%eb%a1%9c%eb%b2%8c%eb%a7%88%eb%8d%94%ec%8a%a4
+                - listitem [ref=e204]:
+                  - link "스크라이크" [ref=e205] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/%ec%8a%a4%ed%81%ac%eb%9d%bc%ec%9d%b4%ed%81%ac
+                - listitem [ref=e206]:
+                  - link "SK나이츠" [ref=e207] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/sk%eb%82%98%ec%9d%b4%ec%b8%a0
+            - link [ref=e209] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227829
+              - img "10전 10패 끝에 거둔 첫 승… 다문화 엄마들 농구단 ‘글로벌 마더스’의 이야기" [ref=e210]
+            - link "Read Post" [ref=e211] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227829
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - link "트렌드" [ref=e218] [cursor=pointer]:
+                - /url: https://news.sktelecom.com/category/magazine/%ed%8a%b8%eb%a0%8c%eb%93%9c
+              - heading [level=2] [ref=e220]:
+                - link "2026 상반기 AI 트렌드 결산 — 키워드로 읽는 ‘AI 대전환’" [ref=e221] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/227730
+              - paragraph [ref=e223]:
+                - link "SK텔레콤 AI정책연구원과 함께 2026년 상반기 AI 트렌드를 네 가지 키워드로 짚어봤다." [ref=e224] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/227730
+              - list [ref=e225]:
+                - listitem [ref=e226]:
+                  - link "AI" [ref=e227] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai
+                - listitem [ref=e228]:
+                  - link "AI트렌드" [ref=e229] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai%ed%8a%b8%eb%a0%8c%eb%93%9c
+                - listitem [ref=e230]:
+                  - link "AI인프라" [ref=e231] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai%ec%9d%b8%ed%94%84%eb%9d%bc
+            - link [ref=e233] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227730
+              - img "2026 상반기 AI 트렌드 결산 — 키워드로 읽는 ‘AI 대전환’" [ref=e234]
+            - link "Read Post" [ref=e235] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227730
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - link "문화" [ref=e242] [cursor=pointer]:
+                - /url: https://news.sktelecom.com/category/corporate/%eb%ac%b8%ed%99%94
+              - heading [level=2] [ref=e244]:
+                - link "AI 시대를 읽다 — SK텔레콤 경영진 추천 여름 휴가 도서" [ref=e245] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/228085
+              - paragraph [ref=e247]:
+                - link "SK텔레콤 경영진이 사내 도서관 T Library에서 추천한 7권의 책을 통해 AI 시대, 조직 리더십, 국제 정세, 금융 위기 등 세상의 변화를 폭넓게 살펴본다." [ref=e248] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/228085
+              - list [ref=e249]:
+                - listitem [ref=e250]:
+                  - link "T_Library" [ref=e251] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/t_library
+                - listitem [ref=e252]:
+                  - link "AI" [ref=e253] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai
+                - listitem [ref=e254]:
+                  - link "도서추천" [ref=e255] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/%eb%8f%84%ec%84%9c%ec%b6%94%ec%b2%9c
+            - link [ref=e257] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228085
+              - img "AI 시대를 읽다 — SK텔레콤 경영진 추천 여름 휴가 도서" [ref=e258]
+            - link "Read Post" [ref=e259] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228085
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - link "ESG" [ref=e266] [cursor=pointer]:
+                - /url: https://news.sktelecom.com/category/corporate/esg
+              - heading [level=2] [ref=e268]:
+                - link "‘기술로 사회의 빈틈을 메우다’ ··· SK텔레콤, ESG 스타트업과의 동행" [ref=e269] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/228026
+              - paragraph [ref=e271]:
+                - link "SK텔레콤의 차세대 ESG 스타트업 발굴 프로그램 'SKTCH for Good(스케치 포 굿)'의 부트캠프 현장을 찾아가 봤다." [ref=e272] [cursor=pointer]:
+                  - /url: https://news.sktelecom.com/228026
+              - list [ref=e273]:
+                - listitem [ref=e274]:
+                  - link "AI스타트업" [ref=e275] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/ai%ec%8a%a4%ed%83%80%ed%8a%b8%ec%97%85
+                - listitem [ref=e276]:
+                  - link "ESG" [ref=e277] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/esg
+                - listitem [ref=e278]:
+                  - link "SKTCH for Good" [ref=e279] [cursor=pointer]:
+                    - /url: https://news.sktelecom.com/tag/sktch-for-good
+            - link [ref=e281] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228026
+              - img "‘기술로 사회의 빈틈을 메우다’ ··· SK텔레콤, ESG 스타트업과의 동행" [ref=e282]
+            - link "Read Post" [ref=e283] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228026
+        - generic [ref=e286]:
+          - button "Go to slide 1" [ref=e287] [cursor=pointer]
+          - button "Go to slide 2" [ref=e288] [cursor=pointer]
+          - button "Go to slide 3" [ref=e289] [cursor=pointer]
+          - button "Go to slide 4" [ref=e290] [cursor=pointer]
+          - button "Go to slide 5" [ref=e291] [cursor=pointer]
+      - generic [ref=e292]:
+        - heading "Latest Stories" [level=2] [ref=e293]
+        - generic [ref=e295]:
+          - link "All" [ref=e296] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/All
+          - link "AI" [ref=e298] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/category/ai-service/ai
+          - link "Tech" [ref=e300] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/category/ai-service/tech
+          - link "상품/서비스" [ref=e302] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/category/ai-service/%ec%83%81%ed%92%88-%ec%84%9c%eb%b9%84%ec%8a%a4
+          - link "보도자료" [ref=e304] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/category/press-center/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c
+          - link "기업" [ref=e306] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/category/corporate/%ea%b8%b0%ec%97%85
+          - link "ESG" [ref=e308] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/category/corporate/esg
+          - link "문화" [ref=e310] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/category/corporate/%eb%ac%b8%ed%99%94
+          - link "트렌드" [ref=e312] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/category/magazine/%ed%8a%b8%eb%a0%8c%eb%93%9c
+          - link "데이터" [ref=e314] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/category/magazine/%eb%8d%b0%ec%9d%b4%ed%84%b0
+        - generic [ref=e315]:
+          - generic [ref=e316]:
+            - link [ref=e317] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228112
+              - img "SKT, AI 사업 동반자 될 스타트업 발굴 나선다" [ref=e319]
+            - link "보도자료" [ref=e321] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/press-center/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c
+            - link "SKT, AI 사업 동반자 될 스타트업 발굴 나선다 NEW SK텔레콤이 AI 분야 스타트업 발굴·육성 프로그램 ‘SKTCH with AI’(스케치 위드 에이아이)를 론칭하고, 21일부터 다음달 18일까지 참여 스타트업을 모집한다고 밝혔다. 2026.07.21" [ref=e322] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228112
+              - generic [ref=e324]:
+                - text: SKT, AI 사업 동반자 될 스타트업 발굴 나선다
+                - generic [ref=e325]: NEW
+              - generic [ref=e326]: SK텔레콤이 AI 분야 스타트업 발굴·육성 프로그램 ‘SKTCH with AI’(스케치 위드 에이아이)를 론칭하고, 21일부터 다음달 18일까지 참여 스타트업을 모집한다고 밝혔다.
+              - generic [ref=e327]: 2026.07.21
+          - generic [ref=e328]:
+            - link [ref=e329] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228085
+              - img "AI 시대를 읽다 — SK텔레콤 경영진 추천 여름 휴가 도서" [ref=e331]
+            - link "문화" [ref=e333] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/corporate/%eb%ac%b8%ed%99%94
+            - link "AI 시대를 읽다 — SK텔레콤 경영진 추천 여름 휴가 도서 NEW SK텔레콤 경영진이 사내 도서관 T Library에서 추천한 7권의 책을 통해 AI 시대, 조직 리더십, 국제 정세, 금융 위기 등 세상의 변화를 폭넓게 살펴본다. 2026.07.21" [ref=e334] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228085
+              - generic [ref=e336]:
+                - text: AI 시대를 읽다 — SK텔레콤 경영진 추천 여름 휴가 도서
+                - generic [ref=e337]: NEW
+              - generic [ref=e338]: SK텔레콤 경영진이 사내 도서관 T Library에서 추천한 7권의 책을 통해 AI 시대, 조직 리더십, 국제 정세, 금융 위기 등 세상의 변화를 폭넓게 살펴본다.
+              - generic [ref=e339]: 2026.07.21
+          - generic [ref=e340]:
+            - link [ref=e341] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228026
+              - img "‘기술로 사회의 빈틈을 메우다’ ··· SK텔레콤, ESG 스타트업과의 동행" [ref=e343]
+            - link "ESG" [ref=e345] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/corporate/esg
+            - link "‘기술로 사회의 빈틈을 메우다’ ··· SK텔레콤, ESG 스타트업과의 동행 NEW SK텔레콤의 차세대 ESG 스타트업 발굴 프로그램 'SKTCH for Good(스케치 포 굿)'의 부트캠프 현장을 찾아가 봤다. 2026.07.20" [ref=e346] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/228026
+              - generic [ref=e348]:
+                - text: ‘기술로 사회의 빈틈을 메우다’ ··· SK텔레콤, ESG 스타트업과의 동행
+                - generic [ref=e349]: NEW
+              - generic [ref=e350]: SK텔레콤의 차세대 ESG 스타트업 발굴 프로그램 'SKTCH for Good(스케치 포 굿)'의 부트캠프 현장을 찾아가 봤다.
+              - generic [ref=e351]: 2026.07.20
+          - generic [ref=e352]:
+            - link [ref=e353] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227991
+              - img "SKT, AI로 휴가철 통신 품질 미리 살핀다" [ref=e355]
+            - link "보도자료" [ref=e357] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/press-center/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c
+            - link "SKT, AI로 휴가철 통신 품질 미리 살핀다 SK텔레콤은 AI 기반 네트워크 운영·관제 기술을 활용한 ‘하계 휴가철 특별 소통 대책’을 수립하고, 특별 소통 상황실을 마련하여 통신 품질을 집중 관리한다고 16일 밝혔다. 2026.07.16" [ref=e358] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227991
+              - generic [ref=e359]: SKT, AI로 휴가철 통신 품질 미리 살핀다
+              - generic [ref=e361]: SK텔레콤은 AI 기반 네트워크 운영·관제 기술을 활용한 ‘하계 휴가철 특별 소통 대책’을 수립하고, 특별 소통 상황실을 마련하여 통신 품질을 집중 관리한다고 16일 밝혔다.
+              - generic [ref=e362]: 2026.07.16
+          - generic [ref=e363]:
+            - link [ref=e364] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227902
+              - 'img "T1 팬이라면 놓칠 수 없는 전시, T 팩토리 성수 ‘암행천문: 별을 헤다’" [ref=e366]'
+            - link "기업" [ref=e368] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/corporate/%ea%b8%b0%ec%97%85
+            - 'link "T1 팬이라면 놓칠 수 없는 전시, T 팩토리 성수 ‘암행천문: 별을 헤다’ T1의 역사와 우승의 순간을 만나는 체험형 전시 ‘암행천문: 별을 헤다’가 T 팩토리 성수에서 열렸다. 2026.07.16" [ref=e369] [cursor=pointer]':
+              - /url: https://news.sktelecom.com/227902
+              - generic [ref=e370]: "T1 팬이라면 놓칠 수 없는 전시, T 팩토리 성수 ‘암행천문: 별을 헤다’"
+              - generic [ref=e372]: "T1의 역사와 우승의 순간을 만나는 체험형 전시 ‘암행천문: 별을 헤다’가 T 팩토리 성수에서 열렸다."
+              - generic [ref=e373]: 2026.07.16
+          - generic [ref=e374]:
+            - link [ref=e375] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227875
+              - img "SKT-SK바이오팜, AI 활용해 난치성 암 신약 연구 속도 높였다" [ref=e377]
+            - link "보도자료" [ref=e379] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/category/press-center/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c
+            - link "SKT-SK바이오팜, AI 활용해 난치성 암 신약 연구 속도 높였다 SK텔레콤은 SK바이오팜과의 공동 연구에 AI를 활용, 난치성 암 표적 치료제 개발에 활용할 수 있는 초기 유효물질을 발굴했다고 15일 밝혔다. 2026.07.15" [ref=e380] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/227875
+              - generic [ref=e381]: SKT-SK바이오팜, AI 활용해 난치성 암 신약 연구 속도 높였다
+              - generic [ref=e383]: SK텔레콤은 SK바이오팜과의 공동 연구에 AI를 활용, 난치성 암 표적 치료제 개발에 활용할 수 있는 초기 유효물질을 발굴했다고 15일 밝혔다.
+              - generic [ref=e384]: 2026.07.15
+        - link "View More" [ref=e386] [cursor=pointer]:
+          - /url: https://news.sktelecom.com/All
+      - generic [ref=e391]:
+        - generic [ref=e392]:
+          - link [ref=e394] [cursor=pointer]:
+            - /url: https://news.sktelecom.com/210868
+          - generic:
+            - link:
+              - /url: https://pf.kakao.com/_NElis
+          - generic:
+            - link:
+              - /url: https://techportal.sk.com/ai-foundation
+        - generic [ref=e396]:
+          - button "Go to slide 1" [ref=e397] [cursor=pointer]
+          - button "Go to slide 2" [ref=e398] [cursor=pointer]
+          - button "Go to slide 3" [ref=e399] [cursor=pointer]
+        - button "정지" [ref=e401] [cursor=pointer]
+  - link "맨 위로" [ref=e402] [cursor=pointer]:
+    - /url: "#"
+  - contentinfo [ref=e406]:
+    - generic [ref=e407]:
+      - generic [ref=e408]:
+        - list [ref=e410]:
+          - listitem [ref=e411]:
+            - link "About 뉴스룸" [ref=e412] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/about-newsroom
+          - listitem [ref=e413]:
+            - link "뉴스룸 운영 정책" [ref=e414] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/policy
+          - listitem [ref=e415]:
+            - link "개인정보 처리방침" [ref=e416] [cursor=pointer]:
+              - /url: https://privacy.sktelecom.com/view.do?ctg=policy&name=policy
+          - listitem [ref=e417]:
+            - link "뉴스룸 콘텐츠 이용 안내" [ref=e418] [cursor=pointer]:
+              - /url: https://news.sktelecom.com/information-use
+        - generic [ref=e419]:
+          - generic [ref=e420]: 서울특별시 중구 을지로65(을지로2가) SK T-타워 SK텔레콤(주)
+          - paragraph [ref=e421]: COPYRIGHT © SK TELECOM CO., LTD. ALL RIGHTS RESERVED.
+        - list [ref=e423]:
+          - listitem [ref=e424]:
+            - link "홈페이지" [ref=e425] [cursor=pointer]:
+              - /url: https://www.sktelecom.com/
+          - listitem [ref=e426]:
+            - link "유튜브" [ref=e427] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCA5vKQkvC9zlTDOSNtoMdCQ
+          - listitem [ref=e428]:
+            - link "페이스북" [ref=e429] [cursor=pointer]:
+              - /url: https://www.facebook.com/sktelecom/
+          - listitem [ref=e430]:
+            - link "인스타" [ref=e431] [cursor=pointer]:
+              - /url: https://www.instagram.com/sktelecom/
+          - listitem [ref=e432]:
+            - link "X" [ref=e433] [cursor=pointer]:
+              - /url: https://twitter.com/sktelecom
+          - listitem [ref=e434]:
+            - link "링크드인" [ref=e435] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/sk-telecom/
+          - listitem [ref=e436]:
+            - link "뉴스룸 블로그" [ref=e437] [cursor=pointer]:
+              - /url: https://blog.naver.com/sktstory
+          - listitem [ref=e438]:
+            - link "뉴스룸 페이스북" [ref=e439] [cursor=pointer]:
+              - /url: https://www.facebook.com/sktelecom.newsroom
+      - generic [ref=e441]:
+        - generic [ref=e442]: Family Site
+        - button "패밀리사이트 확장" [ref=e443] [cursor=pointer]
+        - list [ref=e444]:
+          - listitem [ref=e445]:
+            - link "SK(주)" [ref=e446] [cursor=pointer]:
+              - /url: http://www.sk.co.kr
+          - listitem [ref=e447]:
+            - link "SK스퀘어" [ref=e448] [cursor=pointer]:
+              - /url: https://www.sksquare.com/kor/index.do
+          - listitem [ref=e449]:
+            - link "SK브로드밴드" [ref=e450] [cursor=pointer]:
+              - /url: https://www.skbroadband.com/Main.do
+          - listitem [ref=e451]:
+            - link "SK텔링크" [ref=e452] [cursor=pointer]:
+              - /url: https://www.sktelink.com/main
+          - listitem [ref=e453]:
+            - link "SK엠앤서비스" [ref=e454] [cursor=pointer]:
+              - /url: https://www.skmnservice.com/pc_new/html/main.html
+          - listitem [ref=e455]:
+            - link "PS&Marketing" [ref=e456] [cursor=pointer]:
+              - /url: https://psnmarketing.com/
+          - listitem [ref=e457]:
+            - link "서비스에이스" [ref=e458] [cursor=pointer]:
+              - /url: https://www.serviceace.co.kr/service_ace/
+          - listitem [ref=e459]:
+            - link "SK오앤에스" [ref=e460] [cursor=pointer]:
+              - /url: https://www.skons.co.kr
+          - listitem [ref=e461]:
+            - link "SK서비스탑" [ref=e462] [cursor=pointer]:
+              - /url: https://www.svctop.co.kr/index
+      - link "SK telecom":
+        - /url: https://news.sktelecom.com
