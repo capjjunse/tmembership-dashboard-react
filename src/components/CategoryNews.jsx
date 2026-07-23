@@ -57,7 +57,7 @@ export function CategoryNewsContent({ excludeBrands = [] }) {
     <p className="cn-empty">조건을 충족하는 기사가 없습니다. 다음 수집 시 갱신됩니다.</p>
   ) : (
     <div className="cn-grid">
-      {groups.map(({ category, topic, insight, articles, signal_strength = 1, max_velocity = 0 }) => {
+      {groups.map(({ category, topic, insight, articles, signal_strength = 1, max_velocity = 0, is_new = false }) => {
         const cfg       = CAT_CONFIG[category] ?? CAT_CONFIG.risk;
         const expandKey = `${category}:${topic}`;
         const isExp     = expanded[expandKey];
@@ -81,8 +81,9 @@ export function CategoryNewsContent({ excludeBrands = [] }) {
                 </div>
               </div>
               <div className="cn-topic-row">
-                <span className="cn-topic">{topic}</span>
+                <span className={is_new ? 'cn-topic upd' : 'cn-topic'}>{topic}</span>
                 <div className="cn-badges">
+                  {is_new && <span className="cn-badge cn-new">🆕 신규</span>}
                   <span className="cn-badge cn-num">관련 기사 {articles.length}건</span>
                 </div>
               </div>

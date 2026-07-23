@@ -535,7 +535,7 @@ export default function AIInsight() {
             <div key={i} className={`tr-card tr-card-${s.direction} tr-str-${s.strength}`}>
               {/* 헤더: 브랜드명 + 방향/강도 — 색상으로 즉시 인지 */}
               <div className="tr-sig-hdr">
-                <span className="tr-brand">{s.brand}</span>
+                <span className={s.updated ? 'tr-brand upd' : 'tr-brand'}>{s.brand}{s.updated && ' 🆕'}</span>
                 <div className="tr-sig-meta">
                   <span className="tr-sev">{trStrength[s.strength]}</span>
                   <span className={`tr-dir ${trDir[s.direction].cls}`}>{trDir[s.direction].label}</span>

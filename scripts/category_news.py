@@ -562,6 +562,18 @@ def main():
             pri_tag = f' [P{pri}]'
             print(f"  · {a['title'][:50]}{pri_tag}{cq_tag}")
 
+    # 직전 실행 결과 대비 신규 토픽 판별 (위젯·마켓 시그널 카드 빨간 표시용)
+    prev_topics = set()
+    if OUTPUT_FILE.exists():
+        try:
+            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+                prev_data = json.load(f)
+            prev_topics = {g.get('topic', '') for g in prev_data.get('topic_groups', [])}
+        except (json.JSONDecodeError, OSError):
+            prev_topics = set()
+    for g in topic_groups:
+        g['is_new'] = g.get('topic', '') not in prev_topics
+
     # JSON 저장
     output = {
         'generated_at':    today.strftime('%Y.%m.%d %H:%M'),

@@ -2,10 +2,12 @@
 // membership: 'partner'=현재 제휴 | 'candidate'=잠재 후보 | 'watchlist'=관심
 // direction:  'neg'=부정 | 'pos'=긍정 | 'neu'=중립
 // strength:   'strong'=강(긴급) | 'mid'=중(주목) | 'low'=약(모니터링)
+// updated:    이번 실행에서 신규 진입했거나 headline/strength/direction이 바뀐 항목만 true — 위젯·카드 빨간 표시(.upd)에 사용. 매 실행 시작 시 전부 false로 초기화 후, 변경분만 true로 마크.
 export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -31,6 +33,7 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'partner',
+    updated: false,
     telcos: [
       { id: 'kt', label: 'KT', prog: '달달초이스 7월', benefit: '[전 등급] 아이스아메리카노 1천원 할인 (2매)' },
     ],
@@ -54,6 +57,7 @@ export const trendSignals = [
   {
     brand: '피자헛',
     membership: 'partner',
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP] 30% 할인 · [G·S] 20% 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 15% 할인' },
@@ -79,6 +83,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -104,6 +109,7 @@ export const trendSignals = [
   {
     brand: '60계치킨',
     membership: 'candidate',
+    updated: false,
     telcos: [],
     strength: 'low',
     sources: ['뉴스'],
@@ -124,6 +130,7 @@ export const trendSignals = [
   {
     brand: '설빙',
     membership: 'watchlist',
+    updated: false,
     telcos: [],
     strength: 'strong',
     sources: ['뉴스'],

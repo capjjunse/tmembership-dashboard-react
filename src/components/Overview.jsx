@@ -107,7 +107,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>오붓·플래시백·해커스 혜택 신규 (7.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 83%·긍정 17%</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 67%·긍정 33%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK 우주패스 너프 "유튜브 날려버렸네" 불만</div>
           </a>
 
@@ -141,7 +141,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>포텔리어 구독권 무료 2주로 축소 (7.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>긍정 40%·부정 60%</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">긍정 33%·부정 67%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>투쁠 "혜택 줄어" 감소 불만</div>
           </a>
         </div>

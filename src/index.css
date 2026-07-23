@@ -266,6 +266,7 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .cn-sig-3{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
 .cn-trending{background:#fff3cd;color:#92400e;border:1px solid #fcd34d}
 .cn-rising{background:#ecfdf5;color:#065f46;border:1px solid #6ee7b7}
+.cn-new{background:var(--neg-bg);color:var(--neg);border:1px solid var(--neg)}
 .rbw{background:linear-gradient(135deg,var(--bg2),var(--bg3));border:1px solid var(--bd);border-radius:var(--r);padding:14px 16px;margin-bottom:14px}
 .rbl{font-size:11px;color:var(--tx2);margin-bottom:9px;font-weight:700;display:flex;align-items:center;gap:5px}
 .rbl::before{content:'';width:3px;height:12px;background:var(--p);border-radius:2px;display:inline-block}
