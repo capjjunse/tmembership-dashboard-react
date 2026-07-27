@@ -64,7 +64,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 3 (7.22)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (7.22)</span></div>
               <ul className="mblist">
                 <li>던킨 30%할인(VIP50%, 최대8천원)</li>
                 <li>쉐이크쉑 20%할인(VIP40%, 최대8천원)</li>
@@ -73,19 +73,22 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (7.29)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (7.29~8.2)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 7월 29일 공개 예정</li>
+                <li><span className="upd">뚜레쥬르 1천원당300원할인/적립(최대6천원)</span></li>
+                <li><span className="upd">할리스 음료2종50%할인(~8.1)</span></li>
+                <li><span className="upd">다운타우너 버거세트35%할인+애프터쿠폰(~8.2)</span></li>
+                <li><span className="upd">롤링파스타 5천원할인(9.5천원↑주문시,~8.2)</span></li>
               </ul>
             </div>
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">Day3 7.22 진행 중 · 던킨·쉐이크쉑VIP혜택</span></div>
+            <div className="mpnt-concept"><span className="upd">Day4 D-2 공개 · 식음4종 뚜레쥬르 등</span></div>
             <ul className="mpnt-list">
-              <li><span className="upd">Day3 진행 ~7.26 · 던킨VIP50%·쉐이크쉑VIP40%</span></li>
-              <li>Day2 종료 · 레저·워터파크·뷰티 집중</li>
-              <li>Day4 7.29 미공개 · 오픈 예정</li>
+              <li><span className="upd">Day4 7.29 · 뚜레쥬르·할리스·다운타우너4종</span></li>
+              <li><span className="upd">Day3 종료 · 던킨VIP50%·쉐이크쉑VIP40%</span></li>
+              <li><span className="upd">쿠폰기간 최장8.2 · 7월 완주 임박</span></li>
             </ul>
           </div>
         </div>
@@ -100,6 +103,13 @@ export default function MonthlyBenefits() {
               <ul className="mblist">
                 <li>배스킨라빈스 50%할인(최대5천원)</li>
                 <li>쇼핑라운지 (전 등급) 전 상품 5,000원 할인</li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span className="upd">고객보답 2차 (7.16~7.31)</span></div>
+              <ul className="mblist">
+                <li><span className="upd">쇼핑라운지 5천원할인(전등급)</span></li>
+                <li><span className="upd">파리바게뜨 최대50%할인(전등급)</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -121,10 +131,10 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">달달 2차 · 고급외식 5종+컬처앤모어</div>
+            <div className="mpnt-concept"><span className="upd">달달초이스 2종마감 · 고객보답2차 신설</span></div>
             <ul className="mpnt-list">
-              <li>달달초이스 · VIPS·크제이드·도미노 등 5종</li>
-              <li>컬처앤모어 · 뮤지컬·전시 4작품 50%</li>
+              <li><span className="upd">달달초이스 3종잔류 · 크제이드·도미노·폴바셋</span></li>
+              <li><span className="upd">고객보답 2차 · 쇼핑라운지+파리바게뜨</span></li>
             </ul>
           </div>
         </div>
@@ -243,10 +253,10 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ml">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">7.22 오늘 공백 · 7.23 장기고객데이 내일</span></div>
+            <div className="mpnt-concept"><span className="upd">7.23 장기고객데이로 7월 완료</span></div>
             <ul className="mpnt-list">
-              <li><span className="upd">7.20유쓰·7.21투쁠 종료 · 주요 혜택 마무리</span></li>
-              <li><span className="upd">7.23 내일 장기고객 · 다이소+그날들+윌라</span></li>
+              <li><span className="upd">7월 전 일정 종료 · 투쁠11회+컬처+유쓰+장기</span></li>
+              <li><span className="upd">장기고객데이 · 다이소·그날들·윌라로 마무리</span></li>
             </ul>
           </div>
         </div>

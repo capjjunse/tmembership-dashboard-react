@@ -17,6 +17,20 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td>2026.08.31</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T 멤버십 상시</td>
+            <td>쿤달 제휴 종료 예정 (8.31)</td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.08.03</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T 멤버십 상시</td>
+            <td>샐러디 신규 제휴 — 전 등급 10% 할인 (8.3~)</td>
+            <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
             <td>2026.08.01</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>

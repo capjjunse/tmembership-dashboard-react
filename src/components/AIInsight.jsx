@@ -36,7 +36,7 @@ const compGroups = [
     rows: [
       {
         brand: '피자헛',
-        skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (프리미엄·US오리진 M·L)' }], date: <span className="upd">T day · 7.1</span> },
+        skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (프리미엄·US오리진 M·L)' }], date: 'T day · 7.1' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 55% 할인 + 리치치즈파스타 증정' }], date: '투쁠데이 · 7.7' },
         v: 'warn',
@@ -54,7 +54,7 @@ const compGroups = [
       },
       {
         brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종 (더블콤보 3천원·팝콘M 1천원)' }], date: <span className="upd">T day · 7.6~7.10 / T day · 7.22</span> },
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종 (더블콤보 3천원·팝콘M 1천원)' }], date: 'T day · 7.6~7.10 / T day · 7.22' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 무료 (유플투쁠세트)' }], date: '투쁠데이 · 7.17' },
         v: 'good',
@@ -99,12 +99,12 @@ const compGroups = [
       },
       {
         brand: '오션월드',
-        skt: { lines: [{ grade: '전 등급', b: '골드시즌 종일 입장권 50% 할인' }], date: <span className="upd">T day · 7.13~7.17</span> },
+        skt: { lines: [{ grade: '전 등급', b: '골드시즌 종일 입장권 50% 할인' }], date: 'T day · 7.13~7.17' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '워터파크 50% 할인' }], date: '투쁠데이 · 7.15' },
         v: 'neut',
-        basis: { skt: <span className="upd">50% 할인</span>, lgu: '50% 할인 (7.15)', gap: '동급 50%, 기간 차이만' },
-        note: { skt: <span className="upd">7.13~7.17</span>, lgu: '7.15' },
+        basis: { skt: '50% 할인', lgu: '50% 할인 (7.15)', gap: '동급 50%, 기간 차이만' },
+        note: { skt: '7.13~7.17', lgu: '7.15' },
       },
     ],
   },
@@ -445,7 +445,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · <span className="upd">Day 3 7.22 공개 · kt-lgu 배스킨라빈스 추가 · skt-kt/3사공통 미해당</span>)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · <span className="upd">Day4(7.29) COMING SOON · 기존 8건 유지 · skt-kt/kt-lgu/3사공통 미해당</span>)</div>
         </div>
       </div>
 
