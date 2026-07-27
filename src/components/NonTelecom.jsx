@@ -18,7 +18,7 @@ export default function NonTelecom() {
       edgeDetails: [
         '적립·배송·콘텐츠·클라우드 구독 하나로 해결',
         '패밀리 3명 동일 5%, 가족 단위 락인',
-        '<span className="upd">하반기 무제한 무료배송 예고, 쿠팡과 경쟁</span>',
+        '하반기 무제한 무료배송 예고, 쿠팡과 경쟁',
       ],
     },
     {
