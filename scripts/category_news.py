@@ -108,9 +108,14 @@ CLASSIFY_PROMPT = """\
 - risk:      통신사 제휴 브랜드(스타벅스·맥도날드·CGV·배스킨라빈스·버거킹 등) 관련
              논란·불매·규제·과징금·주가·카드제휴 종료 등 → T멤버십 제휴 재검토 트리거
              ※ 한 사건(예: 스타벅스 탱크데이)의 모든 파생 기사(주가·카드사·불매)는 전부 risk
+             ⛔ 제휴 브랜드 이름이 제목에 있다고 무조건 risk 아님 — 반드시 논란·불매·규제·과징금·주가하락·계약종료 등
+             **부정적 이벤트**일 때만 risk. 그 브랜드가 다른 곳(경쟁 이커머스·유통사 등)과 신규 협업·혜택 확대·
+             프로모션을 발표하는 소식은 risk가 아니라 battle 또는 benchmark로 분류할 것.
 - battle:    통신사 멤버십·구독팩 경쟁, 배달·이커머스·OTT 플랫폼 간 경쟁 구도 변화
              (쿠팡 vs 배민 무료배달, 네이버 슈퍼앱, 통신사 OTT 구독팩 등)
-             ⚠️ 제외: 이미 risk로 분류되는 제휴사(스타벅스 등) 관련 파급 기사는 battle 아닌 risk
+             ✅ 포함: 경쟁 이커머스·유통사가 자사 멤버십에 브랜드 제휴를 추가해 혜택을 확대하는 소식
+               (예: SSG닷컴 쓱7클럽이 배스킨라빈스와 제휴해 혜택 확대 → 이커머스 멤버십 경쟁 구도이므로 battle)
+             ⚠️ 제외: 이미 risk로 분류되는 제휴사(스타벅스 등)의 **논란·불매 관련** 파급 기사는 battle 아닌 risk
 - benchmark: 국내 소비자 대상 B2C 할인·쿠폰·포인트·구독 패키지·로열티 혜택 사례
              → T멤버십 제휴 기획 시 직접 참고 가능한 국내 브랜드 혜택 구조
              ✅ 포함: 야구·월드컵·여름·추석 등 시즌 이벤트 활용 브랜드 프로모션·제휴 캠페인
@@ -491,7 +496,66 @@ def assign_topics(top: dict[str, list]) -> tuple[dict[str, list], list[dict]]:
                 ],
             })
 
+    topic_groups = _dedup_cross_category_topics(topic_groups)
+
     return result, topic_groups
+
+
+# 카테고리 우선순위 — 동일 사건이 여러 카테고리에 중복 등장하면 이 순서로 하나만 남긴다.
+# risk는 "부정적 이벤트"만 다루도록 프롬프트를 강화했지만, 그래도 중복이 새어나올 경우를 대비한 안전망.
+# battle·benchmark(경쟁·벤치마킹) 쪽이 risk보다 실제 사건 성격에 더 잘 맞는 경우가 많으므로 risk를 최우선으로 두지 않는다.
+_CATEGORY_PRIORITY = {'battle': 0, 'benchmark': 1, 'trend': 2, 'risk': 3}
+
+
+def _topic_tokens(topic: str) -> set[str]:
+    return set(topic.split())
+
+
+def _dedup_cross_category_topics(topic_groups: list[dict]) -> list[dict]:
+    """
+    [C+] 같은 사건이 서로 다른 카테고리에 중복 등장하는 것 방지.
+    토픽명 단어가 2개 이상 겹치는 그룹은 동일 사건으로 간주해 하나만 남긴다.
+    (2026.07.28 추가 — SSG닷컴 쓱7클럽 사례: "쓱7클럽 강화"가 risk와 battle에 동시 등록되고
+    서로 다른(심지어 상반된) 판단이 붙어 있던 것을 발견해 수정)
+    """
+    merged: list[dict] = []
+    used = [False] * len(topic_groups)
+
+    for i, g in enumerate(topic_groups):
+        if used[i]:
+            continue
+        dup_idxs = [i]
+        tokens_i = _topic_tokens(g['topic'])
+        for j in range(i + 1, len(topic_groups)):
+            if used[j] or topic_groups[j]['category'] == g['category']:
+                continue
+            tokens_j = _topic_tokens(topic_groups[j]['topic'])
+            if len(tokens_i & tokens_j) >= 2:
+                dup_idxs.append(j)
+
+        if len(dup_idxs) == 1:
+            merged.append(g)
+            used[i] = True
+            continue
+
+        # 중복 그룹 발견 — 카테고리 우선순위가 가장 높은 것을 채택하고, 기사 목록은 합쳐서 유지
+        dup_groups = [topic_groups[k] for k in dup_idxs]
+        winner = min(dup_groups, key=lambda x: _CATEGORY_PRIORITY.get(x['category'], 99))
+        all_links = {a['link'] for a in winner['articles']}
+        combined_articles = list(winner['articles'])
+        for other in dup_groups:
+            if other is winner:
+                continue
+            for a in other['articles']:
+                if a['link'] not in all_links:
+                    all_links.add(a['link'])
+                    combined_articles.append(a)
+        winner = {**winner, 'articles': combined_articles}
+        merged.append(winner)
+        for k in dup_idxs:
+            used[k] = True
+
+    return merged
 
 
 def main():
