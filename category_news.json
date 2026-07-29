@@ -1,141 +1,101 @@
 {
-  "generated_at": "2026.07.27 16:27",
-  "total_collected": 900,
-  "total_valid": 439,
-  "total_skipped": 461,
-  "total_top": 31,
+  "generated_at": "2026.07.29 16:20",
+  "total_collected": 920,
+  "total_valid": 414,
+  "total_skipped": 505,
+  "total_top": 25,
   "topic_groups": [
     {
       "category": "risk",
-      "topic": "SSG닷컴 쓱7클럽 강화",
-      "insight": "SSG닷컴이 배스킨라빈스와 협업해 쓱7클럽 멤버십 혜택 확대 및 할인 쿠폰 제공",
-      "signal_strength": 2,
-      "max_velocity": -18.6,
+      "topic": "스타벅스 탱크데이 사태",
+      "insight": "정치적 이슈 확산으로 극단적 소비 양극화 심화, 중도 소비층 이탈 심각",
+      "signal_strength": 3,
+      "max_velocity": 0.0,
       "articles": [
         {
-          "title": "SSG닷컴, 배스킨라빈스와 손잡고 '쓱7클럽' 혜택 강화",
-          "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02338646645518784",
-          "pub_date": "2026.07.27",
-          "priority": 2,
+          "title": "스벅 불매·영화 호프 ‘묻지마 호불호’… 중간이 없는 대한민국",
+          "link": "https://www.munhwa.com/article/11604831?ref=naver",
+          "pub_date": "2026.07.24",
+          "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -18.6
+          "datalab_velocity": -2.7
         },
         {
-          "title": "SSG닷컴, 멤버십 고객에 베스킨라빈스 5000원 할인 쿠폰",
-          "link": "https://www.newsis.com/view/NISX20260727_0003724321",
-          "pub_date": "2026.07.27",
-          "priority": 2,
+          "title": "'논란 70일째' 정상화 시동 건 스타벅스…이번엔 '첫 노조' 시험대",
+          "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01754806645519112",
+          "pub_date": "2026.07.28",
+          "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -18.6
+          "datalab_velocity": 0.0
         },
         {
-          "title": "SSG닷컴, 멤버십 '쓱7클럽' 혜택 강화…배스킨라빈스 연계",
-          "link": "https://news.tf.co.kr/read/economy/2347141.htm",
-          "pub_date": "2026.07.27",
-          "priority": 2,
+          "title": "[EZ 분석] &quot;다시 신뢰 쌓는 스타벅스&quot;…논란 이후 브랜드 정상화 전략 본...",
+          "link": "https://www.ezyeconomy.com/news/articleView.html?idxno=238138",
+          "pub_date": "2026.07.29",
+          "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -18.6
+          "datalab_velocity": 0.0
         },
         {
-          "title": "SSG닷컴, 배스킨라빈스와 협업…‘쓱7클럽’ 혜택 키운다",
-          "link": "https://zdnet.co.kr/view/?no=20260727102154",
-          "pub_date": "2026.07.27",
-          "priority": 2,
+          "title": "&quot;스타벅스 가야지&quot; 구호 논란에 배재고 싸잡아 비난한 화환들...'아동복...",
+          "link": "https://www.pennmike.com/news/articleView.html?idxno=124527",
+          "pub_date": "2026.07.28",
+          "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -18.6
-        },
-        {
-          "title": "SSG닷컴, 배스킨라빈스와 맞손…'쓱7클럽' 멤버십 혜택 확대",
-          "link": "https://www.joongangenews.com/news/articleView.html?idxno=535488",
-          "pub_date": "2026.07.27",
-          "priority": 2,
-          "cross_query_count": 1,
-          "datalab_velocity": -18.6
-        },
-        {
-          "title": "SSG닷컴, '쓱7클럽' 회원에 배스킨라빈스 5000원 할인 혜택",
-          "link": "https://www.cstimes.com/news/articleView.html?idxno=714681",
-          "pub_date": "2026.07.27",
-          "priority": 2,
-          "cross_query_count": 1,
-          "datalab_velocity": -18.6
+          "datalab_velocity": 0.0
         }
       ],
       "is_new": true
     },
     {
       "category": "battle",
-      "topic": "SSG닷컴 쓱7클럽 제휴 확대",
-      "insight": "SSG닷컴이 배스킨라빈스 등 브랜드 제휴를 통해 쓱7클럽 멤버십 혜택 다각화",
+      "topic": "통신사 갤럭시Z 가입자 경쟁",
+      "insight": "통신 3사가 갤럭시Z8 출시를 앞두고 AI 할인 등 차별화된 혜택으로 가입자 확보 경쟁 시작",
       "signal_strength": 2,
-      "max_velocity": -18.6,
+      "max_velocity": 8.3,
       "articles": [
         {
-          "title": "SSG닷컴, 멤버십 제휴혜택 늘린다…&quot;베스킨라빈스 5천원 쿠폰&quot;",
-          "link": "https://biz.sbs.co.kr/article_hub/20000324762?division=NAVER",
+          "title": "&quot;보조금 출혈경쟁 대신 AI 할인&quot;···통신3사, 갤Z8 가입자 유치戰",
+          "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=422690",
           "pub_date": "2026.07.27",
           "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -18.6
+          "cross_query_count": 1,
+          "datalab_velocity": 8.3
         },
         {
-          "title": "SSG닷컴, '쓱7클럽' 제휴 혜택 확대…배스킨라빈스 연계",
-          "link": "http://www.inews24.com/view/1988902",
-          "pub_date": "2026.07.27",
-          "priority": 3,
+          "title": "이통3사, ‘갤럭시 Z 폴더블8’ 사전예약 돌입…혜택 경쟁 후끈",
+          "link": "https://www.dailian.co.kr/news/view/1671814/?sc=Naver",
+          "pub_date": "2026.07.28",
+          "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": -18.6
-        },
-        {
-          "title": "SSG닷컴, 배스킨라빈스와 ‘쓱7클럽’ 제휴 프로모션… “멤버십 혜택 ...",
-          "link": "https://biz.chosun.com/distribution/channel/2026/07/27/ZUEHWDUHYVAL3LWXO4SBSIEGQA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-          "pub_date": "2026.07.27",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -18.6
-        },
-        {
-          "title": "장보기 멤버십에 디저트 혜택까지…SSG닷컴, '쓱7클럽' 브랜드 제휴 확...",
-          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=132487",
-          "pub_date": "2026.07.27",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -18.6
-        },
-        {
-          "title": "SSG닷컴, 브랜드 협업 확대... '쓱7클럽' 멤버십 경쟁력 강화",
-          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204643",
-          "pub_date": "2026.07.27",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -18.6
-        },
-        {
-          "title": "“이번엔 배스킨라빈스” SSG닷컴, ‘쓱7클럽’ 브랜드 혜택 확대",
-          "link": "https://magazine.hankyung.com/business/article/202607277214b",
-          "pub_date": "2026.07.27",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -18.6
-        },
-        {
-          "title": "SSG닷컴 멤버십 '쓱7클럽', 브랜드 제휴 혜택 강화",
-          "link": "http://www.srtimes.kr/news/articleView.html?idxno=208355",
-          "pub_date": "2026.07.27",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -18.6
+          "datalab_velocity": 8.3
         }
       ],
       "is_new": true
     },
     {
       "category": "battle",
-      "topic": "우버 배민 인수 시장영향",
-      "insight": "우버가 배민 인수로 글로벌 AI·모빌리티 역량을 한국 배달시장에 결합",
+      "topic": "배달앱 우버 시장 진입",
+      "insight": "우버가 배민 인수로 국내 배달시장 진입, 장거리 배달 등 새로운 전략으로 기존 배민-쿠팡이츠 구도 재편",
       "signal_strength": 2,
       "max_velocity": 0.0,
       "articles": [
+        {
+          "title": "배달업계 2위 쿠팡이츠, 장거리 배달 도입…배민·우버 연합군 견제",
+          "link": "https://www.busan.com/view/busan/view.php?code=2026072710334612841",
+          "pub_date": "2026.07.27",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "우버가 노린 韓 음식 배달 시장, 올해 더 커진다…역대 최대 전망",
+          "link": "https://www.etnews.com/20260728000094",
+          "pub_date": "2026.07.28",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
         {
           "title": "배민 품은 우버…글로벌 AI·모빌리티 공룡이 바꿀 한국 배달시장",
           "link": "https://www.sentv.co.kr/article/view/sentv202607240185",
@@ -145,9 +105,17 @@
           "datalab_velocity": 0.0
         },
         {
-          "title": "[우버 배민 인수]② 배달·택시 묶는 '우버원', 시너지엔 물음표",
-          "link": "https://www.bloter.net/news/articleView.html?idxno=668530",
-          "pub_date": "2026.07.21",
+          "title": "[격전의 배달앱 생태계] '배달앱 1위' 배민 품는 우버... 배달수수료·마...",
+          "link": "https://www.ajunews.com/view/20260722195927952",
+          "pub_date": "2026.07.23",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "배민 품은 우버···국내 배달앱 판도 다시 흔든다",
+          "link": "https://www.seoulfn.com/news/articleView.html?idxno=633956",
+          "pub_date": "2026.07.23",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
@@ -156,91 +124,61 @@
       "is_new": true
     },
     {
-      "category": "benchmark",
-      "topic": "여름 휴가철 할인 경쟁",
-      "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
+      "category": "battle",
+      "topic": "이커머스 AI쇼핑 경쟁",
+      "insight": "쿠팡, G마켓 등 주요 이커머스 플랫폼이 AI 기술 활용한 개인화 쇼핑 경험으로 고객 확보 경쟁 가열",
       "signal_strength": 2,
-      "max_velocity": 0.0,
+      "max_velocity": 15.5,
       "articles": [
         {
-          "title": "&quot;여름 휴가철 여행객 잡아라&quot;…카드사 할인·캐시백 경쟁",
-          "link": "https://www.namdonews.com/news/articleView.html?idxno=918028",
-          "pub_date": "2026.07.26",
+          "title": "AI쇼핑 경쟁 불붙었다…쿠팡·G마켓 등 가세",
+          "link": "https://www.mk.co.kr/article/12108607",
+          "pub_date": "2026.07.27",
+          "priority": 2,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "G마켓, 여름 소비 공략 '브랜드 페스타' 개최... &quot;76개 브랜드 참여&quot;",
+          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204789",
+          "pub_date": "2026.07.28",
+          "priority": 2,
+          "cross_query_count": 1,
+          "datalab_velocity": 15.5
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "benchmark",
+      "topic": "롯데온 여름 시즌 할인",
+      "insight": "롯데온이 장마 종료 후 폭염 시기에 여름상품 할인 캠페인 'laStchance' 전개, 최대 20% 할인으로 계절성 수요 포착",
+      "signal_strength": 2,
+      "max_velocity": 15.5,
+      "articles": [
+        {
+          "title": "장마 끝 폭염 시작…롯데온·에이블리, ‘여름 막바지 할인’ 전개",
+          "link": "https://www.news2day.co.kr/article/20260728500074",
+          "pub_date": "2026.07.28",
           "priority": 2,
           "cross_query_count": 3,
-          "datalab_velocity": 0.0
+          "datalab_velocity": 15.5
         },
         {
-          "title": "SK렌터카, 여름 휴가철 '에코랜드·오설록·할리스' 제휴 혜택",
-          "link": "https://www.etnews.com/20260724000103",
-          "pub_date": "2026.07.24",
-          "priority": 2,
-          "cross_query_count": 3,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "SSG닷컴, '간편식 페스타' 개최…여름 먹거리 할인 및 멤버십 혜택 강화",
-          "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4096634",
-          "pub_date": "2026.07.23",
+          "title": "롯데온, 여름상품 할인 ‘라스트찬스’ 外 CU‧GS샵‧LX하우시스 [유통...",
+          "link": "https://www.kukinews.com/article/view/kuk202607280059",
+          "pub_date": "2026.07.28",
           "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": -18.6
+          "datalab_velocity": 15.5
         },
         {
-          "title": "&quot;여행 할인받고 떠나세요&quot;…카드업계, 휴가철 프로모션 '풍성'",
-          "link": "https://www.newsis.com/view/NISX20260724_0003722748",
-          "pub_date": "2026.07.25",
+          "title": "롯데온, 휴가 막차 쇼핑객 잡는다…'라스트찬스' 행사로 최대 20% 할인",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=535803",
+          "pub_date": "2026.07.28",
           "priority": 2,
           "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "SK렌터카 제주지점, 에코랜드·오설록·할리스와 여름 제휴",
-          "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03083206645517800",
-          "pub_date": "2026.07.24",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "파파존스, 아이브와 여름 마케팅…피자 할인에 한정판 굿즈까지",
-          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=132322",
-          "pub_date": "2026.07.23",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "[푸드·다이닝 트렌드] &quot;오늘 뭐 해 먹이지?&quot;…한우자조금, 여름방학 아...",
-          "link": "https://www.ibabynews.com/news/articleView.html?idxno=153133",
-          "pub_date": "2026.07.23",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -34.3
-        },
-        {
-          "title": "명륜진사갈비, 휴가철 맞아 온라인 식사권 할인 행사 마련",
-          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5044546",
-          "pub_date": "2026.07.26",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "설빙, 여름 빙수 마케팅 강화... 시즌 메뉴 할인 프로모션 진",
-          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204591",
-          "pub_date": "2026.07.24",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "BBQ, 필크런치 출시 기념 앱 전용 할인 행사 진행",
-          "link": "http://www.lawissue.co.kr/view.php?ud=202607240857136119204ead0791_12",
-          "pub_date": "2026.07.24",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "datalab_velocity": 15.5
         }
       ],
       "is_new": true
@@ -249,30 +187,30 @@
   "categories": {
     "trend": [
       {
-        "title": "[시대리포트]여행·쇼핑·결제까지…일상 스며든 중국 플랫폼",
-        "topic": "중국 플랫폼 국내 확산",
-        "insight": "알리익스프레스, 틱톡쇼핑 등 중국 플랫폼이 국내 일상의 여행·쇼핑·결제 영역으로 확대 중",
-        "desc": "이어 &quot;플랫폼 경쟁은 기업 간 경쟁을 넘어 국가 경쟁력의 문제&quot;라며 &quot;개인정보 보호와 공정한 경쟁 환경 조성을 위한 산업 전략이 함께 추진돼야 한다&quot;고 강조했다. 박승찬 용인대 중국학과 교수는 &quot;일부 소비자들은... ",
-        "link": "https://www.sidae.com/article/2026072416135711044",
-        "pub_date": "2026.07.27",
-        "reason": "중국 플랫폼 국내 시장 침투 추이",
+        "title": "이통3사, 쓸 일 없는 '데이터 쿠폰' 생색…장기고객 할인은 '축소'",
+        "topic": "통신사 데이터 요금 정책",
+        "insight": "이통3사 데이터 쿠폰 확대 vs 장기고객 할인 축소로 고객 혜택 양극화 심화",
+        "desc": "또 장기 가입자를 대상으로 진행하는 문화 행사의 경우 일부 당첨자에 한정된 데다, 가족 결합 할인마저... 한국소비자연맹이 지난해 10월 전국 성인 1000명을 조사한 결과, 전체 응답자의 40.4%가 데이터 무제한... ",
+        "link": "https://news.mtn.co.kr/news-detail/2026072811001951802",
+        "pub_date": "2026.07.28",
+        "reason": "통신사 데이터 쿠폰 전략 변화, 고객 만족도 하락 신호",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 81.0,
-        "datalab_velocity": -19.0,
+        "datalab_score": 58.3,
+        "datalab_velocity": 8.3,
         "queries": [
-          "플랫폼 경쟁",
-          "AI 쇼핑"
+          "소비자 할인",
+          "휴대폰 할인"
         ]
       },
       {
-        "title": "배달플랫폼 생존전략 된 자체물류…시장 판도 바꾸는 ‘라스트마일’",
-        "topic": "배달앱 자체물류 경쟁",
-        "insight": "배달 플랫폼들이 라스트마일 물류 투자를 생존 전략으로 추진하며 시장 구도 변화",
-        "desc": "◆“배달혁명 이끈 자체배달…사회적 논의도 필요”=이날 종합토론에서는 자체배달이 국내 배달시장 구조를 근본적으로 바꿨다는 평가와 함께 사회적 균형도 함께 고민해야 한다는 의견이 나왔다. 이헌규 김앤장... ",
-        "link": "https://www.ddaily.co.kr/page/view/2026072413260709798",
+        "title": "“물류 직영화, 유통시장 성패 가르는 생존전략 부상”",
+        "topic": "유통업 물류 직영화 전략",
+        "insight": "주요 유통사들이 물류 직영화를 생존 전략으로 추진, 시장 경쟁력 결정 요소로 부상",
+        "desc": "미국 주문중개 플랫폼인 ‘그럽허브’는 주문부터 배달까지 전 과정을 직접 관리하는 ‘도어대시’에 밀려 2019년 미국 배달플랫폼 시장 1위를 내줬다. 이후 2024년 12월 기준 점유율 격차는 10배까지 벌어졌다. 최종 배송... ",
+        "link": "https://biz.heraldcorp.com/article/10819313?ref=naver",
         "pub_date": "2026.07.24",
-        "reason": "배달플랫폼 물류 경쟁 트렌드",
+        "reason": "유통 물류 전략 변화, 배달·이커머스 경쟁 구도 영향",
         "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 0.0,
@@ -283,20 +221,20 @@
         ]
       },
       {
-        "title": "메가커피, 신메뉴 2주만에 100만개 판매…&quot;괴담 마케팅 효과&quot;",
-        "topic": "메가커피 신메뉴 마케팅",
-        "insight": "메가커피의 신메뉴가 화제성 마케팅으로 2주 내 100만 개 판매 달성",
-        "desc": "이색 마케팅을 선보인 것이 사회관계망서비스(SNS)에서 화제가 되며 주목받았다&quot;고 설명했다. 회사에... 한편, 메가커피는 자사 앱 주문 고객을 대상으로 추첨을 통해 숙박권을 제공하는 '여름휴가를 주문하세요!... ",
-        "link": "https://www.yna.co.kr/view/AKR20260723039000030?input=1195m",
-        "pub_date": "2026.07.23",
-        "reason": "메가커피 신메뉴 판매, 소비 트렌드 참고",
-        "priority": 1,
+        "title": "배달플랫폼 생존전략 된 자체물류…시장 판도 바꾸는 ‘라스트마일’",
+        "topic": "배달플랫폼 자체물류 경쟁",
+        "insight": "배달 플랫폼들이 라스트마일 경쟁에서 자체물류 구축을 생존 전략으로 추진 중",
+        "desc": "◆“배달혁명 이끈 자체배달…사회적 논의도 필요”=이날 종합토론에서는 자체배달이 국내 배달시장 구조를 근본적으로 바꿨다는 평가와 함께 사회적 균형도 함께 고민해야 한다는 의견이 나왔다. 이헌규 김앤장... ",
+        "link": "https://www.ddaily.co.kr/page/view/2026072413260709798",
+        "pub_date": "2026.07.24",
+        "reason": "배달플랫폼 자체물류 전략, 라스트마일 경쟁 변화",
+        "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "앱 마케팅",
-          "여름 휴가 마케팅"
+          "배달 시장",
+          "이커머스 전략"
         ]
       }
     ],
@@ -304,276 +242,157 @@
       {
         "title": "&quot;K-컬쳐 알린다며 태극기 거꾸로&quot;...뉴발란스, 공식사과·판매중단에도...",
         "topic": "뉴발란스 태극기 논란",
-        "insight": "뉴발란스의 태극기 역방향 사용으로 브랜드 이미지 훼손, 공식사과 및 판매중단 조치",
+        "insight": "K-컬쳐 마케팅 과정에서 태극기 역행 사용, 브랜드 신뢰도 추락 및 판매중단 사태 발생",
         "desc": "패션 브랜드 뉴발란스가 한국과 서울의 매력을 알리겠다며 선보인 티셔츠에 태극기와 건곤감리 문양을 잘못 반영해 불매 운동 조짐까지 일고 있다. 그래픽 요소를 자유롭게 재해석하는 패션계의 관행을 감안하더라도... ",
         "link": "https://www.pointe.co.kr/news/articleView.html?idxno=82223",
         "pub_date": "2026.07.24",
-        "reason": "제휴사(뉴발란스) 브랜드 논란",
+        "reason": "제휴사 뉴발란스 태극기 역방향 논란 확산 대응 필요",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 68.0,
-        "datalab_velocity": -23.3,
+        "datalab_score": 10.1,
+        "datalab_velocity": -2.7,
         "queries": [
           "불매운동"
         ]
       },
       {
-        "title": "SSG닷컴, 배스킨라빈스와 손잡고 '쓱7클럽' 혜택 강화",
-        "topic": "SSG닷컴 쓱7클럽 강화",
-        "insight": "SSG닷컴이 배스킨라빈스와 협업해 쓱7클럽 멤버십 혜택 확대 및 할인 쿠폰 제공",
-        "desc": "SSG닷컴은 인기 브랜드와의 협업을 통해 멤버십 혜택과 고객 접점을 확대한다는 계획이다. 지난 5월 ‘뷰티 쓱세일’ 기간 진행한 키엘 협업에서는 구매 고객의 60% 이상이 쓱7클럽 전용 상품을 선택했고, 신규 구매... ",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02338646645518784",
-        "pub_date": "2026.07.27",
-        "reason": "SSG·배스킨라빈스 멤버십 연계 강화, 경쟁사 제휴 확대",
-        "priority": 2,
+        "title": "스벅 불매·영화 호프 ‘묻지마 호불호’… 중간이 없는 대한민국",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "정치적 이슈 확산으로 극단적 소비 양극화 심화, 중도 소비층 이탈 심각",
+        "desc": "스타벅스 불매 운동부터 배재고 조롱 응원 사태에 이르기까지 사회적 이슈가 불거졌을 때 절충안을 찾기보다는 상대를 ‘악마화’하려는 심리에 대해 곽금주 서울대 심리학과 명예교수는 대한민국이 ‘묻지 마 호불호’... ",
+        "link": "https://www.munhwa.com/article/11604831?ref=naver",
+        "pub_date": "2026.07.24",
+        "reason": "스타벅스 불매 논란 확산, 제휴 재검토 필요",
+        "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
+        "datalab_score": 10.1,
+        "datalab_velocity": -2.7,
         "queries": [
-          "멤버십 혜택"
+          "불매운동"
         ]
       },
       {
-        "title": "SSG닷컴, 멤버십 고객에 베스킨라빈스 5000원 할인 쿠폰",
-        "topic": "SSG닷컴 쓱7클럽 강화",
-        "insight": "SSG닷컴이 배스킨라빈스와 협업해 쓱7클럽 멤버십 혜택 확대 및 할인 쿠폰 제공",
-        "desc": "제공하고, 고객 접점도 상호 확대한다는 계획이다. SSG닷컴 관계자는 &quot;다양한 카테고리의 인기 브랜드와 제휴해 멤버십 저변을 넓혀갈 계획&quot;이라며 &quot;장보기 적립 외에도 다채로운 혜택을 누려보길 바란다&quot;고 말했다.",
-        "link": "https://www.newsis.com/view/NISX20260727_0003724321",
-        "pub_date": "2026.07.27",
-        "reason": "SSG 배스킨라빈스 할인, T멤버십 제휴사 경쟁 이슈",
-        "priority": 2,
+        "title": "'논란 70일째' 정상화 시동 건 스타벅스…이번엔 '첫 노조' 시험대",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "사태 70일 후 정상화 시동, 노조 설립 등 내부 구조 변화 추진",
+        "desc": "5·18 ‘탱크데이’ 마케팅 논란으로 대외 홍보를 사실상 중단했던 스타벅스코리아가 신제품 출시와 사회공헌 활동을 재개하며 브랜드 정상화에 속도를 내고 있다. 논란 이후 이탈했던 이른바 ‘탈벅’(스타벅스... ",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01754806645519112",
+        "pub_date": "2026.07.28",
+        "reason": "제휴사 스타벅스 장기 논란 심화, 재검토 필요",
+        "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "SSG닷컴, 멤버십 '쓱7클럽' 혜택 강화…배스킨라빈스 연계",
-        "topic": "SSG닷컴 쓱7클럽 강화",
-        "insight": "SSG닷컴이 배스킨라빈스와 협업해 쓱7클럽 멤버십 혜택 확대 및 할인 쿠폰 제공",
-        "desc": "월 구독료 2900원에 장보기 결제액 7% 적립 멤버십 회원 대상 배스킨라빈스 5000원 쿠폰 SSG닷컴은 인기 브랜드사와의 협업을 통해 자사 멤버십인 '쓱7클럽' 혜택을 키워간다. 27일 관련 업계에 따르면 SSG닷컴은 오는 8월... ",
-        "link": "https://news.tf.co.kr/read/economy/2347141.htm",
-        "pub_date": "2026.07.27",
-        "reason": "SSG 배스킨라빈스 멤버십 강화, T멤버십 제휴 재검토",
-        "priority": 2,
+        "title": "[EZ 분석] &quot;다시 신뢰 쌓는 스타벅스&quot;…논란 이후 브랜드 정상화 전략 본...",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "브랜드 신뢰 회복 위한 정상화 전략 본격화, 장기적 명성 회복 필요",
+        "desc": "업계에 따르면 스타벅스는 지난 5월 발생한 마케팅 논란 이후 약 70일간 대외 활동을 최소화하며 브랜드 관리에 집중해왔다. 논란 직후에는 공식 활동과 마케팅 노출을 줄이고 내부적으로 대응 방향을 검토하는 시간을... ",
+        "link": "https://www.ezyeconomy.com/news/articleView.html?idxno=238138",
+        "pub_date": "2026.07.29",
+        "reason": "제휴사 스타벅스 브랜드 이미지 회복 동향 모니터링",
+        "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "SSG닷컴, 배스킨라빈스와 협업…‘쓱7클럽’ 혜택 키운다",
-        "topic": "SSG닷컴 쓱7클럽 강화",
-        "insight": "SSG닷컴이 배스킨라빈스와 협업해 쓱7클럽 멤버십 혜택 확대 및 할인 쿠폰 제공",
-        "desc": "SSG닷컴은 인기 브랜드와의 협업을 통해 멤버십 혜택을 강화하고 고객 접점도 확대한다는 계획이다. SSG닷컴 관계자는 “다양한 카테고리의 인기 브랜드와 제휴해 멤버십 저변을 넓혀갈 계획&quot;이라며 “장보기 적립... ",
-        "link": "https://zdnet.co.kr/view/?no=20260727102154",
-        "pub_date": "2026.07.27",
-        "reason": "SSG·배스킨라빈스 협업 강화, 경쟁 멤버십 혜택 확대",
-        "priority": 2,
+        "title": "&quot;스타벅스 가야지&quot; 구호 논란에 배재고 싸잡아 비난한 화환들...'아동복...",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "논란이 학교·아동용품까지 확산, 무분별한 불매 운동으로 비판 대상 확대",
+        "desc": "구호해 논란이 일었다. 해당 응원 구호가 그보다 앞서 지난 5월18일 스타벅스코리아의 '탱크데이' 판촉 행사와 관련해 스타벅스가 '5ㆍ18 폄훼 마케팅'을 한 것이라는 일각의 의혹 제기를 의식한 것이라는 취지다. 배재고... ",
+        "link": "https://www.pennmike.com/news/articleView.html?idxno=124527",
+        "pub_date": "2026.07.28",
+        "reason": "제휴사 스타벅스 논란 재확산, 긴급 모니터링",
+        "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "마케팅 논란"
         ]
       },
       {
-        "title": "SSG닷컴, 배스킨라빈스와 맞손…'쓱7클럽' 멤버십 혜택 확대",
-        "topic": "SSG닷컴 쓱7클럽 강화",
-        "insight": "SSG닷컴이 배스킨라빈스와 협업해 쓱7클럽 멤버십 혜택 확대 및 할인 쿠폰 제공",
-        "desc": "SSG닷컴은 앞으로도 다양한 카테고리의 인기 브랜드와 협업을 확대해 멤버십 혜택을 강화하고 고객 만족도를 높여나갈 계획이다. SSG닷컴 관계자는 &quot;다양한 카테고리의 인기 브랜드와 제휴해 멤버십 저변을 넓혀갈... ",
-        "link": "https://www.joongangenews.com/news/articleView.html?idxno=535488",
-        "pub_date": "2026.07.27",
-        "reason": "SSG 배스킨라빈스 멤버십 혜택 확대, 제휴 경쟁 심화",
+        "title": "폭염 피서지 된 극장가…CGV·롯데시네마 여름 프로모션 강화 [MP이슈]",
+        "topic": "영화관 여름 프로모션 경쟁",
+        "insight": "폭염으로 극장 피서지화, CGV·롯데시네마 등 대형관이 프로모션 강화",
+        "desc": "CGV는 오는 8월 23일까지 전국 CGV에서 ‘CGV 썸머 프로모션’을 진행한다. ‘폭염에는 CGV에서’를 콘셉트로 한 이번 행사는 여름철 극장을 찾는 관객에게 관람 횟수별 혜택을 제공하는 방식으로 운영된다. CGV 썸머... ",
+        "link": "https://www.mediapen.com/news/view/1112882",
+        "pub_date": "2026.07.29",
+        "reason": "제휴사(CGV·롯데시네마) 경쟁 강화, 모니터링",
         "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "SSG닷컴, '쓱7클럽' 회원에 배스킨라빈스 5000원 할인 혜택",
-        "topic": "SSG닷컴 쓱7클럽 강화",
-        "insight": "SSG닷컴이 배스킨라빈스와 협업해 쓱7클럽 멤버십 혜택 확대 및 할인 쿠폰 제공",
-        "desc": "컨슈머타임스=안솔지 기자 | SSG닷컴이 배스킨라빈스와 제휴해 장보기 멤버십 '쓱7클럽'의 외부 브랜드 혜택을 확대한다. 8월 31일까지 쓱7클럽 회원에게 배스킨라빈스 5000원 할인 쿠폰을 계정당 1매 제공한다. 2만5000원... ",
-        "link": "https://www.cstimes.com/news/articleView.html?idxno=714681",
-        "pub_date": "2026.07.27",
-        "reason": "SSG 배스킨라빈스 5000원 할인, 경쟁사 제휴 강화",
-        "priority": 2,
-        "cross_query_count": 1,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "[푸드·다이닝 트렌드] 버거킹, '펜타치즈와퍼' 전국 매장 재출시…10월...",
-        "topic": "버거킹 신메뉴 출시",
-        "insight": "버거킹이 펜타치즈와퍼를 전국 매장에서 재출시하며 프리미엄 메뉴 공략",
-        "desc": "ⓒ본푸드서비스 고물가와 경기 침체가 장기화되면서 외식 소비 트렌드도 변화하고 있다. 무조건 저렴한 가격을 찾기보다 가격 대비 만족도와 경험을 중시하는 '실속형 하이엔드' 소비가 확산되면서 호텔 다이닝과... ",
-        "link": "https://www.ibabynews.com/news/articleView.html?idxno=153097",
-        "pub_date": "2026.07.23",
-        "reason": "버거킹 프로모션, 제휴사 활동 모니터링",
-        "priority": 1,
-        "cross_query_count": 1,
-        "datalab_score": 67.6,
-        "datalab_velocity": -34.3,
-        "queries": [
-          "소비 트렌드"
+          "폭염 프로모션"
         ]
       }
     ],
     "battle": [
       {
-        "title": "SSG닷컴, 멤버십 제휴혜택 늘린다…&quot;베스킨라빈스 5천원 쿠폰&quot;",
-        "topic": "SSG닷컴 쓱7클럽 제휴 확대",
-        "insight": "SSG닷컴이 배스킨라빈스 등 브랜드 제휴를 통해 쓱7클럽 멤버십 혜택 다각화",
-        "desc": "SSG닷컴은 '쓱7클럽' 회원에게 다음달 31일까지 배스킨라빈스 5천원을 지급하는 등 브랜드 제휴 혜택을 강화한다고 오늘(27일) 밝혔습니다. 배스킨라빈스 앱 이용 고객 중 쓱7클럽 미가입 고객에게는 멤버십 2개월... ",
-        "link": "https://biz.sbs.co.kr/article_hub/20000324762?division=NAVER",
+        "title": "&quot;보조금 출혈경쟁 대신 AI 할인&quot;···통신3사, 갤Z8 가입자 유치戰",
+        "topic": "통신사 갤럭시Z 가입자 경쟁",
+        "insight": "통신 3사가 갤럭시Z8 출시를 앞두고 AI 할인 등 차별화된 혜택으로 가입자 확보 경쟁 시작",
+        "desc": "특히 생성형 AI 서비스 결제자는 기본 할인에 더해 5000원을 추가 할인한다. 최근 3개월간 KT 휴대폰결제를 이용하지 않은 고객에게는 최대 3000원을 추가 할인한다. LG유플러스는 사전 알림 신청자에게 선착순으로 최대... ",
+        "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=422690",
         "pub_date": "2026.07.27",
-        "reason": "경쟁사 배스킨라빈스 제휴 확대",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
-        "queries": [
-          "멤버십 혜택",
-          "브랜드 제휴"
-        ]
-      },
-      {
-        "title": "SSG닷컴, '쓱7클럽' 제휴 혜택 확대…배스킨라빈스 연계",
-        "topic": "SSG닷컴 쓱7클럽 제휴 확대",
-        "insight": "SSG닷컴이 배스킨라빈스 등 브랜드 제휴를 통해 쓱7클럽 멤버십 혜택 다각화",
-        "desc": "SSG닷컴 관계자는 &quot;다양한 분야의 인기 브랜드와 협업해 멤버십 혜택을 지속 확대할 계획&quot;이라며 &quot;장보기 적립뿐 아니라 차별화된 제휴 혜택을 통해 고객 만족도를 높여 나가겠다&quot;고 말했다.",
-        "link": "http://www.inews24.com/view/1988902",
-        "pub_date": "2026.07.27",
-        "reason": "경쟁사 배스킨라빈스 제휴 혜택 강화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
-        "queries": [
-          "멤버십 혜택",
-          "브랜드 제휴"
-        ]
-      },
-      {
-        "title": "SSG닷컴, 배스킨라빈스와 ‘쓱7클럽’ 제휴 프로모션… “멤버십 혜택 ...",
-        "topic": "SSG닷컴 쓱7클럽 제휴 확대",
-        "insight": "SSG닷컴이 배스킨라빈스 등 브랜드 제휴를 통해 쓱7클럽 멤버십 혜택 다각화",
-        "desc": "SSG닷컴 관계자는 “다양한 카테고리의 인기 브랜드와 제휴해 멤버십 저변을 넓혀갈 계획”이라며 “장보기 적립 외에도 다채로운 혜택을 누려보길 바란다”고 말했다.",
-        "link": "https://biz.chosun.com/distribution/channel/2026/07/27/ZUEHWDUHYVAL3LWXO4SBSIEGQA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "pub_date": "2026.07.27",
-        "reason": "경쟁사 배스킨라빈스 제휴 프로모션",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
-        "queries": [
-          "멤버십 혜택",
-          "브랜드 제휴"
-        ]
-      },
-      {
-        "title": "장보기 멤버십에 디저트 혜택까지…SSG닷컴, '쓱7클럽' 브랜드 제휴 확...",
-        "topic": "SSG닷컴 쓱7클럽 제휴 확대",
-        "insight": "SSG닷컴이 배스킨라빈스 등 브랜드 제휴를 통해 쓱7클럽 멤버십 혜택 다각화",
-        "desc": "SSG닷컴은 멤버십 서비스 '쓱7클럽'의 혜택을 확대하기 위해 배스킨라빈스와 손잡고 오는 8월 31일까지 공동 프로모션을 진행한다고 27일 밝혔다. 이번 프로모션은 양사 고객이 서로의 서비스를 경험할 수 있도록 혜택을... ",
-        "link": "https://www.e-science.co.kr/news/articleView.html?idxno=132487",
-        "pub_date": "2026.07.27",
-        "reason": "경쟁사 디저트 카테고리 제휴 강화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
-        "queries": [
-          "멤버십 혜택",
-          "브랜드 제휴"
-        ]
-      },
-      {
-        "title": "SSG닷컴, 브랜드 협업 확대... '쓱7클럽' 멤버십 경쟁력 강화",
-        "topic": "SSG닷컴 쓱7클럽 제휴 확대",
-        "insight": "SSG닷컴이 배스킨라빈스 등 브랜드 제휴를 통해 쓱7클럽 멤버십 혜택 다각화",
-        "desc": "SSG닷컴은 앞으로도 다양한 브랜드와의 협업을 확대해 멤버십 혜택을 강화하고 고객 충성도를 높인다는 방침이다. SSG닷컴 관계자는 &quot;다양한 카테고리의 인기 브랜드와 제휴를 확대해 멤버십 기반을 넓혀 나갈 계획... ",
-        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204643",
-        "pub_date": "2026.07.27",
-        "reason": "경쟁사 멤버십 브랜드 제휴 확대",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
-        "queries": [
-          "멤버십 혜택",
-          "브랜드 제휴"
-        ]
-      },
-      {
-        "title": "“이번엔 배스킨라빈스” SSG닷컴, ‘쓱7클럽’ 브랜드 혜택 확대",
-        "topic": "SSG닷컴 쓱7클럽 제휴 확대",
-        "insight": "SSG닷컴이 배스킨라빈스 등 브랜드 제휴를 통해 쓱7클럽 멤버십 혜택 다각화",
-        "desc": "월 1000원을 추가로 내면 OTT 티빙 콘텐츠 혜택도 누릴 수 있다. 이 기간 쓱닷컴은 멤버십 회원을 대상으로 배스킨라빈스 5000원 할인 쿠폰을 계정(ID)당 1매씩 지급한다. 쿠폰은 2만5000원 이상 구매 시 사용할 수 있다.... ",
-        "link": "https://magazine.hankyung.com/business/article/202607277214b",
-        "pub_date": "2026.07.27",
-        "reason": "경쟁사 배스킨라빈스 제휴 확대",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
-        "queries": [
-          "멤버십 혜택",
-          "브랜드 제휴"
-        ]
-      },
-      {
-        "title": "SSG닷컴 멤버십 '쓱7클럽', 브랜드 제휴 혜택 강화",
-        "topic": "SSG닷컴 쓱7클럽 제휴 확대",
-        "insight": "SSG닷컴이 배스킨라빈스 등 브랜드 제휴를 통해 쓱7클럽 멤버십 혜택 다각화",
-        "desc": "배스킨라빈스와 제휴 연계 프로모션 진행…제휴 지속 추진  SSG닷컴이 브랜드와 제휴해 자사 멤버십 '쓱7클럽'의 혜택을 강화한다. SSG닷컴은 배스킨라빈스와 협업해 오는 8월 31일가지 멤버십 쓱7클럽 연계... ",
-        "link": "http://www.srtimes.kr/news/articleView.html?idxno=208355",
-        "pub_date": "2026.07.27",
-        "reason": "경쟁사 멤버십 제휴 혜택 강화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
-        "queries": [
-          "멤버십 혜택",
-          "브랜드 제휴"
-        ]
-      },
-      {
-        "title": "이통 3사, 세계 1위 AI 글래스 '레이밴 메타' 동시 출격…혜택 경쟁 불붙...",
-        "topic": "통신사 레이밴메타 프리미엄 경쟁",
-        "insight": "이통 3사가 AI 글래스 레이밴 메타 취급으로 프리미엄 고객층 혜택 경쟁 심화",
-        "desc": "KT는 다이렉트샵 구매 고객에게 KT 멤버십 10% 할인 혜택을 즉시 제공한다. '요고69 요금제 디바이스 B형' 선택 시 24개월 할부 기준 월 1만6000원대에 이용할 수 있다. 오는 8월 3일부터는 전국 일반 대리점으로 유통망을... ",
-        "link": "https://economist.co.kr/article/view/ecn202607220022",
-        "pub_date": "2026.07.22",
-        "reason": "이통 3사 레이밴메타 혜택 경쟁, 즉시 대응 필요",
+        "reason": "통신3사 AI 할인 경쟁 본격화, 차별화 필요",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
+        "datalab_score": 58.3,
+        "datalab_velocity": 8.3,
         "queries": [
-          "멤버십 혜택"
+          "휴대폰 할인"
+        ]
+      },
+      {
+        "title": "배달업계 2위 쿠팡이츠, 장거리 배달 도입…배민·우버 연합군 견제",
+        "topic": "배달앱 우버 시장 진입",
+        "insight": "우버가 배민 인수로 국내 배달시장 진입, 장거리 배달 등 새로운 전략으로 기존 배민-쿠팡이츠 구도 재편",
+        "desc": "현재 쿠팡이츠는 국내 음식 배달 시장 1위 자리를 놓고 배달의민족(배민)과 치열한 경쟁을 벌이고 있다. 이런 가운데 글로벌 모빌리티 기업 우버가 배민 모회사인 딜리버리히어로를 인수하기로 결정하면서 국내 배달... ",
+        "link": "https://www.busan.com/view/busan/view.php?code=2026072710334612841",
+        "pub_date": "2026.07.27",
+        "reason": "배달앱 경쟁 심화, T멤버십 배달혜택 전략 검토 필수",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "우버가 노린 韓 음식 배달 시장, 올해 더 커진다…역대 최대 전망",
+        "topic": "배달앱 우버 시장 진입",
+        "insight": "우버가 배민 인수로 국내 배달시장 진입, 장거리 배달 등 새로운 전략으로 기존 배민-쿠팡이츠 구도 재편",
+        "desc": "1~5월 온라인 음식 거래 18조원 단순 연환산해도 44조원 기록 전망 무료배달과 소액 주문 확산 영향 우버 DH 인수 후 가격·기술 경쟁 심화될 듯 국내 온라인 음식배달 시장이 올해도 성장해 역대 최대 거래액을 기록할... ",
+        "link": "https://www.etnews.com/20260728000094",
+        "pub_date": "2026.07.28",
+        "reason": "우버 음식배달 공격적 진출, T멤버십 배달 경쟁 악화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장"
         ]
       },
       {
         "title": "배민 품은 우버…글로벌 AI·모빌리티 공룡이 바꿀 한국 배달시장",
-        "topic": "우버 배민 인수 시장영향",
-        "insight": "우버가 배민 인수로 글로벌 AI·모빌리티 역량을 한국 배달시장에 결합",
+        "topic": "배달앱 우버 시장 진입",
+        "insight": "우버가 배민 인수로 국내 배달시장 진입, 장거리 배달 등 새로운 전략으로 기존 배민-쿠팡이츠 구도 재편",
         "desc": "업계에서는 이번 인수가 국내 배달시장의 경쟁 구도를 바꾸는 동시에 생활 플랫폼 중심의 경쟁을 앞당기는 계기가 될 것으로 보고 있다. ◇ 우버는 왜 배달의민족을 인수했나…한국이 필요한 이유 26일 모빌리티 및 배달... ",
         "link": "https://www.sentv.co.kr/article/view/sentv202607240185",
         "pub_date": "2026.07.26",
-        "reason": "우버-배민 인수합병, 배달시장 지각변동 위기",
+        "reason": "우버-배민 통합으로 배달시장 판도 급변화",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -583,193 +402,205 @@
         ]
       },
       {
-        "title": "[우버 배민 인수]② 배달·택시 묶는 '우버원', 시너지엔 물음표",
-        "topic": "우버 배민 인수 시장영향",
-        "insight": "우버가 배민 인수로 글로벌 AI·모빌리티 역량을 한국 배달시장에 결합",
-        "desc": "앞서 글로벌 시장에서 이동과 배달 서비스를 묶은 우버원을 운영하고 있는 만큼, 한국에서도 식생활과 이동을 아우르는 통합 멤버십 모델을 도입할 가능성이 높다는 분석이다. 지난해 9월 네이버와 손잡고... ",
-        "link": "https://www.bloter.net/news/articleView.html?idxno=668530",
-        "pub_date": "2026.07.21",
-        "reason": "우버원 통합 서비스, 배달-택시 번들 경쟁 심화",
+        "title": "[격전의 배달앱 생태계] '배달앱 1위' 배민 품는 우버... 배달수수료·마...",
+        "topic": "배달앱 우버 시장 진입",
+        "insight": "우버가 배민 인수로 국내 배달시장 진입, 장거리 배달 등 새로운 전략으로 기존 배민-쿠팡이츠 구도 재편",
+        "desc": "과열된 마케팅 비용 부담과 배달 중개 수수료 인상 가능성이 나오면서 자본 전쟁으로 불거질 수 있다는... 이에 대해 배민 관계자는 &quot;현시점에서 세부적인 운영 방안이나 통합 마케팅 계획을 밝히기는 어렵다&quot;고 말했다.... ",
+        "link": "https://www.ajunews.com/view/20260722195927952",
+        "pub_date": "2026.07.23",
+        "reason": "배민·우버 통합, 배달앱 판도 변화 급박",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "배달 시장"
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "배민 품은 우버···국내 배달앱 판도 다시 흔든다",
+        "topic": "배달앱 우버 시장 진입",
+        "insight": "우버가 배민 인수로 국내 배달시장 진입, 장거리 배달 등 새로운 전략으로 기존 배민-쿠팡이츠 구도 재편",
+        "desc": "배민 역시 배민클럽을 중심으로 대응하고 있지만 플랫폼 경쟁이 장기화하면서 할인과 마케팅 비용 부담도 커지고 있다. 이런 상황에서 우버의 지원은 배민의 경쟁력을 끌어올릴 새로운 동력이 될 수 있다는 평가다.... ",
+        "link": "https://www.seoulfn.com/news/articleView.html?idxno=633956",
+        "pub_date": "2026.07.23",
+        "reason": "배민·우버 통합 공식화, 배달앱 경쟁 구도 재편",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "이통3사, ‘갤럭시 Z 폴더블8’ 사전예약 돌입…혜택 경쟁 후끈",
+        "topic": "통신사 갤럭시Z 가입자 경쟁",
+        "insight": "통신 3사가 갤럭시Z8 출시를 앞두고 AI 할인 등 차별화된 혜택으로 가입자 확보 경쟁 시작",
+        "desc": "SKT, 넷플릭스 협업·T멤버십 혜택 강화 28일 업계에 따르면 SK텔레콤은 이날부터 8월 3일까지 7일간 갤럭시 Z 폴드8 울트라·Z 폴드8·Z 플립8 사전예약 프로모션에 돌입한다. SKT는 새로운 폴더블 모델이 4대3 비율의... ",
+        "link": "https://www.dailian.co.kr/news/view/1671814/?sc=Naver",
+        "pub_date": "2026.07.28",
+        "reason": "통신사 멤버십 기반 구독·서비스 혜택 경쟁",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 58.3,
+        "datalab_velocity": 8.3,
+        "queries": [
+          "멤버십 혜택",
+          "휴대폰 할인"
+        ]
+      },
+      {
+        "title": "AI쇼핑 경쟁 불붙었다…쿠팡·G마켓 등 가세",
+        "topic": "이커머스 AI쇼핑 경쟁",
+        "insight": "쿠팡, G마켓 등 주요 이커머스 플랫폼이 AI 기술 활용한 개인화 쇼핑 경험으로 고객 확보 경쟁 가열",
+        "desc": "◆ 11번가 등도 AI쇼핑 경쟁 참여 컬리는 식품 특화 AI 검색을 앞세웠다. 올리브오일과 치즈 등을 대상으로 AI 검색을 시범운영하고 있으며 연내 적용 상품군을 확대할 계획이다. 11번가는 초개인화 추천 서비스 'Ai홈'을... ",
+        "link": "https://www.mk.co.kr/article/12108607",
+        "pub_date": "2026.07.27",
+        "reason": "쿠팡·G마켓 AI 쇼핑 경쟁 심화",
+        "priority": 2,
+        "cross_query_count": 1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "여름휴가 해외여행족 주목… 하나카드, 삼성월렛으로 결제하면 포인트...",
+        "topic": "카드사 해외여행 프로모션",
+        "insight": "하나카드가 삼성월렛 결제 시 포인트 제공 등 여름 해외여행 고객 유치 프로모션 전개",
+        "desc": "본격적인 여름휴가 시즌을 맞아 해외로 떠나는 여행객이라면 눈여겨볼 만한 카드가 나왔다. 하나카드는 자사의 해외여행 특화 서비스 '트래블로그'에 삼성전자의 간편결제 서비스 '삼성월렛' 기능을 얹은 '삼성 월렛... ",
+        "link": "https://www.tournews21.com/news/articleView.html?idxno=139535",
+        "pub_date": "2026.07.28",
+        "reason": "카드사의 여름 시즌 포인트 강화, T멤버십 카드 경쟁력 검토",
+        "priority": 2,
+        "cross_query_count": 1,
+        "datalab_score": 64.7,
+        "datalab_velocity": 15.5,
+        "queries": [
+          "여름 휴가 시즌"
+        ]
+      },
+      {
+        "title": "G마켓, 여름 소비 공략 '브랜드 페스타' 개최... &quot;76개 브랜드 참여&quot;",
+        "topic": "이커머스 AI쇼핑 경쟁",
+        "insight": "쿠팡, G마켓 등 주요 이커머스 플랫폼이 AI 기술 활용한 개인화 쇼핑 경험으로 고객 확보 경쟁 가열",
+        "desc": "사진=G마켓 여름 휴가철을 앞두고 이커머스업계가 계절 수요를 겨냥한 대형 할인 행사에 잇달아 나서고 있다.... G마켓은 브랜드 할인과 시즌 기획전을 결합한 프로모션을 통해 여름 쇼핑 수요 공략에 나선다. G마켓은 오는... ",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204789",
+        "pub_date": "2026.07.28",
+        "reason": "경쟁 이커머스 여름 소비 공략, 멤버십 경쟁 모니터링",
+        "priority": 2,
+        "cross_query_count": 1,
+        "datalab_score": 64.7,
+        "datalab_velocity": 15.5,
+        "queries": [
+          "여름 휴가 시즌"
         ]
       }
     ],
     "benchmark": [
       {
-        "title": "&quot;여름 휴가철 여행객 잡아라&quot;…카드사 할인·캐시백 경쟁",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "항공권과 숙박 할인은 물론 해외 결제 캐시백, 무료 환전, 워터파크 이용권 할인 등 다양한 혜택을 내세워... 한편 금융감독원은 해외 카드 사용이 늘어나는 휴가철을 맞아 소비자들에게 보안 관리에 각별히 유의할 것을... ",
-        "link": "https://www.namdonews.com/news/articleView.html?idxno=918028",
-        "pub_date": "2026.07.26",
-        "reason": "여름휴가 시즌 카드사 할인 경쟁 사례",
+        "title": "장마 끝 폭염 시작…롯데온·에이블리, ‘여름 막바지 할인’ 전개",
+        "topic": "롯데온 여름 시즌 할인",
+        "insight": "롯데온이 장마 종료 후 폭염 시기에 여름상품 할인 캠페인 'laStchance' 전개, 최대 20% 할인으로 계절성 수요 포착",
+        "desc": "소비자를 위해 ‘도착보장관’도 운영한다. 비치웨어와 래시가드, 롱 원피스, 샌들, 슬리퍼, 언더웨어는 물론 강한 자외선과 실내 냉방에 대비할 수 있는 이른바 ‘살안타템’도 도착보장 서비스를 통해 제공한다. 할인... ",
+        "link": "https://www.news2day.co.kr/article/20260728500074",
+        "pub_date": "2026.07.28",
+        "reason": "여름 시즌 할인 프로모션 기획 참고",
         "priority": 2,
         "cross_query_count": 3,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 64.7,
+        "datalab_velocity": 15.5,
         "queries": [
           "소비자 할인",
-          "여름 휴가 마케팅",
-          "휴가철 할인"
+          "여름 휴가 시즌",
+          "폭염 프로모션"
         ]
       },
       {
-        "title": "SK렌터카, 여름 휴가철 '에코랜드·오설록·할리스' 제휴 혜택",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "SK렌터카가 주요 브랜드와 제휴를 맺고 여름 휴가철 고객 혜택을 제공한다. SK렌터카는 제주 지점에서 에코랜드·오설록·할리스와 다양한 제휴 프로그램을 진행한다고 24일 밝혔다. 이날부터 오설록 티백 증정과 매장... ",
-        "link": "https://www.etnews.com/20260724000103",
-        "pub_date": "2026.07.24",
-        "reason": "SK렌터카 시즈널 제휴 혜택 모델 참고",
-        "priority": 2,
-        "cross_query_count": 3,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "브랜드 제휴",
-          "여름 휴가 마케팅",
-          "휴가철 할인"
-        ]
-      },
-      {
-        "title": "SSG닷컴, '간편식 페스타' 개최…여름 먹거리 할인 및 멤버십 혜택 강화",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "이와 함께 OTT 시청용 야식 기획전도 마련해 멤버십 회원을 위한 추가 혜택을 지원합니다. 특히 장보기 7% 적립 혜택의 '쓱7클럽' 회원 대상 최대 50% 랜덤 할인 쿠폰 추첨과 매일 오전 9시 선착순 3천 원 장보기 지원금... ",
-        "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4096634",
-        "pub_date": "2026.07.23",
-        "reason": "여름 시즌 먹거리 할인 멤버십 연계",
+        "title": "롯데온, 여름상품 할인 ‘라스트찬스’ 外 CU‧GS샵‧LX하우시스 [유통...",
+        "topic": "롯데온 여름 시즌 할인",
+        "insight": "롯데온이 장마 종료 후 폭염 시기에 여름상품 할인 캠페인 'laStchance' 전개, 최대 20% 할인으로 계절성 수요 포착",
+        "desc": "상품을 할인한다. CU는 누적 판매량 50만잔을 돌파한 ‘리얼 스무디’를 전국 500여 점까지 확대하며 편의점... 및 소비자 평가를 종합적으로 검토해 선정한다. 올해 심사에서 ‘뷰프레임’ 창호는 에너지소비효율... ",
+        "link": "https://www.kukinews.com/article/view/kuk202607280059",
+        "pub_date": "2026.07.28",
+        "reason": "여름 시즌 할인 기획 참고 사례",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 21.3,
-        "datalab_velocity": -18.6,
-        "queries": [
-          "멤버십 혜택",
-          "여름 휴가 마케팅"
-        ]
-      },
-      {
-        "title": "&quot;여행 할인받고 떠나세요&quot;…카드업계, 휴가철 프로모션 '풍성'",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "국내외 숙박과 항공권 할인부터 워터파크 입장권, 해외 결제 캐시백, 무료 환전, 해외 이용 특화 서비스까지... 한편 금융감독원은 여름 휴가철 해외 카드 이용이 늘어나는 만큼 소비자들의 각별한 주의를 당부했다. 해외... ",
-        "link": "https://www.newsis.com/view/NISX20260724_0003722748",
-        "pub_date": "2026.07.25",
-        "reason": "카드사 휴가철 프로모션 동향, 경쟁 구도 모니터링",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 64.7,
+        "datalab_velocity": 15.5,
         "queries": [
           "소비자 할인",
-          "휴가철 할인"
+          "여름 휴가 시즌"
         ]
       },
       {
-        "title": "SK렌터카 제주지점, 에코랜드·오설록·할리스와 여름 제휴",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "올여름에는 에코랜드, 오설록, 할리스와 손잡고 제주 여행객을 위한 다양한 제휴 혜택을 선보이며 관광객과 브랜드, 지역 기업을 연결하는 전략적 마케팅 허브로서의 역할을 강화한다. SK렌터카는 이 번 여름 휴가철... ",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03083206645517800",
-        "pub_date": "2026.07.24",
-        "reason": "SK렌터카 여름 제휴, 통신사 제휴 구조 참고",
+        "title": "롯데온, 휴가 막차 쇼핑객 잡는다…'라스트찬스' 행사로 최대 20% 할인",
+        "topic": "롯데온 여름 시즌 할인",
+        "insight": "롯데온이 장마 종료 후 폭염 시기에 여름상품 할인 캠페인 'laStchance' 전개, 최대 20% 할인으로 계절성 수요 포착",
+        "desc": "업계 관계자는 &quot;휴가 시즌에는 여행용품과 패션, 뷰티 상품을 한 번에 구매하려는 소비가 집중되는 만큼 대형 할인 행사 경쟁도 한층 치열해지고 있다&quot;며 &quot;가격 혜택과 간편결제를 결합한 프로모션이 소비자 유입을... ",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=535803",
+        "pub_date": "2026.07.28",
+        "reason": "여름 시즌 할인 캠페인 기획 벤치마킹",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 64.7,
+        "datalab_velocity": 15.5,
         "queries": [
-          "브랜드 제휴",
-          "여름 휴가 마케팅"
+          "소비자 할인",
+          "여름 휴가 시즌"
         ]
       },
       {
-        "title": "파파존스, 아이브와 여름 마케팅…피자 할인에 한정판 굿즈까지",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "체험형 마케팅을 강화하고 있다. 한국파파존스는 전속모델 아이브(IVE)의 한정판 홀로그램 포토카드를... 이번 프로모션은 오는 9월 6일까지 진행되며, 파파존스 공식 홈페이지와 모바일 앱, 콜센터, 매장 방문 및 전화... ",
-        "link": "https://www.e-science.co.kr/news/articleView.html?idxno=132322",
-        "pub_date": "2026.07.23",
-        "reason": "파파존스 K-POP 마케팅 할인, 시즌 할인 구조 참고",
+        "title": "설빙, 여름 빙수 마케팅 강화... 시즌 메뉴 할인 프로모션 진",
+        "topic": "설빙 여름 시즌 프로모션",
+        "insight": "설빙이 여름 빙수 시즌 메뉴 할인 프로모션으로 마케팅 강화, 폭염기 계절 수요층 공략",
+        "desc": "설빙도 시즌 한정 메뉴를 대상으로 할인 행사를 마련하며 여름 마케팅을 강화한다. 설빙은 여름 시즌 메뉴 7종을 대상으로 공식 앱 할인 프로모션을 진행한다고 밝혔다. 이번 행사에서는 공식 앱을 통해 선착순 1만명에게... ",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204591",
+        "pub_date": "2026.07.24",
+        "reason": "여름 시즌 음식 브랜드 마케팅 참고",
         "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
           "앱 마케팅",
-          "여름 휴가 마케팅"
+          "폭염 프로모션"
         ]
       },
       {
-        "title": "[푸드·다이닝 트렌드] &quot;오늘 뭐 해 먹이지?&quot;…한우자조금, 여름방학 아...",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "ⓒ삼립 삼립이 최근 소비 트렌드로 자리 잡은 '부드러운 식감'을 반영한 신제품 '설기이야기'를 출시했다. 최근 소비자들은 음식의 맛뿐 아니라 씹는 즐거움과 입안에서 느껴지는 질감까지 중요하게 여기는 '식감 소비... ",
-        "link": "https://www.ibabynews.com/news/articleView.html?idxno=153133",
-        "pub_date": "2026.07.23",
-        "reason": "여름방학 식재 프로모션 사례",
+        "title": "할인 쿠폰 준다…예스24, 여름방학 맞이 도서 기획전·오디오북 썸머 페...",
+        "topic": "예스24 여름방학 도서 캠페인",
+        "insight": "예스24가 여름방학 시즌 도서 기획전과 오디오북 할인 쿠폰으로 학생층 공략 강화",
+        "desc": "최근 휴가지나 이동 중에 간편하게 책을 읽으려는 소비자가 늘면서 오디오북의 인기가 한층 높아졌다.... 70% 할인 판매한다. 조너선 하이트의 '불안 세대', 이광수의 '진보를 위한 주식투자', 김창완의 '찌그러져도... ",
+        "link": "https://www.wikitree.co.kr/articles/1148856",
+        "pub_date": "2026.07.28",
+        "reason": "도서·오디오북 여름 프로모션, 시즌 할인 참고용",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 67.6,
-        "datalab_velocity": -34.3,
-        "queries": [
-          "소비 트렌드",
-          "여름 음식 프로모션"
-        ]
-      },
-      {
-        "title": "명륜진사갈비, 휴가철 맞아 온라인 식사권 할인 행사 마련",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "프랜차이즈 외식업계 관계자는 &quot;최근 외식 물가 상승으로 인해 모바일 쿠폰과 할인권을 활용하는 소비자가 늘고 있다&quot;며 &quot;브랜드 입장에서도 비수기와 특정 시즌 수요를 연결하고 신규 고객 유입을 위한 온라인 판매... ",
-        "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5044546",
-        "pub_date": "2026.07.26",
-        "reason": "명륜진사갈비 휴가철 할인, 시즌 프로모션 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 64.7,
+        "datalab_velocity": 15.5,
         "queries": [
           "소비자 할인",
-          "휴가철 할인"
+          "여름 휴가 시즌"
         ]
       },
       {
-        "title": "설빙, 여름 빙수 마케팅 강화... 시즌 메뉴 할인 프로모션 진",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "계절 과일을 활용한 신메뉴를 잇달아 선보이는 데 이어 할인 프로모션을 통해 소비자 접점을 확대하며 여름 고객 공략에 속도를 내는 모습이다. 설빙도 시즌 한정 메뉴를 대상으로 할인 행사를 마련하며 여름 마케팅을... ",
-        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=204591",
-        "pub_date": "2026.07.24",
-        "reason": "설빙 여름 시즌 프로모션, 계절 마케팅 참고",
+        "title": "에버랜드 여름축제 시작…밤밤 썸머 나이트·워터파티로 열대야 날린다",
+        "topic": "에버랜드 여름축제 이벤트",
+        "insight": "에버랜드가 썸머 나이트·워터파티 등 야간 축제로 폭염 시기 레저 수요 대응",
+        "desc": "에버랜드가 본격적인 여름 휴가철을 맞아 열대야를 시원하게 식혀줄 야간 워터 콘텐츠를 대폭 확대한다.... '밤밤 썸머 나이트'는 낮 시간 대표 워터 공연인 '슈팅워터펀 시즌2'에 이어 밤 시간대 펼쳐지는 메인 콘텐츠다.... ",
+        "link": "https://www.kizmom.com/news/articleView.html?idxno=111754",
+        "pub_date": "2026.07.27",
+        "reason": "테마파크 여름축제 이벤트, 시즈널 기획 참고용",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 64.7,
+        "datalab_velocity": 15.5,
         "queries": [
-          "소비자 할인",
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "BBQ, 필크런치 출시 기념 앱 전용 할인 행사 진행",
-        "topic": "여름 휴가철 할인 경쟁",
-        "insight": "카드사·렌터카·식음료 업계, 여름 휴가철 맞춰 할인·캐시백·제휴 프로모션 확대",
-        "desc": "BBQ가 신메뉴 '필크런치' 출시를 맞아 앱 이용 고객을 대상으로 선착순 할인 행사를 운영한다. 24일... 있는 행사를 마련했다&quot;며 &quot;앞으로도 신메뉴와 다양한 마케팅을 연계해 소비자 접점을 확대해 나갈 계획&quot;이라고 말했다.",
-        "link": "http://www.lawissue.co.kr/view.php?ud=202607240857136119204ead0791_12",
-        "pub_date": "2026.07.24",
-        "reason": "BBQ 앱 전용 할인, 타사 할인 구조 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인",
-          "앱 마케팅"
+          "여름 휴가 시즌",
+          "여름 축제 이벤트"
         ]
       }
     ]
