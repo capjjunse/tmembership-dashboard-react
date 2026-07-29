@@ -100,8 +100,7 @@ export default function Overview() {
             <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">T day Day3 종료 (7.22)</span></div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">T day Day4 오픈 (7.29~8.2)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em>T day Day4 오픈 (7.29~8.2)</div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>오붓·플래시백·해커스 혜택 신규 (7.1~)</div>
@@ -117,7 +116,7 @@ export default function Overview() {
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달초이스 2차·컬처앤모어 진행중 (7.15~7.31)</div>
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">고객보답 2차 진행중 (7.16~7.31)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>고객보답 2차 진행중 (7.16~7.31)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>오토오아시스 부가정비 혜택 추가 (7.1~)</div>
@@ -133,8 +132,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">장기고객데이 종료 (7.23) · 7월 완료</span></div>
-            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">투쁠데이 종료 (7.21)</span></div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">유플투쁠 7월 완료 (7.23 장기고객데이 마지막)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>프린트베이커리 등 혜택 신규 (7.1~)</div>

@@ -73,22 +73,22 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (7.29~8.2)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 4 (7.29~8.2)</span></div>
               <ul className="mblist">
-                <li><span className="upd">뚜레쥬르 1천원당300원할인/적립(최대6천원)</span></li>
-                <li><span className="upd">할리스 음료2종50%할인(~8.1)</span></li>
-                <li><span className="upd">다운타우너 버거세트35%할인+애프터쿠폰(~8.2)</span></li>
-                <li><span className="upd">롤링파스타 5천원할인(9.5천원↑주문시,~8.2)</span></li>
+                <li>뚜레쥬르 1천원당300원할인/적립(최대6천원)</li>
+                <li>할리스 음료2종50%할인(~8.1)</li>
+                <li>다운타우너 버거세트35%할인+애프터쿠폰(~8.2)</li>
+                <li>롤링파스타 5천원할인(9.5천원↑주문시,~8.2)</li>
               </ul>
             </div>
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">Day4 D-2 공개 · 식음4종 뚜레쥬르 등</span></div>
+            <div className="mpnt-concept"><span className="upd">Day4 7.29 오픈 · 쿠폰 최장8.2 마감</span></div>
             <ul className="mpnt-list">
-              <li><span className="upd">Day4 7.29 · 뚜레쥬르·할리스·다운타우너4종</span></li>
-              <li><span className="upd">Day3 종료 · 던킨VIP50%·쉐이크쉑VIP40%</span></li>
-              <li><span className="upd">쿠폰기간 최장8.2 · 7월 완주 임박</span></li>
+              <li>Day4 7.29 · 뚜레쥬르·할리스·다운타우너4종</li>
+              <li>Day3 종료 · 던킨VIP50%·쉐이크쉑VIP40%</li>
+              <li><span className="upd">쿠폰기간 최장8.2 · 7월 T day 완주</span></li>
             </ul>
           </div>
         </div>
@@ -106,10 +106,10 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span className="upd">고객보답 2차 (7.16~7.31)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>고객보답 2차 (7.16~7.31)</span></div>
               <ul className="mblist">
-                <li><span className="upd">쇼핑라운지 5천원할인(전등급)</span></li>
-                <li><span className="upd">파리바게뜨 최대50%할인(전등급)</span></li>
+                <li>쇼핑라운지 5천원할인(전등급)</li>
+                <li>파리바게뜨 최대50%할인(전등급)</li>
               </ul>
             </div>
             <div className="mblk">
@@ -131,10 +131,10 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">달달초이스 2종마감 · 고객보답2차 신설</span></div>
+            <div className="mpnt-concept">달달초이스 2종마감 · 고객보답2차 신설</div>
             <ul className="mpnt-list">
-              <li><span className="upd">달달초이스 3종잔류 · 크제이드·도미노·폴바셋</span></li>
-              <li><span className="upd">고객보답 2차 · 쇼핑라운지+파리바게뜨</span></li>
+              <li>달달초이스 3종잔류 · 크제이드·도미노·폴바셋</li>
+              <li>고객보답 2차 · 쇼핑라운지+파리바게뜨</li>
             </ul>
           </div>
         </div>
@@ -253,10 +253,10 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ml">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">7.23 장기고객데이로 7월 완료</span></div>
+            <div className="mpnt-concept">7.23 장기고객데이로 7월 완료</div>
             <ul className="mpnt-list">
-              <li><span className="upd">7월 전 일정 종료 · 투쁠11회+컬처+유쓰+장기</span></li>
-              <li><span className="upd">장기고객데이 · 다이소·그날들·윌라로 마무리</span></li>
+              <li>7월 전 일정 종료 · 투쁠11회+컬처+유쓰+장기</li>
+              <li>장기고객데이 · 다이소·그날들·윌라로 마무리</li>
             </ul>
           </div>
         </div>

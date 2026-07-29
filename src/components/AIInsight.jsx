@@ -445,7 +445,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · <span className="upd">Day4(7.29) COMING SOON · 기존 8건 유지 · skt-kt/kt-lgu/3사공통 미해당</span>)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · <span className="upd">Day4(7.29~8.2) 뚜레쥬르·할리스·다운타우너·롤링파스타 — 타사 겹침 없음 · 8건 유지</span>)</div>
         </div>
       </div>
 
