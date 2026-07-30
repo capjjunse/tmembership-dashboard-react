@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">SKT, 8~9월 고객 혜택 확대 — 에어 요금제 첫 달 70% 포인트·영화 반값·멤버십 혜택</span></span></div>
+            <div className="nsum"><span className="upd">에어 요금제 신규 가입 시 월정액 70% 수준의 포인트 혜택 제공(8월 1~31일). 만 34세 이하 고객 대상 CGV 영화 관람권 50% 할인을 월 1장에서 월 2장으로 확대. 8~9월 T멤버십 매주 Big 3 제휴사 50% 이상 할인, 여행 및 로밍 혜택 강화.</span></div>
+            <div className="nmeta"><span className="upd">2026-07-30</span> · <a href="https://news.sktelecom.com/228562" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 휴가철 로밍·멤버십 혜택 꽉 채웠다</span></div>
             <div className="nsum">여름 휴가철을 맞아 T 로밍 프로모션과 T 멤버십 혜택을 강화하여 운영. 해외여행 시 로밍 특가와 함께 국내 T멤버십 혜택(0 week, 제휴사 할인 등)을 동시에 제공.</div>
             <div className="nmeta">2026-07-13 · <a href="https://news.sktelecom.com/227702" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -67,6 +72,11 @@ export default function News() {
 
       {tab === 'kt' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">KT, 여름 휴가철 고객 혜택 확대 — 케.멤.페 공항라운지·캐리비안 베이·롯데렌터카 50~60% 할인</span></span></div>
+            <div className="nsum"><span className="upd">8월 3~31일 케이티 멤버십 페스타 기간 공항라운지 1만원 할인, 캐리비안 베이 본인·동반 50% 할인, 롯데렌터카 60% 할인, 아고다 국내 10%·해외 12% 할인, GS칼텍스 3천원 할인(3만원 이상 주유 시). 달달혜택으로 배스킨라빈스 30%, 공차 50%, 쇼핑라운지 5천원 할인. 뮤지컬·전시·영화 문화혜택도 강화.</span></div>
+            <div className="nmeta"><span className="upd">2026-07-30</span> · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19251" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">KT멤버십, 국가서비스대상 수상 기념 고객 참여형 이벤트 진행</span></div>
             <div className="nsum">KT가 2026 국가서비스대상 통신 멤버십 부문 대상 수상을 기념해 고객 참여형 이벤트를 진행합니다. 7월 2일~14일 KT멤버십 앱 내 취향 밸런스 게임으로 다이소 금액권·외식 할인 쿠폰 증정, 추첨 시 프리미엄 숙박권도 제공. 7월 1~15일 고객 보답 프로그램으로 배스킨라빈스 50%, 쇼핑라운지 5천원 할인 중 선택. 달달혜택은 폴바셋·크리스탈 제이드·VIPS·도미노피자·메가MGC커피 등 일상 활용도 높은 브랜드 구성.</div>
