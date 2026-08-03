@@ -101,6 +101,7 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw4' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx"><span className="upd">VIP픽 혜택으로 표준 요금제로 내리는 중 — "어제 네이버페이 5만원 받고 오늘 VIP픽 혜택도 사용해서 더이상 유지할 필요가없을것같은데 표준으로 내리셨나요?"</span></div><div className="rsrc"><span className="upd">2026.08.01</span> · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=phone&no=3930160" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">티멤 너무 구려졌네 — "유튜브 프리미엄 조금 싸게 쓸수있는 유일한 수단이였는데 3개월 날먹 날려버렸네" / T 멤버십 VIP PICK T우주패스 혜택 8월 1일부터 변경 / 댓글: "뭐 잘쓰고잇으면 없애고 또 골라서 쓰면 없애고ㅋㅋㅋ" "후추 아주 질나쁜녀석들.."</div><div className="rsrc">2026.07.09 · <a href="https://www.fmkorea.com/10063144867" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
