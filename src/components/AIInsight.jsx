@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.07.29';
+const RADAR_SCANNED = '2026.08.03';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -256,49 +256,49 @@ const alVdLabel = { warn: 'T멤버십 열위', good: 'T멤버십 우위', neut: 
 export const recs = [
   {
     rank: 1,
-    brand: '노모어피자',
-    tag: '매장 216개 · DataLab 📈1.26',
-    reason: 'DataLab 1.26 상승세 · 뉴스 89건. 저단가 피자 포지션으로 피자헛·도미노와 차별화. SKT 미참여 상태.',
+    brand: '설빙',
+    tag: <span className="upd">매장 606개 · DataLab ↗1.27</span>,
+    reason: '아이스디저트 카테고리 1위 · 전국 606개. Tday 5개월 공백 지속. 7.20 위생 논란 공식 사과 완료 — 전 매장 특별점검 후 진정세, 브랜드 회복 추이 모니터링 중.',
     reach: [
-      { label: '매장 규모', text: '전국 216개 · 피자 카테고리 저단가 포지션 (피자헛·도미노 대비 접근성 우위)' },
-      { label: '검색 버즈', text: 'DataLab 📈1.26 · 블로그 4.7만 · 뉴스 89건' },
+      { label: '매장 규모', text: '전국 606개 · 아이스디저트 카테고리 1위' },
+      { label: '검색 버즈', text: <span className="upd">DataLab ↗1.27 · 블로그 74만 · 카페 23만 · 뉴스 100건 — 위생 논란 이후 부정 버즈 포함</span> },
+      { label: '제휴 포인트', text: <span className="upd">2026.03 이후 Tday 공백 5개월 · 위생 논란 공식 사과 완료(7.20) · 브랜드 회복 추이 모니터링 중</span> },
+    ],
+    trend: <span className="upd">DataLab 1.27 · 블로그 74만 · 카페 23만 · 뉴스 100건</span>,
+    hot: true,
+    skt: [
+      { prog: 'Tday', active: false, last: '2026.03', gap: '5개월 공백' },
+    ],
+    kt:  null,
+    lgu: null,
+  },
+  {
+    rank: 2,
+    brand: '노모어피자',
+    tag: <span className="upd">매장 215개 · DataLab 📈1.18</span>,
+    reason: '저단가 피자 포지션으로 피자헛·도미노와 차별화. 전지현 광고 모델 발탁·레이먼킴 콜라보로 브랜드 인지도 확장 중. SKT 미참여 상태.',
+    reach: [
+      { label: '매장 규모', text: '전국 215개 · 피자 카테고리 저단가 포지션 (피자헛·도미노 대비 접근성 우위)' },
+      { label: '검색 버즈', text: <span className="upd">DataLab 📈1.18 · 블로그 4.7만 · 뉴스 54건 — 전지현 모델·레이먼킴 신메뉴 콜라보 버즈</span> },
       { label: '제휴 포인트', text: 'SKT 미참여 · 저단가 피자 세분 시장 공백 — 가짜치즈 논란·영업적자 이력, 브랜드 신뢰도 모니터링 필요' },
     ],
-    trend: 'DataLab 1.26 · 블로그 4.7만 · 뉴스 89건',
+    trend: <span className="upd">DataLab 1.18 · 블로그 4.7만 · 뉴스 54건</span>,
     hot: true,
     skt: [],
     kt:  null,
     lgu: null,
   },
   {
-    rank: 2,
-    brand: '설빙',
-    tag: '매장 605개 · DataLab ↗1.23',
-    reason: '아이스디저트 카테고리 1위 · 전국 605개. Tday 4개월+ 공백 지속. 7.20 위생 논란 공식 사과 발표 — 브랜드 리스크 모니터링 중.',
-    reach: [
-      { label: '매장 규모', text: '전국 605개 · 아이스디저트 카테고리 1위' },
-      { label: '검색 버즈', text: 'DataLab ↗1.23 · 블로그 75만 · 카페 24만 · 뉴스 100건 — 위생 논란 이후 부정 버즈 급증' },
-      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 4개월 지속 · 7.20 위생 논란 공식 사과, 브랜드 이미지 타격 진행 중' },
-    ],
-    trend: 'DataLab 1.23 · 블로그 75만 · 카페 24만 · 뉴스 100건',
-    hot: true,
-    skt: [
-      { prog: 'Tday', active: false, last: '2026.03', gap: '4개월 공백' },
-    ],
-    kt:  null,
-    lgu: null,
-  },
-  {
     rank: 3,
     brand: '맥시칸치킨',
-    tag: '매장 565개 · DataLab 1.03',
-    reason: '양념치킨 원조 · 전국 565개. 3사 모두 미참여 · 치킨 카테고리 상시 제휴 공백 지속.',
+    tag: '매장 564개 · DataLab 1.04',
+    reason: '양념치킨 원조 · 전국 564개. 3사 모두 미참여 · 치킨 카테고리 상시 제휴 공백 지속.',
     reach: [
-      { label: '매장 규모', text: '전국 565개 · 치킨 카테고리 중견 브랜드 (양념치킨 원조)' },
-      { label: '검색 버즈', text: 'DataLab 1.03 · 뉴스 43건' },
+      { label: '매장 규모', text: '전국 564개 · 치킨 카테고리 중견 브랜드 (양념치킨 원조)' },
+      { label: '검색 버즈', text: 'DataLab 1.04 · 뉴스 37건' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 상시 제휴 공백 — 중가 치킨 세분 시장 진입 기회' },
     ],
-    trend: 'DataLab 1.03 · 뉴스 43건',
+    trend: 'DataLab 1.04 · 뉴스 37건',
     hot: false,
     skt: [],
     kt:  null,
@@ -369,7 +369,7 @@ export default function AIInsight() {
     <div className="sec" id="ai">
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
-        <span className="ss"><span className="upd">2026년 7월 기준</span></span>
+        <span className="ss"><span className="upd">2026년 8월 기준</span></span>
         
       </div>
 
@@ -565,7 +565,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.07.29</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.08.03</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
