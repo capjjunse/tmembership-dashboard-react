@@ -43,19 +43,66 @@ const compGroups = [
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
     desc: 'KT 미참여 · SKT Tday·Young week × LGU+ 투쁠데이',
-    rows: [], // LGU+ 8월 라인업 미공개
+    rows: [
+      {
+        brand: '백미당',
+        skt: { lines: [{ grade: '전 등급', b: '아이스크림 1+1' }], date: 'T day · 8.3~8.7' },
+        lgu: { lines: [{ grade: '선착순', b: '아이스크림 40% 할인 + 미니 아이스크림 컵 증정' }], date: '유플투쁠 2차 · 8.19' },
+        kt: null,
+        v: 'neut',
+        basis: { skt: '1+1', lgu: '40% 할인+컵 증정', gap: '형태 상이·동급' },
+        note: { skt: '8.3~8.7', lgu: '8.19' },
+      },
+      {
+        brand: 'CGV',
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종' }], date: 'T day · 8.3~8.7' },
+        lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '유플투쁠 2차 · 8.19' },
+        kt: null,
+        v: 'good',
+        basis: { skt: '티켓할인+콘세션2종', lgu: '콘세션만 무료', gap: 'SKT 티켓할인 추가' },
+        note: { skt: '8.3~8.7', lgu: '8.19' },
+      },
+    ],
   },
   {
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT 달달혜택 × LGU+ 투쁠데이',
-    rows: [], // LGU+ 8월 라인업 미공개
+    rows: [
+      {
+        brand: '배스킨라빈스',
+        kt: { lines: [{ grade: '전 등급', b: '레디팩 30% 할인' }], date: '달달혜택 1차 · 8.3~8.17' },
+        lgu: { lines: [{ grade: '선착순', b: '패밀리 최대 9천원 할인' }], date: '유플투쁠 1차 · 8.11~8.13' },
+        skt: null,
+        v: 'neut',
+        basis: { kt: '레디팩 30% 할인', lgu: '패밀리 최대9천원 할인', gap: '단위 상이·비교불가' },
+        note: { kt: '8.3~8.17', lgu: '8.11~8.13' },
+      },
+      {
+        brand: '공차',
+        kt: { lines: [{ grade: '전 등급', b: '음료 6종 50% 할인' }], date: '달달혜택 1차 · 8.3~8.17' },
+        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 구매 시, 최대 5천원)' }], date: '유플투쁠 1차 · 8.11~8.13' },
+        skt: null,
+        v: 'neut',
+        basis: { kt: '음료 6종 50% 할인', lgu: '최대 50% 할인(상한 5천원)', gap: 'LGU 5천원 상한' },
+        note: { kt: '8.3~8.17', lgu: '8.11~8.13' },
+      },
+      {
+        brand: '롯데렌터카 G car',
+        kt: { lines: [{ grade: '전 등급', b: 'G car 대여료 60% 할인' }], date: '시즌혜택 · 8.3~8.31' },
+        lgu: { lines: [{ grade: '선착순', b: 'G car 대여료 60% 할인 (1.5만원 구매 시)' }], date: '유플투쁠 2차 · 8.19' },
+        skt: null,
+        v: 'neut',
+        basis: { kt: '60% 할인', lgu: '60% 할인(조건부)', gap: '동일 60%·조건 상이' },
+        note: { kt: '8.3~8.31', lgu: '8.19' },
+      },
+    ],
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // LGU+ 8월 라인업 미공개
+    rows: [], // 2026.08 3사 겹치는 브랜드 없음 (SKT·KT·LGU+ 각자 다른 브랜드 라인업)
   },
 ];
 
