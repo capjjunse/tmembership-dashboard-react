@@ -116,7 +116,7 @@ const alCats = [
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
     ]}],
-    reasons: ['T멤버십: SK렌터카 상시 제주 최대 85%·내륙 최대 60% 할인 운영', '네이버플러스: 쏘카 혜택 6.30 종료 · 7월 카셰어링 제휴 없음'],
+    reasons: ['T멤버십: SK렌터카 상시 제주 최대 85%·내륙 최대 60% 할인 운영', <span className="upd">네이버플러스: 쏘카 혜택 6.30 종료 · 8월 카셰어링 제휴 없음</span>],
   },
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
@@ -124,9 +124,8 @@ const alCats = [
     tm: [{ platform: 'T멤버십', items: [
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: '20% 할인' }] },
-      { partner: '공차, 폴바셋', deadline: '상시', rows: [{ grade: '전 등급', desc: '10% 할인' }] },
     ]}],
-    reasons: ['T멤버십: 상시 10~30% (아웃백·VIPS·도미노·피자헛·공차·폴바셋)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: [<span className="upd">T멤버십: 상시 15~30% (아웃백·VIPS·도미노·피자헛)</span>, '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -139,14 +138,11 @@ const alCats = [
         { grade: 'V', desc: '본인 40% 할인, 동반 3인 30% 할인' },
         { grade: 'G, S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
       ]},
-      { partner: '오션월드', deadline: 'T day · 7.13~7.17', rows: [
-        { grade: '전 등급', desc: '이용권 50% 할인' },
-      ]},
-      { partner: '캐리비안베이', deadline: 'T day · 7.13~7.17', rows: [
-        { grade: '전 등급', desc: '50% 할인 + 자켓 대여 무료' },
+      { partner: '캐리비안베이', deadline: <span className="upd">T day · 8.3~8.7</span>, rows: [
+        { grade: '전 등급', desc: <span className="upd">종일권 + 자켓 50% 할인 (~8.30)</span> },
       ]},
     ]}],
-    reasons: ['T멤버십: 에버랜드·롯데월드 본인 40%+동반 30% 상시 · Day 2 오션월드·캐리비안베이 각 50% 할인', '비통신 멤버십: 테마파크 제휴 없음'],
+    reasons: [<span className="upd">T멤버십: 에버랜드·롯데월드 상시 40%+동반 30% · T day 캐리비안베이 종일권+자켓 50%</span>, '비통신 멤버십: 테마파크 제휴 없음'],
   },
   // ── T멤버십 열위 ──
   {
@@ -177,12 +173,12 @@ const alCats = [
       ]},
     ],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: '배달의민족×처갓집양념치킨', deadline: 'T day · 7.6~7.10', rows: [
-        { grade: 'VIP', desc: '8천원 할인' },
-        { grade: '전 등급', desc: '6천원 할인 (1.6만원 이상)' },
+      { partner: <span className="upd">요기요×네네치킨</span>, deadline: <span className="upd">T day · 8.3~8.7</span>, rows: [
+        { grade: 'VIP', desc: <span className="upd">8천원 할인 (1.8만원 이상 주문 시)</span> },
+        { grade: '전 등급', desc: <span className="upd">6천원 할인 (1.8만원 이상 주문 시)</span> },
       ]},
     ]}],
-    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 · T day 배민 6천원 할인'],
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <span className="upd">T멤버십: 배달 상시 제휴 없음 · T day 요기요 6~8천원 할인</span>],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'neut',
@@ -210,11 +206,10 @@ const alCats = [
     ]}],
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'GS25', deadline: '상시 (매주 화)', rows: [{ grade: '전 등급', desc: '신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)' }] },
-      { partner: 'GS25', deadline: 'Young week · 7.6~7.10', rows: [{ grade: '전 등급', desc: '샌드위치 50% 할인 (7종 중 택1)' }] },
       { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
       { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 화요일 신선식품 200원+영위크 샌드위치50% · CU·세븐 100원 상시'],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', <span className="upd">T멤버십: GS25 화요일 신선식품 200원 상시 · CU·세븐 100원 상시</span>],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -226,11 +221,11 @@ const alCats = [
         { grade: 'V', desc: '무료관람 연3회 / 1+1 연9회 택1' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
-      { partner: 'CGV', deadline: 'T day · 7.6~7.10 / Day 3 · 7.22', rows: [
+      { partner: 'CGV', deadline: <span className="upd">T day · 8.3~8.7</span>, rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점 쿠폰 2종' },
       ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 4천원+VIP연3회/1+1연9회 · T day 8,500원+쿠폰 2회'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <span className="upd">T멤버십: CGV 4천원 상시+VIP연3회/1+1연9회 · T day 8,500원+쿠폰</span>],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -248,8 +243,11 @@ const alCats = [
         { grade: 'V', desc: '짝수월 7%, 홀수월 3% 적립' },
         { grade: 'G, S', desc: '3% 적립' },
       ]},
+      { partner: <span className="upd">롯데마트제타</span>, deadline: <span className="upd">T day · 8.3~8.7</span>, rows: [
+        { grade: '전 등급', desc: <span className="upd">50% 할인 (최대 8천원)</span> },
+      ]},
     ]}],
-    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 3% 적립 (홀수월 · V 이상) · 7월 추가 마트 혜택 없음'],
+    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', <span className="upd">T멤버십: 이마트 V 7%(짝수월)/3% 적립 · T day 롯데마트제타 50%</span>],
   },
 ];
 
