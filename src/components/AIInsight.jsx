@@ -27,98 +27,35 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [], // KT 달달초이스 2차(7.15~7.31): VIPS·크리스탈제이드·도미노·메가MGC·폴바셋 — SKT Tday 브랜드와 겹침 없음
+    rows: [
+      {
+        brand: '캐리비안베이',
+        skt: { lines: [{ grade: '전 등급', b: '종일권 + 자켓 50% 할인 (~8.30)' }], date: 'T day · 8.3~8.7' },
+        kt: { lines: [{ grade: '전 등급', b: '본인 + 동반 1인 50% 할인' }], date: '시즌혜택 · 8.3~8.31' },
+        lgu: null,
+        v: 'warn',
+        basis: { skt: '종일권+자켓 50%', lgu: '(KT) 본인+동반1인 50%', gap: 'KT 동반 1인 포함 범위 우위' },
+        note: { skt: '8.3~8.7', lgu: '(KT) 8.3~8.31' },
+      },
+    ],
   },
   {
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
     desc: 'KT 미참여 · SKT Tday·Young week × LGU+ 투쁠데이',
-    rows: [
-      {
-        brand: '피자헛',
-        skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (프리미엄·US오리진 M·L)' }], date: 'T day · 7.1' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 55% 할인 + 리치치즈파스타 증정' }], date: '투쁠데이 · 7.7' },
-        v: 'warn',
-        basis: { skt: '포장 50% 할인', lgu: '55% 할인 + 파스타 증정', gap: 'LGU+ 5%p↑+파스타증정' },
-        note: { skt: '7.1', lgu: '7.7' },
-      },
-      {
-        brand: '그리팅',
-        skt: { lines: [{ grade: '전 등급', b: '5만원 이상 구매 시 2만원 할인' }], date: 'T day · 7.6~7.10' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: '투쁠데이 · 7.9' },
-        v: 'good',
-        basis: { skt: '5만원↑ 2만원 할인', lgu: '5.5만원↑ 2만원 할인', gap: 'SKT 문턱 5천원↓' },
-        note: { skt: '7.6~7.10', lgu: '7.9' },
-      },
-      {
-        brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종 (더블콤보 3천원·팝콘M 1천원)' }], date: 'T day · 7.6~7.10 / T day · 7.22' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 무료 (유플투쁠세트)' }], date: '투쁠데이 · 7.17' },
-        v: 'good',
-        basis: { skt: '8,500원+스낵 2종', lgu: '스낵 1종 무료', gap: 'SKT 티켓+스낵 우위' },
-        note: { skt: '7.6~7.10 / 7.22', lgu: '7.17' },
-      },
-      {
-        brand: '투썸플레이스',
-        skt: { lines: [{ grade: '전 등급', b: '제조 음료 40% 할인 (5종 택1)' }, { grade: '전 등급', b: '조각케이크 40% 할인' }], date: 'Young week · 7.6~7.10' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: '투쁠데이 · 7.14' },
-        v: 'good',
-        basis: { skt: '음료·케이크 각 40% 할인', lgu: '케이크 구매시 무료 아메(조건부)', gap: 'SKT 40%할인×2 무조건' },
-        note: { skt: '7.6~7.10', lgu: '7.14' },
-      },
-      {
-        brand: '오뚜기몰',
-        skt: { lines: [{ grade: '전 등급', b: '행사 제품 50% 할인 쿠폰 1매 (~7.15)' }], date: 'Young week · 7.6~7.10' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '전 제품 최대 30% 할인 (최대 2만원)' }], date: '투쁠데이 · 7.17' },
-        v: 'good',
-        basis: { skt: '50% 할인', lgu: '최대 30% 할인', gap: 'SKT 20%p 우위' },
-        note: { skt: '7.6~7.10', lgu: '7.17' },
-      },
-      {
-        brand: 'NOL티켓',
-        skt: { lines: [{ grade: '전 등급', b: '뮤지컬 유미의 세포들 35% 할인' }, { grade: '전 등급', b: '인상주의를 넘어 전시 25% 할인 (~7.31)' }], date: 'Young week · 7.6~7.10' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '맥스 시덴토프 개인전 최대 35% 할인' }, { grade: '장기고객', b: '뮤지컬 <그날들> 35% 할인 (최대 4매)' }], date: '유플투쁠_컬처 · 7.13 / 장기고객데이 · 7.23' },
-        v: 'neut',
-        basis: { skt: '2작품(35%+25% 할인)', lgu: '2회 NOL 혜택(각 35%)', gap: '동급, 다른 작품' },
-        note: { skt: '7.6~7.10', lgu: '7.13 / 7.23' },
-      },
-      {
-        brand: '공차',
-        skt: { lines: [{ grade: 'V', b: '인기 메뉴 6종 50% 할인' }], date: 'T day · 7.13~7.17' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상, 최대 5천원)' }, { grade: '유쓰', b: '최대 50% 할인 (1만원 이상, 최대 5천원)' }], date: '투쁠데이 · 7.7 / 유쓰데이 · 7.20' },
-        v: 'warn',
-        basis: { skt: 'V등급 50% 할인', lgu: '선착순+유쓰 50% 할인', gap: 'SKT V등급 한정' },
-        note: { skt: '7.13~7.17', lgu: '7.7 / 7.20' },
-      },
-      {
-        brand: '오션월드',
-        skt: { lines: [{ grade: '전 등급', b: '골드시즌 종일 입장권 50% 할인' }], date: 'T day · 7.13~7.17' },
-        kt: null,
-        lgu: { lines: [{ grade: '선착순', b: '워터파크 50% 할인' }], date: '투쁠데이 · 7.15' },
-        v: 'neut',
-        basis: { skt: '50% 할인', lgu: '50% 할인 (7.15)', gap: '동급 50%, 기간 차이만' },
-        note: { skt: '7.13~7.17', lgu: '7.15' },
-      },
-    ],
+    rows: [], // LGU+ 8월 라인업 미공개
   },
   {
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT 달달혜택 × LGU+ 투쁠데이',
-    rows: [], // 배스킨라빈스(KT 고객보답·LGU+ 7.21) — KT 고객보답 제외 규칙으로 삭제; 달달초이스×유플투쁠 겹침 없음
+    rows: [], // LGU+ 8월 라인업 미공개
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // SKT × KT 겹침 없어 3사 공통 없음
+    rows: [], // LGU+ 8월 라인업 미공개
   },
 ];
 
@@ -445,7 +382,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 7월 · <span className="upd">Day4(7.29~8.2) 뚜레쥬르·할리스·다운타우너·롤링파스타 — 타사 겹침 없음 · 8건 유지</span>)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (<span className="upd">2026년 8월 · Week(8.3~8.7) 기준 · SKT↔KT 캐리비안베이 1건 · LGU+ 미공개</span>)</div>
         </div>
       </div>
 
