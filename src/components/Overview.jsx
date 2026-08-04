@@ -107,8 +107,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">T우주패스 VIP PICK 분리 (8.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 86%·긍정 14%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">VIP픽 혜택 소진 후 표준 요금제 이탈 반응</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 78%·긍정 22%</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP픽 혜택 소진 후 표준 요금제 이탈 반응</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
@@ -124,8 +124,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>MOVV 인천공항 혜택 변경 (7.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달 2차 '역대급 씁쓸혜택' 불만</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>보답 2차 '파리 마감·프로그램 종료' 불만</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달 8월 1차 '달달하긴 무슨 개뿔·처참하네요' 불만</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">KT멤버십페스타 쇼핑라운지 개악 불만·GS주유 긍정 혼재</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
@@ -140,7 +140,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">파고다원 혜택 변경 (8.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 50%·부정 50%</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 67%·긍정 33%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>투쁠 "혜택 줄어" 감소 불만</div>
           </a>
         </div>

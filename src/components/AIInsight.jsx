@@ -34,8 +34,8 @@ const compGroups = [
         kt: { lines: [{ grade: '전 등급', b: '본인 + 동반 1인 50% 할인' }], date: '시즌혜택 · 8.3~8.31' },
         lgu: null,
         v: 'warn',
-        basis: { skt: '종일권+자켓 50%', lgu: '(KT) 본인+동반1인 50%', gap: 'KT 동반 1인 포함 범위 우위' },
-        note: { skt: '8.3~8.7', lgu: '(KT) 8.3~8.31' },
+        basis: { skt: '종일권+자켓 50%', kt: '본인+동반1인 50%', gap: 'KT 동반 1인 포함 범위 우위' },
+        note: { skt: '8.3~8.7', kt: '8.3~8.31' },
       },
     ],
   },
@@ -307,7 +307,11 @@ export const recs = [
 ];
 
 const verdictIcon  = { warn: '⚠', good: '✅', neut: '↔', miss: '✕' };
-const verdictLabel = { warn: 'SKT 열위', good: 'SKT 우위', neut: '동급 경쟁', miss: 'SKT 없음' };
+// SKT가 포함된 그룹(skt-kt, skt-lgu): SKT 기준 판정
+const verdictLabelSkt   = { warn: 'SKT 열위', good: 'SKT 우위', neut: '동급 경쟁', miss: 'SKT 없음' };
+// 타사간 비교(kt-lgu, SKT 미참여): 그룹 첫 번째 통신사(KT) 기준 판정
+const verdictLabelOther = { warn: 'U+ 우위', good: 'KT 우위', neut: '동급 경쟁', miss: 'U+ 없음' };
+const carrierName = { skt: 'SKT', kt: 'KT', lgu: 'LGU+' };
 
 function renderBenefitSide(groups, showPlatform = true) {
   if (!groups) return null;
@@ -401,28 +405,33 @@ export default function AIInsight() {
                 </tr>,
                 ...(g.rows.length === 0
                   ? [<tr key={`${g.id}-empty`} className="comp-tr"><td colSpan={5} className="comp-empty">이번달 해당 없음</td></tr>]
-                  : g.rows.map((r) => (
-                    <tr key={r.brand} className="comp-tr">
-                      <td className="comp-td comp-brand">{r.brand}</td>
-                      <td className="comp-td comp-td-skt">{renderCarrier(r.skt, 'cb-skt')}</td>
-                      <td className="comp-td comp-td-kt">{renderCarrier(r.kt, 'cb-kt')}</td>
-                      <td className="comp-td comp-td-lgu">{renderCarrier(r.lgu, 'cb-lgu')}</td>
-                      <td className="comp-td comp-vd-td">
-                        <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {verdictLabel[r.v]}</span>
-                        {r.basis && (
-                          <div className="cvd-basis">
-                            <div className="cvd-line">SKT : {r.basis.skt}</div>
-                            <div className="cvd-line">LGU+ : {r.basis.lgu}</div>
-                            <div className="cvd-gap">→ {r.basis.gap}</div>
+                  : (() => {
+                    const [k1, k2] = g.id.split('-'); // 그룹에 실제 참여하는 두 통신사 키
+                    const label = g.id === 'kt-lgu' ? verdictLabelOther : verdictLabelSkt;
+                    return g.rows.map((r) => (
+                      <tr key={r.brand} className="comp-tr">
+                        <td className="comp-td comp-brand">{r.brand}</td>
+                        <td className="comp-td comp-td-skt">{renderCarrier(r.skt, 'cb-skt')}</td>
+                        <td className="comp-td comp-td-kt">{renderCarrier(r.kt, 'cb-kt')}</td>
+                        <td className="comp-td comp-td-lgu">{renderCarrier(r.lgu, 'cb-lgu')}</td>
+                        <td className="comp-td comp-vd-td">
+                          {g.id === 'kt-lgu' && <div className="cvd-tag">(타사간 비교)</div>}
+                          <span className={`comp-vd-badge cvb-${r.v}`}>{verdictIcon[r.v]} {label[r.v]}</span>
+                          {r.basis && (
+                            <div className="cvd-basis">
+                              <div className="cvd-line">{carrierName[k1]} : {r.basis[k1]}</div>
+                              <div className="cvd-line">{carrierName[k2]} : {r.basis[k2]}</div>
+                              <div className="cvd-gap">→ {r.basis.gap}</div>
+                            </div>
+                          )}
+                          <div className="cvd-note">
+                            <div className="cvd-line">{carrierName[k1]} : {r.note[k1]}</div>
+                            <div className="cvd-line">{carrierName[k2]} : {r.note[k2]}</div>
                           </div>
-                        )}
-                        <div className="cvd-note">
-                          <div className="cvd-line">SKT : {r.note.skt}</div>
-                          <div className="cvd-line">LGU+ : {r.note.lgu}</div>
-                        </div>
-                      </td>
-                    </tr>
-                  ))
+                        </td>
+                      </tr>
+                    ));
+                  })()
                 ),
               ])}
             </tbody>
