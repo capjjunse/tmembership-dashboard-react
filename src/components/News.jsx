@@ -18,9 +18,19 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">SKT, 8~9월 고객 혜택 확대 — 에어 요금제 첫 달 70% 포인트·영화 반값·멤버십 혜택</span></span></div>
-            <div className="nsum"><span className="upd">에어 요금제 신규 가입 시 월정액 70% 수준의 포인트 혜택 제공(8월 1~31일). 만 34세 이하 고객 대상 CGV 영화 관람권 50% 할인을 월 1장에서 월 2장으로 확대. 8~9월 T멤버십 매주 Big 3 제휴사 50% 이상 할인, 여행 및 로밍 혜택 강화.</span></div>
-            <div className="nmeta"><span className="upd">2026-07-30</span> · <a href="https://news.sktelecom.com/228562" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">방콕·나트랑·괌 현지 혜택부터 브랜드 위크까지, 8월 T 멤버십 한눈에 보기</span></span></div>
+            <div className="nsum"><span className="upd">8월 글로벌 여행 바캉스 프로모션으로 방콕(공항 픽업·마하나콘 스카이워크 최대 50% 할인), 나트랑(패스트트랙·공항 픽업 반값·루나 스파 최대 30% 할인), 괌(스트롤 택시 15% 할인·아이홉·호놀룰루 커피 무료) 등 현지 혜택 제공. T day 2주차 뚜레쥬르 300원/천원 할인, 3주차 도미노피자 50%, 4주차 11번가 최대 50% 할인. Young Week 문화 공연 할인, 신규 제휴사 샐러디 10% 할인 추가.</span></div>
+            <div className="nmeta"><span className="upd">2026-08-02</span> · <a href="https://news.sktelecom.com/228744" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">SKT, 1000만 러너 사로잡을 신규 제품·혜택 선보인다</span></span></div>
+            <div className="nsum"><span className="upd">러닝 고객 대상으로 가민 포러너 70·265 스마트워치와 샥즈 오픈런 프로2 골전도 이어폰 신규 도입. 스마트기기 할부금 할인 혜택(월 최대 2만 4천원 할인) 대상에 포함. 9월 19일 '2026 무한도전 Run in 경주' 마라톤 이벤트 메인 스폰서로 갤럭시 Z 폴더블8 구매 고객 대상 참가권 추첨(2천명). 장기 '런메이트' 프로그램으로 러닝 관련 상품·혜택 지속 확대 예정.</span></div>
+            <div className="nmeta"><span className="upd">2026-08-02</span> · <a href="https://news.sktelecom.com/228778" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 8~9월 고객 혜택 확대 — 에어 요금제 첫 달 70% 포인트·영화 반값·멤버십 혜택</span></div>
+            <div className="nsum">에어 요금제 신규 가입 시 월정액 70% 수준의 포인트 혜택 제공(8월 1~31일). 만 34세 이하 고객 대상 CGV 영화 관람권 50% 할인을 월 1장에서 월 2장으로 확대. 8~9월 T멤버십 매주 Big 3 제휴사 50% 이상 할인, 여행 및 로밍 혜택 강화.</div>
+            <div className="nmeta">2026-07-30 · <a href="https://news.sktelecom.com/228562" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 휴가철 로밍·멤버십 혜택 꽉 채웠다</span></div>
@@ -73,9 +83,9 @@ export default function News() {
       {tab === 'kt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">KT, 여름 휴가철 고객 혜택 확대 — 케.멤.페 공항라운지·캐리비안 베이·롯데렌터카 50~60% 할인</span></span></div>
-            <div className="nsum"><span className="upd">8월 3~31일 케이티 멤버십 페스타 기간 공항라운지 1만원 할인, 캐리비안 베이 본인·동반 50% 할인, 롯데렌터카 60% 할인, 아고다 국내 10%·해외 12% 할인, GS칼텍스 3천원 할인(3만원 이상 주유 시). 달달혜택으로 배스킨라빈스 30%, 공차 50%, 쇼핑라운지 5천원 할인. 뮤지컬·전시·영화 문화혜택도 강화.</span></div>
-            <div className="nmeta"><span className="upd">2026-07-30</span> · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19251" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 여름 휴가철 고객 혜택 확대 — 케.멤.페 공항라운지·캐리비안 베이·롯데렌터카 50~60% 할인</span></div>
+            <div className="nsum">8월 3~31일 케이티 멤버십 페스타 기간 공항라운지 1만원 할인, 캐리비안 베이 본인·동반 50% 할인, 롯데렌터카 60% 할인, 아고다 국내 10%·해외 12% 할인, GS칼텍스 3천원 할인(3만원 이상 주유 시). 달달혜택으로 배스킨라빈스 30%, 공차 50%, 쇼핑라운지 5천원 할인. 뮤지컬·전시·영화 문화혜택도 강화.</div>
+            <div className="nmeta">2026-07-30 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19251" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">KT멤버십, 국가서비스대상 수상 기념 고객 참여형 이벤트 진행</span></div>
@@ -112,6 +122,11 @@ export default function News() {
 
       {tab === 'lgu' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">유플투쁬 8월 제휴사 최대 규모 52개 확대, 테마파크·외식·쇼핑 혜택 강화</span></span></div>
+            <div className="nsum"><span className="upd">LG유플러스가 '유플투쁬'의 8월 제휴사를 올해 최대 규모인 52개로 확대. 여름 바캉스 시즌 맞춰 오션월드 50% 할인, 부산 롯데월드 40% 할인, 서울랜드 55% 할인, 아쿠아필드 40% 할인, 뽀로로파크 66% 할인 등 테마파크 혜택 추가. 장기고객 1,500명 대상 '레고랜드 워터풀 파티' 8월 8~9일 개최.</span></div>
+            <div className="nmeta"><span className="upd">2026-08-04</span> · <a href="https://www.industrynews.co.kr/news/articleView.html?idxno=68139" target="_blank" rel="noreferrer">인더스트리뉴스</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">U+ 장기고객을 위한 레고랜드 워터풀 파티 & U+119 메모리얼런</span></div>
             <div className="nsum">LGU+ 멤버십 VVIP 이상·10년 이상 장기고객 대상 특별 초청 이벤트. 8월 8~9일 레고랜드 코리아 리조트에서 워터풀 파티 개최(1,500명 참가). 장기고객 우대 전략 지속 강화.</div>

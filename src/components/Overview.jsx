@@ -97,7 +97,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#vp" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">T우주패스 4,900원+5,000원 분리 (8.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>T우주패스 4,900원+5,000원 분리 (8.1~)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">T day Week1 오픈 (8.3~8.7, 15종)</span></div>
@@ -113,7 +113,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#vp" className="ovg2-card ck">
-            <div className="ovg2-item"><span className="upd">특이 변동 없음</span></div>
+            <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">달달혜택 1차 오픈 (8.3~8.17, 3종 택1)</span></div>

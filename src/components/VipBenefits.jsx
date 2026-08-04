@@ -40,8 +40,7 @@ export default function VipBenefits() {
           <tr>
             <td>OTT·구독</td>
             <td>
-              T우주패스 9,900원 연3회 /<br />4,900원 연9회<br />
-              <span style={{ fontSize: '10px', padding: '1px 6px', borderRadius: '20px', background: '#fff7e6', color: '#b35c00', border: '0.5px solid #f5c060' }}>8월 1일 변경 예정</span>
+              T우주패스 <span className="upd">4,900원(쇼핑·편의점·카페) + 5,000원(올리브영·스벅·이마트24) 2종</span>
             </td>
             <td>
               VVIP 전용:<br />
