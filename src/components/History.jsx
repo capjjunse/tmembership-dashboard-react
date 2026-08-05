@@ -17,6 +17,20 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td>2026.09.01</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td>도미노피자 혜택 변경 — VVIP초이스 2만원 할인 (3만원 이상 포장주문) (9.1~)</td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.09.01</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td>지니TV 신규 제휴 — VVIP/VIP 초이스 지니TV VOD 1만원 이용권 (9.1~)</td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
             <td>2026.08.31</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
@@ -32,17 +46,31 @@ export default function History() {
           </tr>
           <tr>
             <td>2026.08.01</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+ 멤버십 상시</td>
-            <td>파고다토쿨 혜택 변경 — 전화 영어 1만원 할인 → 전화 또는 화상 영어 정규수강 1만원 할인 (8.1~)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td>패스트캠퍼스 신규 제휴 — AICE Associate 실전 완성 과정 30% 할인 (8.1~10.31)</td>
+            <td><span className="tb t신규">신규</span></td>
+          </tr>
+          <tr>
+            <td>2026.08.01</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td>포케올데이 신규 제휴 — 10% 할인 (9,900원 이상 결제 시, 최대 3만원, 1일 1회) (8.1~)</td>
+            <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
             <td>2026.08.01</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
-            <td>파고다원 혜택 변경 — 1:1 회화 5%+1:1 화상 1만원 할인 → 1:1 회화 5% 할인 (8.1~)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td>파고다토쿨 혜택 변경 — 전화 영어 1만원 할인 + 화상 영어 1만원 할인 추가 (8.1~)</td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td>2026.08.01</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+ 멤버십 상시</td>
+            <td>파고다원 혜택 변경 — 1:1 회화 5% 할인만 제공 (화상 할인 폐지) (8.1~)</td>
+            <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td>2026.08.01</td>

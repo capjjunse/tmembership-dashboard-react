@@ -72,20 +72,20 @@ const compGroups = [
       {
         brand: '배스킨라빈스',
         kt: { lines: [{ grade: '전 등급', b: '레디팩 30% 할인' }], date: '달달혜택 1차 · 8.3~8.17' },
-        lgu: { lines: [{ grade: '선착순', b: '패밀리 최대 9천원 할인' }], date: '유플투쁠 1차 · 8.11~8.13' },
+        lgu: { lines: [{ grade: '선착순', b: '패밀리 최대 9천원 할인' }], date: <span className="upd">유플투쁠 1차 · 8.11</span> },
         skt: null,
         v: 'neut',
         basis: { kt: '레디팩 30% 할인', lgu: '패밀리 최대9천원 할인', gap: '단위 상이·비교불가' },
-        note: { kt: '8.3~8.17', lgu: '8.11~8.13' },
+        note: { kt: '8.3~8.17', lgu: <span className="upd">8.11</span> },
       },
       {
         brand: '공차',
         kt: { lines: [{ grade: '전 등급', b: '음료 6종 50% 할인' }], date: '달달혜택 1차 · 8.3~8.17' },
-        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 구매 시, 최대 5천원)' }], date: '유플투쁠 1차 · 8.11~8.13' },
+        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 구매 시, 최대 5천원)' }], date: <span className="upd">유플투쁠 1차 · 8.13</span> },
         skt: null,
         v: 'neut',
         basis: { kt: '음료 6종 50% 할인', lgu: '최대 50% 할인(상한 5천원)', gap: 'LGU 5천원 상한' },
-        note: { kt: '8.3~8.17', lgu: '8.11~8.13' },
+        note: { kt: '8.3~8.17', lgu: <span className="upd">8.13</span> },
       },
       {
         brand: '롯데렌터카 G car',
@@ -436,7 +436,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (<span className="upd">2026년 8월 · Week(8.3~8.7) 기준 · SKT↔KT 캐리비안베이 1건 · LGU+ 미공개</span>)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (<span className="upd">2026년 8월 · Week(8.3~8.7) 기준 · 총6건 · SKT Day2~4·KT달달2차 미공개</span>)</div>
         </div>
       </div>
 
