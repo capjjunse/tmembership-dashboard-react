@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.08.03';
+const RADAR_SCANNED = '2026.08.05';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -116,7 +116,7 @@ const alCats = [
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
     ]}],
-    reasons: ['T멤버십: SK렌터카 상시 제주 최대 85%·내륙 최대 60% 할인 운영', <span className="upd">네이버플러스: 쏘카 혜택 6.30 종료 · 8월 카셰어링 제휴 없음</span>],
+    reasons: ['T멤버십: SK렌터카 상시 제주 최대 85%·내륙 최대 60% 할인 운영', '네이버플러스: 쏘카 혜택 6.30 종료 · 8월 카셰어링 제휴 없음'],
   },
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
@@ -125,7 +125,7 @@ const alCats = [
       { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: '20% 할인' }] },
     ]}],
-    reasons: [<span className="upd">T멤버십: 상시 15~30% (아웃백·VIPS·도미노·피자헛)</span>, '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 15~30% (아웃백·VIPS·도미노·피자헛)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -138,11 +138,11 @@ const alCats = [
         { grade: 'V', desc: '본인 40% 할인, 동반 3인 30% 할인' },
         { grade: 'G, S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
       ]},
-      { partner: '캐리비안베이', deadline: <span className="upd">T day · 8.3~8.7</span>, rows: [
-        { grade: '전 등급', desc: <span className="upd">종일권 + 자켓 50% 할인 (~8.30)</span> },
+      { partner: '캐리비안베이', deadline: 'T day · 8.3~8.7', rows: [
+        { grade: '전 등급', desc: '종일권 + 자켓 50% 할인 (~8.30)' },
       ]},
     ]}],
-    reasons: [<span className="upd">T멤버십: 에버랜드·롯데월드 상시 40%+동반 30% · T day 캐리비안베이 종일권+자켓 50%</span>, '비통신 멤버십: 테마파크 제휴 없음'],
+    reasons: ['T멤버십: 에버랜드·롯데월드 상시 40%+동반 30% · T day 캐리비안베이 종일권+자켓 50%', '비통신 멤버십: 테마파크 제휴 없음'],
   },
   // ── T멤버십 열위 ──
   {
@@ -173,12 +173,12 @@ const alCats = [
       ]},
     ],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: <span className="upd">요기요×네네치킨</span>, deadline: <span className="upd">T day · 8.3~8.7</span>, rows: [
-        { grade: 'VIP', desc: <span className="upd">8천원 할인 (1.8만원 이상 주문 시)</span> },
-        { grade: '전 등급', desc: <span className="upd">6천원 할인 (1.8만원 이상 주문 시)</span> },
+      { partner: '요기요×네네치킨', deadline: 'T day · 8.3~8.7', rows: [
+        { grade: 'VIP', desc: '8천원 할인 (1.8만원 이상 주문 시)' },
+        { grade: '전 등급', desc: '6천원 할인 (1.8만원 이상 주문 시)' },
       ]},
     ]}],
-    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', <span className="upd">T멤버십: 배달 상시 제휴 없음 · T day 요기요 6~8천원 할인</span>],
+    reasons: ['요기요·쿠팡이츠·배민 3종 모두 상시 무료배달 커버', 'T멤버십: 배달 상시 제휴 없음 · T day 요기요 6~8천원 할인'],
   },
   {
     icon: '🛍', cat: '이커머스', v: 'neut',
@@ -209,7 +209,7 @@ const alCats = [
       { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
       { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', <span className="upd">T멤버십: GS25 화요일 신선식품 200원 상시 · CU·세븐 100원 상시</span>],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 화요일 신선식품 200원 상시 · CU·세븐 100원 상시'],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -221,11 +221,11 @@ const alCats = [
         { grade: 'V', desc: '무료관람 연3회 / 1+1 연9회 택1' },
         { grade: '전 등급', desc: '4천원 할인' },
       ]},
-      { partner: 'CGV', deadline: <span className="upd">T day · 8.3~8.7</span>, rows: [
+      { partner: 'CGV', deadline: 'T day · 8.3~8.7', rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점 쿠폰 2종' },
       ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', <span className="upd">T멤버십: CGV 4천원 상시+VIP연3회/1+1연9회 · T day 8,500원+쿠폰</span>],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 4천원 상시+VIP연3회/1+1연9회 · T day 8,500원+쿠폰'],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -243,11 +243,11 @@ const alCats = [
         { grade: 'V', desc: '짝수월 7%, 홀수월 3% 적립' },
         { grade: 'G, S', desc: '3% 적립' },
       ]},
-      { partner: <span className="upd">롯데마트제타</span>, deadline: <span className="upd">T day · 8.3~8.7</span>, rows: [
-        { grade: '전 등급', desc: <span className="upd">50% 할인 (최대 8천원)</span> },
+      { partner: '롯데마트제타', deadline: 'T day · 8.3~8.7', rows: [
+        { grade: '전 등급', desc: '50% 할인 (최대 8천원)' },
       ]},
     ]}],
-    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', <span className="upd">T멤버십: 이마트 V 7%(짝수월)/3% 적립 · T day 롯데마트제타 50%</span>],
+    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 V 7%(짝수월)/3% 적립 · T day 롯데마트제타 50%'],
   },
 ];
 
@@ -257,14 +257,14 @@ export const recs = [
   {
     rank: 1,
     brand: '설빙',
-    tag: <span className="upd">매장 606개 · DataLab ↗1.27</span>,
+    tag: '매장 606개 · DataLab ↗1.27',
     reason: '아이스디저트 카테고리 1위 · 전국 606개. Tday 5개월 공백 지속. 7.20 위생 논란 공식 사과 완료 — 전 매장 특별점검 후 진정세, 브랜드 회복 추이 모니터링 중.',
     reach: [
       { label: '매장 규모', text: '전국 606개 · 아이스디저트 카테고리 1위' },
-      { label: '검색 버즈', text: <span className="upd">DataLab ↗1.27 · 블로그 74만 · 카페 23만 · 뉴스 100건 — 위생 논란 이후 부정 버즈 포함</span> },
-      { label: '제휴 포인트', text: <span className="upd">2026.03 이후 Tday 공백 5개월 · 위생 논란 공식 사과 완료(7.20) · 브랜드 회복 추이 모니터링 중</span> },
+      { label: '검색 버즈', text: 'DataLab ↗1.27 · 블로그 74만 · 카페 23만 · 뉴스 100건 — 위생 논란 이후 부정 버즈 포함' },
+      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 5개월 · 위생 논란 공식 사과 완료(7.20) · 브랜드 회복 추이 모니터링 중' },
     ],
-    trend: <span className="upd">DataLab 1.27 · 블로그 74만 · 카페 23만 · 뉴스 100건</span>,
+    trend: 'DataLab 1.27 · 블로그 74만 · 카페 23만 · 뉴스 100건',
     hot: true,
     skt: [
       { prog: 'Tday', active: false, last: '2026.03', gap: '5개월 공백' },
@@ -275,14 +275,14 @@ export const recs = [
   {
     rank: 2,
     brand: '노모어피자',
-    tag: <span className="upd">매장 215개 · DataLab 📈1.18</span>,
+    tag: '매장 215개 · DataLab 📈1.18',
     reason: '저단가 피자 포지션으로 피자헛·도미노와 차별화. 전지현 광고 모델 발탁·레이먼킴 콜라보로 브랜드 인지도 확장 중. SKT 미참여 상태.',
     reach: [
       { label: '매장 규모', text: '전국 215개 · 피자 카테고리 저단가 포지션 (피자헛·도미노 대비 접근성 우위)' },
-      { label: '검색 버즈', text: <span className="upd">DataLab 📈1.18 · 블로그 4.7만 · 뉴스 54건 — 전지현 모델·레이먼킴 신메뉴 콜라보 버즈</span> },
+      { label: '검색 버즈', text: 'DataLab 📈1.18 · 블로그 4.7만 · 뉴스 54건 — 전지현 모델·레이먼킴 신메뉴 콜라보 버즈' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 저단가 피자 세분 시장 공백 — 가짜치즈 논란·영업적자 이력, 브랜드 신뢰도 모니터링 필요' },
     ],
-    trend: <span className="upd">DataLab 1.18 · 블로그 4.7만 · 뉴스 54건</span>,
+    trend: 'DataLab 1.18 · 블로그 4.7만 · 뉴스 54건',
     hot: true,
     skt: [],
     kt:  null,
@@ -574,7 +574,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.08.03</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.08.05</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
