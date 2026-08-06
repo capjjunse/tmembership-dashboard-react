@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그 (<span className="upd">2026.08.06 갱신</span>)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (<span className="upd">2026.08.06 갱신</span>)</span>
 
       </div>
       <div className="tr2">
@@ -63,8 +63,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '38%' }}>긍정 38%</div>
-              <div className="rbs rn" style={{ width: '62%' }}>부정 62%</div>
+              <div className="rbs rp" style={{ width: '36%' }}>긍정 36%</div>
+              <div className="rbs rn" style={{ width: '64%' }}>부정 64%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -79,6 +79,8 @@ export default function Sentiment() {
             <span className="srcbadge act">뽐뿌</span>
             <span className="srcbadge act">네이버카페</span>
             <span className="srcbadge">네이버블로그</span>
+            <span className="srcbadge act">디시인사이드</span>
+            <span className="srcbadge">더쿠</span>
           </div>
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw1' && (
@@ -97,6 +99,7 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw3' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">Skt 영크크 ㄱㄱ (커피 갤러리) — "지방러는 웁니다..." / 댓글: "아~ 이게 SK가 아니라서 못받네~" "그나마 던킨말고 쓸게없넹" "내가 다시는 SK쓰나봐라"</span></div><div className="rsrc"><span className="upd">2026.08.03</span> · <a href="https://gall.dcinside.com/mgallery/board/view/?id=coffee&no=664109" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">T멤버십 Young week 투썸플레이스 40% 할인 (7/6~10, 만13~34세) — "에잇!!나이 먹어서 안되네요ㅜㅜ" / "ㅋㅋㅋ 좋다말았네요" / "나이 제한을 왜 두는거에요~~~~~"</div><div className="rsrc">2026.07.08 · <a href="https://cafe.naver.com/mindy7857/5289021" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
