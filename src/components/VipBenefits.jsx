@@ -40,7 +40,7 @@ export default function VipBenefits() {
           <tr>
             <td>OTT·구독</td>
             <td>
-              T우주패스 <span className="upd">4,900원(쇼핑·편의점·카페) + 5,000원(올리브영·스벅·이마트24) 2종</span>
+              T우주패스 4,900원(쇼핑·편의점·카페) + 5,000원(올리브영·스벅·이마트24) 2종
             </td>
             <td>
               VVIP 전용:<br />
