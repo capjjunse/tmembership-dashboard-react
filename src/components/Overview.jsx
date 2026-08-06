@@ -107,7 +107,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>T우주패스 VIP PICK 분리 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 78%·긍정 22%</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 62%·긍정 38%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP픽 혜택 소진 후 표준 요금제 이탈 반응</div>
           </a>
 
@@ -120,8 +120,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>시즌혜택 5종 진행중 (8.3~8.31)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">패스트캠퍼스 신규 제휴 (8.1~)</span></div>
-            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">포케올데이 신규 제휴 (8.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em>패스트캠퍼스 신규 제휴 (8.1~)</div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em>포케올데이 신규 제휴 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달 8월 1차 '달달하긴 무슨 개뿔·처참하네요' 불만</div>
@@ -133,8 +133,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">유플투쁠 1차 오픈 (8.11~8.13, 12종)</span></div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">유플투쁠 2차 오픈 (8.17~8.21, 14종)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em>유플투쁠 1차 오픈 (8.11~8.13, 12종)</div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em>유플투쁠 2차 오픈 (8.17~8.21, 14종)</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>파고다토쿨 혜택 변경 (8.1~)</div>
@@ -151,10 +151,10 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">CGV SKT 우위 · 캐리비안베이 KT 우위</span></div>
+              <div className="ovki-title">CGV SKT 우위 · 캐리비안베이 KT 우위</div>
               <ul className="ovki-list">
-                <li><span className="upd">캐리비안베이: KT 동반1인 포함 50% vs SKT 종일권+자켓 — KT 우위</span></li>
-                <li><span className="upd">CGV: SKT 8,500원+매점쿠폰2종 vs LGU+ 콘세션무료 — SKT 우위</span></li>
+                <li>캐리비안베이: KT 동반1인 포함 50% vs SKT 종일권+자켓 — KT 우위</li>
+                <li>CGV: SKT 8,500원+매점쿠폰2종 vs LGU+ 콘세션무료 — SKT 우위</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>
