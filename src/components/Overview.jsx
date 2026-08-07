@@ -131,6 +131,7 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">VIP콕 분기별 택1 구조 추가</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">오픈</em>유플투쁠 1차 오픈 (8.11~8.13, 12종)</div>

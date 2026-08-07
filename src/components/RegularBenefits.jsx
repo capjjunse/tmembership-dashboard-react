@@ -72,7 +72,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>매드포갈릭</td><td><G t="[VIP/Gold] 15% 할인 (최대 15,000원) · [Silver] 5% 할인 (최대 5,000원)"/></td><td><G t="[VVIP/VIP/골드] 15% 할인 (주문 10만원 한도) · [일반] 5% 할인 (주문 10만원 한도)"/></td><td><span className="upd">[VVIP/VIP] 15% 할인</span><br/><span className="upd">[우수] 5% 할인</span></td></tr>
+          <tr><td>매드포갈릭</td><td><G t="[VIP/Gold] 15% 할인 (최대 15,000원) · [Silver] 5% 할인 (최대 5,000원)"/></td><td><G t="[VVIP/VIP/골드] 15% 할인 (주문 10만원 한도) · [일반] 5% 할인 (주문 10만원 한도)"/></td><td><G t="[VVIP/VIP] 15% 할인 · [우수] 5% 할인"/></td></tr>
           <tr><td>아웃백</td><td><G t="[VIP/Gold] 15% 할인 · [Silver] 5% 할인"/></td><td><G t="[VVIP/VIP/골드] 15% 할인 · [일반] 5% 할인"/></td><td className="na">미제공</td></tr>
           <tr><td>VIPS</td><td><G t="[VIP/Gold] 15% 할인 · [Silver] 5% 할인"/></td><td><G t="[VVIP/VIP] 15% 할인 · [Gold/일반] 5% 할인"/></td><td><G t="[VVIP/VIP] 15% 할인 · [우수] 5% 할인"/></td></tr>
         </tbody>
@@ -121,7 +121,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>GS25</td><td><G t="[전 등급] 매주 화요일 신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)"/></td><td><G t="[VVIP/VIP/골드] 100원 할인 · [일반] 50원 할인 (일 최대 2만원)"/></td><td><span className="upd">[VVIP/VIP] 100원 할인</span><br/><span className="upd">[우수] 50원 할인</span></td></tr>
+          <tr><td>GS25</td><td><G t="[전 등급] 매주 화요일 신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)"/></td><td><G t="[VVIP/VIP/골드] 100원 할인 · [일반] 50원 할인 (일 최대 2만원)"/></td><td><G t="[VVIP/VIP] 100원 할인 · [우수] 50원 할인"/></td></tr>
           <tr><td>CU</td><td><G t="[VIP/Gold] 100원 할인 · [Silver] 50원 할인"/></td><td><G t="[전 등급] 오전5~9시 간편식 1,000원당 200원 할인 (일1회, 최대 1,000원)"/></td><td className="na">미제공</td></tr>
           <tr><td>세븐일레븐</td><td><G t="[VIP/Gold] 100원 할인 · [Silver] 50원 할인"/></td><td className="na">미제공</td><td className="na">미제공</td></tr>
         </tbody>
