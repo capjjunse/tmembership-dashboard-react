@@ -31,6 +31,13 @@ export default function History() {
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
+            <td>2026.08.07</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+ 멤버십 상시</td>
+            <td><span className="upd">9월 신규 제휴 2개 — 고메브릿지(결제금액 기준 15% 할인, 월 1회) · 우파루 오딧세이(재화 쿠폰 1만원 상당, 월 1회) (9.1~)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
             <td>2026.08.31</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>

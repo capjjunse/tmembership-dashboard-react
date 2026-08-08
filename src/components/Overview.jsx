@@ -100,14 +100,14 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>T우주패스 4,900원+5,000원 분리 (8.1~)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>T day Week1 오픈 (8.3~8.7, 15종)</div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">T day Day2 오픈 (8.12, 4종)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>샐러디 신규 제휴 (8.3~)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>T우주패스 VIP PICK 분리 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 50%·긍정 45%·중립 5%</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 50%·긍정 45%·중립 5%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP픽 혜택 소진 후 표준 요금제 이탈 반응</div>
           </a>
 
@@ -131,7 +131,7 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">VIP콕 분기별 택1 구조 추가</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VIP콕 분기별 택1 구조 추가</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">오픈</em>유플투쁠 1차 오픈 (8.11~8.13, 12종)</div>

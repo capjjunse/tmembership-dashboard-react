@@ -62,6 +62,15 @@ const compGroups = [
         basis: { skt: '티켓할인+콘세션2종', lgu: '콘세션만 무료', gap: 'SKT 티켓할인 추가' },
         note: { skt: '8.3~8.7', lgu: '8.19' },
       },
+      {
+        brand: '백억커피',
+        skt: { lines: [{ grade: '전 등급', b: '아메리카노 100원 (픽업 오더, 1회)' }], date: 'T day · 8.12' },
+        lgu: { lines: [{ grade: '선착순', b: '아메리카노 1잔 + 팝콘 무료 증정' }], date: '유플투쁠 2차 · 8.19' },
+        kt: null,
+        v: 'warn',
+        basis: { skt: '아메리카노 100원', lgu: '아메리카노+팝콘 무료', gap: 'LGU+ 팝콘 추가 우위' },
+        note: { skt: '8.12', lgu: '8.19' },
+      },
     ],
   },
   {
@@ -436,7 +445,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7) 기준 · 총6건 · SKT Day2~4·KT달달2차 미공개)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)·Day2(8.12) 기준 · <span className="upd">총7건</span> · SKT Day3~4·KT달달2차 미공개)</div>
         </div>
       </div>
 
