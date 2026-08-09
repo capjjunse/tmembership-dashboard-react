@@ -445,7 +445,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)·Day2(8.12) 기준 · <span className="upd">총7건</span> · SKT Day3~4·KT달달2차 미공개)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)·Day2(8.12) 기준 · 총7건 · SKT Day3~4·KT달달2차 미공개)</div>
         </div>
       </div>
 

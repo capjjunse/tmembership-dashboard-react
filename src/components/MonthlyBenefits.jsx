@@ -123,15 +123,15 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>1차 (8.11~8.13)</span></div>
               <ul className="mblist">
-                <li>배스킨라빈스 패밀리 최대9천원할인<span className="upd">(선착순)</span></li>
-                <li>피자헛 프리미엄피자55%+파스타증정<span className="upd">(선착순)</span></li>
+                <li>배스킨라빈스 패밀리 최대9천원할인(선착순)</li>
+                <li>피자헛 프리미엄피자55%+파스타증정(선착순)</li>
                 <li>컬리 5천·웰컴백1만·첫구매1.2만 쿠폰(선착순)</li>
-                <li>스파오 최대1.5만원할인(5만원↑)<span className="upd">(선착순)</span></li>
+                <li>스파오 최대1.5만원할인(5만원↑)(선착순)</li>
                 <li>스피드메이트 엔진오일+정비4종(선착순)</li>
-                <li>씨네Q 8천원 관람권<span className="upd">(선착순)</span></li>
-                <li>공차 최대50%할인(1만원↑)<span className="upd">(선착순)</span></li>
-                <li>매드포갈릭 2.5만원할인(8만원↑)<span className="upd">(선착순)</span></li>
-                <li>그리팅 2만원할인(5.5만원↑)<span className="upd">(선착순)</span></li>
+                <li>씨네Q 8천원 관람권(선착순)</li>
+                <li>공차 최대50%할인(1만원↑)(선착순)</li>
+                <li>매드포갈릭 2.5만원할인(8만원↑)(선착순)</li>
+                <li>그리팅 2만원할인(5.5만원↑)(선착순)</li>
                 <li>쿠캣 20%할인(5만원↑,최대3만원)(선착순)</li>
                 <li>신라인터넷면세점 쿠폰3종(선착순)</li>
                 <li>웅진플레이도시 워터파크49%할인(동반3인)(선착순)</li>
@@ -172,14 +172,14 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>3차 (8.21~8.27, 장기고객 포함)</span></div>
               <ul className="mblist">
-                <li>도미노피자 최대50%할인(방문포장)<span className="upd">(선착순)</span></li>
-                <li>노브랜드 치즈쫄볶이 무료증정<span className="upd">(선착순)</span></li>
+                <li>도미노피자 최대50%할인(방문포장)(선착순)</li>
+                <li>노브랜드 치즈쫄볶이 무료증정(선착순)</li>
                 <li>롱블랙 2개월무료구독권(선착순)</li>
                 <li>설성목장 1만원할인+바베큐폭립증정(7만원↑구매 시)</li>
                 <li>설빙 빙수메뉴 최대35%할인(선착순)</li>
                 <li>다이소 최대2천원금액권(선착순)</li>
-                <li>모던하우스 최대30%할인쿠폰2종<span className="upd">(선착순)</span></li>
-                <li>밀킨 전제품35%할인(최대10만원)<span className="upd">(선착순)</span></li>
+                <li>모던하우스 최대30%할인쿠폰2종(선착순)</li>
+                <li>밀킨 전제품35%할인(최대10만원)(선착순)</li>
                 <li>사조몰 1.5만원할인(4만원이상 구매 시)(선착순)</li>
                 <li>트래블버킷×네이버 국제선1만/국내3천할인(선착순)</li>
                 <li>(장기고객)이마트24 최대5천원할인(1.2만원↑)</li>
