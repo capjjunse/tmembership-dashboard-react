@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.08.05';
+const RADAR_SCANNED = '2026.08.11';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -55,12 +55,12 @@ const compGroups = [
       },
       {
         brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종' }], date: 'T day · 8.3~8.7' },
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종' }], date: <><span className="upd">T day · 8.3~8.7 / 8.19</span></> },
         lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '유플투쁠 2차 · 8.19' },
         kt: null,
         v: 'good',
         basis: { skt: '티켓할인+콘세션2종', lgu: '콘세션만 무료', gap: 'SKT 티켓할인 추가' },
-        note: { skt: '8.3~8.7', lgu: '8.19' },
+        note: { skt: <><span className="upd">8.3~8.7 / 8.19</span></>, lgu: '8.19' },
       },
       {
         brand: '백억커피',
@@ -228,7 +228,7 @@ const alCats = [
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'CGV', deadline: '상시', rows: [
         { grade: 'V', desc: '무료관람 연3회 / 1+1 연9회 택1' },
-        { grade: '전 등급', desc: <><span className="upd">4,000원 할인 (11,000원 이상 예매 시)</span></> },
+        { grade: '전 등급', desc: '4,000원 할인 (11,000원 이상 예매 시)' },
       ]},
       { partner: 'CGV', deadline: 'T day · 8.3~8.7', rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점 쿠폰 2종' },
@@ -445,7 +445,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)·Day2(8.12) 기준 · 총7건 · SKT Day3~4·KT달달2차 미공개)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)~<span className="upd">Day4(8.26)</span> 기준 · 총7건 · KT달달2차 미공개)</div>
         </div>
       </div>
 
@@ -583,7 +583,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.08.05</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.08.11</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

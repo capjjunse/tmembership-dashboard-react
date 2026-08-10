@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -32,13 +32,13 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'low',
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 15,
+    news7d: 20,
     negScore: 180,
     headline: [
       'EXO 포토카드 프리퀀시 이벤트 진행',
@@ -60,11 +60,11 @@ export const trendSignals = [
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 15% 할인' },
       { id: 'lgu', label: 'LGU+', prog: '상시', benefit: '[전 등급] 15% 할인 (최대 3만원)' },
     ],
-    strength: 'mid',
+    strength: 'low',
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 15,
+    news7d: 10,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
@@ -80,7 +80,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -106,7 +106,7 @@ export const trendSignals = [
   {
     brand: '설빙',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
