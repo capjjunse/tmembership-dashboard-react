@@ -113,7 +113,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#vp" className="ovg2-card ck">
-            <div className="ovg2-item">특이 변동 없음</div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">롯시 영화무료 VVIP 초이스만 (VIP 제외)</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-new">오픈</em>달달혜택 1차 오픈 (8.3~8.17, 3종 택1)</div>

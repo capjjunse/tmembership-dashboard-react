@@ -4,7 +4,7 @@ import { Chart, LineController, LineElement, PointElement, LinearScale, Category
 Chart.register(LineController, LineElement, PointElement, LinearScale, CategoryScale, Tooltip, Legend, Filler);
 
 const TREND_DATA = {
-  collected_at: "2026.08.10 09:00",
+  collected_at: "2026.08.10 11:00",
   period: { start: "2026-05-11", end: "2026-08-03" },
   labels: ["5/11","5/18","5/25","6/01","6/08","6/15","6/22","6/29","7/06","7/13","7/20","7/27","8/03"],
   skt:  [8.3,8.3,7.9,9.2,7.9,8.3,7.1,8.3,8.3,8.0,7.7,10.2,13.0],
