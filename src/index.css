@@ -44,9 +44,9 @@ a{color:var(--p);text-decoration:none}a:hover{text-decoration:underline}
 .upd-chg{background:var(--warn-bg);color:var(--warn)}
 .og{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 @media(max-width:720px){.og{grid-template-columns:1fr 1fr}}
-.ovg{display:flex;flex-direction:column;gap:18px}
+.ovg{display:flex;flex-direction:column;gap:18px;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .ovg2{display:grid;grid-template-columns:46px repeat(4,1fr);gap:5px;align-items:start}
-@media(max-width:720px){.ovg2{grid-template-columns:36px repeat(2,1fr)}}
+@media(max-width:720px){.ovg2{min-width:640px}}
 .ovg2-hdr{font-size:10px;font-weight:700;color:var(--tx3);letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:0 4px 6px}
 .ovg2-lbl{display:flex;align-items:flex-start;justify-content:center;padding-top:11px}
 .ovg2-card{display:flex;flex-direction:column;gap:3px;padding:10px 12px;border-radius:var(--r);background:var(--bg2);border:1px solid var(--bd);border-top:2px solid transparent;text-decoration:none;color:inherit;transition:background .12s;width:100%;min-width:0;min-height:64px;box-sizing:border-box;overflow:hidden}
