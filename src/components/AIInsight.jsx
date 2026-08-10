@@ -228,7 +228,7 @@ const alCats = [
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'CGV', deadline: '상시', rows: [
         { grade: 'V', desc: '무료관람 연3회 / 1+1 연9회 택1' },
-        { grade: '전 등급', desc: '4천원 할인' },
+        { grade: '전 등급', desc: <><span className="upd">4,000원 할인 (11,000원 이상 예매 시)</span></> },
       ]},
       { partner: 'CGV', deadline: 'T day · 8.3~8.7', rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점 쿠폰 2종' },

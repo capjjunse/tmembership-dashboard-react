@@ -18,7 +18,7 @@ export default function NonTelecom() {
       edgeDetails: [
         '적립·배송·콘텐츠·클라우드 구독 하나로 해결',
         '패밀리 3명 동일 5%, 가족 단위 락인',
-        '하반기 무제한 무료배송 예고, 쿠팡과 경쟁',
+        '웹툰·시리즈 월 10개 쿠키 무료, 콘텐츠 풍부',
       ],
     },
     {
@@ -45,7 +45,7 @@ export default function NonTelecom() {
     {
       title: '배민클럽',
       grad: 'linear-gradient(135deg,#46b0fa,#1b87f6)',
-      tag: '구독형 · 월 3,990원',
+      tag: '구독형 · 월 3,990원, 신규 1,990원',
       tagStyle: { background: '#e8f4fe', color: '#1560bd' },
       link: 'https://www.baemin.com/',
       benefits: [
@@ -139,7 +139,15 @@ export default function NonTelecom() {
             <div className="nth" style={{ background: c.grad, color: '#fff' }}>{c.title}</div>
             <div className="ntb">
               <div className="ntb-top">
-                <span className="nttag" style={c.tagStyle}>{c.tag}</span>
+                <span className="nttag" style={c.tagStyle}>
+                  {c.title === '배민클럽' && c.tag.includes('신규') ? (
+                    <>
+                      {c.tag.split(', ')[0]}, <span className="upd">{c.tag.split(', ')[1]}</span>
+                    </>
+                  ) : (
+                    c.tag
+                  )}
+                </span>
                 <a className="ntlink" href={c.link} target="_blank" rel="noreferrer">공식 페이지 →</a>
               </div>
               <ul className="ntlist">
@@ -151,7 +159,15 @@ export default function NonTelecom() {
                   <span className="ntval">[{c.edge}]</span>
                 </div>
                 <ul className="ntedge">
-                  {c.edgeDetails.map((d, i) => <li key={i}>{d}</li>)}
+                  {c.edgeDetails.map((d, i) => (
+                    <li key={i}>
+                      {c.title === '네이버플러스 멤버십' && i === 2 ? (
+                        <span className="upd">{d}</span>
+                      ) : (
+                        d
+                      )}
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
