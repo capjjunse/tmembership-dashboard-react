@@ -151,10 +151,11 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title">CGV 우위 · 캐리비안베이 열위</div>
+              <div className="ovki-title"><span className="upd">CGV 우위 · 캐리비안베이·백억커피 열위</span></div>
               <ul className="ovki-list">
                 <li>캐리비안베이: KT 동반1인 포함 50% vs SKT 종일권+자켓 — KT 우위</li>
                 <li>CGV: SKT 8,500원+쿠폰2종 vs LGU+ 콘세션무료 — SKT 우위</li>
+                <li><span className="upd">백억커피: LGU+ 아메리카노+팝콘 무료 vs SKT 아메리카노 100원 — LGU+ 우위</span></li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>

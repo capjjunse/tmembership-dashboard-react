@@ -34,7 +34,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (8.12)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 2 (8.12)</span></div>
               <ul className="mblist">
                 <li>백억커피 아메리카노100원(픽업오더,1회)</li>
                 <li>아떼 썸머페스타 최대3만원할인</li>
@@ -103,14 +103,23 @@ export default function MonthlyBenefits() {
                 <li>아기상어비밀초대장 50%할인</li>
               </ul>
             </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span className="upd">글로벌 혜택 (8.3~8.31, 로밍 고객)</span></div>
+              <ul className="mblist">
+                <li><span className="upd">공항 라운지 1만원 할인</span></li>
+                <li><span className="upd">Grab 트래블패스 코드 무료</span></li>
+                <li><span className="upd">네이버페이 해외QR결제 2만원 혜택</span></li>
+              </ul>
+            </div>
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">KT멤버십 페스타 · 달달+시즌+문화 총동원</div>
+            <div className="mpnt-concept"><span className="upd">KT멤버십 페스타 · 달달+시즌+문화+글로벌</span></div>
             <ul className="mpnt-list">
               <li>달달1차 · 배스킨·쇼핑라운지·공차 택1</li>
               <li>시즌혜택 5종 · 캐리비안베이·아고다 등</li>
               <li>문화혜택 4종 · 헬스키친·유미세포들 등</li>
+              <li><span className="upd">글로벌혜택 3종 · 공항라운지·Grab 등(로밍)</span></li>
             </ul>
           </div>
         </div>
@@ -182,7 +191,7 @@ export default function MonthlyBenefits() {
                 <li>밀킨 전제품35%할인(최대10만원)(선착순)</li>
                 <li>사조몰 1.5만원할인(4만원이상 구매 시)(선착순)</li>
                 <li>트래블버킷×네이버 국제선1만/국내3천할인(선착순)</li>
-                <li>(장기고객)이마트24 최대5천원할인(1.2만원↑)</li>
+                <li><span className="upd">(장기고객)이마트24 최대3천원할인(1만원↑)</span></li>
                 <li>(장기고객)NOL티켓 죽은시인30%할인</li>
                 <li>(장기고객)트래블버킷×네이버 국제선1만/국내선3천할인</li>
                 <li>(장기고객)윌라 최대1개월무료</li>
