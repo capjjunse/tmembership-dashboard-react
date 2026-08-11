@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (2026.08.10 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (<span className="upd">2026.08.11 갱신</span>)</span>
 
       </div>
       <div className="tr2">
@@ -63,9 +63,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '48%' }}>긍정 48%</div>
-              <div className="rbs rn" style={{ width: '43%' }}>부정 43%</div>
-              <div className="rbs ru" style={{ width: '9%' }}>중립 9%</div>
+              <div className="rbs rp" style={{ width: '46%' }}><span className="upd">긍정 46%</span></div>
+              <div className="rbs rn" style={{ width: '46%' }}><span className="upd">부정 46%</span></div>
+              <div className="rbs ru" style={{ width: '8%' }}><span className="upd">중립 8%</span></div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -76,7 +76,7 @@ export default function Sentiment() {
           <div className="srcs">
             <span className="srcbadge act">에펨코리아</span>
             <span className="srcbadge act">루리웹</span>
-            <span className="srcbadge">아카라이브</span>
+            <span className="srcbadge act">아카라이브</span>
             <span className="srcbadge act">뽐뿌</span>
             <span className="srcbadge act">네이버카페</span>
             <span className="srcbadge">네이버블로그</span>
@@ -86,8 +86,10 @@ export default function Sentiment() {
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw1' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">새우튀김 맛있삼 — "이번에 장보는 거 8천원 쿠폰 주길래 사봤는데 맛있네 제부이도 통신사 sk면 t멤버십 쿠폰 받아서 장보삼" (제타 갤)</span></div><div className="rsrc">2026.08.07</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">skt 장기고객 혜택 어이가 없어서 말문이 막히네 — "밤11시-새벽5시까지 오라는건데 생색 졸라 냄" / 댓글: "뭐라도 해주긴하네ㅋㅋ" / "낮에 빌리면 비싸자너" / "ㅋㅋㅋㅋㅋㅋ 그냥 잘랍니다"</div><div className="rsrc">2026.08.04 · <a href="https://www.fmkorea.com/10169950810" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">T멤버십 영화 예매가 안돼요 — "조조 아니고 1만7천원 이하 아니고 청소년도 아님" / 댓글: "7월달꺼 써버린거아님? 한달에 한번 무료인데" / "1년에 6회임" / "특별관은 나도 안되서 걍 제값다 주고봄"</div><div className="rsrc">2026.07.30 · <a href="https://www.fmkorea.com/10148363088" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">아카라이브</span></div><div className="rtx"><span className="upd">T멤버십 영화예약 병신을 만들어놨네 (명조 갤)</span></div><div className="rsrc">2026.07.29</div></div>
             </div>
           )}
           {sktKw === 'kw2' && (
@@ -107,11 +109,12 @@ export default function Sentiment() {
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">t멤버쉽 싹다 털었네요. — 팀홀튼 0week 쿠폰 등 활용, 무지개 떡볶이세트 사용 (정가거부)</div><div className="rsrc">2026.08.07 · <a href="https://m.cafe.naver.com/wjdrkrjqn/189285" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">Skt 영크크 ㄱㄱ (커피 갤러리) — "지방러는 웁니다..." / 댓글: "아~ 이게 SK가 아니라서 못받네~" "그나마 던킨말고 쓸게없넹" "내가 다시는 SK쓰나봐라"</div><div className="rsrc">2026.08.03 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=coffee&no=664109" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">아카라이브</span></div><div className="rtx"><span className="upd">skt 이번달은 0week 없나 (핫딜 후기 채널, 댓글 3)</span></div><div className="rsrc">2026.08.02</div></div>
             </div>
           )}
           {sktKw === 'kw5' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버카페</span><span className="upd">upd</span></div><div className="rtx">가끔 오는 쉑쉑병...SKT VIP는 T해피아워 5천원할인 월5회,1일1회(좀 치사) — 해피아워 혜택 실제 사용 후 아쉬움 혼재 (뉴스사사)</div><div className="rsrc">2026.08.09 · <a href="https://m.cafe.naver.com/loyaltylife/349162" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">가끔 오는 쉑쉑병...SKT VIP는 T해피아워 5천원할인 월5회,1일1회(좀 치사) — 해피아워 혜택 실제 사용 후 아쉬움 혼재 (뉴스사사)</div><div className="rsrc">2026.08.09 · <a href="https://m.cafe.naver.com/loyaltylife/349162" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {sktKw === 'kw4' && (
@@ -134,9 +137,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '21%' }}>긍정 21%</div>
-              <div className="rbs rn" style={{ width: '64%' }}>부정 64%</div>
-              <div className="rbs ru" style={{ width: '15%' }}>중립 15%</div>
+              <div className="rbs rp" style={{ width: '24%' }}><span className="upd">긍정 24%</span></div>
+              <div className="rbs rn" style={{ width: '62%' }}><span className="upd">부정 62%</span></div>
+              <div className="rbs ru" style={{ width: '14%' }}><span className="upd">중립 14%</span></div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -165,7 +168,7 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw2' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span><span className="upd">upd</span></div><div className="rtx">KT 달달혜택 한달에 두번 하나보네 — "딱히 이거다 싶은건 없지만 주말에 공차나 다녀와야겠어요" (휴대폰 갤)</div><div className="rsrc">2026.08.05</div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">KT 달달혜택 한달에 두번 하나보네 — "딱히 이거다 싶은건 없지만 주말에 공차나 다녀와야겠어요" (휴대폰 갤)</div><div className="rsrc">2026.08.05</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">kt 8월 달달혜택 1차 — "쇼핑라운지 살게 없고... 나머지 둘 다 멀고..."</div><div className="rsrc">2026.08.05 · <a href="https://bbs.ruliweb.com/community/board/300143/read/76210674" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">본진kt 달달혜택 오픈 / 구림 쇼핑라운지는 3만 이상 5천 할인 (알뜰폰 갤)</div><div className="rsrc">2026.08.03</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">아카라이브</span></div><div className="rtx">케이티 달달혜택은오와리다</div><div className="rsrc">2026.08.03</div></div>
@@ -185,7 +188,8 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw3' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span><span className="upd">upd</span></div><div className="rtx">고객보답 프로그램 덕분에 거의 무제한처럼 썼는데 8월부터 어떻게 버텨ㅠㅠ (큐티 스트릿 갤)</div><div className="rsrc">2026.07.28</div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">고객보답 프로그램 덕분에 거의 무제한처럼 썼는데 8월부터 어떻게 버텨ㅠㅠ (큐티 스트릿 갤)</div><div className="rsrc">2026.07.28</div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">아카라이브</span></div><div className="rtx"><span className="upd">크트 고객보답 라운지 쿠폰 애매한데 (핫딜 후기 채널, 댓글 2)</span></div><div className="rsrc">2026.07.25</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">KT 장기고객 마지막 혜택 올려봐요 — "파리바게뜨 최대 50% 할인인데 1만원 이상 구매시 5천원 할인이라 별로 큰 혜택은 아닌 듯" / "갈수록 혜택이 메리트가 없어진다" / 댓글: "전 어제 빵 몇개사고 5천원 할인 받았어요^^" "저희도 샌드위치랑 꽈배기사고 50퍼 받았어요" (로물콘)</div><div className="rsrc">2026.07.21 · <a href="http://cafe.naver.com/romul/309073" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">kt 마지막 고객보답 쇼핑라운지 5천원 할인권 받았는데 살게 없네 — "콜라밖에 없는건가..ㅡ" / 댓글: "안 미안한 자사몰 쿠폰" / "지금 콜라 다 마시면 콜라 주문해야지..."</div><div className="rsrc">2026.07.19 · <a href="https://bbs.ruliweb.com/community/board/300143/read/76003850" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">kt마지막 보상혜택 파바 50%받았어용 — "이제 보상혜택도 없네용 아쉽스.. 담달 달달혜택이나 기다려야겠어용" / 댓글: "가끔씩 빵살때 할인없으면 아쉬워요..ㅠㅠ" (겟꿀)</div><div className="rsrc">2026.07.18 · <a href="http://cafe.naver.com/dpdtydzzz/14081" target="_blank" rel="noreferrer">원문 보기</a></div></div>

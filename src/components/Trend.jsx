@@ -4,12 +4,12 @@ import { Chart, LineController, LineElement, PointElement, LinearScale, Category
 Chart.register(LineController, LineElement, PointElement, LinearScale, CategoryScale, Tooltip, Legend, Filler);
 
 const TREND_DATA = {
-  collected_at: "2026.08.10 11:00",
-  period: { start: "2026-05-11", end: "2026-08-03" },
-  labels: ["5/11","5/18","5/25","6/01","6/08","6/15","6/22","6/29","7/06","7/13","7/20","7/27","8/03"],
-  skt:  [8.3,8.3,7.9,9.2,7.9,8.3,7.1,8.3,8.3,8.0,7.7,10.2,13.0],
-  kt:   [15.5,11.8,12.3,11.9,10.4,12.9,8.7,13.0,9.3,15.3,13.5,19.1,15.5],
-  lgu:  [100,97.4,25.6,3.8,97.3,90.9,48.1,6.3,79.8,80.4,11.5,3.3,82.0],
+  collected_at: "2026.08.11 11:00",
+  period: { start: "2026-05-11", end: "2026-08-10" },
+  labels: ["5/11","5/18","5/25","6/01","6/08","6/15","6/22","6/29","7/06","7/13","7/20","7/27","8/03","8/10"],
+  skt:  [8.3,8.3,7.9,9.2,7.9,8.3,7.1,8.3,8.3,8.0,7.7,10.2,13.0,1.7],
+  kt:   [15.5,11.8,12.3,11.9,10.4,12.9,8.7,13.0,9.3,15.3,13.5,19.1,15.5,2.3],
+  lgu:  [100,97.4,25.6,3.8,97.3,90.9,48.1,6.3,79.8,80.4,11.5,3.3,82.0,0.4],
 };
 
 export default function Trend() {
@@ -100,7 +100,7 @@ export default function Trend() {
           <div className="tli"><div className="tld" style={{ background: '#b5006a' }}></div>LGU+ (U+멤버십 외)</div>
         </div>
         <div className="tnote">
-          출처: 네이버 DataLab API · {TREND_DATA.collected_at} 수집<br />
+          출처: 네이버 DataLab API · <span className="upd">{TREND_DATA.collected_at}</span> 수집<br />
           검색량 지수 (100 = 기간 내 최고값)
         </div>
       </div>
