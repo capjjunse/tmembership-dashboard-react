@@ -107,7 +107,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>T우주패스 VIP PICK 분리 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 46%·부정 46%·중립 8%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 46%·부정 46%·중립 8%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP픽 혜택 소진 후 표준 요금제 이탈 반응</div>
           </a>
 
@@ -152,7 +152,7 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">CGV 우위 · 캐리비안베이·백억커피 열위</span></div>
+              <div className="ovki-title"><span className="upd">CGV 우위 · 캐리비안베이 열위</span></div>
               <ul className="ovki-list">
                 <li>캐리비안베이: KT 동반1인 포함 50% vs SKT 종일권+자켓 — KT 우위</li>
                 <li>CGV: SKT 8,500원+쿠폰2종 vs LGU+ 콘세션무료 — SKT 우위</li>
