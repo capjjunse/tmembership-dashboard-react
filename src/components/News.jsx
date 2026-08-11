@@ -93,6 +93,11 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">뜨거운 여름을 제대로 즐기는 8월을 위한 유플투쁬 혜택</span></span></div>
+            <div className="nsum"><span className="upd">8월 식음료 혜택: 배스킨라빈스 패밀리 최대 9천원 할인(8/11), 피자헛 프리미엄 피자 최대 55% 할인·파스타 증정(8/11), 공차 1만원 이상 구매 시 최대 50% 할인(8/13), 매드포갈릭 최대 2만5천원 할인/8만원 이상 주문(8/13), 배달의민족×명랑핫도그 1만8천원 이상 주문 시 최대 8,500원 할인(8/17). 문화·여가·쇼핑 혜택으로 더 즐거운 여름 제공.</span></div>
+            <div className="nmeta">2026-08-05 · <a href="https://news.lguplus.com/22563" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">유플투쁬 8월 제휴사 최대 규모 52개 확대, 테마파크·외식·쇼핑 혜택 강화</span></div>
             <div className="nsum">LG유플러스가 '유플투쁬'의 8월 제휴사를 올해 최대 규모인 52개로 확대. 여름 바캉스 시즌 맞춰 오션월드 50% 할인, 부산 롯데월드 40% 할인, 서울랜드 55% 할인, 아쿠아필드 40% 할인, 뽀로로파크 66% 할인 등 테마파크 혜택 추가. 장기고객 1,500명 대상 '레고랜드 워터풀 파티' 8월 8~9일 개최.</div>
             <div className="nmeta">2026-08-04 · <a href="https://www.industrynews.co.kr/news/articleView.html?idxno=68139" target="_blank" rel="noreferrer">인더스트리뉴스</a></div>
