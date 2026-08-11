@@ -16,7 +16,7 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 60,
+    news7d: 55,
     negScore: 970,
     headline: [
       '8.5 경찰 본사 압수수색 · 전 대표 포함',
@@ -54,7 +54,7 @@ export const trendSignals = [
   {
     brand: '피자헛',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP] 30% 할인 · [G·S] 20% 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 15% 할인' },
@@ -80,7 +80,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -89,12 +89,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 20,
-    negScore: 870,
+    news7d: 25,
+    negScore: 850,
     headline: [
       '채권신고 8.5~9.1 진행 · 영진위 지원',
-      '관리인 현 대표 간주 · 정상 운영',
-      '돌비시네마 8월 라인업 · 영업 지속',
+      '위탁관 공동성명 · 본사 위기극복',
+      '청년문화예술패스 동참 · 19~20세',
     ],
     impact: 'SKT·KT 상시 운영 중 · 채권 신고기간(8.5~9.1) 진행 중 · 배급대금 미지급 150억 — 회생계획안 12.1까지 제출',
     links: [
@@ -106,13 +106,13 @@ export const trendSignals = [
   {
     brand: '설빙',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
-    strength: 'mid',
+    strength: 'low',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 15,
+    news7d: 8,
     negScore: 300,
     headline: [
       '태국 방콕 1호점 개점(8.4) · 해외 가속',
@@ -123,6 +123,32 @@ export const trendSignals = [
     links: [
       { label: '미국 매장 5개 확대·태국 1호점 (미주한국일보)', url: 'http://www.koreatimes.com/article/20260727/1623146' },
       { label: '공식 사과·전 매장 특별점검 (뉴스핌)', url: 'https://www.newspim.com/news/view/20260720001064' },
+    ],
+  },
+  {
+    brand: 'CGV',
+    membership: 'partner',
+    updated: true,
+    telcos: [
+      { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
+      { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
+      { id: 'lgu', label: 'LGU+', prog: '상시', benefit: '[전 등급] 최대 5,000원 할인' },
+    ],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'pos',
+    dlSpike: null,
+    news7d: 45,
+    negScore: 250,
+    headline: [
+      'CGV판교 8.19 영업종료 · 임대계약 종료',
+      '2Q 흑자전환 · 영업이익 115억',
+      '씨집에가면 8월 5편 · 콘텐츠 확장',
+    ],
+    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2분기 흑자전환(세전이익 90억) · 판교점 8.19 영업종료 — 임대계약 종료에 따른 점포 최적화',
+    links: [
+      { label: 'CGV 2Q 흑자전환 · 영업이익 115억 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608071704003/' },
+      { label: 'CGV판교 8.19 영업종료 안내 (루리웹)', url: 'https://bbs.ruliweb.com/av/board/300013/read/3784922' },
     ],
   },
 ];

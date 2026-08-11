@@ -1,58 +1,32 @@
 {
-  "generated_at": "2026.08.05 16:27",
-  "total_collected": 1061,
-  "total_valid": 603,
-  "total_skipped": 458,
-  "total_top": 33,
+  "generated_at": "2026.08.12 05:55",
+  "total_collected": 898,
+  "total_valid": 395,
+  "total_skipped": 368,
+  "total_top": 31,
   "topic_groups": [
     {
-      "category": "trend",
-      "topic": "유통가 AI 활용 확대",
-      "insight": "유통 플랫폼에서 AI 기술을 콘텐츠 제작과 쇼핑 영역으로 적극 도입 중",
-      "signal_strength": 2,
-      "max_velocity": 14.3,
-      "articles": [
-        {
-          "title": "“AI가 쇼핑 콘텐츠 만든다” 유통가 플랫폼 곳곳 AI 활용 확대",
-          "link": "https://www.etnews.com/20260805000225",
-          "pub_date": "2026.08.05",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 14.3
-        },
-        {
-          "title": "'AI 백화점'시대 열린다…생성형 AI 경쟁 본격화",
-          "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=142617",
-          "pub_date": "2026.08.05",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 14.3
-        }
-      ],
-      "is_new": true
-    },
-    {
       "category": "risk",
-      "topic": "쿠팡 영업손실 확대",
-      "insight": "쿠팡 2분기 영업손실 8350억원으로 상장 후 최악 기록, 과징금 등 리스크 증가",
+      "topic": "서울우유 불매 논란",
+      "insight": "서울우유 광고 표현 논란으로 불매 운동 촉발, 광복절 앞두고 사회적 분열 심화",
       "signal_strength": 3,
-      "max_velocity": -1.1,
+      "max_velocity": 27.8,
       "articles": [
         {
-          "title": "쿠팡Inc, 2분기 영업손실 8350억원 ‘역대 최대’…과징금 여파",
-          "link": "https://biz.heraldcorp.com/article/10830972?ref=naver",
-          "pub_date": "2026.08.05",
+          "title": "&quot;김구 선생이 빨갱이?&quot;…서울우유 불매 주장, 광복절 앞두고 '대반전'",
+          "link": "https://www.news1.kr/society/general-society/6253708",
+          "pub_date": "2026.08.10",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -1.1
+          "datalab_velocity": 27.8
         },
         {
-          "title": "쿠팡, 2Q 8350억 적자…상장 후 최대 영업손실",
-          "link": "https://biz.heraldcorp.com/article/10831568?ref=naver",
-          "pub_date": "2026.08.05",
+          "title": "[와글와글 플러스] &quot;김구 선생이 빨갱이?&quot;‥'불매 운동'에 뭇매",
+          "link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6843569_37012.html",
+          "pub_date": "2026.08.10",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -1.1
+          "datalab_velocity": 27.8
         }
       ],
       "is_new": true
@@ -60,45 +34,37 @@
     {
       "category": "risk",
       "topic": "스타벅스 탱크데이 사태",
-      "insight": "스타벅스 탱크데이 논란으로 투썸플레이스가 결제액 1위 차지, 커피시장 재편 진행",
+      "insight": "탱크데이 논란에 따른 불매 운동 중 모바일 상품 환불 거부 문제 발생",
       "signal_strength": 3,
-      "max_velocity": 0.0,
+      "max_velocity": 27.8,
       "articles": [
         {
-          "title": "‘스벅 사태’ 커피시장 재편… ‘투썸’ 결제액 석 달째 1위",
-          "link": "https://www.busan.com/view/busan/view.php?code=2026080417372028998",
-          "pub_date": "2026.08.04",
+          "title": "&quot;불매하려 해도 환불 못 받는다&quot;…스타벅스 사태가 드러낸 '모바일 상품...",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=234761",
+          "pub_date": "2026.08.06",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -1.1
-        },
-        {
-          "title": "형소법개정 의결 다음날… 경찰, ‘모욕혐의’ 스타벅스 강제수사",
-          "link": "https://www.munhwa.com/article/11607435?ref=naver",
-          "pub_date": "2026.08.05",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -1.1
-        },
-        {
-          "title": "스타벅스, 투썸플레이스에 3개월째 밀려",
-          "link": "https://www.livebiz.today/news/articleView.html?idxno=203812",
-          "pub_date": "2026.08.04",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -1.1
-        },
-        {
-          "title": "스벅 넘은 투썸…커피 시장 '지각 변동'",
-          "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=361223",
-          "pub_date": "2026.08.04",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -1.1
+          "datalab_velocity": 27.8
         },
         {
           "title": "경찰, '탱크데이' 논란 스타벅스 첫 압수수색…고발 2개월만",
           "link": "https://www.newsis.com/view/NISX20260805_0003736868",
+          "pub_date": "2026.08.05",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "警 ‘탱크데이 논란’ 스벅 본사 ‘모욕죄’ 압색",
+          "link": "https://www.segye.com/newsView/20260805520020?OutUrl=naver",
+          "pub_date": "2026.08.05",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "경찰, '탱크데이 마케팅 논란' 스타벅스코리아 본사 첫 압수수색",
+          "link": "https://www.dailian.co.kr/news/view/1674588/?sc=Naver",
           "pub_date": "2026.08.05",
           "priority": 3,
           "cross_query_count": 1,
@@ -113,9 +79,25 @@
           "datalab_velocity": 0.0
         },
         {
-          "title": "경찰, '탱크데이 마케팅 논란' 스타벅스코리아 본사 첫 압수수색",
-          "link": "https://www.dailian.co.kr/news/view/1674588/?sc=Naver",
+          "title": "경찰, '탱크데이 논란' 스타벅스 첫 압수수색…고발 두 달여만",
+          "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/05/2026080590270.html",
           "pub_date": "2026.08.05",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "[속보] 경찰, ‘탱크데이’ 논란 스타벅스 압수수색",
+          "link": "https://www.joongang.co.kr/article/25450926",
+          "pub_date": "2026.08.05",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "스타벅스 ‘탱크데이’ 마케팅 논란… 경찰, 수사 두달 만에 압수수색",
+          "link": "https://www.chosun.com/national/national_general/2026/08/06/Q4H4QEHNDJG37LZ7CYIYWDXGOU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+          "pub_date": "2026.08.06",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
@@ -125,105 +107,59 @@
     },
     {
       "category": "battle",
-      "topic": "통신사 여름 프로모션 경쟁",
-      "insight": "통신3사, 여름 휴가 시즌 맞춰 요금할인·로밍·멤버십 혜택 확대 경쟁",
+      "topic": "통신사 AI 구독 경쟁",
+      "insight": "KT가 구글 Gemini 연동 구독팩 출시, 통신사의 AI 기반 고가 요금제 경쟁 본격화",
+      "signal_strength": 2,
+      "max_velocity": 10.0,
+      "articles": [
+        {
+          "title": "5G 다음 혜택은 'AI 구독'…KT, 구글 손잡고 고가 가입자 잡는다",
+          "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=357273",
+          "pub_date": "2026.08.11",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 10.0
+        },
+        {
+          "title": "통신요금제에 'AI 구독' 들어왔다…KT, 구글 Gemini 품은 초이스 4종 출시",
+          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=133326",
+          "pub_date": "2026.08.11",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 10.0
+        },
+        {
+          "title": "KT가 9만원 요금제에 AI 넣은 이유… 400GB→5TB '구독 사다리' 놓는다",
+          "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=42949",
+          "pub_date": "2026.08.11",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "battle",
+      "topic": "신선식품 배송 경쟁",
+      "insight": "택배사 파업으로 배송 공백 발생, 쿠팡·컬리 등 e커머스의 배송 네트워크 우위 부각",
       "signal_strength": 2,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "던킨, SKT와 ‘Young Week’ 프로모션···전 품목 40% 혜택",
-          "link": "https://sports.khan.co.kr/article/202608040607003?pt=nv",
-          "pub_date": "2026.08.04",
+          "title": "CJ대한통운·한진·롯데, 14~15일 배송 중단... 쿠팡·컬리 정상배송 '플...",
+          "link": "http://www.newskr.kr/news/articleView.html?idxno=105491",
+          "pub_date": "2026.08.10",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "&quot;여름 휴가비 아껴드립니다&quot;…이통3사, 요금 반값에 공짜 로밍 맞불",
-          "link": "https://www.newsis.com/view/NISX20260731_0003731924",
-          "pub_date": "2026.08.02",
+          "title": "신선식품 이커머스 경쟁 재점화…롯데 가세에 쿠팡·컬리·SSG '배송 전쟁...",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=154147",
+          "pub_date": "2026.08.10",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -9.1
-        },
-        {
-          "title": "SKT·KT·LG유플러스, 여름 맞아 통신비·멤버십 혜택 확대…민생지원 본...",
-          "link": "http://www.econonews.co.kr/news/articleView.html?idxno=442042",
-          "pub_date": "2026.07.30",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -9.1
-        },
-        {
-          "title": "투썸플레이스, NOL과 손잡고 여름 제휴 프로모션 진행",
-          "link": "http://www.beyondpost.co.kr/view.php?ud=20260803132414497446a9e4dd7f_30",
-          "pub_date": "2026.08.03",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "여름 신제품부터 IP 협업까지...식품·유통업계, 시즌 한정 마케팅 경쟁",
-          "link": "http://www.popcornnews.net/news/articleView.html?idxno=128689",
-          "pub_date": "2026.08.05",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "휴가철 성수기 잡아라…외식업계, 할인 프로모션 강화",
-          "link": "https://www.asiatime.co.kr/article/20260803500017",
-          "pub_date": "2026.08.03",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "이마트·BBQ·아성다이소 등 유통업계, 추석·여름 시즌 공략 및 HMR 강화...",
-          "link": "http://www.dailypop.kr/news/articleView.html?idxno=101205",
-          "pub_date": "2026.08.04",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": -9.1
-        },
-        {
-          "title": "현대홈쇼핑, 휴가철 특가 프로모션 '핫쇼페' 진행",
-          "link": "https://www.ngonews.kr/news/articleView.html?idxno=234640",
-          "pub_date": "2026.08.05",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "[카드톡톡] 숙박비는 깎아주고 폰값은 돌려주고…카드사 '여름 씀씀이'...",
-          "link": "https://www.m-i.kr/news/articleView.html?idxno=1399053",
-          "pub_date": "2026.08.05",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "여름휴가 피크 시즌, 웹투어가 카드사 제휴 국내선 캐시백으로 여행 경...",
-          "link": "http://www.globalepic.co.kr/view.php?ud=20260805102720770348439a4874_29",
-          "pub_date": "2026.08.05",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "네네치킨, 8월 앱 전용 프로모션 '치링데이' 실시",
-          "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=243667",
-          "pub_date": "2026.08.04",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "네네치킨, 8월 앱 '치링데이' 프로모션...7천원 할인에 링티 증정까지",
-          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=389690",
-          "pub_date": "2026.08.04",
-          "priority": 1,
-          "cross_query_count": 2,
           "datalab_velocity": 0.0
         }
       ],
@@ -231,68 +167,60 @@
     },
     {
       "category": "battle",
-      "topic": "LGU+ 알뜰폰 멤버십 확대",
-      "insight": "LG유플러스, 알뜰폰 고객층 확보 위해 전용 멤버십 프로그램 신규 출시",
+      "topic": "카카오 AI 커머스 전략",
+      "insight": "카카오톡에서 AI로 쿠팡이츠 배달 주문 가능하게, 메신저와 커머스 통합 본격화",
       "signal_strength": 2,
-      "max_velocity": -10.8,
+      "max_velocity": 0.0,
       "articles": [
         {
-          "title": "LGU+, 알뜰폰 전용 멤버십 '알닷클럽' 출시",
-          "link": "http://www.fnnews.com/news/202608050920468892",
-          "pub_date": "2026.08.05",
+          "title": "[컨콜 종합] '사상 최대 실적' 카카오 &quot;카톡에서 AI로 쿠팡이츠 배달&quot;⋯...",
+          "link": "http://www.inews24.com/view/1992514",
+          "pub_date": "2026.08.06",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -10.8
+          "datalab_velocity": 0.0
         },
         {
-          "title": "&quot;매주 수요일 확인하세요&quot; LG U+, 알뜰폰 멤버십 '알닷클럽' 출시",
-          "link": "https://www.mt.co.kr/tech/2026/08/05/2026080508432983299",
-          "pub_date": "2026.08.05",
+          "title": "카톡서 배달주문…카카오, 쿠팡이츠와 'AI 커머스' 첫발",
+          "link": "https://www.hankyung.com/article/2026080692471",
+          "pub_date": "2026.08.06",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -10.8
+          "datalab_velocity": 0.0
         },
         {
-          "title": "LG유플러스, 알뜰폰 전용 혜택 프로그램 '알닷클럽' 출시",
-          "link": "https://www.cnbizm.com/news/articleView.html?idxno=310627",
-          "pub_date": "2026.08.05",
+          "title": "카톡서 쿠팡이츠 주문…배달·빅테크 '합종연횡'",
+          "link": "http://www.inews24.com/view/1992884",
+          "pub_date": "2026.08.07",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -10.8
-        },
-        {
-          "title": "LG유플러스, 알뜰폰 장기고객 혜택 확대… '알닷클럽' 출시",
-          "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=725666",
-          "pub_date": "2026.08.05",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.8
+          "datalab_velocity": 0.0
         }
       ],
       "is_new": true
     },
     {
-      "category": "battle",
-      "topic": "이커머스 멤버십 차별화 경쟁",
-      "insight": "G마켓·롯데온, 무료배송·반품 등 멤버십 혜택 고도화로 고객 확보 경쟁",
+      "category": "benchmark",
+      "topic": "유통사 시즈널 프로모션",
+      "insight": "주요 유통사들이 연휴·시즌 변화에 맞춰 할인 및 특판 행사 확대 중",
       "signal_strength": 2,
-      "max_velocity": -10.8,
+      "max_velocity": 0.0,
       "articles": [
         {
-          "title": "무료배송 경쟁 넘어 '무료반품'까지…G마켓, 멤버십 락인 전쟁 가세",
-          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=84041",
-          "pub_date": "2026.08.04",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.8
+          "title": "[유통소식] 롯데마트, 연휴 겨냥 '통큰데이'…'통짜장어' 2차 판매",
+          "link": "http://www.4th.kr/news/articleView.html?idxno=2116121",
+          "pub_date": "2026.08.11",
+          "priority": 1,
+          "cross_query_count": 4,
+          "datalab_velocity": -1.7
         },
         {
-          "title": "롯데온, 무료+5%적립 '넥스트 멤버십' 출격…고객 쟁탈전 본격 참전",
-          "link": "https://www.etnews.com/20260805000114",
-          "pub_date": "2026.08.05",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.8
+          "title": "최대 92% 할인에 20만원 쿠폰팩…롯데온, 여름 시즌오프 '승부수'",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=539170",
+          "pub_date": "2026.08.11",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
         }
       ],
       "is_new": true
@@ -301,167 +229,68 @@
   "categories": {
     "trend": [
       {
-        "title": "공정위, 반복 담합 기업 영업정지 추진…배달앱·AI 구독 감시 강화",
-        "topic": "공정위 배달앱 담합 단속",
-        "insight": "공정위가 배달앱 반복 담합에 대한 영업정지 추진으로 시장 감시 강화",
-        "desc": "배달앱과 오픈마켓, 숙박 플랫폼의 수수료와 정산기간을 조사하고 인공지능(AI) 유료구독 서비스의 다크패턴도 집중 점검한다. 공정위는 4일 청와대 영빈관에서 이 같은 내용을 담은 ‘2026년 하반기 주요업무 추진계획’을... ",
-        "link": "https://zdnet.co.kr/view/?no=20260804181623",
-        "pub_date": "2026.08.04",
-        "reason": "배달앱·구독 시장 규제 강화, 경쟁 구도 변화 신호",
-        "priority": 2,
-        "cross_query_count": 3,
-        "datalab_score": 85.7,
-        "datalab_velocity": 14.3,
-        "queries": [
-          "구독 서비스",
-          "배달 시장",
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "“AI가 쇼핑 콘텐츠 만든다” 유통가 플랫폼 곳곳 AI 활용 확대",
-        "topic": "유통가 AI 활용 확대",
-        "insight": "유통 플랫폼에서 AI 기술을 콘텐츠 제작과 쇼핑 영역으로 적극 도입 중",
-        "desc": "유통업계는 플랫폼 경쟁력을 강화하기 위해 생성형 AI 활용 범위를 빠르게 넓히고 있다. 고객 대면 서비스와 내부 업무를 아우르며 개인화·맞춤화된 고객경험(CX)을 제공하려는 움직임이다. 업계 관계자는 “생성형 AI를... ",
-        "link": "https://www.etnews.com/20260805000225",
-        "pub_date": "2026.08.05",
-        "reason": "유통·쇼핑 AI 활용 확대, 고객 경험 변화 모니터링",
-        "priority": 2,
+        "title": "“푸드가 새 먹거리”…패션 플랫폼의 맛있는 진화",
+        "topic": "패션플랫폼 식품사업 진출",
+        "insight": "패션 플랫폼이 식품·식사 서비스로 사업 다각화, 고객 접점 확대 추진",
+        "desc": "플랫폼 간 경쟁 심화로 성장에 제동이 걸리자 구매 주기가 짧고 반복 구매가 잦은 식품을 새로운 성장 동력으로 삼는 모양새다. 패션에서 쌓은 큐레이션 역량을 식품에도 적용해 라이프스타일 전반을 아우르는... ",
+        "link": "https://www.sedaily.com/article/20078269?ref=naver",
+        "pub_date": "2026.08.11",
+        "reason": "플랫폼 카테고리 확대 트렌드",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 85.7,
-        "datalab_velocity": 14.3,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
           "플랫폼 경쟁",
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "'AI 백화점'시대 열린다…생성형 AI 경쟁 본격화",
-        "topic": "유통가 AI 활용 확대",
-        "insight": "유통 플랫폼에서 AI 기술을 콘텐츠 제작과 쇼핑 영역으로 적극 도입 중",
-        "desc": "또한 AI 보안·거버넌스 체계를 구축하고, 마이크로소프트의 생성형 AI 플랫폼 'AI 파운드리', '애저 AI... 사진제공=신세계I&amp;C 신세계그룹은 생성형 AI 활용 확대를 위한 클라우드 인프라 경쟁력 강화에 나선다. 신세계I... ",
-        "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=142617",
-        "pub_date": "2026.08.05",
-        "reason": "생성형 AI 쇼핑 적용 확대, 소비 행동 변화 신호",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 85.7,
-        "datalab_velocity": 14.3,
-        "queries": [
-          "플랫폼 경쟁",
-          "AI 쇼핑"
+          "추석 준비 이벤트"
         ]
       }
     ],
     "risk": [
       {
-        "title": "맥도날드 불매한 도시?…20년간 떠돈 '폐점 미스터리' [권용훈의 트렌드...",
-        "topic": "맥도날드 브랜드 논란",
-        "insight": "맥도날드 관련 이슈로 인한 소비자 불매 움직임 지속",
-        "desc": "2002년 경기 양주에서 여중생 신효순·심미선 양이 미군 장갑차에 치여 숨진 사건 이후 반미 여론과 미국 브랜드 불매운동이 확산했고, 그 여파로 안동의 맥도날드도 문을 닫았다는 것이다. 당시 맥도날드는 구 안동역... ",
-        "link": "https://www.hankyung.com/article/202607318853i",
-        "pub_date": "2026.08.01",
-        "reason": "맥도날드 불매 역사 언론화, 제휴 검토 필요",
+        "title": "&quot;김구 선생이 빨갱이?&quot;…서울우유 불매 주장, 광복절 앞두고 '대반전'",
+        "topic": "서울우유 불매 논란",
+        "insight": "서울우유 광고 표현 논란으로 불매 운동 촉발, 광복절 앞두고 사회적 분열 심화",
+        "desc": "지난 6월 일부 온라인 이용자들이 해당 제품을 두고 불매운동을 주장했던 게시물이 최근 SNS와 온라인 커뮤니티에서 재확산하면서다. 당시와 달리 이번에는 해당 게시물을 공유하며 &quot;서울우유를 마시자&quot;는 반응이... ",
+        "link": "https://www.news1.kr/society/general-society/6253708",
+        "pub_date": "2026.08.10",
+        "reason": "서울우유 불매 논란 확산",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 12.3,
-        "datalab_velocity": -1.1,
+        "datalab_score": 59.7,
+        "datalab_velocity": 27.8,
         "queries": [
           "불매운동"
         ]
       },
       {
-        "title": "쿠팡Inc, 2분기 영업손실 8350억원 ‘역대 최대’…과징금 여파",
-        "topic": "쿠팡 영업손실 확대",
-        "insight": "쿠팡 2분기 영업손실 8350억원으로 상장 후 최악 기록, 과징금 등 리스크 증가",
-        "desc": "지난해 말 개인정보 유출 사고 이후 일어난 ‘탈팡’ 불매운동이 사그라들면서 매출이 큰폭으로 성장한 것으로 보인다. 하지만 2분기 영업손실은 5억5600만달러(약 8350억원)로, 영업이익을 낸 전년 동기... ",
-        "link": "https://biz.heraldcorp.com/article/10830972?ref=naver",
-        "pub_date": "2026.08.05",
-        "reason": "쿠팡 과징금 적자 확대, 경쟁사 약화",
+        "title": "[와글와글 플러스] &quot;김구 선생이 빨갱이?&quot;‥'불매 운동'에 뭇매",
+        "topic": "서울우유 불매 논란",
+        "insight": "서울우유 광고 표현 논란으로 불매 운동 촉발, 광복절 앞두고 사회적 분열 심화",
+        "desc": "여기에 한 우유 회사도 참여 했는데 일부 극우 누리꾼들의 불매운동으로 번지고 있어 논란이 일고 있습니다. 지난 6월, 서울우유가 국가보훈부와 협업해 만든 기념 우유팩입니다. 옆면에 '김구 탄생 150주년 유네스코... ",
+        "link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6843569_37012.html",
+        "pub_date": "2026.08.10",
+        "reason": "서울우유 불매 논란 파급",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 12.3,
-        "datalab_velocity": -1.1,
+        "datalab_score": 59.7,
+        "datalab_velocity": 27.8,
         "queries": [
           "불매운동"
         ]
       },
       {
-        "title": "‘스벅 사태’ 커피시장 재편… ‘투썸’ 결제액 석 달째 1위",
+        "title": "&quot;불매하려 해도 환불 못 받는다&quot;…스타벅스 사태가 드러낸 '모바일 상품...",
         "topic": "스타벅스 탱크데이 사태",
-        "insight": "스타벅스 탱크데이 논란으로 투썸플레이스가 결제액 1위 차지, 커피시장 재편 진행",
-        "desc": "이후 온라인 커뮤니티를 중심으로 비판 여론이 확산하며 소비자 불매운동으로 이어졌고, 공직사회까지 논란이 번지는 등 파장이 커졌다. 신세계그룹은 스타벅스코리아 대표를 해임하고 공개 사과했다. 지난 6월... ",
-        "link": "https://www.busan.com/view/busan/view.php?code=2026080417372028998",
-        "pub_date": "2026.08.04",
-        "reason": "스타벅스 제휴 브랜드 불매 커피시장 재편",
+        "insight": "탱크데이 논란에 따른 불매 운동 중 모바일 상품 환불 거부 문제 발생",
+        "desc": "지난 5월 스타벅스의 '5·18 민주화운동 폄훼 논란'으로 촉발된 불매운동은 예상치 못한 또 다른 문제를 드러냈다. 소비자가 기업에 대한 항의 차원에서 보유한 모바일 상품권 사용을 거부하려 해도 정작 이를 자유롭게... ",
+        "link": "https://www.ngonews.kr/news/articleView.html?idxno=234761",
+        "pub_date": "2026.08.06",
+        "reason": "스타벅스 환불 문제, 멤버십 고객 신뢰 이슈",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 12.3,
-        "datalab_velocity": -1.1,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "형소법개정 의결 다음날… 경찰, ‘모욕혐의’ 스타벅스 강제수사",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "스타벅스 탱크데이 논란으로 투썸플레이스가 결제액 1위 차지, 커피시장 재편 진행",
-        "desc": "하지만 6·3 지방선거를 앞두고 벌어진 정치권의 스타벅스 불매 운동 독려와 과도한 배재고 야구부 징계 등을 둘러싼 논쟁은 여전히 풀어야 할 사회적 숙제로 남았다는 평가가 나온다. 또 ‘탱크데이’ 논란 과정에서 이... ",
-        "link": "https://www.munhwa.com/article/11607435?ref=naver",
-        "pub_date": "2026.08.05",
-        "reason": "스타벅스 강제수사, 논란 심화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 12.3,
-        "datalab_velocity": -1.1,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "쿠팡, 2Q 8350억 적자…상장 후 최대 영업손실",
-        "topic": "쿠팡 영업손실 확대",
-        "insight": "쿠팡 2분기 영업손실 8350억원으로 상장 후 최악 기록, 과징금 등 리스크 증가",
-        "desc": "▶관련기사 18면 지난해 말 개인정보 유출 사고 이후 일어난 ‘탈팡’ 불매운동이 사그라들면서 매출이 큰폭으로 성장한 것으로 보인다. 하지만 2분기 영업손실은 5억5600만달러(약 8350억원)로, 영업이익을 낸... ",
-        "link": "https://biz.heraldcorp.com/article/10831568?ref=naver",
-        "pub_date": "2026.08.05",
-        "reason": "쿠팡 상장후 최대 적자, 경쟁 약화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 12.3,
-        "datalab_velocity": -1.1,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "스타벅스, 투썸플레이스에 3개월째 밀려",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "스타벅스 탱크데이 논란으로 투썸플레이스가 결제액 1위 차지, 커피시장 재편 진행",
-        "desc": "이후 전국적으로 스타벅스 불매운동이 거세게 일었고 이는 스타벅스의 결제액과 앱 신규 설치 감소로 이어졌다. 메가MGC커피 역시 1·2위를 맹추격하고 있다. 메가MGC커피의 7월 결제액은 전월 대비 1.6% 증가한... ",
-        "link": "https://www.livebiz.today/news/articleView.html?idxno=203812",
-        "pub_date": "2026.08.04",
-        "reason": "스타벅스 제휴사 점유율 추락",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 12.3,
-        "datalab_velocity": -1.1,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "스벅 넘은 투썸…커피 시장 '지각 변동'",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "스타벅스 탱크데이 논란으로 투썸플레이스가 결제액 1위 차지, 커피시장 재편 진행",
-        "desc": "이후 불매운동 움직임이 일어나면서 스타벅스의 주간 결제액 및 앱 신규 설치 건수가 급감했고, 이탈한 소비자 수요가 투썸플레이스 등 경쟁사로 대거 이동하면서 반사이익을 얻은 것으로 풀이된다. 저가 커피... ",
-        "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=361223",
-        "pub_date": "2026.08.04",
-        "reason": "스타벅스 커피시장 점유율 추락",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 12.3,
-        "datalab_velocity": -1.1,
+        "datalab_score": 59.7,
+        "datalab_velocity": 27.8,
         "queries": [
           "불매운동"
         ]
@@ -469,9 +298,25 @@
       {
         "title": "경찰, '탱크데이' 논란 스타벅스 첫 압수수색…고발 2개월만",
         "topic": "스타벅스 탱크데이 사태",
-        "insight": "스타벅스 탱크데이 논란으로 투썸플레이스가 결제액 1위 차지, 커피시장 재편 진행",
+        "insight": "경찰, 탱크데이 마케팅 논란 관련 스타벅스 본사 압수수색 실시",
         "desc": "스타벅스 코리아의 '탱크데이' 마케팅 논란을 수사 중인 경찰이 스타벅스 코리아 본사에 대한 첫 강제수사에 착수했다. 고발장이 접수된 지 약 2개월 만이다. 5일 경찰에 따르면 서울경찰청 광역수사단 공공범죄수사대는... ",
         "link": "https://www.newsis.com/view/NISX20260805_0003736868",
+        "pub_date": "2026.08.05",
+        "reason": "스타벅스 탱크데이 논란, 경찰 압수수색 진행",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "警 ‘탱크데이 논란’ 스벅 본사 ‘모욕죄’ 압색",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "경찰, 탱크데이 마케팅 논란 관련 스타벅스 본사 압수수색 실시",
+        "desc": "스타벅스코리아의 '탱크데이' 마케팅 논란을 수사 중인 경찰이 5일 스타벅스코리아 본사 등에 대한 압수수색 영장을 집행했다. 사진은 이날 서울 강남구 스타벅스코리아 본사 건물에 위치한 매장 모습. 뉴시스... ",
+        "link": "https://www.segye.com/newsView/20260805520020?OutUrl=naver",
         "pub_date": "2026.08.05",
         "reason": "스타벅스 탱크데이 논란 경찰 수사 진행",
         "priority": 3,
@@ -483,13 +328,13 @@
         ]
       },
       {
-        "title": "경찰, '5.18 폄훼 탱크데이 논란' 스타벅스 본사 첫 압수수색",
+        "title": "경찰, '탱크데이 마케팅 논란' 스타벅스코리아 본사 첫 압수수색",
         "topic": "스타벅스 탱크데이 사태",
-        "insight": "스타벅스 탱크데이 논란으로 투썸플레이스가 결제액 1위 차지, 커피시장 재편 진행",
-        "desc": "스타벅스의 '탱크데이' 프로모션 마케팅 논란과 관련해 5·18 민주화운동 유공자를 모욕했다는 의혹을 수사 중인 경찰이 5일 스타벅스 본사에 대한 압수수색에 나섰다. 해당 의혹과 관련해 수사가 이뤄진지 약 2개월 만의... ",
-        "link": "http://www.joseilbo.com/news/news_read.php?uid=573275&class=32&grp=",
+        "insight": "경찰, 탱크데이 마케팅 논란 관련 스타벅스 본사 압수수색 실시",
+        "desc": "스타벅스코리아의 이른바 '탱크데이' 마케팅 논란을 수사하고 있는 경찰이 5일 오전 스타벅스코리아 본사에 대한 강제 수사에 나섰다. 경찰 등에 따르면 서울경찰청 광역수사단 공공범죄수사대는 이날 오전 서울 강남구... ",
+        "link": "https://www.dailian.co.kr/news/view/1674588/?sc=Naver",
         "pub_date": "2026.08.05",
-        "reason": "스타벅스 5.18 논란 경찰 압수수색",
+        "reason": "스타벅스 탱크데이 마케팅 논란 수사",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -499,13 +344,61 @@
         ]
       },
       {
-        "title": "경찰, '탱크데이 마케팅 논란' 스타벅스코리아 본사 첫 압수수색",
+        "title": "경찰, '5.18 폄훼 탱크데이 논란' 스타벅스 본사 첫 압수수색",
         "topic": "스타벅스 탱크데이 사태",
-        "insight": "스타벅스 탱크데이 논란으로 투썸플레이스가 결제액 1위 차지, 커피시장 재편 진행",
-        "desc": "스타벅스코리아의 이른바 '탱크데이' 마케팅 논란을 수사하고 있는 경찰이 5일 오전 스타벅스코리아 본사에 대한 강제 수사에 나섰다. 경찰 등에 따르면 서울경찰청 광역수사단 공공범죄수사대는 이날 오전 서울 강남구... ",
-        "link": "https://www.dailian.co.kr/news/view/1674588/?sc=Naver",
+        "insight": "경찰, 탱크데이 마케팅 논란 관련 스타벅스 본사 압수수색 실시",
+        "desc": "스타벅스의 '탱크데이' 프로모션 마케팅 논란과 관련해 5·18 민주화운동 유공자를 모욕했다는 의혹을 수사 중인 경찰이 5일 스타벅스 본사에 대한 압수수색에 나섰다. 해당 의혹과 관련해 수사가 이뤄진지 약 2개월 만의... ",
+        "link": "http://www.joseilbo.com/news/news_read.php?uid=573275&class=32&grp=",
         "pub_date": "2026.08.05",
-        "reason": "스타벅스 탱크데이 경찰 수사 본격화",
+        "reason": "스타벅스 탱크데이 5.18 논란 경찰 수사",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "경찰, '탱크데이 논란' 스타벅스 첫 압수수색…고발 두 달여만",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "경찰, 탱크데이 마케팅 논란 관련 스타벅스 본사 압수수색 실시",
+        "desc": "스타벅스의 '탱크데이' 프로모션이 논란이 된 게 두 달여 전입니다. 5·18 민주화운동 등을 모욕하려고... 김순환 / 서민민생대책위원회 사무총장 (지난 5월) &quot;탱크나 탁자를 탁 때렸다는 이 부분은 절대 그 마케팅을 이용해선... ",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/05/2026080590270.html",
+        "pub_date": "2026.08.05",
+        "reason": "스타벅스 탱크데이 논란 경찰 압수수색",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "[속보] 경찰, ‘탱크데이’ 논란 스타벅스 압수수색",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "경찰, 탱크데이 마케팅 논란 관련 스타벅스 본사 압수수색 실시",
+        "desc": "경찰은 이날 확보한 자료를 토대로 해당 마케팅 과정에서 발생한 경위와 관련 의혹을 확인할 방침이다. 앞서 5·18 민주화운동 유공자들과 시민단체 서민민생대책위원회(서민위)는 지난 5월 정 회장 등을 5·18 민주화운동... ",
+        "link": "https://www.joongang.co.kr/article/25450926",
+        "pub_date": "2026.08.05",
+        "reason": "스타벅스 탱크데이 논란 경찰 압수수색",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "스타벅스 ‘탱크데이’ 마케팅 논란… 경찰, 수사 두달 만에 압수수색",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "경찰, 탱크데이 마케팅 논란 관련 스타벅스 본사 압수수색 실시",
+        "desc": "이 이벤트를 두고 5·18 민주화운동을 폄훼하는 등 역사를 왜곡했다는 논란이 인 것이다. 해당 문구가 5·18... 야권과 법조계 일각에선 “경찰이 수사 착수 두 달이 지나 압수수색을 하며 수사를 확대하고 나서면서 논란을... ",
+        "link": "https://www.chosun.com/national/national_general/2026/08/06/Q4H4QEHNDJG37LZ7CYIYWDXGOU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "pub_date": "2026.08.06",
+        "reason": "스타벅스 탱크데이 마케팅 논란 경찰 수사",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -517,336 +410,338 @@
     ],
     "battle": [
       {
-        "title": "던킨, SKT와 ‘Young Week’ 프로모션···전 품목 40% 혜택",
-        "topic": "통신사 여름 프로모션 경쟁",
-        "insight": "통신3사, 여름 휴가 시즌 맞춰 요금할인·로밍·멤버십 혜택 확대 경쟁",
-        "desc": "던킨이 본격적인 여름 방학과 휴가 시즌을 맞아 SKT와 함께 멤버십 고객 대상 전 품목 40% 혜택을 제공하는 ‘Young Week(영위크)’ 프로모션을 진행한다. 행사는 3일부터 7일까지 SK텔레콤 T멤버십 가입자 중 만 13세부터... ",
-        "link": "https://sports.khan.co.kr/article/202608040607003?pt=nv",
-        "pub_date": "2026.08.04",
-        "reason": "경쟁사(던킨) SKT 제휴 프로모션 우위 위협",
+        "title": "5G 다음 혜택은 'AI 구독'…KT, 구글 손잡고 고가 가입자 잡는다",
+        "topic": "통신사 AI 구독 경쟁",
+        "insight": "KT가 구글 Gemini 연동 구독팩 출시, 통신사의 AI 기반 고가 요금제 경쟁 본격화",
+        "desc": "통신업계에서는 AI 서비스의 직접적인 구독 매출뿐 아니라 고객 유지 효과에도 주목하고 있다. 가족이 최대 5명까지 클라우드 저장공간을 공유할 수 있어 개인 가입자를 가족 단위 서비스로 확장할 수 있기... ",
+        "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=357273",
+        "pub_date": "2026.08.11",
+        "reason": "경쟁사 AI 구독 공격적 출시, 즉시 대응 검토",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 100.0,
+        "datalab_score": 66.1,
+        "datalab_velocity": 10.0,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "통신요금제에 'AI 구독' 들어왔다…KT, 구글 Gemini 품은 초이스 4종 출시",
+        "topic": "통신사 AI 구독 경쟁",
+        "insight": "KT가 구글 Gemini 연동 구독팩 출시, 통신사의 AI 기반 고가 요금제 경쟁 본격화",
+        "desc": "소비자가 매달 지불하는 통신요금 안에 생성형 AI를 넣어 AI 서비스를 하나의 일상적인 구독상품으로 만드는 시도에 가깝다. OTT가 통신요금제의 주요 혜택으로 자리 잡았던 것처럼 생성형 AI가 통신사의... ",
+        "link": "https://www.e-science.co.kr/news/articleView.html?idxno=133326",
+        "pub_date": "2026.08.11",
+        "reason": "경쟁사 AI 구독팩 본격 출시, 긴급 전략 검토",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 66.1,
+        "datalab_velocity": 10.0,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "CJ대한통운·한진·롯데, 14~15일 배송 중단... 쿠팡·컬리 정상배송 '플...",
+        "topic": "신선식품 배송 경쟁",
+        "insight": "택배사 파업으로 배송 공백 발생, 쿠팡·컬리 등 e커머스의 배송 네트워크 우위 부각",
+        "desc": "업계에서는 '택배쉬는날'이 기사들의 근로환경 개선이라는 사회적 의미를 갖는 동시에, 연중무휴 배송을 내세우는 플랫폼 기업과 전통 택배사의 서비스 경쟁력을 비교하는 계기로도 작용하고 있다는 분석이 나온다. 특히... ",
+        "link": "http://www.newskr.kr/news/articleView.html?idxno=105491",
+        "pub_date": "2026.08.10",
+        "reason": "대형 배송사 파업 중 쿠팡·컬리 정상배송, 경쟁 우위 확대",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "여름 프로모션"
+          "플랫폼 경쟁"
         ]
       },
       {
-        "title": "&quot;여름 휴가비 아껴드립니다&quot;…이통3사, 요금 반값에 공짜 로밍 맞불",
-        "topic": "통신사 여름 프로모션 경쟁",
-        "insight": "통신3사, 여름 휴가 시즌 맞춰 요금할인·로밍·멤버십 혜택 확대 경쟁",
-        "desc": "LG유플러스는 여름 휴가 시즌을 맞아 AI 통화 에이전트 서비스 '익시오(ixi-O) 기반 로밍콜'을 통해 해외 음성통화를 무료로 제공한다. 익시오 이용 고객은 로밍요금제에 가입하지 않아도 해외에서 와이파이에만... ",
-        "link": "https://www.newsis.com/view/NISX20260731_0003731924",
-        "pub_date": "2026.08.02",
-        "reason": "통신3사 요금·로밍 혜택 경쟁 심화",
+        "title": "[컨콜 종합] '사상 최대 실적' 카카오 &quot;카톡에서 AI로 쿠팡이츠 배달&quot;⋯...",
+        "topic": "카카오 AI 커머스 전략",
+        "insight": "카카오톡에서 AI로 쿠팡이츠 배달 주문 가능하게, 메신저와 커머스 통합 본격화",
+        "desc": "음식 배달 시장에도 변화가 예상된다. 배달 음식을 주문하기 위해서는 배달의민족, 쿠팡이츠와 같은 배달앱을 사용하고 있지만 앞으로는 카카오톡이 중간 매개가 될 것이기 때문이다. 정 대표는 &quot;단순히 카카오톡에서... ",
+        "link": "http://www.inews24.com/view/1992514",
+        "pub_date": "2026.08.06",
+        "reason": "카카오-쿠팡 AI 배달 제휴로 경쟁 가속화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 69.5,
-        "datalab_velocity": -9.1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "여름 휴가 시즌"
+          "배달 시장"
         ]
       },
       {
-        "title": "SKT·KT·LG유플러스, 여름 맞아 통신비·멤버십 혜택 확대…민생지원 본...",
-        "topic": "통신사 여름 프로모션 경쟁",
-        "insight": "통신3사, 여름 휴가 시즌 맞춰 요금할인·로밍·멤버십 혜택 확대 경쟁",
-        "desc": "여름 휴가철과 방학 시즌에 맞춰 청년층과 가족 단위 이용자의 실질적인 소비 부담을 줄이는 데 일정 부분 도움이 될 것으로 보인다. KT는 멤버십과 로밍, 요금제 혜택을 확대하고 청년·장기 이용 고객과 취약계층을... ",
-        "link": "http://www.econonews.co.kr/news/articleView.html?idxno=442042",
-        "pub_date": "2026.07.30",
-        "reason": "통신3사 여름 멤버십 혜택 확대 경쟁",
+        "title": "카톡서 배달주문…카카오, 쿠팡이츠와 'AI 커머스' 첫발",
+        "topic": "카카오 AI 커머스 전략",
+        "insight": "카카오톡에서 AI로 쿠팡이츠 배달 주문 가능하게, 메신저와 커머스 통합 본격화",
+        "desc": "음식 배달은 AI가 실제 거래를 일으키는지 빠르게 검증할 수 있는 시장이다. 이용 빈도가 잦고 구매 과정에서 사용자 개입이 적어 AI 추천이 주문으로 이어지는 효과를 확인하기 쉽다. 정 대표는 “거래액 증가가... ",
+        "link": "https://www.hankyung.com/article/2026080692471",
+        "pub_date": "2026.08.06",
+        "reason": "카톡-쿠팡이츠 AI 제휴 슈퍼앱 경쟁 가속",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 69.5,
-        "datalab_velocity": -9.1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "여름 휴가 시즌"
+          "배달 시장"
         ]
       },
       {
-        "title": "LGU+, 알뜰폰 전용 멤버십 '알닷클럽' 출시",
-        "topic": "LGU+ 알뜰폰 멤버십 확대",
-        "insight": "LG유플러스, 알뜰폰 고객층 확보 위해 전용 멤버십 프로그램 신규 출시",
-        "desc": "LG유플러스가 알뜰폰 플랫폼 '알닷'을 통해 가입한 알뜰폰 가입자 전용 멤버십 '알닷클럽'을 선보인다고 5일 밝혔다. 알닷클럽은 신규 가입자 중심으로 제공되던 알뜰폰 혜택을 기존 가입자까지 확대하고, 장기가입을... ",
-        "link": "http://www.fnnews.com/news/202608050920468892",
-        "pub_date": "2026.08.05",
-        "reason": "경쟁 통신사 알뜰폰 멤버십 출시",
+        "title": "카톡서 쿠팡이츠 주문…배달·빅테크 '합종연횡'",
+        "topic": "카카오 AI 커머스 전략",
+        "insight": "카카오톡에서 AI로 쿠팡이츠 배달 주문 가능하게, 메신저와 커머스 통합 본격화",
+        "desc": "시장 경쟁구도가 심화되면서 단순 할인경쟁, 무료배달만으로는 이용자를 확보하는 데 한계가 생긴 탓이다. 이에 다양한 서비스를 하나의 생태계로 연결해 이용자의 체류시간과 재방문을 늘리고 고객 충성도를 높이려는... ",
+        "link": "http://www.inews24.com/view/1992884",
+        "pub_date": "2026.08.07",
+        "reason": "카톡 통합 쿠팡이츠로 슈퍼앱 경쟁 급진",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 21.1,
-        "datalab_velocity": -10.8,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "배달 시장"
         ]
       },
       {
-        "title": "&quot;매주 수요일 확인하세요&quot; LG U+, 알뜰폰 멤버십 '알닷클럽' 출시",
-        "topic": "LGU+ 알뜰폰 멤버십 확대",
-        "insight": "LG유플러스, 알뜰폰 고객층 확보 위해 전용 멤버십 프로그램 신규 출시",
-        "desc": "LG유플러스가 자사 알뜰폰 서비스 '알닷'을 통해 휴대전화를 개통한 고객을 위해 전용 혜택 프로그램 '알닷클럽'을 선보인다고 5일 밝혔다. 알닷클럽은 신규 고객 중심으로 제공되던 혜택을 기존 고객까지 확대하기 위해... ",
-        "link": "https://www.mt.co.kr/tech/2026/08/05/2026080508432983299",
-        "pub_date": "2026.08.05",
-        "reason": "경쟁 통신사 알뜰폰 멤버십 출시",
+        "title": "신선식품 이커머스 경쟁 재점화…롯데 가세에 쿠팡·컬리·SSG '배송 전쟁...",
+        "topic": "신선식품 배송 경쟁",
+        "insight": "택배사 파업으로 배송 공백 발생, 쿠팡·컬리 등 e커머스의 배송 네트워크 우위 부각",
+        "desc": "신선식품 이커머스 시장이 다시 격전지로 떠오르고 있다. 쿠팡이 주도해온 새벽배송 시장에 롯데가 대규모... 이에 롯데는 오카도의 AI 기반 물류 기술을 앞세워 시장 판도를 흔들겠다는 전략이다. 제타 스마트센터에는... ",
+        "link": "https://www.techm.kr/news/articleView.html?idxno=154147",
+        "pub_date": "2026.08.10",
+        "reason": "신선식품 이커머스 경쟁 가열, 배송 전쟁 본격화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 21.1,
-        "datalab_velocity": -10.8,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "이커머스 전략"
         ]
       },
       {
-        "title": "LG유플러스, 알뜰폰 전용 혜택 프로그램 '알닷클럽' 출시",
-        "topic": "LGU+ 알뜰폰 멤버십 확대",
-        "insight": "LG유플러스, 알뜰폰 고객층 확보 위해 전용 멤버십 프로그램 신규 출시",
-        "desc": "알뜰폰(MVNO)은 이동통신사의 통신망을 임대해 자체 브랜드로 서비스를 제공하는 방식으로, 최근에는 저렴한 요금뿐 아니라 멤버십과 생활 혜택 등 부가 서비스 경쟁도 치열해지고 있다. 이에 따라 고객 유지와 충성도... ",
-        "link": "https://www.cnbizm.com/news/articleView.html?idxno=310627",
-        "pub_date": "2026.08.05",
-        "reason": "경쟁 통신사 멤버십 혜택 확대",
+        "title": "배민과 쿠팡이츠 이제 '단독 메뉴'로 승부한다 : 무료배달·할인 넘어 전...",
+        "topic": "배달앱 차별화 경쟁",
+        "insight": "배민·쿠팡이츠가 무료배달·할인 대신 단독 메뉴 확보로 경쟁 전략 전환",
+        "desc": "무료배달과 할인 혜택이 업계 전반으로 확산되면서 가격 경쟁의 효과가 약해지자, 소비자가 특정 플랫폼을 선택할 이유를 만들기 위해서다. 배달의민족은 프랜차이즈와의 협업을 통해 단독 메뉴를 늘리고 있고... ",
+        "link": "https://www.huffingtonpost.kr/article/259443",
+        "pub_date": "2026.08.11",
+        "reason": "배민·쿠팡이츠 단독메뉴 경쟁 심화, 차별화 전략 필요",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 21.1,
-        "datalab_velocity": -10.8,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "소비자 할인"
         ]
       },
       {
-        "title": "LG유플러스, 알뜰폰 장기고객 혜택 확대… '알닷클럽' 출시",
-        "topic": "LGU+ 알뜰폰 멤버십 확대",
-        "insight": "LG유플러스, 알뜰폰 고객층 확보 위해 전용 멤버십 프로그램 신규 출시",
-        "desc": "요금 경쟁력만으로 차별화를 이루기 어려워지면서 생활 할인과 콘텐츠, 구독 서비스 등 멤버십 혜택을 강화하는 사례도 늘었다. 알닷은 LG유플러스의 알뜰폰 통합 플랫폼이다. 누적 회원 수는 60만명을 넘겼다.... ",
-        "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=725666",
-        "pub_date": "2026.08.05",
-        "reason": "경쟁 통신사 장기고객 멤버십 강화",
+        "title": "LG헬로비전, 교보문고 제휴 알뜰폰 요금제 출시…월 9900원 도서 혜택",
+        "topic": "통신사 제휴 요금제",
+        "insight": "LG헬로비전이 교보문고 제휴 알뜰폰으로 도서 혜택 결합, 통신사 차별화 전략 확대",
+        "desc": "지난 6월에는 현대홈쇼핑과 제휴해 월 2만원 상당의 현대H몰 적립금·할인쿠폰을 제공하는 요금제를 선보였으며, 기존 쿠폰팩 요금제에서는 네이버페이·배달의민족·올리브영·편의점 등 생활 브랜드 쿠폰을... ",
+        "link": "https://www.ziksir.com/news/articleView.html?idxno=142461",
+        "pub_date": "2026.08.07",
+        "reason": "LG유플러스 알뜰폰+교보문고 제휴",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 21.1,
-        "datalab_velocity": -10.8,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "브랜드 제휴"
         ]
       },
       {
-        "title": "무료배송 경쟁 넘어 '무료반품'까지…G마켓, 멤버십 락인 전쟁 가세",
-        "topic": "이커머스 멤버십 차별화 경쟁",
-        "insight": "G마켓·롯데온, 무료배송·반품 등 멤버십 혜택 고도화로 고객 확보 경쟁",
-        "desc": "사이트 이용 빈도와 구매력이 높은 헤비유저를 겨냥해 멤버십 혜택을 강화하고 쇼핑 편의성을 높이겠다는 전략이다. 무료반품은 G마켓의 도착보장 서비스인 '스타배송' 상품에 적용된다. G마켓과 옥션에서 각각 월 최대... ",
-        "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=84041",
-        "pub_date": "2026.08.04",
-        "reason": "이커머스 멤버십 혜택 경쟁 심화 신호",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 21.1,
-        "datalab_velocity": -10.8,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "롯데온, 무료+5%적립 '넥스트 멤버십' 출격…고객 쟁탈전 본격 참전",
-        "topic": "이커머스 멤버십 차별화 경쟁",
-        "insight": "G마켓·롯데온, 무료배송·반품 등 멤버십 혜택 고도화로 고객 확보 경쟁",
-        "desc": "기존 회원 등급별 쿠폰 혜택은 그대로 유지하면서 넥스트 멤버십 적립 혜택을 더해 실질적인 쇼핑 혜택을 확대하는 것이 핵심이다. 롯데온은 별도 회비 부담 없이 구매 실적에 따라 혜택을 강화하는 구조를 통해 고객의... ",
-        "link": "https://www.etnews.com/20260805000114",
-        "pub_date": "2026.08.05",
-        "reason": "이커머스 신규 멤버십 공격적 출시",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 21.1,
-        "datalab_velocity": -10.8,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "쿠팡이츠, 여름휴가 지원 … 속초시장 배달 3천원 할인",
-        "topic": "배달앱 여름 프로모션 확대",
-        "insight": "쿠팡이츠, 여름 성수기 맞춰 지역별 할인 및 배송비 지원 프로모션 진행",
-        "desc": "쿠팡이츠는 기획전 기간 매주 속초관광수산시장의 대표 맛집을 소개하며 시장 내 다양한 먹거리를 알릴 예정이다. 고객들이 참여 매장에서 배달 주문을 하면 3000원 할인 쿠폰도 제공된다. 앞서 지난 6월... ",
-        "link": "https://www.mk.co.kr/article/12115382",
-        "pub_date": "2026.08.03",
-        "reason": "쿠팡이츠 여름 시즈널 할인, 배달 경쟁 강화",
+        "title": "KT가 9만원 요금제에 AI 넣은 이유… 400GB→5TB '구독 사다리' 놓는다",
+        "topic": "통신사 AI 구독 경쟁",
+        "insight": "KT가 구글 Gemini 연동 구독팩 출시, 통신사의 AI 기반 고가 요금제 경쟁 본격화",
+        "desc": "통신사 역시 자체 AI 사업과 별개로 글로벌 AI 사업자의 서비스를 요금제와 구독 플랫폼 안으로 가져와 고객 접점을 확대할 수 있다. SK텔레콤이 T우주를 통해 타사 이동통신 고객에게도 Google AI 상품을 판매하는... ",
+        "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=42949",
+        "pub_date": "2026.08.11",
+        "reason": "경쟁사 구독팩 공세",
         "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "배달 시장",
-          "여름 프로모션"
+          "구독 서비스",
+          "AI 쇼핑"
         ]
       }
     ],
     "benchmark": [
       {
-        "title": "투썸플레이스, NOL과 손잡고 여름 제휴 프로모션 진행",
-        "topic": "외식업계 여름 시즌 프로모션",
-        "insight": "휴가철 수요 확대에 대응한 외식·유통업계의 할인 및 제휴 프로모션 강화",
-        "desc": "투썸플레이스 관계자는 &quot;여름은 여행과 휴식 수요가 집중되는 시기인 만큼 고객들이 다양한 순간에서 브랜드를 경험할 수 있도록 이번 제휴를 마련했다&quot;며 &quot;앞으로도 다양한 파트너십을 통해 고객 만족도를 높일 수... ",
-        "link": "http://www.beyondpost.co.kr/view.php?ud=20260803132414497446a9e4dd7f_30",
-        "pub_date": "2026.08.03",
-        "reason": "카페 브랜드 여름 제휴 프로모션 트렌드",
-        "priority": 2,
+        "title": "[유통소식] 롯데마트, 연휴 겨냥 '통큰데이'…'통짜장어' 2차 판매",
+        "topic": "유통사 시즈널 프로모션",
+        "insight": "주요 유통사들이 연휴·시즌 변화에 맞춰 할인 및 특판 행사 확대 중",
+        "desc": "NH농협무역과 서울우유협동조합은 지난달 30일 베트남 현지 파트너사 CHATUDE GLOBAL과 함께 호치민에서 현지 유제품 소비 트렌드를 공유하고, 최근 출시한 멸균우유 제품의 시장 안착을 위한 맞춤형 마케팅 전략을... ",
+        "link": "http://www.4th.kr/news/articleView.html?idxno=2116121",
+        "pub_date": "2026.08.11",
+        "reason": "시즌 할인 프로모션 사례",
+        "priority": 1,
+        "cross_query_count": 4,
+        "datalab_score": 18.3,
+        "datalab_velocity": -1.7,
+        "queries": [
+          "소비 트렌드",
+          "개학 시즌 마케팅",
+          "추석 준비 이벤트",
+          "9월 신학기"
+        ]
+      },
+      {
+        "title": "패션 플랫폼, 뷰티 고객 잡기 격돌…무신사·에이블리·지그재그 할인전",
+        "topic": "패션플랫폼 뷰티사업 경쟁",
+        "insight": "무신사·에이블리·지그재그 등 패션플랫폼들이 뷰티 고객 확보 위해 할인전 강화",
+        "desc": "아직 대중적인 인지도는 높지 않지만 차별화된 제품 경쟁력을 갖췄다고 평가한 신진 뷰티 브랜드 20곳을... 한편 패션 플랫폼들도 대규모 뷰티 행사를 잇달아 열며 고객 잡기에 나섰다. 에이블리는 이날부터 19일까지... ",
+        "link": "https://www.mk.co.kr/article/12122627",
+        "pub_date": "2026.08.10",
+        "reason": "플랫폼 시즌 할인 사례",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 100.0,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "플랫폼 경쟁",
+          "소비자 할인"
+        ]
+      },
+      {
+        "title": "최대 92% 할인에 20만원 쿠폰팩…롯데온, 여름 시즌오프 '승부수'",
+        "topic": "유통사 시즈널 프로모션",
+        "insight": "주요 유통사들이 연휴·시즌 변화에 맞춰 할인 및 특판 행사 확대 중",
+        "desc": "휴가와 물놀이 등 아직 남아 있는 여름철 수요를 겨냥한 상품을 할인하는 동시에 간절기와 가을을 미리 준비하는 소비자들을 위한 신상품까지 행사 범위를 넓혔다. 할인 폭도 키웠다. 행사 기간 상품에 따라 최대 92% 할인... ",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=539170",
+        "pub_date": "2026.08.11",
+        "reason": "이커머스 시즌 할인 사례",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "소비자 할인",
+          "여름 휴가 프로모션"
+        ]
+      },
+      {
+        "title": "&quot;특급호텔 다이닝을 할인가로&quot;…우리카드, 'ALL 우리카드' 프로모션 진행",
+        "topic": "신용카드 라이프스타일 마케팅",
+        "insight": "신용카드사들이 다이닝·여행 등 라이프스타일 제휴를 통한 가치 제공 강화",
+        "desc": "익스체인지)'에서도 할인을 누릴 수 있다. 각 호텔별 프로모션 진행 기간은 상이하다. 최근 도심 속 프리미엄 호캉스와 호텔 다이닝을 즐기는 가치 소비 트렌드가 지속되면서 식음료(F&amp;B) 관련 혜택에 대한 소비자들의... ",
+        "link": "https://www.pointe.co.kr/news/articleView.html?idxno=83053",
+        "pub_date": "2026.08.11",
+        "reason": "카드사 고객 혜택 사례",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "소비자 할인",
+          "여름 휴가 프로모션"
+        ]
+      },
+      {
+        "title": "모두투어, 55개 브랜드 참여 대규모 여행 프로모션 진행",
+        "topic": "여행사 다브랜드 제휴 프로모션",
+        "insight": "여행사들이 다수 브랜드 제휴를 통한 대규모 여행 프로모션 진행",
+        "desc": "여행상품 특가와 타임딜을 비롯해 마일리지 행사, 제휴 브랜드 상품, 라이브 방송, 여행상담 등의 프로그램이 마련됐다. 여행상품과 관련해서는 일정 기간별로 한정 상품을 구성하고, 자체 라이브커머스 채널인 라이브M을... ",
+        "link": "http://www.lawissue.co.kr/view.php?ud=202608101848277082204ead0791_12",
+        "pub_date": "2026.08.10",
+        "reason": "여행사 시즌 프로모션",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
           "브랜드 제휴",
-          "여름 프로모션"
+          "여름 휴가 프로모션"
         ]
       },
       {
-        "title": "[카드톡톡] 숙박비는 깎아주고 폰값은 돌려주고…카드사 '여름 씀씀이'...",
-        "topic": "카드사 여름 시즌 할인 경쟁",
-        "insight": "카드사들이 숙박·여행·소비 전반에 걸쳐 여름 씀씀이 유도 캐시백·할인 확대",
-        "desc": "NH농협카드 관계자는 &quot;여름 휴가철과 가을 여행 시즌을 맞아 고객들이 실질적인 비용 절감 혜택을 체감할 수 있도록 이번 이벤트를 기획했다&quot;며 &quot;앞으로도 고객의 라이프스타일과 트렌드에 맞춘 유용한 혜택을... ",
-        "link": "https://www.m-i.kr/news/articleView.html?idxno=1399053",
-        "pub_date": "2026.08.05",
-        "reason": "카드사 여름 시즌 할인 전략 참고",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "여름 휴가 시즌",
-          "여름 프로모션"
-        ]
-      },
-      {
-        "title": "여름 신제품부터 IP 협업까지...식품·유통업계, 시즌 한정 마케팅 경쟁",
-        "topic": "외식업계 여름 시즌 프로모션",
-        "insight": "휴가철 수요 확대에 대응한 외식·유통업계의 할인 및 제휴 프로모션 강화",
-        "desc": "여름 휴가철과 방학 시즌을 맞아 식품·유통업계가 시즌 한정 신제품과 협업 상품을 잇달아 선보이며 소비자 공략에 나섰다. 지역 특산물을 활용한 메뉴부터 인기 게임·캐릭터 IP 협업, 편의점 도시락과 뷰티... ",
-        "link": "http://www.popcornnews.net/news/articleView.html?idxno=128689",
-        "pub_date": "2026.08.05",
-        "reason": "여름 시즌 IP 협업 마케팅 트렌드",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "여름 휴가 시즌",
-          "여름 프로모션"
-        ]
-      },
-      {
-        "title": "휴가철 성수기 잡아라…외식업계, 할인 프로모션 강화",
-        "topic": "외식업계 여름 시즌 프로모션",
-        "insight": "휴가철 수요 확대에 대응한 외식·유통업계의 할인 및 제휴 프로모션 강화",
-        "desc": "본격적인 여름 휴가철을 맞아 외식업계가 다양한 할인 행사와 제휴 프로모션을 앞세워 고객 잡기에... (자료-남양유업) 3일 업계에 따르면 백미당은 여름 시즌을 맞아 대표 메뉴 할인 프로모션을 진행한다. 매주... ",
-        "link": "https://www.asiatime.co.kr/article/20260803500017",
-        "pub_date": "2026.08.03",
-        "reason": "외식업계 여름 성수기 프로모션 전략",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "여름 휴가 시즌",
-          "여름 프로모션"
-        ]
-      },
-      {
-        "title": "이마트·BBQ·아성다이소 등 유통업계, 추석·여름 시즌 공략 및 HMR 강화...",
-        "topic": "외식업계 여름 시즌 프로모션",
-        "insight": "휴가철 수요 확대에 대응한 외식·유통업계의 할인 및 제휴 프로모션 강화",
-        "desc": "해당 제품은 에어프라이어로 간편하게 조리할 수 있어 여름 휴가철 및 복날 홈파티용 먹거리로 호응을 얻고 있다. 풀무원의 올가홀푸드는 차별화된 원재료를 사용한 '유기농 국산 볶음 약콩'과 '유기농 국산 볶음... ",
-        "link": "http://www.dailypop.kr/news/articleView.html?idxno=101205",
-        "pub_date": "2026.08.04",
-        "reason": "유통·외식 여름·추석 시즌 마케팅",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 69.5,
-        "datalab_velocity": -9.1,
-        "queries": [
-          "여름 휴가 시즌",
-          "추석 선물 마케팅"
-        ]
-      },
-      {
-        "title": "한국타이어, TBX 멤버십 회원 대상 특별 판촉 마련해",
-        "topic": "브랜드 멤버십 제휴 프로모션",
-        "insight": "한국타이어 TBX 멤버십 회원 대상 특별 판촉으로 멤버십 활용성 강화",
-        "desc": "전국 TBX 멤버십 매장에서 진행되며 TBX 멤버십 회원이라면 누구나 혜택을 받을 수 있다. 먼저, 프로모션 기간 동안 TBX 멤버십에 신규 가입한 회원에게는 즉시 사용 가능한 할인 쿠폰을 증정한다. 해당 쿠폰은 글로벌... ",
-        "link": "http://autotimes.co.kr/detail.php?number=688660&thread=27",
-        "pub_date": "2026.08.03",
-        "reason": "B2C 멤버십 판촉 사례, 비제휴 브랜드 벤치마크",
+        "title": "로봇카페 비트(b;eat), NHN LINK와 뮤지컬 제휴 이벤트 마무리…온·오프...",
+        "topic": "플랫폼 엔터테인먼트 크로스마케팅",
+        "insight": "로봇카페 등 신규 플랫폼이 뮤지컬·공연과의 제휴를 통한 온오프라인 협력 추진",
+        "desc": "eat가 브랜드 마케팅과 제휴에 최적화된 무인 플랫폼임을 다시 한번 보여준 사례&quot;라고 밝혔다. b;eat는 그간 주요 영화 배급사, 공연 기획사, 예매 플랫폼 등 문화·엔터테인먼트 업계와 다양한 마케팅 협업 이력을... ",
+        "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=390216",
+        "pub_date": "2026.08.11",
+        "reason": "카페 제휴 이벤트 사례",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 100.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "여름 프로모션"
+          "브랜드 제휴",
+          "앱 마케팅"
         ]
       },
       {
-        "title": "네네치킨, 8월 앱 전용 프로모션 '치링데이' 실시",
-        "topic": "외식앱 여름 시즌 프로모션",
-        "insight": "네네치킨 앱 전용 '치링데이' 프로모션으로 앱 유입 및 구매 자극",
-        "desc": "고객은 마케팅 수신 동의와 앱 푸시 설정을 유지해야 당첨 안내를 빠르게 확인할 수 있다. 네네치킨 관계자는 &quot;단순한 할인 프로모션을 넘어 고객에게 색다른 경험을 제공하기 위해 링티와 협업을 진행했다&quot;며 &quot;앞으로도... ",
-        "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=243667",
-        "pub_date": "2026.08.04",
-        "reason": "외식 브랜드 앱 기반 프로모션 참고",
+        "title": "타다, 차량을 '브랜드 체험 공간'으로…제휴 마케팅 확대",
+        "topic": "모빌리티 브랜드 체험 마케팅",
+        "insight": "모빌리티 서비스가 차량을 브랜드 체험 공간으로 활용한 제휴 마케팅 확대",
+        "desc": "모빌리티 플랫폼 타다가 차량 내부를 브랜드 체험 공간으로 활용한 제휴 마케팅을 선보인다. 모터투어 전문 여행사와 손잡고 랩핑 차량 탑승객에게 싱가포르 그랑프리 여행 기회를 제공하며 일상적인 이동 경험을 여행... ",
+        "link": "http://www.kdfnews.com/news/articleView.html?idxno=186289",
+        "pub_date": "2026.08.10",
+        "reason": "O2O 제휴 마케팅 사례",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 100.0,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "브랜드 제휴",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "GS칼텍스, 앱 하나로 챙긴 브랜드 1위",
+        "topic": "에너지사 통합앱 서비스",
+        "insight": "GS칼텍스가 통합앱을 통해 다양한 브랜드 서비스를 하나로 제공하는 플랫폼화 추진",
+        "desc": "국가브랜드경쟁력지수(NBCI)에서 차별화된 가치를 인정받았다. 에너지플러스 앱 이미지. 사진=GS칼텍스... 네이버플러스 멤버십 등 고객 접점이 높은 외부 플랫폼과 제휴를 확대해 혜택의 폭을 넓히고 있다. 사용... ",
+        "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=661974",
+        "pub_date": "2026.08.06",
+        "reason": "주유소 앱 멤버십 사례",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "브랜드 제휴",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "BBQ, 여름 맞아 앱 프로모션... 치킨 할인·소스 증정",
+        "topic": "외식업체 시즈널 할인 경쟁",
+        "insight": "BBQ 등 외식업체들이 여름 시즌 맞춰 앱 기반 할인·증정 프로모션 강화",
+        "desc": "사진=BBQ 여름 휴가와 방학 시즌을 맞아 외식업계가 배달·포장 수요를 겨냥한 할인 마케팅을 강화하고 있다. 치킨 프랜차이즈들도 자체 앱을 중심으로 가격 혜택과 사은품을 결합한 프로모션을 확대하며 고객 확보에... ",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=205611",
+        "pub_date": "2026.08.07",
+        "reason": "외식 브랜드 시즌 프로모션",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
           "앱 마케팅",
-          "여름 프로모션"
+          "여름 휴가 프로모션"
         ]
       },
       {
-        "title": "네네치킨, 8월 앱 '치링데이' 프로모션...7천원 할인에 링티 증정까지",
-        "topic": "외식앱 여름 시즌 프로모션",
-        "insight": "네네치킨 앱 전용 '치링데이' 프로모션으로 앱 유입 및 구매 자극",
-        "desc": "이벤트 참여 고객은 마케팅 수신 동의와 앱 푸시 설정을 유지해야 당첨 결과를 빠르게 확인할 수 있다. 네네치킨 관계자는 &quot;단순한 할인 프로모션을 넘어 고객에게 색다른 경험을 제공하기 위해 링티와 협업을 진행했다&quot;며... ",
-        "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=389690",
-        "pub_date": "2026.08.04",
-        "reason": "치킨 브랜드 시즌 프로모션 사례",
+        "title": "막바지 여름 특별 프로모션…코웨이, 신규 렌탈 할인‧놀유니버스, 특가...",
+        "topic": "여름 시즌오프 특가 프로모션",
+        "insight": "렌탈·엔터테인먼트 업체들이 여름 막바지 신규 고객 확보 위한 특가 이벤트 진행",
+        "desc": "여름휴가‧추석 연휴 혜택 마감 임박 코웨이 벽걸이 에어컨. [사진=코웨이] [뉴스투데이=장수지 기자] 폭염이 다소 수그러든 가운데 유통업계의 막바지 여름 프로모션이 눈길을 끈다. 코웨이는 벽걸이 에어컨과... ",
+        "link": "https://www.news2day.co.kr/article/20260810500190",
+        "pub_date": "2026.08.10",
+        "reason": "렌탈·엔터 시즌 할인 사례",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 100.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "앱 마케팅",
-          "여름 프로모션"
-        ]
-      },
-      {
-        "title": "여름휴가 피크 시즌, 웹투어가 카드사 제휴 국내선 캐시백으로 여행 경...",
-        "topic": "카드사 여름 시즌 할인 경쟁",
-        "insight": "카드사들이 숙박·여행·소비 전반에 걸쳐 여름 씀씀이 유도 캐시백·할인 확대",
-        "desc": "홍성원 대표는 &quot;여름휴가 시즌에 집중되는 수요층을 고려해 여행 준비 전 과정을 더욱 경제적으로 준비할 수 있도록 했다&quot;고 설명했다. 실제로 웹투어는 항공권 특가와 함께 제주 숙박 할인 쿠폰, 제주 렌터카 할인... ",
-        "link": "http://www.globalepic.co.kr/view.php?ud=20260805102720770348439a4874_29",
-        "pub_date": "2026.08.05",
-        "reason": "카드사 여행 제휴 캐시백 사례",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "여름 휴가 시즌",
-          "여름 프로모션"
-        ]
-      },
-      {
-        "title": "현대홈쇼핑, 휴가철 특가 프로모션 '핫쇼페' 진행",
-        "topic": "외식업계 여름 시즌 프로모션",
-        "insight": "휴가철 수요 확대에 대응한 외식·유통업계의 할인 및 제휴 프로모션 강화",
-        "desc": "현대홈쇼핑은 오는 8일부터 17일까지 여름 휴가철 특가 프로모션 '핫쇼핑페스타(이하 핫쇼페)'를... 기존 TV 방송보다 짧은 20분 편성으로 운영되며, 휴가 시즌 인기 상품을 최초 판매가 대비 최대 70% 할인된 가격에... ",
-        "link": "https://www.ngonews.kr/news/articleView.html?idxno=234640",
-        "pub_date": "2026.08.05",
-        "reason": "유통사 여름 시즌 프로모션 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "여름 휴가 시즌",
-          "여름 프로모션"
+          "여름 휴가 프로모션",
+          "추석 준비 이벤트"
         ]
       }
     ]

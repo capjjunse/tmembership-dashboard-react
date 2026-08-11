@@ -18,7 +18,7 @@ export default function NonTelecom() {
       edgeDetails: [
         '적립·배송·콘텐츠·클라우드 구독 하나로 해결',
         '패밀리 3명 동일 5%, 가족 단위 락인',
-        '웹툰·시리즈 월 10개 쿠키 무료, 콘텐츠 풍부',
+        '쿠팡과 경쟁하는 무배송 확대 추진 중',
       ],
     },
     {
@@ -159,7 +159,15 @@ export default function NonTelecom() {
                   <span className="ntval">[{c.edge}]</span>
                 </div>
                 <ul className="ntedge">
-                  {c.edgeDetails.map((d, i) => <li key={i}>{d}</li>)}
+                  {c.edgeDetails.map((d, i) => (
+                    <li key={i}>
+                      {c.title === '네이버플러스 멤버십' && i === 2 ? (
+                        <span className="upd">{d}</span>
+                      ) : (
+                        d
+                      )}
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
