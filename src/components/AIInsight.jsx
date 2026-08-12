@@ -55,12 +55,12 @@ const compGroups = [
       },
       {
         brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종' }], date: <><span className="upd">T day · 8.3~8.7 / 8.19</span></> },
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종' }], date: 'T day · 8.3~8.7 / 8.19' },
         lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '유플투쁠 2차 · 8.19' },
         kt: null,
         v: 'good',
         basis: { skt: '티켓할인+콘세션2종', lgu: '콘세션만 무료', gap: 'SKT 티켓할인 추가' },
-        note: { skt: <><span className="upd">8.3~8.7 / 8.19</span></>, lgu: '8.19' },
+        note: { skt: '8.3~8.7 / 8.19', lgu: '8.19' },
       },
       {
         brand: '백억커피',
@@ -70,6 +70,15 @@ const compGroups = [
         v: 'warn',
         basis: { skt: '아메리카노 100원', lgu: '아메리카노+팝콘 무료', gap: 'LGU+ 팝콘 추가 우위' },
         note: { skt: '8.12', lgu: '8.19' },
+      },
+      {
+        brand: '투썸플레이스',
+        skt: { lines: [{ grade: 'VIP', b: '음료 또는 조각케이크 40% 할인' }], date: <><span className="upd">T day · 8.19</span></> },
+        lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: <><span className="upd">유플투쁠 2차 · 8.18</span></> },
+        kt: null,
+        v: 'warn',
+        basis: { skt: 'VIP 40% 할인', lgu: '케이크 구매 시 아메리카노 무료', gap: 'SKT VIP만·범위제한' },
+        note: { skt: <><span className="upd">8.19</span></>, lgu: <><span className="upd">8.18</span></> },
       },
     ],
   },
@@ -445,7 +454,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)~<span className="upd">Day4(8.26)</span> 기준 · 총7건 · KT달달2차 미공개)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)~Day4(8.26) 기준 · <span className="upd">총8건</span> · KT달달2차 미공개)</div>
         </div>
       </div>
 

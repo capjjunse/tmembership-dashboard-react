@@ -93,34 +93,19 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">뜨거운 여름을 제대로 즐기는 8월을 위한 유플투쁠 혜택</span></span></div>
-            <div className="nsum"><span className="upd">8월 식음료 혜택: 배스킨라빈스 패밀리 최대 9천원 할인(8/11), 피자헛 프리미엄 피자 최대 55% 할인·파스타 증정(8/11), 공차 1만원 이상 구매 시 최대 50% 할인(8/13), 매드포갈릭 최대 2만5천원 할인/8만원 이상 주문(8/13), 배달의민족×명랑핫도그 1만8천원 이상 주문 시 최대 8,500원 할인(8/17). 문화·여가·쇼핑 혜택으로 더 즐거운 여름 제공.</span></div>
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">LGU+, 장기고객 3000명 레고랜드 워터풀 파티 개최</span></span></div>
+            <div className="nsum"><span className="upd">LGU+가 8월 8~9일 강원도 춘천 레고랜드 코리아 리조트에서 장기고객 3,000명을 초청해 '레고랜드 워터풀 파티'를 개최. 멤버십 VVIP 등급 이상이면서 가입 기간 5년 이상인 고객과 가족이 참가했으며, 워터플레이 시설·공연·체험 프로그램 등을 즐김. 9월에도 뮤지컬 '디어 에반 핸슨' 전관 초청 이벤트 진행(1,100명)</span></div>
+            <div className="nmeta">2026-08-10 · <a href="https://www.newspim.com/news/view/20260810000199" target="_blank" rel="noreferrer">뉴스핌</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">뜨거운 여름을 제대로 즐기는 8월을 위한 유플투쁠 혜택</span></div>
+            <div className="nsum">8월 식음료 혜택: 배스킨라빈스 패밀리 최대 9천원 할인(8/11), 피자헛 프리미엄 피자 최대 55% 할인·파스타 증정(8/11), 공차 1만원 이상 구매 시 최대 50% 할인(8/13), 매드포갈릭 최대 2만5천원 할인/8만원 이상 주문(8/13), 배달의민족×명랑핫도그 1만8천원 이상 주문 시 최대 8,500원 할인(8/17). 문화·여가·쇼핑 혜택으로 더 즐거운 여름 제공.</div>
             <div className="nmeta">2026-08-05 · <a href="https://news.lguplus.com/22563" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">유플투쁠 8월 제휴사 최대 규모 52개 확대, 테마파크·외식·쇼핑 혜택 강화</span></div>
-            <div className="nsum">LG유플러스가 '유플투쁠'의 8월 제휴사를 올해 최대 규모인 52개로 확대. 여름 바캉스 시즌 맞춰 오션월드 50% 할인, 부산 롯데월드 40% 할인, 서울랜드 55% 할인, 아쿠아필드 40% 할인, 뽀로로파크 66% 할인 등 테마파크 혜택 추가. 장기고객 1,500명 대상 '레고랜드 워터풀 파티' 8월 8~9일 개최.</div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">유플투쁬 8월 제휴사 최대 규모 52개 확대, 테마파크·외식·쇼핑 혜택 강화</span></div>
+            <div className="nsum">LG유플러스가 '유플투쁬'의 8월 제휴사를 올해 최대 규모인 52개로 확대. 여름 바캉스 시즌 맞춰 오션월드 50% 할인, 부산 롯데월드 40% 할인, 서울랜드 55% 할인, 아쿠아필드 40% 할인, 뽀로로파크 66% 할인 등 테마파크 혜택 추가. 장기고객 1,500명 대상 '레고랜드 워터풀 파티' 8월 8~9일 개최.</div>
             <div className="nmeta">2026-08-04 · <a href="https://www.industrynews.co.kr/news/articleView.html?idxno=68139" target="_blank" rel="noreferrer">인더스트리뉴스</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">U+ 장기고객을 위한 레고랜드 워터풀 파티 & U+119 메모리얼런</span></div>
-            <div className="nsum">LGU+ 멤버십 VVIP 이상·10년 이상 장기고객 대상 특별 초청 이벤트. 8월 8~9일 레고랜드 코리아 리조트에서 워터풀 파티 개최(1,500명 참가). 장기고객 우대 전략 지속 강화.</div>
-            <div className="nmeta">2026-07-10 · <a href="https://news.lguplus.com/22285" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">휴가부터 시원한 일상까지, 7월을 위한 유플투쁠 혜택</span></div>
-            <div className="nsum">본격적인 여름 휴가 시즌을 맞아 유플투쁠이 다양한 혜택을 준비했습니다. 공차 50% 할인, 피자헛 55% 할인, 투썸플레이스 아메리카노 무료, 배달의민족×KFC 8,500원 할인, 배스킨라빈스 패밀리 9천원 할인, 이마트24 5천원 할인, 매드포갈릭 2만5천원 할인, CU 불닭볶음면 1,200원 할인 등 식음료 혜택과 카카오페이지·카카오웹툰 캐시 증정, 씨네Q 영화표, 신라인터넷면세점 쿠폰 등 문화·쇼핑 혜택도 운영합니다.</div>
-            <div className="nmeta">2026-07-01 · <a href="https://news.lguplus.com/22202" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">응원과 혜택을 한 번에, 6월을 위한 유플투쁠 혜택</span></div>
-            <div className="nsum">6월 한 달간 식음료, 문화/여가, 쇼핑 분야에서 다양한 혜택. 피자헛 프리미엄 피자 55% 할인(6/19), 아웃백 최대 25% 할인(6/16), 배스킨라빈스 패밀리 사이즈 최대 9천원 할인(6/15), CGV 유플투쁠세트 무료(6/18), 서울랜드 파크이용권 55% 할인(6/19), 컬리 5천원 할인(6/15), 다이소 최대 2천원 금액권(6/23) 등. U+one 앱 유플투쁠 타임 오전 11시 선착순.</div>
-            <div className="nmeta">2026-06-02 · <a href="https://news.lguplus.com/21954" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">'탱크데이'에 거리 두는 통신사들…6월 유플투쁠에서 스타벅스 별 리워드 이벤트 중단</span></div>
-            <div className="nsum">스타벅스 탱크데이 논란 이후 LGU+ 유플투쁠이 5월까지 운영한 스타벅스 별 리워드 이벤트를 6월부터 중단. 투썸플레이스·공차 등 다른 음료 혜택은 유지. SKT·KT도 초기화면 노출·로고 삭제 등 스타벅스 연계를 축소.</div>
-            <div className="nmeta">2026-06-01 · <a href="https://www.newspim.com/news/view/20260601001109" target="_blank" rel="noreferrer">뉴스핌</a></div>
           </div>
         </div>
       )}
