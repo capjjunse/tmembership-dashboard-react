@@ -1,0 +1,259 @@
+- generic [ref=f5e2]:
+  - generic:
+    - link "본문 바로 가기" [ref=f5e3] [cursor=pointer]:
+      - /url: "#cfmClContents"
+    - link "주메뉴 바로 가기" [ref=f5e4] [cursor=pointer]:
+      - /url: "#cfmClGnbLogo"
+  - generic [ref=f5e5]:
+    - generic [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - strong [ref=f5e8]: QUICK MENU
+        - button "퀵메뉴 접기" [ref=f5e9] [cursor=pointer]
+      - generic [ref=f5e11]:
+        - strong [ref=f5e12]: 로그인 없이 간편하게!
+        - list [ref=f5e13]:
+          - listitem [ref=f5e14]:
+            - link "이용현황조회" [ref=f5e15] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://simple.kt.com/simple/pc/certify','KT닷컴_PC_공통|퀵메뉴|간편서비스|이용현황조회','_pop|634|752','');
+          - listitem [ref=f5e16]:
+            - link "부가서비스가입" [ref=f5e17] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://product.kt.com/wDic/simple/productJoinEvent.do?category_code=M1006','KT닷컴_PC_공통|퀵메뉴|간편서비스|부가서비스가입','_pop|634|790','');
+          - listitem [ref=f5e18]:
+            - link "요금납부" [ref=f5e19] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://dt.kt.co.kr/fe/chat/pay.do?key=0deae4f4-9cdb-4692-b0fe-c42158dff46b','KT닷컴_PC_공통|퀵메뉴|간편서비스|요금납부','_pop|412|709','');
+          - listitem [ref=f5e20]:
+            - link "납부변경" [ref=f5e21] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://dt.kt.co.kr/fe/chat/bill.do?key=0deae4f4-9cdb-4692-b0fe-c42158dff46b','KT닷컴_PC_공통|퀵메뉴|간편서비스|납부변경','_pop|412|709','');
+      - generic [ref=f5e22]:
+        - strong [ref=f5e23]: 인기메뉴
+        - list [ref=f5e24]:
+          - listitem [ref=f5e25]:
+            - link "유심 무료교체" [ref=f5e26] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://check.kt.com/simchg/SimChgOrderInfo.html','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|유심 무료교체','_blank','');
+          - listitem [ref=f5e27]:
+            - link "소액결제 내역" [ref=f5e28] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://my.kt.com/usage/MobileSmallFeeList.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|소액결제 내역','_self','');
+          - listitem [ref=f5e29]:
+            - link "내 중고폰 팔기" [ref=f5e30] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://shop.kt.com/goodbye/phoneView.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|내중고폰팔기','_self','');
+          - listitem [ref=f5e31]:
+            - link "요고 다이렉트" [ref=f5e32] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://shop.kt.com/unify/yogo.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|요고 다이렉트','_self','');
+          - listitem [ref=f5e33]:
+            - link "공통지원금" [ref=f5e34] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://shop.kt.com/smart/supportAmtList.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|공통지원금','_self','');
+          - listitem [ref=f5e35]:
+            - link "Top3 추천 단말" [ref=f5e36] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://shop.kt.com/mobile/products.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|Top3 추천 단말','_self','');
+          - listitem [ref=f5e37]:
+            - link "요금조회" [ref=f5e38] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://my.kt.com/bill/BillChargeTotalList.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|요금조회','_self','');
+          - listitem [ref=f5e39]:
+            - link "요금제변경" [ref=f5e40] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://my.kt.com/product/MobilePriceView.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|요금제변경','_self','');
+          - listitem [ref=f5e41]:
+            - link "즉시납부" [ref=f5e42] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://my.kt.com/payment/RealTimePayGet.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|즉시납부','_self','');
+          - listitem [ref=f5e43]:
+            - link "소상공인" [ref=f5e44] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://product.kt.com/wDic/soho/marketing.do?ItemCode=sajangeasy','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|소상공인','_self','');
+    - generic [ref=f5e45]:
+      - strong [ref=f5e46]:
+        - link [ref=f5e47] [cursor=pointer]:
+          - /url: "#"
+          - img "kt" [ref=f5e48]
+      - generic:
+        - list:
+          - listitem:
+            - link "다이렉트샵" [ref=f5e49] [cursor=pointer]:
+              - /url: https://shop.kt.com/
+          - listitem:
+            - link "상품서비스" [ref=f5e51] [cursor=pointer]:
+              - /url: https://product.kt.com
+          - listitem:
+            - link "혜택" [ref=f5e53] [cursor=pointer]:
+              - /url: https://membership.kt.com/main/MainInfo.do
+          - listitem:
+            - link "고객지원" [ref=f5e55] [cursor=pointer]:
+              - /url: https://help.kt.com/main.jsp
+          - listitem:
+            - link "마이" [ref=f5e57] [cursor=pointer]:
+              - /url: https://my.kt.com/main.jsp
+      - list [ref=f5e59]:
+        - listitem [ref=f5e60]:
+          - link "기업·공공" [ref=f5e61] [cursor=pointer]:
+            - /url: https://enterprise.kt.com/main.jsp
+        - listitem [ref=f5e62]:
+          - link "소상공인" [ref=f5e63] [cursor=pointer]:
+            - /url: https://product.kt.com/wDic/soho/marketing.do?ItemCode=sajangeasy
+        - listitem [ref=f5e64]:
+          - link "회사소개" [ref=f5e65] [cursor=pointer]:
+            - /url: https://corp.kt.com/
+      - generic [ref=f5e67]:
+        - link [ref=f5e69] [cursor=pointer]:
+          - /url: https://yogo.kt.com/yogo/yogoMain.do
+          - img "다이렉트 통신 요고" [ref=f5e71]
+        - link [ref=f5e73] [cursor=pointer]:
+          - /url: https://my.kt.com/product/OttSubscribeView.do
+          - img "KT 구독" [ref=f5e75]
+        - link [ref=f5e77] [cursor=pointer]:
+          - /url: "#"
+          - emphasis [ref=f5e78]: 로그인
+        - link [ref=f5e80] [cursor=pointer]:
+          - /url: "#total-search"
+          - emphasis [ref=f5e81]: 검색
+        - generic [ref=f5e82]:
+          - link [ref=f5e83] [cursor=pointer]:
+            - /url: "#"
+            - emphasis [ref=f5e84]: 챗봇
+          - link [ref=f5e88] [cursor=pointer]:
+            - /url: "#"
+            - text: 폴더블8은 KT다이렉트샵에서!
+            - emphasis [ref=f5e89]: 챗봇에서 검색하기
+        - link [ref=f5e91] [cursor=pointer]:
+          - /url: https://shop.kt.com/uniteOrder/orderCartView.do
+          - emphasis [ref=f5e92]: 장바구니
+        - link [ref=f5e94] [cursor=pointer]:
+          - /url: "#all-menus"
+          - emphasis [ref=f5e95]: 전체메뉴
+  - generic [ref=f5e97]:
+    - generic [ref=f5e100]:
+      - generic [ref=f5e101]:
+        - link "HOME" [ref=f5e103] [cursor=pointer]:
+          - /url: https://www.kt.com
+        - link "고객지원" [ref=f5e105] [cursor=pointer]:
+          - /url: javascript:kt_common.ktMenuLinkStat('https://help.kt.com/main.jsp','^KT-개인_공통^전체메뉴^고객지원','_self','E00000');
+        - link "공지/이용안내" [ref=f5e107] [cursor=pointer]:
+          - /url: javascript:kt_common.ktMenuLinkStat('https://inside.kt.com/html/notice/notice_list.html','^KT-개인_공통^전체메뉴^고객지원^공지/이용안내','_self','EE0000');
+        - generic "현재페이지" [ref=f5e108]: 공지사항
+      - generic [ref=f5e109]:
+        - heading "공지사항" [level=3] [ref=f5e110]
+        - paragraph [ref=f5e111]: KT의 소식과 안내 사항을 확인하세요.
+    - generic [ref=f5e115]:
+      - generic [ref=f5e116]:
+        - heading "KT멤버십 8월 제휴사 변경 및 이벤트 안내" [level=1] [ref=f5e117]
+        - generic [ref=f5e118]:
+          - text: 멤버십
+          - emphasis [ref=f5e119]
+          - text: 2026.07.31
+      - generic [ref=f5e120]: "안녕하세요, 고객님. KT멤버십입니다. KT멤버십 서비스를 이용해주시는 고객님께 깊은 감사를 드립니다. 8월 신규 혜택 및 변경 사항을 안내 드리오니, 이용에 참고하시기 바랍니다. <이벤트> ■ 케이티.멤버십.페스타 (8월) -대상: 전 등급 고객 -내용: (초대혜택) 영화 ‘부활남’ 시사회, 뮤지컬 ‘광화문연가’ (시즌혜택) 캐리비안베이, 배달의민족, GS칼텍스 등 5종 (달달혜택_1차) 배스킨라빈스, 쇼핑라운지, 공차 (달달혜택_2차 혜택은 추후 공개 예정) 등 ※ KT멤버십 앱/웹에서 8월 3일 10시 오픈됩니다. 달달혜택은 케.멤.페 페이지에서 확인 가능합니다. ■ 8월 문화혜택 라인업 -대상 : 전 등급 고객 -내용: 뮤지컬 <헬스키친> 최대 40%, 뮤지컬 <유미의세포들> 최대 45%, 뮤지컬 <슬립노모어 서울> 최대 40%, 전시 <아기상어 비밀 초대장:비커밍 샤크> 전 등급 50% 할인 ※ 문화혜택은 케.멤.페 페이지에서 확인 가능합니다. ■ 8월 블루보틀 VVIP 초이스 스페셜 -대상 : VVIP 등급 고객 -내용 : 블루보틀 360 트래블러 텀블러 (400명 추첨) ※ 보다 자세한 사항은 블루보틀 이벤트 페이지에서 확인 가능 <신규> ■ 지니TV -적용: ’26년 9월 1일 -대상 : VVIP, VIP 등급 고객 -내용: [VVIP초이스] 지니TV VOD 1만원 이용권, [VIP초이스] 지니TV VOD 1만원 이용권 ■ 포케올데이 -적용: 26년 8월 1일 -내용: 10% 할인(9,900원 이상 결제 시, 최대 3만원 할인, 일 1회) ■ 패스트캠퍼스 -적용: 26년 8월 1일~10월 31일 -내용: AICE Associate 실전 완성 과정 30% 특별 할인 <변경> ■ 도미노피자 -적용: 26년 9월 1일 -내용: [VVIP초이스] 2만원 할인(3만원 이상 결제 조건, 방문 포장 시) ■ 에듀윌 -내용: AICE 자격증온라인과정 15% 할인프로모션기간연장(~26년 12월 31일) ※ 최소 구매 금액 및 최대 할인 금액, 이용방법 등 자세한 내용은 KT멤버십 앱/웹에서 확인 가능 더 나은 서비스를 제공하기 위하여 항상 노력하겠습니다. 감사합니다."
+      - generic [ref=f5e121]:
+        - generic [ref=f5e122]:
+          - generic [ref=f5e123]: 이전글
+          - generic [ref=f5e124]: 이전글이 없습니다.
+        - link "다음글 KT멤버십 7월 제휴사 변경 및 이벤트 안내" [ref=f5e125] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f5e126]: 다음글
+          - generic [ref=f5e127]: KT멤버십 7월 제휴사 변경 및 이벤트 안내
+      - link "목록" [ref=f5e129] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=f5e131]:
+    - generic [ref=f5e132]:
+      - list [ref=f5e133]:
+        - listitem [ref=f5e134]:
+          - link "회사소개" [ref=f5e135] [cursor=pointer]:
+            - /url: https://corp.kt.com
+        - listitem [ref=f5e136]:
+          - text: "|"
+          - link "About KT" [ref=f5e137] [cursor=pointer]:
+            - /url: https://corp.kt.com/eng
+        - listitem [ref=f5e138]:
+          - text: "|"
+          - link "Global Biz" [ref=f5e139] [cursor=pointer]:
+            - /url: https://corp.kt.com/eng/html/global/main.html
+        - listitem [ref=f5e140]:
+          - text: "|"
+          - link "이용약관" [ref=f5e141] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/etc/agreement_01.html
+        - listitem [ref=f5e142]:
+          - text: "|"
+          - link "법적고지" [ref=f5e143] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/etc/legal.html
+        - listitem [ref=f5e144]:
+          - text: "|"
+          - link "개인정보처리방침" [ref=f5e145] [cursor=pointer]:
+            - /url: https://inside.kt.com/html/privacy/privacy12.html
+        - listitem [ref=f5e146]:
+          - text: "|"
+          - link "개인정보 이용내역" [ref=f5e147] [cursor=pointer]:
+            - /url: https://inside.kt.com/html/privacy/privacy19.html
+        - listitem [ref=f5e148]:
+          - text: "|"
+          - link "청소년 보호정책" [ref=f5e149] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/etc/agreement_05.html
+        - listitem [ref=f5e150]:
+          - text: "|"
+          - link "문의/안내처" [ref=f5e151] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/etc/contact.html
+        - listitem [ref=f5e152]:
+          - text: "|"
+          - link "웹접근성 도움말" [ref=f5e153] [cursor=pointer]:
+            - /url: https://inside.kt.com/html/accessibility/webHelp_01.html
+      - list [ref=f5e154]:
+        - listitem [ref=f5e155]:
+          - link "해지미환급금 조회/환급" [ref=f5e156] [cursor=pointer]:
+            - /url: https://wsgadd.kt.com/wsg2/cnclrfnd/cnclRfndInfo.do?ch=MP&key=de668b488b92
+        - listitem [ref=f5e157]:
+          - link "청소년 유해차단 안내" [ref=f5e158] [cursor=pointer]:
+            - /url: http://wiseuser.go.kr/application.do?boardtypecode=5340
+        - listitem [ref=f5e159]:
+          - link "이용자피해예방 가이드" [ref=f5e160] [cursor=pointer]:
+            - /url: https://inside.kt.com/html/privacy/privacy01.html
+        - listitem [ref=f5e161]:
+          - link "명의도용방지서비스" [ref=f5e162] [cursor=pointer]:
+            - /url: https://msafer.or.kr/
+        - listitem [ref=f5e163]:
+          - link "불공정행위 신고센터" [ref=f5e164] [cursor=pointer]:
+            - /url: http://www.cleanict.or.kr/
+        - listitem [ref=f5e165]:
+          - link "개인정보보호 자율감시센터" [ref=f5e166] [cursor=pointer]:
+            - /url: https://www.notm.or.kr/index
+        - listitem [ref=f5e167]:
+          - link "윤리위반신고" [ref=f5e168] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/sustain/transparent/ethics_03.html
+      - generic [ref=f5e169]:
+        - button "Family Site" [ref=f5e171] [cursor=pointer]
+        - link "그룹사 소개" [ref=f5e172] [cursor=pointer]:
+          - /url: https://corp.kt.com/html/intro/group/ict_01.html
+    - generic [ref=f5e173]:
+      - generic [ref=f5e174]:
+        - link [ref=f5e175] [cursor=pointer]:
+          - /url: https://ks-qei.ksa.or.kr/ks-qei/index.do
+          - img "한국품질만족지수1위 초고속인터넷 IPTV 이동전화" [ref=f5e176]
+        - link [ref=f5e177] [cursor=pointer]:
+          - /url: https://kcsi.kmac.co.kr/index
+          - img "한국산업의 고객만족도 1위 초고속인터넷,IPTV" [ref=f5e178]
+        - link [ref=f5e179] [cursor=pointer]:
+          - /url: https://ksgp.ksa.or.kr/ksgp/index.do
+          - img "한국서비스대상 5년 연속 종합대상" [ref=f5e180]
+        - link [ref=f5e181] [cursor=pointer]:
+          - /url: http://www.i-award.or.kr/Web/Assess/FinalCandidateView.aspx?REG_SEQNO=11010
+          - img "WA 18번째 웹어워드코리아 고객서비스분야대상" [ref=f5e182]
+        - link [ref=f5e183] [cursor=pointer]:
+          - /url: http://wiseuser.go.kr/
+          - img "와이즈유저" [ref=f5e184]
+        - link [ref=f5e185] [cursor=pointer]:
+          - /url: http://webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110
+          - img "과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.03.08 ~ 2027.03.07" [ref=f5e186]
+      - generic [ref=f5e187]:
+        - link [ref=f5e188] [cursor=pointer]:
+          - /url: https://www.facebook.com/kt.corp
+          - img "facebook" [ref=f5e189]
+        - link [ref=f5e190] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/KT_CORP
+          - img "youtube" [ref=f5e191]
+        - link [ref=f5e192] [cursor=pointer]:
+          - /url: https://www.instagram.com/kt.corp
+          - img "instagram" [ref=f5e193]
+        - link [ref=f5e194] [cursor=pointer]:
+          - /url: https://blog.naver.com/kt_corp
+          - img "네이버 블로그" [ref=f5e195]
+    - generic [ref=f5e196]:
+      - generic [ref=f5e197]:
+        - text: "(주)케이티 대표이사 박윤영 경기도 성남시 분당구 불정로 90 (정자동) 사업자등록번호 : 102-81-42945 통신판매업신고 : 2002-경기성남-0048"
+        - link "사업자정보확인" [ref=f5e198] [cursor=pointer]:
+          - /url: "#"
+        - text: "고객센터 : [모바일] 휴대폰+114(무료), 080-000-1618(무료), 1588-0010(유료) , [인터넷/TV/전화] 국번없이 100(무료), 080-000-9999(무료), [발신전용] 1514, 1524"
+      - paragraph [ref=f5e199]: Copyright© KT Corp. All rights reserved.
+      - link "KT" [ref=f5e201] [cursor=pointer]:
+        - /url: https://www.kt.com

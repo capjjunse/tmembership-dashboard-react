@@ -1,0 +1,349 @@
+- generic [ref=f1e2]:
+  - generic:
+    - link "본문 바로 가기" [ref=f1e3] [cursor=pointer]:
+      - /url: "#cfmClContents"
+    - link "주메뉴 바로 가기" [ref=f1e4] [cursor=pointer]:
+      - /url: "#cfmClGnbLogo"
+  - generic [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - generic [ref=f1e7]:
+        - strong [ref=f1e8]: QUICK MENU
+        - button "퀵메뉴 접기" [ref=f1e9] [cursor=pointer]
+      - generic [ref=f1e11]:
+        - strong [ref=f1e12]: 로그인 없이 간편하게!
+        - list [ref=f1e13]:
+          - listitem [ref=f1e14]:
+            - link "이용현황조회" [ref=f1e15] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://simple.kt.com/simple/pc/certify','KT닷컴_PC_공통|퀵메뉴|간편서비스|이용현황조회','_pop|634|752','');
+          - listitem [ref=f1e16]:
+            - link "부가서비스가입" [ref=f1e17] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://product.kt.com/wDic/simple/productJoinEvent.do?category_code=M1006','KT닷컴_PC_공통|퀵메뉴|간편서비스|부가서비스가입','_pop|634|790','');
+          - listitem [ref=f1e18]:
+            - link "요금납부" [ref=f1e19] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://dt.kt.co.kr/fe/chat/pay.do?key=0deae4f4-9cdb-4692-b0fe-c42158dff46b','KT닷컴_PC_공통|퀵메뉴|간편서비스|요금납부','_pop|412|709','');
+          - listitem [ref=f1e20]:
+            - link "납부변경" [ref=f1e21] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://dt.kt.co.kr/fe/chat/bill.do?key=0deae4f4-9cdb-4692-b0fe-c42158dff46b','KT닷컴_PC_공통|퀵메뉴|간편서비스|납부변경','_pop|412|709','');
+      - generic [ref=f1e22]:
+        - strong [ref=f1e23]: 인기메뉴
+        - list [ref=f1e24]:
+          - listitem [ref=f1e25]:
+            - link "유심 무료교체" [ref=f1e26] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://check.kt.com/simchg/SimChgOrderInfo.html','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|유심 무료교체','_blank','');
+          - listitem [ref=f1e27]:
+            - link "소액결제 내역" [ref=f1e28] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://my.kt.com/usage/MobileSmallFeeList.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|소액결제 내역','_self','');
+          - listitem [ref=f1e29]:
+            - link "내 중고폰 팔기" [ref=f1e30] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://shop.kt.com/goodbye/phoneView.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|내중고폰팔기','_self','');
+          - listitem [ref=f1e31]:
+            - link "요고 다이렉트" [ref=f1e32] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://shop.kt.com/unify/yogo.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|요고 다이렉트','_self','');
+          - listitem [ref=f1e33]:
+            - link "공통지원금" [ref=f1e34] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://shop.kt.com/smart/supportAmtList.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|공통지원금','_self','');
+          - listitem [ref=f1e35]:
+            - link "Top3 추천 단말" [ref=f1e36] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://shop.kt.com/mobile/products.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|Top3 추천 단말','_self','');
+          - listitem [ref=f1e37]:
+            - link "요금조회" [ref=f1e38] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://my.kt.com/bill/BillChargeTotalList.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|요금조회','_self','');
+          - listitem [ref=f1e39]:
+            - link "요금제변경" [ref=f1e40] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://my.kt.com/product/MobilePriceView.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|요금제변경','_self','');
+          - listitem [ref=f1e41]:
+            - link "즉시납부" [ref=f1e42] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://my.kt.com/payment/RealTimePayGet.do','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|즉시납부','_self','');
+          - listitem [ref=f1e43]:
+            - link "소상공인" [ref=f1e44] [cursor=pointer]:
+              - /url: javascript:kt_common.ktMenuLinkStat('https://product.kt.com/wDic/soho/marketing.do?ItemCode=sajangeasy','KT닷컴_PC_공통|퀵메뉴|인기메뉴|로그인전|소상공인','_self','');
+    - generic [ref=f1e45]:
+      - strong [ref=f1e46]:
+        - link [ref=f1e47] [cursor=pointer]:
+          - /url: "#"
+          - img "kt" [ref=f1e48]
+      - generic:
+        - list:
+          - listitem:
+            - link "다이렉트샵" [ref=f1e49] [cursor=pointer]:
+              - /url: https://shop.kt.com/
+          - listitem:
+            - link "상품서비스" [ref=f1e51] [cursor=pointer]:
+              - /url: https://product.kt.com
+          - listitem:
+            - link "혜택" [ref=f1e53] [cursor=pointer]:
+              - /url: https://membership.kt.com/main/MainInfo.do
+          - listitem:
+            - link "고객지원" [ref=f1e55] [cursor=pointer]:
+              - /url: https://help.kt.com/main.jsp
+          - listitem:
+            - link "마이" [ref=f1e57] [cursor=pointer]:
+              - /url: https://my.kt.com/main.jsp
+      - list [ref=f1e59]:
+        - listitem [ref=f1e60]:
+          - link "기업·공공" [ref=f1e61] [cursor=pointer]:
+            - /url: https://enterprise.kt.com/main.jsp
+        - listitem [ref=f1e62]:
+          - link "소상공인" [ref=f1e63] [cursor=pointer]:
+            - /url: https://product.kt.com/wDic/soho/marketing.do?ItemCode=sajangeasy
+        - listitem [ref=f1e64]:
+          - link "회사소개" [ref=f1e65] [cursor=pointer]:
+            - /url: https://corp.kt.com/
+      - generic [ref=f1e67]:
+        - link [ref=f1e69] [cursor=pointer]:
+          - /url: https://yogo.kt.com/yogo/yogoMain.do
+          - img "다이렉트 통신 요고" [ref=f1e71]
+        - link [ref=f1e73] [cursor=pointer]:
+          - /url: https://my.kt.com/product/OttSubscribeView.do
+          - img "KT 구독" [ref=f1e75]
+        - link [ref=f1e77] [cursor=pointer]:
+          - /url: "#"
+          - emphasis [ref=f1e78]: 로그인
+        - link [ref=f1e80] [cursor=pointer]:
+          - /url: "#total-search"
+          - emphasis [ref=f1e81]: 검색
+        - generic [ref=f1e82]:
+          - link [ref=f1e83] [cursor=pointer]:
+            - /url: "#"
+            - emphasis [ref=f1e84]: 챗봇
+          - link [ref=f1e88] [cursor=pointer]:
+            - /url: "#"
+            - text: 폴더블8은 KT다이렉트샵에서!
+            - emphasis [ref=f1e89]: 챗봇에서 검색하기
+        - link [ref=f1e91] [cursor=pointer]:
+          - /url: https://shop.kt.com/uniteOrder/orderCartView.do
+          - emphasis [ref=f1e92]: 장바구니
+        - link [ref=f1e94] [cursor=pointer]:
+          - /url: "#all-menus"
+          - emphasis [ref=f1e95]: 전체메뉴
+  - generic [ref=f1e97]:
+    - generic [ref=f1e100]:
+      - generic [ref=f1e101]:
+        - link "HOME" [ref=f1e103] [cursor=pointer]:
+          - /url: https://www.kt.com
+        - link "고객지원" [ref=f1e105] [cursor=pointer]:
+          - /url: javascript:kt_common.ktMenuLinkStat('https://help.kt.com/main.jsp','^KT-개인_공통^전체메뉴^고객지원','_self','E00000');
+        - link "공지/이용안내" [ref=f1e107] [cursor=pointer]:
+          - /url: javascript:kt_common.ktMenuLinkStat('https://inside.kt.com/html/notice/notice_list.html','^KT-개인_공통^전체메뉴^고객지원^공지/이용안내','_self','EE0000');
+        - generic "현재페이지" [ref=f1e108]: 공지사항
+      - generic [ref=f1e109]:
+        - heading "공지사항" [level=3] [ref=f1e110]
+        - paragraph [ref=f1e111]: KT의 소식과 안내 사항을 확인하세요.
+    - generic [ref=f1e114]:
+      - generic [ref=f1e115]:
+        - combobox "공지 카테고리 선택 영역" [ref=f1e116] [cursor=pointer]:
+          - option "전체"
+          - option "kt.com"
+          - option "다이렉트샵"
+          - option "마이페이지"
+          - option "서비스"
+          - option "멤버십" [selected]
+          - option "Genie TV"
+          - option "로밍"
+        - combobox "검색 항목 선택" [ref=f1e117] [cursor=pointer]:
+          - option "제목" [selected]
+          - option "내용"
+        - textbox "검색어 입력" [ref=f1e118]:
+          - /placeholder: 검색어를 입력하세요.
+        - button "검색" [active] [ref=f1e119] [cursor=pointer]
+      - generic [ref=f1e122]:
+        - link "KT멤버십 8월 제휴사 변경 및 이벤트 안내 멤버십 2026.07.31" [ref=f1e251] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e252]: KT멤버십 8월 제휴사 변경 및 이벤트 안내
+          - paragraph [ref=f1e253]:
+            - text: 멤버십
+            - emphasis [ref=f1e254]
+            - text: 2026.07.31
+        - link "KT멤버십 7월 제휴사 변경 및 이벤트 안내 멤버십 2026.06.30" [ref=f1e255] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e256]: KT멤버십 7월 제휴사 변경 및 이벤트 안내
+          - paragraph [ref=f1e257]:
+            - text: 멤버십
+            - emphasis [ref=f1e258]
+            - text: 2026.06.30
+        - link "KT멤버십 플라스틱카드의 발급 신청방법 안내 멤버십 2026.06.19" [ref=f1e259] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e260]: KT멤버십 플라스틱카드의 발급 신청방법 안내
+          - paragraph [ref=f1e261]:
+            - text: 멤버십
+            - emphasis [ref=f1e262]
+            - text: 2026.06.19
+        - link "KT멤버십 6월 제휴사 변경 및 이벤트 안내 멤버십 2026.05.29" [ref=f1e263] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e264]: KT멤버십 6월 제휴사 변경 및 이벤트 안내
+          - paragraph [ref=f1e265]:
+            - text: 멤버십
+            - emphasis [ref=f1e266]
+            - text: 2026.05.29
+        - link "KT멤버십 5월 제휴사 변경 및 이벤트 안내 멤버십 2026.04.30" [ref=f1e267] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e268]: KT멤버십 5월 제휴사 변경 및 이벤트 안내
+          - paragraph [ref=f1e269]:
+            - text: 멤버십
+            - emphasis [ref=f1e270]
+            - text: 2026.04.30
+        - link "KT멤버십 4월 제휴사 변경 및 이벤트 안내 멤버십 2026.03.31" [ref=f1e271] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e272]: KT멤버십 4월 제휴사 변경 및 이벤트 안내
+          - paragraph [ref=f1e273]:
+            - text: 멤버십
+            - emphasis [ref=f1e274]
+            - text: 2026.03.31
+        - link "멤버십 서버 점검에 따른 서비스 일시 중단 안내 멤버십 2026.03.20" [ref=f1e275] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e276]: 멤버십 서버 점검에 따른 서비스 일시 중단 안내
+          - paragraph [ref=f1e277]:
+            - text: 멤버십
+            - emphasis [ref=f1e278]
+            - text: 2026.03.20
+        - link "KT멤버십 3월 제휴사 변경 및 이벤트 안내 멤버십 2026.02.27" [ref=f1e279] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e280]: KT멤버십 3월 제휴사 변경 및 이벤트 안내
+          - paragraph [ref=f1e281]:
+            - text: 멤버십
+            - emphasis [ref=f1e282]
+            - text: 2026.02.27
+        - link "KT멤버십 2월 제휴사 변경 및 이벤트 안내 멤버십 2026.01.30" [ref=f1e283] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e284]: KT멤버십 2월 제휴사 변경 및 이벤트 안내
+          - paragraph [ref=f1e285]:
+            - text: 멤버십
+            - emphasis [ref=f1e286]
+            - text: 2026.01.30
+        - link "KT멤버십 1월 제휴사 변경 및 이벤트 안내 멤버십 2025.12.31" [ref=f1e287] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f1e288]: KT멤버십 1월 제휴사 변경 및 이벤트 안내
+          - paragraph [ref=f1e289]:
+            - text: 멤버십
+            - emphasis [ref=f1e290]
+            - text: 2025.12.31
+      - generic [ref=f1e291]:
+        - link "첫 페이지로 이동" [ref=f1e292]:
+          - /url: javascript:;
+        - link "이전 페이지로 이동" [ref=f1e293]:
+          - /url: javascript:;
+        - generic "현재위치" [ref=f1e294]: "1"
+        - link "2" [ref=f1e295] [cursor=pointer]:
+          - /url: javascript:;
+        - link "3" [ref=f1e296] [cursor=pointer]:
+          - /url: javascript:;
+        - link "4" [ref=f1e297] [cursor=pointer]:
+          - /url: javascript:;
+        - link "5" [ref=f1e298] [cursor=pointer]:
+          - /url: javascript:;
+        - link "6" [ref=f1e299] [cursor=pointer]:
+          - /url: javascript:;
+        - link "다음 페이지로 이동" [ref=f1e300] [cursor=pointer]:
+          - /url: javascript:;
+        - link "마지막 페이지로 이동" [ref=f1e301] [cursor=pointer]:
+          - /url: javascript:;
+  - generic [ref=f1e180]:
+    - generic [ref=f1e181]:
+      - list [ref=f1e182]:
+        - listitem [ref=f1e183]:
+          - link "회사소개" [ref=f1e184] [cursor=pointer]:
+            - /url: https://corp.kt.com
+        - listitem [ref=f1e185]:
+          - text: "|"
+          - link "About KT" [ref=f1e186] [cursor=pointer]:
+            - /url: https://corp.kt.com/eng
+        - listitem [ref=f1e187]:
+          - text: "|"
+          - link "Global Biz" [ref=f1e188] [cursor=pointer]:
+            - /url: https://corp.kt.com/eng/html/global/main.html
+        - listitem [ref=f1e189]:
+          - text: "|"
+          - link "이용약관" [ref=f1e190] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/etc/agreement_01.html
+        - listitem [ref=f1e191]:
+          - text: "|"
+          - link "법적고지" [ref=f1e192] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/etc/legal.html
+        - listitem [ref=f1e193]:
+          - text: "|"
+          - link "개인정보처리방침" [ref=f1e194] [cursor=pointer]:
+            - /url: https://inside.kt.com/html/privacy/privacy12.html
+        - listitem [ref=f1e195]:
+          - text: "|"
+          - link "개인정보 이용내역" [ref=f1e196] [cursor=pointer]:
+            - /url: https://inside.kt.com/html/privacy/privacy19.html
+        - listitem [ref=f1e197]:
+          - text: "|"
+          - link "청소년 보호정책" [ref=f1e198] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/etc/agreement_05.html
+        - listitem [ref=f1e199]:
+          - text: "|"
+          - link "문의/안내처" [ref=f1e200] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/etc/contact.html
+        - listitem [ref=f1e201]:
+          - text: "|"
+          - link "웹접근성 도움말" [ref=f1e202] [cursor=pointer]:
+            - /url: https://inside.kt.com/html/accessibility/webHelp_01.html
+      - list [ref=f1e203]:
+        - listitem [ref=f1e204]:
+          - link "해지미환급금 조회/환급" [ref=f1e205] [cursor=pointer]:
+            - /url: https://wsgadd.kt.com/wsg2/cnclrfnd/cnclRfndInfo.do?ch=MP&key=de668b488b92
+        - listitem [ref=f1e206]:
+          - link "청소년 유해차단 안내" [ref=f1e207] [cursor=pointer]:
+            - /url: http://wiseuser.go.kr/application.do?boardtypecode=5340
+        - listitem [ref=f1e208]:
+          - link "이용자피해예방 가이드" [ref=f1e209] [cursor=pointer]:
+            - /url: https://inside.kt.com/html/privacy/privacy01.html
+        - listitem [ref=f1e210]:
+          - link "명의도용방지서비스" [ref=f1e211] [cursor=pointer]:
+            - /url: https://msafer.or.kr/
+        - listitem [ref=f1e212]:
+          - link "불공정행위 신고센터" [ref=f1e213] [cursor=pointer]:
+            - /url: http://www.cleanict.or.kr/
+        - listitem [ref=f1e214]:
+          - link "개인정보보호 자율감시센터" [ref=f1e215] [cursor=pointer]:
+            - /url: https://www.notm.or.kr/index
+        - listitem [ref=f1e216]:
+          - link "윤리위반신고" [ref=f1e217] [cursor=pointer]:
+            - /url: https://corp.kt.com/html/sustain/transparent/ethics_03.html
+      - generic [ref=f1e218]:
+        - button "Family Site" [ref=f1e220] [cursor=pointer]
+        - link "그룹사 소개" [ref=f1e221] [cursor=pointer]:
+          - /url: https://corp.kt.com/html/intro/group/ict_01.html
+    - generic [ref=f1e222]:
+      - generic [ref=f1e223]:
+        - link [ref=f1e224] [cursor=pointer]:
+          - /url: https://ks-qei.ksa.or.kr/ks-qei/index.do
+          - img "한국품질만족지수1위 초고속인터넷 IPTV 이동전화" [ref=f1e225]
+        - link [ref=f1e226] [cursor=pointer]:
+          - /url: https://kcsi.kmac.co.kr/index
+          - img "한국산업의 고객만족도 1위 초고속인터넷,IPTV" [ref=f1e227]
+        - link [ref=f1e228] [cursor=pointer]:
+          - /url: https://ksgp.ksa.or.kr/ksgp/index.do
+          - img "한국서비스대상 5년 연속 종합대상" [ref=f1e229]
+        - link [ref=f1e230] [cursor=pointer]:
+          - /url: http://www.i-award.or.kr/Web/Assess/FinalCandidateView.aspx?REG_SEQNO=11010
+          - img "WA 18번째 웹어워드코리아 고객서비스분야대상" [ref=f1e231]
+        - link [ref=f1e232] [cursor=pointer]:
+          - /url: http://wiseuser.go.kr/
+          - img "와이즈유저" [ref=f1e233]
+        - link [ref=f1e234] [cursor=pointer]:
+          - /url: http://webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110
+          - img "과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.03.08 ~ 2027.03.07" [ref=f1e235]
+      - generic [ref=f1e236]:
+        - link [ref=f1e237] [cursor=pointer]:
+          - /url: https://www.facebook.com/kt.corp
+          - img "facebook" [ref=f1e238]
+        - link [ref=f1e239] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/KT_CORP
+          - img "youtube" [ref=f1e240]
+        - link [ref=f1e241] [cursor=pointer]:
+          - /url: https://www.instagram.com/kt.corp
+          - img "instagram" [ref=f1e242]
+        - link [ref=f1e243] [cursor=pointer]:
+          - /url: https://blog.naver.com/kt_corp
+          - img "네이버 블로그" [ref=f1e244]
+    - generic [ref=f1e245]:
+      - generic [ref=f1e246]:
+        - text: "(주)케이티 대표이사 박윤영 경기도 성남시 분당구 불정로 90 (정자동) 사업자등록번호 : 102-81-42945 통신판매업신고 : 2002-경기성남-0048"
+        - link "사업자정보확인" [ref=f1e247] [cursor=pointer]:
+          - /url: "#"
+        - text: "고객센터 : [모바일] 휴대폰+114(무료), 080-000-1618(무료), 1588-0010(유료) , [인터넷/TV/전화] 국번없이 100(무료), 080-000-9999(무료), [발신전용] 1514, 1524"
+      - paragraph [ref=f1e248]: Copyright© KT Corp. All rights reserved.
+      - link "KT" [ref=f1e250] [cursor=pointer]:
+        - /url: https://www.kt.com

@@ -100,7 +100,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>T우주패스 4,900원+5,000원 분리 (8.1~)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>T day Day2 오픈 (8.12, 4종)</div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">T day Day3 오픈 (8.19, 4종)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>샐러디 신규 제휴 (8.3~)</div>
@@ -116,7 +116,7 @@ export default function Overview() {
             <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>달달혜택 1차 오픈 (8.3~8.17, 3종 택1)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">달달혜택 1차 진행중 (8.3~8.17, 3종 택1)</span></div>
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>시즌혜택 5종 진행중 (8.3~8.31)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
@@ -133,8 +133,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>유플투쁠 1차 오픈 (8.11~8.13, 12종)</div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>유플투쁠 2차 오픈 (8.17~8.21, 27종)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">유플투쁠 2차 진행중 (8.17~8.21, 27종)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">유플투쁠 3차 오픈 (8.21~8.27, 14종)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>파고다토쿨 혜택 변경 (8.1~)</div>
@@ -151,11 +151,12 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">CGV 우위 · 캐리비안베이·백억커피 열위</span></div>
+              <div className="ovki-title">CGV 우위 · 캐리비안베이·백억커피 열위</div>
               <ul className="ovki-list">
                 <li>캐리비안베이: KT 동반1인 포함 50% vs SKT 종일권+자켓 — KT 우위</li>
                 <li>CGV: SKT 8,500원+쿠폰2종 vs LGU+ 콘세션무료 — SKT 우위</li>
-                <li><span className="upd">백억커피: LGU+ 아메리카노+팝콘 무료 vs SKT 아메리카노 100원 — LGU+ 우위</span></li>
+                <li>백억커피: LGU+ 아메리카노+팝콘 무료 vs SKT 아메리카노 100원 — LGU+ 우위</li>
+                <li><span className="upd">투썸: SKT VIP 40% vs LGU+ 케이크+아메리카노 무료 — 구성 상이</span></li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>

@@ -1,0 +1,259 @@
+- generic [ref=f9e4]:
+  - generic:
+    - link "본문 내용으로 건너뛰기":
+      - /url: "#cSection"
+  - banner [ref=f9e7]:
+    - paragraph [ref=f9e8]: 상단 정보영역
+    - generic [ref=f9e9]:
+      - generic:
+        - heading "LG U+" [level=1]:
+          - link "LG U+" [ref=f9e10] [cursor=pointer]:
+            - /url: "#"
+        - list [ref=f9e11]:
+          - listitem [ref=f9e12]:
+            - link "개인" [ref=f9e13] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f9e14]:
+            - link "기업" [ref=f9e15] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f9e16]:
+            - link "소상공인" [ref=f9e17] [cursor=pointer]:
+              - /url: "#"
+        - link "회사소개" [ref=f9e18] [cursor=pointer]:
+          - /url: /about/ko
+    - generic [ref=f9e20]:
+      - navigation [ref=f9e21]:
+        - list:
+          - listitem [ref=f9e22]:
+            - link "스토어" [ref=f9e23] [cursor=pointer]:
+              - /url: "#"
+            - text: "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+          - listitem [ref=f9e25]:
+            - link "MY" [ref=f9e26] [cursor=pointer]:
+              - /url: "#"
+            - text: "- - - - - - - - - - - - - - - - - - - - - -"
+          - listitem [ref=f9e28]:
+            - link "혜택" [ref=f9e29] [cursor=pointer]:
+              - /url: "#"
+            - text: "- - - - - - - - - - - - - - - - - - - - - - - - - -"
+          - listitem [ref=f9e31]:
+            - link "고객지원" [ref=f9e32] [cursor=pointer]:
+              - /url: "#"
+            - text: "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+          - listitem [ref=f9e34]:
+            - link [ref=f9e35] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f9e36]:
+                - img "온라인 전용" [ref=f9e38]
+                - text: 너겟
+          - listitem [ref=f9e39]:
+            - link "유독" [ref=f9e40] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f9e42]:
+            - link "Simple. Lab 외부링크" [ref=f9e43] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f9e44]:
+                - text: Simple. Lab
+                - generic "외부링크" [ref=f9e45]
+          - listitem
+          - listitem
+          - listitem
+          - listitem
+          - listitem
+      - list [ref=f9e46]:
+        - listitem [ref=f9e47]:
+          - link [ref=f9e48] [cursor=pointer]:
+            - /url: "#"
+            - img "전체메뉴" [ref=f9e49]
+        - listitem [ref=f9e50]:
+          - link [ref=f9e51] [cursor=pointer]:
+            - /url: "#"
+            - img "(가까운 매장안내)" [ref=f9e52]
+        - listitem [ref=f9e53]:
+          - link "클릭하시면 검색창이 열립니다." [ref=f9e54] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f9e55]:
+          - link [ref=f9e56] [cursor=pointer]:
+            - /url: "#"
+            - img "장바구니" [ref=f9e57]
+        - listitem [ref=f9e58]:
+          - link "내정보 메뉴 펼치기" [ref=f9e59] [cursor=pointer]:
+            - /url: "#"
+  - main [ref=f9e63]:
+    - generic [ref=f9e296]:
+      - list [ref=f9e301]:
+        - listitem [ref=f9e302]:
+          - link "개인" [ref=f9e303] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f9e304]:
+          - link "고객지원" [ref=f9e305] [cursor=pointer]:
+            - /url: /support
+        - listitem [ref=f9e306]:
+          - link "공지사항" [ref=f9e307] [cursor=pointer]:
+            - /url: /support/service/notice/membership/2505
+      - generic [ref=f9e312]:
+        - heading "공지사항" [level=2] [ref=f9e313]
+        - generic [ref=f9e315]:
+          - paragraph [ref=f9e317]:
+            - generic [ref=f9e318]: "[신규] U+멤버십 26년 9월 신규 제휴사 안내"
+          - generic [ref=f9e319]:
+            - list [ref=f9e321]:
+              - listitem [ref=f9e322]:
+                - strong [ref=f9e323]: 조회수
+                - text: "86"
+              - listitem [ref=f9e324]:
+                - strong [ref=f9e325]: 등록일
+                - generic [ref=f9e326]: 2026-08-07
+            - generic [ref=f9e328]:
+              - text: 고객님, 안녕하세요. 항상 LG유플러스를 이용해 주셔서 감사합니다. U+멤버십 26년 9월 신규 제휴사에 대해 안내 드리오니 이용에 참고 바랍니다.
+              - strong [ref=f9e329]: ■ 신규 제휴사 안내
+              - strong [ref=f9e330]: ① 고메브릿지
+              - text: "1. 대상 : U+멤버십 전 등급 고객 2. 런칭일 : 26.09.01(화) 3. 혜택 : 결제금액 기준 15% 할인 4. 이용 횟수 : 월 1회"
+              - strong [ref=f9e331]: ② 우파루 오딧세이
+              - text: "1. 대상 : U+멤버십 전 등급 고객 2. 런칭일 : 26.09.01(화) 3. 혜택 : 재화 쿠폰 제공(1만원 상당) 4. 이용 횟수 : 월 1회 앞으로도 U+멤버십에 많은 사랑 부탁 드리며, 고객님께 항상 더 좋은 서비스를 제공할 수 있도록 최선을 다하는 LG유플러스가 되겠습니다. 감사합니다."
+          - list [ref=f9e332]:
+            - listitem [ref=f9e333]:
+              - generic [ref=f9e334]:
+                - generic [ref=f9e335]: 이전글
+                - generic [ref=f9e336]: 이전글이 없습니다.
+            - listitem [ref=f9e337]:
+              - link "다음글 [신규] U+멤버십 26년 8월 신규 제휴사 안내" [ref=f9e338] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=f9e339]: 다음글
+                - generic [ref=f9e340]: "[신규] U+멤버십 26년 8월 신규 제휴사 안내"
+              - generic [ref=f9e341]: 2026-07-14
+        - button "목록" [ref=f9e344] [cursor=pointer]
+  - generic [ref=f9e197]:
+    - paragraph [ref=f9e198]: 하단 정보영역
+    - contentinfo [ref=f9e199]:
+      - generic [ref=f9e200]:
+        - list [ref=f9e202]:
+          - listitem [ref=f9e203]:
+            - link "이용약관" [ref=f9e204] [cursor=pointer]:
+              - /url: /footer/agreement
+          - listitem [ref=f9e205]:
+            - link "위치정보이용약관" [ref=f9e206] [cursor=pointer]:
+              - /url: https://www.lguplus.com/uhdc/fo/fcmm/comm/file/v1/no/2302031259372740147
+          - listitem [ref=f9e207]:
+            - link "개인정보처리방침" [ref=f9e208] [cursor=pointer]:
+              - /url: https://privacy.lguplus.com/privacy/info/v1/1
+          - listitem [ref=f9e209]:
+            - link "프라이버시센터" [ref=f9e210] [cursor=pointer]:
+              - /url: https://privacy.lguplus.com
+          - listitem [ref=f9e211]:
+            - link "통신자료제공사실열람" [ref=f9e212] [cursor=pointer]:
+              - /url: /footer/personal-information/communication-data
+          - listitem [ref=f9e213]:
+            - link "청소년보호정책" [ref=f9e214] [cursor=pointer]:
+              - /url: /footer/children-protection
+          - listitem [ref=f9e215]:
+            - link "이용자피해예방가이드" [ref=f9e216] [cursor=pointer]:
+              - /url: /support/service/user-protection-guide
+          - listitem [ref=f9e217]:
+            - link "미환급금조회" [ref=f9e218] [cursor=pointer]:
+              - /url: /footer/pending-refund
+          - listitem [ref=f9e219]:
+            - link "명의도용방지서비스" [ref=f9e220] [cursor=pointer]:
+              - /url: https://www.msafer.or.kr/index.do
+          - listitem [ref=f9e221]:
+            - link "장애현황" [ref=f9e222] [cursor=pointer]:
+              - /url: /footer/issue-status
+          - listitem [ref=f9e223]:
+            - link "임직원 Happy Program" [ref=f9e224] [cursor=pointer]:
+              - /url: /employee-mall
+        - generic [ref=f9e225]:
+          - text: ㈜엘지유플러스 서울특별시 용산구 한강대로 32 대표이사 홍범식 사업자등록번호 220-81-39938 통신판매신고 제 2015-서울용산-00481호
+          - link "사업자정보확인" [ref=f9e226] [cursor=pointer]:
+            - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208139938
+          - generic [ref=f9e227]:
+            - term [ref=f9e228]: "고객센터 :"
+            - definition [ref=f9e229]:
+              - list [ref=f9e230]:
+                - listitem [ref=f9e231]: 휴대폰 114(무료) 1544-0010(유료)
+                - listitem [ref=f9e232]: 인터넷/IPTV/전화 101(무료) 1644-7000(유료)
+          - generic [ref=f9e233]:
+            - term [ref=f9e234]: "가입문의 :"
+            - definition [ref=f9e235]:
+              - list [ref=f9e236]:
+                - listitem [ref=f9e237]: 휴대폰 1644-7009(유료)
+                - listitem [ref=f9e238]: 인터넷/IPTV/전화 1644-7070(유료)
+                - listitem [ref=f9e239]: 스마트홈 1544-0107(유료)
+                - listitem [ref=f9e240]: 소상공인 인터넷/IPTV/전화 1800-8000(유료)
+        - generic [ref=f9e241]: Copyright ⓒ LG Uplus Corp. All Rights Reserved.
+        - generic [ref=f9e242]:
+          - list [ref=f9e243]:
+            - listitem [ref=f9e244]:
+              - link [ref=f9e245] [cursor=pointer]:
+                - /url: https://www.lg.co.kr/media/release/29315
+                - img "디지털고객경험지수2025 마크" [ref=f9e246]
+                - text: 디지털고객경험지수 2025 통신 부문 1위
+            - listitem [ref=f9e247]:
+              - link [ref=f9e248] [cursor=pointer]:
+                - /url: https://lg.co.kr/media/release/29397
+                - img "한국표준협회 콜센터 품질지수 마크" [ref=f9e249]
+                - text: 한국표준협회 콜센터 품질지수 최우수 기업 선정
+            - listitem [ref=f9e250]:
+              - link [ref=f9e251] [cursor=pointer]:
+                - /url: https://lg.co.kr/media/release/29397
+                - img "한국표준협회 콜센터 AX컨택센터혁신상 수상" [ref=f9e252]
+                - text: 한국표준협회 콜센터 AX컨택센터혁신상 수상
+            - listitem [ref=f9e253]:
+              - link [ref=f9e254] [cursor=pointer]:
+                - /url: https://lg.co.kr/media/release/28999
+                - img "KSQI 품질지수 고객감동콜센터 선정" [ref=f9e255]
+                - text: 한국산업 서비스품질지수 고객감동콜센터 선정
+            - listitem [ref=f9e256]:
+              - link [ref=f9e257] [cursor=pointer]:
+                - /url: https://privacy.lguplus.com/privacy/activity/authentication/v1
+                - img "정보보호/개인정보보호 ISO 인증 4종 획득" [ref=f9e258]
+                - text: 정보보호/개인정보보호 ISO 인증 4종 획득
+            - listitem [ref=f9e259]:
+              - link [ref=f9e260] [cursor=pointer]:
+                - /url: https://privacy.lguplus.com/privacy/activity/authentication/v1
+                - img "CSAP-2025-011호 유플러스 클라우드 플랫폼(IaaS)" [ref=f9e261]
+                - text: CSAP-2025-011호 유플러스 클라우드 플랫폼(IaaS)
+          - list [ref=f9e262]:
+            - listitem [ref=f9e263]:
+              - link [ref=f9e264] [cursor=pointer]:
+                - /url: http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110
+                - img "웹접근성 인증마크" [ref=f9e265]
+                - text: 과학기술정보통신부 웹접근성 준수
+            - listitem [ref=f9e266]:
+              - link [ref=f9e267] [cursor=pointer]:
+                - /url: "#"
+                - img "정도경영 사이버신문고" [ref=f9e268]
+                - text: 정도경영 사이버신문고
+            - listitem [ref=f9e269]:
+              - link [ref=f9e270] [cursor=pointer]:
+                - /url: http://www.wiseuser.go.kr/
+                - img "방송통신 이용자 정보포털" [ref=f9e271]
+                - text: 방송통신 이용자 정보포털
+      - generic [ref=f9e272]:
+        - generic [ref=f9e273]:
+          - link "Global Store" [ref=f9e274] [cursor=pointer]:
+            - /url: https://mglobal.lguplus.com/?utm_source=upluscom&utm_medium=referral
+          - link "커버리지맵" [ref=f9e275] [cursor=pointer]:
+            - /url: "#"
+        - button "바로가기" [ref=f9e278] [cursor=pointer]
+        - list [ref=f9e280]:
+          - listitem [ref=f9e281]:
+            - link "LG 유플러스 인스타그램" [ref=f9e282] [cursor=pointer]:
+              - /url: https://instagram.com/lguplus_/
+          - listitem [ref=f9e283]:
+            - link "LG 유플러스 페이스북" [ref=f9e284] [cursor=pointer]:
+              - /url: https://facebook.com/LGUplus
+          - listitem [ref=f9e285]:
+            - link "LG 유플러스 유튜브" [ref=f9e286] [cursor=pointer]:
+              - /url: https://youtube.com/c/lguplus
+          - listitem [ref=f9e287]:
+            - link "LG 유플러스 트위터" [ref=f9e288] [cursor=pointer]:
+              - /url: https://twitter.com/LGUplus
+          - listitem [ref=f9e289]:
+            - link "LG 유플러스 공식 블로그" [ref=f9e290] [cursor=pointer]:
+              - /url: https://blog.uplus.co.kr
+          - listitem [ref=f9e291]:
+            - link "LG 유플러스 카카오스토리" [ref=f9e292] [cursor=pointer]:
+              - /url: https://story.kakao.com/ch/lguplus_lg
+          - listitem [ref=f9e293]:
+            - link "LG 유플러스 네이버 블로그" [ref=f9e294] [cursor=pointer]:
+              - /url: https://post.naver.com/lguplusblog

@@ -34,7 +34,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 2 (8.12)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (8.12)</span></div>
               <ul className="mblist">
                 <li>백억커피 아메리카노100원(픽업오더,1회)</li>
                 <li>아떼 썸머페스타 최대3만원할인</li>
@@ -45,7 +45,10 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (8.19)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 8월 19일 공개 예정</li>
+                <li><span className="upd">투썸플레이스 시즌음료/케이크5종40%할인(VIP Only)</span></li>
+                <li><span className="upd">이마트에브리데이 4만원↑20%할인(최대1만원)</span></li>
+                <li><span className="upd">이니스프리 5천원추가할인+선세럼증정(1만원↑)</span></li>
+                <li><span className="upd">CGV 8,500원예매+매점쿠폰2종</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -57,10 +60,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">시원한 여름 · Day2 4종 공개, Day3~4 미공개</div>
+            <div className="mpnt-concept"><span className="upd">시원한 여름 · Day3 4종 공개, Day4 미공개</span></div>
             <ul className="mpnt-list">
               <li>Week 15종(종료) · Day2 백억커피·아떼·슈피겐 등</li>
-              <li>Day3·4 · 8.19·8.26 Coming Soon</li>
+              <li><span className="upd">Day3(8.19) · 투썸·이마트에브리데이·이니스프리 등</span></li>
+              <li><span className="upd">Day4(8.26) · Coming Soon</span></li>
             </ul>
           </div>
         </div>
@@ -104,22 +108,22 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span className="upd">글로벌 혜택 (8.3~8.31, 로밍 고객)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>글로벌 혜택 (8.3~8.31, 로밍 고객)</span></div>
               <ul className="mblist">
-                <li><span className="upd">공항 라운지 1만원 할인</span></li>
-                <li><span className="upd">Grab 트래블패스 코드 무료</span></li>
-                <li><span className="upd">네이버페이 해외QR결제 2만원 혜택</span></li>
+                <li>공항 라운지 1만원 할인</li>
+                <li>Grab 트래블패스 코드 무료</li>
+                <li>네이버페이 해외QR결제 2만원 혜택</li>
               </ul>
             </div>
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">KT멤버십 페스타 · 달달+시즌+문화+글로벌</span></div>
+            <div className="mpnt-concept">KT멤버십 페스타 · 달달+시즌+문화+글로벌</div>
             <ul className="mpnt-list">
               <li>달달1차 · 배스킨·쇼핑라운지·공차 택1</li>
               <li>시즌혜택 5종 · 캐리비안베이·아고다 등</li>
               <li>문화혜택 4종 · 헬스키친·유미세포들 등</li>
-              <li><span className="upd">글로벌혜택 3종 · 공항라운지·Grab 등(로밍)</span></li>
+              <li>글로벌혜택 3종 · 공항라운지·Grab 등(로밍)</li>
             </ul>
           </div>
         </div>
@@ -130,7 +134,7 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>1차 (8.11~8.13)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>1차 (8.11~8.13)</span></div>
               <ul className="mblist">
                 <li>배스킨라빈스 패밀리 최대9천원할인(선착순)</li>
                 <li>피자헛 프리미엄피자55%+파스타증정(선착순)</li>
@@ -149,7 +153,7 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>2차 (8.17~8.21, 컬처 포함)</span></div>
               <ul className="mblist">
-                <li>배민×명랑핫도그 최대8,500원할인(1.8만원↑주문 시)</li>
+                <li><span className="upd">배민×명랑핫도그 최대8,500원할인(선착순)</span></li>
                 <li>카카오페이지 최대5천캐시증정(선착순)</li>
                 <li>풀무원 1만원할인(4만원↑구매 시)(선착순)</li>
                 <li>베베쿡 유아식품30%할인(최대5만원)(선착순)</li>
@@ -179,7 +183,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>3차 (8.21~8.27, 장기고객 포함)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>3차 (8.21~8.27, 장기고객 포함)</span></div>
               <ul className="mblist">
                 <li>도미노피자 최대50%할인(방문포장)(선착순)</li>
                 <li>노브랜드 치즈쫄볶이 무료증정(선착순)</li>
@@ -191,7 +195,7 @@ export default function MonthlyBenefits() {
                 <li>밀킨 전제품35%할인(최대10만원)(선착순)</li>
                 <li>사조몰 1.5만원할인(4만원이상 구매 시)(선착순)</li>
                 <li>트래블버킷×네이버 국제선1만/국내3천할인(선착순)</li>
-                <li><span className="upd">(장기고객)이마트24 최대3천원할인(1만원↑)</span></li>
+                <li>(장기고객)이마트24 최대3천원할인(1만원↑)</li>
                 <li>(장기고객)NOL티켓 죽은시인30%할인</li>
                 <li>(장기고객)트래블버킷×네이버 국제선1만/국내선3천할인</li>
                 <li>(장기고객)윌라 최대1개월무료</li>

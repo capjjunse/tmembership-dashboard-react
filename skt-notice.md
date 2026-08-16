@@ -1,0 +1,88 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - list:
+      - listitem:
+        - link "본문 바로가기" [ref=e2] [cursor=pointer]:
+          - /url: "#contents-area"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "이전 페이지" [ref=e6] [cursor=pointer]
+        - heading "공지 사항" [level=1] [ref=e9]
+        - button "검색" [ref=e11] [cursor=pointer]
+    - generic [ref=e14]:
+      - heading "본문시작" [level=2]
+      - generic [ref=e16]:
+        - button "T 멤버십" [ref=e19] [cursor=pointer]
+        - generic [ref=e24]:
+          - list [ref=e25]:
+            - listitem [ref=e26]:
+              - button "8/7 T 멤버십 서비스(참여적립, 돈 버는 교통, 쇼핑적립) 일시중단 안내 공지 2026.7.31." [ref=e28] [cursor=pointer]:
+                - generic [ref=e29]: 8/7 T 멤버십 서비스(참여적립, 돈 버는 교통, 쇼핑적립) 일시중단 안내
+                - generic [ref=e30]: 공지
+                - generic [ref=e31]: 2026.7.31.
+            - listitem [ref=e32]:
+              - button "T 멤버십 제휴 혜택 신규 및 변경 안내 공지 2026.7.27." [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: T 멤버십 제휴 혜택 신규 및 변경 안내
+                - generic [ref=e36]: 공지
+                - generic [ref=e37]: 2026.7.27.
+            - listitem [ref=e38]:
+              - button "7/26 서비스 일시중단 안내 공지 2026.7.20." [ref=e40] [cursor=pointer]:
+                - generic [ref=e41]: 7/26 서비스 일시중단 안내
+                - generic [ref=e42]: 공지
+                - generic [ref=e43]: 2026.7.20.
+            - listitem [ref=e44]:
+              - button "T 멤버십 VIP PICK T 우주패스 혜택 변경 안내 공지 2026.4.30." [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: T 멤버십 VIP PICK T 우주패스 혜택 변경 안내
+                - generic [ref=e48]: 공지
+                - generic [ref=e49]: 2026.4.30.
+            - listitem [ref=e50]:
+              - button "T 멤버십 제휴 혜택 신규 및 변경 안내 공지 2026.6.25." [ref=e52] [cursor=pointer]:
+                - generic [ref=e53]: T 멤버십 제휴 혜택 신규 및 변경 안내
+                - generic [ref=e54]: 공지
+                - generic [ref=e55]: 2026.6.25.
+            - listitem [ref=e56]:
+              - button "7/3 T 멤버십 서비스(참여적립, 돈 버는 교통, 쇼핑적립) 일시중단 안내 공지 2026.6.25." [ref=e58] [cursor=pointer]:
+                - generic [ref=e59]: 7/3 T 멤버십 서비스(참여적립, 돈 버는 교통, 쇼핑적립) 일시중단 안내
+                - generic [ref=e60]: 공지
+                - generic [ref=e61]: 2026.6.25.
+            - listitem [ref=e62]:
+              - button "6/28 서비스 일시중단 안내 공지 2026.6.22." [ref=e64] [cursor=pointer]:
+                - generic [ref=e65]: 6/28 서비스 일시중단 안내
+                - generic [ref=e66]: 공지
+                - generic [ref=e67]: 2026.6.22.
+            - listitem [ref=e68]:
+              - button "6/21 결제바코드 서비스 일시 중단 안내 공지 2026.6.12." [ref=e70] [cursor=pointer]:
+                - generic [ref=e71]: 6/21 결제바코드 서비스 일시 중단 안내
+                - generic [ref=e72]: 공지
+                - generic [ref=e73]: 2026.6.12.
+            - listitem [ref=e74]:
+              - button "6/5 T 멤버십 서비스(참여적립, 돈 버는 교통, 쇼핑적립) 일시중단 안내 공지 2026.5.29." [ref=e76] [cursor=pointer]:
+                - generic [ref=e77]: 6/5 T 멤버십 서비스(참여적립, 돈 버는 교통, 쇼핑적립) 일시중단 안내
+                - generic [ref=e78]: 공지
+                - generic [ref=e79]: 2026.5.29.
+            - listitem [ref=e80]:
+              - button "T 멤버십 제휴 혜택 신규 및 변경 안내 공지 2026.5.26." [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: T 멤버십 제휴 혜택 신규 및 변경 안내
+                - generic [ref=e84]: 공지
+                - generic [ref=e85]: 2026.5.26.
+          - generic [ref=e87]:
+            - button [ref=e88] [cursor=pointer]: 처음 페이지로 이동
+            - button [ref=e89] [cursor=pointer]: 이전 페이지로 이동
+            - button "1페이지 현재 페이지" [ref=e90] [cursor=pointer]: "1"
+            - button "2페이지" [ref=e91] [cursor=pointer]: "2"
+            - button "3페이지" [ref=e92] [cursor=pointer]: "3"
+            - button "다음 페이지로 이동" [ref=e93] [cursor=pointer]
+            - button "마지막 페이지로 이동" [ref=e94] [cursor=pointer]
+    - contentinfo
+  - tablist [ref=e97]:
+    - tab [ref=e99] [cursor=pointer]:
+      - emphasis [ref=e102]: 홈
+    - tab [ref=e104] [cursor=pointer]:
+      - emphasis [ref=e107]: T 다이렉트샵
+    - listitem [ref=e108]:
+      - link [ref=e109] [cursor=pointer]:
+        - /url: /common/tid/login?dest=%2Fcustomer%2Fsvc-info%2Fnotice%253Fcategory%253Dmembership&app=N&v2=N&ref=%2Fcustomer%2Fsvc-info%2Fnotice%253Fcategory%253Dmembership
+        - emphasis [ref=e112]: MY
+    - tab "혜택" [ref=e114] [cursor=pointer]
+    - tab "메뉴" [ref=e118] [cursor=pointer]
