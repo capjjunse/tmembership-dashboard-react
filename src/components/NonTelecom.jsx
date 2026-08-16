@@ -159,15 +159,7 @@ export default function NonTelecom() {
                   <span className="ntval">[{c.edge}]</span>
                 </div>
                 <ul className="ntedge">
-                  {c.edgeDetails.map((d, i) => (
-                    <li key={i}>
-                      {c.title === '네이버플러스 멤버십' && i === 2 ? (
-                        <span className="upd">{d}</span>
-                      ) : (
-                        d
-                      )}
-                    </li>
-                  ))}
+                  {c.edgeDetails.map((d, i) => <li key={i}>{d}</li>)}
                 </ul>
               </div>
             </div>

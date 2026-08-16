@@ -7,16 +7,16 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
     ],
-    strength: 'strong',
+    strength: 'mid',
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 55,
+    news7d: 35,
     negScore: 970,
     headline: [
       '8.5 경찰 본사 압수수색 · 전 대표 포함',
@@ -32,23 +32,23 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
-    strength: 'low',
+    strength: 'mid',
     sources: ['뉴스'],
-    direction: 'neu',
+    direction: 'pos',
     dlSpike: null,
-    news7d: 20,
+    news7d: 30,
     negScore: 180,
     headline: [
-      'EXO 포토카드 프리퀀시 이벤트 진행',
-      'CJ ONE 아이스아메리카노 50% 할인 (8월)',
-      '공정위 과징금 처분 완료 · 이슈 잠잠',
+      '여름 신메뉴 1200만잔 돌파 · 흥행',
+      '괴담 마케팅 · SNS 490만회 조회',
+      '복날 프로모션 7.24~8.17 성료',
     ],
-    impact: '3사 미운영 · EXO 콜라보·CJ ONE 제휴로 마케팅 활발, 부정 이슈 소강 — 브랜드 평판 1위 유지 중',
+    impact: '3사 미운영 · 여름 신메뉴 1200만잔 돌파 · 괴담 마케팅 성공 — 브랜드 흥행세 확대',
     links: [
-      { label: '메가MGC커피 EXO 포토카드 이벤트 (이데일리)', url: 'https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03968806645544696' },
-      { label: '메가MGC커피 CJ ONE 원더시리즈 8월 (파이낸셜뉴스)', url: 'https://www.fnnews.com/news/202608050917536980' },
+      { label: '여름 신메뉴 2주 만에 100만개 판매 (문화투데이)', url: 'https://www.munhwatoday.co.kr/news/article.html?no=173530' },
+      { label: '여름 메뉴 1200만잔 돌파 (푸드투데이)', url: 'https://www.foodtoday.or.kr/news/article.html?no=206252' },
     ],
   },
   {
@@ -64,7 +64,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 10,
+    news7d: 5,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
@@ -80,7 +80,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -89,7 +89,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 25,
+    news7d: 20,
     negScore: 850,
     headline: [
       '채권신고 8.5~9.1 진행 · 영진위 지원',
@@ -105,21 +105,23 @@ export const trendSignals = [
   },
   {
     brand: '설빙',
-    membership: 'watchlist',
-    updated: true,
-    telcos: [],
+    membership: 'partner',
+    updated: false,
+    telcos: [
+      { id: 'lgu', label: 'LGU+', prog: '유플투쁠 3차', benefit: '[선착순] 빙수메뉴 최대 35% 할인 (~8.27)' },
+    ],
     strength: 'low',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 8,
+    news7d: 12,
     negScore: 300,
     headline: [
       '태국 방콕 1호점 개점(8.4) · 해외 가속',
       '미국 매장 5개 확대 · 플로리다·시카고 진출',
       '위생 논란 진정 · 브랜드 회복 국면',
     ],
-    impact: '3사 미제휴 · 위생 논란(7.20 공식 사과) 진정 후 해외 사업 확장 국면 — 태국 1호점·미국 매장 확대로 성장 모멘텀 회복',
+    impact: 'LGU+ 유플투쁠 3차(8.21~8.27) 운영 중 · SKT·KT 미운영 · 위생 논란(7.20 공식 사과) 진정 후 해외 사업 확장 국면',
     links: [
       { label: '미국 매장 5개 확대·태국 1호점 (미주한국일보)', url: 'http://www.koreatimes.com/article/20260727/1623146' },
       { label: '공식 사과·전 매장 특별점검 (뉴스핌)', url: 'https://www.newspim.com/news/view/20260720001064' },
@@ -128,7 +130,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -138,7 +140,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 45,
+    news7d: 35,
     negScore: 250,
     headline: [
       'CGV판교 8.19 영업종료 · 임대계약 종료',
@@ -148,7 +150,7 @@ export const trendSignals = [
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2분기 흑자전환(세전이익 90억) · 판교점 8.19 영업종료 — 임대계약 종료에 따른 점포 최적화',
     links: [
       { label: 'CGV 2Q 흑자전환 · 영업이익 115억 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608071704003/' },
-      { label: 'CGV판교 8.19 영업종료 안내 (루리웹)', url: 'https://bbs.ruliweb.com/av/board/300013/read/3784922' },
+      { label: 'CGV판교 8.19 영업종료 안내 (루리웹)', url: 'https://bbs.ruliweb.com/board/300013/read/3784922' },
     ],
   },
 ];
