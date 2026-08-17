@@ -93,8 +93,8 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">LGU+, 장기고객 3000명 레고랜드 워터풀 파티 개최</span></span></div>
-            <div className="nsum"><span className="upd">LGU+가 8월 8~9일 강원도 춘천 레고랜드 코리아 리조트에서 장기고객 3,000명을 초청해 '레고랜드 워터풀 파티'를 개최. 멤버십 VVIP 등급 이상이면서 가입 기간 5년 이상인 고객과 가족이 참가했으며, 워터플레이 시설·공연·체험 프로그램 등을 즐김. 9월에도 뮤지컬 '디어 에반 핸슨' 전관 초청 이벤트 진행(1,100명)</span></div>
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">LGU+, 장기고객 3000명 레고랜드 워터풀 파티 개최</span></div>
+            <div className="nsum">LGU+가 8월 8~9일 강원도 춘천 레고랜드 코리아 리조트에서 장기고객 3,000명을 초청해 '레고랜드 워터풀 파티'를 개최. 멤버십 VVIP 등급 이상이면서 가입 기간 5년 이상인 고객과 가족이 참가했으며, 워터플레이 시설·공연·체험 프로그램 등을 즐김. 9월에도 뮤지컬 '디어 에반 핸슨' 전관 초청 이벤트 진행(1,100명)</div>
             <div className="nmeta">2026-08-10 · <a href="https://www.newspim.com/news/view/20260810000199" target="_blank" rel="noreferrer">뉴스핌</a></div>
           </div>
           <div className="nc">
@@ -103,8 +103,8 @@ export default function News() {
             <div className="nmeta">2026-08-05 · <a href="https://news.lguplus.com/22563" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">유플투쁬 8월 제휴사 최대 규모 52개 확대, 테마파크·외식·쇼핑 혜택 강화</span></div>
-            <div className="nsum">LG유플러스가 '유플투쁬'의 8월 제휴사를 올해 최대 규모인 52개로 확대. 여름 바캉스 시즌 맞춰 오션월드 50% 할인, 부산 롯데월드 40% 할인, 서울랜드 55% 할인, 아쿠아필드 40% 할인, 뽀로로파크 66% 할인 등 테마파크 혜택 추가. 장기고객 1,500명 대상 '레고랜드 워터풀 파티' 8월 8~9일 개최.</div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">유플투쁠 8월 제휴사 최대 규모 52개 확대, 테마파크·외식·쇼핑 혜택 강화</span></span></div>
+            <div className="nsum">LG유플러스가 '<span className="upd">유플투쁠</span>'의 8월 제휴사를 올해 최대 규모인 52개로 확대. 여름 바캉스 시즌 맞춰 오션월드 50% 할인, 부산 롯데월드 40% 할인, 서울랜드 55% 할인, 아쿠아필드 40% 할인, 뽀로로파크 66% 할인 등 테마파크 혜택 추가. 장기고객 1,500명 대상 '레고랜드 워터풀 파티' 8월 8~9일 개최.</div>
             <div className="nmeta">2026-08-04 · <a href="https://www.industrynews.co.kr/news/articleView.html?idxno=68139" target="_blank" rel="noreferrer">인더스트리뉴스</a></div>
           </div>
         </div>
