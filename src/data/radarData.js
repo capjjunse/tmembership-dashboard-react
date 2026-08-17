@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -16,7 +16,7 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 35,
+    news7d: 25,
     negScore: 970,
     headline: [
       '8.5 경찰 본사 압수수색 · 전 대표 포함',
@@ -32,13 +32,13 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 30,
+    news7d: 20,
     negScore: 180,
     headline: [
       '여름 신메뉴 1200만잔 돌파 · 흥행',
@@ -64,7 +64,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 5,
+    news7d: 3,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
@@ -89,7 +89,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 20,
+    news7d: 15,
     negScore: 850,
     headline: [
       '채권신고 8.5~9.1 진행 · 영진위 지원',
@@ -114,7 +114,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 12,
+    news7d: 8,
     negScore: 300,
     headline: [
       '태국 방콕 1호점 개점(8.4) · 해외 가속',
@@ -140,7 +140,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 35,
+    news7d: 25,
     negScore: 250,
     headline: [
       'CGV판교 8.19 영업종료 · 임대계약 종료',
@@ -151,6 +151,31 @@ export const trendSignals = [
     links: [
       { label: 'CGV 2Q 흑자전환 · 영업이익 115억 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608071704003/' },
       { label: 'CGV판교 8.19 영업종료 안내 (루리웹)', url: 'https://bbs.ruliweb.com/board/300013/read/3784922' },
+    ],
+  },
+  {
+    brand: '파리바게뜨',
+    membership: 'partner',
+    updated: true,
+    telcos: [
+      { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP/Gold] 100원·50원 할인 / [Silver] 50원 할인' },
+      { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
+      { id: 'lgu', label: 'LGU+', prog: '상시', benefit: '[VVIP/VIP] 100원 / [우수] 50원 할인' },
+    ],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'neg',
+    dlSpike: null,
+    news7d: 40,
+    negScore: 480,
+    headline: [
+      '빵·디저트류 127종 5% 인상 (8.25)',
+      '1년 6개월만 가격 인상 단행',
+      '원료비·제반비용 상승 불가피',
+    ],
+    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 8.25부터 빵 86종+디저트 41종 5% 인상 — 제휴 할인 실질 가치 하락 우려',
+    links: [
+      { label: '파리바게뜨 127종 5% 가격 인상 (파이낸셜뉴스)', url: 'https://www.fnnews.com/news/202608140929499623' },
     ],
   },
 ];

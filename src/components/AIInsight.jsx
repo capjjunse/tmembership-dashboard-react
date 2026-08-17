@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.08.17';
+const RADAR_SCANNED = '2026.08.18';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -239,7 +239,7 @@ const alCats = [
         { grade: 'V', desc: '무료관람 연3회 / 1+1 연9회 택1' },
         { grade: '전 등급', desc: '4,000원 할인 (11,000원 이상 예매 시)' },
       ]},
-      { partner: 'CGV', deadline: <><span className="upd">T day · 8.3~8.7 / 8.19</span></>, rows: [
+      { partner: 'CGV', deadline: 'T day · 8.3~8.7 / 8.19', rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점 쿠폰 2종' },
       ]},
     ]}],
@@ -264,8 +264,8 @@ const alCats = [
       { partner: '롯데마트제타', deadline: 'T day · 8.3~8.7', rows: [
         { grade: '전 등급', desc: '50% 할인 (최대 8천원)' },
       ]},
-      { partner: <><span className="upd">이마트에브리데이</span></>, deadline: <><span className="upd">T day · 8.19</span></>, rows: [
-        { grade: '전 등급', desc: <><span className="upd">4만원 이상 20% 할인 (최대 1만원)</span></> },
+      { partner: '이마트에브리데이', deadline: 'T day · 8.19', rows: [
+        { grade: '전 등급', desc: '4만원 이상 20% 할인 (최대 1만원)' },
       ]},
     ]}],
     reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 V 7%(짝수월)/3% · T day 롯데마트제타50%·이마트에브리데이20%'],
@@ -595,7 +595,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.08.17</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.08.18</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
