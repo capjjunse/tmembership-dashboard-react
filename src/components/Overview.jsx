@@ -107,8 +107,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>T우주패스 VIP PICK 분리 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 46%·부정 46%·중립 8%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP픽 혜택 소진 후 표준 요금제 이탈 반응</div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 42%·부정 42%·중립 16%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
@@ -125,7 +125,7 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달 8월 1차 '달달하긴 무슨 개뿔·처참하네요' 불만</div>
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>KT멤버십페스타 쇼핑라운지 개악 불만·GS주유 긍정 혼재</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달혜택 롯시 빠짐·"너프 개씨게 먹었노" 불만</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
