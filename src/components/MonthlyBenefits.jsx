@@ -45,10 +45,10 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (8.19)</span></div>
               <ul className="mblist">
-                <li><span className="upd">투썸플레이스 시즌음료/케이크5종40%할인(VIP Only)</span></li>
-                <li><span className="upd">이마트에브리데이 4만원↑20%할인(최대1만원)</span></li>
-                <li><span className="upd">이니스프리 5천원추가할인+선세럼증정(1만원↑)</span></li>
-                <li><span className="upd">CGV 8,500원예매+매점쿠폰2종</span></li>
+                <li>투썸플레이스 시즌음료/케이크5종40%할인(VIP Only)</li>
+                <li>이마트에브리데이 4만원↑20%할인(최대1만원)</li>
+                <li>이니스프리 5천원추가할인+선세럼증정(1만원↑)</li>
+                <li>CGV 8,500원예매+매점쿠폰2종</li>
               </ul>
             </div>
             <div className="mblk">
@@ -60,11 +60,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">시원한 여름 · Day3 4종 공개, Day4 미공개</span></div>
+            <div className="mpnt-concept">시원한 여름 · Day3 4종 공개, Day4 미공개</div>
             <ul className="mpnt-list">
               <li>Week 15종(종료) · Day2 백억커피·아떼·슈피겐 등</li>
-              <li><span className="upd">Day3(8.19) · 투썸·이마트에브리데이·이니스프리 등</span></li>
-              <li><span className="upd">Day4(8.26) · Coming Soon</span></li>
+              <li>Day3(8.19) · 투썸·이마트에브리데이·이니스프리 등</li>
+              <li>Day4(8.26) · Coming Soon</li>
             </ul>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>달달혜택 1차 (8.3~8.17, 3종 택1)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>달달혜택 1차 (8.3~8.17, 3종 택1)</span></div>
               <ul className="mblist">
                 <li>배스킨라빈스 레디팩 30%할인</li>
                 <li>쇼핑라운지 5천원할인</li>
@@ -83,9 +83,9 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>달달혜택 2차 (8.18~8.31)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>달달혜택 2차 (8.18~8.31)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 8월 18일 공개 예정</li>
+                <li style={{ color: 'var(--tx3)' }}>달달 2차 진행 중 — 내용 업데이트 예정</li>
               </ul>
             </div>
             <div className="mblk">
@@ -120,7 +120,7 @@ export default function MonthlyBenefits() {
             <div className="mpnt-lbl">이달 포인트</div>
             <div className="mpnt-concept">KT멤버십 페스타 · 달달+시즌+문화+글로벌</div>
             <ul className="mpnt-list">
-              <li>달달1차 · 배스킨·쇼핑라운지·공차 택1</li>
+              <li><span className="upd">달달2차(8.18~31) · 내용 업데이트 예정</span></li>
               <li>시즌혜택 5종 · 캐리비안베이·아고다 등</li>
               <li>문화혜택 4종 · 헬스키친·유미세포들 등</li>
               <li>글로벌혜택 3종 · 공항라운지·Grab 등(로밍)</li>
@@ -153,7 +153,7 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>2차 (8.17~8.21, 컬처 포함)</span></div>
               <ul className="mblist">
-                <li><span className="upd">배민×명랑핫도그 최대8,500원할인(선착순)</span></li>
+                <li>배민×명랑핫도그 최대8,500원할인(선착순)</li>
                 <li>카카오페이지 최대5천캐시증정(선착순)</li>
                 <li>풀무원 1만원할인(4만원↑구매 시)(선착순)</li>
                 <li>베베쿡 유아식품30%할인(최대5만원)(선착순)</li>
