@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">'DJ 허니'부터 두 스타 셰프의 라이브 쿠킹쇼까지, 장기고객과 함께한 '테이블 데이' 현장</span></span></div>
+            <div className="nsum">SKT가 8월 8일 스타셀스 강남(Vista Walkerhill Seoul)에서 장기고객(10년 이상) 1,200명을 초대한 'T멤버십 테이블 데이' 개최. 스타 셰프 최현석·김희은의 8코스 라이브 쿠킹 쇼, CEO 직접 인사 및 감사 선물, 로밍 쿠폰·SK상품권 경품 추첨. 향후 롯데월드 어드벤처 데이(8월 24일), 뮤지컬 시카고 관극 등 장기고객 감사 행사 확대 예정.</div>
+            <div className="nmeta"><span className="upd">2026-08-13</span> · <a href="https://news.sktelecom.com/229247" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">방콕·나트랑·괌 현지 혜택부터 브랜드 위크까지, 8월 T 멤버십 한눈에 보기</span></div>
             <div className="nsum">8월 글로벌 여행 바캉스 프로모션으로 방콕(공항 픽업·마하나콘 스카이워크 최대 50% 할인), 나트랑(패스트트랙·공항 픽업 반값·루나 스파 최대 30% 할인), 괌(스트롤 택시 15% 할인·아이홉·호놀룰루 커피 무료) 등 현지 혜택 제공. T day 2주차 뚜레쥬르 300원/천원 할인, 3주차 도미노피자 50%, 4주차 11번가 최대 50% 할인. Young Week 문화 공연 할인, 신규 제휴사 샐러디 10% 할인 추가.</div>
             <div className="nmeta">2026-08-02 · <a href="https://news.sktelecom.com/228744" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -103,8 +108,8 @@ export default function News() {
             <div className="nmeta">2026-08-05 · <a href="https://news.lguplus.com/22563" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">유플투쁠 8월 제휴사 최대 규모 52개 확대, 테마파크·외식·쇼핑 혜택 강화</span></span></div>
-            <div className="nsum">LG유플러스가 '<span className="upd">유플투쁠</span>'의 8월 제휴사를 올해 최대 규모인 52개로 확대. 여름 바캉스 시즌 맞춰 오션월드 50% 할인, 부산 롯데월드 40% 할인, 서울랜드 55% 할인, 아쿠아필드 40% 할인, 뽀로로파크 66% 할인 등 테마파크 혜택 추가. 장기고객 1,500명 대상 '레고랜드 워터풀 파티' 8월 8~9일 개최.</div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">유플투쁠 8월 제휴사 최대 규모 52개 확대, 테마파크·외식·쇼핑 혜택 강화</span></div>
+            <div className="nsum">LG유플러스가 '유플투쁠'의 8월 제휴사를 올해 최대 규모인 52개로 확대. 여름 바캉스 시즌 맞춰 오션월드 50% 할인, 부산 롯데월드 40% 할인, 서울랜드 55% 할인, 아쿠아필드 40% 할인, 뽀로로파크 66% 할인 등 테마파크 혜택 추가. 장기고객 1,500명 대상 '레고랜드 워터풀 파티' 8월 8~9일 개최.</div>
             <div className="nmeta">2026-08-04 · <a href="https://www.industrynews.co.kr/news/articleView.html?idxno=68139" target="_blank" rel="noreferrer">인더스트리뉴스</a></div>
           </div>
         </div>
