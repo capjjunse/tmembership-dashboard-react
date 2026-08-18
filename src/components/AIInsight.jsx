@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.08.18';
+const RADAR_SCANNED = '2026.08.19';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -153,8 +153,8 @@ const alCats = [
         { grade: '전 등급', desc: '본인 40% 할인, 동반 3인 30% 할인' },
       ]},
       { partner: '롯데월드어드벤처', deadline: '상시', rows: [
-        { grade: 'V', desc: '본인 40% 할인, 동반 3인 30% 할인' },
-        { grade: 'G, S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
+        { grade: 'V, G', desc: '본인 40% 할인, 동반 3인 30% 할인' },
+        { grade: 'S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
       ]},
       { partner: '캐리비안베이', deadline: 'T day · 8.3~8.7', rows: [
         { grade: '전 등급', desc: '종일권 + 자켓 50% 할인 (~8.30)' },
@@ -278,14 +278,14 @@ export const recs = [
   {
     rank: 1,
     brand: '설빙',
-    tag: '매장 606개 · DataLab ↗1.27',
+    tag: '매장 606개 · DataLab →1.01',
     reason: '아이스디저트 카테고리 1위 · 전국 606개. Tday 5개월 공백 지속. 7.20 위생 논란 공식 사과 완료 — 전 매장 특별점검 후 진정세, 브랜드 회복 추이 모니터링 중.',
     reach: [
       { label: '매장 규모', text: '전국 606개 · 아이스디저트 카테고리 1위' },
-      { label: '검색 버즈', text: 'DataLab ↗1.27 · 블로그 74만 · 카페 23만 · 뉴스 100건 — 위생 논란 이후 부정 버즈 포함' },
+      { label: '검색 버즈', text: 'DataLab →1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건 — 여름 시즌·해외 확장 버즈' },
       { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 5개월 · 위생 논란 공식 사과 완료(7.20) · 브랜드 회복 추이 모니터링 중' },
     ],
-    trend: 'DataLab 1.27 · 블로그 74만 · 카페 23만 · 뉴스 100건',
+    trend: 'DataLab 1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건',
     hot: true,
     skt: [
       { prog: 'Tday', active: false, last: '2026.03', gap: '5개월 공백' },
@@ -311,16 +311,17 @@ export const recs = [
   },
   {
     rank: 3,
-    brand: '맥시칸치킨',
-    tag: '매장 564개 · DataLab 1.04',
-    reason: '양념치킨 원조 · 전국 564개. 3사 모두 미참여 · 치킨 카테고리 상시 제휴 공백 지속.',
+    brand: '60계치킨',
+    tag: '매장 627개 · DataLab →0.91',
+    reason: '치킨 카테고리 중견 브랜드 · 전국 627개. 크크크치킨 2년 연속 네이버 검색 1위 · 배민 픽업 전용 메뉴 출시로 배달 플랫폼 시너지 확인. SKT·KT·LGU+ 3사 모두 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 564개 · 치킨 카테고리 중견 브랜드 (양념치킨 원조)' },
-      { label: '검색 버즈', text: 'DataLab 1.04 · 뉴스 37건' },
-      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 상시 제휴 공백 — 중가 치킨 세분 시장 진입 기회' },
+      { label: '매장 규모', text: '전국 627개 · 치킨 카테고리 중견 브랜드 (양념·후라이드 균형 라인업)' },
+      { label: '검색 버즈', text: 'DataLab →0.91 · 블로그 4만 · 뉴스 74건 — 배민 픽업 메뉴 출시·히트상품 수상 버즈' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 상시 공백 — 배민 협업으로 배달 플랫폼 시너지 증명' },
     ],
-    trend: 'DataLab 1.04 · 뉴스 37건',
+    trend: 'DataLab 0.91 · 블로그 4만 · 뉴스 74건',
     hot: false,
+    updated: true,
     skt: [],
     kt:  null,
     lgu: null,
@@ -505,7 +506,7 @@ export default function AIInsight() {
           <div key={r.rank} className="rec-card">
             <div className="rec-hdr">
               <div className={`rec-rank${r.hot ? ' rr-hot' : ''}`}>{r.rank}</div>
-              <div className="rec-brand">{r.brand}</div>
+              <div className="rec-brand">{r.updated ? <span className="upd">{r.brand}</span> : r.brand}</div>
               <div className="rec-tag">{r.tag}</div>
             </div>
             <div className="rec-reason">{r.reason}</div>
@@ -595,7 +596,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.08.18</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer">2026.08.19 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

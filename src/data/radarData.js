@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -21,7 +21,7 @@ export const trendSignals = [
     headline: [
       '8.5 경찰 본사 압수수색 · 전 대표 포함',
       '탱크데이 고의성 확인 · 9.5시간 수색',
-      '독립문역점 8월 수익금 독립유공자 기부',
+      '서머 프리퀀시 취소 · 신뢰회복 우선',
     ],
     impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT 미운영 · 경찰 압수수색으로 탱크데이 책임 수사 재점화',
     links: [
@@ -32,7 +32,7 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
@@ -43,7 +43,7 @@ export const trendSignals = [
     headline: [
       '여름 신메뉴 1200만잔 돌파 · 흥행',
       '괴담 마케팅 · SNS 490만회 조회',
-      '복날 프로모션 7.24~8.17 성료',
+      'EXO 포토카드 프리퀀시 · ~8.19 종료',
     ],
     impact: '3사 미운영 · 여름 신메뉴 1200만잔 돌파 · 괴담 마케팅 성공 — 브랜드 흥행세 확대',
     links: [
@@ -156,7 +156,7 @@ export const trendSignals = [
   {
     brand: '파리바게뜨',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP/Gold] 100원·50원 할인 / [Silver] 50원 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -166,7 +166,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 40,
+    news7d: 25,
     negScore: 480,
     headline: [
       '빵·디저트류 127종 5% 인상 (8.25)',
