@@ -43,7 +43,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (8.19)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 3 (8.19)</span></div>
               <ul className="mblist">
                 <li>투썸플레이스 시즌음료/케이크5종40%할인(VIP Only)</li>
                 <li>이마트에브리데이 4만원↑20%할인(최대1만원)</li>
@@ -120,7 +120,7 @@ export default function MonthlyBenefits() {
             <div className="mpnt-lbl">이달 포인트</div>
             <div className="mpnt-concept">KT멤버십 페스타 · 달달+시즌+문화+글로벌</div>
             <ul className="mpnt-list">
-              <li><span className="upd">달달2차(8.18~31) · 내용 업데이트 예정</span></li>
+              <li>달달2차(8.18~31) · 내용 업데이트 예정</li>
               <li>시즌혜택 5종 · 캐리비안베이·아고다 등</li>
               <li>문화혜택 4종 · 헬스키친·유미세포들 등</li>
               <li>글로벌혜택 3종 · 공항라운지·Grab 등(로밍)</li>
@@ -153,7 +153,7 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>2차 (8.17~8.21, 컬처 포함)</span></div>
               <ul className="mblist">
-                <li>배민×명랑핫도그 최대8,500원할인(선착순)</li>
+                <li>배민×명랑핫도그 최대8,500원할인(<span className="upd">1.8만원↑주문 시,</span>선착순)</li>
                 <li>카카오페이지 최대5천캐시증정(선착순)</li>
                 <li>풀무원 1만원할인(4만원↑구매 시)(선착순)</li>
                 <li>베베쿡 유아식품30%할인(최대5만원)(선착순)</li>

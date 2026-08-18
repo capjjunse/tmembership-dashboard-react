@@ -100,14 +100,14 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>T우주패스 4,900원+5,000원 분리 (8.1~)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>T day Day3 오픈 (8.19, 4종)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">T day Day3 진행중 (8.19, 4종)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">쿤달 종료 예정 (8.31)</span></div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em>쿤달 종료 예정 (8.31)</div>
             <div className="ovg2-item"><em className="tg tg-new">신규</em>샐러디 신규 제휴 (8.3~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 44%·부정 41%·중립 15%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 44%·부정 41%·중립 15%</div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
@@ -116,16 +116,16 @@ export default function Overview() {
             <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">달달혜택 2차 진행중 (8.18~8.31, 내용 업데이트 예정)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달혜택 2차 진행중 (8.18~8.31, 내용 업데이트 예정)</div>
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>시즌혜택 5종 진행중 (8.3~8.31)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">도미노피자 변경 예정 (9.1~)</span></div>
-            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">지니TV 신규 제휴 예정 (9.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em>도미노피자 변경 예정 (9.1~)</div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em>지니TV 신규 제휴 예정 (9.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달 2차(8.18~31) "달달????? 약했니?" 부정 쏟아짐</span></div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">쇼핑라운지 3만원 조건·"쓸만한 게 없다" 불만 반복</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달 2차(8.18~31) "달달????? 약했니?" 부정 쏟아짐</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>쇼핑라운지 3만원 조건·"쓸만한 게 없다" 불만 반복</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
@@ -137,7 +137,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">오픈</em>유플투쁠 3차 오픈 (8.21~8.27, 14종)</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">9월 신규 2개 예정 (9.1~, 고메브릿지·우파루)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em>9월 신규 2개 예정 (9.1~, 고메브릿지·우파루)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>파고다토쿨 혜택 변경 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
@@ -151,7 +151,7 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-neg">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">CGV 우위 · 캐리비안베이·백억커피·투썸 열위</span></div>
+              <div className="ovki-title">CGV 우위 · 캐리비안베이·백억커피·투썸 열위</div>
               <ul className="ovki-list">
                 <li>캐리비안베이: KT 동반1인 포함 50% vs SKT 종일권+자켓 — KT 우위</li>
                 <li>CGV: SKT 8,500원+쿠폰2종 vs LGU+ 콘세션무료 — SKT 우위</li>
