@@ -107,7 +107,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>샐러디 신규 제휴 (8.3~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 42%·부정 42%·중립 16%</div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 44%·부정 41%·중립 15%</span></div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
@@ -124,8 +124,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">지니TV 신규 제휴 예정 (9.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달 8월 1차 '달달하긴 무슨 개뿔·처참하네요' 불만</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달혜택 롯시 빠짐·"너프 개씨게 먹었노" 불만</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달 2차(8.18~31) "달달????? 약했니?" 부정 쏟아짐</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">쇼핑라운지 3만원 조건·"쓸만한 게 없다" 불만 반복</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
