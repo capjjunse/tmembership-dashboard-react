@@ -43,7 +43,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 3 (8.19)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (8.19)</span></div>
               <ul className="mblist">
                 <li>투썸플레이스 시즌음료/케이크5종40%할인(VIP Only)</li>
                 <li>이마트에브리데이 4만원↑20%할인(최대1만원)</li>
@@ -54,17 +54,19 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (8.26)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 8월 26일 공개 예정</li>
+                <li><span className="upd">쉐이크쉑 20%할인(VIP40%,최대8천원)</span></li>
+                <li><span className="upd">던킨 음료+자이언트버킷 50%할인/적립(최대6천원)</span></li>
+                <li><span className="upd">폴바셋 아이스크림라떼+커피4종 50%할인/적립</span></li>
+                <li><span className="upd">톤28 3만원↑2만·5만원↑3만원할인</span></li>
               </ul>
             </div>
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">시원한 여름 · Day3 4종 공개, Day4 미공개</div>
+            <div className="mpnt-concept"><span className="upd">시원한 여름 · 全일정 공개 완료</span></div>
             <ul className="mpnt-list">
-              <li>Week 15종(종료) · Day2 백억커피·아떼·슈피겐 등</li>
-              <li>Day3(8.19) · 투썸·이마트에브리데이·이니스프리 등</li>
-              <li>Day4(8.26) · Coming Soon</li>
+              <li><span className="upd">Day4 · 쉐이크쉑(VIP40%)·던킨·폴바셋·톤28</span></li>
+              <li>Week·Day2·3 종료 · Day4 D-6</li>
             </ul>
           </div>
         </div>
@@ -153,7 +155,7 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>2차 (8.17~8.21, 컬처 포함)</span></div>
               <ul className="mblist">
-                <li>배민×명랑핫도그 최대8,500원할인(<span className="upd">1.8만원↑주문 시,</span>선착순)</li>
+                <li>배민×명랑핫도그 최대8,500원할인(1.8만원↑주문 시,선착순)</li>
                 <li>카카오페이지 최대5천캐시증정(선착순)</li>
                 <li>풀무원 1만원할인(4만원↑구매 시)(선착순)</li>
                 <li>베베쿡 유아식품30%할인(최대5만원)(선착순)</li>
@@ -165,7 +167,7 @@ export default function MonthlyBenefits() {
                 <li>프린트베이커리 15%할인(컬처,선착순)</li>
                 <li>카카오웹툰 최대5천캐시증정(선착순)</li>
                 <li>투썸플레이스 조각케이크+아메리카노무료(선착순)</li>
-                <li>아쿠아필드 전권종40%할인(선착순)</li>
+                <li>아쿠아필드 전권종40%할인(<span className="upd">최대2인,</span>선착순)</li>
                 <li>B1불스원카케어 세차20%할인+추가혜택(선착순)</li>
                 <li>WHIPPED 기획세트 최대50%할인(선착순)</li>
                 <li>백억커피 아메리카노+팝콘무료증정(선착순)</li>
@@ -188,7 +190,7 @@ export default function MonthlyBenefits() {
                 <li>도미노피자 최대50%할인(방문포장)(선착순)</li>
                 <li>노브랜드 치즈쫄볶이 무료증정(선착순)</li>
                 <li>롱블랙 2개월무료구독권(선착순)</li>
-                <li>설성목장 1만원할인+바베큐폭립증정(7만원↑구매 시)</li>
+                <li>설성목장 1만원할인+바베큐폭립증정(7만원↑,<span className="upd">선착순</span>)</li>
                 <li>설빙 빙수메뉴 최대35%할인(선착순)</li>
                 <li>다이소 최대2천원금액권(선착순)</li>
                 <li>모던하우스 최대30%할인쿠폰2종(선착순)</li>

@@ -31,6 +31,20 @@ export default function History() {
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
+            <td>2026.09.01</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T 멤버십 상시</td>
+            <td><span className="upd">아웃백 할인 횟수/한도 조정 — 일 1회→월 4회, V/G 한도 30,000원→20,000원 (9.1~)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.09.01</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T 멤버십 상시</td>
+            <td><span className="upd">청소연구소 에어컨 청소 7% 할인 서비스 폐지 (9.1)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
             <td>2026.08.31</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>

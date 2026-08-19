@@ -100,14 +100,14 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>T우주패스 4,900원+5,000원 분리 (8.1~)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">T day Day3 진행중 (8.19, 4종)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">오픈</em><span className="upd">T day Day4 오픈 (8.26, 쉐이크쉑·던킨·폴바셋·톤28)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em>쿤달 종료 예정 (8.31)</div>
-            <div className="ovg2-item"><em className="tg tg-new">신규</em>샐러디 신규 제휴 (8.3~)</div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">아웃백 할인 횟수·한도 조정 예정 (9.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">청소연구소 에어컨 할인 폐지 예정 (9.1)</span></div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 42%·부정 46%·중립 12%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 42%·부정 46%·중립 12%</div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
@@ -141,8 +141,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>파고다토쿨 혜택 변경 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 100% (수집 1건)</span></div>
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">유플투쁠 "장기고객데이 다이소+윌라" 만족</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 100% (수집 1건)</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>유플투쁠 "장기고객데이 다이소+윌라" 만족</div>
           </a>
         </div>
 
