@@ -2,7 +2,6 @@
 export const UPDATE_DATE = '2026.08.19';
 export const updateItems = [
   { section: '#mo', label: '월간혜택', desc: 'LGU+ 2차 배민×명랑핫도그 조건 "1.8만원↑주문 시" 추가' },
-  { section: '#nw', label: '뉴스', desc: 'SKT 테이블 데이 현장 뉴스 신규 (장기고객 1,200명 초대 · 2026-08-13)' },
   { section: '#sn', label: '고객반응', desc: 'SKT 비율 부정 46%로 상승 (42%·46%·12%), LGU+ 긍정 100%로 변경 · KT 달달 2차 "달달????? 약했니?" 부정 지속' },
   { section: '#nt', label: '비통신 멤버십', desc: '네이버플러스 "쿠팡보다 저가" 포지셔닝 문구 추가' },
   { section: '#ov', label: '핵심동향', desc: 'SKT 반응 비율·LGU+ 고객반응 긍정 100% 반영 (투쁠 불만 → 긍정 전환)' },

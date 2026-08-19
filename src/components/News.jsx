@@ -18,9 +18,9 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">'DJ 허니'부터 두 스타 셰프의 라이브 쿠킹쇼까지, 장기고객과 함께한 '테이블 데이' 현장</span></span></div>
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">'DJ 허니'부터 두 스타 셰프의 라이브 쿠킹쇼까지, 장기고객과 함께한 '테이블 데이' 현장</span></div>
             <div className="nsum">SKT가 8월 8일 스타셀스 강남(Vista Walkerhill Seoul)에서 장기고객(10년 이상) 1,200명을 초대한 'T멤버십 테이블 데이' 개최. 스타 셰프 최현석·김희은의 8코스 라이브 쿠킹 쇼, CEO 직접 인사 및 감사 선물, 로밍 쿠폰·SK상품권 경품 추첨. 향후 롯데월드 어드벤처 데이(8월 24일), 뮤지컬 시카고 관극 등 장기고객 감사 행사 확대 예정.</div>
-            <div className="nmeta"><span className="upd">2026-08-13</span> · <a href="https://news.sktelecom.com/229247" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nmeta">2026-08-13 · <a href="https://news.sktelecom.com/229247" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">방콕·나트랑·괌 현지 혜택부터 브랜드 위크까지, 8월 T 멤버십 한눈에 보기</span></div>
