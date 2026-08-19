@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.08.19';
+const RADAR_SCANNED = '2026.08.20';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -317,7 +317,7 @@ export const recs = [
     reach: [
       { label: '매장 규모', text: '전국 627개 · 치킨 카테고리 중견 브랜드 (양념·후라이드 균형 라인업)' },
       { label: '검색 버즈', text: 'DataLab →0.91 · 블로그 4만 · 뉴스 74건 — 배민 픽업 메뉴 출시·히트상품 수상 버즈' },
-      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 상시 공백 — 배민 협업으로 배달 플랫폼 시너지 증명' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 상시 공백 — 철사 혼입 소송(2026.04) 진행 중 · 신뢰도 모니터링' },
     ],
     trend: 'DataLab 0.91 · 블로그 4만 · 뉴스 74건',
     hot: false,
@@ -395,7 +395,7 @@ export default function AIInsight() {
     <div className="sec" id="ai">
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
-        <span className="ss"><span className="upd">2026년 8월 기준</span></span>
+        <span className="ss">2026년 8월 기준</span>
         
       </div>
 

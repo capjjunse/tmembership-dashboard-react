@@ -18,7 +18,7 @@ export default function NonTelecom() {
       edgeDetails: [
         '적립·배송·콘텐츠·클라우드 구독 하나로 해결',
         '패밀리 3명 동일 5%, 가족 단위 락인',
-        <>N배송·적립·콘텐츠를 하나로, <span className="upd">쿠팡보다 저가</span></>,
+        'N배송·적립·콘텐츠를 하나로, 쿠팡보다 저가',
       ],
     },
     {

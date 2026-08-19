@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -16,7 +16,7 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 25,
+    news7d: 30,
     negScore: 970,
     headline: [
       '8.5 경찰 본사 압수수색 · 전 대표 포함',
@@ -43,7 +43,7 @@ export const trendSignals = [
     headline: [
       '여름 신메뉴 1200만잔 돌파 · 흥행',
       '괴담 마케팅 · SNS 490만회 조회',
-      'EXO 포토카드 프리퀀시 · ~8.19 종료',
+      '이용률 71.0% · 스타벅스 추월 달성',
     ],
     impact: '3사 미운영 · 여름 신메뉴 1200만잔 돌파 · 괴담 마케팅 성공 — 브랜드 흥행세 확대',
     links: [
