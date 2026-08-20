@@ -458,7 +458,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)~Day4(8.26) 기준 · 총8건 · KT달달2차 미공개)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)~Day4(8.26) 기준 · 총8건 · <span className="upd">KT달달2차: 뮤지컬3종택1, 매트릭스 겹침 없음</span>)</div>
         </div>
       </div>
 

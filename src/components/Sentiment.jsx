@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (<span className="upd">2026.08.19 갱신</span>)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (<span className="upd">2026.08.20 갱신</span>)</span>
 
       </div>
       <div className="tr2">
@@ -63,9 +63,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '42%' }}><span className="upd">긍정 42%</span></div>
-              <div className="rbs rn" style={{ width: '46%' }}><span className="upd">부정 46%</span></div>
-              <div className="rbs ru" style={{ width: '12%' }}><span className="upd">중립 12%</span></div>
+              <div className="rbs rp" style={{ width: '46%' }}><span className="upd">긍정 46%</span></div>
+              <div className="rbs rn" style={{ width: '43%' }}><span className="upd">부정 43%</span></div>
+              <div className="rbs ru" style={{ width: '11%' }}><span className="upd">중립 11%</span></div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -86,7 +86,7 @@ export default function Sentiment() {
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw1' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">올해부터 t멤버십 혜택 존나 줄어서 빡치네 — "작년하반기에 개인정보유출 민심 되돌리려고 ㅈㄴ뿌렸다 이거지?" (LGBT 갤)</span></div><div className="rsrc"><span className="upd">2026.08.19</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">올해부터 t멤버십 혜택 존나 줄어서 빡치네 — "작년하반기에 개인정보유출 민심 되돌리려고 ㅈㄴ뿌렸다 이거지?" (LGBT 갤)</div><div className="rsrc">2026.08.19</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">skt 장기고객 혜택 어이가 없어서 말문이 막히네 — "밤11시-새벽5시까지 오라는건데 생색 졸라 냄" / 댓글: "뭐라도 해주긴하네ㅋㅋ" / "낮에 빌리면 비싸자너" / "ㅋㅋㅋㅋㅋㅋ 그냥 잘랍니다"</div><div className="rsrc">2026.08.04 · <a href="https://www.fmkorea.com/10169950810" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">T멤버십 영화 예매가 안돼요 — "조조 아니고 1만7천원 이하 아니고 청소년도 아님" / 댓글: "7월달꺼 써버린거아님? 한달에 한번 무료인데" / "1년에 6회임" / "특별관은 나도 안되서 걍 제값다 주고봄"</div><div className="rsrc">2026.07.30 · <a href="https://www.fmkorea.com/10148363088" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">아카라이브</span></div><div className="rtx">T멤버십 영화예약 병신을 만들어놨네 (명조 갤)</div><div className="rsrc">2026.07.29</div></div>
@@ -96,9 +96,11 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw2' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx"><span className="upd">[T멤버십] 이번주 T데이 혜택 (8/19) — "아니 이럴수가 애브리데이 배송안하는 지점이네" / "투썸 VIP만 이구나"</span></div><div className="rsrc"><span className="upd">2026.08.19 · <a href="https://bbs.ruliweb.com/market/board/1020/read/106465" target="_blank" rel="noreferrer">원문 보기</a></span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">아트하우스 진 t멤버십에서 결제하면 못받아? — "아트하우스 클럽은 가입했는데 Cgv 앱 내에서 결제 한 건만 되나. . ?" (오리지널 티켓 갤)</span></div><div className="rsrc"><span className="upd">2026.08.20</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">[T멤버십] 이번주 T데이 혜택 (8/19) — "아니 이럴수가 애브리데이 배송안하는 지점이네" / "투썸 VIP만 이구나"</div><div className="rsrc">2026.08.19 · <a href="https://bbs.ruliweb.com/market/board/1020/read/106465" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">오늘은 첼센느 피자 먹는 날 — "T멤버쉽 50% 할인 멤버쉽 아닌 사람은 40% 할인 최근 3개월 주문한적 없으면 콜라 공짜" (첼시 갤)</span></div><div className="rsrc"><span className="upd">2026.08.18</span></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">t멤버십 도미노 50퍼 개꿀 ㅅㅅ — "방문포장이라서 아쉽긴해도"</div><div className="rsrc">2026.08.17</div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">슼통쓰는 욕조견들 멸망 ㅋㅋㅋ — "t멤버십 방문포장 50퍼있다 딱 콜라보 시작 21일이랑 걸침 ㄱㄱ혓" (니케 갤)</span></div><div className="rsrc"><span className="upd">2026.08.17</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">슼통쓰는 욕조견들 멸망 ㅋㅋㅋ — "t멤버십 방문포장 50퍼있다 딱 콜라보 시작 21일이랑 걸침 ㄱㄱ혓" (니케 갤)</div><div className="rsrc">2026.08.17</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">브랜드 위크-뚜레쥬르 30% 할인 + 슈피겐 코드 오류 혼재 — "뚜레쥬르도 이번주 30% 할인입니다." / "슈피겐 코드등록 에러떠서 고객센터 전화하니 전부 그렇다고 하네요 ㅋㅋ 담당자 똥줄탈듯.." / "방금 문자와서 쿠폰 등록하니 등록 되네요! 강화유리 무료 느낌으로 접근하시죠"</div><div className="rsrc">2026.08.12 · <a href="https://bbs.ruliweb.com/etcs/board/1020/read/106303" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">더쿠</span></div><div className="rtx">티데이덕에 제타 진짜 싸게 산듯 — "라면 중복할인에 티데이할인까지 받으니 할인금액만 거의 18000원 / 너무 기분조타ㅋㅋㅋ" (덬딜)</div><div className="rsrc">2026.08.08 · <a href="https://theqoo.net/theqdeal/4306147533" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">더벤티 T 데이 쿠폰 썼어요!! — "너무 맛있게 잘먹었어요" (덕양구맘)</div><div className="rsrc">2026.08.07 · <a href="https://m.cafe.naver.com/gongganforum/279966" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -125,14 +127,14 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw4' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">T우주패스 쓰레기네 — "1개월 1번 구독하던 걸 1만원에 해야 되는데 유튜브 프리미엄 라이트 쌩 가격이 8500원인데 우주패스 할인보면 7900원이고 이상한 거 껴서 1만원 받아 처먹는 게 유튜브가 비싸진 게 아니라 편의점&카페가 비싸진 거" (판타지 갤)</span></div><div className="rsrc"><span className="upd">2026.08.10</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T우주패스 쓰레기네 — "1개월 1번 구독하던 걸 1만원에 해야 되는데 유튜브 프리미엄 라이트 쌩 가격이 8500원인데 우주패스 할인보면 7900원이고 이상한 거 껴서 1만원 받아 처먹는 게 유튜브가 비싸진 게 아니라 편의점&카페가 비싸진 거" (판타지 갤)</div><div className="rsrc">2026.08.10</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">뱅크시 SKT VIP PICK — "두 명이라면 SKT VIP 혜택이 괜찮네요 / 2인 1+1되어 23,000원입니다 / 영화나 볼까하고 보다보니 뱅크시도 있어서 공유드려요~" / 댓글: "보고 왔는데 아주 일반적인 사진만 많고 해서 저는 그닥이더라구요 참고 하세요"</div><div className="rsrc">2026.08.16 · <a href="https://cafe.naver.com/loyaltylife/350402" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">skt vip 롯데마트 제타 구입했어요 — "횟수 차감 없는 skt vip 픽으로 받은 쿠폰이에요. 최대 5천원까진데 살게 없어서 요렇게 마무리! 요즘 롯데마트 열일하네요ㅎㅎ" (정가거부)</div><div className="rsrc">2026.08.09 · <a href="https://m.cafe.naver.com/wjdrkrjqn/190268" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">skt vip픽 쿠폰으로 롯데마트 제타 구입했어요 — "vip픽 횟수차감 없이 쿠폰 줘서 롯데마트 제타 주문했어요!"</div><div className="rsrc">2026.08.05 · <a href="https://m.cafe.naver.com/wjdrkrjqn/188484" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">메가커피 자주가시면 우주패스추천 — "sk t멤버십 브아피 할인 월 4번한도로 제한된 후로는 우주패스쓰는데 넘좋네요. vip픽으로 우주패스쿠폰받고 11번가 우주패스고르고요. 11번가포인트3천받고 (4만이상5천쿠폰도줌) 메가커피 월 3만할인받아요"</div><div className="rsrc">2026.08.05 · <a href="https://m.cafe.naver.com/wjdrkrjqn/188333" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">롯데마트 제타 50% 쿠폰 정보 공유 중 VIP픽 언급 — "이거 말고도 VIP픽에 차감 안되는 할인쿠폰도 있어요^^ 오늘 SKT쿠폰 쓸만한 거 제법 줘서 좋네요^^" / 댓글: "오 혜택 좋은데요?ㅎㅎ 바로 들어가봐야겠어요" "요즘 롯마가 열일 하네요"</div><div className="rsrc">2026.08.03 · <a href="https://m.cafe.naver.com/pusanmom/4263884" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">에펨코리아</span></div><div className="rtx">뒤늦게 안 T멤버십 VIP 영화혜택에 아쉬움 — 댓글: "vip 혜택 개좋은데 난 우주패스로 유튭프리미엄+세븐일레븐 30%할인" "청년요금제로 CGV 50%할인도 매달 사용"</div><div className="rsrc">2026.08.02 · <a href="https://www.fmkorea.com/10161822462" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">skt vip 하니까 이정도면 잘 써먹고 있는 듯 — "카페, 빵집 가서 할인 받고 t데이에 빵집이나 던킨 등등 할인 많이 받는데 잘 쓰는 듯 vip 혜택은 영화 무료로 다 쓰고 우주패스 할인 받는데 좋음 우주패스 추가 혜택으로 웨이브도 볼 수 있으니 개꿀ㅋㅋㅋㅋ" (오리지널티켓 갤)</span></div><div className="rsrc"><span className="upd">2026.07.28</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">skt vip 하니까 이정도면 잘 써먹고 있는 듯 — "카페, 빵집 가서 할인 받고 t데이에 빵집이나 던킨 등등 할인 많이 받는데 잘 쓰는 듯 vip 혜택은 영화 무료로 다 쓰고 우주패스 할인 받는데 좋음 우주패스 추가 혜택으로 웨이브도 볼 수 있으니 개꿀ㅋㅋㅋㅋ" (오리지널티켓 갤)</div><div className="rsrc">2026.07.28</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">VIP픽 골랐는데 우주패스 무료쿠폰 사라짐 — "우주패스도 이젠 공짜로 못쓰네요" / "받을거 없어요😤" / "9900원 받다가 4900원 받으려니 체감 넘 크다"</div><div className="rsrc">2026.08.01 · <a href="https://m.cafe.naver.com/wjdrkrjqn/187113" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">뽐뿌</span></div><div className="rtx">VIP픽 혜택 다 쓰고 표준 요금제로 이탈 — "네이버페이 5만원 받고 VIP픽 혜택도 사용해서 더이상 유지할 필요 없을것같은데 표준으로 내리셨나요?"</div><div className="rsrc">2026.08.01 · <a href="https://www.ppomppu.co.kr/zboard/view.php?id=phone&no=3930160" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
@@ -146,9 +148,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '24%' }}><span className="upd">긍정 24%</span></div>
-              <div className="rbs rn" style={{ width: '72%' }}>부정 72%</div>
-              <div className="rbs ru" style={{ width: '4%' }}><span className="upd">중립 4%</span></div>
+              <div className="rbs rp" style={{ width: '25%' }}><span className="upd">긍정 25%</span></div>
+              <div className="rbs rn" style={{ width: '66%' }}><span className="upd">부정 66%</span></div>
+              <div className="rbs ru" style={{ width: '9%' }}><span className="upd">중립 9%</span></div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -181,7 +183,13 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw2' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">원스토어 달달혜택없어짐? — "ㄱ- 페이백때쓸 쿠폰이 하나도없는데 이러면 망했다" (블루 아카이브 갤)</span></div><div className="rsrc"><span className="upd">2026.08.18</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx"><span className="upd">kt 달달혜택 점점 혜택이적어지는것같아요 — "쓰고싶은게없네유 ㅠ" / 댓글: "ㅇㅈ 혜택찾는것도 꽁꽁숨겨두고.." / "여름이라 혜택이 상했음... 앞전에는 선택지나 많았지 이제는 3개밖에 선택지 안주고..." (●디젤매니아●)</span></div><div className="rsrc"><span className="upd">2026.08.20 · <a href="https://cafe.naver.com/dieselmania/47386852" target="_blank" rel="noreferrer">원문 보기</a></span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx"><span className="upd">KT 달달혜택으로 빵4000원 할인받았어요 — "길건너 뚜레쥬르에 가니 만원이상 달달혜택 4000있어서 갓나온빵을 사왔어요" (야매의밥상)</span></div><div className="rsrc"><span className="upd">2026.08.20 · <a href="https://cafe.naver.com/yamaeyoriking/85761" target="_blank" rel="noreferrer">원문 보기</a></span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx"><span className="upd">KT달달혜택 밀리의서재 당근에 팔았어요 — "쇼핑라운지 3만이상 5천이고 뚜쥬는 빵을 잘 안먹고 해서 밀리의서재로 선택, 당근에 장당 4,800원에 팔았어요😁" / 댓글: "오 좋네요 ㅎ" / "이미 팔았지용 ㅎㅆ" (꿀통)</span></div><div className="rsrc"><span className="upd">2026.08.20 · <a href="https://cafe.naver.com/postmore/88604" target="_blank" rel="noreferrer">원문 보기</a></span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx"><span className="upd">kt 달달혜택 정말 많이 줄었군... — "쇼핑 라운지는 단일 상품 3만원 이상 써야 쓸 수 있다캄. 거기 물건도 없는데.. 밀리의 서재는 머냐.. 뚜레쥬르가 그나마 낫네.." / 댓글: "달달 혜택인데 혜택이 없군"</span></div><div className="rsrc"><span className="upd">2026.08.19 · <a href="https://bbs.ruliweb.com/community/board/300143/read/76360135" target="_blank" rel="noreferrer">원문 보기</a></span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">Kt 달달혜택으로 밀리의서재로 1권부터 보는데 왜 재밌노 (메이플스토리 갤)</span></div><div className="rsrc"><span className="upd">2026.08.19</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">kt멤버십 보상 달달혜택 밀리1개월 공짜네 당근ㄱㄱ — "당근에 ㅈㄴ 많더라 싸게 1장 나도샀어" (알뜰폰 갤)</span></div><div className="rsrc"><span className="upd">2026.08.19</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">원스토어 달달혜택없어짐? — "ㄱ- 페이백때쓸 쿠폰이 하나도없는데 이러면 망했다" (블루 아카이브 갤)</div><div className="rsrc">2026.08.18</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">루리웹</span></div><div className="rtx">KT 케멤페 2차 달달혜택 (8/18~31) — "달달????? 약했니?" / "어느새부터 달달은 안달아" / "쇼핑라운지 3만원 이상 살것도 별로 없더만" / "설마 이게 다인가..?"</div><div className="rsrc">2026.08.18</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">달달혜택 이대로 쓰레기만 퍼주는건가 — "쇼핑라운지 쌀먹 개꿀이었는데 3만이상으로 조건변경 뚜레쥬르는 만원이상이라 그나마 낫긴한데.... 뭐 누를만한게 없네"</div><div className="rsrc">2026.08.18</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">달달혜택 확인 했다가 허탈 — "kt 달달혜택 확인해보는데 달달은 무슨 쓰다써 ㅋㅋㅋ" / "왜 달달혜택 글에 반응이 없나 했더니 쓰디 쓴 혜택이라 없었군요" (핫딜맘 놀이터)</div><div className="rsrc">2026.08.18 · <a href="https://cafe.naver.com/hotdealplayground/528044" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -214,7 +222,7 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '100%' }}><span className="upd">긍정 100%</span></div>
+              <div className="rbs rp" style={{ width: '100%' }}>긍정 100%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
