@@ -85,9 +85,11 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>달달혜택 2차 (8.18~8.31)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>달달혜택 2차 (8.18~8.31, 3종 택1)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>달달 2차 진행 중 — 내용 업데이트 예정</li>
+                <li>뚜레쥬르 4천원할인</li>
+                <li>쇼핑라운지 5천원할인</li>
+                <li>밀리의서재 1개월 무료구독</li>
               </ul>
             </div>
             <div className="mblk">
@@ -122,7 +124,7 @@ export default function MonthlyBenefits() {
             <div className="mpnt-lbl">이달 포인트</div>
             <div className="mpnt-concept">KT멤버십 페스타 · 달달+시즌+문화+글로벌</div>
             <ul className="mpnt-list">
-              <li>달달2차(8.18~31) · 내용 업데이트 예정</li>
+              <li>달달2차 · 뚜레쥬르·쇼핑라운지·밀리의서재</li>
               <li>시즌혜택 5종 · 캐리비안베이·아고다 등</li>
               <li>문화혜택 4종 · 헬스키친·유미세포들 등</li>
               <li>글로벌혜택 3종 · 공항라운지·Grab 등(로밍)</li>

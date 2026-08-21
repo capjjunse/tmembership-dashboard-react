@@ -116,7 +116,7 @@ export default function Overview() {
             <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달혜택 2차 진행중 (8.18~8.31, 내용 업데이트 예정)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달혜택 2차 진행중 (8.18~8.31, 3종 택1)</div>
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>시즌혜택 5종 진행중 (8.3~8.31)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
