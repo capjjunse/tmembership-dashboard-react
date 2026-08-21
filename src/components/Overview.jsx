@@ -46,7 +46,7 @@ function IssueRadarCard() {
     const items = notableS
       .map(s => `${s.brand} — ${s.headline[0].length > 40 ? s.headline[0].slice(0, 40) + '…' : s.headline[0]}`)
       .slice(0, 3);
-    const title = `${notableS.slice(0, 2).map(s => s.brand).join(' · ')} 모니터링 중`;
+    const title = `${notableS.slice(0, 3).map(s => s.brand).join(' · ')} 모니터링 중`;
 
     return (
       <a href="#ai-radar" className="ovki ovki-radar">
@@ -62,7 +62,7 @@ function IssueRadarCard() {
 
   // 이슈 레이더에 주목할 항목 없음 — 신규 제휴 추천 상위 항목으로 대체
   const topRecs = recs.slice(0, 3);
-  const title = topRecs.length > 0 ? `${topRecs.slice(0, 2).map(r => r.brand).join(' · ')} 신규 추천` : '현재 주목 이슈 없음';
+  const title = topRecs.length > 0 ? `${topRecs.slice(0, 3).map(r => r.brand).join(' · ')} 신규 추천` : '현재 주목 이슈 없음';
 
   return (
     <a href="#ai-recommend" className="ovki ovki-radar">

@@ -54,7 +54,7 @@ a{color:var(--p);text-decoration:none}a:hover{text-decoration:underline}
 .ovg2-card.cs{border-top-color:var(--skt)}
 .ovg2-card.ck{border-top-color:var(--kt)}
 .ovg2-card.cl{border-top-color:var(--lgu)}
-.ovg2-item{font-size:11px;color:var(--tx2);line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ovg2-item{font-size:11px;color:var(--tx2);line-height:1.6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .tg{font-style:normal;font-size:9px;font-weight:700;padding:1px 5px;border-radius:3px;white-space:nowrap;flex-shrink:0;letter-spacing:.02em}
 .tg-new{background:#dbeafe;color:#1d4ed8}
 .tg-chg{background:var(--warn-bg);color:#b45309}
