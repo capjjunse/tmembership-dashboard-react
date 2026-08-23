@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.08.20';
+const RADAR_SCANNED = '2026.08.24';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -279,14 +279,15 @@ export const recs = [
     rank: 1,
     brand: '설빙',
     tag: '매장 606개 · DataLab →1.01',
-    reason: '아이스디저트 카테고리 1위 · 전국 606개. Tday 5개월 공백 지속. 7.20 위생 논란 공식 사과 완료 — 전 매장 특별점검 후 진정세, 브랜드 회복 추이 모니터링 중.',
+    reason: '아이스디저트 카테고리 1위 · 전국 606개. 태국(8.4)·미국(5개) 해외 확장 가속. Tday 5개월 공백 지속. 위생 논란 진정 후 브랜드 회복 국면.',
     reach: [
       { label: '매장 규모', text: '전국 606개 · 아이스디저트 카테고리 1위' },
       { label: '검색 버즈', text: 'DataLab →1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건 — 여름 시즌·해외 확장 버즈' },
-      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 5개월 · 위생 논란 공식 사과 완료(7.20) · 브랜드 회복 추이 모니터링 중' },
+      { label: '제휴 포인트', text: '태국(8.4)·미국 5개 해외 확장 · Tday 공백 5개월 · 위생 논란 진정 — 재계약 타이밍 검토' },
     ],
     trend: 'DataLab 1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건',
     hot: true,
+    updated: true,
     skt: [
       { prog: 'Tday', active: false, last: '2026.03', gap: '5개월 공백' },
     ],
@@ -321,7 +322,6 @@ export const recs = [
     ],
     trend: 'DataLab 0.91 · 블로그 4만 · 뉴스 74건',
     hot: false,
-    updated: true,
     skt: [],
     kt:  null,
     lgu: null,
@@ -596,7 +596,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer">2026.08.19 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer">2026.08.24 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

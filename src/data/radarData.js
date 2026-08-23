@@ -7,23 +7,23 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
     ],
-    strength: 'mid',
+    strength: 'strong',
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 30,
+    news7d: 50,
     negScore: 970,
     headline: [
-      '8.5 경찰 본사 압수수색 · 전 대표 포함',
-      '탱크데이 고의성 확인 · 9.5시간 수색',
+      '2Q 영업손실 184억 · 27년 만에 첫 분기 적자',
+      '탱크데이 수사 계속 · 본사 압수수색',
       '서머 프리퀀시 취소 · 신뢰회복 우선',
     ],
-    impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT 미운영 · 경찰 압수수색으로 탱크데이 책임 수사 재점화',
+    impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT 미운영 · 2Q 영업손실 184억(27년 만에 첫 분기 적자) — 탱크데이 수사 지속',
     links: [
       { label: '스타벅스 본사 첫 압수수색 (파이낸셜뉴스)', url: 'https://www.fnnews.com/news/202608051000492404' },
       { label: '전 대표 휴대폰 포함 압수수색 (MBC)', url: 'https://imnews.imbc.com/replay/2026/nwdesk/article/6842679_37004.html' },
@@ -32,7 +32,7 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
@@ -80,7 +80,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -92,11 +92,11 @@ export const trendSignals = [
     news7d: 15,
     negScore: 850,
     headline: [
-      '채권신고 8.5~9.1 진행 · 영진위 지원',
-      '위탁관 공동성명 · 본사 위기극복',
+      '직영 좌석 3400석 · 스크린 8개 ↓',
+      '채권신고 8.5~9.1 진행 중',
       '청년문화예술패스 동참 · 19~20세',
     ],
-    impact: 'SKT·KT 상시 운영 중 · 채권 신고기간(8.5~9.1) 진행 중 · 배급대금 미지급 150억 — 회생계획안 12.1까지 제출',
+    impact: 'SKT·KT 상시 운영 중 · 채권 신고기간(8.5~9.1) 진행 중 · 직영 좌석 3400석·스크린 8개 감소 — 회생계획안 12.1까지 제출',
     links: [
       { label: '채권신고 지원 영진위 안내 (씨네플레이)', url: 'https://www.cineplay.co.kr/ko-kr/articles/28939' },
       { label: '문체부 영화계 지원 논의 (이데일리)', url: 'https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05628486645513208' },
