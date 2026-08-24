@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -16,7 +16,7 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 50,
+    news7d: 30,
     negScore: 970,
     headline: [
       '2Q 영업손실 184억 · 27년 만에 첫 분기 적자',
@@ -32,23 +32,22 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 20,
+    news7d: 25,
     negScore: 180,
     headline: [
-      '여름 신메뉴 1200만잔 돌파 · 흥행',
+      '결제액 스타벅스 94.9% · 격차 5.1%p',
       '괴담 마케팅 · SNS 490만회 조회',
       '이용률 71.0% · 스타벅스 추월 달성',
     ],
-    impact: '3사 미운영 · 여름 신메뉴 1200만잔 돌파 · 괴담 마케팅 성공 — 브랜드 흥행세 확대',
+    impact: '3사 미운영 · 결제액 스타벅스 94.9% 추격 · 이용률 1위 달성 — 브랜드 흥행세 확대',
     links: [
-      { label: '여름 신메뉴 2주 만에 100만개 판매 (문화투데이)', url: 'https://www.munhwatoday.co.kr/news/article.html?no=173530' },
-      { label: '여름 메뉴 1200만잔 돌파 (푸드투데이)', url: 'https://www.foodtoday.or.kr/news/article.html?no=206252' },
+      { label: '결제액 스타벅스 94.9%·이용률 추월 (머니투데이)', url: 'https://www.mt.co.kr/living/2026/08/22/2026082011025549638' },
     ],
   },
   {
@@ -80,7 +79,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
