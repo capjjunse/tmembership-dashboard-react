@@ -107,7 +107,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>청소연구소 에어컨 할인 폐지 예정 (9.1)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 49%·부정 41%·중립 10%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 49%·부정 41%·중립 10%</div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
@@ -140,8 +140,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>파고다토쿨 혜택 변경 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">부정 67%·긍정 33% (수집 3건)</span></div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">유플투쁠 "팝콘 지나버렸노"·"도미노 50% 등급 미달" 불만</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>부정 67%·긍정 33% (수집 3건)</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 "팝콘 지나버렸노"·"도미노 50% 등급 미달" 불만</div>
           </a>
         </div>
 
