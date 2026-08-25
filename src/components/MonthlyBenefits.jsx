@@ -66,7 +66,6 @@ export default function MonthlyBenefits() {
             <div className="mpnt-concept">시원한 여름 · 全일정 공개 완료</div>
             <ul className="mpnt-list">
               <li>Day4 · 쉐이크쉑(VIP40%)·던킨·폴바셋·톤28</li>
-              <li>Week·Day2·3 종료 · <span className="upd">Day4 진행중</span></li>
             </ul>
           </div>
         </div>
