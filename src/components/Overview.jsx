@@ -107,7 +107,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>청소연구소 에어컨 할인 폐지 예정 (9.1)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 49%·부정 41%·중립 10%</div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 48%·부정 42%·중립 10%</span></div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
