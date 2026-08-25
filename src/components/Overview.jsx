@@ -100,14 +100,14 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>T우주패스 4,900원+5,000원 분리 (8.1~)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>T day Day4 오픈 (8.26, 쉐이크쉑·던킨·폴바셋·톤28)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>T day <span className="upd">Day4 진행중 (8.26~, 쉐이크쉑·던킨·폴바셋·톤28)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 횟수·한도 조정 예정 (9.1~)</div>
             <div className="ovg2-item"><em className="tg tg-end">종료</em>청소연구소 에어컨 할인 폐지 예정 (9.1)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 46%·부정 43%·중립 11%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 48%·부정 42%·중립 10%</div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
@@ -133,16 +133,15 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>유플투쁠 2차 진행중 (8.17~8.21, 27종)</div>
-            <div className="ovg2-item"><em className="tg tg-new">오픈</em>유플투쁠 3차 오픈 (8.21~8.27, 14종)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>유플투쁠 3차 진행중 (8.21~8.27, 14종)</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>9월 신규 2개 예정 (9.1~, 고메브릿지·우파루)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>파고다토쿨 혜택 변경 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 100% (수집 1건)</div>
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>유플투쁠 "장기고객데이 다이소+윌라" 만족</div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>부정 67%·긍정 33% (수집 3건)</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 "팝콘 지나버렸노"·"도미노 50% 등급 미달" 불만</div>
           </a>
         </div>
 

@@ -34,14 +34,14 @@ export default function History() {
             <td>2026.09.01</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
-            <td><span className="upd">아웃백 할인 횟수/한도 조정 — 일 1회→월 4회, V/G 한도 30,000원→20,000원 (9.1~)</span></td>
+            <td>아웃백 할인 횟수/한도 조정 — 일 1회→월 4회, V/G 한도 30,000원→20,000원 (9.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
             <td>2026.09.01</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
-            <td><span className="upd">청소연구소 에어컨 청소 7% 할인 서비스 폐지 (9.1)</span></td>
+            <td>청소연구소 에어컨 청소 7% 할인 서비스 폐지 (9.1)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
@@ -302,13 +302,6 @@ export default function History() {
             <td>T 멤버십 상시</td>
             <td>무탄 제휴 종료 (5.31)</td>
             <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.05.20</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+ 멤버십 상시</td>
-            <td>우리동네 멤버십 제휴 일시 중단 지점 안내</td>
-            <td><span className="tb t변경">변경</span></td>
           </tr>
         </tbody>
       </table></div>

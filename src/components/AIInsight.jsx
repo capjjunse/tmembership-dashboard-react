@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.08.20';
+const RADAR_SCANNED = '2026.08.26';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -128,14 +128,6 @@ const compGroups = [
 // 올리브영·무신사·현대카드는 특화 버티컬 → #8 비통신 현황 섹션에서만 다룸
 const alCats = [
   // ── T멤버십 우위 ──
-  {
-    icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
-    nb: null,
-    tm: [{ platform: 'T멤버십', items: [
-      { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
-    ]}],
-    reasons: ['T멤버십: SK렌터카 상시 제주 최대 85%·내륙 최대 60% 할인 운영', '네이버플러스: 쏘카 혜택 6.30 종료 · 8월 카셰어링 제휴 없음'],
-  },
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
     nb: null,
@@ -270,6 +262,16 @@ const alCats = [
     ]}],
     reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 V 7%(짝수월)/3% · T day 롯데마트제타50%·이마트에브리데이20%'],
   },
+  {
+    icon: '🚗', cat: '카셰어링·렌터카', v: 'neut',
+    nb: [{ platform: '네이버플러스', items: [
+      { partner: '쏘카', deadline: '상시', rows: [{ grade: null, desc: '시간대 요금 50% 할인' }] },
+    ]}],
+    tm: [{ platform: 'T멤버십', items: [
+      { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
+    ]}],
+    reasons: ['T멤버십: SK렌터카 상시 제주 최대 85%·내륙 최대 60% 할인 운영', '네이버플러스: 쏘카 50% 할인 상시 운영 (카셰어링)'],
+  },
 ];
 
 const alVdLabel = { warn: 'T멤버십 열위', good: 'T멤버십 우위', neut: '유사 수준' };
@@ -279,11 +281,11 @@ export const recs = [
     rank: 1,
     brand: '설빙',
     tag: '매장 606개 · DataLab →1.01',
-    reason: '아이스디저트 카테고리 1위 · 전국 606개. Tday 5개월 공백 지속. 7.20 위생 논란 공식 사과 완료 — 전 매장 특별점검 후 진정세, 브랜드 회복 추이 모니터링 중.',
+    reason: '아이스디저트 카테고리 1위 · 전국 606개. 태국(8.4)·미국(5개) 해외 확장 가속. Tday 5개월 공백 지속. 위생 논란 진정 후 브랜드 회복 국면.',
     reach: [
       { label: '매장 규모', text: '전국 606개 · 아이스디저트 카테고리 1위' },
       { label: '검색 버즈', text: 'DataLab →1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건 — 여름 시즌·해외 확장 버즈' },
-      { label: '제휴 포인트', text: '2026.03 이후 Tday 공백 5개월 · 위생 논란 공식 사과 완료(7.20) · 브랜드 회복 추이 모니터링 중' },
+      { label: '제휴 포인트', text: '태국(8.4)·미국 5개 해외 확장 · Tday 공백 5개월 · 위생 논란 진정 — 재계약 타이밍 검토' },
     ],
     trend: 'DataLab 1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건',
     hot: true,
@@ -321,7 +323,6 @@ export const recs = [
     ],
     trend: 'DataLab 0.91 · 블로그 4만 · 뉴스 74건',
     hot: false,
-    updated: true,
     skt: [],
     kt:  null,
     lgu: null,
@@ -458,7 +459,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)~Day4(8.26) 기준 · 총8건 · <span className="upd">KT달달2차: 뚜레쥬르·쇼핑라운지·밀리의서재 3종 택1, 매트릭스 겹침 없음</span>)</div>
+          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)~Day4(8.26) 기준 · 총8건 · KT달달2차: 뚜레쥬르·쇼핑라운지·밀리의서재 3종 택1, 매트릭스 겹침 없음)</div>
         </div>
       </div>
 
@@ -473,7 +474,7 @@ export default function AIInsight() {
             <div key={c.cat} className={`alc alc-${c.v}`}>
               <div className="alc-hdr">
                 <span className="alc-icon">{c.icon}</span>
-                <span className="alc-cat">{c.cat}</span>
+                <span className="alc-cat">{c.updated ? <span className="upd">{c.cat}</span> : c.cat}</span>
               </div>
               <div className="alc-body">
                 <div className={`alc-col${c.v === 'warn' ? ' alc-col-hi-nb' : ''}`}>
@@ -596,7 +597,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer">2026.08.19 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.08.26</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
