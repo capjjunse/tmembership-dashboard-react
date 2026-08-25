@@ -52,7 +52,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (8.26)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 4 (8.26)</span></div>
               <ul className="mblist">
                 <li>쉐이크쉑 20%할인(VIP40%,최대8천원)</li>
                 <li>던킨 음료+자이언트버킷 50%할인/적립(최대6천원)</li>
@@ -66,7 +66,7 @@ export default function MonthlyBenefits() {
             <div className="mpnt-concept">시원한 여름 · 全일정 공개 완료</div>
             <ul className="mpnt-list">
               <li>Day4 · 쉐이크쉑(VIP40%)·던킨·폴바셋·톤28</li>
-              <li>Week·Day2·3 종료 · <span className="upd">Day4 D-1</span></li>
+              <li>Week·Day2·3 종료 · <span className="upd">Day4 진행중</span></li>
             </ul>
           </div>
         </div>
