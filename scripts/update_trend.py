@@ -48,10 +48,10 @@ def fetch_datalab():
                 "T멤버십", "tmembership",
                 # T day
                 "T데이", "T day", "티데이", "tday",
-                # 0 시리즈
-                "0week", "0day", "0데이", "0청년",
+                # Young week
+                "Young week", "young week", "영위크", "영 위크",
                 # 클럽T
-                "클럽T", "클럽t로밍", "clubt",
+                "클럽T", "클럽t로밍",
                 # VIP
                 "VIP pick", "vippick", "vip픽", "브이아이피픽",
                 # 해피아워
@@ -68,7 +68,7 @@ def fetch_datalab():
                 # 달달 시리즈
                 "달달혜택", "KT 달달혜택", "달달초이스", "달달찬스", "달달스폐셜",
                 # VIP/등급
-                "VIP 초이스", "vip초이스",
+                "VIP 초이스", "vip초이스", "VVIP 초이스", "vvip초이스",
                 # Y혜택
                 "y혜택"
             ]

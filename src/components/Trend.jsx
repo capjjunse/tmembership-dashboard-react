@@ -107,15 +107,16 @@ export default function Trend() {
       <div style={{ marginTop: '12px' }}>
         <div style={{ fontSize: '11px', color: 'var(--tx2)', fontWeight: 700, marginBottom: '6px' }}>수집 키워드</div>
         <div className="kwchips">
-          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>T멤버십</span>
-          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>T데이</span>
-          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>0day</span>
+          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>T 멤버십</span>
+          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>T day</span>
+          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>Young week</span>
           <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>클럽T</span>
-          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>VIP pick</span>
+          <span className="kchip" style={{ background: 'var(--skt-bg)', color: 'var(--skt-t)' }}>VIP PICK</span>
           <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>KT멤버십</span>
           <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>달달혜택</span>
           <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>달달초이스</span>
-          <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>y혜택</span>
+          <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>VIP 초이스</span>
+          <span className="kchip" style={{ background: 'var(--kt-bg)', color: 'var(--kt-t)' }}>VVIP 초이스</span>
           <span className="kchip" style={{ background: 'var(--lgu-bg)', color: 'var(--lgu-t)' }}>U+멤버십</span>
           <span className="kchip" style={{ background: 'var(--lgu-bg)', color: 'var(--lgu-t)' }}>유플투쁠</span>
           <span className="kchip" style={{ background: 'var(--lgu-bg)', color: 'var(--lgu-t)' }}>VIP콕</span>
