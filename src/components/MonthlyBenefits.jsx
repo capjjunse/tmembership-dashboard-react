@@ -81,6 +81,10 @@ export default function MonthlyBenefits() {
             <div className="mpnt-lbl">이달 포인트</div>
             <div className="mpnt-concept">시원한 여름 · 全일정 공개 완료</div>
             <ul className="mpnt-list">
+              <li>Week · 요기요·파스쿠찌·캐리비안베이 등 15종</li>
+              <li>Young week · 던킨·다운타우너·CU 등 11종</li>
+              <li>Day2 · 백억커피·아떼·슈피겐</li>
+              <li>Day3 · 투썸·이마트에브리데이·이니스프리</li>
               <li>Day4 · 쉐이크쉑(VIP40%)·던킨·폴바셋·톤28</li>
             </ul>
           </div>
