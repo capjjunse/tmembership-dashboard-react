@@ -34,7 +34,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Young week (8.3~8.9)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Young week (8.3~8.9)</span></div>
               <ul className="mblist">
                 <li>초심스터디카페 2시간 무료(4천원 상당)</li>
                 <li>롱블랙 오늘의노트 무제한 2개월 무료(정가1.98만원)</li>
@@ -68,7 +68,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 4 (8.26)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (8.26)</span></div>
               <ul className="mblist">
                 <li>쉐이크쉑 20%할인(VIP40%,최대8천원)</li>
                 <li>던킨 음료+자이언트버킷 50%할인/적립(최대6천원)</li>

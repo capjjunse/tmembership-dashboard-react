@@ -55,7 +55,7 @@ export default function History() {
             <td>2026.08.07</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
-            <td>9월 신규 제휴 2개 — 고메브릿지(결제금액 기준 15% 할인, 월 1회) · 우파루 오딧세이(재화 쿠폰 1만원 상당, 월 1회) (9.1~)</td>
+            <td>9월 신규 제휴 <span className="upd">6</span>개 — 고메브릿지·우파루 오딧세이·<span className="upd">달콤커피·달콤.N</span> 등 (9.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
@@ -295,13 +295,6 @@ export default function History() {
             <td>U+ 멤버십 상시</td>
             <td>6월 신규 4개 — 모던하우스(상품 20% 이상), 유니스터디(단과 50%), 위피(젤리 15개), B1불스원카케어(세차 10%+엔진오일 2만원↓) (6.1~)</td>
             <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.05.31</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>무탄 제휴 종료 (5.31)</td>
-            <td><span className="tb t종료">종료</span></td>
           </tr>
         </tbody>
       </table></div>

@@ -107,7 +107,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>청소연구소 에어컨 할인 폐지 예정 (9.1)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 44%·부정 46%·중립 10%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 44%·부정 46%·중립 10%</div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
@@ -136,11 +136,11 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>유플투쁠 3차 진행중 (8.21~8.27, 14종)</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-new">신규</em>9월 신규 2개 예정 (9.1~, 고메브릿지·우파루)</div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em>9월 신규 <span className="upd">6</span>개 예정 (9.1~, <span className="upd">달콤커피·달콤.N</span> 포함)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>파고다토쿨 혜택 변경 (8.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 100%</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 100%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 "팝콘 지나버렸노"·"도미노 50% 등급 미달" 불만</div>
           </a>
         </div>
@@ -150,12 +150,12 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-neg">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title">CGV 우위 · 캐리비안베이·백억커피·투썸 열위</div>
+              <div className="ovki-title">CGV·<span className="upd">NOL티켓</span> 우위 · 캐리비안베이·백억커피 열위</div>
               <ul className="ovki-list">
                 <li>캐리비안베이: KT 동반1인 포함 50% vs SKT 종일권+자켓 — KT 우위</li>
                 <li>CGV: SKT 8,500원+쿠폰2종 vs LGU+ 콘세션무료 — SKT 우위</li>
                 <li>백억커피: LGU+ 아메리카노+팝콘 무료 vs SKT 아메리카노 100원 — LGU+ 우위</li>
-                <li>투썸: SKT VIP 40% vs LGU+ 케이크+아메리카노 무료 — 구성 상이</li>
+                <li><span className="upd">NOL티켓: SKT 2종(드라큘라20%·원화전40%) vs LGU+ 1종(35%) — SKT 우위</span></li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>
