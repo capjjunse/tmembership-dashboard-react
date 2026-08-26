@@ -7,16 +7,16 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
     ],
-    strength: 'strong',
+    strength: 'mid',
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 30,
+    news7d: 20,
     negScore: 970,
     headline: [
       '2Q 영업손실 184억 · 27년 만에 첫 분기 적자',
@@ -63,7 +63,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 3,
+    news7d: 2,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
@@ -103,30 +103,6 @@ export const trendSignals = [
     ],
   },
   {
-    brand: '설빙',
-    membership: 'partner',
-    updated: false,
-    telcos: [
-      { id: 'lgu', label: 'LGU+', prog: '유플투쁠 3차', benefit: '[선착순] 빙수메뉴 최대 35% 할인 (~8.27)' },
-    ],
-    strength: 'low',
-    sources: ['뉴스'],
-    direction: 'pos',
-    dlSpike: null,
-    news7d: 8,
-    negScore: 300,
-    headline: [
-      '태국 방콕 1호점 개점(8.4) · 해외 가속',
-      '미국 매장 5개 확대 · 플로리다·시카고 진출',
-      '위생 논란 진정 · 브랜드 회복 국면',
-    ],
-    impact: 'LGU+ 유플투쁠 3차(8.21~8.27) 운영 중 · SKT·KT 미운영 · 위생 논란(7.20 공식 사과) 진정 후 해외 사업 확장 국면',
-    links: [
-      { label: '미국 매장 5개 확대·태국 1호점 (미주한국일보)', url: 'http://www.koreatimes.com/article/20260727/1623146' },
-      { label: '공식 사과·전 매장 특별점검 (뉴스핌)', url: 'https://www.newspim.com/news/view/20260720001064' },
-    ],
-  },
-  {
     brand: 'CGV',
     membership: 'partner',
     updated: false,
@@ -139,7 +115,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 25,
+    news7d: 20,
     negScore: 250,
     headline: [
       'CGV판교 8.19 영업종료 · 임대계약 종료',
