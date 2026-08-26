@@ -1,7 +1,7 @@
 // 자동 업데이트 S11에서 매 실행마다 갱신
 export const UPDATE_DATE = '2026.08.26';
 export const updateItems = [
-  { section: '#mo', label: '월간혜택', desc: 'SKT T day Day4 진행중 (8.26~) — 쉐이크쉑·던킨·폴바셋·톤28' },
-  { section: '#sn', label: '고객반응', desc: 'SKT 반응비율 긍정 48%·부정 42% 갱신 · 11번가 브랜드위크 두유 긍정·성풍 미해당 부정 반응 신규 수집' },
-  { section: '#ov', label: '핵심동향', desc: 'SKT T day Day4 오픈→진행중 (8.26 기준)' },
+  { section: '#sn', label: '고객반응', desc: 'SKT 긍정 44%·부정 46% 갱신 / KT 달달혜택 "왜 파바가 아니냐고" 부정 신규 / LGU+ 부정 100%' },
+  { section: '#ai-matrix', label: '경쟁 매트릭스', desc: '롱블랙·NOL티켓 (SKT↔LGU+)·밀리의서재 (KT↔LGU+) 신규 행 추가' },
+  { section: '#ov', label: '핵심동향', desc: 'SKT 긍정 44%·부정 46% / LGU+ 부정 100% 고객반응 비율 반영' },
 ];

@@ -80,6 +80,29 @@ const compGroups = [
         basis: { skt: 'VIP 40% 할인', lgu: '케이크 구매 시 아메리카노 무료', gap: 'SKT VIP만·범위제한' },
         note: { skt: '8.19', lgu: '8.18' },
       },
+      {
+        brand: '롱블랙',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '오늘의노트 무제한 2개월 무료 (정가 19,800원)' }], date: 'Young week · 8.3~8.9' },
+        lgu: { lines: [{ grade: '선착순', b: '2개월 무료 구독권 (무제한 노트 플랜)' }], date: '유플투쁠 3차 · 8.21' },
+        kt: null,
+        v: 'neut',
+        basis: { skt: '2개월 무료(무제한 노트)', lgu: '2개월 무료(무제한 노트)', gap: '동일 혜택·동급' },
+        note: { skt: '8.3~8.9', lgu: '8.21' },
+      },
+      {
+        brand: 'NOL티켓',
+        updated: true,
+        skt: { lines: [
+          { grade: '전 등급', b: '뮤지컬 드라큘라 20% 할인 (S석)' },
+          { grade: '전 등급', b: '조은원화전 40% 할인' },
+        ], date: 'Young week · 8.3~8.9' },
+        lgu: { lines: [{ grade: '선착순', b: '성률기획전 최대 35% 할인' }], date: '유플투쁠 2차 · 8.17' },
+        kt: null,
+        v: 'good',
+        basis: { skt: '공연 2종 20%·40% 할인', lgu: '공연 1종 최대 35% 할인', gap: 'SKT 2종·LGU+ 1종' },
+        note: { skt: '8.3~8.9', lgu: '8.17' },
+      },
     ],
   },
   {
@@ -113,6 +136,16 @@ const compGroups = [
         v: 'neut',
         basis: { kt: '60% 할인', lgu: '60% 할인(조건부)', gap: '동일 60%·조건 상이' },
         note: { kt: '8.3~8.31', lgu: '8.19' },
+      },
+      {
+        brand: '밀리의서재',
+        updated: true,
+        kt: { lines: [{ grade: '전 등급', b: '1개월 무료 구독' }], date: '달달혜택 2차 · 8.18~8.31' },
+        lgu: { lines: [{ grade: '선착순', b: '1개월 무료 이용권 (유쓰 한정)' }], date: '유플투쁠 2차 · 8.20' },
+        skt: null,
+        v: 'good',
+        basis: { kt: '전 등급 1개월 무료', lgu: '유쓰 한정 1개월 무료', gap: 'KT 전 등급 우위' },
+        note: { kt: '8.18~8.31', lgu: '8.20' },
       },
     ],
   },
@@ -433,7 +466,7 @@ export default function AIInsight() {
                     const label = g.id === 'kt-lgu' ? verdictLabelOther : verdictLabelSkt;
                     return g.rows.map((r) => (
                       <tr key={r.brand} className="comp-tr">
-                        <td className="comp-td comp-brand">{r.brand}</td>
+                        <td className="comp-td comp-brand">{r.updated ? <span className="upd">{r.brand}</span> : r.brand}</td>
                         <td className="comp-td comp-td-skt">{renderCarrier(r.skt, 'cb-skt')}</td>
                         <td className="comp-td comp-td-kt">{renderCarrier(r.kt, 'cb-kt')}</td>
                         <td className="comp-td comp-td-lgu">{renderCarrier(r.lgu, 'cb-lgu')}</td>
@@ -459,7 +492,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/T week · KT: 달달혜택 · LGU+: 투쁠데이·스페셜데이 기준 (2026년 8월 · Week(8.3~8.7)~Day4(8.26) 기준 · 총8건 · KT달달2차: 뚜레쥬르·쇼핑라운지·밀리의서재 3종 택1, 매트릭스 겹침 없음)</div>
+          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 8월 · Week(8.3~8.7)~Day4(8.26) 기준 · 총11건 · KT달달2차: 뚜레쥬르·쇼핑라운지 겹침 없음, 밀리의서재 kt-lgu 반영)</div>
         </div>
       </div>
 
