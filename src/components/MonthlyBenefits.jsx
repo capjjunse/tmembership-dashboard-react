@@ -34,6 +34,22 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Young week (8.3~8.9)</span></div>
+              <ul className="mblist">
+                <li>초심스터디카페 2시간 무료(4천원 상당)</li>
+                <li>롱블랙 오늘의노트 무제한 2개월 무료(정가1.98만원)</li>
+                <li>팀홀튼 블랙베리 유자퀀처 무료</li>
+                <li>던킨 전 품목 40%할인(최대6천원)</li>
+                <li>다운타우너 세트 4종 35%할인</li>
+                <li>CU 컵라면 50%할인(6종중 택1)</li>
+                <li>이마트24 아이스크림 50%할인(7종중 택1)</li>
+                <li>스몹컴퍼니 동반1인포함 45%할인(주말·공휴일가능)</li>
+                <li>럭키찬스:뮤지컬 헬스키친 무료관람권(50명)</li>
+                <li>NOL티켓 뮤지컬 드라큘라 20%할인(S석)</li>
+                <li>NOL티켓 조은원화전 40%할인</li>
+              </ul>
+            </div>
+            <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (8.12)</span></div>
               <ul className="mblist">
                 <li>백억커피 아메리카노100원(픽업오더,1회)</li>
