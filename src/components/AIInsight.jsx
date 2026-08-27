@@ -82,7 +82,6 @@ const compGroups = [
       },
       {
         brand: '롱블랙',
-        updated: true,
         skt: { lines: [{ grade: '전 등급', b: '오늘의노트 무제한 2개월 무료 (정가 19,800원)' }], date: 'Young week · 8.3~8.9' },
         lgu: { lines: [{ grade: '선착순', b: '2개월 무료 구독권 (무제한 노트 플랜)' }], date: '유플투쁠 3차 · 8.21' },
         kt: null,
@@ -92,7 +91,6 @@ const compGroups = [
       },
       {
         brand: 'NOL티켓',
-        updated: true,
         skt: { lines: [
           { grade: '전 등급', b: '뮤지컬 드라큘라 20% 할인 (S석)' },
           { grade: '전 등급', b: '조은원화전 40% 할인' },
@@ -139,7 +137,6 @@ const compGroups = [
       },
       {
         brand: '밀리의서재',
-        updated: true,
         kt: { lines: [{ grade: '전 등급', b: '1개월 무료 구독' }], date: '달달혜택 2차 · 8.18~8.31' },
         lgu: { lines: [{ grade: '선착순', b: '1개월 무료 이용권 (유쓰 한정)' }], date: '유플투쁠 2차 · 8.20' },
         skt: null,
