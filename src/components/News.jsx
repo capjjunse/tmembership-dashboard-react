@@ -33,21 +33,6 @@ export default function News() {
             <div className="nmeta">2026-08-02 · <a href="https://news.sktelecom.com/228778" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 8~9월 고객 혜택 확대 — 에어 요금제 첫 달 70% 포인트·영화 반값·멤버십 혜택</span></div>
-            <div className="nsum">에어 요금제 신규 가입 시 월정액 70% 수준의 포인트 혜택 제공(8월 1~31일). 만 34세 이하 고객 대상 CGV 영화 관람권 50% 할인을 월 1장에서 월 2장으로 확대. 8~9월 T멤버십 매주 Big 3 제휴사 50% 이상 할인, 여행 및 로밍 혜택 강화.</div>
-            <div className="nmeta">2026-07-30 · <a href="https://news.sktelecom.com/228562" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 휴가철 로밍·멤버십 혜택 꽉 채웠다</span></div>
-            <div className="nsum">여름 휴가철을 맞아 T 로밍 프로모션과 T 멤버십 혜택을 강화하여 운영. 해외여행 시 로밍 특가와 함께 국내 T멤버십 혜택(0 week, 제휴사 할인 등)을 동시에 제공.</div>
-            <div className="nmeta">2026-07-13 · <a href="https://news.sktelecom.com/227702" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">T 멤버십으로 즐기는 특별한 여름, 7월 혜택 총정리</span></div>
-            <div className="nsum">여름휴가 시즌 맞아 SUMMER LUCKY WEEK(7월 13~17일) 5성급 호텔 숙박권 응모 이벤트, Young Week 브랜드 개편, 신규 제휴사 3곳 합류, 서울랜드 본인 50%·동반 40% 할인. 토이콘 서울 2026 관람권 30% 할인.</div>
-            <div className="nmeta">2026-07-01 · <a href="https://news.sktelecom.com/227258" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">여름방학을 더 가볍고 알차게, 대학생을 위한 SKT 혜택 모아보기</span></div>
             <div className="nsum">T멤버십이 여름방학 대학생 고객 지원 콘텐츠 발행. 식음료·카페(T 우주 구독 할인), 해외여행(34세 이하 로밍 특가), 자기계발(Class101·어학 플랫폼), 문화(0 week 뮤지컬·전시 할인) 4가지 카테고리로 일상 지출 관리·학습 지원 혜택 강화.</div>
             <div className="nmeta">2026-06-17 · <a href="https://news.sktelecom.com/226659" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -61,6 +46,21 @@ export default function News() {
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">6월 T멤버십 — 프로야구 Lucky Week·시험 기간 혜택까지 풍성</span></div>
             <div className="nsum">T day 1주차(6.8~6.12) '프로야구 Lucky Week' 신설, 티빙 구독자 고척돔 직관 응모·요기요×호식이두마리치킨 VIP 8천원/Gold·Silver 6천원 할인, 루메나 무선선풍기 응모. 후지필름 6.15 신규 제휴(포토북 40%·사진인화 20%) 예고.</div>
             <div className="nmeta">2026-06-01 · <a href="https://news.sktelecom.com/225691" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 8~9월 고객 혜택 확대 — 에어 요금제 첫 달 70% 포인트·영화 반값·멤버십 혜택</span></div>
+            <div className="nsum">에어 요금제 신규 가입 시 월정액 70% 수준의 포인트 혜택 제공(8월 1~31일). 만 34세 이하 고객 대상 CGV 영화 관람권 50% 할인을 월 1장에서 월 2장으로 확대. 8~9월 T멤버십 매주 Big 3 제휴사 50% 이상 할인, 여행 및 로밍 혜택 강화.</div>
+            <div className="nmeta">2026-07-30 · <a href="https://news.sktelecom.com/228562" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 휴가철 로밍·멤버십 혜택 꽉 채웠다</span></div>
+            <div className="nsum">여름 휴가철을 맞아 T 로밍 프로모션과 T 멤버십 혜택을 강화하여 운영. 해외여행 시 로밍 특가와 함께 국내 T멤버십 혜택(0 week, 제휴사 할인 등)을 동시에 제공.</div>
+            <div className="nmeta">2026-07-13 · <a href="https://news.sktelecom.com/227702" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">T 멤버십으로 즐기는 특별한 여름, 7월 혜택 총정리</span></div>
+            <div className="nsum">여름휴가 시즌 맞아 SUMMER LUCKY WEEK(7월 13~17일) 5성급 호텔 숙박권 응모 이벤트, Young Week 브랜드 개편, 신규 제휴사 3곳 합류, 서울랜드 본인 50%·동반 40% 할인. 토이콘 서울 2026 관람권 30% 할인.</div>
+            <div className="nmeta">2026-07-01 · <a href="https://news.sktelecom.com/227258" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
         </div>
       )}
