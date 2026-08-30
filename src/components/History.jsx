@@ -55,7 +55,7 @@ export default function History() {
             <td>2026.08.07</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
-            <td>9월 신규 제휴 <span className="upd">6</span>개 — 고메브릿지·우파루 오딧세이·<span className="upd">달콤커피·달콤.N</span> 등 (9.1~)</td>
+            <td>9월 신규 제휴 6개 — 고메브릿지·우파루 (9.1~), 달콤커피·달콤.N 등 (9.7~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
@@ -99,6 +99,13 @@ export default function History() {
             <td>VIP PICK</td>
             <td>T우주패스 9,900원 쿠폰 → 4,900원+5,000원 2종 분리 (8.1 적용)</td>
             <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.07.31</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td><span className="upd">AICE 자격증 온라인과정 15% 할인 프로모션 기간 연장 (~12.31)</span></td>
+            <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td>2026.07.31</td>

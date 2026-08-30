@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -16,7 +16,7 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 20,
+    news7d: 15,
     negScore: 970,
     headline: [
       '2Q 영업손실 184억 · 27년 만에 첫 분기 적자',
@@ -38,7 +38,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 25,
+    news7d: 15,
     negScore: 180,
     headline: [
       '결제액 스타벅스 94.9% · 격차 5.1%p',
@@ -88,7 +88,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 15,
+    news7d: 10,
     negScore: 850,
     headline: [
       '직영 좌석 3400석 · 스크린 8개 ↓',
@@ -105,7 +105,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -115,12 +115,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 20,
+    news7d: 15,
     negScore: 250,
     headline: [
       'CGV판교 8.19 영업종료 · 임대계약 종료',
       '2Q 흑자전환 · 영업이익 115억',
-      '씨집에가면 8월 5편 · 콘텐츠 확장',
+      '씨집에가면 8편 · 컬처위크 8.26~29',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2분기 흑자전환(세전이익 90억) · 판교점 8.19 영업종료 — 임대계약 종료에 따른 점포 최적화',
     links: [
@@ -141,7 +141,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 25,
+    news7d: 20,
     negScore: 480,
     headline: [
       '빵·디저트류 127종 5% 인상 (8.25)',
