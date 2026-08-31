@@ -98,6 +98,11 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LG유플러스, 아태 통신사 연합 '원더조이 트래블' 합류 — 연내 글로벌 멤버십 출시</span></div>
+            <div className="nsum">일본 KDDI·싱가포르 싱텔·대만 타이완모바일·태국 AIS·홍콩 HKT 등이 참여하는 아시아·태평양 통신사 연합 '원더조이 트래블 얼라이언스'에 가입. 정식 출시 후 고객은 현지 이통사 멤버십 혜택(싱가포르 그랩 F&B·센토사리조트, 태국 그랩 F&B·타이 마사지, 홍콩 이지고 택시·왓슨스, 대만 타이청 베이커리·KKday, 필리핀 졸리비·클룩 등) 이용 가능. 우선 일본 돈키호테·로손에서 멤버십 할인 적용. 6~8월 일본 로밍패스 가입 고객 대상 시범 서비스 운영 결과 3개월간 쿠폰 다운로드 1만건 이상.</div>
+            <div className="nmeta">2026-08-30 · <a href="https://www.hankyung.com/article/2026083018991" target="_blank" rel="noreferrer">한국경제</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">LGU+, 장기고객 3000명 레고랜드 워터풀 파티 개최</span></div>
             <div className="nsum">LGU+가 8월 8~9일 강원도 춘천 레고랜드 코리아 리조트에서 장기고객 3,000명을 초청해 '레고랜드 워터풀 파티'를 개최. 멤버십 VVIP 등급 이상이면서 가입 기간 5년 이상인 고객과 가족이 참가했으며, 워터플레이 시설·공연·체험 프로그램 등을 즐김. 9월에도 뮤지컬 '디어 에반 핸슨' 전관 초청 이벤트 진행(1,100명)</div>
             <div className="nmeta">2026-08-10 · <a href="https://www.newspim.com/news/view/20260810000199" target="_blank" rel="noreferrer">뉴스핌</a></div>
