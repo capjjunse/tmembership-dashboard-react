@@ -100,15 +100,15 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>T우주패스 4,900원+5,000원 분리 (8.1~)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">T day Day1 오픈 (9.2, 공차VIP·노브랜드·설성목장)</span></div>
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">Young week 오픈 (9.7~9.11, 백억커피·할리스 등 11종)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>T day Day1 오픈 (9.2, 공차VIP·노브랜드·설성목장)</div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>Young week 오픈 (9.7~9.11, 백억커피·할리스 등 11종)</div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 횟수·한도 조정 예정 (9.1~)</div>
             <div className="ovg2-item"><em className="tg tg-end">종료</em>청소연구소 에어컨 할인 폐지 예정 (9.1)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 47%·부정 44%·중립 9%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 47%·부정 44%·중립 9%</div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
@@ -117,7 +117,7 @@ export default function Overview() {
             <div className="ovg2-item">특이 변동 없음</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><span className="upd">9월 달달혜택 미공개 — 15일경 공개 예정</span></div>
+            <div className="ovg2-item">9월 달달혜택 미공개 — 15일경 공개 예정</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>도미노피자 변경 예정 (9.1~)</div>
@@ -133,7 +133,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><span className="upd">9월 유플투쁠 미공개 — 라인업 공개 예정</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">유플투쁠 7차 전체 공개 (9.8~9.18, 30+브랜드)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">컬쳐데이 (9.14~9.18) · 유쓰·장기고객데이 (9.20·9.24)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>9월 신규 6개 예정 (9.1~, 달콤커피·달콤.N 포함)</div>
@@ -150,12 +151,10 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">CGV·NOL티켓 우위 · 캐리비안베이·백억커피 열위</span></div>
+              <div className="ovki-title"><span className="upd">KT·LGU+ 9월 미비교 — 비교 보류 중</span></div>
               <ul className="ovki-list">
-                <li>캐리비안베이: KT 동반1인 포함 50% vs SKT 종일권+자켓 — KT 우위</li>
-                <li>CGV: SKT 8,500원+쿠폰2종 vs LGU+ 콘세션무료 — SKT 우위</li>
-                <li>백억커피: LGU+ 아메리카노+팝콘 무료 vs SKT 아메리카노 100원 — LGU+ 우위</li>
-                <li>NOL티켓: SKT 2종(드라큘라20%·원화전40%) vs LGU+ 1종(35%) — SKT 우위</li>
+                <li><span className="upd">SKT T day Day1·Young week 공개 완료</span></li>
+                <li><span className="upd">KT 달달혜택 미공개 · LGU+ 매트릭스 미반영</span></li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>
