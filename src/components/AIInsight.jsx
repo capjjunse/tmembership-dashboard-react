@@ -27,130 +27,25 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [
-      {
-        brand: '캐리비안베이',
-        skt: { lines: [{ grade: '전 등급', b: '종일권 + 자켓 50% 할인 (~8.30)' }], date: 'T day · 8.3~8.7' },
-        kt: { lines: [{ grade: '전 등급', b: '본인 + 동반 1인 50% 할인' }], date: '시즌혜택 · 8.3~8.31' },
-        lgu: null,
-        v: 'warn',
-        basis: { skt: '종일권+자켓 50%', kt: '본인+동반1인 50%', gap: 'KT 동반1인 포함 우위' },
-        note: { skt: '8.3~8.7', kt: '8.3~8.31' },
-      },
-    ],
+    rows: [], // 2026.09 KT 달달혜택 미공개 (9월 15일경 공개 예정)
   },
   {
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
     desc: 'KT 미참여 · SKT Tday·Young week × LGU+ 투쁠데이',
-    rows: [
-      {
-        brand: '백미당',
-        skt: { lines: [{ grade: '전 등급', b: '아이스크림 1+1' }], date: 'T day · 8.3~8.7' },
-        lgu: { lines: [{ grade: '선착순', b: '아이스크림 40% 할인 + 미니 아이스크림 컵 증정' }], date: '유플투쁠 2차 · 8.19' },
-        kt: null,
-        v: 'neut',
-        basis: { skt: '1+1', lgu: '40% 할인+컵 증정', gap: '형태 상이·동급' },
-        note: { skt: '8.3~8.7', lgu: '8.19' },
-      },
-      {
-        brand: 'CGV',
-        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매 + 매점 쿠폰 2종' }], date: 'T day · 8.3~8.7 / 8.19' },
-        lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료' }], date: '유플투쁠 2차 · 8.19' },
-        kt: null,
-        v: 'good',
-        basis: { skt: '티켓할인+콘세션2종', lgu: '콘세션만 무료', gap: 'SKT 티켓할인 추가' },
-        note: { skt: '8.3~8.7 / 8.19', lgu: '8.19' },
-      },
-      {
-        brand: '백억커피',
-        skt: { lines: [{ grade: '전 등급', b: '아메리카노 100원 (픽업 오더, 1회)' }], date: 'T day · 8.12' },
-        lgu: { lines: [{ grade: '선착순', b: '아메리카노 1잔 + 팝콘 무료 증정' }], date: '유플투쁠 2차 · 8.19' },
-        kt: null,
-        v: 'warn',
-        basis: { skt: '아메리카노 100원', lgu: '아메리카노+팝콘 무료', gap: 'LGU+ 팝콘 추가 우위' },
-        note: { skt: '8.12', lgu: '8.19' },
-      },
-      {
-        brand: '투썸플레이스',
-        skt: { lines: [{ grade: 'VIP', b: '음료 또는 조각케이크 40% 할인' }], date: 'T day · 8.19' },
-        lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: '유플투쁠 2차 · 8.18' },
-        kt: null,
-        v: 'warn',
-        basis: { skt: 'VIP 40% 할인', lgu: '케이크 구매 시 아메리카노 무료', gap: 'SKT VIP만·범위제한' },
-        note: { skt: '8.19', lgu: '8.18' },
-      },
-      {
-        brand: '롱블랙',
-        skt: { lines: [{ grade: '전 등급', b: '오늘의노트 무제한 2개월 무료 (정가 19,800원)' }], date: 'Young week · 8.3~8.9' },
-        lgu: { lines: [{ grade: '선착순', b: '2개월 무료 구독권 (무제한 노트 플랜)' }], date: '유플투쁠 3차 · 8.21' },
-        kt: null,
-        v: 'neut',
-        basis: { skt: '2개월 무료(무제한 노트)', lgu: '2개월 무료(무제한 노트)', gap: '동일 혜택·동급' },
-        note: { skt: '8.3~8.9', lgu: '8.21' },
-      },
-      {
-        brand: 'NOL티켓',
-        skt: { lines: [
-          { grade: '전 등급', b: '뮤지컬 드라큘라 20% 할인 (S석)' },
-          { grade: '전 등급', b: '조은원화전 40% 할인' },
-        ], date: 'Young week · 8.3~8.9' },
-        lgu: { lines: [{ grade: '선착순', b: '성률기획전 최대 35% 할인' }], date: '유플투쁠 2차 · 8.17' },
-        kt: null,
-        v: 'good',
-        basis: { skt: '공연 2종 20%·40% 할인', lgu: '공연 1종 최대 35% 할인', gap: 'SKT 2종·LGU+ 1종' },
-        note: { skt: '8.3~8.9', lgu: '8.17' },
-      },
-    ],
+    rows: [], // 2026.09 LGU+ 유플투쁠 9월 미공개
   },
   {
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT 달달혜택 × LGU+ 투쁠데이',
-    rows: [
-      {
-        brand: '배스킨라빈스',
-        kt: { lines: [{ grade: '전 등급', b: '레디팩 30% 할인' }], date: '달달혜택 1차 · 8.3~8.17' },
-        lgu: { lines: [{ grade: '선착순', b: '패밀리 최대 9천원 할인' }], date: '유플투쁠 1차 · 8.11' },
-        skt: null,
-        v: 'neut',
-        basis: { kt: '레디팩 30% 할인', lgu: '패밀리 최대9천원 할인', gap: '단위 상이·비교불가' },
-        note: { kt: '8.3~8.17', lgu: '8.11' },
-      },
-      {
-        brand: '공차',
-        kt: { lines: [{ grade: '전 등급', b: '음료 6종 50% 할인' }], date: '달달혜택 1차 · 8.3~8.17' },
-        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 구매 시, 최대 5천원)' }], date: '유플투쁠 1차 · 8.13' },
-        skt: null,
-        v: 'neut',
-        basis: { kt: '음료 6종 50% 할인', lgu: '최대 50% 할인(상한 5천원)', gap: 'LGU 5천원 상한' },
-        note: { kt: '8.3~8.17', lgu: '8.13' },
-      },
-      {
-        brand: '롯데렌터카 G car',
-        kt: { lines: [{ grade: '전 등급', b: 'G car 대여료 60% 할인' }], date: '시즌혜택 · 8.3~8.31' },
-        lgu: { lines: [{ grade: '선착순', b: 'G car 대여료 60% 할인 (1.5만원 구매 시)' }], date: '유플투쁠 2차 · 8.19' },
-        skt: null,
-        v: 'neut',
-        basis: { kt: '60% 할인', lgu: '60% 할인(조건부)', gap: '동일 60%·조건 상이' },
-        note: { kt: '8.3~8.31', lgu: '8.19' },
-      },
-      {
-        brand: '밀리의서재',
-        kt: { lines: [{ grade: '전 등급', b: '1개월 무료 구독' }], date: '달달혜택 2차 · 8.18~8.31' },
-        lgu: { lines: [{ grade: '선착순', b: '1개월 무료 이용권 (유쓰 한정)' }], date: '유플투쁠 2차 · 8.20' },
-        skt: null,
-        v: 'good',
-        basis: { kt: '전 등급 1개월 무료', lgu: '유쓰 한정 1개월 무료', gap: 'KT 전 등급 우위' },
-        note: { kt: '8.18~8.31', lgu: '8.20' },
-      },
-    ],
+    rows: [], // 2026.09 KT·LGU+ 모두 9월 미공개
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // 2026.08 3사 겹치는 브랜드 없음 (SKT·KT·LGU+ 각자 다른 브랜드 라인업)
+    rows: [], // 2026.09 KT·LGU+ 미공개로 비교 불가
   },
 ];
 
@@ -414,7 +309,7 @@ export default function AIInsight() {
     <div className="sec" id="ai">
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
-        <span className="ss">2026년 8월 기준</span>
+        <span className="ss">2026년 <span className="upd">9월</span> 기준</span>
         
       </div>
 
@@ -477,7 +372,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 8월 · Week(8.3~8.7)~Day4(8.26) 기준 · 총11건 · KT달달2차: 뚜레쥬르·쇼핑라운지 겹침 없음, 밀리의서재 kt-lgu 반영)</div>
+          <div className="comp-footer"><span className="upd">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11) 공개 · KT·LGU+ 미공개 — 15일경 공개 후 업데이트 예정)</span></div>
         </div>
       </div>
 
