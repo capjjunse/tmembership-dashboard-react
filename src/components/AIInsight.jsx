@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.08.31';
+const RADAR_SCANNED = '2026.09.01';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -63,7 +63,7 @@ const alCats = [
     reasons: ['T멤버십: 상시 15~30% (아웃백·VIPS·도미노·피자헛)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
-    icon: '🎡', cat: '테마파크', v: 'good', updated: true,
+    icon: '🎡', cat: '테마파크', v: 'good',
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
       { partner: '에버랜드', deadline: '상시', rows: [
@@ -86,7 +86,7 @@ const alCats = [
     reasons: ['네이버플러스: GS칼텍스 전국 L당 100원 Npay 적립 상시 운영', 'T멤버십: 주유 제휴 없음'],
   },
   {
-    icon: '🛵', cat: '배달', v: 'warn', updated: true,
+    icon: '🛵', cat: '배달', v: 'warn',
     nb: [
       { platform: '네이버플러스', items: [
         { partner: '요기요 (요기패스X)', deadline: '상시', rows: [
@@ -127,7 +127,7 @@ const alCats = [
   },
   // ── 유사 수준 ──
   {
-    icon: '🏪', cat: '편의점', v: 'neut', updated: true,
+    icon: '🏪', cat: '편의점', v: 'neut',
     nb: [{ platform: '네이버플러스', items: [
       { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
@@ -141,7 +141,7 @@ const alCats = [
     reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십 Young week: CU 빵·이마트24 각 50% (9.7~9.11)', 'T멤버십: GS25 화요일 신선식품 200원 상시 · CU·세븐 100원 상시'],
   },
   {
-    icon: '🎬', cat: '영화관', v: 'neut', updated: true,
+    icon: '🎬', cat: '영화관', v: 'neut',
     nb: [{ platform: '네이버플러스', items: [
       { partner: '롯데시네마', deadline: '월 4회 · ~26.12.31', rows: [{ grade: null, desc: '최대 5천원 + 콤보 3천원 할인' }] },
     ]}],
@@ -154,7 +154,7 @@ const alCats = [
     reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 4천원 상시 + VIP 무료연3회/1+1연9회'],
   },
   {
-    icon: '🏬', cat: '마트·신선', v: 'neut', updated: true,
+    icon: '🏬', cat: '마트·신선', v: 'neut',
     nb: [
       { platform: '네이버플러스', items: [
         { partner: '롯데마트', deadline: '상시', rows: [{ grade: null, desc: '신상 5% 할인 + 무료배송' }] },
@@ -193,17 +193,18 @@ export const recs = [
   {
     rank: 1,
     brand: '설빙',
+    updated: true,
     tag: '매장 606개 · DataLab →1.01',
-    reason: '아이스디저트 카테고리 1위 · 전국 606개. 태국(8.4)·미국(5개) 해외 확장 가속. Tday 5개월 공백 지속. 위생 논란 진정 후 브랜드 회복 국면.',
+    reason: '아이스디저트 카테고리 1위 · 전국 606개. 태국·미국 해외 확장 가속. Tday 6개월 공백. 7월 위생 재논란 — 브랜드 신뢰 모니터링 국면.',
     reach: [
       { label: '매장 규모', text: '전국 606개 · 아이스디저트 카테고리 1위' },
       { label: '검색 버즈', text: 'DataLab →1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건 — 여름 시즌·해외 확장 버즈' },
-      { label: '제휴 포인트', text: '태국(8.4)·미국 5개 해외 확장 · Tday 공백 5개월 · 위생 논란 진정 — 재계약 타이밍 검토' },
+      { label: '제휴 포인트', text: '태국·미국 해외 확장 지속 · Tday 공백 6개월 · 7월 위생 재논란 — 브랜드 신뢰 회복 모니터링' },
     ],
     trend: 'DataLab 1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건',
     hot: true,
     skt: [
-      { prog: 'Tday', active: false, last: '2026.03', gap: '5개월 공백' },
+      { prog: 'Tday', active: false, last: '2026.03', gap: '6개월 공백' },
     ],
     kt:  null,
     lgu: null,
@@ -510,7 +511,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.08.31</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.01</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
