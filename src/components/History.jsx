@@ -20,35 +20,35 @@ export default function History() {
             <td>2026.10.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td><span className="upd">신세계면세점 온라인 혜택 명칭 변경 — '제휴캐시'→'쇼핑지원금' ($100 사용시 1만원) (10.1~)</span></td>
+            <td>신세계면세점 온라인 혜택 명칭 변경 — '제휴캐시'→'쇼핑지원금' ($100 사용시 1만원) (10.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
             <td>2026.10.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td><span className="upd">롯데면세점 혜택 변경 — VVIP/VIP 등급 GOLD 등급 적용 (10.1~)</span></td>
+            <td>롯데면세점 혜택 변경 — VVIP/VIP 등급 GOLD 등급 적용 (10.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
             <td>2026.10.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td><span className="upd">매드포갈릭 할인 한도 조정 — VVIP/VIP 15% (최대 10만원), GOLD/SILVER/WHITE/일반 5% (최대 10만원) (10.1~)</span></td>
+            <td>매드포갈릭 할인 한도 조정 — VVIP/VIP 15% (최대 10만원), GOLD/SILVER/WHITE/일반 5% (최대 10만원) (10.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
             <td>2026.10.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td><span className="upd">라그릴리아 할인 한도 조정 — VVIP/VIP 10% (최대 2만원), GOLD/SILVER/WHITE/일반 5% (최대 2만원) (10.1~)</span></td>
+            <td>라그릴리아 할인 한도 조정 — VVIP/VIP 10% (최대 2만원), GOLD/SILVER/WHITE/일반 5% (최대 2만원) (10.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
             <td>2026.10.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td><span className="upd">차일디 제휴 종료 예정 (10.1)</span></td>
+            <td>차일디 제휴 종료 예정 (10.1)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>

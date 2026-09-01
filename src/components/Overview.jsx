@@ -97,7 +97,7 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#rg" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>T day Day1 오픈 (9.2, 공차VIP·노브랜드·설성목장)</div>
@@ -108,23 +108,23 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>청소연구소 에어컨 할인 폐지 예정 (9.1)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 45%·부정 46%·중립 9%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 45%·부정 46%·중립 9%</div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#vp" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item">9월 달달혜택 미공개 — 15일경 공개 예정</div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">달달혜택 공개 (9.1~9.30, 쇼핑라운지·롯데마트·배민×bhc·버거킹 4종)</span></div>
           </a>
           <a href="#hs" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>도미노피자 변경 예정 (9.1~)</div>
             <div className="ovg2-item"><em className="tg tg-new">신규</em>지니TV 신규 제휴 예정 (9.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달 롯데마트 5천원 "어느새 끝나더라고" 선착순 소진 아쉬움 (9.1)</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달 롯데마트 5천원 "어느새 끝나더라고" 선착순 소진 아쉬움 (9.1)</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>쇼핑라운지 3만원 조건·"쓸만한 게 없다" 불만 반복</div>
           </a>
 
@@ -133,8 +133,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">유플투쁠 7차 전체 공개 (9.8~9.18, 30+브랜드)</span></div>
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">컬쳐데이 (9.14~9.18) · 유쓰·장기고객데이 (9.20·9.24)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">유플투쁠 8차 전체 공개 (9.8~9.22, 40+브랜드)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>컬쳐데이 (9.14~9.18) · 유쓰·장기고객데이 (9.20·9.24)</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>9월 신규 6개 예정 (9.1~, 달콤커피·달콤.N 포함)</div>
@@ -142,7 +142,7 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 100%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">9월 유플투쁠 "혜택이 점점..." 실망 반응 (9.1)</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>9월 유플투쁠 "혜택이 점점..." 실망 반응 (9.1)</div>
           </a>
         </div>
 
@@ -151,10 +151,10 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">KT·LGU+ 9월 미비교 — 비교 보류 중</span></div>
+              <div className="ovki-title"><span className="upd">KT 미공개 · SKT↔LGU+ 5종 비교</span></div>
               <ul className="ovki-list">
-                <li><span className="upd">SKT T day Day1·Young week 공개 완료</span></li>
-                <li><span className="upd">KT 달달혜택 미공개 · LGU+ 매트릭스 미반영</span></li>
+                <li><span className="upd">T day·Young week × 투쁠 5종 비교 — 노브랜드 SKT 우위</span></li>
+                <li>KT 달달혜택 미공개 — SKT·KT 비교 보류</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>
