@@ -98,6 +98,12 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>초대 혜택 [응모] (~9.30)</span></div>
+              <ul className="mblist">
+                <li><span className="upd">NOL FESTIVAL K-POP STAGE(with M COUNTDOWN) 초대 — 100명(1인2매), 10.17 킨텍스, 응모 9.17~9.30, 발표 10.2</span></li>
+              </ul>
+            </div>
+            <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>글로벌 혜택 (로밍 고객 대상)</span></div>
               <ul className="mblist">
                 <li><span className="upd">공항 라운지 1만원 할인</span></li>
