@@ -96,8 +96,8 @@ export default function Overview() {
           <div className="ovg2-hdr">고객반응</div>
 
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
-          <a href="#vp" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>T우주패스 4,900원+5,000원 분리 (8.1~)</div>
+          <a href="#rg" className="ovg2-card cs">
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</span></div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>T day Day1 오픈 (9.2, 공차VIP·노브랜드·설성목장)</div>
@@ -108,13 +108,13 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>청소연구소 에어컨 할인 폐지 예정 (9.1)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 47%·부정 44%·중립 9%</div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 45%·부정 46%·중립 9%</span></div>
             <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#vp" className="ovg2-card ck">
-            <div className="ovg2-item">특이 변동 없음</div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item">9월 달달혜택 미공개 — 15일경 공개 예정</div>
@@ -124,7 +124,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>지니TV 신규 제휴 예정 (9.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달 2차(8.18~31) "달달????? 약했니?" 부정 쏟아짐</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달 롯데마트 5천원 "어느새 끝나더라고" 선착순 소진 아쉬움 (9.1)</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>쇼핑라운지 3만원 조건·"쓸만한 게 없다" 불만 반복</div>
           </a>
 
@@ -142,7 +142,7 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 100%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 "팝콘 지나버렸노"·"도미노 50% 등급 미달" 불만</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">9월 유플투쁠 "혜택이 점점..." 실망 반응 (9.1)</span></div>
           </a>
         </div>
 

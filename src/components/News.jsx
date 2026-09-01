@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">추석 연휴 맞아 글로벌 여행·가족 이벤트·T day로 풍성한 9월 T 멤버십 혜택</span></span></div>
+            <div className="nsum"><span className="upd">9월 T 멤버십은 추석 연휴를 맞아 글로벌 여행(일본 후쿠오카·도쿄·오사카 로밍 할인·스카이트리 70% 할인·JR하루카 50% 할인), 가족 이벤트(숨고 추석 기획전 15,000원 쿠폰·서울랜드 최대 71% 할인), T day·Young Week·해피아워(VIP 대상 백미당 50% 할인) 등을 제공합니다.</span></div>
+            <div className="nmeta">2026-09-01 · <a href="https://news.sktelecom.com/230097" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">'DJ 허니'부터 두 스타 셰프의 라이브 쿠킹쇼까지, 장기고객과 함께한 '테이블 데이' 현장</span></div>
             <div className="nsum">SKT가 8월 8일 스타셀스 강남(Vista Walkerhill Seoul)에서 장기고객(10년 이상) 1,200명을 초대한 'T멤버십 테이블 데이' 개최. 스타 셰프 최현석·김희은의 8코스 라이브 쿠킹 쇼, CEO 직접 인사 및 감사 선물, 로밍 쿠폰·SK상품권 경품 추첨. 향후 롯데월드 어드벤처 데이(8월 24일), 뮤지컬 시카고 관극 등 장기고객 감사 행사 확대 예정.</div>
             <div className="nmeta">2026-08-13 · <a href="https://news.sktelecom.com/229247" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -97,6 +102,11 @@ export default function News() {
 
       {tab === 'lgu' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">넉넉한 한가위, 마음도 혜택도 풍성한 9월 유플투쁠</span></span></div>
+            <div className="nsum"><span className="upd">9월 유플투쁠은 추석 연휴를 맞아 식음료(9/8 피자헛 프리미엄 55% 할인·9/14 공차 50% 할인·9/22 배스킨라빈스), 문화·여가(CGV·오션월드·여기어때 할인·9/14~18 컬처 기간 전시·박물관 할인), 쇼핑·생활(컬리·다이소·스파오·사조몰) 혜택을 제공합니다. U+one 앱 오전 11시 유플투쁠 타임에서 선착순 이용 가능.</span></div>
+            <div className="nmeta">2026-09-01 · <a href="https://news.lguplus.com/22736" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LG유플러스, 아태 통신사 연합 '원더조이 트래블' 합류 — 연내 글로벌 멤버십 출시</span></div>
             <div className="nsum">일본 KDDI·싱가포르 싱텔·대만 타이완모바일·태국 AIS·홍콩 HKT 등이 참여하는 아시아·태평양 통신사 연합 '원더조이 트래블 얼라이언스'에 가입. 정식 출시 후 고객은 현지 이통사 멤버십 혜택(싱가포르 그랩 F&B·센토사리조트, 태국 그랩 F&B·타이 마사지, 홍콩 이지고 택시·왓슨스, 대만 타이청 베이커리·KKday, 필리핀 졸리비·클룩 등) 이용 가능. 우선 일본 돈키호테·로손에서 멤버십 할인 적용. 6~8월 일본 로밍패스 가입 고객 대상 시범 서비스 운영 결과 3개월간 쿠폰 다운로드 1만건 이상.</div>

@@ -46,7 +46,7 @@ export default function VipBenefits() {
               <span className="upd">VVIP·VIP초이스 공통: 지니TV VOD 1만원 이용권(통합 월1회, 9월 신설)</span><br />
               VVIP 전용:<br />
               VIPS 스테이크 무료(2인 샐러드바 이용시)<br />
-              도미노 3만원 할인(방문, 4만원 결제조건)
+              도미노 <span className="upd">2만원 할인(3만원 이상 주문 시)</span>
             </td>
             <td>
               유독<br />
