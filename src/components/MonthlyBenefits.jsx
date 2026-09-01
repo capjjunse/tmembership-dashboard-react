@@ -82,33 +82,33 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>달.달.혜택 (9.1~9.30, 1개 선택)</span></div>
               <ul className="mblist">
-                <li><span className="upd">쇼핑라운지(농협안심한우·정관장 홍삼·설화수 자음세트) 5천원 할인</span></li>
+                <li><span className="upd">쇼핑라운지(농협한우 등) 5천원 할인</span></li>
                 <li><span className="upd">롯데마트·롯데슈퍼 5천원 할인</span></li>
-                <li><span className="upd">배달의민족×bhc치킨 최대 1만원 할인</span></li>
-                <li><span className="upd">버거킹 와퍼세트 45% 또는 불고기와퍼+롱치킨버거 2인팩 50% 할인</span></li>
+                <li><span className="upd">배달의민족×bhc 최대 1만원 할인</span></li>
+                <li><span className="upd">버거킹 와퍼세트 45%·2인팩 50% 할인</span></li>
               </ul>
             </div>
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>문화 혜택 (9.1~)</span></div>
               <ul className="mblist">
-                <li><span className="upd">뮤지컬 디어 에반 핸슨 최대 45% 할인 (~9.30 예매분)</span></li>
-                <li><span className="upd">뮤지컬 광화문연가 최대 35% 할인 (~9.27 예매분)</span></li>
-                <li><span className="upd">전시 조은 원화전:오늘의 정원 입장권 45% 할인(패키지 50%)</span></li>
-                <li><span className="upd">전시 이기훈 원화전:내일의 낙원 입장권 45% 할인(패키지 50%)</span></li>
+                <li><span className="upd">디어 에반 핸슨 최대 45% 할인(~9.30)</span></li>
+                <li><span className="upd">광화문연가 최대 35% 할인(~9.27)</span></li>
+                <li><span className="upd">조은 원화전 45%·패키지 50% 할인</span></li>
+                <li><span className="upd">이기훈 원화전 45%·패키지 50% 할인</span></li>
               </ul>
             </div>
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>초대 혜택 [응모] (~9.30)</span></div>
               <ul className="mblist">
-                <li><span className="upd">NOL FESTIVAL K-POP STAGE(with M COUNTDOWN) 초대 — 100명(1인2매), 10.17 킨텍스, 응모 9.17~9.30, 발표 10.2</span></li>
+                <li><span className="upd">NOL FESTIVAL 초대 100명 응모(9.17~9.30)</span></li>
               </ul>
             </div>
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>글로벌 혜택 (로밍 고객 대상)</span></div>
               <ul className="mblist">
-                <li><span className="upd">공항 라운지 1만원 할인</span></li>
-                <li><span className="upd">Grab 트래블패스 코드 무료 (동남아 택시·배달)</span></li>
-                <li><span className="upd">네이버페이 해외 QR결제 2만원 혜택</span></li>
+                <li><span className="upd">공항라운지 1만원 할인</span></li>
+                <li><span className="upd">Grab 트래블패스 무료(동남아)</span></li>
+                <li><span className="upd">네이버페이 해외QR 2만원 혜택</span></li>
               </ul>
             </div>
           </div>
