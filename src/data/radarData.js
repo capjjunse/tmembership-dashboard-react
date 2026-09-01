@@ -16,7 +16,7 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 10,
+    news7d: 8,
     negScore: 970,
     headline: [
       '2Q 영업손실 184억 · 27년 만에 첫 분기 적자',
@@ -32,16 +32,16 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 12,
+    news7d: 15,
     negScore: 180,
     headline: [
-      '결제액 스타벅스 94.9% · 격차 5.1%p',
+      '해태HTB 인수 추진 · 음료 사업 확장',
       '괴담 마케팅 · SNS 490만회 조회',
       '이용률 71.0% · 스타벅스 추월 달성',
     ],
@@ -53,7 +53,7 @@ export const trendSignals = [
   {
     brand: '피자헛',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP] 30% 할인 · [G·S] 20% 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 15% 할인' },
@@ -63,12 +63,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 2,
+    news7d: 5,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
       'PH코리아 독자 법인 · 한국 영업 지속',
-      '동일매장 매출 20%↑ 재건 성장세 유지',
+      '미트칠리 치즈감자 신메뉴 (~9월 말)',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 글로벌 얌브랜즈 → 사모펀드 매각(3Q 완료 예정) — 한국 PH코리아는 독자 법인으로 영업 지속',
     links: [
@@ -79,7 +79,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -114,14 +114,14 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 15,
+    news7d: 20,
     negScore: 250,
     headline: [
       '2Q 흑자전환 · 영업이익 115억',
       '귀향 6곳 · 상영관 선택권 논란',
-      '야탑점 9월 오픈 예정',
+      '용아맥 예매 제한 · 오디세이 흥행',
     ],
-    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 귀향 6곳 상영 논란(8.27) — 야탑점 9월 오픈 예정',
+    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 귀향 6곳 상영 논란(8.27) — 용아맥 예매 제한(오디세이 흥행)',
     links: [
       { label: 'CGV 2Q 흑자전환 · 영업이익 115억 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608071704003/' },
       { label: '귀향 6곳 상영 · 선택권 논란 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608272024003/' },
@@ -140,12 +140,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 18,
+    news7d: 12,
     negScore: 480,
     headline: [
       '8.25 127종 5% 인상 완료',
       '11종 가격인하 · 물가안정 동참 병행',
-      '원료비·제반비용 상승 불가피',
+      'K파바 추석 선물세트 출시',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 8.25 127종 5% 인상 완료 · 11종 가격인하 병행 — 제휴 할인 실질 가치 하락 우려',
     links: [

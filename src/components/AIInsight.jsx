@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.01';
+const RADAR_SCANNED = '2026.09.02';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -106,9 +106,11 @@ const alCats = [
   // ── T멤버십 우위 ──
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
+    updated: true,
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
-      { partner: '아웃백, VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: '5% 할인' }] },
+      { partner: '아웃백', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인 (월 4회, 일 최대 2만원)' }, { grade: 'S', desc: '5% 할인 (월 4회, 일 최대 1만원)' }] },
+      { partner: 'VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: '20% 할인' }] },
     ]}],
     reasons: ['T멤버십: 상시 15~30% (아웃백·VIPS·도미노·피자헛)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
@@ -244,7 +246,7 @@ export const recs = [
   {
     rank: 1,
     brand: '설빙',
-    updated: true,
+    updated: false,
     tag: '매장 606개 · DataLab →1.01',
     reason: '아이스디저트 카테고리 1위 · 전국 606개. 태국·미국 해외 확장 가속. Tday 6개월 공백. 7월 위생 재논란 — 브랜드 신뢰 모니터링 국면.',
     reach: [
@@ -562,7 +564,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.01</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.02</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
