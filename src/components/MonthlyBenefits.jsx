@@ -80,14 +80,23 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>달.달.혜택 (9.1~9.30, 1개 선택)</span></div>
               <ul className="mblist">
-                <li><span className="upd">9월 달달혜택 공개 (9.1~9.30) — 브랜드별 혜택 상세 확인 중</span></li>
+                <li><span className="upd">쇼핑라운지(농협안심한우·정관장 홍삼·설화수 자음세트) 5천원 할인</span></li>
+                <li><span className="upd">롯데마트·롯데슈퍼 5천원 할인</span></li>
+                <li><span className="upd">배달의민족×bhc치킨 최대 1만원 할인</span></li>
+                <li><span className="upd">버거킹 와퍼세트 45% 또는 불고기와퍼+롱치킨버거 2인팩 50% 할인</span></li>
               </ul>
             </div>
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept" style={{ color: 'var(--tx3)' }}>공개 후 업데이트 예정</div>
+            <div className="mpnt-concept">추석 테마 KT MEMBERSHIP FESTA — 달달혜택·문화·글로벌 혜택 통합 운영</div>
+            <ul className="mpnt-list">
+              <li>달달혜택 4종 중 1개 선택(통합 1회)</li>
+              <li>문화혜택 · 뮤지컬 2종·전시 2종 최대 50%</li>
+              <li>글로벌혜택 · 로밍고객 대상 공항라운지·Grab 등</li>
+            </ul>
           </div>
         </div>
         <div className="mc">
