@@ -81,7 +81,7 @@ export default function MonthlyBenefits() {
           <div className="mcb">
             <div className="mblk">
               <ul className="mblist">
-                <li>매월 15일경 공개 예정</li>
+                <li><span className="upd">9월 달달혜택 공개 (9.1~9.30) — 브랜드별 혜택 상세 확인 중</span></li>
               </ul>
             </div>
           </div>
