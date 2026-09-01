@@ -88,14 +88,32 @@ export default function MonthlyBenefits() {
                 <li><span className="upd">버거킹 와퍼세트 45% 또는 불고기와퍼+롱치킨버거 2인팩 50% 할인</span></li>
               </ul>
             </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>문화 혜택 (9.1~)</span></div>
+              <ul className="mblist">
+                <li><span className="upd">뮤지컬 디어 에반 핸슨 최대 45% 할인 (~9.30 예매분)</span></li>
+                <li><span className="upd">뮤지컬 광화문연가 최대 35% 할인 (~9.27 예매분)</span></li>
+                <li><span className="upd">전시 조은 원화전:오늘의 정원 입장권 45% 할인(패키지 50%)</span></li>
+                <li><span className="upd">전시 이기훈 원화전:내일의 낙원 입장권 45% 할인(패키지 50%)</span></li>
+              </ul>
+            </div>
+            <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>글로벌 혜택 (로밍 고객 대상)</span></div>
+              <ul className="mblist">
+                <li><span className="upd">공항 라운지 1만원 할인</span></li>
+                <li><span className="upd">Grab 트래블패스 코드 무료 (동남아 택시·배달)</span></li>
+                <li><span className="upd">네이버페이 해외 QR결제 2만원 혜택</span></li>
+              </ul>
+            </div>
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">추석 테마 KT MEMBERSHIP FESTA — 달달혜택·문화·글로벌 혜택 통합 운영</div>
+            <div className="mpnt-concept">추석 테마 KT MEMBERSHIP FESTA — 달달·문화·글로벌 혜택 통합 운영</div>
             <ul className="mpnt-list">
               <li>달달혜택 4종 중 1개 선택(통합 1회)</li>
               <li>문화혜택 · 뮤지컬 2종·전시 2종 최대 50%</li>
-              <li>글로벌혜택 · 로밍고객 대상 공항라운지·Grab 등</li>
+              <li>글로벌혜택 · 로밍고객 대상 공항라운지·Grab·해외QR 3종</li>
+              <li>VVIP/VIP초이스 · 지니TV VOD 1만원 이용권 신설(통합 월1회)</li>
             </ul>
           </div>
         </div>

@@ -43,6 +43,7 @@ export default function VipBenefits() {
               T우주패스 4,900원(쇼핑·편의점·카페) + 5,000원(올리브영·스벅·이마트24) 2종
             </td>
             <td>
+              <span className="upd">VVIP·VIP초이스 공통: 지니TV VOD 1만원 이용권(통합 월1회, 9월 신설)</span><br />
               VVIP 전용:<br />
               VIPS 스테이크 무료(2인 샐러드바 이용시)<br />
               도미노 3만원 할인(방문, 4만원 결제조건)
