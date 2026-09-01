@@ -17,6 +17,41 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td>2026.10.01</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td><span className="upd">신세계면세점 온라인 혜택 명칭 변경 — '제휴캐시'→'쇼핑지원금' ($100 사용시 1만원) (10.1~)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.10.01</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td><span className="upd">롯데면세점 혜택 변경 — VVIP/VIP 등급 GOLD 등급 적용 (10.1~)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.10.01</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td><span className="upd">매드포갈릭 할인 한도 조정 — VVIP/VIP 15% (최대 10만원), GOLD/SILVER/WHITE/일반 5% (최대 10만원) (10.1~)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.10.01</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td><span className="upd">라그릴리아 할인 한도 조정 — VVIP/VIP 10% (최대 2만원), GOLD/SILVER/WHITE/일반 5% (최대 2만원) (10.1~)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.10.01</td>
+            <td><span className="cb bk">KT</span></td>
+            <td>KT 멤버십 상시</td>
+            <td><span className="upd">차일디 제휴 종료 예정 (10.1)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
             <td>2026.09.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
@@ -104,7 +139,7 @@ export default function History() {
             <td>2026.07.31</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td><span className="upd">AICE 자격증 온라인과정 15% 할인 프로모션 기간 연장 (~12.31)</span></td>
+            <td>AICE 자격증 온라인과정 15% 할인 프로모션 기간 연장 (~12.31)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
@@ -252,55 +287,6 @@ export default function History() {
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
             <td>후지필름 신규 제휴 — 포토북 40%+사진인화 20%+액세서리 10%+무료배송권(2만원 이상 구매 시) (6.15~)</td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.01</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>KT 멤버십 상시</td>
-            <td>라그릴리아 신규 제휴 — 등급별 5~10% 할인 (6.1~)</td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.01</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>KT 멤버십 상시</td>
-            <td>온누리몰 10% 할인쿠폰 추가 (6.1~12.31)</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.01</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>KT 멤버십 상시</td>
-            <td>매드포갈릭 할인율 조정 — [전 등급] 20% → VVIP/VIP/골드 15% · 일반/화이트/실버 5% (6.1~)</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.01</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>KT 멤버십 상시</td>
-            <td>앱티핏 제휴 종료 (6.1)</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.01</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>청소연구소 에어컨 청소 7% 시즌 할인 추가 (최대 1만원, 6.1)</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.01</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>매드포갈릭 할인율 하향 — V/G 20%→15%, S 10%→5% (6.1)</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.01</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+ 멤버십 상시</td>
-            <td>6월 신규 4개 — 모던하우스(상품 20% 이상), 유니스터디(단과 50%), 위피(젤리 15개), B1불스원카케어(세차 10%+엔진오일 2만원↓) (6.1~)</td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
         </tbody>

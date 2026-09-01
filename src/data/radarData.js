@@ -16,7 +16,7 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 15,
+    news7d: 10,
     negScore: 970,
     headline: [
       '2Q 영업손실 184억 · 27년 만에 첫 분기 적자',
@@ -38,7 +38,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 15,
+    news7d: 12,
     negScore: 180,
     headline: [
       '결제액 스타벅스 94.9% · 격차 5.1%p',
@@ -79,7 +79,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -91,14 +91,13 @@ export const trendSignals = [
     news7d: 10,
     negScore: 850,
     headline: [
-      '직영 좌석 3400석 · 스크린 8개 ↓',
-      '채권신고 8.5~9.1 진행 중',
-      '청년문화예술패스 동참 · 19~20세',
+      '채권신고 완료 · 채권조사 9.2~9.29',
+      '9월 메가온리 · 케이티페리 필름',
+      '직영 좌석 3400석 · 스크린 8개↓',
     ],
-    impact: 'SKT·KT 상시 운영 중 · 채권 신고기간(8.5~9.1) 진행 중 · 직영 좌석 3400석·스크린 8개 감소 — 회생계획안 12.1까지 제출',
+    impact: 'SKT·KT 상시 운영 중 · 채권조사기간(9.2~9.29) 개시 · 직영 좌석 3400석·스크린 8개 감소 — 회생계획안 12.1까지 제출',
     links: [
-      { label: '채권신고 지원 영진위 안내 (씨네플레이)', url: 'https://www.cineplay.co.kr/ko-kr/articles/28939' },
-      { label: '문체부 영화계 지원 논의 (이데일리)', url: 'https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05628486645513208' },
+      { label: '9월 메가온리 라인업 공개 (메트로서울)', url: 'https://www.metroseoul.co.kr/article/20260827500365' },
       { label: '회생절차 개시결정 (디지털투데이)', url: 'https://www.digitaltoday.co.kr/news/articleView.html?idxno=682917' },
     ],
   },
@@ -118,20 +117,20 @@ export const trendSignals = [
     news7d: 15,
     negScore: 250,
     headline: [
-      'CGV판교 8.19 영업종료 · 임대계약 종료',
       '2Q 흑자전환 · 영업이익 115억',
-      '씨집에가면 8편 · 컬처위크 8.26~29',
+      '귀향 6곳 · 상영관 선택권 논란',
+      '야탑점 9월 오픈 예정',
     ],
-    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2분기 흑자전환(세전이익 90억) · 판교점 8.19 영업종료 — 임대계약 종료에 따른 점포 최적화',
+    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 귀향 6곳 상영 논란(8.27) — 야탑점 9월 오픈 예정',
     links: [
       { label: 'CGV 2Q 흑자전환 · 영업이익 115억 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608071704003/' },
-      { label: 'CGV판교 8.19 영업종료 안내 (루리웹)', url: 'https://bbs.ruliweb.com/board/300013/read/3784922' },
+      { label: '귀향 6곳 상영 · 선택권 논란 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608272024003/' },
     ],
   },
   {
     brand: '파리바게뜨',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP/Gold] 100원·50원 할인 / [Silver] 50원 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -141,14 +140,14 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 20,
+    news7d: 18,
     negScore: 480,
     headline: [
-      '빵·디저트류 127종 5% 인상 (8.25)',
-      '1년 6개월만 가격 인상 단행',
+      '8.25 127종 5% 인상 완료',
+      '11종 가격인하 · 물가안정 동참 병행',
       '원료비·제반비용 상승 불가피',
     ],
-    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 8.25부터 빵 86종+디저트 41종 5% 인상 — 제휴 할인 실질 가치 하락 우려',
+    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 8.25 127종 5% 인상 완료 · 11종 가격인하 병행 — 제휴 할인 실질 가치 하락 우려',
     links: [
       { label: '파리바게뜨 127종 5% 가격 인상 (파이낸셜뉴스)', url: 'https://www.fnnews.com/news/202608140929499623' },
     ],
