@@ -25,7 +25,26 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Week 혜택 (9.7~9.11)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 9월 7일 공개 예정</li>
+                <li><span className="upd">VIPS 30%할인/적립(VIP40%,최대6만원)</span></li>
+                <li><span className="upd">롯데리아 사각핫크팩32%할인(VIP42%)</span></li>
+                <li><span className="upd">폴바셋 4종음료50%할인/적립(VIP Only)</span></li>
+                <li><span className="upd">파리바게뜨 200원/1천원할인(최대6천원)</span></li>
+                <li><span className="upd">크리스탈제이드 5만원↑40%할인</span></li>
+                <li><span className="upd">백미당 아이스크림1+1</span></li>
+                <li><span className="upd">롯데월드 최대55%할인(본인+동반3명)</span></li>
+                <li><span className="upd">아쿠아필드 입장권최대45%할인</span></li>
+                <li><span className="upd">에버랜드 종일권45%할인(동반3명35%)</span></li>
+                <li><span className="upd">헉슬리 최대3만원할인</span></li>
+                <li><span className="upd">그리팅 5만원↑2만원할인</span></li>
+                <li><span className="upd">아워홈몰 5만원↑50%할인(최대2.5만원)</span></li>
+                <li><span className="upd">오설록 36%할인(최대6만원)</span></li>
+                <li><span className="upd">얼라이브 4만원↑2.2만원할인</span></li>
+                <li><span className="upd">덴프스 5만원↑2.7만원할인</span></li>
+                <li><span className="upd">모던하우스 장바구니20%+상품30%할인</span></li>
+                <li><span className="upd">뱅크시특별전 입장권50%할인</span></li>
+                <li><span className="upd">투루카 카셰어링70%할인</span></li>
+                <li><span className="upd">CGV 8,500원예매+매점쿠폰2종</span></li>
+                <li><span className="upd">착한소비×바다의향기40%할인</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -38,7 +57,7 @@ export default function MonthlyBenefits() {
                 <li>CU 빵50%할인(6종택1)</li>
                 <li>이마트24 삼각김밥50%할인(7종택1)</li>
                 <li>도미노피자 포장50%할인/적립(최대2.25만원)</li>
-                <li><span className="upd">FEEV 피브2만원↑1.5만원할인+블러쉬4천원</span></li>
+                <li>FEEV 피브2만원↑1.5만원할인+블러쉬4천원</li>
                 <li>럭키찬스:올리브영3만원권무료(500명)</li>
                 <li>NOL티켓 뮤지컬겨울왕국15%할인(R/S/A석)</li>
                 <li>NOL티켓 성률기획전여름을담은우리40%할인</li>
@@ -65,11 +84,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">추석 테마 — Day1 공개·나머지 공개 대기</div>
+            <div className="mpnt-concept"><span className="upd">한가위의 설렘 — Week 20종·Young 11종 공개</span></div>
             <ul className="mpnt-list">
-              <li>Day1 · 공차VIP·노브랜드·설성목장 4종</li>
+              <li><span className="upd">Week혜택 · VIPS·에버랜드 등 20종</span></li>
               <li>Young week 11종 · 백억커피·할리스 등</li>
-              <li>Week·Day2~4 · 9.7~9.30 순차 공개예정</li>
+              <li><span className="upd">Day2~4 · 9.16·9.23·9.30 공개예정</span></li>
             </ul>
           </div>
         </div>
@@ -133,7 +152,7 @@ export default function MonthlyBenefits() {
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 1차 (9.8)</span></div>
               <ul className="mblist">
                 <li>피자헛 최대55%할인+파스타증정(선착순)</li>
-                <li><span className="upd">쿠팡이츠×노모어피자 최대8천원할인(2.2만원↑주문시,선착순)</span></li>
+                <li>쿠팡이츠×노모어피자 최대8천원할인(2.2만원↑주문시,선착순)</li>
                 <li>컬리 5천+웰컴백1만+첫1.2만쿠폰(선착순)</li>
                 <li>아쿠아플라넷 입장권35%할인(선착순)</li>
                 <li>스피드메이트 엔진오일+정비4종(선착순)</li>
@@ -147,7 +166,7 @@ export default function MonthlyBenefits() {
                 <li>백미당 아이스40%+미니컵증정(선착순)</li>
                 <li>매드포갈릭 2.5만원할인(8만원↑주문시,선착순)</li>
                 <li>밀킨 전제품35%할인(최대10만원,선착순)</li>
-                <li><span className="upd">여기어때 숙소10%할인(10만원↑이용시,최대3만원,선착순)</span></li>
+                <li>여기어때 숙소10%할인(10만원↑이용시,최대3만원,선착순)</li>
                 <li>신라인터넷면세점 쿠폰3종5만원(선착순)</li>
               </ul>
             </div>
@@ -175,9 +194,9 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 4차 (9.15)</span></div>
               <ul className="mblist">
-                <li><span className="upd">배민×요아정 8,500원할인(1.85만원↑주문시,선착순)</span></li>
+                <li>배민×요아정 8,500원할인(1.85만원↑주문시,선착순)</li>
                 <li>백억커피 아메리카노+팝콘무료(선착순)</li>
-                <li><span className="upd">아워홈몰 20%할인(5만원↑구매시,최대2만원,선착순)</span></li>
+                <li>아워홈몰 20%할인(5만원↑구매시,최대2만원,선착순)</li>
                 <li>롱블랙 2개월무료구독(선착순)</li>
                 <li>청연 청소서비스 최대2만원쿠폰(선착순)</li>
                 <li>교보문고 1천원쿠폰(1만원↑구매시,선착순)</li>
@@ -187,7 +206,7 @@ export default function MonthlyBenefits() {
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 5차 (9.16)</span></div>
               <ul className="mblist">
                 <li>다이소 최대2천원금액권(선착순)</li>
-                <li>투루카 카셰어링1.6만원할인(선착순)</li>
+                <li><span className="upd">투루카 카셰어링1.6만원할인(6시간↑,선착순)</span></li>
                 <li>그리팅 2만원할인(5.5만원↑구매시,선착순)</li>
                 <li>밀크T 최대7만원혜택(선착순)</li>
                 <li>사조몰 양조간장500ml 100원딜(선착순)</li>
@@ -200,7 +219,7 @@ export default function MonthlyBenefits() {
                 <li>투썸 조각케이크+아메리카노무료(선착순)</li>
                 <li>아이콘골프 왕복/편도4천원할인(선착순)</li>
                 <li>우파루오딧세이 3만원재화쿠폰(선착순)</li>
-                <li><span className="upd">인천공항고메브릿지 25%할인(1만원↑구매시,선착순)</span></li>
+                <li>인천공항고메브릿지 25%할인(1만원↑구매시,선착순)</li>
                 <li>윌라스토리 300젤리증정(선착순)</li>
               </ul>
             </div>
@@ -220,11 +239,11 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span><span className="upd">투쁠 8차 (9.22)</span></span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 8차 (9.22)</span></div>
               <ul className="mblist">
-                <li><span className="upd">배스킨라빈스 패밀리9천원할인(선착순)</span></li>
-                <li><span className="upd">WHIPPED 기획세트2종최대50%할인(선착순)</span></li>
-                <li><span className="upd">LG생활건강 추가증정(1.5만원↑구매시,선착순)</span></li>
+                <li>배스킨라빈스 패밀리9천원할인(선착순)</li>
+                <li>WHIPPED 기획세트2종최대50%할인(선착순)</li>
+                <li>LG생활건강 추가증정(1.5만원↑구매시,선착순)</li>
               </ul>
             </div>
             <div className="mblk">
@@ -238,9 +257,9 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ml">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">추석 한가위 — 4트랙 <span className="upd">40+</span>브랜드 대편성</div>
+            <div className="mpnt-concept">추석 한가위 — 4트랙 40+브랜드 대편성</div>
             <ul className="mpnt-list">
-              <li><span className="upd">투쁠 8일간 · 9.8~9.22 40+브랜드</span></li>
+              <li>투쁠 8일간 · 9.8~9.22 40+브랜드</li>
               <li>컬쳐트랙 별도 · 5종 9.14~9.18</li>
               <li>유쓰/장기고객 각각 9.20·9.24</li>
             </ul>

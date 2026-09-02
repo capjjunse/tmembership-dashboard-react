@@ -52,6 +52,13 @@ export default function History() {
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
+            <td>2026.09.16</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T 멤버십 상시</td>
+            <td><span className="upd">SK렌터카·빌리카·롯데렌터카 제주 할인율 변경 — 85% → 60% (9.16~)</span></td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
             <td>2026.09.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
