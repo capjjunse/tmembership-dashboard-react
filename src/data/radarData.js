@@ -7,16 +7,16 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
     ],
-    strength: 'mid',
+    strength: 'low',
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 8,
+    news7d: 6,
     negScore: 970,
     headline: [
       '2Q 영업손실 184억 · 27년 만에 첫 분기 적자',
@@ -32,13 +32,13 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 15,
+    news7d: 12,
     negScore: 180,
     headline: [
       '해태HTB 인수 추진 · 음료 사업 확장',
@@ -53,7 +53,7 @@ export const trendSignals = [
   {
     brand: '피자헛',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP] 30% 할인 · [G·S] 20% 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 15% 할인' },
@@ -63,7 +63,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 5,
+    news7d: 6,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
@@ -88,7 +88,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 10,
+    news7d: 15,
     negScore: 850,
     headline: [
       '채권신고 완료 · 채권조사 9.2~9.29',
@@ -114,14 +114,14 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 20,
+    news7d: 22,
     negScore: 250,
     headline: [
       '2Q 흑자전환 · 영업이익 115억',
       '귀향 6곳 · 상영관 선택권 논란',
-      '용아맥 예매 제한 · 오디세이 흥행',
+      '씨집에 가면 9월 · LCK 생중계',
     ],
-    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 귀향 6곳 상영 논란(8.27) — 용아맥 예매 제한(오디세이 흥행)',
+    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 씨집에 가면 9월 라인업 공개 · LCK 플레이오프 생중계(9.5~9.13)',
     links: [
       { label: 'CGV 2Q 흑자전환 · 영업이익 115억 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608071704003/' },
       { label: '귀향 6곳 상영 · 선택권 논란 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608272024003/' },
@@ -130,7 +130,7 @@ export const trendSignals = [
   {
     brand: '파리바게뜨',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP/Gold] 100원·50원 할인 / [Silver] 50원 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -140,7 +140,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 12,
+    news7d: 8,
     negScore: 480,
     headline: [
       '8.25 127종 5% 인상 완료',

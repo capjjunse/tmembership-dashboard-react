@@ -70,7 +70,7 @@ export default function NonTelecom() {
       link: 'https://www.oliveyoung.co.kr/store/main/getMembership.do',
       benefits: [
         '5단계 등급: BABY → PINK → GREEN → BLACK → GOLD',
-        'CJ ONE 포인트 적립 (PINK/BABY 0.5%, GREEN 이상 1.0%)',
+        '<span className="upd">CJ ONE·올리브 포인트 동시 적립 (PINK/BABY 0.5%, GREEN 이상 1.0%)</span>',
         '올리브 데이 등급별 쿠폰 (매월 25일 지급)',
         '리디 포인트 1,000원 (매주 금요일 선착순)',
         '청연 최대 10%·탈잉 최대 2만원 쿠폰',
