@@ -27,7 +27,7 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [], // 2026.09 KT 달달혜택 미공개 (9월 15일경 공개 예정)
+    rows: [], // 2026.09 KT 달달혜택 공개 확인 — SKT Tday/Young week와 겹침 없음
   },
   {
     id: 'skt-lgu',
@@ -36,7 +36,7 @@ const compGroups = [
     rows: [
       {
         brand: '공차',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: 'V', b: '음료 6종 50% 할인 (최대 6천원)' }], date: 'T day · 9.2' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 구매 시, 최대 5천원)' }], date: '투쁠 3차 · 9.14' },
@@ -46,7 +46,7 @@ const compGroups = [
       },
       {
         brand: '백억커피',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '아메리카노+팝콘 무료 (정가 1,900원)' }], date: 'Young week · 9.7~9.11' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '아메리카노+팝콘 무료' }], date: '투쁠 4차 · 9.15' },
@@ -56,7 +56,7 @@ const compGroups = [
       },
       {
         brand: 'NOL티켓',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '뮤지컬 겨울왕국 15% 할인 (R/S/A석)' }, { grade: '전 등급', b: '성률기획전 여름을담은우리 40% 할인' }], date: 'Young week · 9.7~9.11' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '전시 특별전 35% 할인 (1인 4매)' }, { grade: '장기고객', b: '겨울왕국 20% 할인 (최대 4매)' }], date: '컬쳐데이 · 9.14~9.18 / 장기고객데이 · 9.24' },
@@ -66,7 +66,7 @@ const compGroups = [
       },
       {
         brand: '노브랜드',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '4만원 이상 20% 할인 (최대 1만원)' }], date: 'T day · 9.2' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '유부우동 무료증정' }], date: '투쁠 6차 · 9.17' },
@@ -76,7 +76,7 @@ const compGroups = [
       },
       {
         brand: '이마트24',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '삼각김밥 50% 할인 (7종 택1)' }], date: 'Young week · 9.7~9.11' },
         kt: null,
         lgu: { lines: [{ grade: '장기고객', b: '최대 3천원 할인 (1만원 이상 구매 시)' }], date: '장기고객데이 · 9.24' },
@@ -90,13 +90,13 @@ const compGroups = [
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT 달달혜택 × LGU+ 투쁠데이',
-    rows: [], // 2026.09 KT 달달혜택 미공개
+    rows: [], // 2026.09 KT 달달혜택 공개 확인 — LGU+ 투쁠과 겹침 없음
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // 2026.09 KT 달달혜택 미공개로 3사 비교 불가
+    rows: [], // 2026.09 KT 달달혜택 공개 확인 — 3사 공통 브랜드 없음
   },
 ];
 
@@ -426,7 +426,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer"><span className="upd">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11)·LGU+ 투쁠 1~7차+컬쳐데이 공개 · KT 미공개 — 15일경 공개 후 업데이트 예정)</span></div>
+          <div className="comp-footer"><span className="upd">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11)·LGU+ 투쁠 1~8차+컬쳐데이+유쓰·장기고객데이 공개·KT 달달혜택 공개 확인·3사 겹침 없음)</span></div>
         </div>
       </div>
 

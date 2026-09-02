@@ -108,16 +108,17 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>청소연구소 에어컨 할인 폐지 예정 (9.1)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 45%·부정 46%·중립 9%</div>
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>해피아워 "월 5회·1일 1회 제한이 좀 치사" 아쉬움</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 56%·부정 33%·중립 11%</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">T day "던킨·공차 VIP만 주네 — 알뜰폰 갈게요" 불만 (9.2)</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
-          <a href="#vp" className="ovg2-card ck">
+          <a href="#rg" className="ovg2-card ck">
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">롯데월드 혜택 개편 (본인 40%·동반 3인 30% 할인)</span></div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">달달혜택 공개 (9.1~9.30, 쇼핑라운지·롯데마트·배민×bhc·버거킹 4종)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>달달혜택 공개 (9.1~9.30, 쇼핑라운지·롯데마트·배민×bhc·버거킹 4종)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>도미노피자 변경 예정 (9.1~)</div>
@@ -133,7 +134,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">유플투쁠 8차 전체 공개 (9.8~9.22, 40+브랜드)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>유플투쁠 8차 전체 공개 (9.8~9.22, 40+브랜드)</div>
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>컬쳐데이 (9.14~9.18) · 유쓰·장기고객데이 (9.20·9.24)</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
@@ -151,9 +152,9 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">KT 미공개 · SKT↔LGU+ 5종 비교</span></div>
+              <div className="ovki-title">KT 미공개 · SKT↔LGU+ 5종 비교</div>
               <ul className="ovki-list">
-                <li><span className="upd">T day·Young week × 투쁠 5종 비교 — 노브랜드 SKT 우위</span></li>
+                <li>T day·Young week × 투쁠 5종 비교 — 노브랜드 SKT 우위</li>
                 <li>KT 달달혜택 미공개 — SKT·KT 비교 보류</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>

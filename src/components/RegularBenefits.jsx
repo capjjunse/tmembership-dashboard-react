@@ -57,7 +57,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>에버랜드</td><td><G t="[전 등급] 본인 40%·동반 3인 30% 할인"/></td><td><G t="[전 등급] 본인 40%·동반 3인 20% 할인"/></td><td className="na">미제공</td></tr>
-          <tr><td>롯데월드 어드벤처</td><td><G t="[VIP/Gold] 본인 40%·동반 3인 30% 할인 · [Silver] 본인 40%·동반 3인 20% 할인"/></td><td><G t="[전 등급] 본인 40%·동반 3인 30% 할인 (일1회, 온/오프라인)"/></td><td>[전 등급] 부산점 본인 25%·동반 3인 10% 할인<br/>[전 등급] 아쿠아리움 30% 할인 (동반 3인까지)<br/>[전 등급] 아이스링크 50% 할인 (동반 1인까지)</td></tr>
+          <tr><td>롯데월드 어드벤처</td><td><G t="[VIP/Gold] 본인 40%·동반 3인 30% 할인 · [Silver] 본인 40%·동반 3인 20% 할인"/></td><td><span className="upd">[전 등급] 본인 40%·동반 3인 30% 할인</span></td><td>[전 등급] 부산점 본인 25%·동반 3인 10% 할인<br/>[전 등급] 아쿠아리움 30% 할인 (동반 3인까지)<br/>[전 등급] 아이스링크 50% 할인 (동반 1인까지)</td></tr>
         </tbody>
       </table></div>
 
@@ -73,7 +73,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>매드포갈릭</td><td><G t="[VIP/Gold] 15% 할인 (최대 15,000원) · [Silver] 5% 할인 (최대 5,000원)"/></td><td><G t="[VVIP/VIP/골드] 15% 할인 (주문 10만원 한도) · [일반] 5% 할인 (주문 10만원 한도)"/></td><td><G t="[VVIP/VIP] 15% 할인 · [우수] 5% 할인"/></td></tr>
-          <tr><td>아웃백</td><td>[VIP/Gold] 15% 할인 <span className="upd">(월 4회, 일 최대 2만원)</span><br/>[Silver] 5% 할인 <span className="upd">(월 4회, 일 최대 1만원)</span></td><td><G t="[VVIP/VIP/골드] 15% 할인 · [일반] 5% 할인"/></td><td className="na">미제공</td></tr>
+          <tr><td>아웃백</td><td>[VIP/Gold] 15% 할인 (월 4회, 일 최대 2만원)<br/>[Silver] 5% 할인 (월 4회, 일 최대 1만원)</td><td><G t="[VVIP/VIP/골드] 15% 할인 · [일반] 5% 할인"/></td><td className="na">미제공</td></tr>
           <tr><td>VIPS</td><td><G t="[VIP/Gold] 15% 할인 · [Silver] 5% 할인"/></td><td><G t="[VVIP/VIP] 15% 할인 · [Gold/일반] 5% 할인"/></td><td><G t="[VVIP/VIP] 15% 할인 · [우수] 5% 할인"/></td></tr>
         </tbody>
       </table></div>

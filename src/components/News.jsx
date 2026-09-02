@@ -18,8 +18,8 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">추석 연휴 맞아 글로벌 여행·가족 이벤트·T day로 풍성한 9월 T 멤버십 혜택</span></span></div>
-            <div className="nsum"><span className="upd">9월 T 멤버십은 추석 연휴를 맞아 글로벌 여행(일본 후쿠오카·도쿄·오사카 로밍 할인·스카이트리 70% 할인·JR하루카 50% 할인), 가족 이벤트(숨고 추석 기획전 15,000원 쿠폰·서울랜드 최대 71% 할인), T day·Young Week·해피아워(VIP 대상 백미당 50% 할인) 등을 제공합니다.</span></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">추석 연휴 맞아 글로벌 여행·가족 이벤트·T day로 풍성한 9월 T 멤버십 혜택</span></div>
+            <div className="nsum">9월 T 멤버십은 추석 연휴를 맞아 글로벌 여행(일본 후쿠오카·도쿄·오사카 로밍 할인·스카이트리 70% 할인·JR하루카 50% 할인), 가족 이벤트(숨고 추석 기획전 15,000원 쿠폰·서울랜드 최대 71% 할인), T day·Young Week·해피아워(VIP 대상 백미당 50% 할인) 등을 제공합니다.</div>
             <div className="nmeta">2026-09-01 · <a href="https://news.sktelecom.com/230097" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
@@ -52,21 +52,6 @@ export default function News() {
             <div className="nsum">여름휴가 시즌 맞아 SUMMER LUCKY WEEK(7월 13~17일) 5성급 호텔 숙박권 응모 이벤트, Young Week 브랜드 개편, 신규 제휴사 3곳 합류, 서울랜드 본인 50%·동반 40% 할인. 토이콘 서울 2026 관람권 30% 할인.</div>
             <div className="nmeta">2026-07-01 · <a href="https://news.sktelecom.com/227258" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">여름방학을 더 가볍고 알차게, 대학생을 위한 SKT 혜택 모아보기</span></div>
-            <div className="nsum">T멤버십이 여름방학 대학생 고객 지원 콘텐츠 발행. 식음료·카페(T 우주 구독 할인), 해외여행(34세 이하 로밍 특가), 자기계발(Class101·어학 플랫폼), 문화(0 week 뮤지컬·전시 할인) 4가지 카테고리로 일상 지출 관리·학습 지원 혜택 강화.</div>
-            <div className="nmeta">2026-06-17 · <a href="https://news.sktelecom.com/226659" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT T멤버십, 대학생 목소리 담은 맞춤 혜택 선보인다 — 6월 시험기간 0 week 운영, 메가MGC·바나프레소·투썸플레이스 할인</span></div>
-            <div className="nsum">T멤버십이 대학생 고객 제안 아이디어를 반영해 6월 시험기간용 혜택 강화. 2주차(6.8~12) '0 week' 특별 운영으로 메가MGC커피 50% 할인, 바나프레소·투썸플레이스·배스킨라빈스 할인 쿠폰 제공. 경희대·광운대·서울시립대·성균관대·세종대 등 서울 대학가 방문으로 오프라인 커피 무료 제공.</div>
-            <div className="nmeta">2026-06-07 · <a href="https://news.sktelecom.com/226090" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">6월 T멤버십 — 프로야구 Lucky Week·시험 기간 혜택까지 풍성</span></div>
-            <div className="nsum">T day 1주차(6.8~6.12) '프로야구 Lucky Week' 신설, 티빙 구독자 고척돔 직관 응모·요기요×호식이두마리치킨 VIP 8천원/Gold·Silver 6천원 할인, 루메나 무선선풍기 응모. 후지필름 6.15 신규 제휴(포토북 40%·사진인화 20%) 예고.</div>
-            <div className="nmeta">2026-06-01 · <a href="https://news.sktelecom.com/225691" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
         </div>
       )}
 
@@ -82,29 +67,14 @@ export default function News() {
             <div className="nsum">8월 3~31일 케이티 멤버십 페스타 기간 공항라운지 1만원 할인, 캐리비안 베이 본인·동반 50% 할인, 롯데렌터카 60% 할인, 아고다 국내 10%·해외 12% 할인, GS칼텍스 3천원 할인(3만원 이상 주유 시). 달달혜택으로 배스킨라빈스 30%, 공차 50%, 쇼핑라운지 5천원 할인. 뮤지컬·전시·영화 문화혜택도 강화.</div>
             <div className="nmeta">2026-07-30 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19251" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
           </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">KT멤버십, 국가서비스대상 수상 기념 고객 참여형 이벤트 진행</span></div>
-            <div className="nsum">KT가 2026 국가서비스대상 통신 멤버십 부문 대상 수상을 기념해 고객 참여형 이벤트를 진행합니다. 7월 2일~14일 KT멤버십 앱 내 취향 밸런스 게임으로 다이소 금액권·외식 할인 쿠폰 증정, 추첨 시 프리미엄 숙박권도 제공. 7월 1~15일 고객 보답 프로그램으로 배스킨라빈스 50%, 쇼핑라운지 5천원 할인 중 선택. 달달혜택은 폴바셋·크리스탈 제이드·VIPS·도미노피자·메가MGC커피 등 일상 활용도 높은 브랜드 구성.</div>
-            <div className="nmeta">2026-06-30 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19198" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">KT, 장기고객 문화혜택 확대, 뮤지컬 그날들 1천200명 초청</span></div>
-            <div className="nsum">KT 장기 고객(모바일·인터넷·TV 합산 5년 이상)을 위한 뮤지컬 '그날들' 7월 25일 공연 1,200명 초청 이벤트. 엄기준·윤시윤 출연 작품. 네컷 스티커 촬영·SNS 이벤트 병행. KT 위즈파크 '캠핑존 초대드림'도 운영 — 야구장 내 캐핑과 경기 관람 동시 즐기기.</div>
-            <div className="nmeta">2026-06-19 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&datNo=19184" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 월드컵 시즌 맞아 6월 멤버십 강화 — GS25 컵라면/던킨 50%, 쇼핑·문화 최대 50% 할인</span></div>
-            <div className="nsum">KT멤버십이 2026 FIFA 월드컵 시즌을 맞아 6월 16~30일 고객보답 프로그램 강화. GS25 컵라면·디저트 50%(최대 1,900원) 또는 던킨 전 품목 50%(최대 6,000원) 중 선택. 달달혜택은 VIPS 채끝스테이크 무료, 배민·노모어피자 최대 1만원 할인, 공차·버거킹 50%, 롯데시네마 영화표 제공. 문화혜택으로 뮤지컬·전시 최대 50% 할인.</div>
-            <div className="nmeta">2026-06-15 · <a href="https://www.etoday.co.kr/news/view/2593577" target="_blank" rel="noreferrer">이투데이</a></div>
-          </div>
         </div>
       )}
 
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">넉넉한 한가위, 마음도 혜택도 풍성한 9월 유플투쁠</span></span></div>
-            <div className="nsum"><span className="upd">9월 유플투쁠은 추석 연휴를 맞아 식음료(9/8 피자헛 프리미엄 55% 할인·9/14 공차 50% 할인·9/22 배스킨라빈스), 문화·여가(CGV·오션월드·여기어때 할인·9/14~18 컬처 기간 전시·박물관 할인), 쇼핑·생활(컬리·다이소·스파오·사조몰) 혜택을 제공합니다. U+one 앱 오전 11시 유플투쁠 타임에서 선착순 이용 가능.</span></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">넉넉한 한가위, 마음도 혜택도 풍성한 9월 유플투쁠</span></div>
+            <div className="nsum">9월 유플투쁠은 추석 연휴를 맞아 식음료(9/8 피자헛 프리미엄 55% 할인·9/14 공차 50% 할인·9/22 배스킨라빈스), 문화·여가(CGV·오션월드·여기어때 할인·9/14~18 컬처 기간 전시·박물관 할인), 쇼핑·생활(컬리·다이소·스파오·사조몰) 혜택을 제공합니다. U+one 앱 오전 11시 유플투쁠 타임에서 선착순 이용 가능.</div>
             <div className="nmeta">2026-09-01 · <a href="https://news.lguplus.com/22736" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">
