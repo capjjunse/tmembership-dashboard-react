@@ -108,7 +108,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 횟수·한도 조정 (9.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 56%·부정 33%·중립 11%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 58%·부정 32%·중립 10%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>T day "던킨·공차 VIP만 주네 — 알뜰폰 갈게요" 불만 (9.2)</div>
           </a>
 

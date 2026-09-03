@@ -84,6 +84,56 @@ const compGroups = [
         basis: { skt: '삼각김밥 50% (7종 택1)', lgu: '장기고객 3천원 할인', gap: '단품 vs 구매범위' },
         note: { skt: '9.7~9.11', lgu: '9.24' },
       },
+      {
+        brand: '백미당',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '아이스크림 1+1' }], date: 'T day · 9.7~9.11' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '아이스크림 40% 할인+미니컵 증정' }], date: '투쁠 2차 · 9.10' },
+        v: 'neut',
+        basis: { skt: '아이스크림 1+1', lgu: '아이스크림 40% 할인+미니컵', gap: '동급 — 구성 상이' },
+        note: { skt: '9.7~9.11', lgu: '9.10' },
+      },
+      {
+        brand: '그리팅',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '5만원 이상 구매 시 2만원 할인' }], date: 'T day · 9.7~9.11' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: '투쁠 5차 · 9.16' },
+        v: 'neut',
+        basis: { skt: '5만원↑ 2만원 할인', lgu: '5.5만원↑ 2만원 할인', gap: 'SKT 조건 소폭 유리' },
+        note: { skt: '9.7~9.11', lgu: '9.16' },
+      },
+      {
+        brand: '아워홈몰',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '5만원 이상 구매 시 50% 할인 (최대 2.5만원)' }], date: 'T day · 9.7~9.11' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '5만원 이상 구매 시 20% 할인 (최대 2만원)' }], date: '투쁠 4차 · 9.15' },
+        v: 'good',
+        basis: { skt: '5만원↑ 50% 할인 최대 2.5만원', lgu: '5만원↑ 20% 할인 최대 2만원', gap: 'SKT 30%p 우위' },
+        note: { skt: '9.7~9.11', lgu: '9.15' },
+      },
+      {
+        brand: '투루카',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '카셰어링 70% 할인' }], date: 'T day · 9.7~9.11' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '카셰어링 최대 1.6만원 할인 (6시간 이상)' }], date: '투쁠 5차 · 9.16' },
+        v: 'neut',
+        basis: { skt: '카셰어링 70% 할인', lgu: '카셰어링 1.6만원 할인 (6시간↑)', gap: '비율/정액 비교 불가' },
+        note: { skt: '9.7~9.11', lgu: '9.16' },
+      },
+      {
+        brand: 'CGV',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '8,500원 예매+매점쿠폰 2종' }], date: 'T day · 9.7~9.11' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 세트 무료' }], date: '투쁠 7차 · 9.18' },
+        v: 'good',
+        basis: { skt: '8,500원 예매+매점쿠폰 2종', lgu: '팝콘+음료 세트 무료', gap: 'SKT 예매+스낵 우위' },
+        note: { skt: '9.7~9.11', lgu: '9.18' },
+      },
     ],
   },
   {
@@ -441,7 +491,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer"><span className="upd">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11)·LGU+ 투쁠 1~8차+컬쳐데이+유쓰·장기고객데이 공개·KT 달달혜택 공개 확인·3사 겹침 없음)</span></div>
+          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11) · LGU+ 투쁠 1~8차+컬쳐데이+유쓰+장기고객데이 · KT 달달혜택 공개 · skt-lgu 10종 확인)</div>
         </div>
       </div>
 
