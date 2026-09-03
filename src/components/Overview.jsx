@@ -116,6 +116,7 @@ export default function Overview() {
           <a href="#rg" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>롯데월드 혜택 개편 (본인 40%·동반 3인 30% 할인)</div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">CU 아침 간편식류 1,000원당 200원 할인</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">달달혜택 (9.1~9.30, 쇼핑라운지·롯데마트·bhc·버거킹 4종)</span></div>
@@ -133,6 +134,7 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">CGV 2D영화 최대 5,000원 할인</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>유플투쁠 8차 전체 공개 (9.8~9.22, 40+브랜드)</div>

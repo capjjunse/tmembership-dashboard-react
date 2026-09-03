@@ -23,7 +23,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>CGV</td><td><G t="[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)"/></td><td><G t="[전 등급] 최대 5,000원 할인 (동반 4인)"/></td><td><G t="[전 등급] 최대 5,000원 할인"/></td></tr>
+          <tr><td>CGV</td><td><G t="[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)"/></td><td><G t="[전 등급] 최대 5,000원 할인 (동반 4인)"/></td><td>[전 등급] <span className="upd">2D영화 최대 5,000원 할인</span></td></tr>
           <tr><td>메가박스</td><td><G t="[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)"/></td><td><G t="[전 등급] 최대 6,000원 할인 (동반 4인)"/></td><td className="na">미제공</td></tr>
           <tr><td>롯데시네마</td><td className="na">미제공</td><td><G t="[전 등급] 최대 5,000원 할인"/></td><td className="na">미제공</td></tr>
         </tbody>
@@ -57,7 +57,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>에버랜드</td><td><G t="[전 등급] 본인 40%·동반 3인 30% 할인"/></td><td><G t="[전 등급] 본인 40%·동반 3인 20% 할인"/></td><td className="na">미제공</td></tr>
-          <tr><td>롯데월드 어드벤처</td><td><G t="[VIP/Gold] 본인 40%·동반 3인 30% 할인 · [Silver] 본인 40%·동반 3인 20% 할인"/></td><td><span className="upd">[전 등급] 본인 40%·동반 3인 30% 할인</span></td><td>[전 등급] 부산점 본인 25%·동반 3인 10% 할인<br/>[전 등급] 아쿠아리움 30% 할인 (동반 3인까지)<br/>[전 등급] 아이스링크 50% 할인 (동반 1인까지)</td></tr>
+          <tr><td>롯데월드 어드벤처</td><td><G t="[VIP/Gold] 본인 40%·동반 3인 30% 할인 · [Silver] 본인 40%·동반 3인 20% 할인"/></td><td>[전 등급] 본인 40%·동반 3인 30% 할인</td><td>[전 등급] 부산점 본인 25%·동반 3인 10% 할인<br/>[전 등급] 아쿠아리움 30% 할인 (동반 3인까지)<br/>[전 등급] 아이스링크 50% 할인 (동반 1인까지)</td></tr>
         </tbody>
       </table></div>
 
@@ -121,8 +121,8 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
-          <tr><td>GS25</td><td><G t="[전 등급] 매주 화요일 신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)"/></td><td><G t="[VVIP/VIP/골드] 100원 할인 · [일반] 50원 할인 (일 최대 2만원)"/></td><td><G t="[VVIP/VIP] 100원 할인 · [우수] 50원 할인"/></td></tr>
-          <tr><td>CU</td><td><G t="[VIP/Gold] 100원 할인 · [Silver] 50원 할인"/></td><td><G t="[전 등급] 오전5~9시 간편식 1,000원당 200원 할인 (일1회, 최대 1,000원)"/></td><td className="na">미제공</td></tr>
+          <tr><td>GS25</td><td><G t="[전 등급] 매주 화요일 신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)"/></td><td>[VVIP/VIP/골드] 100원 할인<br/>[일반] <span className="upd">50원 할인</span></td><td><G t="[VVIP/VIP] 100원 할인 · [우수] 50원 할인"/></td></tr>
+          <tr><td>CU</td><td><G t="[VIP/Gold] 100원 할인 · [Silver] 50원 할인"/></td><td>[전 등급] <span className="upd">아침 간편식류 1,000원당 200원 할인</span></td><td className="na">미제공</td></tr>
           <tr><td>세븐일레븐</td><td><G t="[VIP/Gold] 100원 할인 · [Silver] 50원 할인"/></td><td className="na">미제공</td><td className="na">미제공</td></tr>
         </tbody>
       </table></div>
