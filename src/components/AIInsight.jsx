@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.03';
+const RADAR_SCANNED = '2026.09.07';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -167,7 +167,7 @@ const alCats = [
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
-    updated: true,
+    updated: false,
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
       { partner: '에버랜드', deadline: '상시', rows: [
@@ -188,7 +188,7 @@ const alCats = [
   },
   {
     icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
-    updated: true,
+    updated: false,
     nb: [{ platform: '네이버플러스', items: [
       { partner: '쏘카', deadline: '상시', rows: [{ grade: null, desc: '시간대 요금 50% 할인' }] },
     ]}],
@@ -264,7 +264,7 @@ const alCats = [
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
-    updated: true,
+    updated: false,
     nb: [{ platform: '네이버플러스', items: [
       { partner: '롯데시네마', deadline: '월 4회 · ~26.12.31', rows: [{ grade: null, desc: '최대 5천원 + 콤보 3천원 할인' }] },
     ]}],
@@ -308,35 +308,33 @@ const alVdLabel = { warn: 'T멤버십 열위', good: 'T멤버십 우위', neut: 
 export const recs = [
   {
     rank: 1,
-    brand: '설빙',
-    updated: false,
-    tag: '매장 606개 · DataLab →1.01',
-    reason: '아이스디저트 카테고리 1위 · 전국 606개. 태국·미국 해외 확장 가속. Tday 6개월 공백. 7월 위생 재논란 — 브랜드 신뢰 모니터링 국면.',
+    brand: '봉구스밥버거',
+    updated: true,
+    tag: '매장 488개 · DataLab →0.98',
+    reason: '밥버거 카테고리 1위 브랜드 · 전국 488개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 606개 · 아이스디저트 카테고리 1위' },
-      { label: '검색 버즈', text: 'DataLab →1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건 — 여름 시즌·해외 확장 버즈' },
-      { label: '제휴 포인트', text: '태국·미국 해외 확장 지속 · Tday 공백 6개월 · 7월 위생 재논란 — 브랜드 신뢰 회복 모니터링' },
+      { label: '매장 규모', text: '전국 488개 · 밥버거 카테고리 1위 (점포 수 감소 추세 — 브랜드 규모 축소 진행 중)' },
+      { label: '검색 버즈', text: 'DataLab →0.98 · 블로그 1만 · 뉴스 4건 — 저버즈 구간, 시즌 이슈 없음' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 밥버거 카테고리 공백 — 창업주 마약·갑질 이슈(2024) · 점포 급감 이력 — 브랜드 리스크 선검토 필요' },
     ],
-    trend: 'DataLab 1.01 · 블로그 21만 · 카페 9만 · 뉴스 100건',
-    hot: true,
-    skt: [
-      { prog: 'Tday', active: false, last: '2026.03', gap: '6개월 공백' },
-    ],
+    trend: 'DataLab 0.98 · 블로그 1만 · 뉴스 4건',
+    hot: false,
+    skt: [],
     kt:  null,
     lgu: null,
   },
   {
     rank: 2,
-    brand: '노모어피자',
+    brand: '60계치킨',
     updated: true,
-    tag: '매장 215개 · DataLab 📈1.18',
-    reason: '저단가 피자 포지션으로 피자헛·도미노와 차별화. 전지현·레이먼킴 콜라보 인지도 확장 중. 치즈 재응고 논란(2026.04~05) 이후 신뢰 회복 모니터링 국면. SKT 미참여.',
+    tag: '매장 628개 · DataLab →0.96',
+    reason: '치킨 카테고리 중견 브랜드 · 전국 628개. 배민 픽업 전용 메뉴 출시로 배달 플랫폼 시너지 강화. 뉴스 버즈 82건으로 카테고리 내 주목도 상승. SKT·KT·LGU+ 3사 모두 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 215개 · 피자 카테고리 저단가 포지션 (피자헛·도미노 대비 접근성 우위)' },
-      { label: '검색 버즈', text: 'DataLab 📈1.18 · 블로그 4.7만 · 뉴스 54건 — 전지현 모델·레이먼킴 신메뉴 콜라보 버즈' },
-      { label: '제휴 포인트', text: 'SKT 미참여 · 저단가 피자 세분 시장 공백 — 치즈 재응고 논란 반복(2026.04~05), 브랜드 신뢰도 모니터링 후 접근 필요' },
+      { label: '매장 규모', text: '전국 628개 · 치킨 카테고리 중견 브랜드 (양념·후라이드 균형 라인업)' },
+      { label: '검색 버즈', text: 'DataLab →0.96 · 블로그 4만 · 뉴스 82건 — 배민 픽업 메뉴 출시·히트상품 수상 버즈' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 상시 공백 — 2025년 공정위 가맹 갑질 시정명령 이력, 신뢰도 모니터링' },
     ],
-    trend: 'DataLab 1.18 · 블로그 4.7만 · 뉴스 54건',
+    trend: 'DataLab 0.96 · 블로그 4만 · 뉴스 82건',
     hot: true,
     skt: [],
     kt:  null,
@@ -344,17 +342,17 @@ export const recs = [
   },
   {
     rank: 3,
-    brand: '60계치킨',
+    brand: '엽기떡볶이',
     updated: true,
-    tag: '매장 627개 · DataLab →0.91',
-    reason: '치킨 카테고리 중견 브랜드 · 전국 627개. 크크크치킨 2년 연속 네이버 검색 1위 · 배민 픽업 전용 메뉴 출시로 배달 플랫폼 시너지 확인. SKT·KT·LGU+ 3사 모두 미참여.',
+    tag: '매장 730개 · DataLab →1.00',
+    reason: '분식 카테고리 1위 브랜드 · 전국 730개. 올해의 브랜드 대상 10년 연속 수상(2026.09.01). 2024년 매출 1230억·영업이익 51억 사상 최대. 위생 위반 이력(5년간 90건) 모니터링 필요. SKT 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 627개 · 치킨 카테고리 중견 브랜드 (양념·후라이드 균형 라인업)' },
-      { label: '검색 버즈', text: 'DataLab →0.91 · 블로그 4만 · 뉴스 74건 — 배민 픽업 메뉴 출시·히트상품 수상 버즈' },
-      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 상시 공백 — 2025년 공정위 가맹 갑질 시정명령 이력, 신뢰도 모니터링' },
+      { label: '매장 규모', text: '전국 730개 · 분식 카테고리 1위 (떡볶이 부문 브랜드 대상 10년 연속)' },
+      { label: '검색 버즈', text: 'DataLab →1.00 · 블로그 10만 · 뉴스 52건 — 올해의 브랜드 대상 수상·가격 인상 예고 버즈' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 분식 카테고리 공백 — 2024년 매출 사상 최대(1230억) · 위생 위반 이력(5년간 90건) 모니터링' },
     ],
-    trend: 'DataLab 0.91 · 블로그 4만 · 뉴스 74건',
-    hot: false,
+    trend: 'DataLab 1.00 · 블로그 10만 · 뉴스 52건',
+    hot: true,
     skt: [],
     kt:  null,
     lgu: null,
@@ -629,7 +627,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.03</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.07</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

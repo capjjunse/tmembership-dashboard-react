@@ -16,12 +16,12 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 6,
+    news7d: 5,
     negScore: 970,
     headline: [
       '2Q 영업손실 184억 · 27년 만에 첫 분기 적자',
       '탱크데이 수사 계속 · 본사 압수수색',
-      '서머 프리퀀시 취소 · 신뢰회복 우선',
+      '3Q 마케팅 재개 · 탈벅 기조 변화',
     ],
     impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT 미운영 · 2Q 영업손실 184억(27년 만에 첫 분기 적자) — 탱크데이 수사 지속',
     links: [
@@ -32,7 +32,7 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
@@ -41,11 +41,11 @@ export const trendSignals = [
     news7d: 12,
     negScore: 180,
     headline: [
-      '해태HTB 인수 추진 · 음료 사업 확장',
-      '괴담 마케팅 · SNS 490만회 조회',
+      '브랜드평판 9월 1위 · 지수 16%↑',
+      '하우스밀크 라떼 · 가을 신메뉴 출시',
       '이용률 71.0% · 스타벅스 추월 달성',
     ],
-    impact: '3사 미운영 · 결제액 스타벅스 94.9% 추격 · 이용률 1위 달성 — 브랜드 흥행세 확대',
+    impact: '3사 미운영 · 브랜드평판 9월 1위(지수 16%↑) · 이용률 1위 달성 — 흥행세 지속',
     links: [
       { label: '결제액 스타벅스 94.9%·이용률 추월 (머니투데이)', url: 'https://www.mt.co.kr/living/2026/08/22/2026082011025549638' },
     ],
@@ -119,9 +119,9 @@ export const trendSignals = [
     headline: [
       '2Q 흑자전환 · 영업이익 115억',
       '귀향 6곳 · 상영관 선택권 논란',
-      '씨집에 가면 9월 · LCK 생중계',
+      '파묘 SCREENX 재개봉 · COD-7 론칭',
     ],
-    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 씨집에 가면 9월 라인업 공개 · LCK 플레이오프 생중계(9.5~9.13)',
+    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 파묘 SCREENX 재개봉(9.3) · COD-7 관객주문 상영 론칭',
     links: [
       { label: 'CGV 2Q 흑자전환 · 영업이익 115억 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608071704003/' },
       { label: '귀향 6곳 상영 · 선택권 논란 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608272024003/' },
