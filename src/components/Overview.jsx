@@ -100,15 +100,15 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">Week 혜택 오픈 (9.7~9.11, VIPS·에버랜드 등 20종)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>Week 혜택 오픈 (9.7~9.11, VIPS·에버랜드 등 20종)</div>
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>Young week 오픈 (9.7~9.11, 백억커피·할리스 등 11종)</div>
           </a>
           <a href="#hs" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 횟수·한도 조정 (9.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 58%·부정 32%·중립 10%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 58%·부정 32%·중립 10%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>T day "던킨·공차 VIP만 주네 — 알뜰폰 갈게요" 불만 (9.2)</div>
           </a>
 
@@ -116,11 +116,11 @@ export default function Overview() {
           <a href="#rg" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>롯데월드 혜택 개편 (본인 40%·동반 3인 30% 할인)</div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">CU 아침 간편식류 1,000원당 200원 할인</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em>CU 아침 간편식류 1,000원당 200원 할인</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">달달혜택 (9.1~9.30, 쇼핑라운지·롯데마트·bhc·버거킹 4종)</span></div>
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">문화혜택 (9.1~, 뮤지컬 2종·전시 2종 최대 50%)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달혜택 (9.1~9.30, 쇼핑라운지·롯데마트·bhc·버거킹 4종)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>문화혜택 (9.1~, 뮤지컬 2종·전시 2종 최대 50%)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>도미노피자 변경 예정 (9.1~)</div>
@@ -134,7 +134,7 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
           <a href="#rg" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">CGV 2D영화 최대 5,000원 할인</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em>CGV 2D영화 최대 5,000원 할인</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>유플투쁠 8차 전체 공개 (9.8~9.22, 40+브랜드)</div>
@@ -155,10 +155,10 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">KT 달달 공개 · SKT↔LGU+ 5종 비교</span></div>
+              <div className="ovki-title"><span className="upd">SKT↔LGU+ 10종 비교 · 노브랜드·아워홈몰·CGV 우위</span></div>
               <ul className="ovki-list">
-                <li>T day·Young week × 투쁠 5종 비교 — 노브랜드 SKT 우위</li>
-                <li><span className="upd">KT 달달혜택 공개 — SKT·KT·LGU+ 겹침 없음</span></li>
+                <li><span className="upd">T day·Young week × 투쁠 10종 비교 — 3종 SKT 우위</span></li>
+                <li>KT 달달혜택 — SKT·KT·LGU+ 겹침 없음</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>
