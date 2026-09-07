@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -32,7 +32,7 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
@@ -104,7 +104,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -150,6 +150,28 @@ export const trendSignals = [
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 8.25 127종 5% 인상 완료 · 11종 가격인하 병행 — 제휴 할인 실질 가치 하락 우려',
     links: [
       { label: '파리바게뜨 127종 5% 가격 인상 (파이낸셜뉴스)', url: 'https://www.fnnews.com/news/202608140929499623' },
+    ],
+  },
+  {
+    brand: '엽기떡볶이',
+    membership: 'candidate',
+    updated: true,
+    telcos: [],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'pos',
+    dlSpike: null,
+    news7d: 28,
+    negScore: 150,
+    headline: [
+      '브랜드 대상 10년 연속 수상(9.1)',
+      '수상 기념 고객 감사 이벤트 실시',
+      '위생 위반 이력 · 가맹갑질 모니터링',
+    ],
+    impact: '3사 미운영 · 올해의 브랜드 대상 10년 연속 수상(9.1) — 분식 카테고리 1위, SKT 제휴 공백',
+    links: [
+      { label: '브랜드 대상 10년 연속 수상 (한국경제)', url: 'https://www.hankyung.com/article/202609027952H' },
+      { label: '수상 기념 고객 감사 이벤트 (포브스코리아)', url: 'https://www.forbeskorea.co.kr/news/articleView.html?idxno=402503' },
     ],
   },
 ];

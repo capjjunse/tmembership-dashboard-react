@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.07';
+const RADAR_SCANNED = '2026.09.08';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -309,7 +309,7 @@ export const recs = [
   {
     rank: 1,
     brand: '봉구스밥버거',
-    updated: true,
+    updated: false,
     tag: '매장 488개 · DataLab →0.98',
     reason: '밥버거 카테고리 1위 브랜드 · 전국 488개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
     reach: [
@@ -326,7 +326,7 @@ export const recs = [
   {
     rank: 2,
     brand: '60계치킨',
-    updated: true,
+    updated: false,
     tag: '매장 628개 · DataLab →0.96',
     reason: '치킨 카테고리 중견 브랜드 · 전국 628개. 배민 픽업 전용 메뉴 출시로 배달 플랫폼 시너지 강화. 뉴스 버즈 82건으로 카테고리 내 주목도 상승. SKT·KT·LGU+ 3사 모두 미참여.',
     reach: [
@@ -343,7 +343,7 @@ export const recs = [
   {
     rank: 3,
     brand: '엽기떡볶이',
-    updated: true,
+    updated: false,
     tag: '매장 730개 · DataLab →1.00',
     reason: '분식 카테고리 1위 브랜드 · 전국 730개. 올해의 브랜드 대상 10년 연속 수상(2026.09.01). 2024년 매출 1230억·영업이익 51억 사상 최대. 위생 위반 이력(5년간 90건) 모니터링 필요. SKT 미참여.',
     reach: [
@@ -627,7 +627,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.07</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.08</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
