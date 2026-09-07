@@ -52,6 +52,13 @@ export default function History() {
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
+            <td>2026.09.30</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T 멤버십 상시</td>
+            <td><span className="upd">루덴시아 제휴 종료 예정 (9.30)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
             <td>2026.09.16</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>

@@ -100,12 +100,12 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em>Week 혜택 오픈 (9.7~9.11, VIPS·에버랜드 등 20종)</div>
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em>Young week 오픈 (9.7~9.11, 백억커피·할리스 등 11종)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">Week 혜택 진행중 (9.7~9.11, VIPS·에버랜드 등 20종)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">Young week 진행중 (9.7~9.11, 백억커피·할리스 등 11종)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
+            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">루덴시아 제휴 종료 예정 (9.30)</span></div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 횟수·한도 조정 (9.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 58%·부정 32%·중립 10%</div>
@@ -155,9 +155,9 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">SKT↔LGU+ 10종 비교 · 노브랜드·아워홈몰·CGV 우위</span></div>
+              <div className="ovki-title">SKT↔LGU+ 10종 비교 · 노브랜드·아워홈몰·CGV 우위</div>
               <ul className="ovki-list">
-                <li><span className="upd">T day·Young week × 투쁠 10종 비교 — 3종 SKT 우위</span></li>
+                <li>T day·Young week × 투쁠 10종 비교 — 3종 SKT 우위</li>
                 <li>KT 달달혜택 — SKT·KT·LGU+ 겹침 없음</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
