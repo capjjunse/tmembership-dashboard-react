@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (<span className="upd">2026.09.03 갱신</span>)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (<span className="upd">2026.09.07 갱신</span>)</span>
 
       </div>
       <div className="tr2">
@@ -86,7 +86,7 @@ export default function Sentiment() {
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw1' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">성시경 비빔밥 도시락 — T멤버십 + 농협카드 결제시 25%할인으로 3200원에 구매ㅋㄷ (편의점 갤)</span></div><div className="rsrc"><span className="upd">2026.09.02</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">성시경 비빔밥 도시락 — T멤버십 + 농협카드 결제시 25%할인으로 3200원에 구매ㅋㄷ (편의점 갤)</div><div className="rsrc">2026.09.02</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">야심한 밤에 SKT 쓰는놈들 스라(스카이라이너) 50%할인 받아라 — "인당 최대 8매 구매 가능" / 댓글: "아 가격좋은데..." / "버스보다 싸고 빠른데" (러브라이브 선샤인 갤)</div><div className="rsrc">2026.09.02 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=sunshine&no=6652729" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T멤버쉽 10퍼 할인 1만원 제한 걸린거 짜치넹 — "10퍼 나름 쏠쏠했는데" (컴투스프로야구 갤)</div><div className="rsrc">2026.08.27</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">더쿠</span></div><div className="rtx">파바 슈퍼쏠 결제 전에 티멤할인 되나?? — "중복할인 안된대~" (덬딜)</div><div className="rsrc">2026.08.26</div></div>
@@ -132,7 +132,7 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw4' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">비싸다는 새끼들아 우주패스 쓰라고 T멤버쉽쓰라고 카드혜택쓰라고 병신들아 호구새끼아니노 (편의점 갤)</span></div><div className="rsrc"><span className="upd">2026.09.01</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">비싸다는 새끼들아 우주패스 쓰라고 T멤버쉽쓰라고 카드혜택쓰라고 병신들아 호구새끼아니노 (편의점 갤)</div><div className="rsrc">2026.09.01</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">올!영 픽업주문 존나 좋다 진짜 T우주패스 올 영 쿠폰 쓰고 CJONE 적립에 금액권까지 쓰고 자체할인이랑 할쿠 먹여서 거의 40% 가격에삿는데.. (빌보드 갤)</div><div className="rsrc">2026.08.31</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">SKT VIP PLUS 5천원 할인 있음 — "t 멤버십 어플에서 vip plus 혜택으로 있음. 매잘 vip 혜택 횟수 차감에서 제외라 skt 쓰면 이거 고려해보셈 30% 할인에 최대 5천원임" (카론유니버스W)</div><div className="rsrc">2026.08.27</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T우주패스 쓰레기네 — "1개월 1번 구독하던 걸 1만원에 해야 되는데 유튜브 프리미엄 라이트 쌩 가격이 8500원인데 우주패스 할인보면 7900원이고 이상한 거 껴서 1만원 받아 처먹는 게 유튜브가 비싸진 게 아니라 편의점&카페가 비싸진 거" (판타지 갤)</div><div className="rsrc">2026.08.10</div></div>
@@ -151,9 +151,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '38%' }}>긍정 38%</div>
-              <div className="rbs rn" style={{ width: '56%' }}>부정 56%</div>
-              <div className="rbs ru" style={{ width: '6%' }}>중립 6%</div>
+              <div className="rbs rp" style={{ width: '42%' }}><span className="upd">긍정 42%</span></div>
+              <div className="rbs rn" style={{ width: '53%' }}><span className="upd">부정 53%</span></div>
+              <div className="rbs ru" style={{ width: '5%' }}><span className="upd">5%</span></div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -184,7 +184,9 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw2' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">혹시 kt쓰는 위붕이중에 롯마에서 술쇼핑할사람 — Kt 달달혜택에 5처넌 쿠폰 있으니까 알뜰한 술구매 ㄱㄱ (위스키 갤)</span></div><div className="rsrc"><span className="upd">2026.09.02</span></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx"><span className="upd">KT달달혜택으로 다이소(롯데마트) 쇼핑했네요 — 롯데마트 내 다이소에서 달달혜택 5천원권 3장 사용 / 댓글: "오 롯데마트 다이소에서도 사용되는가보네요 저도 오늘가는데 감사합니다" / "아하 다이소를 이용하는 방법이 있었네요! 정보 감사합니다~"</span></div><div className="rsrc">2026.09.05 · <a href="https://cafe.naver.com/postmore/92602" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx"><span className="upd">KT 달달혜택 좋아요~~~ — BHC 달달혜택 수령 / 댓글: "kt 부럽.. sk 반성하자 ㅜㅜ"</span></div><div className="rsrc">2026.09.04 · <a href="https://cafe.naver.com/chch6534/1315245" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">혹시 kt쓰는 위붕이중에 롯마에서 술쇼핑할사람 — Kt 달달혜택에 5처넌 쿠폰 있으니까 알뜰한 술구매 ㄱㄱ (위스키 갤)</div><div className="rsrc">2026.09.02</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">달달혜택 쿠폰받아라 — 롯데마트 기프티콘 5천원 받았다 딱 5000원짜리사도 되고 돈보태서 목살이나 사서 구워먹을 생각이다 (아싸! 갤)</div><div className="rsrc">2026.09.02 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=assagall&no=20706" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">Kt 달달혜택 빠르게 쓰고 온 후기 — 치킨 한마리에 소주 두병 저녁해결 / 댓글: "오 저도 치킨사러갑니다!! 대박쓰" / "그나마 젤 나은 달달이에요" (꿀통)</div><div className="rsrc">2026.09.01 · <a href="https://cafe.naver.com/postmore/91644" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">더쿠</span></div><div className="rtx">kt 달달 롯데마트 5천원 있다 케멤페 달달 혜택 선착순 7만명이라 빡세지는 않은데 어느새 끝나더라고 (덬딜)</div><div className="rsrc">2026.09.01 · <a href="https://theqoo.net/theqdeal/4331651479" target="_blank" rel="noreferrer">원문 보기</a></div></div>

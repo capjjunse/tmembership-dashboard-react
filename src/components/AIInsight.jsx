@@ -86,7 +86,7 @@ const compGroups = [
       },
       {
         brand: '백미당',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '아이스크림 1+1' }], date: 'T day · 9.7~9.11' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '아이스크림 40% 할인+미니컵 증정' }], date: '투쁠 2차 · 9.10' },
@@ -96,7 +96,7 @@ const compGroups = [
       },
       {
         brand: '그리팅',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '5만원 이상 구매 시 2만원 할인' }], date: 'T day · 9.7~9.11' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '2만원 할인 (5.5만원 이상 구매 시)' }], date: '투쁠 5차 · 9.16' },
@@ -106,7 +106,7 @@ const compGroups = [
       },
       {
         brand: '아워홈몰',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '5만원 이상 구매 시 50% 할인 (최대 2.5만원)' }], date: 'T day · 9.7~9.11' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '5만원 이상 구매 시 20% 할인 (최대 2만원)' }], date: '투쁠 4차 · 9.15' },
@@ -116,7 +116,7 @@ const compGroups = [
       },
       {
         brand: '투루카',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '카셰어링 70% 할인' }], date: 'T day · 9.7~9.11' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '카셰어링 최대 1.6만원 할인 (6시간 이상)' }], date: '투쁠 5차 · 9.16' },
@@ -126,7 +126,7 @@ const compGroups = [
       },
       {
         brand: 'CGV',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '8,500원 예매+매점쿠폰 2종' }], date: 'T day · 9.7~9.11' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 세트 무료' }], date: '투쁠 7차 · 9.18' },
