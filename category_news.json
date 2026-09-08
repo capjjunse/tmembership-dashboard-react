@@ -1,74 +1,40 @@
 {
-  "generated_at": "2026.09.08 05:51",
-  "total_collected": 1028,
-  "total_valid": 511,
-  "total_skipped": 371,
-  "total_top": 26,
+  "generated_at": "2026.09.09 05:55",
+  "total_collected": 947,
+  "total_valid": 520,
+  "total_skipped": 308,
+  "total_top": 25,
   "topic_groups": [
-    {
-      "category": "risk",
-      "topic": "스타벅스 레시피 변경 논란",
-      "insight": "음료 레시피 개변으로 고객 반발, 브랜드 신뢰도 영향",
-      "signal_strength": 3,
-      "max_velocity": -0.0,
-      "articles": [
-        {
-          "title": "&quot;원래 '차이' 맛으로 돌려놔라&quot;…스타벅스, 레시피 바꾸다 역풍",
-          "link": "https://www.hankyung.com/article/2026090794251",
-          "pub_date": "2026.09.07",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -0.0
-        },
-        {
-          "title": "&quot;스타벅스 무슨일이야&quot; 투썸에 1위 내주더니 그 후",
-          "link": "https://www.dailian.co.kr/news/view/1686671/?sc=Naver",
-          "pub_date": "2026.09.04",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -0.0
-        }
-      ],
-      "is_new": true
-    },
     {
       "category": "battle",
       "topic": "카카오 통합 멤버십 출시",
-      "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
+      "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
       "signal_strength": 2,
-      "max_velocity": -2.7,
+      "max_velocity": 0.0,
       "articles": [
-        {
-          "title": "카카오, 통합 멤버십 준비…계열사 서비스 묶나",
-          "link": "https://www.etnews.com/20260902000335",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -28.7
-        },
-        {
-          "title": "카카오, 멤버십 출시 예고…네이버 경쟁 불가피",
-          "link": "https://www.g-enews.com/view.php?ud=2026090709113544663d7a510102_1",
-          "pub_date": "2026.09.07",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -2.7
-        },
         {
           "title": "톡 하나로 택시·음악·쇼핑 다 묶는다…카카오 멤버십, 내달 출격",
           "link": "https://www.newsis.com/view/NISX20260902_0003772464",
           "pub_date": "2026.09.02",
           "priority": 3,
           "cross_query_count": 2,
-          "datalab_velocity": -2.7
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "카카오, 통합 멤버십 준비…계열사 서비스 묶나",
+          "link": "https://www.etnews.com/20260902000335",
+          "pub_date": "2026.09.02",
+          "priority": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": -10.2
         },
         {
           "title": "카카오톡·택시·웹툰·선물하기 연계한 ‘유료 멤버십’ 나온다…계열...",
           "link": "https://www.seoul.co.kr/news/economy/industry/2026/09/02/20260902500275?wlog_tag3=naver",
           "pub_date": "2026.09.02",
           "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -28.7
+          "cross_query_count": 2,
+          "datalab_velocity": -10.2
         },
         {
           "title": "카톡·택시·멜론·쇼핑 한 번에…카카오, 서비스 묶은 유료 멤버십 추...",
@@ -76,7 +42,7 @@
           "pub_date": "2026.09.02",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -28.7
+          "datalab_velocity": -10.2
         },
         {
           "title": "카카오, 유료 멤버십 서비스 추진",
@@ -84,7 +50,31 @@
           "pub_date": "2026.09.02",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -28.7
+          "datalab_velocity": -10.2
+        },
+        {
+          "title": "국민 앱 카톡도 '구독제' 도입…카카오 멤버십, 새 수익원 될까",
+          "link": "https://news.tf.co.kr/read/economy/2361370.htm",
+          "pub_date": "2026.09.03",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -10.2
+        },
+        {
+          "title": "카카오 멤버십 출시 임박…선물하기·택시·음악 서비스 연계",
+          "link": "https://news.mtn.co.kr/news-detail/2026090214341552861",
+          "pub_date": "2026.09.02",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -10.2
+        },
+        {
+          "title": "카카오, 유료 멤버십 준비…선물하기·택시·음악 서비스 연계",
+          "link": "https://news.mtn.co.kr/news-detail/2026090214103723526",
+          "pub_date": "2026.09.02",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -10.2
         },
         {
           "title": "카톡·택시 서비스 묶나...카카오, 내달 통합 멤버십 출시",
@@ -92,290 +82,281 @@
           "pub_date": "2026.09.02",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -28.7
-        },
-        {
-          "title": "카카오 '그룹 통합' 유료 구독 서비스 10월 시작, 카톡·택시·웹툰·음...",
-          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=446250",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -28.7
-        },
-        {
-          "title": "5000만 카톡, '구독 경제' 승부수…카카오 멤버십 띄운다",
-          "link": "http://www.metroseoul.co.kr/article/20260903500201",
-          "pub_date": "2026.09.03",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -28.7
-        },
-        {
-          "title": "카카오, 통합 멤버십 시동… 계열사 서비스 묶는다",
-          "link": "https://www.asiatime.co.kr/article/20260902500345",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -28.7
+          "datalab_velocity": -10.2
         }
       ],
       "is_new": false
     },
     {
       "category": "benchmark",
-      "topic": "LGU+ 추석 멤버십 혜택 확대",
-      "insight": "LG유플러스가 추석 시즌 맞춰 쇼핑, 외식, 나들이 등 멤버십 혜택 확대",
-      "signal_strength": 1,
+      "topic": "스타벅스 라떼 위크 프로모션",
+      "insight": "스타벅스 시즌 한정 프로모션으로 최대 50% 할인 및 룰렛 이벤트 진행",
+      "signal_strength": 2,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "추석 장보기부터 가족 나들이까지…LG유플러스 멤버십 혜택 확대",
-          "link": "https://www.mk.co.kr/article/12145839",
+          "title": "스타벅스, '라떼 위크' 진행 최대 50% 할인",
+          "link": "http://www.metroseoul.co.kr/article/20260907500073",
           "pub_date": "2026.09.07",
           "priority": 2,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
         },
         {
-          "title": "쇼핑부터 나들이까지…LG유플러스, 추석 맞아 멤버십 혜택 확대",
-          "link": "https://www.dt.co.kr/article/12082564?ref=naver",
+          "title": "스타벅스, 14일간 '라떼 위크'…매일 룰렛 돌리면 최대 50% 할인",
+          "link": "https://www.imaeil.com/page/view/2026090709071924466",
+          "pub_date": "2026.09.07",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "스타벅스, 가을 라떼부터 추석 선물까지…‘혜택 마케팅’ 강화",
+          "link": "https://www.viva100.com/article/20260907500301",
+          "pub_date": "2026.09.07",
+          "priority": 1,
+          "cross_query_count": 3,
+          "datalab_velocity": 0.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "benchmark",
+      "topic": "맞춤형 구독 카드 출시",
+      "insight": "카드사들이 AI 구독, 라이프스타일 등 소비자 취향 맞춤형 카드 상품 확대",
+      "signal_strength": 1,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "AI 구독부터 마라톤까지… ‘취향 저격’하는 카드들",
+          "link": "https://www.chosun.com/economy/market_trend/2026/09/07/P53JNAR2WJA4VKYIAONJESBS4I/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
           "pub_date": "2026.09.07",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
         },
         {
-          "title": "“명절 장보기 부담 덜어드려요”…LG유플러스, 추석 맞이 멤버십 혜택...",
-          "link": "https://www.sportsseoul.com/news/read/1633319?ref=naver",
-          "pub_date": "2026.09.07",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "LG유플러스, 추석 맞아 멤버십 혜택 확대",
-          "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=663982",
-          "pub_date": "2026.09.07",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "LGU+, 추석 장보기 부담 낮춘다···쇼핑·외식 멤버십 혜택 확대",
-          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2467236",
-          "pub_date": "2026.09.07",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "LG유플러스, 추석 장보기부터 나들이까지…멤버십 혜택 강화",
-          "link": "https://www.cstimes.com/news/articleView.html?idxno=719582",
-          "pub_date": "2026.09.07",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "&quot;추석에 화담숲으로 가족나들이 어때요&quot; LG유플, 멤버십 혜택 확대",
-          "link": "https://www.catchnews.kr/news/articleView.html?idxno=128238",
-          "pub_date": "2026.09.07",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "추석 장보기부터 화담숲 초청까지…LG유플러스, 멤버십 혜택 확대",
-          "link": "https://www.businessplus.kr/news/articleView.html?idxno=116449",
-          "pub_date": "2026.09.07",
+          "title": "&quot;AI 구독부터 운영비까지&quot;…삼성카드, 맞춤형 BIZ 카드 출시",
+          "link": "http://www.globalepic.co.kr/view.php?ud=2026090813492345347cc35ccc5c_29",
+          "pub_date": "2026.09.08",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
         }
       ],
       "is_new": true
+    },
+    {
+      "category": "benchmark",
+      "topic": "추석 시즌 프로모션 경쟁",
+      "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
+      "signal_strength": 1,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "쿠쿠, 추석맞이 쇼핑대전 프로모션 진행",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=863074",
+          "pub_date": "2026.09.08",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "SK매직, 추석 앞두고 정수기 프로모션…구독료 할인·포인트 혜택",
+          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=134883",
+          "pub_date": "2026.09.07",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": -10.2
+        },
+        {
+          "title": "해수부, 추석명절 수산물 2.2만톤 공급…최대 50% 할인",
+          "link": "https://www.newspim.com/news/view/20260908000316",
+          "pub_date": "2026.09.08",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": -3.5
+        },
+        {
+          "title": "LG유플러스가 추석에 먹거리 혜택을 늘린 까닭",
+          "link": "https://www.econovill.com/news/articleView.html?idxno=750005",
+          "pub_date": "2026.09.07",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": -3.7
+        }
+      ],
+      "is_new": true
     }
   ],
   "categories": {
-    "trend": [],
+    "trend": [
+      {
+        "title": "배달플랫폼 입점 확산…편의점·마트까지 '퀵커머스 경쟁'",
+        "topic": "퀵커머스 시장 확대",
+        "insight": "배달플랫폼의 편의점·마트 입점 확산으로 퀵커머스 경쟁 심화",
+        "desc": "배달앱 3사가 음식점과 외식 프랜차이즈 중심에서 편의점·마트·SSM과 생활유통 전반으로 사업 영역을 넓히면서 유통 대기업과 배달플랫폼 간 제휴 경쟁도 본격화하는 양상이다. 최근에는 롯데슈퍼가 쿠팡이츠와... ",
+        "link": "http://www.srtimes.kr/news/articleView.html?idxno=211892",
+        "pub_date": "2026.09.08",
+        "reason": "퀵커머스 경쟁 확산, 소비자 구매 채널 다변화 추세",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "플랫폼 경쟁",
+          "배달 시장"
+        ]
+      },
+      {
+        "title": "할인부터 캐릭터 협업까지…음료업계, '가을' 마케팅 경쟁",
+        "topic": "음료업계 시즌 마케팅",
+        "insight": "할인·협업 등 차별화 전략으로 음료업체들의 가을 시즌 경쟁 가열",
+        "desc": "스타벅스 리워드 회원이라면 별도의 상품 구매 없이 누구나 스타벅스 앱 내 라떼 위크 이벤트 페이지의... ■ 할리스, 전통 식재료에 아이돌 마케팅 더해 시즌 공략 할리스는 홍시와 곶감, 흑임자 등 한국 전통 식재료를... ",
+        "link": "http://www.joseilbo.com/news/news_read.php?uid=575221&class=17&grp=",
+        "pub_date": "2026.09.07",
+        "reason": "음료업계 가을 마케팅 트렌드 모니터링",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "앱 마케팅",
+          "가을 할인"
+        ]
+      }
+    ],
     "risk": [
       {
-        "title": "3954만 계정 털린 티빙, 오늘(7일) 보상 시작…“탈퇴했으면 재가입” 또...",
-        "topic": "티빙 대규모 개인정보 유출",
-        "insight": "3954만 계정 정보 유출로 보상 시작, 플랫폼 보안 체계 문제 노출",
-        "desc": "유도하는 마케팅에 가깝다는 비판이 이어지고 있다. 특히 이미 티빙을 탈퇴한 피해자가 다시 개인정보를... 그러나 대규모 개인정보 유출 이후 어렵게 꺼내든 보상책마저 ‘재가입·결제 유도’ 논란에 휩싸이면서... ",
-        "link": "http://www.celuvmedia.com/article.php?aid=1788754672527115006",
-        "pub_date": "2026.09.07",
-        "reason": "제휴 OTT 보안 사고, 고객 신뢰 영향",
+        "title": "티빙·강남언니·위버스 개인정보 잇단 유출…플랫폼 보안 '경고등'",
+        "topic": "플랫폼 개인정보 유출 사태",
+        "insight": "티빙, 강남언니, 위버스 등 주요 플랫폼에서 개인정보 유출 사건 잇따르며 보안 우려 고조",
+        "desc": "개인정보 사고가 기업 신뢰와 직접 연결되는 상황에서 앞으로는 사고 발생 이후 사과와 보상보다 '사전에 얼마나 취약점을 발견하고 차단했느냐'가 플랫폼 기업의 보안 경쟁력을 가르는 기준이 될 전망이다.",
+        "link": "http://www.newslock.co.kr/news/articleView.html?idxno=135780",
+        "pub_date": "2026.09.08",
+        "reason": "티빙 등 제휴사 개인정보 유출로 고객 신뢰 훼손 우려",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "마케팅 논란"
+          "플랫폼 경쟁"
         ]
       },
       {
-        "title": "&quot;원래 '차이' 맛으로 돌려놔라&quot;…스타벅스, 레시피 바꾸다 역풍",
-        "topic": "스타벅스 레시피 변경 논란",
-        "insight": "음료 레시피 개변으로 고객 반발, 브랜드 신뢰도 영향",
-        "desc": "1985년 코카콜라 ‘뉴코크’는 소비자의 불매운동까지 맞았다. 20만 명의 시음 평가를 바탕으로 신제품을 내놨지만 시장은 다르게 반응했다. 결국 코카콜라는 뉴코크를 출시하며 단종시킨 기존 제품을 79일 만에 ‘코카콜라... ",
-        "link": "https://www.hankyung.com/article/2026090794251",
+        "title": "“맨날 배달용기 그대로 데워먹는데”…독성 물질 87%, 안전성 검증도 ...",
+        "topic": "배달용기 안전성 문제",
+        "insight": "일회용 배달용기의 독성 물질 검출 및 안전 기준 부재로 소비자 건강 위협",
+        "desc": "개별 물질별 규제 절차를 기다리는 사이 유사 구조의 미검증 물질이 먼저 시장에 유통되는 상황을 차단할 수 있다는 것이다. 제인 뭉케 연구원은 “개별 평가 방식은 비효율적이며 소비자를 충분히 보호하지... ",
+        "link": "https://www.sedaily.com/article/20088182?ref=naver",
         "pub_date": "2026.09.07",
-        "reason": "스타벅스 레시피 변경 불매 논란, 제휴 재검토 긴급",
+        "reason": "배달용기 안전성 논란, 제휴사 이슈",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 0.2,
-        "datalab_velocity": -0.0,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "불매운동"
+          "배달 시장"
         ]
       },
       {
         "title": "&quot;스타벅스 무슨일이야&quot; 투썸에 1위 내주더니 그 후",
-        "topic": "스타벅스 레시피 변경 논란",
-        "insight": "음료 레시피 개변으로 고객 반발, 브랜드 신뢰도 영향",
+        "topic": "카페 브랜드 순위 변화",
+        "insight": "스타벅스가 카페 선호도 1위를 투썸플레이스에 내주며 시장 지형 변화",
         "desc": "불매운동의 여파도 있었지만 회사가 고객 신뢰 회복에 집중하기 위해 여름 신상품 출시와 프로모션 행사를 중단한 영향도 작용했다. 이후 7월부터 신제품과 고객 혜택 프로그램을 순차적으로 재개했다. 다만... ",
         "link": "https://www.dailian.co.kr/news/view/1686671/?sc=Naver",
         "pub_date": "2026.09.04",
-        "reason": "스타벅스 불매 이슈 확산, 제휴사 평판 훼손",
-        "priority": 3,
+        "reason": "스타벅스 점유율 하락, 제휴 가치 검토 필요",
+        "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 0.2,
-        "datalab_velocity": -0.0,
+        "datalab_score": 66.7,
+        "datalab_velocity": -13.3,
         "queries": [
           "불매운동"
-        ]
-      },
-      {
-        "title": "LGU+, 추석 맞아 멤버십 혜택 확대…컬리·CGV 등 할인",
-        "topic": "LGU+ 멤버십 혜택 확대",
-        "insight": "추석 시즌 컬리·CGV 등 제휴사 할인 확대로 멤버십 가치 강화",
-        "desc": "사진=LG유플러스LG유플러스가 추석을 맞아 멤버십 프로그램 '유플투쁠'의 장보기와 나들이, 외식 혜택을 확대한다. 장기고객을 대상으로 한 화담숲 초청 행사도 진행한다.LG유플러스는 이달 유플투쁠을 통해 총... ",
-        "link": "https://news.mtn.co.kr/news-detail/2026090709381187254",
-        "pub_date": "2026.09.07",
-        "reason": "제휴사 CGV 관련 경쟁사 혜택 확대",
-        "priority": 2,
-        "cross_query_count": 1,
-        "datalab_score": 14.0,
-        "datalab_velocity": -2.7,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "ESG 마케팅 가속화… 배스킨라빈스, 사용했던 핑크스푼을 NFC 키링으로 ...",
-        "topic": "배스킨라빈스 ESG 마케팅",
-        "insight": "핑크스푼을 NFC 키링으로 재활용하며 ESG 마케팅 강화",
-        "desc": "유통업계가 자원 순환의 날을 맞아 업사이클링 캠페인을 통해 자원·자연 가치에 대한 소중함을 알린다. 배스킨라빈스는 오는 6일 '핑크드림 캠페인 시즌3'을 통해 제작된 업사이클링 NFC 키링을 캠페인 참여 고객들에게... ",
-        "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=43543",
-        "pub_date": "2026.09.04",
-        "reason": "배스킨라빈스 ESG마케팅, 제휴사 차별화 전략 모니터링",
-        "priority": 2,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "앱 마케팅"
-        ]
-      },
-      {
-        "title": "&quot;할인 줄여 영업익 5배 배불려&quot;…버거킹 '짠물 마케팅' 통했다",
-        "topic": "버거킹 할인 축소 전략",
-        "insight": "프로모션 최소화로 영업익 대폭 증대, 가격 정책 재편 성공",
-        "desc": "그 사이 정가 인상도 모자라 소비자가 체감하는 프로모션 할인까지 깎아 마케팅·판촉 비용을 아끼면서... 2021년 1월부터 올해 9월까지 버거킹 앱 쿠폰 636개를 전수 분석한 결과, 올해 버거킹 버거세트 항목의 평균... ",
-        "link": "https://www.theguru.co.kr/news/article.html?no=106542",
-        "pub_date": "2026.09.05",
-        "reason": "버거킹 할인 전략 변화, 제휴사 마진 구조 영향 검토 필요",
-        "priority": 2,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "앱 마케팅"
         ]
       }
     ],
     "battle": [
       {
-        "title": "카카오, 통합 멤버십 준비…계열사 서비스 묶나",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
-        "desc": "외부 협업 서비스를 포함한 AI 에이전트가 구현될 경우 멤버십 혜택의 파급효과가 커질 전망이다. 다만 카카오는 “멤버십 서비스를 준비 중인 것은 맞지만 구체적인 혜택이나 참여 서비스, 출시 일정 등은 아직 정해지지... ",
-        "link": "https://www.etnews.com/20260902000335",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 계열사 통합 멤버십으로 경쟁 구도 변화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "카카오, 멤버십 출시 예고…네이버 경쟁 불가피",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
-        "desc": "카카오가 새롭게 출시할 멤버십의 혜택 규모와 다양성이 네이버를 상회하지 못하는 조건이라면, 구독료를 이보다 낮게 책정해야 시장 진입이 수월할 것이라는 분석이 나온다. ​IT업계 관계자는 &quot;구독 경제 시장은 기존... ",
-        "link": "https://www.g-enews.com/view.php?ud=2026090709113544663d7a510102_1",
-        "pub_date": "2026.09.07",
-        "reason": "카카오 통합 멤버십 출시로 이커머스·구독 경쟁 심화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 14.0,
-        "datalab_velocity": -2.7,
-        "queries": [
-          "멤버십 혜택",
-          "플랫폼 경쟁"
-        ]
-      },
-      {
         "title": "톡 하나로 택시·음악·쇼핑 다 묶는다…카카오 멤버십, 내달 출격",
         "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
+        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
         "desc": "오픈AI와도 카카오톡 기반 AI 서비스 협력을 진행 중인 만큼 향후 챗GPT 등 AI 구독 서비스가 멤버십 혜택에 포함될지도 관심사다. 관건은 '체감 혜택'과 '가격'이다. 이미 국내 유료 멤버십 시장은 네이버(네이버플러스... ",
         "link": "https://www.newsis.com/view/NISX20260902_0003772464",
         "pub_date": "2026.09.02",
-        "reason": "카카오 통합 멤버십 대규모 서비스 번들링 전략",
+        "reason": "카카오 통합 멤버십 플랫폼 출시, 시장 공략 심화",
         "priority": 3,
         "cross_query_count": 2,
-        "datalab_score": 14.0,
-        "datalab_velocity": -2.7,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
           "멤버십 혜택",
           "AI 쇼핑"
         ]
       },
       {
-        "title": "카카오톡·택시·웹툰·선물하기 연계한 ‘유료 멤버십’ 나온다…계열...",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
-        "desc": "업계에서는 일정한 월 구독료를 내면 일부 서비스를 무료로 이용하거나 서비스별 할인 쿠폰 등을 제공하는 방식이 검토되는 것으로 보고 있다. 다만 구체적인 혜택은 아직 확정되지 않았다. 외부 플랫폼과의 제휴... ",
-        "link": "https://www.seoul.co.kr/news/economy/industry/2026/09/02/20260902500275?wlog_tag3=naver",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 종합 유료 멤버십 경쟁 본격화",
+        "title": "정부, SK텔레콤·카카오·KT와 '모두의 AI' 출시 협력 논의",
+        "topic": "정부-통신사 AI 협력",
+        "insight": "정부가 SK텔레콤, KT, 카카오와 '모두의 AI' 출시 협력 논의 중",
+        "desc": "KT 컨소시엄은 실시간 검색 기반 범용 AI 에이전트와 공공·교육·금융·쇼핑 등 10여 개 분야의 특화 서비스를 연결한 '이음'을 선보인다. 국산 AI 모델과 그래픽처리장치(GPU)·신경망처리장치(NPU) 인프라를 통합 운영하는... ",
+        "link": "https://zdnet.co.kr/view/?no=20260904093545",
+        "pub_date": "2026.09.04",
+        "reason": "SKT 주도 정부협력 AI 사업, 즉시 대응 필요",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "카카오, 통합 멤버십 준비…계열사 서비스 묶나",
+        "topic": "카카오 통합 멤버십 출시",
+        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
+        "desc": "외부 협업 서비스를 포함한 AI 에이전트가 구현될 경우 멤버십 혜택의 파급효과가 커질 전망이다. 다만 카카오는 “멤버십 서비스를 준비 중인 것은 맞지만 구체적인 혜택이나 참여 서비스, 출시 일정 등은 아직 정해지지... ",
+        "link": "https://www.etnews.com/20260902000335",
+        "pub_date": "2026.09.02",
+        "reason": "카카오 통합 멤버십 플랫폼 출시, 시장 공략 심화",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 62.5,
+        "datalab_velocity": -10.2,
+        "queries": [
+          "멤버십 혜택",
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "카카오톡·택시·웹툰·선물하기 연계한 ‘유료 멤버십’ 나온다…계열...",
+        "topic": "카카오 통합 멤버십 출시",
+        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
+        "desc": "임시 주주총회를 거쳐 내년 1월 분할을 마무리할 계획이다. 카카오 관계자는 “카카오의 다양한 서비스와 혜택을 연계한 멤버십 서비스를 준비하고 있다”며 “출시 시점과 구체적인 내용은 정해지지 않았다”고 말했다.",
+        "link": "https://www.seoul.co.kr/news/economy/industry/2026/09/02/20260902500275?wlog_tag3=naver",
+        "pub_date": "2026.09.02",
+        "reason": "카카오 통합 멤버십 플랫폼 출시, 시장 공략 심화",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 62.5,
+        "datalab_velocity": -10.2,
+        "queries": [
+          "멤버십 혜택",
           "구독 서비스"
         ]
       },
       {
         "title": "카톡·택시·멜론·쇼핑 한 번에…카카오, 서비스 묶은 유료 멤버십 추...",
         "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
+        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
         "desc": "카카오는 카카오톡에서 이모티콘을 무제한으로 활용할 수 있는 '이모티콘 플러스', 카카오톡을 통해 주고받은 파일을 관리하는 '톡클라우드' 등 구독 서비스를 제공하고 있다. 카카오모빌리티 역시 주차와 택시 중심의 월... ",
         "link": "https://view.asiae.co.kr/article/2026090215571215676",
         "pub_date": "2026.09.02",
-        "reason": "카카오 종합 멤버십 직접 경쟁 단계",
+        "reason": "카카오 통합 유료멤버십 출시 임박, 직접 경쟁 위협",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
+        "datalab_score": 62.5,
+        "datalab_velocity": -10.2,
         "queries": [
           "구독 서비스"
         ]
@@ -383,15 +364,63 @@
       {
         "title": "카카오, 유료 멤버십 서비스 추진",
         "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
+        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
         "desc": "업계는 매달 일정 구독료를 납부하면 일부 서비스가 무료로 제공되거나 일정 수량의 할인쿠폰을 제공하는 방식이 될 것으로 보고 있다. 외부 플랫폼과의 연계도 가능할 전망이다. 현재 카카오는 오픈AI와 업무협약을... ",
         "link": "https://www.fnnews.com/news/202609021809432714",
         "pub_date": "2026.09.02",
-        "reason": "카카오 유료 멤버십 추진 경쟁 심화",
+        "reason": "카카오 유료멤버십 추진, 직접 경쟁 위협",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
+        "datalab_score": 62.5,
+        "datalab_velocity": -10.2,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "국민 앱 카톡도 '구독제' 도입…카카오 멤버십, 새 수익원 될까",
+        "topic": "카카오 통합 멤버십 출시",
+        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
+        "desc": "이모티콘·택시·멜론·쇼핑 등 혜택 묶을 전망 계열사 서비스 락인 겨냥, 혜택 차별화는 과제 카카오가 유료 멤버십 구독 서비스를 준비하고 있다. 카카오톡 이용자 5535만명을 발판으로 새 수익원을 확보하려는 시도다. 2일... ",
+        "link": "https://news.tf.co.kr/read/economy/2361370.htm",
+        "pub_date": "2026.09.03",
+        "reason": "카카오 구독제 도입, 국민앱 멤버십 경쟁 가속",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 62.5,
+        "datalab_velocity": -10.2,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "카카오 멤버십 출시 임박…선물하기·택시·음악 서비스 연계",
+        "topic": "카카오 통합 멤버십 출시",
+        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
+        "desc": "카카오는 현재 카톡과 카카오택시, 멜론, 카카오웹툰, 카카오쇼핑 등 다양한 서비스를 제공하고 있습니다.이 멤버십 서비스는 매월 구독료를 납부하면 일부 서비스를 무료로 제공하거나 할인 쿠폰을 제공하는 방식을... ",
+        "link": "https://news.mtn.co.kr/news-detail/2026090214341552861",
+        "pub_date": "2026.09.02",
+        "reason": "카카오 멤버십 임박, 택시·음악·선물하기 번들",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 62.5,
+        "datalab_velocity": -10.2,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "카카오, 유료 멤버십 준비…선물하기·택시·음악 서비스 연계",
+        "topic": "카카오 통합 멤버십 출시",
+        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
+        "desc": "네이버플러스멤버십 등 타사의 유료 구독 멤버십 서비스를 감안할 때, 매월 구독료를 납부하면 일부 서비스를 무료로 제공하거나 일정 수량의 할인 쿠폰을 제공하는 방식이 될 것으로 보인다. 외부 플랫폼과의 연계도... ",
+        "link": "https://news.mtn.co.kr/news-detail/2026090214103723526",
+        "pub_date": "2026.09.02",
+        "reason": "카카오 유료멤버십 준비, 경쟁 구도 급변",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 62.5,
+        "datalab_velocity": -10.2,
         "queries": [
           "구독 서비스"
         ]
@@ -399,63 +428,15 @@
       {
         "title": "카톡·택시 서비스 묶나...카카오, 내달 통합 멤버십 출시",
         "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
+        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
         "desc": "멤버십 서비스인 만큼 월 구독료를 낼 경우 일부 서비스를 무료로 이용할 수도 있을 것으로도 전망된다. 카카오는 최근 2분기 경영실적 발표 컨퍼런스콜에서 쿠팡이츠와 협력해 카카오톡 내에서 쿠팡이츠 주문을 할 수... ",
         "link": "https://www.newspim.com/news/view/20260902000941",
         "pub_date": "2026.09.02",
-        "reason": "카카오 통합 멤버십 시작으로 초대형 경쟁자 등장",
+        "reason": "카카오 통합멤버십 출시, 국민앱 기반 위협",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "카카오 '그룹 통합' 유료 구독 서비스 10월 시작, 카톡·택시·웹툰·음...",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
-        "desc": "매달 일정 구독료를 지불하면 주요 서비스를 무료로 이용하거나 전용 할인·적립 혜택을 받는 방식이 유력한 것으로 알려졌다. 연계 대상으로는 카카오톡의 '이모티콘 플러스'와 '선물하기'를 비롯해 카카오모빌리티(택시... ",
-        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=446250",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 10월 통합 멤버십 출시, 긴급 대응 필요",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "5000만 카톡, '구독 경제' 승부수…카카오 멤버십 띄운다",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
-        "desc": "업계에서는 월 구독료를 내면 일부 서비스 이용이나 할인, 포인트 적립 등의 혜택을 제공하는 방식이 거론되고 있다. 카카오가 통합 멤버십을 준비하는 배경에는 카카오톡의 방대한 이용자 기반을 다른 서비스 이용과... ",
-        "link": "http://www.metroseoul.co.kr/article/20260903500201",
-        "pub_date": "2026.09.03",
-        "reason": "5000만 카톡 사용자 기반 카카오 멤버십 위협",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "카카오, 통합 멤버십 시동… 계열사 서비스 묶는다",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 웹툰, 음악 등 계열사 서비스를 묶은 유료 구독 멤버십 10월 출시 예정",
-        "desc": "업계에서는 월 구독료를 내면 일부 서비스를 무료로 이용하거나, 서비스별 할인 쿠폰·혜택을 받는 방식이 될 것이라고 내다보고 있다. 카카오톡의 이모티콘·선물하기, 카카오모빌리티의 택시, 카카오엔터테인먼트의... ",
-        "link": "https://www.asiatime.co.kr/article/20260902500345",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 계열사 서비스 통합으로 경쟁 강화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
+        "datalab_score": 62.5,
+        "datalab_velocity": -10.2,
         "queries": [
           "구독 서비스"
         ]
@@ -463,173 +444,174 @@
     ],
     "benchmark": [
       {
-        "title": "추석 장보기부터 가족 나들이까지…LG유플러스 멤버십 혜택 확대",
-        "topic": "LGU+ 추석 멤버십 혜택 확대",
-        "insight": "LG유플러스가 추석 시즌 맞춰 쇼핑, 외식, 나들이 등 멤버십 혜택 확대",
-        "desc": "9월 ‘유플투쁠’ 53개 제휴 혜택 컬리 최대 2만7000원 상당 쿠폰 장기고객 5000명 화담숲 초청 VVIP·10년 이상 고객 대상 행사 LG유플러스가 추석을 맞아 식품과 생필품 구매부터 여행과 외식까지 멤버십 혜택을... ",
-        "link": "https://www.mk.co.kr/article/12145839",
+        "title": "스타벅스, '라떼 위크' 진행 최대 50% 할인",
+        "topic": "스타벅스 라떼 위크 프로모션",
+        "insight": "스타벅스 시즌 한정 프로모션으로 최대 50% 할인 및 룰렛 이벤트 진행",
+        "desc": "/스타벅스 코리아 스타벅스 코리아가 라떼 음료를 대상으로 할인과 1+1, 사이즈 업 등의 혜택을 제공하는... 스타벅스는 이번 프로모션을 통해 커피뿐 아니라 티를 활용한 라떼까지 제품군을 확대하고 소비자 선택지를... ",
+        "link": "http://www.metroseoul.co.kr/article/20260907500073",
         "pub_date": "2026.09.07",
-        "reason": "LGU+ 추석 시즌 멤버십 혜택 구조 벤치마킹",
+        "reason": "제휴사 스타벅스 시즌 프로모션 구조 벤치마킹",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 56.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "추석 연휴 여행"
+          "소비자 할인",
+          "가을 할인"
+        ]
+      },
+      {
+        "title": "스타벅스, 14일간 '라떼 위크'…매일 룰렛 돌리면 최대 50% 할인",
+        "topic": "스타벅스 라떼 위크 프로모션",
+        "insight": "스타벅스 시즌 한정 프로모션으로 최대 50% 할인 및 룰렛 이벤트 진행",
+        "desc": "스타벅스 코리아가 7일부터 20일까지 14일간 리워드 회원을 대상으로 매일 룰렛을 돌려 할인 쿠폰 등을 받을... 커피뿐 아니라 티를 활용한 라떼까지 행사 대상에 넣어 소비자가 취향에 따라 선택할 수 있도록 한 것이... ",
+        "link": "https://www.imaeil.com/page/view/2026090709071924466",
+        "pub_date": "2026.09.07",
+        "reason": "제휴사 스타벅스 시즌 프로모션 구조 벤치마킹",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "소비자 할인",
+          "가을 할인"
         ]
       },
       {
         "title": "AI 구독부터 마라톤까지… ‘취향 저격’하는 카드들",
-        "topic": "카드사 특화 구독 서비스 경쟁",
-        "insight": "카드사들이 AI, 라이프스타일 등 차별화된 구독 혜택으로 고객 확보 경쟁",
+        "topic": "맞춤형 구독 카드 출시",
+        "insight": "카드사들이 AI 구독, 라이프스타일 등 소비자 취향 맞춤형 카드 상품 확대",
         "desc": "챗GPT를 구독하면 10%를 적립하고, 마라톤 대회 참가권을 사면 20%를 할인해 준다. 해외 결제액을 한도 없이 2... 동영상 서비스(OTT) 정기 결제는 30% 할인한다. 전월 실적에 따라 월 최대 5만5000원, 연간 최대 66만원까지... ",
         "link": "https://www.chosun.com/economy/market_trend/2026/09/07/P53JNAR2WJA4VKYIAONJESBS4I/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
         "pub_date": "2026.09.07",
-        "reason": "카드사 AI·시즌별 구독·로열티 전략 벤치마킹",
-        "priority": 2,
+        "reason": "카드사 맞춤형 구독 혜택 사례, 참고용",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
           "구독 서비스",
           "AI 쇼핑"
         ]
       },
       {
-        "title": "쇼핑부터 나들이까지…LG유플러스, 추석 맞아 멤버십 혜택 확대",
-        "topic": "LGU+ 추석 멤버십 혜택 확대",
-        "insight": "LG유플러스가 추석 시즌 맞춰 쇼핑, 외식, 나들이 등 멤버십 혜택 확대",
-        "desc": "LG유플러스는 추석을 맞아 멤버십 프로그램 ‘유플투쁠’의 쇼핑·나들이·외식 혜택을 확대하고, 장기고객을 대상으로 화담숲 초청 행사를 진행한다고 7일 밝혔다. 9월 유플투쁠은 추석 장보기, 연휴 나들이... ",
-        "link": "https://www.dt.co.kr/article/12082564?ref=naver",
-        "pub_date": "2026.09.07",
-        "reason": "LGU+ 추석 시즌 멤버십 혜택 구조 벤치마킹",
+        "title": "&quot;AI 구독부터 운영비까지&quot;…삼성카드, 맞춤형 BIZ 카드 출시",
+        "topic": "맞춤형 구독 카드 출시",
+        "insight": "카드사들이 AI 구독, 라이프스타일 등 소비자 취향 맞춤형 카드 상품 확대",
+        "desc": "전자세금계산서·부가세 환급 지원…사업체명 인쇄 플레이트 제공 개인사업자를 위한 실무 지원 서비스도 대폭 강화했다. 전자세금계산서 무료 발행 서비스와 부가세 환급 편의지원 서비스를 기본 탑재했으며, 발급 시... ",
+        "link": "http://www.globalepic.co.kr/view.php?ud=2026090813492345347cc35ccc5c_29",
+        "pub_date": "2026.09.08",
+        "reason": "카드사 맞춤형 구독 모델, 벤치마킹 가능",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 56.0,
+        "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "추석 연휴 여행"
+          "구독 서비스",
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "“명절 장보기 부담 덜어드려요”…LG유플러스, 추석 맞이 멤버십 혜택...",
-        "topic": "LGU+ 추석 멤버십 혜택 확대",
-        "insight": "LG유플러스가 추석 시즌 맞춰 쇼핑, 외식, 나들이 등 멤버십 혜택 확대",
-        "desc": "LG유플러스가 추석을 맞아 멤버십 프로그램 ‘유플투쁠’의 쇼핑·나들이·외식 혜택을 확대한다. 장기고객을 대상으로는 가을 단풍 명소인 화담숲 초청 행사도 진행한다. LG유플러스는 7일 9월 유플투쁠을 추석... ",
-        "link": "https://www.sportsseoul.com/news/read/1633319?ref=naver",
-        "pub_date": "2026.09.07",
-        "reason": "LGU+ 추석 시즌 멤버십 혜택 구조 벤치마킹",
+        "title": "쿠쿠, 추석맞이 쇼핑대전 프로모션 진행",
+        "topic": "추석 시즌 프로모션 경쟁",
+        "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
+        "desc": "특별한 쇼핑 경험을 제공할 것&quot;이라고 말했다. 쿠쿠는 주방 가전을 주력으로 하는 쿠쿠전자와 렌털·생활가전 중심의 쿠쿠홈시스로 운영한다. 밥솥, 음식물처리기, 얼음정수기, AI 인덕션, 청소기, 에어프라이어... ",
+        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=863074",
+        "pub_date": "2026.09.08",
+        "reason": "조리가전 브랜드 추석 프로모션 벤치마킹",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 56.0,
+        "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
-          "추석 연휴 여행"
-        ]
-      },
-      {
-        "title": "LG유플러스, 추석 맞아 멤버십 혜택 확대",
-        "topic": "LGU+ 추석 멤버십 혜택 확대",
-        "insight": "LG유플러스가 추석 시즌 맞춰 쇼핑, 외식, 나들이 등 멤버십 혜택 확대",
-        "desc": "한국금융경제신문=박현주 기자 | LG유플러스가 추석을 맞아 식품과 생필품 구매부터 여행과 외식까지 멤버십 혜택을 확대한다. 장기 이용 고액 5000명을 가을 단풍 명소인 화담숲에 초정하는 행사도 진행한다. 7일... ",
-        "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=663982",
-        "pub_date": "2026.09.07",
-        "reason": "LGU+ 추석 시즌 멤버십 혜택 구조 벤치마킹",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 56.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택",
-          "추석 연휴 여행"
-        ]
-      },
-      {
-        "title": "LGU+, 추석 장보기 부담 낮춘다···쇼핑·외식 멤버십 혜택 확대",
-        "topic": "LGU+ 추석 멤버십 혜택 확대",
-        "insight": "LG유플러스가 추석 시즌 맞춰 쇼핑, 외식, 나들이 등 멤버십 혜택 확대",
-        "desc": "LG유플러스가 추석을 앞두고 장보기부터 외식·여행·문화생활까지 멤버십 혜택을 대폭 확대한다. 명절을 앞두고 늘어나는 식품·생필품 구매 부담을 낮추는 동시에 연휴 기간 가족 단위 고객의 소비 수요까지... ",
-        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2467236",
-        "pub_date": "2026.09.07",
-        "reason": "LGU+ 추석 시즌 멤버십 혜택 구조 벤치마킹",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 56.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택",
-          "추석 연휴 여행"
-        ]
-      },
-      {
-        "title": "LG유플러스, 추석 장보기부터 나들이까지…멤버십 혜택 강화",
-        "topic": "LGU+ 추석 멤버십 혜택 확대",
-        "insight": "LG유플러스가 추석 시즌 맞춰 쇼핑, 외식, 나들이 등 멤버십 혜택 확대",
-        "desc": "컨슈머타임스=강나연 기자 | LG유플러스가 추석을 맞아 장보기와 나들이, 외식 등 명절 기간 수요가 높은 멤버십 혜택을 확대한다. 10년 이상 장기고객을 대상으로 가을 단풍 명소인 화담숲 초청 행사도 진행한다.... ",
-        "link": "https://www.cstimes.com/news/articleView.html?idxno=719582",
-        "pub_date": "2026.09.07",
-        "reason": "LGU+ 추석 시즌 멤버십 혜택 구조 벤치마킹",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 56.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택",
-          "추석 연휴 여행"
-        ]
-      },
-      {
-        "title": "&quot;추석에 화담숲으로 가족나들이 어때요&quot; LG유플, 멤버십 혜택 확대",
-        "topic": "LGU+ 추석 멤버십 혜택 확대",
-        "insight": "LG유플러스가 추석 시즌 맞춰 쇼핑, 외식, 나들이 등 멤버십 혜택 확대",
-        "desc": "가족이 LG유플러스 멤버십 혜택을 소개하고 있는 장면을 AI로 생성한 모습. [사진 LG유플러스] LG유플러스가 다가오는 추석 명절을 맞아 장기 이용 고객 대상 특별 초청 행사를 개최하고 멤버십 혜택을 대폭 확대한다.... ",
-        "link": "https://www.catchnews.kr/news/articleView.html?idxno=128238",
-        "pub_date": "2026.09.07",
-        "reason": "LGU+ 추석 시즌 멤버십 혜택 구조 벤치마킹",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 56.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택",
-          "추석 연휴 여행"
-        ]
-      },
-      {
-        "title": "추석 장보기부터 화담숲 초청까지…LG유플러스, 멤버십 혜택 확대",
-        "topic": "LGU+ 추석 멤버십 혜택 확대",
-        "insight": "LG유플러스가 추석 시즌 맞춰 쇼핑, 외식, 나들이 등 멤버십 혜택 확대",
-        "desc": "가족이 LG유플러스 멤버십 혜택을 소개하고 있는 장면을 AI로 생성한 모습. /사진=LG유플러스 LG유플러스가 추석을 앞두고 장보기와 외식, 여행·문화 활동 등 명절 연휴 수요에 맞춰 멤버십 혜택을 확대하는 한편, 장기... ",
-        "link": "https://www.businessplus.kr/news/articleView.html?idxno=116449",
-        "pub_date": "2026.09.07",
-        "reason": "LGU+ 추석 시즌 멤버십 혜택 구조 벤치마킹",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 56.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택",
-          "추석 연휴 여행"
+          "AI 쇼핑",
+          "추석 마케팅"
         ]
       },
       {
         "title": "SK매직, 추석 앞두고 정수기 프로모션…구독료 할인·포인트 혜택",
-        "topic": "SK매직 추석 구독 프로모션",
-        "insight": "SK매직이 추석 성수기 맞춰 정수기 구독료 할인·포인트 혜택 제공",
+        "topic": "추석 시즌 프로모션 경쟁",
+        "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
         "desc": "명절 시즌 가전 교체를 고려하는 소비자들의 비용 부담을 낮추고, 구독 서비스의 혜택을 확대하는 데 초점을 맞췄다. 이번 행사에서는 'MEGA ICE 얼음정수기'와 '투워터 정수기'를 비롯한 주요 정수기 5종을 대상으로 최대... ",
         "link": "https://www.e-science.co.kr/news/articleView.html?idxno=134883",
         "pub_date": "2026.09.07",
-        "reason": "추석 시즌 구독료 할인·포인트 혜택 사례",
+        "reason": "카테고리별 구독료 할인 모델, 벤치마킹 참고",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 49.7,
-        "datalab_velocity": -28.7,
+        "datalab_score": 62.5,
+        "datalab_velocity": -10.2,
         "queries": [
           "구독 서비스",
           "소비자 할인"
+        ]
+      },
+      {
+        "title": "해수부, 추석명절 수산물 2.2만톤 공급…최대 50% 할인",
+        "topic": "추석 시즌 프로모션 경쟁",
+        "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
+        "desc": "50% 할인된 가격으로 구매할 수 있다. 1인당 한도도 기존 1만원에서 2만원으로 상향했다. [AI 일러스트=최영수 선임기자] 2026.09.08 dream@newspim.com 전통시장을 찾는 소비자를 위한 혜택도 마련했다. 이달 16일부터 20일까지... ",
+        "link": "https://www.newspim.com/news/view/20260908000316",
+        "pub_date": "2026.09.08",
+        "reason": "추석 시즌 수산물 할인 벤치마킹",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 62.1,
+        "datalab_velocity": -3.5,
+        "queries": [
+          "소비자 할인",
+          "명절 선물"
+        ]
+      },
+      {
+        "title": "스타벅스, 가을 라떼부터 추석 선물까지…‘혜택 마케팅’ 강화",
+        "topic": "스타벅스 라떼 위크 프로모션",
+        "insight": "스타벅스 시즌 한정 프로모션으로 최대 50% 할인 및 룰렛 이벤트 진행",
+        "desc": "맞춤 마케팅에 나선다. 스타벅스는 이달 7일부터 20일까지 14일간 ‘라떼 위크’를 진행한다. 스타벅스 리워드 회원이라면 누구나 앱 내 이벤트 페이지에서 ‘룰렛 챌린지’에 하루 한 번 참여할 수 있다. 룰렛에 참여하면... ",
+        "link": "https://www.viva100.com/article/20260907500301",
+        "pub_date": "2026.09.07",
+        "reason": "제휴사 시즌 마케팅 사례, 향후 기획 참고",
+        "priority": 1,
+        "cross_query_count": 3,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "앱 마케팅",
+          "추석 마케팅",
+          "가을 할인"
+        ]
+      },
+      {
+        "title": "LG유플러스가 추석에 먹거리 혜택을 늘린 까닭",
+        "topic": "추석 시즌 프로모션 경쟁",
+        "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
+        "desc": "통신사 멤버십 혜택의 무게중심이 통신 요금 할인에서 생활 밀착형 소비 영역으로 옮겨가고 있다. 명절을 앞두고 장보기와 외식 부담이 커지는 시점에 제휴 할인을 집중 배치하는 방식은 고객 이탈을 막는 유지... ",
+        "link": "https://www.econovill.com/news/articleView.html?idxno=750005",
+        "pub_date": "2026.09.07",
+        "reason": "경쟁사 추석 마케팅 전략 분석, 향후 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 19.4,
+        "datalab_velocity": -3.7,
+        "queries": [
+          "멤버십 혜택",
+          "추석 마케팅"
+        ]
+      },
+      {
+        "title": "더본코리아, 배달의민족과 16개 브랜드 참여 '통합 배달 기획전'",
+        "topic": "배달앱 통합 기획전",
+        "insight": "더본코리아 등 16개 브랜드가 배달의민족과 함께 통합 배달 기획전 진행",
+        "desc": "(연돈볼카츠) △인생설렁탕 △미정국수 △백스비어 △리춘시장 △막이오름 △돌배기집 △본가 △원조쌈밥집이 참여한다. 먼저 외식 브랜드는 배달의민족 앱에서 해당 브랜드의 메뉴를 주문하면 4000원 할인 혜택을... ",
+        "link": "https://www.news1.kr/industry/distribution/6281636",
+        "pub_date": "2026.09.07",
+        "reason": "배달앱 기획전 캠페인 사례, 연계 혜택 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "배달 시장",
+          "브랜드 제휴"
         ]
       }
     ]
