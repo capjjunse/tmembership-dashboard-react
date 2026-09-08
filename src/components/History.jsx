@@ -70,42 +70,42 @@ export default function History() {
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
             <td>도미노피자 혜택 변경 — VVIP초이스 2만원 할인 (3만원 이상 포장주문) (9.1~)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td>2026.09.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
             <td>지니TV 신규 제휴 — VVIP/VIP 초이스 지니TV VOD 1만원 이용권 (9.1~)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
             <td>2026.09.01</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
             <td>아웃백 할인 횟수/한도 조정 — 일 1회→월 4회, V/G 한도 30,000원→20,000원 (9.1~)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td>2026.09.01</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
             <td>청소연구소 에어컨 청소 7% 할인 서비스 폐지 (9.1)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
             <td>2026.08.31</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
-            <td>쿤달 제휴 종료 예정 (8.31)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td>쿤달 제휴 종료 (8.31)</td>
+            <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
             <td>2026.08.07</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
             <td>9월 신규 제휴 6개 — 고메브릿지·우파루 (9.1~), 달콤커피·달콤.N 등 (9.7~)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td><span className="tb t신규">신규</span></td>
           </tr>
           <tr>
             <td>2026.08.03</td>
@@ -147,7 +147,7 @@ export default function History() {
             <td><span className="cb bs">SKT</span></td>
             <td>VIP PICK</td>
             <td>T우주패스 9,900원 쿠폰 → 4,900원+5,000원 2종 분리 (8.1 적용)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
             <td>2026.07.31</td>
@@ -160,8 +160,8 @@ export default function History() {
             <td>2026.07.31</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
-            <td>아시아나 인터넷 면세점 10% 할인 제휴 종료 예정 (7.31)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td>아시아나 인터넷 면세점 10% 할인 제휴 종료 (7.31)</td>
+            <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
             <td>2026.07.14</td>
