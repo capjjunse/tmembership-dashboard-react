@@ -266,6 +266,8 @@ table.ct td:first-child{font-weight:700;color:var(--tx2);font-size:11px}
 .rb{display:flex;border-radius:20px;overflow:hidden;height:24px;gap:2px}
 .rbs{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;color:#fff;min-width:34px;letter-spacing:.02em;overflow:hidden;white-space:nowrap;padding:0 3px}
 .rbs.rp{background:var(--pos)}.rbs.rn{background:var(--neg)}.rbs.ru{background:var(--neu)}
+.rbs .upd{color:inherit;font-weight:inherit}
+.rbs .upd::after{content:'';display:inline-block;width:5px;height:5px;border-radius:50%;background:#fbbf24;margin-left:4px;vertical-align:middle;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
 .rleg{display:flex;gap:16px;margin-top:8px;flex-wrap:wrap}
 .rli{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--tx2)}
 .rld{width:8px;height:8px;border-radius:50%}
