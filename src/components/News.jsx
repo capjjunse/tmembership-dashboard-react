@@ -73,6 +73,11 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">LG U+, 추석 장보기 부담 낮춘다 — 명절 쇼핑·나들이 멤버십 혜택 강화</span></span></div>
+            <div className="nsum"><span className="upd">추석을 맞아 유플투쁠 제휴사를 53개로 확대. 쇼핑·장보기 혜택으로 컬리(9/8 최대 2만7천원), 아워홈몰(9/15 최대 2만원), 사조몰(9/16 최대 1만5천원), 오뚜기몰(9/18 1만5천원), 이마트24(9/24 최대 3천원) 할인. 신규 제휴 유니스터디·우파루 오딧세이·인천공항 고메브릿지 푸드코트 추가. 장기고객(VVIP 10년 이상) 대상 10월 화담숲 초청 행사 진행.</span></div>
+            <div className="nmeta">2026-09-07 · <a href="https://news.lguplus.com/22808" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">넉넉한 한가위, 마음도 혜택도 풍성한 9월 유플투쁠</span></div>
             <div className="nsum">9월 유플투쁠은 추석 연휴를 맞아 식음료(9/8 피자헛 프리미엄 55% 할인·9/14 공차 50% 할인·9/22 배스킨라빈스), 문화·여가(CGV·오션월드·여기어때 할인·9/14~18 컬처 기간 전시·박물관 할인), 쇼핑·생활(컬리·다이소·스파오·사조몰) 혜택을 제공합니다. U+one 앱 오전 11시 유플투쁠 타임에서 선착순 이용 가능.</div>
             <div className="nmeta">2026-09-01 · <a href="https://news.lguplus.com/22736" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>

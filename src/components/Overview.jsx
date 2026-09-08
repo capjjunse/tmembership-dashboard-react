@@ -108,12 +108,13 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 58%·부정 32%·중립 10%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 63%·부정 29%·중립 8%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>T day "던킨·공차 VIP만 주네 — 알뜰폰 갈게요" 불만 (9.2)</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#rg" className="ovg2-card ck">
+            <div className="ovg2-item"><em className="tg tg-new">VIP신규</em><span className="upd">지니TV VOD 1만원 이용권 신설 (VVIP·VIP초이스, 9월~)</span></div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>롯데월드 혜택 개편 (본인 40%·동반 3인 30% 할인)</div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>CU 아침 간편식류 1,000원당 200원 할인</div>
