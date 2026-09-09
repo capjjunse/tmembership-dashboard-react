@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.09';
+const RADAR_SCANNED = '2026.09.10';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -188,15 +188,16 @@ const alCats = [
   },
   {
     icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
-    updated: false,
+    updated: true,
     nb: [{ platform: '네이버플러스', items: [
       { partner: '쏘카', deadline: '상시', rows: [{ grade: null, desc: '시간대 요금 50% 할인' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
+      { partner: 'G car', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '대여료 60% + 보험료 5% 할인 (2시간 이상)' }] },
       { partner: '투루카', deadline: 'Week 혜택 · 9.7~9.11', rows: [{ grade: '전 등급', desc: '카셰어링 70% 할인' }] },
     ]}],
-    reasons: ['T멤버십: SK렌터카 상시 제주 85%·내륙 60% + 투루카 70% (9.7~9.11)', '네이버플러스: 쏘카 50% 할인 상시 운영 (카셰어링)'],
+    reasons: ['T멤버십: SK렌터카 상시 85% + VIP PICK G car 60%', 'T멤버십 Week: 투루카 카셰어링 70% (9.7~9.11)', '네이버플러스: 쏘카 50% 할인 상시'],
   },
   // ── T멤버십 열위 ──
   {
@@ -627,7 +628,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.09</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.10</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

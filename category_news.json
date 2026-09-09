@@ -1,121 +1,253 @@
 {
-  "generated_at": "2026.09.09 05:55",
-  "total_collected": 947,
-  "total_valid": 520,
-  "total_skipped": 308,
-  "total_top": 25,
+  "generated_at": "2026.09.10 05:50",
+  "total_collected": 1029,
+  "total_valid": 459,
+  "total_skipped": 505,
+  "total_top": 33,
   "topic_groups": [
     {
-      "category": "battle",
-      "topic": "카카오 통합 멤버십 출시",
-      "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-      "signal_strength": 2,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "톡 하나로 택시·음악·쇼핑 다 묶는다…카카오 멤버십, 내달 출격",
-          "link": "https://www.newsis.com/view/NISX20260902_0003772464",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "카카오, 통합 멤버십 준비…계열사 서비스 묶나",
-          "link": "https://www.etnews.com/20260902000335",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -10.2
-        },
-        {
-          "title": "카카오톡·택시·웹툰·선물하기 연계한 ‘유료 멤버십’ 나온다…계열...",
-          "link": "https://www.seoul.co.kr/news/economy/industry/2026/09/02/20260902500275?wlog_tag3=naver",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": -10.2
-        },
-        {
-          "title": "카톡·택시·멜론·쇼핑 한 번에…카카오, 서비스 묶은 유료 멤버십 추...",
-          "link": "https://view.asiae.co.kr/article/2026090215571215676",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.2
-        },
-        {
-          "title": "카카오, 유료 멤버십 서비스 추진",
-          "link": "https://www.fnnews.com/news/202609021809432714",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.2
-        },
-        {
-          "title": "국민 앱 카톡도 '구독제' 도입…카카오 멤버십, 새 수익원 될까",
-          "link": "https://news.tf.co.kr/read/economy/2361370.htm",
-          "pub_date": "2026.09.03",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.2
-        },
-        {
-          "title": "카카오 멤버십 출시 임박…선물하기·택시·음악 서비스 연계",
-          "link": "https://news.mtn.co.kr/news-detail/2026090214341552861",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.2
-        },
-        {
-          "title": "카카오, 유료 멤버십 준비…선물하기·택시·음악 서비스 연계",
-          "link": "https://news.mtn.co.kr/news-detail/2026090214103723526",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.2
-        },
-        {
-          "title": "카톡·택시 서비스 묶나...카카오, 내달 통합 멤버십 출시",
-          "link": "https://www.newspim.com/news/view/20260902000941",
-          "pub_date": "2026.09.02",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.2
-        }
-      ],
-      "is_new": false
-    },
-    {
       "category": "benchmark",
-      "topic": "스타벅스 라떼 위크 프로모션",
-      "insight": "스타벅스 시즌 한정 프로모션으로 최대 50% 할인 및 룰렛 이벤트 진행",
-      "signal_strength": 2,
-      "max_velocity": 0.0,
+      "topic": "추석 시즈널 마케팅 경쟁",
+      "insight": "주요 유통·가맹점 브랜드들이 추석 맞춰 할인·적립·선물 등 다층 혜택 프로모션 전개",
+      "signal_strength": 1,
+      "max_velocity": 3.7,
       "articles": [
-        {
-          "title": "스타벅스, '라떼 위크' 진행 최대 50% 할인",
-          "link": "http://www.metroseoul.co.kr/article/20260907500073",
-          "pub_date": "2026.09.07",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "스타벅스, 14일간 '라떼 위크'…매일 룰렛 돌리면 최대 50% 할인",
-          "link": "https://www.imaeil.com/page/view/2026090709071924466",
-          "pub_date": "2026.09.07",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
         {
           "title": "스타벅스, 가을 라떼부터 추석 선물까지…‘혜택 마케팅’ 강화",
           "link": "https://www.viva100.com/article/20260907500301",
           "pub_date": "2026.09.07",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "LG유플러스, 추석 멤버십 혜택 '53개'로 확대",
+          "link": "https://www.bizwork.co.kr/news/articleView.html?idxno=418885",
+          "pub_date": "2026.09.07",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 1.9
+        },
+        {
+          "title": "네이버·카카오, 추석 맞이 대규모 프로모션… 할인·적립 혜택",
+          "link": "https://www.asiatime.co.kr/article/20260907500037",
+          "pub_date": "2026.09.07",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 1.9
+        },
+        {
+          "title": "“추석 선물 미리 준비하세요”…네이버·쿠팡·SSG ‘할인 전쟁’ 붙었...",
+          "link": "https://www.segye.com/newsView/20260907503229?OutUrl=naver",
+          "pub_date": "2026.09.07",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "추석 할인에 굿즈·체험 혜택도…유통업계 ‘명절 특수’ 공략",
+          "link": "https://www.segye.com/newsView/20260904509020?OutUrl=naver",
+          "pub_date": "2026.09.05",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "하나카드, 추석 소비 잡는다... 쇼핑부터 여행·구독까지 혜택 확대",
+          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=208126",
+          "pub_date": "2026.09.09",
           "priority": 1,
-          "cross_query_count": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "하나카드, 추석맞이 ‘두근두근 하나로 채우는 가을’ 이벤트…쇼핑·여...",
+          "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065573049240148",
+          "pub_date": "2026.09.09",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 3.7
+        },
+        {
+          "title": "[유통갤러리] 롯데마트·슈퍼, PB ‘오늘좋은’ 추석 선물세트 첫선 外",
+          "link": "https://theviewers.co.kr/View.aspx?No=4219138",
+          "pub_date": "2026.09.09",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "다가오는 추석...유통가 '혼추족·귀성객' 겨냥, 마케팅·프로모션 눈길",
+          "link": "http://www.dailypop.kr/news/articleView.html?idxno=102392",
+          "pub_date": "2026.09.09",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "이커머스부터 통신사까지...추석 맞아 멤버십 경쟁 '격화'",
+          "link": "http://www.thebigdata.co.kr/view.php?ud=2026090910485580630a47484cf8_23",
+          "pub_date": "2026.09.09",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 1.9
+        },
+        {
+          "title": "패션플랫폼, “가을 성수기 온다”…추석연휴 기점 총력전 돌입",
+          "link": "https://www.etnews.com/20260909000161",
+          "pub_date": "2026.09.09",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "risk",
+      "topic": "아디다스 이스라엘 논란 불매",
+      "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+      "signal_strength": 3,
+      "max_velocity": 20.0,
+      "articles": [
+        {
+          "title": "“제니, 제발 아디다스 떠나라”…불매운동 불똥, 무슨일?",
+          "link": "https://www.donga.com/news/Inter/article/all/20260909/134637792/1",
+          "pub_date": "2026.09.09",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        },
+        {
+          "title": "'제니 야심작' 나왔는데…&quot;사지 마세요&quot; 불매운동, 무슨 일이 [이슈+]",
+          "link": "https://www.hankyung.com/article/202609094149g",
+          "pub_date": "2026.09.09",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        },
+        {
+          "title": "“제니야 제발 떠나라” 난리 났다…아디다스 불매 운동에 날벼락 맞았...",
+          "link": "https://www.sedaily.com/article/20089160?ref=naver",
+          "pub_date": "2026.09.09",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        },
+        {
+          "title": "‘한 짝 반값’ 내놨다가…아디다스 불매운동, 왜?",
+          "link": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000549593",
+          "pub_date": "2026.09.09",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        },
+        {
+          "title": "제니, 아디다스와 협업했다 날벼락...글로벌 불매운동 불똥 '댓글 테러...",
+          "link": "https://www.sportschosun.com/entertainment/2026-09-09/202609090100063690004118",
+          "pub_date": "2026.09.09",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        },
+        {
+          "title": "&quot;제발 아디다스 떠나라&quot;…불매 불똥 맞은 제니 '무슨 일?'",
+          "link": "https://www.mydaily.co.kr/page/view/2026090917295732560",
+          "pub_date": "2026.09.09",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        },
+        {
+          "title": "제니에 &quot;아디다스 떠나라&quot; 불매 확산…본사 결국 공식 사과",
+          "link": "https://www.insight.co.kr/news/572636",
+          "pub_date": "2026.09.09",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        },
+        {
+          "title": "무슨 일, 제니에 “제발 아디다스 떠나라” 불매 운동 점점 퍼지더니…",
+          "link": "https://www.wikitree.co.kr/articles/1158356",
+          "pub_date": "2026.09.09",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        },
+        {
+          "title": "아디다스, 모델로 이스라엘 군인 내세웠다 불매 역풍 맞았다 : 한쪽 다리...",
+          "link": "https://www.huffingtonpost.kr/article/260308",
+          "pub_date": "2026.09.09",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        },
+        {
+          "title": "하비에르 바르뎀도 “불매” 뿔났다···아디다스, 모델로 ‘이스라엘...",
+          "link": "https://www.khan.co.kr/article/202609071425001",
+          "pub_date": "2026.09.07",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 20.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "battle",
+      "topic": "네이버 새벽배송 멤버십 전환",
+      "insight": "네이버가 새벽배송을 멤버십 전용으로 전환하며 구독 고객 확보 및 락인 전략 강화",
+      "signal_strength": 2,
+      "max_velocity": 1.9,
+      "articles": [
+        {
+          "title": "네이버 새벽배송, 11월부터 유료 회원 전용…멤버십 '록인' 강화",
+          "link": "https://www.newsis.com/view/NISX20260904_0003777016",
+          "pub_date": "2026.09.04",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 1.9
+        },
+        {
+          "title": "[단독]네이버, 11월 멤버십 전용 '새벽배송' 가동…쿠팡과 배송 경쟁 불...",
+          "link": "https://www.etnews.com/20260904000138",
+          "pub_date": "2026.09.04",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 1.9
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "battle",
+      "topic": "AI 쇼핑 채널 확대",
+      "insight": "G마켓이 ChatGPT 플러그인 도입으로 생성형 AI 기반 쇼핑 서비스 본격화",
+      "signal_strength": 1,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "G마켓, 생성형 AI 쇼핑 영토 확장 ‘ChatGPT 플러그인’ 전격 도입",
+          "link": "https://sports.khan.co.kr/article/202609061538003?pt=nv",
+          "pub_date": "2026.09.06",
+          "priority": 2,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "G마켓, ChatGPT서 상품 추천·구매 연결…&quot;AI가 맞춤 쇼핑&quot;",
+          "link": "https://www.news1.kr/industry/distribution/6280405",
+          "pub_date": "2026.09.06",
+          "priority": 2,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "G마켓, ChatGPT서 상품 찾고 구매까지…AI 쇼핑 채널 본격화",
+          "link": "https://www.mt.co.kr/living/2026/09/06/2026090416445815718",
+          "pub_date": "2026.09.06",
+          "priority": 2,
+          "cross_query_count": 1,
           "datalab_velocity": 0.0
         }
       ],
@@ -123,68 +255,26 @@
     },
     {
       "category": "benchmark",
-      "topic": "맞춤형 구독 카드 출시",
-      "insight": "카드사들이 AI 구독, 라이프스타일 등 소비자 취향 맞춤형 카드 상품 확대",
+      "topic": "카드사 AI 기술 차별화",
+      "insight": "카드업계가 AI 기반 할인·제휴 서비스 개발로 고객 경험 혁신 추진",
       "signal_strength": 1,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "AI 구독부터 마라톤까지… ‘취향 저격’하는 카드들",
-          "link": "https://www.chosun.com/economy/market_trend/2026/09/07/P53JNAR2WJA4VKYIAONJESBS4I/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-          "pub_date": "2026.09.07",
+          "title": "카드업계, AI 기술 개발부터 상품·제휴 다변화",
+          "link": "https://www.pressman.kr/news/articleView.html?idxno=103576",
+          "pub_date": "2026.09.09",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
         },
         {
-          "title": "&quot;AI 구독부터 운영비까지&quot;…삼성카드, 맞춤형 BIZ 카드 출시",
-          "link": "http://www.globalepic.co.kr/view.php?ud=2026090813492345347cc35ccc5c_29",
-          "pub_date": "2026.09.08",
+          "title": "챗GPT·클로드·제미나이 결제 늘자…카드사 ‘AI 할인’ 경쟁 심화",
+          "link": "http://www.joseilbo.com/news/news_read.php?uid=575341&class=18&grp=",
+          "pub_date": "2026.09.09",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "category": "benchmark",
-      "topic": "추석 시즌 프로모션 경쟁",
-      "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
-      "signal_strength": 1,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "쿠쿠, 추석맞이 쇼핑대전 프로모션 진행",
-          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=863074",
-          "pub_date": "2026.09.08",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "SK매직, 추석 앞두고 정수기 프로모션…구독료 할인·포인트 혜택",
-          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=134883",
-          "pub_date": "2026.09.07",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -10.2
-        },
-        {
-          "title": "해수부, 추석명절 수산물 2.2만톤 공급…최대 50% 할인",
-          "link": "https://www.newspim.com/news/view/20260908000316",
-          "pub_date": "2026.09.08",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -3.5
-        },
-        {
-          "title": "LG유플러스가 추석에 먹거리 혜택을 늘린 까닭",
-          "link": "https://www.econovill.com/news/articleView.html?idxno=750005",
-          "pub_date": "2026.09.07",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -3.7
         }
       ],
       "is_new": true
@@ -193,49 +283,260 @@
   "categories": {
     "trend": [
       {
-        "title": "배달플랫폼 입점 확산…편의점·마트까지 '퀵커머스 경쟁'",
-        "topic": "퀵커머스 시장 확대",
-        "insight": "배달플랫폼의 편의점·마트 입점 확산으로 퀵커머스 경쟁 심화",
-        "desc": "배달앱 3사가 음식점과 외식 프랜차이즈 중심에서 편의점·마트·SSM과 생활유통 전반으로 사업 영역을 넓히면서 유통 대기업과 배달플랫폼 간 제휴 경쟁도 본격화하는 양상이다. 최근에는 롯데슈퍼가 쿠팡이츠와... ",
-        "link": "http://www.srtimes.kr/news/articleView.html?idxno=211892",
-        "pub_date": "2026.09.08",
-        "reason": "퀵커머스 경쟁 확산, 소비자 구매 채널 다변화 추세",
+        "title": "다가오는 추석...유통가 '혼추족·귀성객' 겨냥, 마케팅·프로모션 눈길",
+        "topic": "추석 시즌 유통 프로모션 경쟁",
+        "insight": "추석을 앞두고 유통·이커머스·통신사 등 주요 플랫폼들이 멤버십·프로모션 강화로 수요 확보 경쟁 중",
+        "desc": "대대적인 마케팅 및 고객 서비스에 나선다. 편의점 업계는 명절 간편식을 다각화하고 있으며, 이커머스와... 위스키 전용 잔 증정 프로모션과 함께 이마트 앱 '와인그랩'을 통해 '마세토 2021 + 살롱 2015'(9세트 한정) 등... ",
+        "link": "http://www.dailypop.kr/news/articleView.html?idxno=102392",
+        "pub_date": "2026.09.09",
+        "reason": "추석 시즌 소비 패턴 변화, 타겟팅 기획 참고",
         "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
+        "datalab_score": 30.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "플랫폼 경쟁",
-          "배달 시장"
+          "앱 마케팅",
+          "추석 선물 마케팅"
         ]
       },
       {
-        "title": "할인부터 캐릭터 협업까지…음료업계, '가을' 마케팅 경쟁",
-        "topic": "음료업계 시즌 마케팅",
-        "insight": "할인·협업 등 차별화 전략으로 음료업체들의 가을 시즌 경쟁 가열",
-        "desc": "스타벅스 리워드 회원이라면 별도의 상품 구매 없이 누구나 스타벅스 앱 내 라떼 위크 이벤트 페이지의... ■ 할리스, 전통 식재료에 아이돌 마케팅 더해 시즌 공략 할리스는 홍시와 곶감, 흑임자 등 한국 전통 식재료를... ",
-        "link": "http://www.joseilbo.com/news/news_read.php?uid=575221&class=17&grp=",
-        "pub_date": "2026.09.07",
-        "reason": "음료업계 가을 마케팅 트렌드 모니터링",
+        "title": "이커머스부터 통신사까지...추석 맞아 멤버십 경쟁 '격화'",
+        "topic": "추석 시즌 유통 프로모션 경쟁",
+        "insight": "추석을 앞두고 유통·이커머스·통신사 등 주요 플랫폼들이 멤버십·프로모션 강화로 수요 확보 경쟁 중",
+        "desc": "유통·플랫폼업계부터 통신사까지 추석 대목을 앞두고 멤버십 혜택과 특가 할인 프로모션을 강화하며 고객 락인(Lock-in) 경쟁에 돌입했다. 명절 시즌은 선물 구매와 장보기, 연휴 여가 등 소비 수요가 단기간에 집중되는... ",
+        "link": "http://www.thebigdata.co.kr/view.php?ud=2026090910485580630a47484cf8_23",
+        "pub_date": "2026.09.09",
+        "reason": "추석 시즌 멤버십 경쟁 심화, 소비 트렌드 변화",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 18.5,
+        "datalab_velocity": 1.9,
+        "queries": [
+          "멤버십 혜택",
+          "이커머스 전략"
+        ]
+      },
+      {
+        "title": "패션플랫폼, “가을 성수기 온다”…추석연휴 기점 총력전 돌입",
+        "topic": "추석 시즌 유통 프로모션 경쟁",
+        "insight": "추석을 앞두고 유통·이커머스·통신사 등 주요 플랫폼들이 멤버십·프로모션 강화로 수요 확보 경쟁 중",
+        "desc": "비용은 프로모션 기간 내 전액 면제하는 등 실질적 혜택 기반으로 참가사를 모집하고 있다. FW 시즌은 아우터 등 단가가 높은 품목 비중이 커 패션업계 연중 최대 성수기로 꼽힌다. 특히 가을은 추석 연휴를 전후로 선물... ",
+        "link": "https://www.etnews.com/20260909000161",
+        "pub_date": "2026.09.09",
+        "reason": "추석 성수기 패션 소비 트렌드, 장기 모니터링",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "앱 마케팅",
-          "가을 할인"
+          "추석 연휴 프로모션",
+          "가을 시즌 캠페인"
         ]
       }
     ],
     "risk": [
       {
-        "title": "티빙·강남언니·위버스 개인정보 잇단 유출…플랫폼 보안 '경고등'",
-        "topic": "플랫폼 개인정보 유출 사태",
-        "insight": "티빙, 강남언니, 위버스 등 주요 플랫폼에서 개인정보 유출 사건 잇따르며 보안 우려 고조",
-        "desc": "개인정보 사고가 기업 신뢰와 직접 연결되는 상황에서 앞으로는 사고 발생 이후 사과와 보상보다 '사전에 얼마나 취약점을 발견하고 차단했느냐'가 플랫폼 기업의 보안 경쟁력을 가르는 기준이 될 전망이다.",
-        "link": "http://www.newslock.co.kr/news/articleView.html?idxno=135780",
-        "pub_date": "2026.09.08",
-        "reason": "티빙 등 제휴사 개인정보 유출로 고객 신뢰 훼손 우려",
+        "title": "“제니, 제발 아디다스 떠나라”…불매운동 불똥, 무슨일?",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "아디다스가 제니와의 협업 제품을 공개하기 직전 전직 이스라엘 군인 샤브레 비톤을 광고 모델로 내세웠다가 불매운동이 벌어졌는데, 제니와의 협업도 정치적 논란에 휩싸였다는 분석이다. 앞서 제니는 1일 전 세계적으로... ",
+        "link": "https://www.donga.com/news/Inter/article/all/20260909/134637792/1",
+        "pub_date": "2026.09.09",
+        "reason": "아디다스 불매운동 — 제휴 브랜드 논란",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "'제니 야심작' 나왔는데…&quot;사지 마세요&quot; 불매운동, 무슨 일이 [이슈+]",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "8일(현지시간) 영국 '패션타임즈' 등 외신은 &quot;블랙핑크 팬들이 제니에게 아디다스와의 계약을 해지하라고 촉구하는 데 이어 새로운 아디다스 광고 공개 후 불매운동까지 벌어지고 있다&quot;고 보도했다. 아디다스는... ",
+        "link": "https://www.hankyung.com/article/202609094149g",
+        "pub_date": "2026.09.09",
+        "reason": "아디다스 불매운동 확산 — 제휴 재검토 필요",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "“제니야 제발 떠나라” 난리 났다…아디다스 불매 운동에 날벼락 맞았...",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "아디다스가 이스라엘 전직 군인을 장애인 광고 모델로 기용하면서 전 세계 불매운동의 불씨를 당겼다. 공교롭게도 같은 시점에 공개된 블랙핑크 제니의 협업 컬렉션으로 불똥이 튀면서 제니를 향한 계약 해지... ",
+        "link": "https://www.sedaily.com/article/20089160?ref=naver",
+        "pub_date": "2026.09.09",
+        "reason": "아디다스 불매 운동 — 제휴 브랜드 부정 이벤트",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "‘한 짝 반값’ 내놨다가…아디다스 불매운동, 왜?",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "취지는 좋았지만, 모델로 이스라엘 상이군인을 세우면서 이슬람 국가들에선 불매운동이 번지고 있는데요. 김민환 기자가 보도합니다. [기자] 거리를 뛰어다니고 쇼핑몰을 거니는 젊은 남성. 오른발에 흰색 아디다스 신발을... ",
+        "link": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000549593",
+        "pub_date": "2026.09.09",
+        "reason": "아디다스 불매운동 — 제휴 브랜드 논란",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "제니, 아디다스와 협업했다 날벼락...글로벌 불매운동 불똥 '댓글 테러...",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "아디다스의 이스라엘 현지 광고를 둘러싸고 불매 움직임이 확산되면서 제니의 SNS에도 &quot;Free Palestine... 일부 누리꾼들은 아디다스 불매를 촉구하거나 제니에게 브랜드와 거리를 둘 것을 요구하기도 했다. 제니는 최근... ",
+        "link": "https://www.sportschosun.com/entertainment/2026-09-09/202609090100063690004118",
+        "pub_date": "2026.09.09",
+        "reason": "아디다스 불매운동 — 제휴 재검토 트리거",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "&quot;제발 아디다스 떠나라&quot;…불매 불똥 맞은 제니 '무슨 일?'",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "패션 브랜드 아디다스가 이스라엘 현지 광고를 둘러싼 논란에 공식 사과했으나, 불매 운동의 여파가 그룹 블랙핑크 제니에게까지 번지고 있다. 제니가 브랜드와 공동 디자인 컬렉션을 선보인 시점과 맞물리면서 일부... ",
+        "link": "https://www.mydaily.co.kr/page/view/2026090917295732560",
+        "pub_date": "2026.09.09",
+        "reason": "아디다스 불매운동 확산 — 긴급 대응 필요",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "제니에 &quot;아디다스 떠나라&quot; 불매 확산…본사 결국 공식 사과",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "글로벌 스포츠 브랜드 아디다스가 이스라엘 현지 광고로 촉발된 불매 운동에 대해 공식 사과한 가운데, 첫 공동 디자인 컬렉션을 내놓은 그룹 블랙핑크 제니에게도 불똥이 튀었다. 영국 매체 패션타임스와... ",
+        "link": "https://www.insight.co.kr/news/572636",
+        "pub_date": "2026.09.09",
+        "reason": "아디다스 본사 공식 사과 — 논란 심화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "무슨 일, 제니에 “제발 아디다스 떠나라” 불매 운동 점점 퍼지더니…",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "9일 영국 패션타임스와 타임스오브이스라엘 등 외신에 따르면 최근 해외 온라인상에서는 아디다스의 이스라엘 현지 프로모션을 둘러싼 비판과 함께 불매 운동이 확산됐다. 일부 친팔레스타인 활동가와 누리꾼들은... ",
+        "link": "https://www.wikitree.co.kr/articles/1158356",
+        "pub_date": "2026.09.09",
+        "reason": "아디다스 불매운동 점진 확산 — 제휴 위험",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "아디다스, 모델로 이스라엘 군인 내세웠다 불매 역풍 맞았다 : 한쪽 다리...",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "광고가 SNS를 통해 확산되자 비판은 불매운동으로 번졌다. 팔레스타인 관련 소식을 전하는 활동가 그룹 ‘아이 온 팔레스타인(Eye on Palestine)’은 지난 3일(현지시각) SNS에서 아디다스의 모델 선정이 “분노와 거센... ",
+        "link": "https://www.huffingtonpost.kr/article/260308",
+        "pub_date": "2026.09.09",
+        "reason": "아디다스 불매 역풍 — 제휴 브랜드 위기",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "하비에르 바르뎀도 “불매” 뿔났다···아디다스, 모델로 ‘이스라엘...",
+        "topic": "아디다스 이스라엘 논란 불매",
+        "insight": "아디다스가 이스라엘 군인을 모델로 기용하며 글로벌 불매운동 촉발, 제니 등 유명인까지 영향",
+        "desc": "영국의 정치 평론가 사미 함디는 “맥도날드, 스타벅스, KFC 등 여러 브랜드는 이미 이슬람권 국가에서 불매 운동의 영향을 받고 있으며 많은 브랜드가 지점을 폐쇄할 수밖에 없는 상황”이라며 “아디다스에 대해서도... ",
+        "link": "https://www.khan.co.kr/article/202609071425001",
+        "pub_date": "2026.09.07",
+        "reason": "아디다스 불매 확산 — 제휴 브랜드 논란",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 78.3,
+        "datalab_velocity": 20.0,
+        "queries": [
+          "불매운동"
+        ]
+      }
+    ],
+    "battle": [
+      {
+        "title": "네이버 새벽배송, 11월부터 유료 회원 전용…멤버십 '록인' 강화",
+        "topic": "네이버 새벽배송 멤버십 전환",
+        "insight": "네이버가 새벽배송을 멤버십 전용으로 전환하며 구독 고객 확보 및 락인 전략 강화",
+        "desc": "네이버는 그동안 쇼핑 적립과 디지털 콘텐츠 등을 중심으로 멤버십 혜택을 확대해 왔다. 여기에 새벽배송까지 전용 혜택으로 묶으면서 빠른 배송과 유료 멤버십을 결합한 쿠팡의 로켓배송·와우멤버십 모델과 경쟁도 한층... ",
+        "link": "https://www.newsis.com/view/NISX20260904_0003777016",
+        "pub_date": "2026.09.04",
+        "reason": "네이버 새벽배송 유료화로 멤버십 강제 전환",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 18.5,
+        "datalab_velocity": 1.9,
+        "queries": [
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "[단독]네이버, 11월 멤버십 전용 '새벽배송' 가동…쿠팡과 배송 경쟁 불...",
+        "topic": "네이버 새벽배송 멤버십 전환",
+        "insight": "네이버가 새벽배송을 멤버십 전용으로 전환하며 구독 고객 확보 및 락인 전략 강화",
+        "desc": "4일 업계에 따르면 네이버는 오는 11월 말부터 'N배송 새벽배송'을 네이버플러스 멤버십 회원 전용 혜택으로 전격 전환한다. 최수연 네이버 대표가 지난 2분기 실적발표 컨퍼런스콜에서 밝힌 'N배송 확대 전략'의 후속... ",
+        "link": "https://www.etnews.com/20260904000138",
+        "pub_date": "2026.09.04",
+        "reason": "네이버 멤버십 새벽배송 독점으로 배송 경쟁 심화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 18.5,
+        "datalab_velocity": 1.9,
+        "queries": [
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "쿠팡 월 이용자 3595만명, 결제액은 첫 5兆 돌파... 경쟁사는 ‘주춤’",
+        "topic": "이커머스 플랫폼 경쟁 심화",
+        "insight": "쿠팡 월 이용자 3595만명·결제액 5조 돌파, 경쟁사 대비 격차 확대",
+        "desc": "8배 콘텐츠·배달 앱 묶은 ‘월 7890원 와우 멤버십’이 가두리 효과 경쟁사 퀵커머스로 반격 나섰지만... 이커머스 업계 관계자는 “이용자가 많은 플랫폼에 셀러가 몰리고, 상품 구색과 최저가가 쿠팡에 쌓이면서... ",
+        "link": "https://biz.chosun.com/distribution/channel/2026/09/09/KYKU6D3XDRCTRP4JSRFLGOB4GE/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "pub_date": "2026.09.09",
+        "reason": "쿠팡 월간 이용자·결제액 신기록, 경쟁 강화",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -245,65 +546,48 @@
         ]
       },
       {
-        "title": "“맨날 배달용기 그대로 데워먹는데”…독성 물질 87%, 안전성 검증도 ...",
-        "topic": "배달용기 안전성 문제",
-        "insight": "일회용 배달용기의 독성 물질 검출 및 안전 기준 부재로 소비자 건강 위협",
-        "desc": "개별 물질별 규제 절차를 기다리는 사이 유사 구조의 미검증 물질이 먼저 시장에 유통되는 상황을 차단할 수 있다는 것이다. 제인 뭉케 연구원은 “개별 평가 방식은 비효율적이며 소비자를 충분히 보호하지... ",
-        "link": "https://www.sedaily.com/article/20088182?ref=naver",
+        "title": "[단독]카카오멤버십 월 4900원…네이버와 구독 경쟁 예고",
+        "topic": "멤버십 구독 서비스 경쟁",
+        "insight": "카카오멤버십 월 4900원 출범으로 네이버와의 구독 서비스 경쟁 본격화",
+        "desc": "카카오 관계자는 &quot;카카오 유료 서비스를 쓰는 분들을 위해 묶어서 더 할인을 해주거나, 다른 혜택을 제공해서 플러스 알파가 되는 개념의 멤버십 서비스를 구축 중&quot;이라며 &quot;(금액은) 혜택에 따라 다를 것이고 아직 미정... ",
+        "link": "https://www.mt.co.kr/tech/2026/09/07/2026090613531198320",
         "pub_date": "2026.09.07",
-        "reason": "배달용기 안전성 논란, 제휴사 이슈",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "reason": "카카오 구독형 멤버십 출시, 경쟁사 공격적 진출",
+        "priority": 2,
+        "cross_query_count": 3,
+        "datalab_score": 61.1,
+        "datalab_velocity": 3.7,
         "queries": [
-          "배달 시장"
+          "멤버십 혜택",
+          "구독 서비스",
+          "플랫폼 경쟁"
         ]
       },
       {
-        "title": "&quot;스타벅스 무슨일이야&quot; 투썸에 1위 내주더니 그 후",
-        "topic": "카페 브랜드 순위 변화",
-        "insight": "스타벅스가 카페 선호도 1위를 투썸플레이스에 내주며 시장 지형 변화",
-        "desc": "불매운동의 여파도 있었지만 회사가 고객 신뢰 회복에 집중하기 위해 여름 신상품 출시와 프로모션 행사를 중단한 영향도 작용했다. 이후 7월부터 신제품과 고객 혜택 프로그램을 순차적으로 재개했다. 다만... ",
-        "link": "https://www.dailian.co.kr/news/view/1686671/?sc=Naver",
-        "pub_date": "2026.09.04",
-        "reason": "스타벅스 점유율 하락, 제휴 가치 검토 필요",
+        "title": "하나카드, 추석맞이 할인전…쇼핑·여행 최대 50% 할인",
+        "topic": "신용카드사 프로모션 확대",
+        "insight": "하나카드가 추석 시즌 맞춰 쇼핑·여행 최대 50% 할인 프로모션 전개",
+        "desc": "등 AI 서비스 정기구독 고객에게도 최대 1만 하나머니 혜택을 제공한다. 동시에 생활요금 자동납부 시 최대 2만 하나머니를 받을 수 있으며, 쇼핑·여행·생활 등 주요 업종을 대상으로 한 업종별 무이자할부 혜택을... ",
+        "link": "https://www.etnews.com/20260909000334",
+        "pub_date": "2026.09.09",
+        "reason": "하나카드 추석 할인, 카드사 프로모션 경쟁",
         "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 66.7,
-        "datalab_velocity": -13.3,
-        "queries": [
-          "불매운동"
-        ]
-      }
-    ],
-    "battle": [
-      {
-        "title": "톡 하나로 택시·음악·쇼핑 다 묶는다…카카오 멤버십, 내달 출격",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-        "desc": "오픈AI와도 카카오톡 기반 AI 서비스 협력을 진행 중인 만큼 향후 챗GPT 등 AI 구독 서비스가 멤버십 혜택에 포함될지도 관심사다. 관건은 '체감 혜택'과 '가격'이다. 이미 국내 유료 멤버십 시장은 네이버(네이버플러스... ",
-        "link": "https://www.newsis.com/view/NISX20260902_0003772464",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 통합 멤버십 플랫폼 출시, 시장 공략 심화",
-        "priority": 3,
-        "cross_query_count": 2,
         "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택",
           "AI 쇼핑"
         ]
       },
       {
-        "title": "정부, SK텔레콤·카카오·KT와 '모두의 AI' 출시 협력 논의",
-        "topic": "정부-통신사 AI 협력",
-        "insight": "정부가 SK텔레콤, KT, 카카오와 '모두의 AI' 출시 협력 논의 중",
-        "desc": "KT 컨소시엄은 실시간 검색 기반 범용 AI 에이전트와 공공·교육·금융·쇼핑 등 10여 개 분야의 특화 서비스를 연결한 '이음'을 선보인다. 국산 AI 모델과 그래픽처리장치(GPU)·신경망처리장치(NPU) 인프라를 통합 운영하는... ",
-        "link": "https://zdnet.co.kr/view/?no=20260904093545",
+        "title": "&quot;집 찾아주고 연금 신청까지 척척&quot;…KT, 대국민 AI '이음' 띄운다",
+        "topic": "통신사 AI 서비스 확대",
+        "insight": "KT가 주거·연금 등 생활편의 기능을 통합한 대국민 AI 서비스 '이음' 출시",
+        "desc": "다음 검색에 AI 모드를 탑재해 이용자 맥락을 반영한 심층 검색 결과를 제공하고, 다나와에서는 쇼핑 도중 이음을 호출해 국내 상품의 실시간 검색과 가격 비교, 추천까지 한 화면에서 처리하도록 한다. AI의 '두뇌' 역시... ",
+        "link": "https://www.newsis.com/view/NISX20260904_0003776422",
         "pub_date": "2026.09.04",
-        "reason": "SKT 주도 정부협력 AI 사업, 즉시 대응 필요",
-        "priority": 3,
+        "reason": "KT AI 서비스 출시, 통신사 경쟁 동향 모니터링",
+        "priority": 2,
         "cross_query_count": 1,
         "datalab_score": 100.0,
         "datalab_velocity": 0.0,
@@ -312,179 +596,164 @@
         ]
       },
       {
-        "title": "카카오, 통합 멤버십 준비…계열사 서비스 묶나",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-        "desc": "외부 협업 서비스를 포함한 AI 에이전트가 구현될 경우 멤버십 혜택의 파급효과가 커질 전망이다. 다만 카카오는 “멤버십 서비스를 준비 중인 것은 맞지만 구체적인 혜택이나 참여 서비스, 출시 일정 등은 아직 정해지지... ",
-        "link": "https://www.etnews.com/20260902000335",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 통합 멤버십 플랫폼 출시, 시장 공략 심화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 62.5,
-        "datalab_velocity": -10.2,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "카카오톡·택시·웹툰·선물하기 연계한 ‘유료 멤버십’ 나온다…계열...",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-        "desc": "임시 주주총회를 거쳐 내년 1월 분할을 마무리할 계획이다. 카카오 관계자는 “카카오의 다양한 서비스와 혜택을 연계한 멤버십 서비스를 준비하고 있다”며 “출시 시점과 구체적인 내용은 정해지지 않았다”고 말했다.",
-        "link": "https://www.seoul.co.kr/news/economy/industry/2026/09/02/20260902500275?wlog_tag3=naver",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 통합 멤버십 플랫폼 출시, 시장 공략 심화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 62.5,
-        "datalab_velocity": -10.2,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "카톡·택시·멜론·쇼핑 한 번에…카카오, 서비스 묶은 유료 멤버십 추...",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-        "desc": "카카오는 카카오톡에서 이모티콘을 무제한으로 활용할 수 있는 '이모티콘 플러스', 카카오톡을 통해 주고받은 파일을 관리하는 '톡클라우드' 등 구독 서비스를 제공하고 있다. 카카오모빌리티 역시 주차와 택시 중심의 월... ",
-        "link": "https://view.asiae.co.kr/article/2026090215571215676",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 통합 유료멤버십 출시 임박, 직접 경쟁 위협",
-        "priority": 3,
+        "title": "AI로봇 파는 롯데온...이번엔 데이터 저장 전문기업과 특별 할인전 열어",
+        "topic": "전자상거래 AI 활용 경쟁",
+        "insight": "롯데온이 AI로봇 판매 후 데이터 저장 전문기업과 협력해 AI 서비스 확장",
+        "desc": "앞서 롯데온은 AI 로봇 전문관을 선보이는 등 최신 기술과 테크 라이프스타일 상품을 한곳에서 탐색할 수 있는 쇼핑 환경을 확대해 왔다. 이번 시놀로지와의 협업을 통해 데이터 저장·관리 분야까지 상품 전문성을... ",
+        "link": "https://www.mk.co.kr/article/12146963",
+        "pub_date": "2026.09.08",
+        "reason": "롯데온 AI 활용 할인전, 이커머스 경쟁 구도",
+        "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 62.5,
-        "datalab_velocity": -10.2,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "카카오, 유료 멤버십 서비스 추진",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-        "desc": "업계는 매달 일정 구독료를 납부하면 일부 서비스가 무료로 제공되거나 일정 수량의 할인쿠폰을 제공하는 방식이 될 것으로 보고 있다. 외부 플랫폼과의 연계도 가능할 전망이다. 현재 카카오는 오픈AI와 업무협약을... ",
-        "link": "https://www.fnnews.com/news/202609021809432714",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 유료멤버십 추진, 직접 경쟁 위협",
-        "priority": 3,
+        "title": "G마켓, 생성형 AI 쇼핑 영토 확장 ‘ChatGPT 플러그인’ 전격 도입",
+        "topic": "AI 쇼핑 채널 확대",
+        "insight": "G마켓이 ChatGPT 플러그인 도입으로 생성형 AI 기반 쇼핑 서비스 본격화",
+        "desc": "G마켓 관계자는 “온라인 쇼핑의 시작점이 전통적인 검색창에서 AI와의 대화 형태로 급격히 진화하는 흐름에 맞춰 고객들에게 한 차원 높은 쇼핑 편의를 제공하고자 한다”고 밝혔다.",
+        "link": "https://sports.khan.co.kr/article/202609061538003?pt=nv",
+        "pub_date": "2026.09.06",
+        "reason": "G마켓 ChatGPT AI 쇼핑 확장, 이커머스 경쟁",
+        "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 62.5,
-        "datalab_velocity": -10.2,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "국민 앱 카톡도 '구독제' 도입…카카오 멤버십, 새 수익원 될까",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-        "desc": "이모티콘·택시·멜론·쇼핑 등 혜택 묶을 전망 계열사 서비스 락인 겨냥, 혜택 차별화는 과제 카카오가 유료 멤버십 구독 서비스를 준비하고 있다. 카카오톡 이용자 5535만명을 발판으로 새 수익원을 확보하려는 시도다. 2일... ",
-        "link": "https://news.tf.co.kr/read/economy/2361370.htm",
-        "pub_date": "2026.09.03",
-        "reason": "카카오 구독제 도입, 국민앱 멤버십 경쟁 가속",
-        "priority": 3,
+        "title": "G마켓, ChatGPT서 상품 추천·구매 연결…&quot;AI가 맞춤 쇼핑&quot;",
+        "topic": "AI 쇼핑 채널 확대",
+        "insight": "G마켓이 ChatGPT 플러그인 도입으로 생성형 AI 기반 쇼핑 서비스 본격화",
+        "desc": "높이고 적용 상품과 카테고리를 확대할 계획이다. 업계에서는 생성형 AI가 단순 검색과 정보 제공을 넘어 상품 탐색과 구매 결정까지 연결되면서 AI 플랫폼이 새로운 쇼핑 유입 채널로 자리 잡을지 주목하고 있다.",
+        "link": "https://www.news1.kr/industry/distribution/6280405",
+        "pub_date": "2026.09.06",
+        "reason": "G마켓 ChatGPT 연동 쇼핑, 이커머스 AI 경쟁",
+        "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 62.5,
-        "datalab_velocity": -10.2,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "카카오 멤버십 출시 임박…선물하기·택시·음악 서비스 연계",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-        "desc": "카카오는 현재 카톡과 카카오택시, 멜론, 카카오웹툰, 카카오쇼핑 등 다양한 서비스를 제공하고 있습니다.이 멤버십 서비스는 매월 구독료를 납부하면 일부 서비스를 무료로 제공하거나 할인 쿠폰을 제공하는 방식을... ",
-        "link": "https://news.mtn.co.kr/news-detail/2026090214341552861",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 멤버십 임박, 택시·음악·선물하기 번들",
-        "priority": 3,
+        "title": "G마켓, ChatGPT서 상품 찾고 구매까지…AI 쇼핑 채널 본격화",
+        "topic": "AI 쇼핑 채널 확대",
+        "insight": "G마켓이 ChatGPT 플러그인 도입으로 생성형 AI 기반 쇼핑 서비스 본격화",
+        "desc": "기존 포털과 쇼핑 플랫폼뿐 아니라 AI와의 대화 과정에서도 상품을 노출할 수 있기 때문이다. 구매 목적과 조건이 구체적으로 제시되는 만큼 고객의 쇼핑 수요와 상품을 연결하는 방식도 보다 정교해질 것으로... ",
+        "link": "https://www.mt.co.kr/living/2026/09/06/2026090416445815718",
+        "pub_date": "2026.09.06",
+        "reason": "G마켓 AI 쇼핑 채널화, 이커머스 경쟁 전개",
+        "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 62.5,
-        "datalab_velocity": -10.2,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "카카오, 유료 멤버십 준비…선물하기·택시·음악 서비스 연계",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-        "desc": "네이버플러스멤버십 등 타사의 유료 구독 멤버십 서비스를 감안할 때, 매월 구독료를 납부하면 일부 서비스를 무료로 제공하거나 일정 수량의 할인 쿠폰을 제공하는 방식이 될 것으로 보인다. 외부 플랫폼과의 연계도... ",
-        "link": "https://news.mtn.co.kr/news-detail/2026090214103723526",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 유료멤버십 준비, 경쟁 구도 급변",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 62.5,
-        "datalab_velocity": -10.2,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "카톡·택시 서비스 묶나...카카오, 내달 통합 멤버십 출시",
-        "topic": "카카오 통합 멤버십 출시",
-        "insight": "카카오톡, 택시, 음악, 쇼핑 등 계열사 서비스를 묶은 유료 멤버십 내달 출시 예정",
-        "desc": "멤버십 서비스인 만큼 월 구독료를 낼 경우 일부 서비스를 무료로 이용할 수도 있을 것으로도 전망된다. 카카오는 최근 2분기 경영실적 발표 컨퍼런스콜에서 쿠팡이츠와 협력해 카카오톡 내에서 쿠팡이츠 주문을 할 수... ",
-        "link": "https://www.newspim.com/news/view/20260902000941",
-        "pub_date": "2026.09.02",
-        "reason": "카카오 통합멤버십 출시, 국민앱 기반 위협",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 62.5,
-        "datalab_velocity": -10.2,
-        "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       }
     ],
     "benchmark": [
       {
-        "title": "스타벅스, '라떼 위크' 진행 최대 50% 할인",
-        "topic": "스타벅스 라떼 위크 프로모션",
-        "insight": "스타벅스 시즌 한정 프로모션으로 최대 50% 할인 및 룰렛 이벤트 진행",
-        "desc": "/스타벅스 코리아 스타벅스 코리아가 라떼 음료를 대상으로 할인과 1+1, 사이즈 업 등의 혜택을 제공하는... 스타벅스는 이번 프로모션을 통해 커피뿐 아니라 티를 활용한 라떼까지 제품군을 확대하고 소비자 선택지를... ",
-        "link": "http://www.metroseoul.co.kr/article/20260907500073",
+        "title": "스타벅스, 가을 라떼부터 추석 선물까지…‘혜택 마케팅’ 강화",
+        "topic": "추석 시즈널 마케팅 경쟁",
+        "insight": "주요 유통·가맹점 브랜드들이 추석 맞춰 할인·적립·선물 등 다층 혜택 프로모션 전개",
+        "desc": "맞춤 마케팅에 나선다. 스타벅스는 이달 7일부터 20일까지 14일간 ‘라떼 위크’를 진행한다. 스타벅스 리워드 회원이라면 누구나 앱 내 이벤트 페이지에서 ‘룰렛 챌린지’에 하루 한 번 참여할 수 있다. 룰렛에 참여하면... ",
+        "link": "https://www.viva100.com/article/20260907500301",
         "pub_date": "2026.09.07",
-        "reason": "제휴사 스타벅스 시즌 프로모션 구조 벤치마킹",
+        "reason": "스타벅스 시즈널 혜택 마케팅, 제휴사 프로모션 사례",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 30.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "앱 마케팅",
+          "추석 선물 마케팅"
+        ]
+      },
+      {
+        "title": "LG유플러스, 추석 멤버십 혜택 '53개'로 확대",
+        "topic": "추석 시즈널 마케팅 경쟁",
+        "insight": "주요 유통·가맹점 브랜드들이 추석 맞춰 할인·적립·선물 등 다층 혜택 프로모션 전개",
+        "desc": "LG유플러스가 추석을 맞아 쇼핑과 외식, 나들이 중심으로 멤버십 혜택을 확대하고 장기고객을 겨냥한 체험형 프로그램 강화에 나선다. LG유플러스는 멤버십 프로그램 '유플투쁠'의 9월 제휴 혜택을 총 53개로... ",
+        "link": "https://www.bizwork.co.kr/news/articleView.html?idxno=418885",
+        "pub_date": "2026.09.07",
+        "reason": "추석 시즌 멤버십 혜택 53개 운영, 시즈널 기획 참고",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 18.5,
+        "datalab_velocity": 1.9,
+        "queries": [
+          "멤버십 혜택",
+          "추석 연휴 프로모션"
+        ]
+      },
+      {
+        "title": "네이버·카카오, 추석 맞이 대규모 프로모션… 할인·적립 혜택",
+        "topic": "추석 시즈널 마케팅 경쟁",
+        "insight": "주요 유통·가맹점 브랜드들이 추석 맞춰 할인·적립·선물 등 다층 혜택 프로모션 전개",
+        "desc": "네이버플러스 멤버십 전용 혜택도 준비됐다. 멤버십 이용자는 매일 오전 10시 네플스 앱에서 할인 쿠폰 등을 선착순으로 다운받을 수 있다. 멤버십데이인 오는 14일에는 하루 동안 네이버포인트 3% 추가적립 혜택을... ",
+        "link": "https://www.asiatime.co.kr/article/20260907500037",
+        "pub_date": "2026.09.07",
+        "reason": "추석 프로모션 할인·적립 혜택, 경쟁 멤버십 구조 벤치마크",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 18.5,
+        "datalab_velocity": 1.9,
+        "queries": [
+          "멤버십 혜택",
+          "추석 연휴 프로모션"
+        ]
+      },
+      {
+        "title": "“추석 선물 미리 준비하세요”…네이버·쿠팡·SSG ‘할인 전쟁’ 붙었...",
+        "topic": "추석 시즈널 마케팅 경쟁",
+        "insight": "주요 유통·가맹점 브랜드들이 추석 맞춰 할인·적립·선물 등 다층 혜택 프로모션 전개",
+        "desc": "네이버 제공 네이버가 대규모 추석 쇼핑 프로모션에 들어간 데 이어 쿠팡과 SSG닷컴 등 주요 이커머스 업체들도 선물세트와 명절 먹거리를 중심으로 할인전을 벌이고 있다. 소비자 입장에서는 선물 품목뿐 아니라 쿠폰... ",
+        "link": "https://www.segye.com/newsView/20260907503229?OutUrl=naver",
+        "pub_date": "2026.09.07",
+        "reason": "추석 이커머스 할인전, 시즈널 프로모션 참고",
         "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
           "소비자 할인",
-          "가을 할인"
+          "추석 연휴 프로모션"
         ]
       },
       {
-        "title": "스타벅스, 14일간 '라떼 위크'…매일 룰렛 돌리면 최대 50% 할인",
-        "topic": "스타벅스 라떼 위크 프로모션",
-        "insight": "스타벅스 시즌 한정 프로모션으로 최대 50% 할인 및 룰렛 이벤트 진행",
-        "desc": "스타벅스 코리아가 7일부터 20일까지 14일간 리워드 회원을 대상으로 매일 룰렛을 돌려 할인 쿠폰 등을 받을... 커피뿐 아니라 티를 활용한 라떼까지 행사 대상에 넣어 소비자가 취향에 따라 선택할 수 있도록 한 것이... ",
-        "link": "https://www.imaeil.com/page/view/2026090709071924466",
-        "pub_date": "2026.09.07",
-        "reason": "제휴사 스타벅스 시즌 프로모션 구조 벤치마킹",
+        "title": "추석 할인에 굿즈·체험 혜택도…유통업계 ‘명절 특수’ 공략",
+        "topic": "추석 시즈널 마케팅 경쟁",
+        "insight": "주요 유통·가맹점 브랜드들이 추석 맞춰 할인·적립·선물 등 다층 혜택 프로모션 전개",
+        "desc": "겨냥한 ‘추석 마케팅’ 추석을 앞두고 유통 업계가 신제품과 기획세트, 할인 프로모션을 잇따라 선보이고... 여행업계는 추석 연휴와 가을 여행 수요를 동시에 겨냥한다. 소노인터내셔널은 가을 여행 패키지 ‘얼리... ",
+        "link": "https://www.segye.com/newsView/20260904509020?OutUrl=naver",
+        "pub_date": "2026.09.05",
+        "reason": "추석 할인·체험 혜택 구조, 시즈널 기획 벤치마크",
         "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "소비자 할인",
-          "가을 할인"
+          "추석 연휴 프로모션",
+          "추석 선물 마케팅"
         ]
       },
       {
-        "title": "AI 구독부터 마라톤까지… ‘취향 저격’하는 카드들",
-        "topic": "맞춤형 구독 카드 출시",
-        "insight": "카드사들이 AI 구독, 라이프스타일 등 소비자 취향 맞춤형 카드 상품 확대",
-        "desc": "챗GPT를 구독하면 10%를 적립하고, 마라톤 대회 참가권을 사면 20%를 할인해 준다. 해외 결제액을 한도 없이 2... 동영상 서비스(OTT) 정기 결제는 30% 할인한다. 전월 실적에 따라 월 최대 5만5000원, 연간 최대 66만원까지... ",
-        "link": "https://www.chosun.com/economy/market_trend/2026/09/07/P53JNAR2WJA4VKYIAONJESBS4I/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "pub_date": "2026.09.07",
-        "reason": "카드사 맞춤형 구독 혜택 사례, 참고용",
+        "title": "하나카드, 추석 소비 잡는다... 쇼핑부터 여행·구독까지 혜택 확대",
+        "topic": "추석 시즈널 마케팅 경쟁",
+        "insight": "주요 유통·가맹점 브랜드들이 추석 맞춰 할인·적립·선물 등 다층 혜택 프로모션 전개",
+        "desc": "쿠팡·네이버·넷플릭스·유튜브 등 주요 구독 서비스뿐 아니라 클로드와 미드저니 등 AI 서비스 정기구독도 행사 대상에 포함했다. 생활요금 자동납부와 주요 업종 무이자할부 혜택도 운영한다. 이와 함께 국내외 카드... ",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=208126",
+        "pub_date": "2026.09.09",
+        "reason": "카드사 추석 쇼핑·구독 혜택, 일반 금융 프로모션",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 100.0,
@@ -495,123 +764,71 @@
         ]
       },
       {
-        "title": "&quot;AI 구독부터 운영비까지&quot;…삼성카드, 맞춤형 BIZ 카드 출시",
-        "topic": "맞춤형 구독 카드 출시",
-        "insight": "카드사들이 AI 구독, 라이프스타일 등 소비자 취향 맞춤형 카드 상품 확대",
-        "desc": "전자세금계산서·부가세 환급 지원…사업체명 인쇄 플레이트 제공 개인사업자를 위한 실무 지원 서비스도 대폭 강화했다. 전자세금계산서 무료 발행 서비스와 부가세 환급 편의지원 서비스를 기본 탑재했으며, 발급 시... ",
-        "link": "http://www.globalepic.co.kr/view.php?ud=2026090813492345347cc35ccc5c_29",
-        "pub_date": "2026.09.08",
-        "reason": "카드사 맞춤형 구독 모델, 벤치마킹 가능",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "구독 서비스",
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "쿠쿠, 추석맞이 쇼핑대전 프로모션 진행",
-        "topic": "추석 시즌 프로모션 경쟁",
-        "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
-        "desc": "특별한 쇼핑 경험을 제공할 것&quot;이라고 말했다. 쿠쿠는 주방 가전을 주력으로 하는 쿠쿠전자와 렌털·생활가전 중심의 쿠쿠홈시스로 운영한다. 밥솥, 음식물처리기, 얼음정수기, AI 인덕션, 청소기, 에어프라이어... ",
-        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=863074",
-        "pub_date": "2026.09.08",
-        "reason": "조리가전 브랜드 추석 프로모션 벤치마킹",
+        "title": "카드업계, AI 기술 개발부터 상품·제휴 다변화",
+        "topic": "카드사 AI 기술 차별화",
+        "insight": "카드업계가 AI 기반 할인·제휴 서비스 개발로 고객 경험 혁신 추진",
+        "desc": "계획이며, AI 인프라 기업 커넥셔너리와 함께 개발과 실증을 진행한다. 현대카드는 프리미엄 카드 컬러 시리즈의 엔트리 상품인 'the Green Edition4'와 'the Pink Edition3'를 개편해 공개했다. 두 상품은 여행과 쇼핑이라는 기존... ",
+        "link": "https://www.pressman.kr/news/articleView.html?idxno=103576",
+        "pub_date": "2026.09.09",
+        "reason": "카드사 AI 기술 다변화, 일반 산업 동향",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
           "AI 쇼핑",
-          "추석 마케팅"
+          "브랜드 제휴"
         ]
       },
       {
-        "title": "SK매직, 추석 앞두고 정수기 프로모션…구독료 할인·포인트 혜택",
-        "topic": "추석 시즌 프로모션 경쟁",
-        "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
-        "desc": "명절 시즌 가전 교체를 고려하는 소비자들의 비용 부담을 낮추고, 구독 서비스의 혜택을 확대하는 데 초점을 맞췄다. 이번 행사에서는 'MEGA ICE 얼음정수기'와 '투워터 정수기'를 비롯한 주요 정수기 5종을 대상으로 최대... ",
-        "link": "https://www.e-science.co.kr/news/articleView.html?idxno=134883",
-        "pub_date": "2026.09.07",
-        "reason": "카테고리별 구독료 할인 모델, 벤치마킹 참고",
+        "title": "하나카드, 추석맞이 ‘두근두근 하나로 채우는 가을’ 이벤트…쇼핑·여...",
+        "topic": "추석 시즈널 마케팅 경쟁",
+        "insight": "주요 유통·가맹점 브랜드들이 추석 맞춰 할인·적립·선물 등 다층 혜택 프로모션 전개",
+        "desc": "선물세트 할인부터 여행·레저, 인공지능(AI) 정기구독 서비스 캐시백까지 아우르는 맞춤형 프로모션이 가동된다. 하나카드(대표이사 성영수)는 민족 최대 명절인 추석을 맞아 오는 9월 30일까지 명절 쇼핑, 여행·레저... ",
+        "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065573049240148",
+        "pub_date": "2026.09.09",
+        "reason": "카드사 추석 캠페인, 경쟁사 혜택 구조 참고",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 62.5,
-        "datalab_velocity": -10.2,
+        "datalab_score": 61.1,
+        "datalab_velocity": 3.7,
         "queries": [
           "구독 서비스",
+          "추석 연휴 프로모션"
+        ]
+      },
+      {
+        "title": "챗GPT·클로드·제미나이 결제 늘자…카드사 ‘AI 할인’ 경쟁 심화",
+        "topic": "카드사 AI 기술 차별화",
+        "insight": "카드업계가 AI 기반 할인·제휴 서비스 개발로 고객 경험 혁신 추진",
+        "desc": "현대카드와 하나카드는 AI 통합 플랫폼과 손잡고 챗GPT·제미나이·클로드·그록 등 다양한 서비스를 하나의... 정기결제 경쟁 분야로 자리 잡을 가능성이 있다고 보고 있다. 고승훈 카드고릴라 대표는 &quot;생성형 AI... ",
+        "link": "http://www.joseilbo.com/news/news_read.php?uid=575341&class=18&grp=",
+        "pub_date": "2026.09.09",
+        "reason": "카드사 AI 할인 경쟁, 신기술 기반 프로모션 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "플랫폼 경쟁",
           "소비자 할인"
         ]
       },
       {
-        "title": "해수부, 추석명절 수산물 2.2만톤 공급…최대 50% 할인",
-        "topic": "추석 시즌 프로모션 경쟁",
-        "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
-        "desc": "50% 할인된 가격으로 구매할 수 있다. 1인당 한도도 기존 1만원에서 2만원으로 상향했다. [AI 일러스트=최영수 선임기자] 2026.09.08 dream@newspim.com 전통시장을 찾는 소비자를 위한 혜택도 마련했다. 이달 16일부터 20일까지... ",
-        "link": "https://www.newspim.com/news/view/20260908000316",
-        "pub_date": "2026.09.08",
-        "reason": "추석 시즌 수산물 할인 벤치마킹",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 62.1,
-        "datalab_velocity": -3.5,
-        "queries": [
-          "소비자 할인",
-          "명절 선물"
-        ]
-      },
-      {
-        "title": "스타벅스, 가을 라떼부터 추석 선물까지…‘혜택 마케팅’ 강화",
-        "topic": "스타벅스 라떼 위크 프로모션",
-        "insight": "스타벅스 시즌 한정 프로모션으로 최대 50% 할인 및 룰렛 이벤트 진행",
-        "desc": "맞춤 마케팅에 나선다. 스타벅스는 이달 7일부터 20일까지 14일간 ‘라떼 위크’를 진행한다. 스타벅스 리워드 회원이라면 누구나 앱 내 이벤트 페이지에서 ‘룰렛 챌린지’에 하루 한 번 참여할 수 있다. 룰렛에 참여하면... ",
-        "link": "https://www.viva100.com/article/20260907500301",
-        "pub_date": "2026.09.07",
-        "reason": "제휴사 시즌 마케팅 사례, 향후 기획 참고",
-        "priority": 1,
-        "cross_query_count": 3,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "앱 마케팅",
-          "추석 마케팅",
-          "가을 할인"
-        ]
-      },
-      {
-        "title": "LG유플러스가 추석에 먹거리 혜택을 늘린 까닭",
-        "topic": "추석 시즌 프로모션 경쟁",
-        "insight": "주요 기업들이 추석맞이 할인, 구독료 혜택, 포인트 등 다양한 프로모션 전개",
-        "desc": "통신사 멤버십 혜택의 무게중심이 통신 요금 할인에서 생활 밀착형 소비 영역으로 옮겨가고 있다. 명절을 앞두고 장보기와 외식 부담이 커지는 시점에 제휴 할인을 집중 배치하는 방식은 고객 이탈을 막는 유지... ",
-        "link": "https://www.econovill.com/news/articleView.html?idxno=750005",
-        "pub_date": "2026.09.07",
-        "reason": "경쟁사 추석 마케팅 전략 분석, 향후 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 19.4,
-        "datalab_velocity": -3.7,
-        "queries": [
-          "멤버십 혜택",
-          "추석 마케팅"
-        ]
-      },
-      {
-        "title": "더본코리아, 배달의민족과 16개 브랜드 참여 '통합 배달 기획전'",
-        "topic": "배달앱 통합 기획전",
-        "insight": "더본코리아 등 16개 브랜드가 배달의민족과 함께 통합 배달 기획전 진행",
-        "desc": "(연돈볼카츠) △인생설렁탕 △미정국수 △백스비어 △리춘시장 △막이오름 △돌배기집 △본가 △원조쌈밥집이 참여한다. 먼저 외식 브랜드는 배달의민족 앱에서 해당 브랜드의 메뉴를 주문하면 4000원 할인 혜택을... ",
-        "link": "https://www.news1.kr/industry/distribution/6281636",
-        "pub_date": "2026.09.07",
-        "reason": "배달앱 기획전 캠페인 사례, 연계 혜택 참고",
+        "title": "[유통갤러리] 롯데마트·슈퍼, PB ‘오늘좋은’ 추석 선물세트 첫선 外",
+        "topic": "추석 시즈널 마케팅 경쟁",
+        "insight": "주요 유통·가맹점 브랜드들이 추석 맞춰 할인·적립·선물 등 다층 혜택 프로모션 전개",
+        "desc": "◆신라면세점, 추석 연휴 맞아 '秋구미 페스타' 프로모션 진행 신라면세점이 추석 연휴를 앞두고 고객 참여형 프로모션 ‘추(秋)구미 페스타’를 오는 10월11일까지 진행한다. 이번 프로모션은 최근 다양한 분야에서... ",
+        "link": "https://theviewers.co.kr/View.aspx?No=4219138",
+        "pub_date": "2026.09.09",
+        "reason": "유통사 PB 선물세트, 프로모션 사례 참고",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "배달 시장",
-          "브랜드 제휴"
+          "추석 연휴 프로모션",
+          "추석 선물 마케팅"
         ]
       }
     ]

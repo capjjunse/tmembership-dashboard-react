@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -32,7 +32,7 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
@@ -104,7 +104,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -130,7 +130,7 @@ export const trendSignals = [
   {
     brand: '파리바게뜨',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP/Gold] 100원·50원 할인 / [Silver] 50원 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -161,7 +161,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 28,
+    news7d: 20,
     negScore: 150,
     headline: [
       '브랜드 대상 10년 연속 수상(9.1)',
@@ -177,7 +177,7 @@ export const trendSignals = [
   {
     brand: 'GS25',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 신선식품 200원 할인 (일1회)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
