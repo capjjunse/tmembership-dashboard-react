@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">SKT, 'T로밍 데이터 추가' 혜택 연말까지 연장</span></span></div>
+            <div className="nsum"><span className="upd">SKT가 'T로밍 데이터 추가' 프로모션을 연말(2026년 12월 31일)까지 연장한다고 공식 발표. 고객들의 긍정적인 반응에 따른 조치로, 해외 여행 중 추가 데이터가 필요한 고객들의 요청을 수용했다. T 멤버십 회원들은 계속해서 T로밍 중 필요할 때 언제든 추가 데이터를 구매할 수 있다.</span></div>
+            <div className="nmeta">2026-09-08 · <a href="https://news.sktelecom.com/230364" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">추석 연휴 맞아 글로벌 여행·가족 이벤트·T day로 풍성한 9월 T 멤버십 혜택</span></div>
             <div className="nsum">9월 T 멤버십은 추석 연휴를 맞아 글로벌 여행(일본 후쿠오카·도쿄·오사카 로밍 할인·스카이트리 70% 할인·JR하루카 50% 할인), 가족 이벤트(숨고 추석 기획전 15,000원 쿠폰·서울랜드 최대 71% 할인), T day·Young Week·해피아워(VIP 대상 백미당 50% 할인) 등을 제공합니다.</div>
             <div className="nmeta">2026-09-01 · <a href="https://news.sktelecom.com/230097" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -73,8 +78,8 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">LG U+, 추석 장보기 부담 낮춘다 — 명절 쇼핑·나들이 멤버십 혜택 강화</span></span></div>
-            <div className="nsum"><span className="upd">추석을 맞아 유플투쁠 제휴사를 53개로 확대. 쇼핑·장보기 혜택으로 컬리(9/8 최대 2만7천원), 아워홈몰(9/15 최대 2만원), 사조몰(9/16 최대 1만5천원), 오뚜기몰(9/18 1만5천원), 이마트24(9/24 최대 3천원) 할인. 신규 제휴 유니스터디·우파루 오딧세이·인천공항 고메브릿지 푸드코트 추가. 장기고객(VVIP 10년 이상) 대상 10월 화담숲 초청 행사 진행.</span></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LG U+, 추석 장보기 부담 낮춘다 — 명절 쇼핑·나들이 멤버십 혜택 강화</span></div>
+            <div className="nsum">추석을 맞아 유플투쁠 제휴사를 53개로 확대. 쇼핑·장보기 혜택으로 컬리(9/8 최대 2만7천원), 아워홈몰(9/15 최대 2만원), 사조몰(9/16 최대 1만5천원), 오뚜기몰(9/18 1만5천원), 이마트24(9/24 최대 3천원) 할인. 신규 제휴 유니스터디·우파루 오딧세이·인천공항 고메브릿지 푸드코트 추가. 장기고객(VVIP 10년 이상) 대상 10월 화담숲 초청 행사 진행.</div>
             <div className="nmeta">2026-09-07 · <a href="https://news.lguplus.com/22808" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">

@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (<span className="upd">2026.09.08</span> 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (<span className="upd">2026.09.09 갱신</span>)</span>
 
       </div>
       <div className="tr2">
@@ -63,9 +63,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '63%' }}>긍정 <span className="upd">63%</span></div>
-              <div className="rbs rn" style={{ width: '29%' }}>부정 <span className="upd">29%</span></div>
-              <div className="rbs ru" style={{ width: '8%' }}>중립 <span className="upd">8%</span></div>
+              <div className="rbs rp" style={{ width: '61%' }}>긍정 <span className="upd">61%</span></div>
+              <div className="rbs rn" style={{ width: '31%' }}>부정 <span className="upd">31%</span></div>
+              <div className="rbs ru" style={{ width: '8%' }}>중립 8%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -86,6 +86,7 @@ export default function Sentiment() {
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw1' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T멤버십 찬스를 썼다지만 쌩가격 3.9는 너무 비싸다 진심 — 댓글: "ㄹㅇ 비싸더라" (오리지널 티켓 갤)</div><div className="rsrc"><span className="upd">2026.09.08</span></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">성시경 비빔밥 도시락 — T멤버십 + 농협카드 결제시 25%할인으로 3200원에 구매ㅋㄷ (편의점 갤)</div><div className="rsrc">2026.09.02</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">야심한 밤에 SKT 쓰는놈들 스라(스카이라이너) 50%할인 받아라 — "인당 최대 8매 구매 가능" / 댓글: "아 가격좋은데..." / "버스보다 싸고 빠른데" (러브라이브 선샤인 갤)</div><div className="rsrc">2026.09.02 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=sunshine&no=6652729" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T멤버쉽 10퍼 할인 1만원 제한 걸린거 짜치넹 — "10퍼 나름 쏠쏠했는데" (컴투스프로야구 갤)</div><div className="rsrc">2026.08.27</div></div>
@@ -125,6 +126,7 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw3' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">T day 영위크 즉시당첨 응모했는데 꽝 — "저도 꽝..ㅠ 2개나..ㅠ" / "와 나이 때문에 탈락 ㅋㅋㅋㅋ 하" (정가거부)</div><div className="rsrc"><span className="upd">2026.09.07</span> · <a href="https://cafe.naver.com/wjdrkrjqn" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT 영위크 9월 혜택 — "무료: 백억커피 할인: 할리스, 응급실떡볶이, 노브랜드버거 등 택1 없이 모든 혜택 이용 가능하니 일단 쿠폰 받아놓으세요"</div><div className="rsrc">2026.09.07 · <a href="https://blog.naver.com/zerocostlife/224403588583" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">9월 SKT 도미노피자 50% 할인 | 영위크(YOUNG WEEK) 방문포장 반값 꿀팁 정리</div><div className="rsrc">2026.09.07 · <a href="https://blog.naver.com/igeojeogeo/224403409187" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">t멤버쉽 싹다 털었네요. — 팀홀튼 0week 쿠폰 등 활용, 무지개 떡볶이세트 사용 (정가거부)</div><div className="rsrc">2026.08.07 · <a href="https://m.cafe.naver.com/wjdrkrjqn/189285" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -139,6 +141,7 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw4' && (
             <div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">더쿠</span></div><div className="rtx">티멤 폴바셋 VVIP 전용으로 바뀐거 지금 봤다 — "너무하네 아예 암것도 안주다니" (덬딜)</div><div className="rsrc"><span className="upd">2026.09.09</span> · <a href="https://theqoo.net/theqdeal/4339868457" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT VIP만 온더고 12종 도시락 19000원에 쇼핑 — "T 멤버십 9월 아워홈몰 VIP PICK PLUS 혜택, vip pick쿠폰 받고 복사해두세요"</div><div className="rsrc">2026.09.06 · <a href="https://blog.naver.com/youla8/224402550239" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT 롯데면세점 VIP Pick 스페셜쿠폰 발급·실사용 후기 — "발급 방법부터 실제 사용 후기, 그나마 활용도를 높이는 팁까지 직접 써봤습니다"</div><div className="rsrc">2026.09.03 · <a href="https://blog.naver.com/pumpanda/224399161353" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">비싸다는 새끼들아 우주패스 쓰라고 T멤버쉽쓰라고 카드혜택쓰라고 병신들아 호구새끼아니노 (편의점 갤)</div><div className="rsrc">2026.09.01</div></div>
@@ -160,9 +163,9 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '47%' }}>긍정 <span className="upd">47%</span></div>
-              <div className="rbs rn" style={{ width: '47%' }}>부정 <span className="upd">47%</span></div>
-              <div className="rbs ru" style={{ width: '6%' }}><span className="upd">6%</span></div>
+              <div className="rbs rp" style={{ width: '42%' }}>긍정 <span className="upd">42%</span></div>
+              <div className="rbs rn" style={{ width: '53%' }}>부정 <span className="upd">53%</span></div>
+              <div className="rbs ru" style={{ width: '5%' }}>중립 <span className="upd">5%</span></div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -241,8 +244,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '40%' }}>긍정 <span className="upd">40%</span></div>
-              <div className="rbs rn" style={{ width: '60%' }}>부정 <span className="upd">60%</span></div>
+              <div className="rbs rp" style={{ width: '40%' }}>긍정 40%</div>
+              <div className="rbs rn" style={{ width: '60%' }}>부정 60%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
