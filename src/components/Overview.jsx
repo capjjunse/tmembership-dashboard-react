@@ -108,27 +108,25 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 63%·부정 29%·중립 8%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 61%·부정 31%·중립 8%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>T day "던킨·공차 VIP만 주네 — 알뜰폰 갈게요" 불만 (9.2)</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
-          <a href="#rg" className="ovg2-card ck">
+          <a href="#vp" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>지니TV VOD 1만원 이용권 신설 (VVIP·VIP초이스, 9월~)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>롯데월드 혜택 개편 (본인 40%·동반 3인 30% 할인)</div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>CU 아침 간편식류 1,000원당 200원 할인</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달혜택 (9.1~9.30, 쇼핑라운지·롯데마트·bhc·버거킹 4종)</div>
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>문화혜택 (9.1~, 뮤지컬 2종·전시 2종 최대 50%)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">도미노피자 혜택 변경 (9.1~)</span></div>
-            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">지니TV 신규 제휴 (9.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em>도미노피자 혜택 변경 (9.1~)</div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em>지니TV 신규 제휴 (9.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달 롯데마트 5천원 "어느새 끝나더라고" 선착순 소진 아쉬움 (9.1)</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달혜택 "너프 엄청됐네" — 9월 버거킹·bhc 구성 (9.7)</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>쇼핑라운지 3만원 조건·"쓸만한 게 없다" 불만 반복</div>
           </a>
 
@@ -142,11 +140,11 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>컬쳐데이 (9.14~9.18) · 유쓰·장기고객데이 (9.20·9.24)</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">폴라리스오피스 제휴 종료 예정 (9.30)</span></div>
-            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">낫온리포투데이 제휴 종료 예정 (9.30)</span></div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em>폴라리스오피스 제휴 종료 예정 (9.30)</div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em>낫온리포투데이 제휴 종료 예정 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">부정 60%·긍정 40%</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 60%·긍정 40%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>9월 유플투쁠 "혜택이 점점..." 실망 반응 (9.1)</div>
           </a>
         </div>

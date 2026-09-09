@@ -66,7 +66,10 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (9.16)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 9월 16일 공개 예정</li>
+                <li><span className="upd">던킨 30%할인/적립(VIP50%,최대8천원)</span></li>
+                <li><span className="upd">배스킨라빈스 파인트40%할인/적립</span></li>
+                <li><span className="upd">뚜레쥬르 300원/1천원할인(최대6천원)</span></li>
+                <li><span className="upd">버거리 버거세트3종 4천원할인</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -84,11 +87,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">한가위의 설렘 — Week 20종·Young 11종 공개</div>
+            <div className="mpnt-concept"><span className="upd">한가위의 설렘 — Day2까지 35종 공개</span></div>
             <ul className="mpnt-list">
               <li>Week혜택 · VIPS·에버랜드 등 20종</li>
               <li>Young week 11종 · 백억커피·할리스 등</li>
-              <li>Day2~4 · 9.16·9.23·9.30 공개예정</li>
+              <li><span className="upd">Day2 · 9.16 던킨·배스킨 등 4종</span></li>
             </ul>
           </div>
         </div>
