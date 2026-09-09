@@ -44,8 +44,8 @@ export default function VipBenefits() {
               잠바주스 스무디 3종 50% 할인
             </td>
             <td>
-              스타벅스 VVIP 조각케이크+음료 2잔 무료<br />
-              (일반) 아메리카노 무료 또는 4천원 할인<br />
+              스타벅스 (VVIP) 조각케이크+음료 2잔 무료<br />
+              (VIP) 아메리카노 무료 또는 4천원 할인<br />
               메가MGC커피 아메리카노 2잔 무료
             </td>
             <td>
