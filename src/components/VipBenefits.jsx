@@ -24,7 +24,7 @@ export default function VipBenefits() {
             <td>
               VIP: 연 최대 6회<br />
               VVIP: 연 최대 12회<br />
-              <a href="https://membership.kt.com/mmbr/choice.do" target="_blank" rel="noreferrer" className="vlink">초이스 →</a>
+              <a href="https://membership.kt.com/vip/choice/ChoiceInfo.do" target="_blank" rel="noreferrer" className="vlink">초이스 →</a>
             </td>
             <td>
               월 1회 (연 12회)<br />
@@ -38,6 +38,38 @@ export default function VipBenefits() {
             <td>CGV 무료 연3회 / 1+1 연9회</td>
           </tr>
           <tr>
+            <td>카페</td>
+            <td>
+              폴 바셋 시즌음료 3종 50% 할인(최대 2잔)<br />
+              잠바주스 스무디 3종 50% 할인
+            </td>
+            <td>
+              스타벅스 VVIP 조각케이크+음료 2잔 무료<br />
+              (일반) 아메리카노 무료 또는 4천원 할인<br />
+              메가MGC커피 아메리카노 2잔 무료
+            </td>
+            <td>
+              스타벅스 아메리카노 1잔 무료<br />
+              (VIP+ 더블 사이즈업 무료)<br />
+              할리스 아메리카노(R) 1잔 무료
+            </td>
+          </tr>
+          <tr>
+            <td>렌터카·자동차</td>
+            <td>
+              G car 대여료 60%+보험료 5% 할인(2시간↑)<br />
+              스피드메이트 엔진오일 할인
+            </td>
+            <td>
+              오토오아시스 엔진오일 3만원 할인+부가정비<br />
+              차방정 플러스 멤버십 2개월 무료
+            </td>
+            <td>
+              롯데렌터카 Gcar 35% 할인권 2장(최대 1만원)<br />
+              카모아 해외 렌터카 10% 할인(최대 1.8만원)
+            </td>
+          </tr>
+          <tr>
             <td>OTT·구독</td>
             <td>
               T우주패스 4,900원(쇼핑·편의점·카페) + 5,000원(올리브영·스벅·이마트24) 2종
@@ -49,8 +81,9 @@ export default function VipBenefits() {
               도미노 2만원 할인(3만원 이상 주문 시)
             </td>
             <td>
-              유독<br />
-              4,000원 할인
+              네이버플러스 멤버십 1개월 무료 이용권<br />
+              리디셀렉트 1개월 무료 이용권<br />
+              일리커피 캡슐 배송비 무료
             </td>
           </tr>
           <tr>
