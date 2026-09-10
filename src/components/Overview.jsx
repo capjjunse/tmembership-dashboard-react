@@ -98,6 +98,7 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#rg" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">GS25 화요일 할인 품목 프레시 푸드로 변경</span></div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>Week 혜택 진행중 (9.7~9.11, VIPS·에버랜드 등 20종)</div>
@@ -116,6 +117,7 @@ export default function Overview() {
           <a href="#vp" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>지니TV VOD 1만원 이용권 신설 (VVIP·VIP초이스, 9월~)</div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">스타벅스 상시 혜택 사이즈업으로 변경</span></div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달혜택 (9.1~9.30, 쇼핑라운지·롯데마트·bhc·버거킹 4종)</div>

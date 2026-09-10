@@ -18,8 +18,8 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">SKT, 'T로밍 데이터 추가' 혜택 연말까지 연장</span></span></div>
-            <div className="nsum"><span className="upd">SKT가 'T로밍 데이터 추가' 프로모션을 연말(2026년 12월 31일)까지 연장한다고 공식 발표. 고객들의 긍정적인 반응에 따른 조치로, 해외 여행 중 추가 데이터가 필요한 고객들의 요청을 수용했다. T 멤버십 회원들은 계속해서 T로밍 중 필요할 때 언제든 추가 데이터를 구매할 수 있다.</span></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 'T로밍 데이터 추가' 혜택 연말까지 연장</span></div>
+            <div className="nsum">SKT가 'T로밍 데이터 추가' 프로모션을 연말(2026년 12월 31일)까지 연장한다고 공식 발표. 고객들의 긍정적인 반응에 따른 조치로, 해외 여행 중 추가 데이터가 필요한 고객들의 요청을 수용했다. T 멤버십 회원들은 계속해서 T로밍 중 필요할 때 언제든 추가 데이터를 구매할 수 있다.</div>
             <div className="nmeta">2026-09-08 · <a href="https://news.sktelecom.com/230364" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
@@ -71,6 +71,11 @@ export default function News() {
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 여름 휴가철 고객 혜택 확대 — 케.멤.페 공항라운지·캐리비안 베이·롯데렌터카 50~60% 할인</span></div>
             <div className="nsum">8월 3~31일 케이티 멤버십 페스타 기간 공항라운지 1만원 할인, 캐리비안 베이 본인·동반 50% 할인, 롯데렌터카 60% 할인, 아고다 국내 10%·해외 12% 할인, GS칼텍스 3천원 할인(3만원 이상 주유 시). 달달혜택으로 배스킨라빈스 30%, 공차 50%, 쇼핑라운지 5천원 할인. 뮤지컬·전시·영화 문화혜택도 강화.</div>
             <div className="nmeta">2026-07-30 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19251" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">KT, 월드컵 시즌 맞아 6월 멤버십 프로그램 강화</span></span></div>
+            <div className="nsum"><span className="upd">KT가 월드컵 시즌을 맞아 6월 고객 보답 프로그램 2차 라인업을 운영(6/16~6/30). GS25 컵라면·디저트 50% 할인 또는 던킨 전 품목 50% 할인, 달달혜택으로 VIPS 채끝스테이크 무료, 배달의민족 X 노모어피자 최대 1만원 할인, 더벤티 아이스 아메리카노 1,000원 할인, 공차 50% 할인, 버거킹 최대 50% 할인, 롯데시네마 7,000원 영화예매권 등 제공. 뮤지컬 '그날들'·'서편제' 등 공연·전시 관람 할인도 병행.</span></div>
+            <div className="nmeta">2026-06-15 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19173" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
           </div>
         </div>
       )}
