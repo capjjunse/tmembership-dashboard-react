@@ -134,6 +134,16 @@ const compGroups = [
         basis: { skt: '8,500원 예매+매점쿠폰 2종', lgu: '팝콘+음료 세트 무료', gap: 'SKT 예매+스낵 우위' },
         note: { skt: '9.7~9.11', lgu: '9.18' },
       },
+      {
+        brand: '배스킨라빈스',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '파인트 40% 할인/적립' }], date: 'T day · 9.16' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '패밀리 최대 9천원 할인' }], date: '투쁠 8차 · 9.22' },
+        v: 'neut',
+        basis: { skt: '파인트 40% 할인/적립', lgu: '패밀리 9천원 할인', gap: '상품 티어 상이' },
+        note: { skt: '9.16', lgu: '9.22' },
+      },
     ],
   },
   {
@@ -490,7 +500,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11) · LGU+ 투쁠 1~8차+컬쳐데이+유쓰+장기고객데이 · KT 달달혜택 공개 · skt-lgu 10종 확인)</div>
+          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11) · LGU+ 투쁠 1~8차+컬쳐데이+유쓰+장기고객데이 · KT 달달혜택 공개 · skt-lgu 11종 확인)</div>
         </div>
       </div>
 

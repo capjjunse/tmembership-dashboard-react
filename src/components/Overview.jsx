@@ -108,8 +108,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 61%·부정 31%·중립 8%</span></div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>T day "던킨·공차 VIP만 주네 — 알뜰폰 갈게요" 불만 (9.2)</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 60%·부정 32%·중립 8%</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">VIP PICK 폴바셋 VVIP 전용 "너무하네 아예 암것도 안주다니" (9.9)</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
@@ -126,7 +126,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>지니TV 신규 제휴 (9.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달혜택 "너프 엄청됐네" — 9월 버거킹·bhc 구성 (9.7)</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달혜택 "너프 엄청됐네" — 9월 버거킹·bhc 구성 (9.7)</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>쇼핑라운지 3만원 조건·"쓸만한 게 없다" 불만 반복</div>
           </a>
 
@@ -144,7 +144,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>낫온리포투데이 제휴 종료 예정 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>부정 60%·긍정 40%</div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 50%·부정 50%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>9월 유플투쁠 "혜택이 점점..." 실망 반응 (9.1)</div>
           </a>
         </div>
