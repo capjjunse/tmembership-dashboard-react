@@ -86,7 +86,6 @@ export default function Sentiment() {
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw1' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T멤버십 찬스를 썼다지만 쌩가격 3.9는 너무 비싸다 진심 — 댓글: "ㄹㅇ 비싸더라" (오리지널 티켓 갤)</div><div className="rsrc"><span className="upd">2026.09.08</span></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">성시경 비빔밥 도시락 — T멤버십 + 농협카드 결제시 25%할인으로 3200원에 구매ㅋㄷ (편의점 갤)</div><div className="rsrc">2026.09.02</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">야심한 밤에 SKT 쓰는놈들 스라(스카이라이너) 50%할인 받아라 — "인당 최대 8매 구매 가능" / 댓글: "아 가격좋은데..." / "버스보다 싸고 빠른데" (러브라이브 선샤인 갤)</div><div className="rsrc">2026.09.02 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=sunshine&no=6652729" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T멤버쉽 10퍼 할인 1만원 제한 걸린거 짜치넹 — "10퍼 나름 쏠쏠했는데" (컴투스프로야구 갤)</div><div className="rsrc">2026.08.27</div></div>
