@@ -16,7 +16,7 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 5,
+    news7d: 7,
     negScore: 970,
     headline: [
       '글로벌 회복세 · SBUX 주가 +26%',
@@ -32,20 +32,19 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 15,
+    news7d: 20,
     negScore: 180,
     headline: [
       '브랜드평판 9월 1위 · 지수 16%↑',
-      '하우스밀크 라떼 · 가을 신메뉴 출시',
-      'NCT127 콜라보 · 이벤트 9.3~9.14',
+      '가을 라떼 출시 1주 · 50만 잔 돌파',
     ],
-    impact: '3사 미운영 · 브랜드평판 9월 1위(지수 16%↑) · 이용률 1위 달성 — 흥행세 지속',
+    impact: '3사 미운영 · 브랜드평판 9월 1위(지수 16%↑) · 가을 라떼 출시 1주 50만 잔 — 흥행세 지속',
     links: [
       { label: '결제액 스타벅스 94.9%·이용률 추월 (머니투데이)', url: 'https://www.mt.co.kr/living/2026/08/22/2026082011025549638' },
     ],
@@ -104,7 +103,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -114,12 +113,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 25,
+    news7d: 30,
     negScore: 250,
     headline: [
       '2Q 흑자전환 · 영업이익 115억',
       '씨집에 가면 · 9월 단독 라인업 공개',
-      '파묘 SCREENX 재개봉 · COD-7 론칭',
+      '1~8월 관객 8726만 · 매출 36%↑',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 파묘 SCREENX 재개봉(9.3) · COD-7 관객주문 상영 론칭',
     links: [
@@ -130,7 +129,7 @@ export const trendSignals = [
   {
     brand: '파리바게뜨',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP/Gold] 100원·50원 할인 / [Silver] 50원 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -140,12 +139,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 6,
+    news7d: 10,
     negScore: 480,
     headline: [
       '8.25 127종 5% 인상 완료',
       '11종 가격인하 · 물가안정 동참 병행',
-      'K파바 추석 선물세트 출시',
+      '케이터링 박스 서비스 시범(50점)',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 8.25 127종 5% 인상 완료 · 11종 가격인하 병행 — 제휴 할인 실질 가치 하락 우려',
     links: [
@@ -161,7 +160,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 20,
+    news7d: 15,
     negScore: 150,
     headline: [
       '브랜드 대상 10년 연속 수상(9.1)',
@@ -177,17 +176,17 @@ export const trendSignals = [
   {
     brand: 'GS25',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 신선식품 200원 할인 (일1회)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
       { id: 'lgu', label: 'LGU+', prog: '상시', benefit: '[VVIP/VIP] 100원 / [우수] 50원 할인' },
     ],
-    strength: 'strong',
+    strength: 'mid',
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 50,
+    news7d: 25,
     negScore: 900,
     headline: [
       '166만명 개인정보 유출 · 128억 과징금',
