@@ -23,7 +23,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Week 혜택 (9.7~9.11)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Week 혜택 (9.7~9.11)</span></div>
               <ul className="mblist">
                 <li>VIPS 30%할인/적립(VIP40%,최대6만원)</li>
                 <li>롯데리아 사각핫크팩32%할인(VIP42%)</li>
@@ -48,7 +48,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Young week (9.7~9.11)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Young week (9.7~9.11)</span></div>
               <ul className="mblist">
                 <li>백억커피 아메리카노+팝콘 무료(정가1,900원)</li>
                 <li>할리스 인기음료50%할인(4종택1)</li>
@@ -66,10 +66,10 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (9.16)</span></div>
               <ul className="mblist">
-                <li><span className="upd">던킨 30%할인/적립(VIP50%,최대8천원)</span></li>
-                <li><span className="upd">배스킨라빈스 파인트40%할인/적립</span></li>
-                <li><span className="upd">뚜레쥬르 300원/1천원할인(최대6천원)</span></li>
-                <li><span className="upd">버거리 버거세트3종 4천원할인</span></li>
+                <li>던킨 30%할인/적립(VIP50%,최대8천원)</li>
+                <li>배스킨라빈스 파인트40%할인/적립</li>
+                <li>뚜레쥬르 300원/1천원할인(최대6천원)</li>
+                <li>버거리 버거세트3종 4천원할인</li>
               </ul>
             </div>
             <div className="mblk">
@@ -87,11 +87,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">한가위의 설렘 — Day2까지 35종 공개</span></div>
+            <div className="mpnt-concept">한가위의 설렘 — Day2까지 35종 공개</div>
             <ul className="mpnt-list">
               <li>Week혜택 · VIPS·에버랜드 등 20종</li>
               <li>Young week 11종 · 백억커피·할리스 등</li>
-              <li><span className="upd">Day2 · 9.16 던킨·배스킨 등 4종</span></li>
+              <li>Day2 · 9.16 던킨·배스킨 등 4종</li>
             </ul>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function MonthlyBenefits() {
                 <li>피자헛 최대55%할인+파스타증정(선착순)</li>
                 <li>쿠팡이츠×노모어피자 최대8천원할인(2.2만원↑주문시,선착순)</li>
                 <li>컬리 5천+웰컴백1만+첫1.2만쿠폰(선착순)</li>
-                <li>아쿠아플라넷 입장권35%할인(선착순)</li>
+                <li>아쿠아플라넷 입장권<span className="upd">최대</span>35%할인(선착순)</li>
                 <li>스피드메이트 엔진오일+정비4종(선착순)</li>
                 <li>스파오 1.5만원할인(5만원↑구매시,선착순)</li>
               </ul>
@@ -174,7 +174,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 3차 (9.14)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>투쁠 3차 (9.14)</span></div>
               <ul className="mblist">
                 <li>공차 최대50%할인(1만원↑구매시,최대5천원,선착순)</li>
                 <li>카카오웹툰 5천캐시증정(선착순)</li>
@@ -185,7 +185,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>컬쳐데이 (9.14~9.18)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>컬쳐데이 (9.14~9.18)</span></div>
               <ul className="mblist">
                 <li>NOL티켓 전시특별전35%할인(1인4매)</li>
                 <li>원더빌리지 40%할인(최대4인)</li>

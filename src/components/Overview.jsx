@@ -98,26 +98,26 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#rg" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">GS25 화요일 할인 품목 프레시 푸드로 변경</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em>GS25 화요일 할인 품목 프레시 푸드로 변경</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>Week 혜택 진행중 (9.7~9.11, VIPS·에버랜드 등 20종)</div>
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>Young week 진행중 (9.7~9.11, 백억커피·할리스 등 11종)</div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em>Week 혜택·Young week 종료 (9.11)</div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">Day 2 (9.16~) — 던킨·배스킨·뚜레쥬르·버거리 4종</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 예정 (9.30)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 60%·부정 32%·중립 8%</span></div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">VIP PICK 폴바셋 VVIP 전용 "너무하네 아예 암것도 안주다니" (9.9)</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 60%·부정 32%·중립 8%</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK 폴바셋 VVIP 전용 "너무하네 아예 암것도 안주다니" (9.9)</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#vp" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>지니TV VOD 1만원 이용권 신설 (VVIP·VIP초이스, 9월~)</div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">스타벅스 상시 혜택 사이즈업으로 변경</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em>스타벅스 상시 혜택 사이즈업으로 변경</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달혜택 (9.1~9.30, 쇼핑라운지·롯데마트·bhc·버거킹 4종)</div>
@@ -146,7 +146,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>낫온리포투데이 제휴 종료 예정 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em><span className="upd">긍정 50%·부정 50%</span></div>
+            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 50%·부정 50%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>9월 유플투쁠 "혜택이 점점..." 실망 반응 (9.1)</div>
           </a>
         </div>
@@ -156,9 +156,9 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title">SKT↔LGU+ 10종 비교 · 노브랜드·아워홈몰·CGV 우위</div>
+              <div className="ovki-title"><span className="upd">SKT↔LGU+ 11종 비교 · 노브랜드·아워홈몰·CGV 우위</span></div>
               <ul className="ovki-list">
-                <li>T day·Young week × 투쁠 10종 비교 — 3종 SKT 우위</li>
+                <li><span className="upd">T day·Young week × 투쁠 11종 비교 — 3종 SKT 우위</span></li>
                 <li>KT 달달혜택 — SKT·KT·LGU+ 겹침 없음</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
