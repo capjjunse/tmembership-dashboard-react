@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.14';
+const RADAR_SCANNED = '2026.09.15';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -198,7 +198,7 @@ const alCats = [
   },
   {
     icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
-    updated: true,
+    updated: false,
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
@@ -319,14 +319,14 @@ export const recs = [
     rank: 1,
     brand: '봉구스밥버거',
     updated: false,
-    tag: '매장 485개 · DataLab →0.83',
+    tag: '매장 484개 · DataLab →1.00',
     reason: '밥버거 카테고리 1위 브랜드 · 전국 485개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 485개 · 밥버거 카테고리 1위 (점포 수 감소 추세 — 브랜드 규모 축소 진행 중)' },
       { label: '검색 버즈', text: 'DataLab →0.83 · 블로그 1만 · 뉴스 4건 — 저버즈 구간, 시즌 이슈 없음' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 밥버거 카테고리 공백 — 창업주 마약·갑질 이슈(2024) · 점포 급감 이력 — 브랜드 리스크 선검토 필요' },
     ],
-    trend: 'DataLab 0.83 · 블로그 1만 · 뉴스 4건',
+    trend: 'DataLab 1.00 · 블로그 1만 · 뉴스 4건',
     hot: false,
     skt: [],
     kt:  null,
@@ -334,16 +334,16 @@ export const recs = [
   },
   {
     rank: 2,
-    brand: '60계치킨',
-    updated: false,
-    tag: '매장 628개 · DataLab →0.75',
-    reason: '치킨 카테고리 중견 브랜드 · 전국 628개. 배민 픽업 전용 메뉴 출시로 배달 플랫폼 시너지 강화. 뉴스 버즈 85건으로 카테고리 내 주목도 지속. SKT·KT·LGU+ 3사 모두 미참여.',
+    brand: '매머드커피',
+    updated: true,
+    tag: '매장 878개 · DataLab ↗1.04',
+    reason: '저가 커피 2위 브랜드 · 전국 878개. 2026.1 오케스트라PE 인수 후 매머드오더 개편·구조 정비 중. 일본 2026 상반기 히트상품 선정으로 해외 가시성 확대. 9월 브랜드평판 13위(커피 카테고리). SKT 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 628개 · 치킨 카테고리 중견 브랜드 (양념·후라이드 균형 라인업)' },
-      { label: '검색 버즈', text: 'DataLab →0.75 · 블로그 4만 · 뉴스 85건 — 배민 픽업 메뉴 출시·히트상품 수상 버즈' },
-      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 상시 공백 — 2025년 공정위 가맹 갑질 시정명령 이력, 신뢰도 모니터링' },
+      { label: '매장 규모', text: '전국 878개 · 저가 커피 카테고리 2위 (메가커피 다음)' },
+      { label: '검색 버즈', text: 'DataLab ↗1.04 · 블로그 1만 · 뉴스 99건 — 매머드오더 개편·일본 히트상품 선정 버즈' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 저가 카페 공백 — 오케스트라PE 인수 후 구조 개편 중, 제휴 접촉 타이밍' },
     ],
-    trend: 'DataLab 0.75 · 블로그 4만 · 뉴스 85건',
+    trend: 'DataLab 1.04 · 블로그 1만 · 뉴스 99건',
     hot: true,
     skt: [],
     kt:  null,
@@ -353,14 +353,14 @@ export const recs = [
     rank: 3,
     brand: '카페봄봄',
     updated: false,
-    tag: '매장 405개 · DataLab →0.76',
+    tag: '매장 405개 · DataLab →0.91',
     reason: '건강음료 특화 카페 브랜드 · 전국 405개. 배 베이스 음료·저당 옵션·프로틴 음료 강화로 웰니스 트렌드 수요 포착. SKT·KT·LGU+ 3사 모두 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 405개 · 저당·건강음료 카테고리 특화 (배 베이스·프로틴 옵션 강화)' },
       { label: '검색 버즈', text: 'DataLab →0.76 · 블로그 1.7만 · 뉴스 6건 — 안정적 버즈, 대형 이슈 없음' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 건강음료 카테고리 공백 — 웰니스 트렌드 성장, 3사 모두 미참여 공백' },
     ],
-    trend: 'DataLab 0.76 · 블로그 1.7만 · 뉴스 6건',
+    trend: 'DataLab 0.91 · 블로그 1만 · 뉴스 2건',
     hot: false,
     skt: [],
     kt:  null,
@@ -636,7 +636,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.14</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.15</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

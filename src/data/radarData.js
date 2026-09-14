@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -16,10 +16,10 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 7,
+    news7d: 10,
     negScore: 970,
     headline: [
-      '글로벌 회복세 · SBUX 주가 +26%',
+      '지자체 상품권 구매 급감(9.14)',
       '탱크데이 수사 계속 · 본사 압수수색',
       '3Q 마케팅 재개 · 탈벅 기조 변화',
     ],
@@ -32,13 +32,13 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 20,
+    news7d: 15,
     negScore: 180,
     headline: [
       '브랜드평판 9월 1위 · 지수 16%↑',
@@ -62,7 +62,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 5,
+    news7d: 4,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
@@ -78,7 +78,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -87,12 +87,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 15,
+    news7d: 20,
     negScore: 850,
     headline: [
-      '채권신고 완료 · 채권조사 9.2~9.29',
+      '신촌점 9.21 영업종료 · 폐점',
+      '채권조사 진행 중 · ~9.29',
       '9월 메가온리 · 케이티페리 필름',
-      '직영 좌석 3400석 · 스크린 8개↓',
     ],
     impact: 'SKT·KT 상시 운영 중 · 채권조사기간(9.2~9.29) 개시 · 직영 좌석 3400석·스크린 8개 감소 — 회생계획안 12.1까지 제출',
     links: [
@@ -113,12 +113,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 30,
+    news7d: 35,
     negScore: 250,
     headline: [
       '2Q 흑자전환 · 영업이익 115억',
       '씨집에 가면 · 9월 단독 라인업 공개',
-      '1~8월 관객 8726만 · 매출 36%↑',
+      '씨오디 세븐 · 관객주문 상영 론칭',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 파묘 SCREENX 재개봉(9.3) · COD-7 관객주문 상영 론칭',
     links: [
@@ -139,11 +139,11 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 10,
+    news7d: 12,
     negScore: 480,
     headline: [
       '8.25 127종 5% 인상 완료',
-      '11종 가격인하 · 물가안정 동참 병행',
+      '파바 한 끼 캠페인 · 9.14 론칭',
       '케이터링 박스 서비스 시범(50점)',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 8.25 127종 5% 인상 완료 · 11종 가격인하 병행 — 제휴 할인 실질 가치 하락 우려',
@@ -154,17 +154,17 @@ export const trendSignals = [
   {
     brand: '엽기떡볶이',
     membership: 'candidate',
-    updated: false,
+    updated: true,
     telcos: [],
-    strength: 'mid',
+    strength: 'low',
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 15,
+    news7d: 10,
     negScore: 150,
     headline: [
       '브랜드 대상 10년 연속 수상(9.1)',
-      '수상 기념 고객 감사 이벤트 실시',
+      '2027.7 전 제품 7% 인상 예고',
       '위생 위반 이력 · 가맹갑질 모니터링',
     ],
     impact: '3사 미운영 · 올해의 브랜드 대상 10년 연속 수상(9.1) — 분식 카테고리 1위, SKT 제휴 공백',
@@ -176,9 +176,9 @@ export const trendSignals = [
   {
     brand: 'GS25',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
-      { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 신선식품 200원 할인 (일1회)' },
+      { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 프레시 푸드 200원 할인 (일1회)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
       { id: 'lgu', label: 'LGU+', prog: '상시', benefit: '[VVIP/VIP] 100원 / [우수] 50원 할인' },
     ],
@@ -186,7 +186,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 25,
+    news7d: 30,
     negScore: 900,
     headline: [
       '166만명 개인정보 유출 · 128억 과징금',
