@@ -136,7 +136,7 @@ const compGroups = [
       },
       {
         brand: '배스킨라빈스',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '파인트 40% 할인/적립' }], date: 'T day · 9.16' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '패밀리 최대 9천원 할인' }], date: '투쁠 8차 · 9.22' },
