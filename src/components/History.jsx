@@ -55,14 +55,14 @@ export default function History() {
             <td>2026.10.01</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
-            <td><span className="upd">zel 신규 제휴 — 전 제품 10% 할인 (4만원 이상 주문 시, 최대 1만원 할인) (10.1~)</span></td>
+            <td>zel 신규 제휴 — 전 제품 10% 할인 (4만원 이상 주문 시, 최대 1만원 할인) (10.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
             <td>2026.10.01</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
-            <td><span className="upd">클룩 할인 변경 — 5% → 10% (10.1~12.31)</span></td>
+            <td>클룩 할인 변경 — 5% → 10% (10.1~12.31)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>

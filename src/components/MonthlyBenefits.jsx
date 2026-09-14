@@ -157,7 +157,7 @@ export default function MonthlyBenefits() {
                 <li>피자헛 최대55%할인+파스타증정(선착순)</li>
                 <li>쿠팡이츠×노모어피자 최대8천원할인(2.2만원↑주문시,선착순)</li>
                 <li>컬리 5천+웰컴백1만+첫1.2만쿠폰(선착순)</li>
-                <li>아쿠아플라넷 입장권<span className="upd">최대</span>35%할인(선착순)</li>
+                <li>아쿠아플라넷 입장권최대35%할인(선착순)</li>
                 <li>스피드메이트 엔진오일+정비4종(선착순)</li>
                 <li>스파오 1.5만원할인(5만원↑구매시,선착순)</li>
               </ul>
@@ -174,7 +174,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>투쁠 3차 (9.14)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 3차 (9.14)</span></div>
               <ul className="mblist">
                 <li>공차 최대50%할인(1만원↑구매시,최대5천원,선착순)</li>
                 <li>카카오웹툰 5천캐시증정(선착순)</li>
@@ -195,7 +195,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 4차 (9.15)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>투쁠 4차 (9.15)</span></div>
               <ul className="mblist">
                 <li>배민×요아정 8,500원할인(1.85만원↑주문시,선착순)</li>
                 <li>백억커피 아메리카노+팝콘무료(선착순)</li>
