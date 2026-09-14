@@ -33,11 +33,6 @@ export default function News() {
             <div className="nmeta">2026-08-13 · <a href="https://news.sktelecom.com/229247" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">방콕·나트랑·괌 현지 혜택부터 브랜드 위크까지, 8월 T 멤버십 한눈에 보기</span></div>
-            <div className="nsum">8월 글로벌 여행 바캉스 프로모션으로 방콕(공항 픽업·마하나콘 스카이워크 최대 50% 할인), 나트랑(패스트트랙·공항 픽업 반값·루나 스파 최대 30% 할인), 괌(스트롤 택시 15% 할인·아이홉·호놀룰루 커피 무료) 등 현지 혜택 제공. T day 2주차 뚜레쥬르 300원/천원 할인, 3주차 도미노피자 50%, 4주차 11번가 최대 50% 할인. Young Week 문화 공연 할인, 신규 제휴사 샐러디 10% 할인 추가.</div>
-            <div className="nmeta">2026-08-02 · <a href="https://news.sktelecom.com/228744" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 1000만 러너 사로잡을 신규 제품·혜택 선보인다</span></div>
             <div className="nsum">러닝 고객 대상으로 가민 포러너 70·265 스마트워치와 샥즈 오픈런 프로2 골전도 이어폰 신규 도입. 스마트기기 할부금 할인 혜택(월 최대 2만 4천원 할인) 대상에 포함. 9월 19일 '2026 무한도전 Run in 경주' 마라톤 이벤트 메인 스폰서로 갤럭시 Z 폴더블8 구매 고객 대상 참가권 추첨(2천명). 장기 '런메이트' 프로그램으로 러닝 관련 상품·혜택 지속 확대 예정.</div>
             <div className="nmeta">2026-08-02 · <a href="https://news.sktelecom.com/228778" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -45,17 +40,7 @@ export default function News() {
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 8~9월 고객 혜택 확대 — 에어 요금제 첫 달 70% 포인트·영화 반값·멤버십 혜택</span></div>
             <div className="nsum">에어 요금제 신규 가입 시 월정액 70% 수준의 포인트 혜택 제공(8월 1~31일). 만 34세 이하 고객 대상 CGV 영화 관람권 50% 할인을 월 1장에서 월 2장으로 확대. 8~9월 T멤버십 매주 Big 3 제휴사 50% 이상 할인, 여행 및 로밍 혜택 강화.</div>
-            <div className="nmeta">2026-07-30 · <a href="https://news.sktelecom.com/228562" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 휴가철 로밍·멤버십 혜택 꽉 채웠다</span></div>
-            <div className="nsum">여름 휴가철을 맞아 T 로밍 프로모션과 T 멤버십 혜택을 강화하여 운영. 해외여행 시 로밍 특가와 함께 국내 T멤버십 혜택(0 week, 제휴사 할인 등)을 동시에 제공.</div>
-            <div className="nmeta">2026-07-13 · <a href="https://news.sktelecom.com/227702" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">T 멤버십으로 즐기는 특별한 여름, 7월 혜택 총정리</span></div>
-            <div className="nsum">여름휴가 시즌 맞아 SUMMER LUCKY WEEK(7월 13~17일) 5성급 호텔 숙박권 응모 이벤트, Young Week 브랜드 개편, 신규 제휴사 3곳 합류, 서울랜드 본인 50%·동반 40% 할인. 토이콘 서울 2026 관람권 30% 할인.</div>
-            <div className="nmeta">2026-07-01 · <a href="https://news.sktelecom.com/227258" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nmeta">2026-08-02 · <a href="https://news.sktelecom.com/228562" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
         </div>
       )}
@@ -66,16 +51,6 @@ export default function News() {
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 8월 멤버십 혜택 확대 — 포케올데이 신규 제휴·뮤지컬 헬스키친·유미의 세포들 최대 45% 할인</span></div>
             <div className="nsum">KT 멤버십 페스타로 신규 제휴 포케올데이 10% 할인(9,900원 이상, 최대 3만원, 일 1회), 패스트캠퍼스 AICE 과정 30% 특별 할인. 뮤지컬 헬스키친 최대 40%, 유미의 세포들 최대 45%, 슬립노모어 서울 최대 40% 할인, 전시 아기상어 비밀 초대장 50% 할인. 9월 1일부터 VVIP·VIP 고객 지니TV VOD 1만원 이용권, 도미노피자 방문 포장 시 3만원 이상 결제하면 2만원 할인.</div>
             <div className="nmeta">2026-08-03 · <a href="https://www.ddaily.co.kr/page/view/2026080310224623198" target="_blank" rel="noreferrer">디지털데일리</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 여름 휴가철 고객 혜택 확대 — 케.멤.페 공항라운지·캐리비안 베이·롯데렌터카 50~60% 할인</span></div>
-            <div className="nsum">8월 3~31일 케이티 멤버십 페스타 기간 공항라운지 1만원 할인, 캐리비안 베이 본인·동반 50% 할인, 롯데렌터카 60% 할인, 아고다 국내 10%·해외 12% 할인, GS칼텍스 3천원 할인(3만원 이상 주유 시). 달달혜택으로 배스킨라빈스 30%, 공차 50%, 쇼핑라운지 5천원 할인. 뮤지컬·전시·영화 문화혜택도 강화.</div>
-            <div className="nmeta">2026-07-30 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19251" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
-          </div>
-          <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">KT, 월드컵 시즌 맞아 6월 멤버십 프로그램 강화</span></div>
-            <div className="nsum">KT가 월드컵 시즌을 맞아 6월 고객 보답 프로그램 2차 라인업을 운영(6/16~6/30, 종료). GS25 컵라면·디저트 50% 할인 또는 던킨 전 품목 50% 할인, 달달혜택으로 VIPS 채끝스테이크 무료, 배달의민족 X 노모어피자 최대 1만원 할인, 더벤티 아이스 아메리카노 1,000원 할인, 공차 50% 할인, 버거킹 최대 50% 할인, 롯데시네마 7,000원 영화예매권 등 제공. 뮤지컬 '그날들'·'서편제' 등 공연·전시 관람 할인도 병행.</div>
-            <div className="nmeta">2026-06-15 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19173" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
           </div>
         </div>
       )}
