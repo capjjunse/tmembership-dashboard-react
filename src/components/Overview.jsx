@@ -133,9 +133,10 @@ export default function Overview() {
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
-          <a href="#rg" className="ovg2-card cl">
+          <a href="#vp" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>CGV 2D영화 최대 5,000원 할인</div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">유독 4천원 할인 (최소 구매 금액 없음)</span></div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>유플투쁠 8차 전체 공개 (9.8~9.22, 40+브랜드)</div>

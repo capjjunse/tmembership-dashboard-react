@@ -93,6 +93,7 @@ export default function VipBenefits() {
               VVIP·VIP초이스 공통: 지니TV VOD 1만원 이용권(통합 월1회, 9월 신설)
             </td>
             <td>
+              <span className="upd">유독 4천원 할인 (최소 구매 금액 없음)</span><br />
               네이버플러스 멤버십 1개월 무료 이용권<br />
               리디셀렉트 1개월 무료 이용권<br />
               일리커피 캡슐 배송비 무료
