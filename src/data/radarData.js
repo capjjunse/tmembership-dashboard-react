@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -78,7 +78,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -117,8 +117,8 @@ export const trendSignals = [
     negScore: 250,
     headline: [
       '2Q 흑자전환 · 영업이익 115억',
-      '씨집에 가면 · 9월 단독 라인업 공개',
-      '씨오디 세븐 · 관객주문 상영 론칭',
+      'LCK 결승전 생중계(9.13)',
+      '특별관 · 인턴SCREENX·어벤져스4DX',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 파묘 SCREENX 재개봉(9.3) · COD-7 관객주문 상영 론칭',
     links: [
@@ -129,7 +129,7 @@ export const trendSignals = [
   {
     brand: '파리바게뜨',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP/Gold] 100원·50원 할인 / [Silver] 50원 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -139,7 +139,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 12,
+    news7d: 15,
     negScore: 480,
     headline: [
       '8.25 127종 5% 인상 완료',
@@ -164,7 +164,7 @@ export const trendSignals = [
     negScore: 150,
     headline: [
       '브랜드 대상 10년 연속 수상(9.1)',
-      '2027.7 전 제품 7% 인상 예고',
+      '더착한맛 신메뉴 · 9.11~10.16',
       '위생 위반 이력 · 가맹갑질 모니터링',
     ],
     impact: '3사 미운영 · 올해의 브랜드 대상 10년 연속 수상(9.1) — 분식 카테고리 1위, SKT 제휴 공백',
@@ -176,7 +176,7 @@ export const trendSignals = [
   {
     brand: 'GS25',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 프레시 푸드 200원 할인 (일1회)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -191,7 +191,7 @@ export const trendSignals = [
     headline: [
       '166만명 개인정보 유출 · 128억 과징금',
       '크리덴셜 스터핑 · 탐지 실패 비판',
-      '개인정보위 시정명령 · 전담조직 부재',
+      '추석 잡채&전·맥적구이 주먹밥 출시',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 개인정보 166만명 유출(GS25 7.9만+GS SHOP 158만) — 128억 과징금·시정명령',
     links: [

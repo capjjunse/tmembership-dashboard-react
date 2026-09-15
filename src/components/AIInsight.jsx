@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.15';
+const RADAR_SCANNED = '2026.09.16';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -337,11 +337,11 @@ export const recs = [
     brand: '매머드커피',
     updated: true,
     tag: '매장 878개 · DataLab ↗1.04',
-    reason: '저가 커피 2위 브랜드 · 전국 878개. 2026.1 오케스트라PE 인수 후 매머드오더 개편·구조 정비 중. 일본 2026 상반기 히트상품 선정으로 해외 가시성 확대. 9월 브랜드평판 13위(커피 카테고리). SKT 미참여.',
+    reason: '저가 커피 2위 브랜드 · 전국 878개. 2026.1 오케스트라PE 인수 후 매머드오더 개편·구조 정비 중. 8.11 아이스 아메리카노 최대 17% 인상(저가 이미지 조정 중). 9월 브랜드평판 13위(커피 카테고리). SKT 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 878개 · 저가 커피 카테고리 2위 (메가커피 다음)' },
       { label: '검색 버즈', text: 'DataLab ↗1.04 · 블로그 1만 · 뉴스 99건 — 매머드오더 개편·일본 히트상품 선정 버즈' },
-      { label: '제휴 포인트', text: 'SKT 미참여 · 저가 카페 공백 — 오케스트라PE 인수 후 구조 개편 중, 제휴 접촉 타이밍' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 저가 카페 공백 — 8.11 가격 인상(최대 17%)으로 저가 이미지 조정 중, 새 제휴 논의 적기' },
     ],
     trend: 'DataLab 1.04 · 블로그 1만 · 뉴스 99건',
     hot: true,
@@ -352,9 +352,9 @@ export const recs = [
   {
     rank: 3,
     brand: '카페봄봄',
-    updated: false,
+    updated: true,
     tag: '매장 405개 · DataLab →0.91',
-    reason: '건강음료 특화 카페 브랜드 · 전국 405개. 배 베이스 음료·저당 옵션·프로틴 음료 강화로 웰니스 트렌드 수요 포착. SKT·KT·LGU+ 3사 모두 미참여.',
+    reason: '건강음료 특화 카페 브랜드 · 전국 405개. 배 베이스 음료·저당 옵션·프로틴 음료 강화로 웰니스 트렌드 수요 포착. 2026.7 중소벤처기업부장관 표창 수상. SKT·KT·LGU+ 3사 모두 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 405개 · 저당·건강음료 카테고리 특화 (배 베이스·프로틴 옵션 강화)' },
       { label: '검색 버즈', text: 'DataLab →0.76 · 블로그 1.7만 · 뉴스 6건 — 안정적 버즈, 대형 이슈 없음' },
@@ -636,7 +636,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.15</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.16</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
