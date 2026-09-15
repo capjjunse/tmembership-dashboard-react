@@ -109,7 +109,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 66%·부정 27%·중립 7%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 66%·부정 27%·중립 7%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK 폴바셋 VVIP 전용 "너무하네 아예 암것도 안주다니" (9.9)</div>
           </a>
 
@@ -124,8 +124,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>문화혜택 (9.1~, 뮤지컬 2종·전시 2종 최대 50%)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>도미노피자 혜택 변경 (9.1~)</div>
-            <div className="ovg2-item"><em className="tg tg-new">신규</em>지니TV 신규 제휴 (9.1~)</div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">차일디 제휴 종료 예정 (10.1)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">매드포갈릭 한도 조정 예정 (10.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달혜택 "너프 엄청됐네" — 9월 버거킹·bhc 구성 (9.7)</div>
@@ -136,18 +136,18 @@ export default function Overview() {
           <a href="#vp" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>롯데월드 아쿠아리움·아이스링크 할인 추가</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>CGV 2D영화 최대 5,000원 할인</div>
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">유독 4천원 할인 (최소 구매 금액 없음)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>유독 4천원 할인 (최소 구매 금액 없음)</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>유플투쁠 8차 전체 공개 (9.8~9.22, 40+브랜드)</div>
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>컬쳐데이 (9.14~9.18) · 유쓰·장기고객데이 (9.20·9.24)</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em>폴라리스오피스 제휴 종료 예정 (9.30)</div>
-            <div className="ovg2-item"><em className="tg tg-end">종료</em>낫온리포투데이 제휴 종료 예정 (9.30)</div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">신세계면세점 온라인 혜택 축소 예정 (10.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">zel 신규 제휴 예정 (10.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 57%·부정 43%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 57%·부정 43%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>9월 유플투쁠 "혜택이 점점..." 실망 반응 (9.1)</div>
           </a>
         </div>

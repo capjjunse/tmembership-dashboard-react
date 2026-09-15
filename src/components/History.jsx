@@ -41,7 +41,7 @@ export default function History() {
             <td>2026.10.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td>라그릴리아 할인 한도 조정 — VVIP/VIP 10% (최대 2만원), GOLD/SILVER/WHITE/일반 5% (최대 2만원) (10.1~)</td>
+            <td>라그릴리아 할인 한도 조정 — VVIP/VIP 10% (최대 2만원), GOLD/SILVER/WHITE/일관 5% (최대 2만원) (10.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
@@ -49,6 +49,13 @@ export default function History() {
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
             <td>차일디 제휴 종료 예정 (10.1)</td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
+            <td>2026.10.01</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+ 멤버십 상시</td>
+            <td><span className="upd">신세계면세점 온라인 혜택 축소 — 쇼핑지원금 6종(최대 40만원)→5종(최대 25만5천원) (10.1~)</span></td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
@@ -322,13 +329,6 @@ export default function History() {
             <td><span className="cb bk">KT</span></td>
             <td>고객보답</td>
             <td>고객보답 3차 (6.16~30): 던킨 전 품목 50% 또는 GS25 컵라면·모찌 디저트 50% 할인</td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.15</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>후지필름 신규 제휴 — 포토북 40%+사진인화 20%+액세서리 10%+무료배송권(2만원 이상 구매 시) (6.15~)</td>
             <td><span className="tb t신규">신규</span></td>
           </tr>
         </tbody>

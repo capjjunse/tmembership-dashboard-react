@@ -64,7 +64,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (9.16)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 2 (9.16)</span></div>
               <ul className="mblist">
                 <li>던킨 30%할인/적립(VIP50%,최대8천원)</li>
                 <li>배스킨라빈스 파인트40%할인/적립</li>
@@ -195,7 +195,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>투쁠 4차 (9.15)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 4차 (9.15)</span></div>
               <ul className="mblist">
                 <li>배민×요아정 8,500원할인(1.85만원↑주문시,선착순)</li>
                 <li>백억커피 아메리카노+팝콘무료(선착순)</li>
@@ -206,7 +206,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 5차 (9.16)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>투쁠 5차 (9.16)</span></div>
               <ul className="mblist">
                 <li>다이소 최대2천원금액권(선착순)</li>
                 <li>투루카 카셰어링1.6만원할인(6시간↑,선착순)</li>
