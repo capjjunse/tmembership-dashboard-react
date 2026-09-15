@@ -109,7 +109,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 63%·부정 29%·중립 8%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 66%·부정 27%·중립 7%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK 폴바셋 VVIP 전용 "너무하네 아예 암것도 안주다니" (9.9)</div>
           </a>
 
@@ -146,7 +146,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>낫온리포투데이 제휴 종료 예정 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-mix">혼재</em>긍정 50%·부정 50%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 57%·부정 43%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>9월 유플투쁠 "혜택이 점점..." 실망 반응 (9.1)</div>
           </a>
         </div>
