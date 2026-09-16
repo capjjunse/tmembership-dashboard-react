@@ -58,10 +58,10 @@ export default function VipBenefits() {
             <td>렌터카·자동차</td>
             <td>
               G car 대여료 60%+보험료 5% 할인(2시간↑)<br />
-              스피드메이트 엔진오일 할인
+              스피드메이트 <span className="upd">국산차 엔진오일 3만원 및 부가서비스 할인 / 수입차 엔진오일 30% 할인 중 택1</span>
             </td>
             <td>
-              오토오아시스 엔진오일 3만원 할인+부가정비<br />
+              <span className="upd">(VVIP)</span> 오토오아시스 엔진오일 3만원 할인+부가정비<br />
               차방정 플러스 멤버십 2개월 무료
             </td>
             <td>
@@ -93,8 +93,9 @@ export default function VipBenefits() {
               VVIP·VIP초이스 공통: 지니TV VOD 1만원 이용권(통합 월1회, 9월 신설)
             </td>
             <td>
-              <span className="upd">유독 4천원 할인 (최소 구매 금액 없음)</span><br />
+              유독 4천원 할인 (최소 구매 금액 없음)<br />
               네이버플러스 멤버십 1개월 무료 이용권<br />
+              <span className="upd">교보문고 sam 무제한 1개월 이용권</span><br />
               리디셀렉트 1개월 무료 이용권<br />
               일리커피 캡슐 배송비 무료
             </td>

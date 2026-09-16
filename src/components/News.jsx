@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">밤 11시, 롯데월드가 다시 열렸다… SKT 장기고객 '어드벤처 데이' 현장</span></span></div>
+            <div className="nsum"><span className="upd">SKT가 9월 12일 밤 장기고객 3,000명과 동반인을 위해 롯데월드 어드벤처를 대관한 'T 장기고객 프로그램 어드벤처 데이' 개최. 밤 11시부터 다음 날 오전 5시까지 진행되며, 11개 어트랙션, T 빙고 미션, 타임캡슐 상점, 포토월, 전국장기고객자랑 등 다양한 프로그램 운영. 가입기간 10년 이상 고객 대상으로 LED 머리띠·음료·간식·휴대폰 결제 할인 혜택 제공.</span></div>
+            <div className="nmeta"><span className="upd">2026-09-16</span> · <a href="https://news.sktelecom.com/230806" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 'T로밍 데이터 추가' 혜택 연말까지 연장</span></div>
             <div className="nsum">SKT가 'T로밍 데이터 추가' 프로모션을 연말(2026년 12월 31일)까지 연장한다고 공식 발표. 고객들의 긍정적인 반응에 따른 조치로, 해외 여행 중 추가 데이터가 필요한 고객들의 요청을 수용했다. T 멤버십 회원들은 계속해서 T로밍 중 필요할 때 언제든 추가 데이터를 구매할 수 있다.</div>
             <div className="nmeta">2026-09-08 · <a href="https://news.sktelecom.com/230364" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
