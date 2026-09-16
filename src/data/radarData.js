@@ -103,7 +103,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -154,7 +154,7 @@ export const trendSignals = [
   {
     brand: '엽기떡볶이',
     membership: 'candidate',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'low',
     sources: ['뉴스'],
@@ -176,7 +176,7 @@ export const trendSignals = [
   {
     brand: 'GS25',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 프레시 푸드 200원 할인 (일1회)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -197,6 +197,28 @@ export const trendSignals = [
     links: [
       { label: 'GS리테일 128억 과징금 · 개인정보 유출 사과 (아시아경제)', url: 'https://view.asiae.co.kr/article/2026083110553002325' },
       { label: '166만명 유출 · 전담조직 없던 구멍 (이넷뉴스)', url: 'https://www.enetnews.co.kr/news/articleView.html?idxno=53927' },
+    ],
+  },
+  {
+    brand: '매머드커피',
+    membership: 'candidate',
+    updated: true,
+    telcos: [],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'neu',
+    dlSpike: null,
+    news7d: 30,
+    negScore: 280,
+    headline: [
+      '아이스아메리카노 200원 인상 발표',
+      '전국 1000호점 달성 · 오더 앱 개편',
+      '일본 히트상품 선정 · 해외 진출 흥행',
+    ],
+    impact: '3사 미운영 · 전국 1000호점 돌파(7월) · 매머드오더 개편 완료 · 아이스아메리카노 200원 인상 발표',
+    links: [
+      { label: '매머드커피 1000호점 아메리카노 1000원 타임딜 (이데일리)', url: 'https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03306246645516816' },
+      { label: '아이스 아메리카노 200원 인상 발표 (이데일리)', url: 'https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05090566645519112' },
     ],
   },
 ];

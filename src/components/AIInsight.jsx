@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.16';
+const RADAR_SCANNED = '2026.09.17';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -273,7 +273,7 @@ const alCats = [
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
-    updated: false,
+    updated: true,
     nb: [{ platform: '네이버플러스', items: [
       { partner: '롯데시네마', deadline: '월 4회 · ~26.12.31', rows: [{ grade: null, desc: '최대 5천원 + 콤보 3천원 할인' }] },
     ]}],
@@ -285,8 +285,11 @@ const alCats = [
       { partner: 'CGV', deadline: 'Week 혜택 · 9.7~9.11', rows: [
         { grade: '전 등급', desc: '8,500원 예매 + 매점쿠폰 2종' },
       ]},
+      { partner: 'CGV', deadline: 'T day · 9.23', rows: [
+        { grade: '전 등급', desc: '8,500원 예매 + 매점쿠폰 2종' },
+      ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 4천원 상시 + VIP 무료연3회/1+1연9회', 'T멤버십 Week 혜택: CGV 8,500원 예매+매점쿠폰 (9.7~9.11)'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 4천원 상시 + VIP 무료연3회/1+1연9회', 'T멤버십: CGV 8,500원 예매 Week(9.7~9.11)·9.23 2회'],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -336,14 +339,14 @@ export const recs = [
     rank: 2,
     brand: '매머드커피',
     updated: true,
-    tag: '매장 878개 · DataLab ↗1.04',
-    reason: '저가 커피 2위 브랜드 · 전국 878개. 2026.1 오케스트라PE 인수 후 매머드오더 개편·구조 정비 중. 8.11 아이스 아메리카노 최대 17% 인상(저가 이미지 조정 중). 9월 브랜드평판 13위(커피 카테고리). SKT 미참여.',
+    tag: '매장 1000호점 · DataLab ↗1.04',
+    reason: '저가 커피 2위 브랜드 · 전국 1000호점 달성(7월). 2026.1 오케스트라PE 인수 후 매머드오더 개편 완료. 아이스 아메리카노 200원 인상 발표. 9월 브랜드평판 13위(커피 카테고리). SKT 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 878개 · 저가 커피 카테고리 2위 (메가커피 다음)' },
-      { label: '검색 버즈', text: 'DataLab ↗1.04 · 블로그 1만 · 뉴스 99건 — 매머드오더 개편·일본 히트상품 선정 버즈' },
-      { label: '제휴 포인트', text: 'SKT 미참여 · 저가 카페 공백 — 8.11 가격 인상(최대 17%)으로 저가 이미지 조정 중, 새 제휴 논의 적기' },
+      { label: '매장 규모', text: '전국 1000호점 달성(7월) · 저가 커피 카테고리 2위 (메가커피 다음)' },
+      { label: '검색 버즈', text: 'DataLab ↗1.04 · 블로그 1만 · 뉴스 30건 — 매머드오더 개편·일본 히트상품 선정 버즈' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 저가 카페 공백 — 1000호점 달성으로 규모 확보, 아이스아메리카노 인상으로 저가 이미지 조정 중' },
     ],
-    trend: 'DataLab 1.04 · 블로그 1만 · 뉴스 99건',
+    trend: 'DataLab 1.04 · 블로그 1만 · 뉴스 30건',
     hot: true,
     skt: [],
     kt:  null,
@@ -352,7 +355,7 @@ export const recs = [
   {
     rank: 3,
     brand: '카페봄봄',
-    updated: true,
+    updated: false,
     tag: '매장 405개 · DataLab →0.91',
     reason: '건강음료 특화 카페 브랜드 · 전국 405개. 배 베이스 음료·저당 옵션·프로틴 음료 강화로 웰니스 트렌드 수요 포착. 2026.7 중소벤처기업부장관 표창 수상. SKT·KT·LGU+ 3사 모두 미참여.',
     reach: [
@@ -636,7 +639,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.16</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.17</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
