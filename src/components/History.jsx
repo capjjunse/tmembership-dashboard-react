@@ -55,7 +55,7 @@ export default function History() {
             <td>2026.10.01</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
-            <td><span className="upd">신세계면세점 온라인 혜택 축소 — 쇼핑지원금 6종(최대 40만원)→5종(최대 25만5천원) (10.1~)</span></td>
+            <td>신세계면세점 온라인 혜택 축소 — 쇼핑지원금 6종(최대 40만원)→5종(최대 25만5천원) (10.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
@@ -98,6 +98,13 @@ export default function History() {
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
             <td>SK렌터카·빌리카·롯데렌터카 제주 할인율 변경 — 85% → 60% (9.16~)</td>
+            <td><span className="tb t변경">변경</span></td>
+          </tr>
+          <tr>
+            <td>2026.09.16</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+ 멤버십 상시</td>
+            <td><span className="upd">SK렌터카·롯데렌터카 할인율 조정 — 제주 85%, 내륙 60% → 전국 60% (9.16~)</span></td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
@@ -316,20 +323,6 @@ export default function History() {
             <td>T 멤버십 상시</td>
             <td>원마운트 워터파크/스노우파크 할인 제휴 종료 (6.25)</td>
             <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.17</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>기타</td>
-            <td>하얀풍차·아비앙또 다대점·니드카페 안산점 제휴 종료 (6.17)</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.16</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>고객보답</td>
-            <td>고객보답 3차 (6.16~30): 던킨 전 품목 50% 또는 GS25 컵라면·모찌 디저트 50% 할인</td>
-            <td><span className="tb t신규">신규</span></td>
           </tr>
         </tbody>
       </table></div>

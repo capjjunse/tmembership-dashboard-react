@@ -64,7 +64,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 2 (9.16)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 2 (9.16)</span></div>
               <ul className="mblist">
                 <li>던킨 30%할인/적립(VIP50%,최대8천원)</li>
                 <li>배스킨라빈스 파인트40%할인/적립</li>
@@ -75,7 +75,10 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (9.23)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 9월 23일 공개 예정</li>
+                <li><span className="upd">파리바게뜨 추석40%할인(VIPOnly,최대8천원)</span></li>
+                <li><span className="upd">뚜레쥬르 1천원당300원할인(최대6천원)</span></li>
+                <li><span className="upd">피자헛 방문포장50%할인/적립(최대2.25만원)</span></li>
+                <li><span className="upd">CGV 8,500원예매+매점쿠폰2종</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -87,11 +90,11 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">한가위의 설렘 — Day2까지 35종 공개</div>
+            <div className="mpnt-concept"><span className="upd">한가위의 설렘 — Day3까지 43종 공개</span></div>
             <ul className="mpnt-list">
               <li>Week혜택 · VIPS·에버랜드 등 20종</li>
               <li>Young week 11종 · 백억커피·할리스 등</li>
-              <li>Day2 · 9.16 던킨·배스킨 등 4종</li>
+              <li><span className="upd">Day3(9.23) · 파바(VIP)·피자헛·뚜레쥬르 공개</span></li>
             </ul>
           </div>
         </div>
@@ -206,7 +209,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>투쁠 5차 (9.16)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 5차 (9.16)</span></div>
               <ul className="mblist">
                 <li>다이소 최대2천원금액권(선착순)</li>
                 <li>투루카 카셰어링1.6만원할인(6시간↑,선착순)</li>
@@ -216,7 +219,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>투쁠 6차 (9.17)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>투쁠 6차 (9.17)</span></div>
               <ul className="mblist">
                 <li>노브랜드 유부우동무료증정(선착순)</li>
                 <li>투썸 조각케이크+아메리카노무료(선착순)</li>
