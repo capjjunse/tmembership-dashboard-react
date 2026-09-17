@@ -18,9 +18,14 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">밤 11시, 롯데월드가 다시 열렸다… SKT 장기고객 '어드벤처 데이' 현장</span></span></div>
-            <div className="nsum"><span className="upd">SKT가 9월 12일 밤 장기고객 3,000명과 동반인을 위해 롯데월드 어드벤처를 대관한 'T 장기고객 프로그램 어드벤처 데이' 개최. 밤 11시부터 다음 날 오전 5시까지 진행되며, 11개 어트랙션, T 빙고 미션, 타임캡슐 상점, 포토월, 전국장기고객자랑 등 다양한 프로그램 운영. 가입기간 10년 이상 고객 대상으로 LED 머리띠·음료·간식·휴대폰 결제 할인 혜택 제공.</span></div>
-            <div className="nmeta"><span className="upd">2026-09-16</span> · <a href="https://news.sktelecom.com/230806" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">밤 11시, 롯데월드가 다시 열렸다… SKT 장기고객 '어드벤처 데이' 현장</span></div>
+            <div className="nsum">SKT가 9월 12일 밤 장기고객 3,000명과 동반인을 위해 롯데월드 어드벤처를 대관한 'T 장기고객 프로그램 어드벤처 데이' 개최. 밤 11시부터 다음 날 오전 5시까지 진행되며, 11개 어트랙션, T 빙고 미션, 타임캡슐 상점, 포토월, 전국장기고객자랑 등 다양한 프로그램 운영. 가입기간 10년 이상 고객 대상으로 LED 머리띠·음료·간식·휴대폰 결제 할인 혜택 제공.</div>
+            <div className="nmeta">2026-09-16 · <a href="https://news.sktelecom.com/230806" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">실속 할인부터 AI구독·이색 경품까지… SKT만의 혜택 총집결</span></span></div>
+            <div className="nsum"><span className="upd">SKT가 아이폰 18 Pro & iPhone 18 Pro Max 출시를 맞아 T 다이렉트샵 및 사전예약 구매 고객을 대상으로 풍성한 혜택 제공. 럭키 룰렛(이용권 경품), 중고폰 보상, T 다이렉트샵 카카오톡 채널 쿠폰 등 할인. 사전예약 고객 대상 <클럽 아이폰 18 프로> 특별 멤버십 혜택. 개통 고객 전원 구글 AI Plus 구독권 제공(10월 18일까지) 및 한정판 경품 추첨 이벤트.</span></div>
+            <div className="nmeta"><span className="upd">2026-09-11</span> · <a href="https://news.sktelecom.com/230635" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 'T로밍 데이터 추가' 혜택 연말까지 연장</span></div>
@@ -62,6 +67,11 @@ export default function News() {
 
       {tab === 'lgu' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">[오래 함께한 고객님께 드리는 특별한 하루] 가을이 가장 아름답게 물드는 곳, 곤지암 화담숲</span></span></div>
+            <div className="nsum"><span className="upd">LGU+가 가을 시즌을 맞아 장기고객 대상으로 곤지암 화담숲을 특별 대관. 오직 U+ 장기고객(VVIP 등급 이상이면서 가입 기간 5년 이상 등)을 위해 평소보다 여유롭게 가을의 아름다운 풍경을 즐길 수 있는 특별한 하루를 제공하는 기획. 멤버십 고객 대상의 특화된 장기고객 감사 이벤트.</span></div>
+            <div className="nmeta"><span className="upd">2026-09-11</span> · <a href="https://news.lguplus.com/22825" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LG U+, 추석 장보기 부담 낮춘다 — 명절 쇼핑·나들이 멤버십 혜택 강화</span></div>
             <div className="nsum">추석을 맞아 유플투쁠 제휴사를 53개로 확대. 쇼핑·장보기 혜택으로 컬리(9/8 최대 2만7천원), 아워홈몰(9/15 최대 2만원), 사조몰(9/16 최대 1만5천원), 오뚜기몰(9/18 1만5천원), 이마트24(9/24 최대 3천원) 할인. 신규 제휴 유니스터디·우파루 오딧세이·인천공항 고메브릿지 푸드코트 추가. 장기고객(VVIP 10년 이상) 대상 10월 화담숲 초청 행사 진행.</div>
