@@ -104,7 +104,7 @@ export default function History() {
             <td>2026.09.16</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
-            <td><span className="upd">SK렌터카·롯데렌터카 할인율 조정 — 제주 85%, 내륙 60% → 전국 60% (9.16~)</span></td>
+            <td>SK렌터카·롯데렌터카 할인율 조정 — 제주 85%, 내륙 60% → 전국 60% (9.16~)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
           <tr>
