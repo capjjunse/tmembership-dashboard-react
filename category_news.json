@@ -1,287 +1,155 @@
 {
-  "generated_at": "2026.09.17 05:45",
-  "total_collected": 949,
-  "total_valid": 477,
-  "total_skipped": 435,
-  "total_top": 31,
+  "generated_at": "2026.09.21 05:47",
+  "total_collected": 1097,
+  "total_valid": 480,
+  "total_skipped": 587,
+  "total_top": 25,
   "topic_groups": [
     {
       "category": "risk",
-      "topic": "스타벅스 탱크데이 사태",
-      "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
+      "topic": "스타벅스 마케팅 논란 회복",
+      "insight": "탱크데이 논란 이후 실적 부진에서 벗어나기 위해 제휴사 마케팅 재개",
       "signal_strength": 3,
-      "max_velocity": 3.7,
-      "articles": [
-        {
-          "title": "'탱크데이'논란 여파…전국 지자체, 스타벅스 상품권 구매 '급감'",
-          "link": "https://www.segye.com/newsView/20260913506694?OutUrl=naver",
-          "pub_date": "2026.09.13",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": 3.7
-        },
-        {
-          "title": "'탱크데이' 논란에 지자체 스타벅스 상품권 구매 '반토막'",
-          "link": "https://www.jibs.co.kr/news/articles/articlesDetail/65464?feed=na",
-          "pub_date": "2026.09.13",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": 3.7
-        },
-        {
-          "title": "국가 최고권부의 스타벅스 불매운동...“시장이 권력을 이긴 대(大) 사건...",
-          "link": "http://www.breaknews.com/1236205",
-          "pub_date": "2026.09.13",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 3.7
-        },
-        {
-          "title": "'탱크데이' 논란 뒤 지자체 스타벅스 상품권 구매 줄었다",
-          "link": "https://news.tvchosun.com/site/data/html_dir/2026/09/13/2026091390072.html",
-          "pub_date": "2026.09.13",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 3.7
-        },
-        {
-          "title": "‘탱크데이’ 여파? 지자체, 스타벅스 상품권 구매 급락",
-          "link": "https://www.munhwa.com/article/11616567?ref=naver",
-          "pub_date": "2026.09.13",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 3.7
-        },
-        {
-          "title": "‘탱크데이’ 논란 후 지자체 스타벅스 상품권 구매 ‘반토막’",
-          "link": "https://weekly.khan.co.kr/article/202609131933001",
-          "pub_date": "2026.09.13",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 3.7
-        },
-        {
-          "title": "‘탱크데이’ 여파?…지자체, 스벅 상품권 구매 절반 이하로 뚝",
-          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000011372&cp=nv",
-          "pub_date": "2026.09.13",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 3.7
-        },
-        {
-          "title": "'탱크데이' 여파에…전국 지자체 스타벅스 상품권 구매 급감",
-          "link": "https://www.newsis.com/view/NISX20260913_0003787403",
-          "pub_date": "2026.09.13",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 3.7
-        },
-        {
-          "title": "5000만원씩 사더니 2000만원대로 ‘뚝’…지자체 스벅 상품권 구매 급감...",
-          "link": "https://www.sedaily.com/article/20090734?ref=naver",
-          "pub_date": "2026.09.15",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 3.7
-        },
-        {
-          "title": "“17개 시도 3년간 스벅 상품권 구매에 17억원 썼다”···올해 상반기...",
-          "link": "https://www.khan.co.kr/article/202609131126001",
-          "pub_date": "2026.09.13",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 3.7
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "category": "battle",
-      "topic": "아이폰18 출시 통신사 경쟁",
-      "insight": "통신 3사가 아이폰18 출시에 할인과 AI 구독 서비스로 고객 확보 경쟁 심화",
-      "signal_strength": 2,
-      "max_velocity": -10.1,
-      "articles": [
-        {
-          "title": "아이폰18 사전예약 12일 시작…통신 3사 할인·AI 서비스 경쟁",
-          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=135300",
-          "pub_date": "2026.09.11",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.1
-        },
-        {
-          "title": "SKT·KT·LGU+, ‘아이폰18 프로’ 사전예약 돌입…중고폰 보상·AI 구독...",
-          "link": "https://www.ceoscoredaily.com/page/view/2026091115224070778",
-          "pub_date": "2026.09.11",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -10.1
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "category": "battle",
-      "topic": "카카오 통합멤버십 구축",
-      "insight": "카카오가 카톡·모빌리티·콘텐츠 등 자사 서비스 연계한 통합멤버십 플랫폼 준비 중",
-      "signal_strength": 2,
-      "max_velocity": -3.1,
-      "articles": [
-        {
-          "title": "[IR]카카오 &quot;통합멤버십 준비…카톡·모빌리티·콘텐츠 등 연결&quot;",
-          "link": "https://www.news1.kr/it-science/internet-platform/6292894",
-          "pub_date": "2026.09.16",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -3.1
-        },
-        {
-          "title": "카카오, 인적분할 후 2030년 매출 6조 청사진…통합멤버십 준비",
-          "link": "https://www.yna.co.kr/view/AKR20260916167900017?input=1195m",
-          "pub_date": "2026.09.16",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -3.1
-        },
-        {
-          "title": "카카오 &quot;통합 멤버십 준비…카톡·모빌리티·콘텐츠 결합&quot;",
-          "link": "https://www.sisajournal.com/news/articleView.html?idxno=387484",
-          "pub_date": "2026.09.16",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -3.1
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "category": "battle",
-      "topic": "신한은행 상생배달앱 확대",
-      "insight": "신한은행 '땡겨요'가 1000만 회원 돌파, 배달앱 독점 구조 견제 성과",
-      "signal_strength": 2,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "신한은행 땡겨요 회원 1000만명 돌파…'상생 배달앱' 통했다",
-          "link": "https://www.news1.kr/finance/general-finance/6289496",
-          "pub_date": "2026.09.14",
+          "title": "마케팅 논란 여파…스타벅스, 3분기엔 실적 반등 가능할까",
+          "link": "https://www.ceoscoredaily.com/page/view/2026091715350453213",
+          "pub_date": "2026.09.18",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "‘진옥동의 땡겨요’ 1000만 돌파…李 지적한 ‘배달앱 독점’ 대항마로...",
-          "link": "https://www.ddaily.co.kr/page/view/2026091416021610734",
-          "pub_date": "2026.09.14",
-          "priority": 3,
-          "cross_query_count": 1,
+          "title": "주춤했던 ‘스타벅스 마케팅’ 다시 시동…제휴통장·카드 잇따라",
+          "link": "https://www.mk.co.kr/article/12157143",
+          "pub_date": "2026.09.19",
+          "priority": 2,
+          "cross_query_count": 2,
           "datalab_velocity": 0.0
         },
         {
-          "title": "상생배달앱에 1240억 투입...'독점 배달앱 시장' 재편 시동 [배달앱 정책...",
-          "link": "https://www.etoday.co.kr/news/view/2625229",
-          "pub_date": "2026.09.15",
+          "title": "'탱크데이'에 놀랐던 금융권…스타벅스 살아나자 다시 '별 마케팅'",
+          "link": "https://www.news1.kr/finance/insurance-card/6294340",
+          "pub_date": "2026.09.18",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "battle",
+      "topic": "통신3사 아이폰18 구독 경쟁",
+      "insight": "아이폰18 출시 시점에 통신사들이 AI 구독권, 기기 결합 등 차별화 혜택으로 고객 확보 경쟁 전개",
+      "signal_strength": 2,
+      "max_velocity": 32.5,
+      "articles": [
+        {
+          "title": "SKT, 아이폰18 프로·프로 맥스 출시…구글 AI 구독권 등 제공",
+          "link": "http://www.breaknews.com/1237703",
+          "pub_date": "2026.09.18",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 0.0
+          "datalab_velocity": 32.5
         },
         {
-          "title": "배달앱 넘어 금융 플랫폼으로...신한은행 '땡겨요' 회원 1000만 돌파",
-          "link": "https://www.techm.kr/news/articleView.html?idxno=155203",
-          "pub_date": "2026.09.14",
+          "title": "아이폰 18 고객 잡아라···통신3사, 구독·보상 혜택 경쟁",
+          "link": "https://www.smartbizn.com/news/articleView.html?idxno=154267",
+          "pub_date": "2026.09.18",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 0.0
+          "datalab_velocity": 32.5
+        },
+        {
+          "title": "이통 3사, '아이폰 18 프로' 시리즈 일제히 개통… AI 구독·기기 결합 혜...",
+          "link": "http://www.popcornnews.net/news/articleView.html?idxno=133432",
+          "pub_date": "2026.09.18",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 32.5
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "battle",
+      "topic": "글로벌 AI 구독 서비스 경쟁",
+      "insight": "메타가 페이스북·인스타그램 통합 유료구독 서비스 출시하며 AI 강화 기능 제공",
+      "signal_strength": 2,
+      "max_velocity": 32.5,
+      "articles": [
+        {
+          "title": "페북·인스타도 유료구독 서비스…메타, AI 강화 통합구독 출시",
+          "link": "https://www.yna.co.kr/view/AKR20260916033100091?input=1195m",
+          "pub_date": "2026.09.16",
+          "priority": 2,
+          "cross_query_count": 1,
+          "datalab_velocity": 32.5
+        },
+        {
+          "title": "메타, SNS 통합 구독 서비스 출시...AI 기능 강화",
+          "link": "https://www.ppss.kr/news/articleView.html?idxno=310951",
+          "pub_date": "2026.09.16",
+          "priority": 2,
+          "cross_query_count": 1,
+          "datalab_velocity": 32.5
         }
       ],
       "is_new": true
     },
     {
       "category": "benchmark",
-      "topic": "추석 시즌 소비자 유입 경쟁",
-      "insight": "카드사, 추석 앞두고 마케팅 강화로 소비자 유입 경쟁",
+      "topic": "추석 대형유통 할인전",
+      "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
       "signal_strength": 2,
-      "max_velocity": 0.0,
+      "max_velocity": 3.1,
       "articles": [
         {
-          "title": "“추석 고객 잡아라”…국내 카드사, 추석 앞두고 마케팅 총력전",
-          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260915010005754",
-          "pub_date": "2026.09.15",
-          "priority": 2,
+          "title": "대형마트 휴무일? 이마트·롯데마트·홈플러스·코스트코 ‘할인 추석장...",
+          "link": "https://www.bntnews.co.kr/article/view/bnt202609180188",
+          "pub_date": "2026.09.19",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": -20.1
+        },
+        {
+          "title": "경북도, 추석맞이 우수제품 특판전…최대 30% 할인",
+          "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4084870",
+          "pub_date": "2026.09.20",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": -20.1
+        },
+        {
+          "title": "카드 할인에 쿠폰까지…마트·이커머스 '실구매가' 승부[무거워진 장바...",
+          "link": "https://www.newsis.com/view/NISX20260918_0003796354",
+          "pub_date": "2026.09.19",
+          "priority": 1,
           "cross_query_count": 3,
           "datalab_velocity": 0.0
         },
         {
-          "title": "추석 앞둔 노량진수산시장, 쿠팡이츠서 할인 … &quot;수산물 집에서 간편하...",
-          "link": "http://www.worktoday.co.kr/news/articleView.html?idxno=89346",
-          "pub_date": "2026.09.16",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
+          "title": "추석 앞두고 패션업계 할인전 돌입…삼성물산·무신사 쇼핑 수요 공략",
+          "link": "https://www.asiatime.co.kr/article/20260918500064",
+          "pub_date": "2026.09.18",
+          "priority": 1,
+          "cross_query_count": 3,
+          "datalab_velocity": 3.1
         },
         {
-          "title": "추석 겹치는 아시안게임…편의점 3사, '집관족' 잡기 할인 경쟁(종합)",
-          "link": "https://www.newsis.com/view/NISX20260914_0003788806",
-          "pub_date": "2026.09.14",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "category": "benchmark",
-      "topic": "면세점 추석 가을 여행 경쟁",
-      "insight": "현대면selenium세점, 추석·가을 여행객 겨냥 '현데이' 프로모션 시작",
-      "signal_strength": 1,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "현대면세점, 추석·가을 여행객 겨냥 '현데이' 프로모션",
-          "link": "https://www.news1.kr/industry/distribution/6290583",
-          "pub_date": "2026.09.15",
+          "title": "문어 3888원·한우 25t 반값…추석 앞두고 유통가 할인전",
+          "link": "https://www.segye.com/newsView/20260919502008?OutUrl=naver",
+          "pub_date": "2026.09.19",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
         },
         {
-          "title": "롯데면세점, 추석 황금연휴 여행객 잡는다…가을 프로모션 전개",
-          "link": "https://www.news1.kr/industry/distribution/6285796",
-          "pub_date": "2026.09.10",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "현대면세점, 추석 연휴·가을 여행 시즌 맞아 '현데이 프로모션'",
-          "link": "http://www.srtimes.kr/news/articleView.html?idxno=212420",
-          "pub_date": "2026.09.15",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "현대면세점, 추석·가을 여행객 위한 '현데이' 초대형 프로모션 시작",
-          "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=275627",
-          "pub_date": "2026.09.15",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "현대면세점, 추석·가을 여행객 잡는다···온·오프라인 할인전",
-          "link": "http://www.finomy.com/news/articleView.html?idxno=261650",
-          "pub_date": "2026.09.15",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "1300원대 환율에 추석 특수까지...면세업계, '가을 출국족' 사로잡는다",
-          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1406264",
-          "pub_date": "2026.09.16",
+          "title": "배송 마감 코앞…이커머스 추석 막판 할인전 총력",
+          "link": "https://www.segye.com/newsView/20260919502095?OutUrl=naver",
+          "pub_date": "2026.09.19",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
@@ -293,293 +161,198 @@
   "categories": {
     "trend": [
       {
-        "title": "경계 사라진 플랫폼, 이제 이커머스도 골라 사는 시대",
-        "topic": "이커머스 플랫폼 경계 붕괴",
-        "insight": "소셜·배달·검색 등 다양한 플랫폼에서 이커머스 기능 통합, 쇼핑 채널 다원화 심화",
-        "desc": "상품 경쟁력이 강한 플랫폼은 가격과 적립 혜택을 보완하고 있다. 컬리는 신선식품과 '컬리온리' 등 단독 상품을 운영하면서 지난달 달걀·양배추·양파 등 장보기 품목 20개에 최저가를 적용했다. 차별화 상품을... ",
-        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2471162",
-        "pub_date": "2026.09.16",
-        "reason": "플랫폼 경계 모호화 소비 트렌드 변화",
-        "priority": 2,
+        "title": "추석 선물도 이제 AI에게 묻는다…네이버·현대百·카카오 ‘추천 경쟁...",
+        "topic": "AI 선물 추천 서비스",
+        "insight": "추석 선물 시즌에 네이버·현대백화점·카카오 등 주요 플랫폼이 AI 기반 추천 서비스 경쟁 강화",
+        "desc": "유통·플랫폼 업체들의 경쟁도 상품을 얼마나 많이 확보했느냐를 넘어, 쌓아둔 구매·후기·배송 데이터를 AI가 얼마나 정확하게 읽고 구매 결정까지 연결하느냐로 옮겨가고 있다.",
+        "link": "https://www.segye.com/newsView/20260920501337?OutUrl=naver",
+        "pub_date": "2026.09.20",
+        "reason": "추석 시즌 AI 활용 선물 추천 소비 트렌드",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
+        "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
           "플랫폼 경쟁",
-          "이커머스 전략"
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "&quot;이걸 왜 사가요?&quot;…외국인들 쇼핑 목록 보니 '대반전'",
+        "topic": "외국인 쇼핑 트렌드",
+        "insight": "외국인들의 한국 쇼핑 선호도가 일반적 예상과 달리 색다른 패턴 보임",
+        "desc": "◇외국인 유동 인구, 광장시장 9배 서울AI재단에 따르면 지난해 남대문시장의 하루평균 외국인 유동 인구는... 외국인에게 광장시장이 먹거리 체험 공간이라면 남대문시장은 현지인이 사용하는 물건을 찾아 사는 쇼핑... ",
+        "link": "https://www.hankyung.com/article/2026092063581",
+        "pub_date": "2026.09.20",
+        "reason": "외국인 쇼핑 행동 변화 장기 트렌드",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑",
+          "온라인 쇼핑"
+        ]
+      },
+      {
+        "title": "‘농촌관광 가는 주간’ 한 달로 확대…10·11월 할인·이벤트",
+        "topic": "농촌관광 활성화",
+        "insight": "정부가 농촌관광 시즌을 한 달로 확대하고 할인·이벤트 강화로 수요 촉진",
+        "desc": "행사 기간 농촌관광 상품 할인과 관련 이벤트를 마련해 가을철 농촌 방문을 유도할 방침이다. 송 장관은 “올 추석과 가을에 많은 국민이 농촌관광의 즐거움을 누릴 수 있기를 희망한다”고 말했다.",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02466566645581760&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "pub_date": "2026.09.19",
+        "reason": "가을 여행철 소비 트렌드 및 할인 이벤트",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 79.0,
+        "datalab_velocity": -20.1,
+        "queries": [
+          "추석 이벤트",
+          "가을 할인"
         ]
       }
     ],
     "risk": [
       {
-        "title": "'탱크데이'논란 여파…전국 지자체, 스타벅스 상품권 구매 '급감'",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "지난 5월 5·18 민주화 운동을 조롱했다는 비판을 받은 이른바 ‘탱크데이’ 논란이 영향을 미친 것으로... 박 의원실은 ‘탱크데이’ 마케팅 파문 이후 벌어진 스타벅스 불매운동 영향으로 분석했다.... ",
-        "link": "https://www.segye.com/newsView/20260913506694?OutUrl=naver",
-        "pub_date": "2026.09.13",
-        "reason": "제휴사 스타벅스 탱크데이 논란 확산",
+        "title": "마케팅 논란 여파…스타벅스, 3분기엔 실적 반등 가능할까",
+        "topic": "스타벅스 마케팅 논란 회복",
+        "insight": "탱크데이 논란 이후 실적 부진에서 벗어나기 위해 제휴사 마케팅 재개",
+        "desc": "‘탱크데이’ 마케팅 논란 이후 4개월이 지났지만 고객 지표가 아직 예년 수준을 회복하지 못하고 있어서다. 18일 이마트 반기보고서에 따르면 스타벅스 운영사 SCK컴퍼니는 2분기 매출이 7473억원으로 전년 동기 대비 6.... ",
+        "link": "https://www.ceoscoredaily.com/page/view/2026091715350453213",
+        "pub_date": "2026.09.18",
+        "reason": "스타벅스 마케팅 논란 파급, 제휴사 검토",
         "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "마케팅 논란"
+        ]
+      },
+      {
+        "title": "주춤했던 ‘스타벅스 마케팅’ 다시 시동…제휴통장·카드 잇따라",
+        "topic": "스타벅스 마케팅 논란 회복",
+        "insight": "탱크데이 논란 이후 실적 부진에서 벗어나기 위해 제휴사 마케팅 재개",
+        "desc": "금융권, 제휴마케팅 다시 확대 스타벅스 ‘탱크데이’ 마케팅 논란 이후 주춤했던 금융권의 스타벅스 제휴 마케팅이 다시 확대되고 있다. KB국민은행은 제휴통장 후속 상품의 판매 한도를 전작보다 50% 늘렸고... ",
+        "link": "https://www.mk.co.kr/article/12157143",
+        "pub_date": "2026.09.19",
+        "reason": "스타벅스 제휴 카드·통장 마케팅 강화 모니터링",
+        "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
           "마케팅 논란",
-          "불매운동"
+          "앱 마케팅"
         ]
       },
       {
-        "title": "'탱크데이' 논란에 지자체 스타벅스 상품권 구매 '반토막'",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "스타벅스코리아의 이른바 '탱크데이' 논란 이후 전국 지방자치단체의 스타벅스 상품권 구매 규모가 대폭... 한편, 스타벅스는 지난 5월 18일, 5·18 민주화운동 기념일에 '탱크데이'라는 부적절한 문구를 마케팅에... ",
-        "link": "https://www.jibs.co.kr/news/articles/articlesDetail/65464?feed=na",
-        "pub_date": "2026.09.13",
-        "reason": "제휴사 스타벅스 탱크데이 불매 여파",
-        "priority": 3,
+        "title": "'탱크데이'에 놀랐던 금융권…스타벅스 살아나자 다시 '별 마케팅'",
+        "topic": "스타벅스 마케팅 논란 회복",
+        "insight": "탱크데이 논란 이후 실적 부진에서 벗어나기 위해 제휴사 마케팅 재개",
+        "desc": "스타벅스 '탱크데이' 마케팅 논란으로 직격탄을 맞았던 금융권의 스타벅스 제휴 상품이 다시 살아나고 있다. 논란 직후 90% 가까이 급감했던 제휴카드 발급이 반등하고 스타벅스 결제액도 두 달 연속 증가하면서다.... ",
+        "link": "https://www.news1.kr/finance/insurance-card/6294340",
+        "pub_date": "2026.09.18",
+        "reason": "스타벅스 금융제휴 확대로 경쟁사 제휴 강화",
+        "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
           "마케팅 논란",
-          "불매운동"
+          "앱 마케팅"
         ]
       },
       {
-        "title": "국가 최고권부의 스타벅스 불매운동...“시장이 권력을 이긴 대(大) 사건...",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "국가의 최고 권부(權府)가 앞장 선 스타벅스 불매운동. 지난 6.3지방선거 직전, 한국인들은 권력이 매우 무섭다는 것을 경험했다. 반면에 진실(眞實)이 더 무섭다는... ",
-        "link": "http://www.breaknews.com/1236205",
-        "pub_date": "2026.09.13",
-        "reason": "스타벅스 불매운동 확산, 제휴 재검토 필요",
-        "priority": 3,
+        "title": "&quot;가성비 좋다&quot; vs &quot;혼자 먹기엔 애매&quot;…버거킹 '할인 행사'에 엇갈린 반...",
+        "topic": "버거킹 할인 행사 평가",
+        "insight": "버거킹 할인 프로모션이 가성비 평가는 긍정적이나 소비 형태에 따라 만족도 양극화",
+        "desc": "이지우 인턴 기자 = 버거킹이 햄버거 두 개를 6000원 혹은 7000원으로 구매할 수 있는 행사를 진행하면서 소비자들의 관심을 끌고 있다. 버거킹은 지난 14일부터 오는 23일까지 버거 2개를 묶어서 할인된 가격에 판매하는... ",
+        "link": "https://www.newsis.com/view/NISX20260919_0003796611",
+        "pub_date": "2026.09.19",
+        "reason": "버거킹 할인 행사 평가",
+        "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "'탱크데이' 논란 뒤 지자체 스타벅스 상품권 구매 줄었다",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "지난 5월 스타벅스코리아가 진행한 5·18 민주화운동 기념일 ‘탱크데이’ 프로모션이 정치적 논란으로 번지고 불매운동으로 이어진 점이 영향을 준 것으로 보인다. 지역별로는 서울시가 최근 3년간... ",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/09/13/2026091390072.html",
-        "pub_date": "2026.09.13",
-        "reason": "탱크데이 여파로 스타벅스 구매 감소, 즉시 대응",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "‘탱크데이’ 여파? 지자체, 스타벅스 상품권 구매 급락",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "지난 5월 이른바 ‘탱크데이’ 논란 이후 불매운동이 확산한 영향으로 풀이된다는 지적이 나온다. 13일 국회 행정안전위원회 소속 더불어민주당 박정현(대전 대덕) 의원이 전국 지자체에서 제출받은 상품권 구매... ",
-        "link": "https://www.munhwa.com/article/11616567?ref=naver",
-        "pub_date": "2026.09.13",
-        "reason": "탱크데이 여파로 스타벅스 구매 급락, 긴급",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "‘탱크데이’ 논란 후 지자체 스타벅스 상품권 구매 ‘반토막’",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "이같은 구매 감소는 지난 5월 스타벅스코리아가 5·18 민주화운동 기념일에 진행한 ‘탱크데이’ 프로모션 이후 전국적인 불매운동이 발생한 영향으로 풀이된다. 실제로 시장조사업체 아이지에이웍스... ",
-        "link": "https://weekly.khan.co.kr/article/202609131933001",
-        "pub_date": "2026.09.13",
-        "reason": "탱크데이 후 스타벅스 구매 반토막, 즉시 검토",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "‘탱크데이’ 여파?…지자체, 스벅 상품권 구매 절반 이하로 뚝",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "지난 5월 스타벅스코리아가 진행한 ‘탱크데이’ 프로모션이 5·18 민주화운동 비하 논란으로 번지면서 불매운동으로 이어졌는데, 전국 지자체 역시 이런 흐름에 영향을 받은 것으로 박 의원실은 분석했다, 박... ",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000011372&cp=nv",
-        "pub_date": "2026.09.13",
-        "reason": "스타벅스 논란 파급, 지자체 구매 급감",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "'탱크데이' 여파에…전국 지자체 스타벅스 상품권 구매 급감",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "앞서 지난 5월 스타벅스코리아에서 '탱크데이' 프로모션을 한 이후 전국적인 불매운동이 발생한 영향으로 풀이된다. 실제로 AI 테크 기업 아이지에이웍스 모바일인덱스 집계에 따르면 논란 직후 스타벅스 주간... ",
-        "link": "https://www.newsis.com/view/NISX20260913_0003787403",
-        "pub_date": "2026.09.13",
-        "reason": "탱크데이 여파 전국 확산, 제휴사 영향",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "5000만원씩 사더니 2000만원대로 ‘뚝’…지자체 스벅 상품권 구매 급감...",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "스타벅스코리아가 5·18 민주화운동 기념일에 ‘탱크데이’라는 문구를 마케팅에 활용하면서 논란이 불거졌고, 이후 불매운동으로 번졌다. 시장조사업체 아이지에이웍스의 모바일인덱스 집계에서도 논란 직후... ",
-        "link": "https://www.sedaily.com/article/20090734?ref=naver",
-        "pub_date": "2026.09.15",
-        "reason": "스타벅스 구매 급락, 제휴 재평가 필요",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "“17개 시도 3년간 스벅 상품권 구매에 17억원 썼다”···올해 상반기...",
-        "topic": "스타벅스 탱크데이 사태",
-        "insight": "탱크데이 논란 이후 지자체의 스타벅스 상품권 구매가 급감하며 불매운동의 경제적 영향 확산",
-        "desc": "다만 ‘탱크데이’ 프로모션 논란으로 불매운동이 일었던 올해 상반기에는 각 시도의 상품권 구입도 크게 줄었다. 연도별 구입 시점 확인이 가능한 구매액(13억4780만원)만 놓고 보면 2024년에는 17개 시도가... ",
-        "link": "https://www.khan.co.kr/article/202609131126001",
-        "pub_date": "2026.09.13",
-        "reason": "스타벅스 구매 규모 파악, 불매 영향 분석",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 62.3,
-        "datalab_velocity": 3.7,
-        "queries": [
-          "불매운동"
+          "소비자 할인"
         ]
       }
     ],
     "battle": [
       {
-        "title": "윤호영號 카카오뱅크, '착붙'으로 간편결제·AI 구독 집중…'멤버십 50%...",
-        "topic": "카카오뱅크 구독서비스 강화",
-        "insight": "카카오뱅크가 간편결제와 AI 구독 서비스 확대로 멤버십 기반 수익 다각화 추진",
-        "desc": "반복 소비영역 공략…일상 결제 접점 확대 착붙이 간편결제와 AI·멤버십 구독 등에 혜택을 집중한 것은 고객이 일상에서 자주 이용하는 소비영역과의 접점을 넓히려는 전략으로 풀이된다. 간편결제와 구독처럼 고객이... ",
-        "link": "https://www.fntimes.com/html/view.php?ud=2026091516485446561b5a221379_18",
-        "pub_date": "2026.09.16",
-        "reason": "카카오뱅크 구독·멤버십 강화로 직접 경쟁 심화",
-        "priority": 3,
-        "cross_query_count": 2,
-        "datalab_score": 66.3,
-        "datalab_velocity": -10.1,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "아이폰18 사전예약 12일 시작…통신 3사 할인·AI 서비스 경쟁",
-        "topic": "아이폰18 출시 통신사 경쟁",
-        "insight": "통신 3사가 아이폰18 출시에 할인과 AI 구독 서비스로 고객 확보 경쟁 심화",
-        "desc": "SK텔레콤과 KT, LG유플러스는 온라인 구매 할인과 중고폰 보상에 더해 인공지능(AI) 서비스와 콘텐츠 구독, 애플 기기 결합 혜택 등을 앞세워 차별화에 나섰다. 11일 통신업계에 따르면 SK텔레콤과 KT, LG유플러스는 12일... ",
-        "link": "https://www.e-science.co.kr/news/articleView.html?idxno=135300",
-        "pub_date": "2026.09.11",
-        "reason": "통신3사 AI 서비스 경쟁 즉시 검토 필요",
+        "title": "SKT, 아이폰18 프로·프로 맥스 출시…구글 AI 구독권 등 제공",
+        "topic": "통신3사 아이폰18 구독 경쟁",
+        "insight": "아이폰18 출시 시점에 통신사들이 AI 구독권, 기기 결합 등 차별화 혜택으로 고객 확보 경쟁 전개",
+        "desc": "구글 AI 플러스는 제미나이 이용 한도 확대와 AI 이미지 생성·편집 모델, 노트북LM 프로, 구글 드라이브 400GB 등을 제공하는 구독 서비스다. 10월 31일까지 구매·개통한... ",
+        "link": "http://www.breaknews.com/1237703",
+        "pub_date": "2026.09.18",
+        "reason": "통신사 아이폰 제휴 경쟁, 즉시 검토",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 66.3,
-        "datalab_velocity": -10.1,
+        "datalab_score": 67.5,
+        "datalab_velocity": 32.5,
         "queries": [
           "구독 서비스"
         ]
       },
       {
-        "title": "SKT·KT·LGU+, ‘아이폰18 프로’ 사전예약 돌입…중고폰 보상·AI 구독...",
-        "topic": "아이폰18 출시 통신사 경쟁",
-        "insight": "통신 3사가 아이폰18 출시에 할인과 AI 구독 서비스로 고객 확보 경쟁 심화",
-        "desc": "온라인몰 단말 할인과 중고폰 보상부터 인공지능(AI) 구독 서비스, 단말 교체 프로그램까지 혜택을 확대하며 가입자 유치 경쟁에 나섰다. 11일 통신업계에 따르면 SK텔레콤과 KT, LG유플러스는 오는 12일부터 아이폰18... ",
-        "link": "https://www.ceoscoredaily.com/page/view/2026091115224070778",
-        "pub_date": "2026.09.11",
-        "reason": "통신3사 아이폰18 AI 구독 경쟁 대응",
+        "title": "아이폰 18 고객 잡아라···통신3사, 구독·보상 혜택 경쟁",
+        "topic": "통신3사 아이폰18 구독 경쟁",
+        "insight": "아이폰18 출시 시점에 통신사들이 AI 구독권, 기기 결합 등 차별화 혜택으로 고객 확보 경쟁 전개",
+        "desc": "인공지능(AI)·온라인동영상서비스(OTT) 구독권부터 중고폰 보상, 애플 주변 기기 할인까지 통신사별 혜택을 내세웠다. 18일 업계에 따르면 SK텔레콤은 10월 18일까지 아이폰 신제품을 개통한 고객에게 '구글 AI 플러스... ",
+        "link": "https://www.smartbizn.com/news/articleView.html?idxno=154267",
+        "pub_date": "2026.09.18",
+        "reason": "통신사 아이폰 혜택 경쟁 심화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 66.3,
-        "datalab_velocity": -10.1,
+        "datalab_score": 67.5,
+        "datalab_velocity": 32.5,
         "queries": [
           "구독 서비스"
         ]
       },
       {
-        "title": "[IR]카카오 &quot;통합멤버십 준비…카톡·모빌리티·콘텐츠 등 연결&quot;",
-        "topic": "카카오 통합멤버십 구축",
-        "insight": "카카오가 카톡·모빌리티·콘텐츠 등 자사 서비스 연계한 통합멤버십 플랫폼 준비 중",
-        "desc": "이기범 유수연 기자 = 카카오(035720)가 카카오톡을 중심으로 자사 계열사 서비스를 하나로 연결해 혜택을 제공하는 통합 멤버십을 준비 중이라고 밝혔다. 전현수 카카오 비즈니스 총괄리더는 16일 '카카오 지배구조개편... ",
-        "link": "https://www.news1.kr/it-science/internet-platform/6292894",
-        "pub_date": "2026.09.16",
-        "reason": "카카오 통합멤버십 강화로 직접 경쟁 위협",
+        "title": "이통 3사, '아이폰 18 프로' 시리즈 일제히 개통… AI 구독·기기 결합 혜...",
+        "topic": "통신3사 아이폰18 구독 경쟁",
+        "insight": "아이폰18 출시 시점에 통신사들이 AI 구독권, 기기 결합 등 차별화 혜택으로 고객 확보 경쟁 전개",
+        "desc": "이번 신제품은 프로 모델 중심의 쏠림 현상과 256GB 기본 용량 선호가 뚜렷한 가운데, 통신사들은 AI 구독 서비스, 세컨드 디바이스 무료 혜택, 제휴 할인 프로그램을 앞세워 초기 가입자 유치 경쟁을 펼친다. 18일... ",
+        "link": "http://www.popcornnews.net/news/articleView.html?idxno=133432",
+        "pub_date": "2026.09.18",
+        "reason": "통신사 아이폰 AI 혜택 경쟁 격화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 17.9,
-        "datalab_velocity": -3.1,
+        "datalab_score": 67.5,
+        "datalab_velocity": 32.5,
         "queries": [
-          "멤버십 혜택"
+          "구독 서비스"
         ]
       },
       {
-        "title": "카카오, 인적분할 후 2030년 매출 6조 청사진…통합멤버십 준비",
-        "topic": "카카오 통합멤버십 구축",
-        "insight": "카카오가 카톡·모빌리티·콘텐츠 등 자사 서비스 연계한 통합멤버십 플랫폼 준비 중",
-        "desc": "전 리더는 또한 카카오톡 이용자 접점을 중심으로 모빌리티·콘텐츠·커머스 등 계열 서비스를 연결하는 통합 멤버십도 준비 중이라고 밝혔다. 그는 &quot;여러 서비스를 이용하며 쌓은 혜택을 한곳에서 활용하도록 하는... ",
-        "link": "https://www.yna.co.kr/view/AKR20260916167900017?input=1195m",
-        "pub_date": "2026.09.16",
-        "reason": "카카오 통합멤버십 전략 강화 신호",
+        "title": "네이버 AI 쇼핑 에이전트 거래액 3개월 만에 82% 증가...배송 정보 반영...",
+        "topic": "AI 쇼핑 플랫폼 성장",
+        "insight": "네이버 AI 쇼핑 에이전트가 실시간 배송정보 반영으로 3개월간 거래액 82% 증가",
+        "desc": "3줄 요약 ㆍ실시간 배송 정보 반영 추천 기능 추가 ㆍAI 쇼핑 에이전트 거래액 3개월 만에 82% 급증 ㆍ맥락 이해 고도화로 개인화 추천 강화 네이버가 AI 쇼핑 에이전트에 실시간 배송 가능 정보를 반영해 상품을... ",
+        "link": "https://www.chosun.com/economy/tech_it/2026/09/17/2HJCQPTTSFFBDH2YIZAMQTWWQM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "pub_date": "2026.09.17",
+        "reason": "네이버 AI 쇼핑 3개월 82% 거래액 증가, 긴급 모니터링",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 17.9,
-        "datalab_velocity": -3.1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "카카오 &quot;통합 멤버십 준비…카톡·모빌리티·콘텐츠 결합&quot;",
-        "topic": "카카오 통합멤버십 구축",
-        "insight": "카카오가 카톡·모빌리티·콘텐츠 등 자사 서비스 연계한 통합멤버십 플랫폼 준비 중",
-        "desc": "혜택 구성과 출시 시점은 확정되는 대로 공개할 예정이다. 카카오는 &quot;통합 멤버십은 인적 분할 이후에도 계열사 간 협력이 서비스·계약을 기반으로 이어질 수 있음을 보여주는 사례&quot;라고 설명했다. 한편 카카오는 이날... ",
-        "link": "https://www.sisajournal.com/news/articleView.html?idxno=387484",
-        "pub_date": "2026.09.16",
-        "reason": "카카오 통합멤버십 준비로 경쟁 심화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 17.9,
-        "datalab_velocity": -3.1,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "신한은행 땡겨요 회원 1000만명 돌파…'상생 배달앱' 통했다",
-        "topic": "신한은행 상생배달앱 확대",
-        "insight": "신한은행 '땡겨요'가 1000만 회원 돌파, 배달앱 독점 구조 견제 성과",
-        "desc": "직접 사업을 기획하고 출시까지 챙긴 것으로 널리 알려져 있다. 비금융 시장 확대뿐만 아니라, 배달앱을 통한 다양한 고객군의 데이터 확보로 금융·비금융 서비스 확대·제공이 주요 사업 목적이다.",
-        "link": "https://www.news1.kr/finance/general-finance/6289496",
-        "pub_date": "2026.09.14",
-        "reason": "신한은행 배달앱 멤버십 1000만 경쟁",
+        "title": "AI로 도착 자동계산…배달앱 이젠 ‘정확도’ 경쟁",
+        "topic": "배달앱 도착시간 정확도 경쟁",
+        "insight": "배달앱들이 AI 기술 활용해 도착시간 예측 정확도 경쟁 심화",
+        "desc": "배달앱 시장의 경쟁도 치열해지고 있다. 지난달 기준 배민의 월간활성이용자수(MAU)는 2440만 명으로 지난해 같은 기간 2306만 명보다 5.8% 증가했다. 같은 기간 쿠팡이츠는 1174만 명에서 1444만 명으로 23.0% 늘어 추격전이... ",
+        "link": "https://www.sedaily.com/article/20093097?ref=naver",
+        "pub_date": "2026.09.20",
+        "reason": "배달앱 정확도 경쟁 심화, 배달 제휴 전략 재검토 필요",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -589,224 +362,223 @@
         ]
       },
       {
-        "title": "‘진옥동의 땡겨요’ 1000만 돌파…李 지적한 ‘배달앱 독점’ 대항마로...",
-        "topic": "신한은행 상생배달앱 확대",
-        "insight": "신한은행 '땡겨요'가 1000만 회원 돌파, 배달앱 독점 구조 견제 성과",
-        "desc": "최근 정부가 배달앱 시장의 독과점 구조와 높은 수수료 문제를 잇따라 지적하면서 땡겨요의 성장세도 다시 주목받고 있다. 이재명 대통령은 지난달 국무회의에서 배달앱 시장을 두고 사실상 독점 상태라고 지적하며... ",
-        "link": "https://www.ddaily.co.kr/page/view/2026091416021610734",
-        "pub_date": "2026.09.14",
-        "reason": "신한은행 배달앱 독점 대항마 확산",
-        "priority": 3,
+        "title": "페북·인스타도 유료구독 서비스…메타, AI 강화 통합구독 출시",
+        "topic": "글로벌 AI 구독 서비스 경쟁",
+        "insight": "메타가 페이스북·인스타그램 통합 유료구독 서비스 출시하며 AI 강화 기능 제공",
+        "desc": "디지털 광고 의존 탈피 포석…AI 투자액 회수 노리는 듯 권영전 특파원 = 세계 최대 사회관계망서비스(SNS) 기업 메타가 SNS에서 인공지능(AI) 도구를 사용할 수 있는 통합 구독 서비스를 내놨다. 메타는 페이스북과... ",
+        "link": "https://www.yna.co.kr/view/AKR20260916033100091?input=1195m",
+        "pub_date": "2026.09.16",
+        "reason": "경쟁사 구독팩 확대, 전략 검토 필요",
+        "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 67.5,
+        "datalab_velocity": 32.5,
         "queries": [
-          "배달 시장"
+          "구독 서비스"
         ]
       },
       {
-        "title": "상생배달앱에 1240억 투입...'독점 배달앱 시장' 재편 시동 [배달앱 정책...",
-        "topic": "신한은행 상생배달앱 확대",
-        "insight": "신한은행 '땡겨요'가 1000만 회원 돌파, 배달앱 독점 구조 견제 성과",
-        "desc": "현재 국내 배달 시장에서 배달의민족(배민)과 쿠팡이츠의 점유율은 80~90%에 달한다. 이재명 대통령은 최근 국무회의에서 이같은 배달앱 시장을 사실상 독점 상태로 규정했다. 이 대통령은 “배달앱 수수료가 너무... ",
-        "link": "https://www.etoday.co.kr/news/view/2625229",
+        "title": "메타, SNS 통합 구독 서비스 출시...AI 기능 강화",
+        "topic": "글로벌 AI 구독 서비스 경쟁",
+        "insight": "메타가 페이스북·인스타그램 통합 유료구독 서비스 출시하며 AI 강화 기능 제공",
+        "desc": "메타가 페이스북과 인스타그램 등 자사 사회관계망서비스(SNS)에서 인공지능(AI) 기능을 확대 이용할 수 있는 통합 구독 서비스를 출시했다. 메타는 지난 15일(현지시간) 페이스북, 인스타그램, 와츠앱 등 자사 SNS... ",
+        "link": "https://www.ppss.kr/news/articleView.html?idxno=310951",
+        "pub_date": "2026.09.16",
+        "reason": "경쟁사 SNS 구독팩 출시, 전략 검토",
+        "priority": 2,
+        "cross_query_count": 1,
+        "datalab_score": 67.5,
+        "datalab_velocity": 32.5,
+        "queries": [
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "유튜브 구독료 7년 만에 71.5%↑… 넷플릭스 합치면 연 38만원",
+        "topic": "동영상 구독 서비스 가격 상승",
+        "insight": "유튜브 구독료가 7년 만에 71.5% 인상되며 주요 OTT 누적 비용 월 3만원대 진입",
+        "desc": "이 의원은 &quot;유튜브와 넷플릭스 등 온라인동영상서비스(OTT) 구독료는 매달 부담하는 고정비가 됐다&quot;며 &quot;OTT 이용이 일상화된 상황에서 구독료 인상은 가계 부담으로 이어진다&quot;고 말했다. 김광연 기자... ",
+        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170147",
         "pub_date": "2026.09.15",
-        "reason": "공공배달앱 1240억 투입, 시장구도 재편",
-        "priority": 3,
+        "reason": "경쟁 OTT 구독료 인상, 고객 영향",
+        "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 67.5,
+        "datalab_velocity": 32.5,
         "queries": [
-          "배달 시장"
+          "구독 서비스"
         ]
       },
       {
-        "title": "배달앱 넘어 금융 플랫폼으로...신한은행 '땡겨요' 회원 1000만 돌파",
-        "topic": "신한은행 상생배달앱 확대",
-        "insight": "신한은행 '땡겨요'가 1000만 회원 돌파, 배달앱 독점 구조 견제 성과",
-        "desc": "배달의민족과 쿠팡이츠 등 대형 민간 플랫폼이 주도하는 배달앱 시장에서 낮은 수수료와 지역 기반 혜택을 앞세워 이용자 기반을 넓혔다는 평가가 나온다. 이번 이벤트는 이용자가 자주 찾는 가맹점을 직접 추천하는... ",
-        "link": "https://www.techm.kr/news/articleView.html?idxno=155203",
-        "pub_date": "2026.09.14",
-        "reason": "신한은행 금융 플랫폼 1000만 돌파",
-        "priority": 3,
+        "title": "구독 매출 3조원 앞둔 LG…삼성은 갤럭시로 추격",
+        "topic": "가전사 구독 비즈니스 확대",
+        "insight": "LG는 구독 매출 3조원 앞두고, 삼성은 갤럭시 기반으로 구독 사업 추격 중",
+        "desc": "LG전자는 AI홈과 구독 서비스의 연계도 강화하고 있다. LG 씽큐를 기반으로 제품 상태와 사용 이력을 파악한다. 이상 징후를 사전에 감지하거나 관리 시점을 안내하는 기능도 고도화하고 있다. 구독으로 확보한... ",
+        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170282",
+        "pub_date": "2026.09.16",
+        "reason": "경쟁사 구독매출 확대, 우위 검토",
+        "priority": 2,
         "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 67.5,
+        "datalab_velocity": 32.5,
         "queries": [
-          "배달 시장"
+          "구독 서비스"
+        ]
+      },
+      {
+        "title": "삼성·LG, 무료 채널 서비스 확대…TV 사업 체질 바꾼다",
+        "topic": "TV 제조사 구독 채널 경쟁",
+        "insight": "삼성·LG가 TV 무료 채널 서비스 확대로 제조사 중심 구독 생태계 구축",
+        "desc": "삼성전자와 LG전자가 광고 기반 무료 스트리밍 채널 서비스인 패스트 TV 채널을 확 늘리며 글로벌 콘텐츠... 콘텐츠 구독료를 공유하는 구조다. 기존 TV 사업이 구매 시점에서 일회성 수익으로 끝나는 구조였다면... ",
+        "link": "https://www.hankyung.com/article/2026091844841",
+        "pub_date": "2026.09.18",
+        "reason": "경쟁사 무료 채널 확대, 우위 검토",
+        "priority": 2,
+        "cross_query_count": 1,
+        "datalab_score": 67.5,
+        "datalab_velocity": 32.5,
+        "queries": [
+          "구독 서비스"
         ]
       }
     ],
     "benchmark": [
       {
-        "title": "SKT, 아이폰 18 프로 사전예약 돌입…최대 30만원 이용권·AI 구독 혜택",
-        "topic": "통신사 아이폰 18 프로 경쟁",
-        "insight": "SKT 아이폰 18 프로 사전예약 시작, 최대 30만원 이용권·AI 구독 혜택 제공",
-        "desc": "SKT는 아이폰 신제품 출시를 계기로 단말 구매 비용을 낮추는 혜택과 전용 멤버십, AI·온라인동영상서비스(OTT) 구독권 등을 결합해 고객 혜택을 확대할 계획이다.",
-        "link": "https://www.eroun.net/news/articleView.html?idxno=89916",
-        "pub_date": "2026.09.11",
-        "reason": "SKT 자체 아이폰 프로모션 분석용",
-        "priority": 2,
+        "title": "대형마트 휴무일? 이마트·롯데마트·홈플러스·코스트코 ‘할인 추석장...",
+        "topic": "추석 대형유통 할인전",
+        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
+        "desc": "이마트·홈플러스·롯데마트·코스트코·트레이더스·킴스클럽·노브랜드 등 대형마트 휴무일, 휴일 의무휴업 폐지, 오픈시간, 영업시간, 할인정보 등 소비자들은 궁금한게 많다. 특히 대형마트의 평소 오픈시간과... ",
+        "link": "https://www.bntnews.co.kr/article/view/bnt202609180188",
+        "pub_date": "2026.09.19",
+        "reason": "추석 대형마트 할인전 시즌 이벤트 참고",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 66.3,
-        "datalab_velocity": -10.1,
+        "datalab_score": 79.0,
+        "datalab_velocity": -20.1,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "소비자 할인",
+          "추석 이벤트"
         ]
       },
       {
-        "title": "“추석 고객 잡아라”…국내 카드사, 추석 앞두고 마케팅 총력전",
-        "topic": "추석 시즌 소비자 유입 경쟁",
-        "insight": "카드사, 추석 앞두고 마케팅 강화로 소비자 유입 경쟁",
-        "desc": "아시아투데이 정채현 기자 = 추석을 앞두고 국내 카드사들이 고객 소비 심리를 잡기 위한 마케팅 총력전에... 삼성카드는 '자체 앱 활성화'를 노린다. 회원 전용 온라인 쇼핑몰인 '삼성카드 쇼핑' 및 자사 플랫폼 '모니모... ",
-        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260915010005754",
-        "pub_date": "2026.09.15",
-        "reason": "추석 시즌 카드사 마케팅 전략 참고",
-        "priority": 2,
+        "title": "경북도, 추석맞이 우수제품 특판전…최대 30% 할인",
+        "topic": "추석 대형유통 할인전",
+        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
+        "desc": "제품에 따라 시중가보다 최대 30% 할인된 가격에 판매한다. 경북도는 고물가 속 소비자들의 명절 장바구니 부담을 낮추는 동시에 지역 중소기업에는 추석 대목을 활용한 판로 확대 기회를 제공한다는 계획이다. 현장... ",
+        "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4084870",
+        "pub_date": "2026.09.20",
+        "reason": "공공기관 추석 할인 프로모션 전략 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 79.0,
+        "datalab_velocity": -20.1,
+        "queries": [
+          "소비자 할인",
+          "추석 이벤트"
+        ]
+      },
+      {
+        "title": "신라스테이, 가을 경품 이벤트 진행…1억원 규모 경품 마련",
+        "topic": "호텔·레저업 추석 프로모션",
+        "insight": "호텔·레저업계 경품·할인으로 추석연휴 고객 확보 경쟁 심화",
+        "desc": "신라스테이가 추석 연휴를 맞아 가을 경품 프로모션 '온 유어 신라스테이(Own Your Shilla Stay)'를 진행한다고... 이번 경품 이벤트는 총 250명을 대상으로 진행된다. 1등 당첨자(3명)에게는 국내외 신라스테이와... ",
+        "link": "https://www.newsis.com/view/NISX20260918_0003795082",
+        "pub_date": "2026.09.18",
+        "reason": "숙박업체 시즌 경품 이벤트 전략 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 79.0,
+        "datalab_velocity": -20.1,
+        "queries": [
+          "추석 이벤트",
+          "가을 할인"
+        ]
+      },
+      {
+        "title": "카드 할인에 쿠폰까지…마트·이커머스 '실구매가' 승부[무거워진 장바...",
+        "topic": "추석 대형유통 할인전",
+        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
+        "desc": "오프라인에서 카드와 멤버십이 실구매가를 낮추는 수단이라면 이커머스에서는 쿠폰과 무료배송 등이... PB를 활용해 상품 자체의 가격을 낮추는 전략도 병행한다. 롯데마트·슈퍼는 이번 추석 PB '오늘좋은' 이름을... ",
+        "link": "https://www.newsis.com/view/NISX20260918_0003796354",
+        "pub_date": "2026.09.19",
+        "reason": "마트·이커머스 카드·쿠폰 혜택 구조 참고",
+        "priority": 1,
         "cross_query_count": 3,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "앱 마케팅",
-          "추석 연휴 프로모션",
-          "추석 선물 마케팅"
+          "이커머스 전략",
+          "소비자 할인",
+          "가을 할인"
         ]
       },
       {
-        "title": "추석 앞둔 노량진수산시장, 쿠팡이츠서 할인 … &quot;수산물 집에서 간편하...",
-        "topic": "추석 시즌 소비자 유입 경쟁",
-        "insight": "쿠팡이츠 등 플랫폼, 추석 수산물 할인으로 온라인 구매 수요 확대",
-        "desc": "기획전 참여 매장에서 1만5000원 이상 주문하면 3000원의 배달 할인 쿠폰을 받을 수 있다. 쿠폰은 선착순으로 제공된다. 쿠팡이츠는 별도의 기획전 페이지를 통해 노량진수산시장 대표 매장과 주요 메뉴를 소개하며 고객의... ",
-        "link": "http://www.worktoday.co.kr/news/articleView.html?idxno=89346",
-        "pub_date": "2026.09.16",
-        "reason": "추석 시즌 수산물 배달 프로모션 사례",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "title": "추석 앞두고 패션업계 할인전 돌입…삼성물산·무신사 쇼핑 수요 공략",
+        "topic": "추석 대형유통 할인전",
+        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
+        "desc": "가을 시즌이 본격적으로 시작되는 시기에 맞춰 신상품을 할인해 소비자들의 구매를 유도한다는 전략이다. 행사에는 빈폴과 갤럭시, 구호, 르베이지, 비이커, 준지 등 삼성물산 패션부문의 자체 브랜드뿐 아니라... ",
+        "link": "https://www.asiatime.co.kr/article/20260918500064",
+        "pub_date": "2026.09.18",
+        "reason": "추석 시즌 패션업계 할인·마케팅 전략 참고",
+        "priority": 1,
+        "cross_query_count": 3,
+        "datalab_score": 7.0,
+        "datalab_velocity": 3.1,
         "queries": [
-          "배달 시장",
-          "소비자 할인"
+          "소비자 할인",
+          "가을 할인",
+          "온라인 쇼핑"
         ]
       },
       {
-        "title": "추석 겹치는 아시안게임…편의점 3사, '집관족' 잡기 할인 경쟁(종합)",
-        "topic": "추석 시즌 소비자 유입 경쟁",
-        "insight": "편의점 3사, 아시안게임 및 추석 연휴 맞춰 할인전 전개",
-        "desc": "편의점 업계 관계자는 &quot;올해는 스포츠 대회와 추석 연휴가 맞물린 만큼 집에서 가족·지인들과 경기를 관람하며 간편하게 먹거리를 마련하려는 소비자를 잡기 위한 할인 경쟁이 한층 치열해질 전망&quot;이라고... ",
-        "link": "https://www.newsis.com/view/NISX20260914_0003788806",
-        "pub_date": "2026.09.14",
-        "reason": "추석·아시안게임 시즌 편의점 할인 경쟁",
-        "priority": 2,
+        "title": "문어 3888원·한우 25t 반값…추석 앞두고 유통가 할인전",
+        "topic": "추석 대형유통 할인전",
+        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
+        "desc": "명절 음식을 직접 만들지 않는 소비자를 겨냥한 간편식 할인도 붙었다. 피코크 빈대떡과 모둠전, 송편 등 제수용품을 2만5000원 이상 구매하면 신세계상품권 5000원권을 준다. 일부 상품에는 행사카드 20% 할인이나 2+1... ",
+        "link": "https://www.segye.com/newsView/20260919502008?OutUrl=naver",
+        "pub_date": "2026.09.19",
+        "reason": "추석 시즌 유통가 할인 트렌드 참고",
+        "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
           "소비자 할인",
-          "추석 연휴 프로모션"
+          "가을 할인"
         ]
       },
       {
-        "title": "현대면세점, 추석·가을 여행객 겨냥 '현데이' 프로모션",
-        "topic": "면세점 추석 가을 여행 경쟁",
-        "insight": "현대면selenium세점, 추석·가을 여행객 겨냥 '현데이' 프로모션 시작",
-        "desc": "현대면세점 관계자는 &quot;추석 연휴 기간 해외여행을 준비하는 고객들이 풍성한 혜택을 받을 수 있도록 대대적인 프로모션을 준비했다&quot;며 &quot;여행객들이 체감할 수 있는 쇼핑 이벤트를 지속 선보이겠다&quot;고 말했다.... ",
-        "link": "https://www.news1.kr/industry/distribution/6290583",
-        "pub_date": "2026.09.15",
-        "reason": "추석 여행객 겨냥 면세점 프로모션 사례",
+        "title": "배송 마감 코앞…이커머스 추석 막판 할인전 총력",
+        "topic": "추석 대형유통 할인전",
+        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
+        "desc": "소비자 입장에서는 할인율만큼 배송 가능일을 확인하는 것이 중요하다. 같은 행사 안에서도 판매자와 상품, 배송 지역에 따라 명절 전 도착 가능 여부가 달라질 수 있다.",
+        "link": "https://www.segye.com/newsView/20260919502095?OutUrl=naver",
+        "pub_date": "2026.09.19",
+        "reason": "추석 시즌 이커머스 할인전 전략 참고",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "추석 연휴 프로모션",
-          "가을 시즌 이벤트"
+          "소비자 할인",
+          "가을 할인"
         ]
       },
       {
-        "title": "롯데면세점, 추석 황금연휴 여행객 잡는다…가을 프로모션 전개",
-        "topic": "면세점 추석 가을 여행 경쟁",
-        "insight": "롯데면세점, 추석 황금연휴 여행객 사로잡기 위한 가을 프로모션 전개",
-        "desc": "롯데면세점이 추석 황금연휴와 가을 여행 시즌을 맞아 온·오프라인을 아우르는 대규모 프로모션을 진행한다. 국내외 면세점 쇼핑 혜택을 연계하고 여행 경품까지 마련해 내·외국인 여행객 공략에 나선다.... ",
-        "link": "https://www.news1.kr/industry/distribution/6285796",
-        "pub_date": "2026.09.10",
-        "reason": "추석 여행객 겨냥 면세점 프로모션 사례",
+        "title": "쌍화차부터 이천쌀라떼까지…더벤티, 가을 메뉴 할인",
+        "topic": "카페·외식 추석 시즈널 프로모션",
+        "insight": "카페·외식업계 가을 시즈널 메뉴 출시로 추석연휴 수요 포획",
+        "desc": "신규 가입 회원에게는 같은 할인 혜택과 함께 핫 아메리카노 무료 쿠폰도 제공한다. 더벤티 관계자는 “앞으로도 계절과 소비자들의 취향을 고려한 다양한 메뉴와 프로모션을 통해 고객들이 더벤티를 합리적인 가격으로... ",
+        "link": "https://www.sportsseoul.com/news/read/1636471?ref=naver",
+        "pub_date": "2026.09.20",
+        "reason": "카페브랜드 시즌 메뉴 할인 기획 참고",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "추석 연휴 프로모션",
-          "가을 시즌 이벤트"
-        ]
-      },
-      {
-        "title": "현대면세점, 추석 연휴·가을 여행 시즌 맞아 '현데이 프로모션'",
-        "topic": "면세점 추석 가을 여행 경쟁",
-        "insight": "현대면세점, 추석·가을 여행 시즌 맞춰 대규모 프로모션 시행",
-        "desc": "다음달 11일까지 온·오프라인 면세 쇼핑 혜택 제공  현대면세점은 추석 연휴와 가을 여행 시즌을 맞아 해외로 여행을 떠나는 내·외국인을 대상으로 다음달 11일까지 면세 쇼핑 혜택을 강화한 '현데이' 프로모션을... ",
-        "link": "http://www.srtimes.kr/news/articleView.html?idxno=212420",
-        "pub_date": "2026.09.15",
-        "reason": "추석 여행객 겨냥 면세점 프로모션 사례",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "추석 연휴 프로모션",
-          "가을 시즌 이벤트"
-        ]
-      },
-      {
-        "title": "현대면세점, 추석·가을 여행객 위한 '현데이' 초대형 프로모션 시작",
-        "topic": "면세점 추석 가을 여행 경쟁",
-        "insight": "현대면세점, 추석·가을 여행객 대상 온·오프라인 할인전 강화",
-        "desc": "현대면세점이 추석 연휴와 가을 여행 시즌을 맞아 해외로 떠나는 내·외국인 고객을 위한 대규모 프로모션을 진행한다. 현대면세점은 15일, 다음 달 11일까지 면세 쇼핑 혜택을 강화한 '현데이(H.Day)' 행사를 운영한다고... ",
-        "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=275627",
-        "pub_date": "2026.09.15",
-        "reason": "추석 여행객 겨냥 면세점 프로모션 사례",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "추석 연휴 프로모션",
-          "가을 시즌 이벤트"
-        ]
-      },
-      {
-        "title": "현대면세점, 추석·가을 여행객 잡는다···온·오프라인 할인전",
-        "topic": "면세점 추석 가을 여행 경쟁",
-        "insight": "현대면세점, 추석·가을 여행객 유입 위한 초대형 할인 프로모션 진행",
-        "desc": "현대면세점 관계자는 &quot;추석 연휴 기간 해외 여행을 준비하는 고객들이 풍성한 혜택을 받을 수 있도록 대대적인 프로모션을 준비했다&quot;며 &quot;앞으로도 여행객들이 체감할 수 있는 풍성한 혜택의 쇼핑 이벤트를 지속 선보일... ",
-        "link": "http://www.finomy.com/news/articleView.html?idxno=261650",
-        "pub_date": "2026.09.15",
-        "reason": "추석 여행객 겨냥 면세점 프로모션 사례",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "추석 연휴 프로모션",
-          "가을 시즌 이벤트"
-        ]
-      },
-      {
-        "title": "1300원대 환율에 추석 특수까지...면세업계, '가을 출국족' 사로잡는다",
-        "topic": "면세점 추석 가을 여행 경쟁",
-        "insight": "낮은 환율과 추석 특수 맞춰 면세업계, 가을 출국족 확보 경쟁",
-        "desc": "해외여행 수요가 몰리는 추석에 이어 10월 연휴까지 여행 성수기가 이어지는 만큼 할인과 결제 혜택은 물론 항공 마일리지, 여행·숙박 경품, 고객 참여형 행사 등으로 프로모션을 확대하고 있다. 16일 업계에 따르면... ",
-        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1406264",
-        "pub_date": "2026.09.16",
-        "reason": "추석 여행 시즌 면세점 판촉 전략",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "추석 연휴 프로모션",
-          "가을 시즌 이벤트"
+          "소비자 할인",
+          "가을 할인"
         ]
       }
     ]

@@ -38,7 +38,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 15,
+    news7d: 18,
     negScore: 180,
     headline: [
       '브랜드평판 9월 1위 · 지수 16%↑',
@@ -62,7 +62,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 4,
+    news7d: 3,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
@@ -78,7 +78,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -87,12 +87,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 20,
+    news7d: 25,
     negScore: 850,
     headline: [
       '신촌점 9.21 영업종료 · 폐점',
       '채권조사 진행 중 · ~9.29',
-      '9월 메가온리 · 케이티페리 필름',
+      '관객↑에도 영화관 줄폐업(9.19)',
     ],
     impact: 'SKT·KT 상시 운영 중 · 채권조사기간(9.2~9.29) 개시 · 직영 좌석 3400석·스크린 8개 감소 — 회생계획안 12.1까지 제출',
     links: [
@@ -113,7 +113,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 35,
+    news7d: 30,
     negScore: 250,
     headline: [
       '2Q 흑자전환 · 영업이익 115억',
@@ -139,7 +139,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 15,
+    news7d: 10,
     negScore: 480,
     headline: [
       '8.25 127종 5% 인상 완료',
@@ -154,7 +154,7 @@ export const trendSignals = [
   {
     brand: '엽기떡볶이',
     membership: 'candidate',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'low',
     sources: ['뉴스'],
@@ -165,7 +165,7 @@ export const trendSignals = [
     headline: [
       '브랜드 대상 10년 연속 수상(9.1)',
       '더착한맛 신메뉴 · 9.11~10.16',
-      '위생 위반 이력 · 가맹갑질 모니터링',
+      '2027.7부터 전 제품 7% 인상 예고',
     ],
     impact: '3사 미운영 · 올해의 브랜드 대상 10년 연속 수상(9.1) — 분식 카테고리 1위, SKT 제휴 공백',
     links: [
@@ -186,7 +186,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 30,
+    news7d: 20,
     negScore: 900,
     headline: [
       '166만명 개인정보 유출 · 128억 과징금',
@@ -208,12 +208,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 30,
+    news7d: 25,
     negScore: 280,
     headline: [
       '아이스아메리카노 200원 인상 발표',
       '전국 1000호점 달성 · 오더 앱 개편',
-      '일본 히트상품 선정 · 해외 진출 흥행',
+      '가을 라떼 신메뉴 출시 · 국산우유 협업',
     ],
     impact: '3사 미운영 · 전국 1000호점 돌파(7월) · 매머드오더 개편 완료 · 아이스아메리카노 200원 인상 발표',
     links: [

@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.17';
+const RADAR_SCANNED = '2026.09.21';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -273,7 +273,7 @@ const alCats = [
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
-    updated: true,
+    updated: false,
     nb: [{ platform: '네이버플러스', items: [
       { partner: '롯데시네마', deadline: '월 4회 · ~26.12.31', rows: [{ grade: null, desc: '최대 5천원 + 콤보 3천원 할인' }] },
     ]}],
@@ -338,7 +338,7 @@ export const recs = [
   {
     rank: 2,
     brand: '매머드커피',
-    updated: true,
+    updated: false,
     tag: '매장 1000호점 · DataLab ↗1.04',
     reason: '저가 커피 2위 브랜드 · 전국 1000호점 달성(7월). 2026.1 오케스트라PE 인수 후 매머드오더 개편 완료. 아이스 아메리카노 200원 인상 발표. 9월 브랜드평판 13위(커피 카테고리). SKT 미참여.',
     reach: [
@@ -639,7 +639,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.17</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.21</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
