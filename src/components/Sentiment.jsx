@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (2026.09.17 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (2026.09.21 갱신)</span>
 
       </div>
       <div className="tr2">
@@ -63,8 +63,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '66%' }}>긍정 66%</div>
-              <div className="rbs rn" style={{ width: '28%' }}>부정 28%</div>
+              <div className="rbs rp" style={{ width: '65%' }}>긍정 65%</div>
+              <div className="rbs rn" style={{ width: '29%' }}>부정 29%</div>
               <div className="rbs ru" style={{ width: '6%' }}>중립 6%</div>
             </div>
             <div className="rleg">
@@ -86,7 +86,8 @@ export default function Sentiment() {
           <KwTabs tabs={SKT_TABS} active={sktKw} setActive={setSktKw} />
           {sktKw === 'kw1' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">집앞 세븐에 스톰 29개 있음 / t멤버쉽 할인받아 오늘 20개 21000원 — 댓글: "T멤버십 할인 얼마되는디?" (포켓몬카드 갤)</span></div><div className="rsrc">2026.09.15 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=pokemoncollection&no=70511" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="upd"></span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">에버랜드 와일드 사바나 익스페디션 추천해요~ — "지난주 수요일에 티멤버십 에버랜드 할인" / 댓글: "티멤버쉽 할인 좋으네요.아이가 정말 기억에 남겠어요" (부산경남맘스홀릭)</div><div className="rsrc">2026.09.17 · <a href="https://cafe.naver.com/ungsangjang/875968" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">집앞 세븐에 스톰 29개 있음 / t멤버쉽 할인받아 오늘 20개 21000원 — 댓글: "T멤버십 할인 얼마되는디?" (포켓몬카드 갤)</div><div className="rsrc">2026.09.15 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=pokemoncollection&no=70511" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">성시경 비빔밥 도시락 — T멤버십 + 농협카드 결제시 25%할인으로 3200원에 구매ㅋㄷ (편의점 갤)</div><div className="rsrc">2026.09.02</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">야심한 밤에 SKT 쓰는놈들 스라(스카이라이너) 50%할인 받아라 — "인당 최대 8매 구매 가능" / 댓글: "아 가격좋은데..." / "버스보다 싸고 빠른데" (러브라이브 선샤인 갤)</div><div className="rsrc">2026.09.02 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=sunshine&no=6652729" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T멤버쉽 10퍼 할인 1만원 제한 걸린거 짜치넹 — "10퍼 나름 쏠쏠했는데" (컴투스프로야구 갤)</div><div className="rsrc">2026.08.27</div></div>
@@ -100,10 +101,11 @@ export default function Sentiment() {
           )}
           {sktKw === 'kw2' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx"><span className="upd">배스킨라빈스 SKT T데이 티멤버쉽으로 40% 할인 후기 — 댓글: "수요일 T데이 40% 할인은 정말 꿀 같은 혜택이죠" / "SK는 제휴할인이 너무 빵빵한것같아요!!"</span></div><div className="rsrc">2026.09.16 · <a href="https://blog.naver.com/ssagazi2008/224414035180" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx"><span className="upd">버거리 SKT T데이 할인! 산본학원가점 첫 방문 솔직 후기 — 댓글: "SKT T데이 덕분에 처음 알게 된 수제버거인데 기대 이상으로 너무 맛있었겠어요!"</span></div><div className="rsrc">2026.09.16 · <a href="https://blog.naver.com/olguri00/224413882566" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx"><span className="upd">배라 T데이 혜택 누리려 갔다가... — "파인트 T데이 40%할인 혜택 고했어요^^, 더 많이 쓰고 왔네요^^" (배라맘)</span></div><div className="rsrc">2026.09.16 · <a href="https://cafe.naver.com/chch6534/1317788" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx"><span className="upd">또 돌아온 T데이 — VIP 던킨 50% 할인 이용 / 댓글: "반값이면 살만한걸요 좋네요" / "저렴할때 잘 사셨네요" (구리 남양주맘)</span></div><div className="rsrc">2026.09.16 · <a href="https://cafe.naver.com/momingrnyj/1974698" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="upd"></span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">롯시는 할인방법이 없나.. — "t멤버십에도 빠지고 노리카드도 안되고 레지던트 정가박치기 ㄹㅇ이냐" (오리지널 티켓 갤)</div><div className="rsrc">2026.09.20 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=2963388" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">배스킨라빈스 SKT T데이 티멤버쉽으로 40% 할인 후기 — 댓글: "수요일 T데이 40% 할인은 정말 꿀 같은 혜택이죠" / "SK는 제휴할인이 너무 빵빵한것같아요!!"</div><div className="rsrc">2026.09.16 · <a href="https://blog.naver.com/ssagazi2008/224414035180" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">버거리 SKT T데이 할인! 산본학원가점 첫 방문 솔직 후기 — 댓글: "SKT T데이 덕분에 처음 알게 된 수제버거인데 기대 이상으로 너무 맛있었겠어요!"</div><div className="rsrc">2026.09.16 · <a href="https://blog.naver.com/olguri00/224413882566" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">배라 T데이 혜택 누리려 갔다가... — "파인트 T데이 40%할인 혜택 고했어요^^, 더 많이 쓰고 왔네요^^" (배라맘)</div><div className="rsrc">2026.09.16 · <a href="https://cafe.naver.com/chch6534/1317788" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">또 돌아온 T데이 — VIP 던킨 50% 할인 이용 / 댓글: "반값이면 살만한걸요 좋네요" / "저렴할때 잘 사셨네요" (구리 남양주맘)</div><div className="rsrc">2026.09.16 · <a href="https://cafe.naver.com/momingrnyj/1974698" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">이번 T데이는 지난주보다 낫네 — 던킨, 뚜레쥬르, 배라 할인 이거 괜찮은데?? / 댓글: "배라 어흐", "파인트 냠냠" (오리지널 티켓 갤)</div><div className="rsrc">2026.09.14 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=2938024" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT TDAY쿠폰으로 롯데리아 사각핫크팩 할인후기 — "티데이할인으로 가성비좋게 푸짐하게 즐겨본 롯데리아 사각핫크팩 후기 포스팅"</div><div className="rsrc">2026.09.08 · <a href="https://blog.naver.com/teddyvillage/224404167899" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T멤버십 찬스를 썼다지만 쌩가격 3.9는 너무 비싸다 진심 (오리지널 티켓 갤)</div><div className="rsrc">2026.09.08 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=2919212" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -143,7 +145,7 @@ export default function Sentiment() {
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT 9월 백미당 해피아워 50% 할인 — 백미당 아브뉴프랑 판교점 직접 사용 후기</div><div className="rsrc">2026.09.14 · <a href="https://blog.naver.com/znzn-_-/224411004332" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT T멤버십 VIP 혜택, 백미당 검은콩라떼 50% 할인받는 꿀팁!</div><div className="rsrc">2026.09.11 · <a href="https://blog.naver.com/cy4788/224408232457" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx"><span className="upd">백미당 T멤버십 1+1 & VIP 해피아워 후기 — 댓글: "T멤버십 1+1에 해피아워 정보까지 잘 알아갑니다" / "T멤버십 1+1 행사 이용하신 거 완전 꿀팁이네요"</span></div><div className="rsrc">2026.09.10 · <a href="https://blog.naver.com/potato_daily01/224407454894" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">백미당 T멤버십 1+1 & VIP 해피아워 후기 — 댓글: "T멤버십 1+1에 해피아워 정보까지 잘 알아갑니다" / "T멤버십 1+1 행사 이용하신 거 완전 꿀팁이네요"</div><div className="rsrc">2026.09.10 · <a href="https://blog.naver.com/potato_daily01/224407454894" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">쉐이크쉑 대구신세계점 T멤버십 해피아워 후기 — "어제 SKT T Day 쉐이크쉑 매장 행사로 오랫만에 쉐이크쉑 버거를 먹었습니다"</div><div className="rsrc">2026.08.27 · <a href="https://blog.naver.com/vic69/224391868271" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">김포 현대아울렛 백미당 SKT VIP 해피아워로 50% 할인 — 아이스크림라떼 후기</div><div className="rsrc">2026.08.25 · <a href="https://blog.naver.com/gsl09/224389579699" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">가끔 오는 쉑쉑병...SKT VIP는 T해피아워 5천원할인 월5회,1일1회(좀 치사) — 해피아워 혜택 실제 사용 후 아쉬움 혼재 (뉴스사사)</div><div className="rsrc">2026.08.09 · <a href="https://m.cafe.naver.com/loyaltylife/349162" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -152,8 +154,8 @@ export default function Sentiment() {
           {sktKw === 'kw4' && (
             <div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT T멤버십 9월 VIP픽 혜택 · 폴 바셋 대구 감삼DT점 VIP PICK 이용후기</div><div className="rsrc">2026.09.15 · <a href="https://blog.naver.com/ych11133/224412074546" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">3000명 위해 한밤중 롯데월드…SKT 장기고객의 특별한 밤 — 댓글: "응모를 안했네 ㅠㅠ" / "니들이 내 정보 털어가도 그냥 skt에 있었는데 ㅠ 개쎔" (잇싸갤)</span></div><div className="rsrc">2026.09.15 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=itssaexodus&no=222858" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">T우주패스 GPT프로 x20 공짜 같은거 안나오나.. — 댓글: "프리미엄 통신사에서 그런걸 왜 함" / "1%할인쿠폰(vip전용)" (판타지 갤)</span></div><div className="rsrc">2026.09.15 · <a href="https://gall.dcinside.com/board/view/?id=fantasy_new2&no=9934674" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">3000명 위해 한밤중 롯데월드…SKT 장기고객의 특별한 밤 — 댓글: "응모를 안했네 ㅠㅠ" / "니들이 내 정보 털어가도 그냥 skt에 있었는데 ㅠ 개쎔" (잇싸갤)</div><div className="rsrc">2026.09.15 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=itssaexodus&no=222858" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">T우주패스 GPT프로 x20 공짜 같은거 안나오나.. — 댓글: "프리미엄 통신사에서 그런걸 왜 함" / "1%할인쿠폰(vip전용)" (판타지 갤)</div><div className="rsrc">2026.09.15 · <a href="https://gall.dcinside.com/board/view/?id=fantasy_new2&no=9934674" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">아메리카노 4잔 구매했어요~^^ — T멤버십 VIP 20프로 할인 1600원도 적용</div><div className="rsrc">2026.09.10 · <a href="https://cafe.naver.com/wjdrkrjqn/201797" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">더쿠</span></div><div className="rtx">티멤 폴바셋 VVIP 전용으로 바뀐거 지금 봤다 — "너무하네 아예 암것도 안주다니" (덬딜)</div><div className="rsrc">2026.09.09 · <a href="https://theqoo.net/theqdeal/4339868457" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">SKT VIP만 온더고 12종 도시락 19000원에 쇼핑 — "T 멤버십 9월 아워홈몰 VIP PICK PLUS 혜택, vip pick쿠폰 받고 복사해두세요"</div><div className="rsrc">2026.09.06 · <a href="https://blog.naver.com/youla8/224402550239" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -178,8 +180,8 @@ export default function Sentiment() {
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
               <div className="rbs rp" style={{ width: '49%' }}>긍정 49%</div>
-              <div className="rbs rn" style={{ width: '46%' }}>부정 46%</div>
-              <div className="rbs ru" style={{ width: '5%' }}>중립 5%</div>
+              <div className="rbs rn" style={{ width: '47%' }}>부정 47%</div>
+              <div className="rbs ru" style={{ width: '4%' }}>중립 4%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -212,7 +214,8 @@ export default function Sentiment() {
           )}
           {ktKw === 'kw2' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx"><span className="upd">버거킹 애플파이로얄 후기, 맥날 애플파이와 비교 (KT 달달혜택) — 댓글: "KT 달달혜택으로 와퍼세트 할인받는 꿀팁까지 알차게 얻어 가요!"</span></div><div className="rsrc">2026.09.16 · <a href="https://blog.naver.com/sarang2ga/224414204800" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="upd"></span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT 멤버십 9월 달달 혜택 버거킹 불고기와퍼+롱치킨버거 2인팩 50% 할인 — 댓글: "와 50프로 혜택으로 만원도 안되는 가격에 완전 혜자네요~~ 당장 달려가고픈데 KT가 아니라 아숩네용" / "오 KT 버거킹 할인이 50프로나 되다니!!!! 장기고객이시면 이런 혜택은 무조건 누려야죠 ㅋㅋ"</div><div className="rsrc">2026.09.18 · <a href="https://blog.naver.com/trdsklois/224415965970" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">버거킹 애플파이로얄 후기, 맥날 애플파이와 비교 (KT 달달혜택) — 댓글: "KT 달달혜택으로 와퍼세트 할인받는 꿀팁까지 알차게 얻어 가요!"</div><div className="rsrc">2026.09.16 · <a href="https://blog.naver.com/sarang2ga/224414204800" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">[버거킹 반값] 9월 KT 달달혜택 - 불고기와퍼+롱치킨버거 2인팩 9,550원에 먹기</div><div className="rsrc">2026.09.14 · <a href="https://blog.naver.com/earlvantea/224411153284" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">형들 bhc 뭐가 맛있음? — kt 멤버쉽 줘서 먹을라카는데... 맛초킹 나옴 ㄱㅅㄱㅅ (국내게임방송 갤)</div><div className="rsrc">2026.09.13 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=rnrsorpdlaqkdthd&no=810942" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">커링클 9천원에 먹어보네 — kt달달혜택 소액지결제하면 3천원 할인하는걸로 8700원 나왔다 (치킨 갤)</div><div className="rsrc">2026.09.12 · <a href="https://gall.dcinside.com/board/view/?id=chicken&no=2386192" target="_blank" rel="noreferrer">원문 보기</a></div></div>
@@ -265,8 +268,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '50%' }}>긍정 50%</div>
-              <div className="rbs rn" style={{ width: '50%' }}>부정 50%</div>
+              <div className="rbs rp" style={{ width: '56%' }}>긍정 56%</div>
+              <div className="rbs rn" style={{ width: '44%' }}>부정 44%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -282,11 +285,12 @@ export default function Sentiment() {
           <KwTabs tabs={LGU_TABS} active={lguKw} setActive={setLguKw} />
           {lguKw === 'kw2' && (
             <div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx"><span className="upd">유플투쁠 노브랜드 수량이.. — "10초컷도 안나는건 첨봤습니다" / 댓글: "정시들어간사람은 최소한 받게 해줘야지 참 ㅡㅡ" / "막차였나보네요 ㅜㅜ" (정가거부)</span></div><div className="rsrc">2026.09.17 · <a href="https://cafe.naver.com/wjdrkrjqn/203755" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">유플투쁠 노브랜드 수량이.. — "10초컷도 안나는건 첨봤습니다" / 댓글: "정시들어간사람은 최소한 받게 해줘야지 참 ㅡㅡ" / "막차였나보네요 ㅜㅜ" (정가거부)</div><div className="rsrc">2026.09.17 · <a href="https://cafe.naver.com/wjdrkrjqn/203755" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">9/14 월요일 LG U+ 공차 50% 할인 (슬기로운 곰마을)</div><div className="rsrc">2026.09.14 · <a href="https://cafe.naver.com/samplegong9/165549" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">유플투쁠 유니스터디 공짜라길래 써본 솔직한 후기 — "이게 정말 실화인가 싶어 눈을 비비고 다시 봤죠"</div><div className="rsrc">2026.09.06 · <a href="https://blog.naver.com/benefitbuff/224402425069" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">LG U+ 유플투쁠 VVIP 매드포갈릭 25,000원 할인 쿠폰! 실사용 후기 — "VVIP & 10년 이상 고객 대상, 직접 써봤어요"</div><div className="rsrc">2026.09.04 · <a href="https://blog.naver.com/rldnsdl123/224396473646" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">9월 유플투쁠~~ 혜택이 점점...😢😢 (배라맘)</div><div className="rsrc">2026.09.01 · <a href="https://cafe.naver.com/chch6534/1314420" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="upd"></span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">정가거부 하는날 - 다이소 유플투쁠에서 받은 다이소 깊콘 2,000원짜리 사용하고 옴~ 실지출 0원</div><div className="rsrc">2026.08.31 · <a href="https://cafe.naver.com/wjdrkrjqn/198602" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">왜 아무도 유플투쁠 팝콘 챙기라고 말 안해주냐 — "지나버렸노" (오리지널 티켓 갤)</div><div className="rsrc">2026.08.23</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">유플투쁠 40퍼 밖이 못받노 ㄲㅂ — "도미노 50퍼는 등급이 안돼서 못받네" (명조 갤)</div><div className="rsrc">2026.08.21</div></div>
             </div>

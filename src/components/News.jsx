@@ -23,9 +23,9 @@ export default function News() {
             <div className="nmeta">2026-09-16 · <a href="https://news.sktelecom.com/230806" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">실속 할인부터 AI구독·이색 경품까지… SKT만의 혜택 총집결</span></span></div>
-            <div className="nsum"><span className="upd">SKT가 아이폰 18 Pro & iPhone 18 Pro Max 출시를 맞아 T 다이렉트샵 및 사전예약 구매 고객을 대상으로 풍성한 혜택 제공. 럭키 룰렛(이용권 경품), 중고폰 보상, T 다이렉트샵 카카오톡 채널 쿠폰 등 할인. 사전예약 고객 대상 <클럽 아이폰 18 프로> 특별 멤버십 혜택. 개통 고객 전원 구글 AI Plus 구독권 제공(10월 18일까지) 및 한정판 경품 추첨 이벤트.</span></div>
-            <div className="nmeta"><span className="upd">2026-09-11</span> · <a href="https://news.sktelecom.com/230635" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">실속 할인부터 AI구독·이색 경품까지… SKT만의 혜택 총집결</span></div>
+            <div className="nsum">SKT가 아이폰 18 Pro & iPhone 18 Pro Max 출시를 맞아 T 다이렉트샵 및 사전예약 구매 고객을 대상으로 풍성한 혜택 제공. 럭키 룰렛(이용권 경품), 중고폰 보상, T 다이렉트샵 카카오톡 채널 쿠폰 등 할인. 사전예약 고객 대상 &lt;클럽 아이폰 18 프로&gt; 특별 멤버십 혜택. 개통 고객 전원 구글 AI Plus 구독권 제공(10월 18일까지) 및 한정판 경품 추첨 이벤트.</div>
+            <div className="nmeta">2026-09-11 · <a href="https://news.sktelecom.com/230635" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, 'T로밍 데이터 추가' 혜택 연말까지 연장</span></div>
@@ -68,9 +68,9 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle"><span className="upd">[오래 함께한 고객님께 드리는 특별한 하루] 가을이 가장 아름답게 물드는 곳, 곤지암 화담숲</span></span></div>
-            <div className="nsum"><span className="upd">LGU+가 가을 시즌을 맞아 장기고객 대상으로 곤지암 화담숲을 특별 대관. 오직 U+ 장기고객(VVIP 등급 이상이면서 가입 기간 5년 이상 등)을 위해 평소보다 여유롭게 가을의 아름다운 풍경을 즐길 수 있는 특별한 하루를 제공하는 기획. 멤버십 고객 대상의 특화된 장기고객 감사 이벤트.</span></div>
-            <div className="nmeta"><span className="upd">2026-09-11</span> · <a href="https://news.lguplus.com/22825" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">[오래 함께한 고객님께 드리는 특별한 하루] 가을이 가장 아름답게 물드는 곳, 곤지암 화담숲</span></div>
+            <div className="nsum">LGU+가 가을 시즌을 맞아 장기고객 대상으로 곤지암 화담숲을 특별 대관. 오직 U+ 장기고객(VVIP 등급 이상이면서 가입 기간 5년 이상 등)을 위해 평소보다 여유롭게 가을의 아름다운 풍경을 즐길 수 있는 특별한 하루를 제공하는 기획. 멤버십 고객 대상의 특화된 장기고객 감사 이벤트.</div>
+            <div className="nmeta">2026-09-11 · <a href="https://news.lguplus.com/22825" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">LG U+, 추석 장보기 부담 낮춘다 — 명절 쇼핑·나들이 멤버십 혜택 강화</span></div>
