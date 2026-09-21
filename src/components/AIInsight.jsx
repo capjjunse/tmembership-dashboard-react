@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.21';
+const RADAR_SCANNED = '2026.09.22';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -179,11 +179,14 @@ const alCats = [
     updated: false,
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
+      { partner: '매드포갈릭', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인 (최대 15,000원)' }, { grade: 'S', desc: '5% 할인 (최대 5,000원)' }] },
       { partner: '아웃백', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인 (월 4회, 일 최대 2만원)' }, { grade: 'S', desc: '5% 할인 (월 4회, 일 최대 1만원)' }] },
       { partner: 'VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: '20% 할인' }] },
+      { partner: '폴 바셋', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '시즌음료 3종 50% 할인 (최대 2잔)' }] },
+      { partner: '잠바주스', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '스무디 3종 50% 할인' }] },
     ]}],
-    reasons: ['T멤버십: 상시 15~30% (아웃백·VIPS·도미노·피자헛)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 15~30% (매드포갈릭·아웃백·VIPS·도미노·피자헛)', 'T멤버십 VIP: 폴바셋·잠바주스 50% (9월)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -336,10 +339,10 @@ export const recs = [
     reason: '밥버거 카테고리 1위 브랜드 · 전국 485개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 485개 · 밥버거 카테고리 1위 (점포 수 감소 추세 — 브랜드 규모 축소 진행 중)' },
-      { label: '검색 버즈', text: 'DataLab →0.83 · 블로그 1만 · 뉴스 4건 — 저버즈 구간, 시즌 이슈 없음' },
+      { label: '검색 버즈', text: 'DataLab →1.00 · 블로그 1.9만 · 뉴스 4건 — 저버즈 구간, 시즌 이슈 없음' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 밥버거 카테고리 공백 — 창업주 마약·갑질 이슈(2024) · 점포 급감 이력 — 브랜드 리스크 선검토 필요' },
     ],
-    trend: 'DataLab 1.00 · 블로그 1만 · 뉴스 4건',
+    trend: 'DataLab 1.00 · 블로그 1.9만 · 뉴스 4건',
     hot: false,
     skt: [],
     kt:  null,
@@ -353,10 +356,10 @@ export const recs = [
     reason: '저가 커피 2위 브랜드 · 전국 1000호점 달성(7월). 2026.1 오케스트라PE 인수 후 매머드오더 개편 완료. 아이스 아메리카노 200원 인상 발표. 9월 브랜드평판 13위(커피 카테고리). SKT 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 1000호점 달성(7월) · 저가 커피 카테고리 2위 (메가커피 다음)' },
-      { label: '검색 버즈', text: 'DataLab ↗1.04 · 블로그 1만 · 뉴스 30건 — 매머드오더 개편·일본 히트상품 선정 버즈' },
+      { label: '검색 버즈', text: 'DataLab ↗1.04 · 블로그 1.9만 · 뉴스 99건 — 가을 신메뉴·국산우유 협업(9.17) 버즈' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 저가 카페 공백 — 1000호점 달성으로 규모 확보, 아이스아메리카노 인상으로 저가 이미지 조정 중' },
     ],
-    trend: 'DataLab 1.04 · 블로그 1만 · 뉴스 30건',
+    trend: 'DataLab 1.04 · 블로그 1.9만 · 뉴스 99건',
     hot: true,
     skt: [],
     kt:  null,
@@ -370,10 +373,10 @@ export const recs = [
     reason: '건강음료 특화 카페 브랜드 · 전국 405개. 배 베이스 음료·저당 옵션·프로틴 음료 강화로 웰니스 트렌드 수요 포착. 2026.7 중소벤처기업부장관 표창 수상. SKT·KT·LGU+ 3사 모두 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 405개 · 저당·건강음료 카테고리 특화 (배 베이스·프로틴 옵션 강화)' },
-      { label: '검색 버즈', text: 'DataLab →0.76 · 블로그 1.7만 · 뉴스 6건 — 안정적 버즈, 대형 이슈 없음' },
+      { label: '검색 버즈', text: 'DataLab →0.91 · 블로그 1.7만 · 뉴스 2건 — 안정적 버즈, 대형 이슈 없음' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 건강음료 카테고리 공백 — 웰니스 트렌드 성장, 3사 모두 미참여 공백' },
     ],
-    trend: 'DataLab 0.91 · 블로그 1만 · 뉴스 2건',
+    trend: 'DataLab 0.91 · 블로그 1.7만 · 뉴스 2건',
     hot: false,
     skt: [],
     kt:  null,
@@ -649,7 +652,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.21</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer"><span className="upd">2026.09.22</span> 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

@@ -1,21 +1,47 @@
 {
-  "generated_at": "2026.09.21 05:47",
-  "total_collected": 1097,
-  "total_valid": 480,
-  "total_skipped": 587,
-  "total_top": 25,
+  "generated_at": "2026.09.22 05:54",
+  "total_collected": 997,
+  "total_valid": 574,
+  "total_skipped": 423,
+  "total_top": 27,
   "topic_groups": [
     {
+      "category": "trend",
+      "topic": "AI 기술 플랫폼 재편",
+      "insight": "AI가 플랫폼 산업 구도를 재편하며 빅테크 종속 우려와 함께 시장 기회 창출",
+      "signal_strength": 1,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "[창간기획] AI가 韓 플랫폼 삼킨다…재편 기회 vs 빅테크 종속",
+          "link": "https://www.etnews.com/20260914000007",
+          "pub_date": "2026.09.21",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "AI 기술을 전면에... 코리아 이커머스 페어에서 본 것",
+          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003269014&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "pub_date": "2026.09.21",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        }
+      ],
+      "is_new": true
+    },
+    {
       "category": "risk",
-      "topic": "스타벅스 마케팅 논란 회복",
-      "insight": "탱크데이 논란 이후 실적 부진에서 벗어나기 위해 제휴사 마케팅 재개",
+      "topic": "스타벅스 마케팅 재개",
+      "insight": "탱크데이 논란 이후 주춤했던 스타벅스가 모바일 선물, 제휴카드 등 공격적 마케팅으로 재정위 모색",
       "signal_strength": 3,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "마케팅 논란 여파…스타벅스, 3분기엔 실적 반등 가능할까",
-          "link": "https://www.ceoscoredaily.com/page/view/2026091715350453213",
-          "pub_date": "2026.09.18",
+          "title": "스타벅스, 추석 '모바일 선물' 공략···음료 1+1",
+          "link": "http://www.finomy.com/news/articleView.html?idxno=261801",
+          "pub_date": "2026.09.17",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
@@ -35,121 +61,179 @@
           "priority": 2,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
+        },
+        {
+          "title": "마케팅 논란 여파…스타벅스, 3분기엔 실적 반등 가능할까",
+          "link": "https://www.ceoscoredaily.com/page/view/2026091715350453213",
+          "pub_date": "2026.09.18",
+          "priority": 2,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
         }
       ],
       "is_new": true
     },
     {
       "category": "battle",
-      "topic": "통신3사 아이폰18 구독 경쟁",
-      "insight": "아이폰18 출시 시점에 통신사들이 AI 구독권, 기기 결합 등 차별화 혜택으로 고객 확보 경쟁 전개",
+      "topic": "AI 쇼핑 에이전트 확산",
+      "insight": "네이버·다음 등 포털이 배송정보 반영 AI 에이전트로 실시간 구매 경험 고도화 중",
       "signal_strength": 2,
-      "max_velocity": 32.5,
+      "max_velocity": 0.0,
       "articles": [
         {
-          "title": "SKT, 아이폰18 프로·프로 맥스 출시…구글 AI 구독권 등 제공",
-          "link": "http://www.breaknews.com/1237703",
-          "pub_date": "2026.09.18",
+          "title": "[단독]내년 설 쇼핑은 AI대전…네이버·다음 'AI 쇼핑결제' 시간표 나왔...",
+          "link": "https://www.mt.co.kr/tech/2026/09/22/2026092109174890300",
+          "pub_date": "2026.09.21",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 32.5
+          "datalab_velocity": 0.0
         },
         {
-          "title": "아이폰 18 고객 잡아라···통신3사, 구독·보상 혜택 경쟁",
-          "link": "https://www.smartbizn.com/news/articleView.html?idxno=154267",
-          "pub_date": "2026.09.18",
+          "title": "네이버 쇼핑 AI 에이전트, 실시간 배송정보 반영해 추천 고도화",
+          "link": "https://www.yna.co.kr/view/AKR20260917134700017?input=1195m",
+          "pub_date": "2026.09.17",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 32.5
+          "datalab_velocity": 0.0
         },
         {
-          "title": "이통 3사, '아이폰 18 프로' 시리즈 일제히 개통… AI 구독·기기 결합 혜...",
-          "link": "http://www.popcornnews.net/news/articleView.html?idxno=133432",
-          "pub_date": "2026.09.18",
+          "title": "[창간기획]AI 커머스 시대/ 네이버, 쇼핑 AI 에이전트 고도화로 '제로클...",
+          "link": "https://www.etnews.com/20260910000400",
+          "pub_date": "2026.09.21",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 32.5
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "category": "battle",
-      "topic": "글로벌 AI 구독 서비스 경쟁",
-      "insight": "메타가 페이스북·인스타그램 통합 유료구독 서비스 출시하며 AI 강화 기능 제공",
-      "signal_strength": 2,
-      "max_velocity": 32.5,
-      "articles": [
-        {
-          "title": "페북·인스타도 유료구독 서비스…메타, AI 강화 통합구독 출시",
-          "link": "https://www.yna.co.kr/view/AKR20260916033100091?input=1195m",
-          "pub_date": "2026.09.16",
-          "priority": 2,
-          "cross_query_count": 1,
-          "datalab_velocity": 32.5
+          "datalab_velocity": 0.0
         },
         {
-          "title": "메타, SNS 통합 구독 서비스 출시...AI 기능 강화",
-          "link": "https://www.ppss.kr/news/articleView.html?idxno=310951",
-          "pub_date": "2026.09.16",
-          "priority": 2,
+          "title": "&quot;내일 도착하는 밀키트 추천해줘&quot;…네이버, AI 쇼핑 고도화",
+          "link": "https://www.news1.kr/it-science/internet-platform/6293548",
+          "pub_date": "2026.09.17",
+          "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": 32.5
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "“내일 오는 상품 골라주네”…네이버 쇼핑 AI, 배송 조건 따져 추천",
+          "link": "https://www.hani.co.kr/arti/economy/it/1278237.html",
+          "pub_date": "2026.09.17",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "'키워드 검색' 사라지나…네이버 'AI 에이전트' 확장 속도",
+          "link": "https://www.hankyung.com/article/202609171867g",
+          "pub_date": "2026.09.17",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "“내일 도착 밀키트 찾아줘”…네이버 AI 쇼핑, 배송 특화 기능 고도화",
+          "link": "https://www.donga.com/news/Economy/article/all/20260917/134686554/1",
+          "pub_date": "2026.09.17",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "네이버 ‘AI 쇼핑 에이전트’…실시간 배송정보까지 반영한다",
+          "link": "https://www.sedaily.com/article/20092158?ref=naver",
+          "pub_date": "2026.09.17",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
         }
       ],
       "is_new": true
     },
     {
       "category": "benchmark",
-      "topic": "추석 대형유통 할인전",
-      "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
+      "topic": "추석 유통 할인 프로모션",
+      "insight": "추석 앞두고 주요 유통업체들 쿠폰·추첨 행사 등 다양한 할인 이벤트 전개",
       "signal_strength": 2,
-      "max_velocity": 3.1,
+      "max_velocity": 0.0,
       "articles": [
         {
-          "title": "대형마트 휴무일? 이마트·롯데마트·홈플러스·코스트코 ‘할인 추석장...",
-          "link": "https://www.bntnews.co.kr/article/view/bnt202609180188",
-          "pub_date": "2026.09.19",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -20.1
-        },
-        {
-          "title": "경북도, 추석맞이 우수제품 특판전…최대 30% 할인",
-          "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4084870",
-          "pub_date": "2026.09.20",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -20.1
-        },
-        {
-          "title": "카드 할인에 쿠폰까지…마트·이커머스 '실구매가' 승부[무거워진 장바...",
-          "link": "https://www.newsis.com/view/NISX20260918_0003796354",
-          "pub_date": "2026.09.19",
+          "title": "추석 앞두고 할인 나선 유통가…쿠폰부터 추첨 행사까지 ‘알뜰 쇼핑’...",
+          "link": "https://www.segye.com/newsView/20260921502869?OutUrl=naver",
+          "pub_date": "2026.09.21",
           "priority": 1,
           "cross_query_count": 3,
           "datalab_velocity": 0.0
         },
         {
-          "title": "추석 앞두고 패션업계 할인전 돌입…삼성물산·무신사 쇼핑 수요 공략",
-          "link": "https://www.asiatime.co.kr/article/20260918500064",
-          "pub_date": "2026.09.18",
+          "title": "명절 선물 최대 77% 할인...추석 막판 할인 진행하는 '이곳'",
+          "link": "https://www.wikitree.co.kr/articles/1160958",
+          "pub_date": "2026.09.21",
           "priority": 1,
-          "cross_query_count": 3,
-          "datalab_velocity": 3.1
+          "cross_query_count": 2,
+          "datalab_velocity": -21.1
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "benchmark",
+      "topic": "추석 명절 한정 상품",
+      "insight": "던킨·쿠팡이츠 등 다양한 브랜드들 추석 시즌 맞춤 선물·식품 상품 출시",
+      "signal_strength": 1,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "던킨, 추석 선물용 디저트 출시",
+          "link": "http://www.bokuennews.com/news/article.html?no=284543",
+          "pub_date": "2026.09.21",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": -21.1
         },
         {
-          "title": "문어 3888원·한우 25t 반값…추석 앞두고 유통가 할인전",
-          "link": "https://www.segye.com/newsView/20260919502008?OutUrl=naver",
-          "pub_date": "2026.09.19",
+          "title": "쿠팡이츠, 추석 장보기 할인전 연다...슈퍼·편의점 상품 한곳서!",
+          "link": "http://www.popcornnews.net/news/articleView.html?idxno=133698",
+          "pub_date": "2026.09.21",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "benchmark",
+      "topic": "에버랜드 추석 특별 프로그램",
+      "insight": "에버랜드가 판다·윷놀이 등 한가위 테마 특별 프로그램으로 추석 연휴 수요 공략",
+      "signal_strength": 1,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "&quot;루이·후이와 함께하는 K-한가위&quot; 에버랜드, 추석연휴 특별 프로그램 ...",
+          "link": "https://www.catchnews.kr/news/articleView.html?idxno=128661",
+          "pub_date": "2026.09.21",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
         },
         {
-          "title": "배송 마감 코앞…이커머스 추석 막판 할인전 총력",
-          "link": "https://www.segye.com/newsView/20260919502095?OutUrl=naver",
-          "pub_date": "2026.09.19",
+          "title": "아이와 함께 추석 나들이…에버랜드서 루이·후이 만나볼까",
+          "link": "https://www.kizmom.com/news/articleView.html?idxno=112849",
+          "pub_date": "2026.09.21",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "&quot;쌍둥이 판다와 윷놀이 즐긴다&quot;…에버랜드, 한가위 특별 프로그램 공개",
+          "link": "https://view.asiae.co.kr/article/2026092108350814012",
+          "pub_date": "2026.09.21",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "&quot;사파리 도보 탐험부터 호러 공연까지&quot;… 에버랜드, 추석 대목 공략",
+          "link": "https://www.news1.kr/industry/hotel-tourism/6296971",
+          "pub_date": "2026.09.21",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
@@ -161,14 +245,14 @@
   "categories": {
     "trend": [
       {
-        "title": "추석 선물도 이제 AI에게 묻는다…네이버·현대百·카카오 ‘추천 경쟁...",
-        "topic": "AI 선물 추천 서비스",
-        "insight": "추석 선물 시즌에 네이버·현대백화점·카카오 등 주요 플랫폼이 AI 기반 추천 서비스 경쟁 강화",
-        "desc": "유통·플랫폼 업체들의 경쟁도 상품을 얼마나 많이 확보했느냐를 넘어, 쌓아둔 구매·후기·배송 데이터를 AI가 얼마나 정확하게 읽고 구매 결정까지 연결하느냐로 옮겨가고 있다.",
-        "link": "https://www.segye.com/newsView/20260920501337?OutUrl=naver",
-        "pub_date": "2026.09.20",
-        "reason": "추석 시즌 AI 활용 선물 추천 소비 트렌드",
-        "priority": 1,
+        "title": "[창간기획] AI가 韓 플랫폼 삼킨다…재편 기회 vs 빅테크 종속",
+        "topic": "AI 기술 플랫폼 재편",
+        "insight": "AI가 플랫폼 산업 구도를 재편하며 빅테크 종속 우려와 함께 시장 기회 창출",
+        "desc": "한 플랫폼 업계 관계자는 “AI 서비스 생태계 영향력이 커질수록 AI 이용자를 자사 플랫폼으로 끌어들여 구매 등 의사결정으로 연결하는 기업이 고착화된 플랫폼 경쟁 구도를 뒤바꿀 수 있을 것으로 전망된다”고... ",
+        "link": "https://www.etnews.com/20260914000007",
+        "pub_date": "2026.09.21",
+        "reason": "AI 플랫폼 재편 가능성으로 장기 전략 영향",
+        "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 100.0,
         "datalab_velocity": 0.0,
@@ -178,65 +262,65 @@
         ]
       },
       {
-        "title": "&quot;이걸 왜 사가요?&quot;…외국인들 쇼핑 목록 보니 '대반전'",
-        "topic": "외국인 쇼핑 트렌드",
-        "insight": "외국인들의 한국 쇼핑 선호도가 일반적 예상과 달리 색다른 패턴 보임",
-        "desc": "◇외국인 유동 인구, 광장시장 9배 서울AI재단에 따르면 지난해 남대문시장의 하루평균 외국인 유동 인구는... 외국인에게 광장시장이 먹거리 체험 공간이라면 남대문시장은 현지인이 사용하는 물건을 찾아 사는 쇼핑... ",
-        "link": "https://www.hankyung.com/article/2026092063581",
-        "pub_date": "2026.09.20",
-        "reason": "외국인 쇼핑 행동 변화 장기 트렌드",
+        "title": "검색부터 병원·공항·숙박까지…플랫폼 업계 추석 고객 잡기 총력",
+        "topic": "추석 시즌 플랫폼 경쟁",
+        "insight": "주요 플랫폼들이 검색, 숙박, 의료 등 다양한 서비스로 추석 수요 확보 경쟁",
+        "desc": "플랫폼들의 추석 경쟁 범위는 갈수록 넓어지는 모습이다. 과거 명절 대목이 선물과 쇼핑 중심이었다면 이제는 출발 전 장보기부터 이동, 공항, 병원, 숙박, 결제, 연휴 콘텐츠까지 이용자의 하루 전체를 자사 서비스... ",
+        "link": "https://www.segye.com/newsView/20260921503922?OutUrl=naver",
+        "pub_date": "2026.09.21",
+        "reason": "추석 시즌 플랫폼 경쟁 고객 확보 경쟁 확대",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "플랫폼 경쟁",
+          "추석 연휴 프로모션"
+        ]
+      },
+      {
+        "title": "AI 기술을 전면에... 코리아 이커머스 페어에서 본 것",
+        "topic": "AI 기술 플랫폼 재편",
+        "insight": "AI가 플랫폼 산업 구도를 재편하며 빅테크 종속 우려와 함께 시장 기회 창출",
+        "desc": "판매 전략이 아주 탁월한 것 같다는 느낌을 받았다. ▲  코리아 이커머스 페어 ⓒ 김용진 이번 2026 코리아 이커머스 페어는 상품 소싱부터 이커머스 관련 서비스 업체들까지 한 곳에서 볼 수 있는 좋은 기회였다. 특히 중국... ",
+        "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003269014&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+        "pub_date": "2026.09.21",
+        "reason": "이커머스 AI 기술 트렌드 모니터링",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "AI 쇼핑",
-          "온라인 쇼핑"
-        ]
-      },
-      {
-        "title": "‘농촌관광 가는 주간’ 한 달로 확대…10·11월 할인·이벤트",
-        "topic": "농촌관광 활성화",
-        "insight": "정부가 농촌관광 시즌을 한 달로 확대하고 할인·이벤트 강화로 수요 촉진",
-        "desc": "행사 기간 농촌관광 상품 할인과 관련 이벤트를 마련해 가을철 농촌 방문을 유도할 방침이다. 송 장관은 “올 추석과 가을에 많은 국민이 농촌관광의 즐거움을 누릴 수 있기를 희망한다”고 말했다.",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=02466566645581760&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "pub_date": "2026.09.19",
-        "reason": "가을 여행철 소비 트렌드 및 할인 이벤트",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 79.0,
-        "datalab_velocity": -20.1,
-        "queries": [
-          "추석 이벤트",
-          "가을 할인"
+          "이커머스 전략",
+          "AI 쇼핑"
         ]
       }
     ],
     "risk": [
       {
-        "title": "마케팅 논란 여파…스타벅스, 3분기엔 실적 반등 가능할까",
-        "topic": "스타벅스 마케팅 논란 회복",
-        "insight": "탱크데이 논란 이후 실적 부진에서 벗어나기 위해 제휴사 마케팅 재개",
-        "desc": "‘탱크데이’ 마케팅 논란 이후 4개월이 지났지만 고객 지표가 아직 예년 수준을 회복하지 못하고 있어서다. 18일 이마트 반기보고서에 따르면 스타벅스 운영사 SCK컴퍼니는 2분기 매출이 7473억원으로 전년 동기 대비 6.... ",
-        "link": "https://www.ceoscoredaily.com/page/view/2026091715350453213",
-        "pub_date": "2026.09.18",
-        "reason": "스타벅스 마케팅 논란 파급, 제휴사 검토",
+        "title": "스타벅스, 추석 '모바일 선물' 공략···음료 1+1",
+        "topic": "스타벅스 마케팅 재개",
+        "insight": "탱크데이 논란 이후 주춤했던 스타벅스가 모바일 선물, 제휴카드 등 공격적 마케팅으로 재정위 모색",
+        "desc": "현대경제신문 길나영 기자 | 스타벅스 코리아가 추석을 앞두고 선물 수요 공략 범위를 넓히고 있다. 추석... 이벤트에 참여하려면 카카오톡에서 스타벅스 모바일 상품권인 교환권이나 e카드 교환권을 선물한 뒤 이벤트... ",
+        "link": "http://www.finomy.com/news/articleView.html?idxno=261801",
+        "pub_date": "2026.09.17",
+        "reason": "스타벅스 추석 모바일 선물 공격, T멤버십 제휴 경쟁 심화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 0.0,
+        "datalab_score": 18.5,
         "datalab_velocity": 0.0,
         "queries": [
-          "마케팅 논란"
+          "추석 선물 이벤트"
         ]
       },
       {
         "title": "주춤했던 ‘스타벅스 마케팅’ 다시 시동…제휴통장·카드 잇따라",
-        "topic": "스타벅스 마케팅 논란 회복",
-        "insight": "탱크데이 논란 이후 실적 부진에서 벗어나기 위해 제휴사 마케팅 재개",
+        "topic": "스타벅스 마케팅 재개",
+        "insight": "탱크데이 논란 이후 주춤했던 스타벅스가 모바일 선물, 제휴카드 등 공격적 마케팅으로 재정위 모색",
         "desc": "금융권, 제휴마케팅 다시 확대 스타벅스 ‘탱크데이’ 마케팅 논란 이후 주춤했던 금융권의 스타벅스 제휴 마케팅이 다시 확대되고 있다. KB국민은행은 제휴통장 후속 상품의 판매 한도를 전작보다 50% 늘렸고... ",
         "link": "https://www.mk.co.kr/article/12157143",
         "pub_date": "2026.09.19",
-        "reason": "스타벅스 제휴 카드·통장 마케팅 강화 모니터링",
+        "reason": "제휴사 스타벅스 마케팅 활성화로 제휴 강도 검토",
         "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 0.0,
@@ -248,12 +332,12 @@
       },
       {
         "title": "'탱크데이'에 놀랐던 금융권…스타벅스 살아나자 다시 '별 마케팅'",
-        "topic": "스타벅스 마케팅 논란 회복",
-        "insight": "탱크데이 논란 이후 실적 부진에서 벗어나기 위해 제휴사 마케팅 재개",
+        "topic": "스타벅스 마케팅 재개",
+        "insight": "탱크데이 논란 이후 주춤했던 스타벅스가 모바일 선물, 제휴카드 등 공격적 마케팅으로 재정위 모색",
         "desc": "스타벅스 '탱크데이' 마케팅 논란으로 직격탄을 맞았던 금융권의 스타벅스 제휴 상품이 다시 살아나고 있다. 논란 직후 90% 가까이 급감했던 제휴카드 발급이 반등하고 스타벅스 결제액도 두 달 연속 증가하면서다.... ",
         "link": "https://www.news1.kr/finance/insurance-card/6294340",
         "pub_date": "2026.09.18",
-        "reason": "스타벅스 금융제휴 확대로 경쟁사 제휴 강화",
+        "reason": "제휴사 스타벅스 금융사 제휴 확대로 제휴 경쟁 심화",
         "priority": 2,
         "cross_query_count": 2,
         "datalab_score": 0.0,
@@ -264,79 +348,47 @@
         ]
       },
       {
-        "title": "&quot;가성비 좋다&quot; vs &quot;혼자 먹기엔 애매&quot;…버거킹 '할인 행사'에 엇갈린 반...",
-        "topic": "버거킹 할인 행사 평가",
-        "insight": "버거킹 할인 프로모션이 가성비 평가는 긍정적이나 소비 형태에 따라 만족도 양극화",
-        "desc": "이지우 인턴 기자 = 버거킹이 햄버거 두 개를 6000원 혹은 7000원으로 구매할 수 있는 행사를 진행하면서 소비자들의 관심을 끌고 있다. 버거킹은 지난 14일부터 오는 23일까지 버거 2개를 묶어서 할인된 가격에 판매하는... ",
-        "link": "https://www.newsis.com/view/NISX20260919_0003796611",
-        "pub_date": "2026.09.19",
-        "reason": "버거킹 할인 행사 평가",
+        "title": "마케팅 논란 여파…스타벅스, 3분기엔 실적 반등 가능할까",
+        "topic": "스타벅스 마케팅 재개",
+        "insight": "탱크데이 논란 이후 주춤했던 스타벅스가 모바일 선물, 제휴카드 등 공격적 마케팅으로 재정위 모색",
+        "desc": "‘탱크데이’ 마케팅 논란 이후 4개월이 지났지만 고객 지표가 아직 예년 수준을 회복하지 못하고 있어서다. 18일 이마트 반기보고서에 따르면 스타벅스 운영사 SCK컴퍼니는 2분기 매출이 7473억원으로 전년 동기 대비 6.... ",
+        "link": "https://www.ceoscoredaily.com/page/view/2026091715350453213",
+        "pub_date": "2026.09.18",
+        "reason": "스타벅스 마케팅 논란 파급 영향",
         "priority": 2,
         "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "소비자 할인"
+          "마케팅 논란"
         ]
       }
     ],
     "battle": [
       {
-        "title": "SKT, 아이폰18 프로·프로 맥스 출시…구글 AI 구독권 등 제공",
-        "topic": "통신3사 아이폰18 구독 경쟁",
-        "insight": "아이폰18 출시 시점에 통신사들이 AI 구독권, 기기 결합 등 차별화 혜택으로 고객 확보 경쟁 전개",
-        "desc": "구글 AI 플러스는 제미나이 이용 한도 확대와 AI 이미지 생성·편집 모델, 노트북LM 프로, 구글 드라이브 400GB 등을 제공하는 구독 서비스다. 10월 31일까지 구매·개통한... ",
-        "link": "http://www.breaknews.com/1237703",
-        "pub_date": "2026.09.18",
-        "reason": "통신사 아이폰 제휴 경쟁, 즉시 검토",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 67.5,
-        "datalab_velocity": 32.5,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
         "title": "아이폰 18 고객 잡아라···통신3사, 구독·보상 혜택 경쟁",
-        "topic": "통신3사 아이폰18 구독 경쟁",
-        "insight": "아이폰18 출시 시점에 통신사들이 AI 구독권, 기기 결합 등 차별화 혜택으로 고객 확보 경쟁 전개",
+        "topic": "통신사 아이폰 구독 경쟁",
+        "insight": "아이폰 18 출시 대비 통신 3사가 구독·보상 혜택 경쟁 강화",
         "desc": "인공지능(AI)·온라인동영상서비스(OTT) 구독권부터 중고폰 보상, 애플 주변 기기 할인까지 통신사별 혜택을 내세웠다. 18일 업계에 따르면 SK텔레콤은 10월 18일까지 아이폰 신제품을 개통한 고객에게 '구글 AI 플러스... ",
         "link": "https://www.smartbizn.com/news/articleView.html?idxno=154267",
         "pub_date": "2026.09.18",
-        "reason": "통신사 아이폰 혜택 경쟁 심화",
+        "reason": "통신3사 구독·보상 경쟁 심화로 즉시 대응",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 67.5,
-        "datalab_velocity": 32.5,
+        "datalab_score": 72.0,
+        "datalab_velocity": 20.3,
         "queries": [
           "구독 서비스"
         ]
       },
       {
-        "title": "이통 3사, '아이폰 18 프로' 시리즈 일제히 개통… AI 구독·기기 결합 혜...",
-        "topic": "통신3사 아이폰18 구독 경쟁",
-        "insight": "아이폰18 출시 시점에 통신사들이 AI 구독권, 기기 결합 등 차별화 혜택으로 고객 확보 경쟁 전개",
-        "desc": "이번 신제품은 프로 모델 중심의 쏠림 현상과 256GB 기본 용량 선호가 뚜렷한 가운데, 통신사들은 AI 구독 서비스, 세컨드 디바이스 무료 혜택, 제휴 할인 프로그램을 앞세워 초기 가입자 유치 경쟁을 펼친다. 18일... ",
-        "link": "http://www.popcornnews.net/news/articleView.html?idxno=133432",
-        "pub_date": "2026.09.18",
-        "reason": "통신사 아이폰 AI 혜택 경쟁 격화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 67.5,
-        "datalab_velocity": 32.5,
-        "queries": [
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "네이버 AI 쇼핑 에이전트 거래액 3개월 만에 82% 증가...배송 정보 반영...",
-        "topic": "AI 쇼핑 플랫폼 성장",
-        "insight": "네이버 AI 쇼핑 에이전트가 실시간 배송정보 반영으로 3개월간 거래액 82% 증가",
-        "desc": "3줄 요약 ㆍ실시간 배송 정보 반영 추천 기능 추가 ㆍAI 쇼핑 에이전트 거래액 3개월 만에 82% 급증 ㆍ맥락 이해 고도화로 개인화 추천 강화 네이버가 AI 쇼핑 에이전트에 실시간 배송 가능 정보를 반영해 상품을... ",
-        "link": "https://www.chosun.com/economy/tech_it/2026/09/17/2HJCQPTTSFFBDH2YIZAMQTWWQM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "pub_date": "2026.09.17",
-        "reason": "네이버 AI 쇼핑 3개월 82% 거래액 증가, 긴급 모니터링",
+        "title": "[단독]내년 설 쇼핑은 AI대전…네이버·다음 'AI 쇼핑결제' 시간표 나왔...",
+        "topic": "AI 쇼핑 에이전트 확산",
+        "insight": "네이버·다음 등 포털이 배송정보 반영 AI 에이전트로 실시간 구매 경험 고도화 중",
+        "desc": "네이버(NAVER)와 다음의 'AI 쇼핑 에이전트 결제' 도입 시간표가 나왔다. 내년 설 명절에는 양 포털사이트의 AI가 필요한 상품을 검색하고 비교해 구매까지 대행해 줄 수 있을 것으로 기대된다. 21일 IT 업계에 따르면... ",
+        "link": "https://www.mt.co.kr/tech/2026/09/22/2026092109174890300",
+        "pub_date": "2026.09.21",
+        "reason": "네이버·다음 AI 쇼핑결제 경쟁 심화",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 100.0,
@@ -346,239 +398,304 @@
         ]
       },
       {
-        "title": "AI로 도착 자동계산…배달앱 이젠 ‘정확도’ 경쟁",
-        "topic": "배달앱 도착시간 정확도 경쟁",
-        "insight": "배달앱들이 AI 기술 활용해 도착시간 예측 정확도 경쟁 심화",
-        "desc": "배달앱 시장의 경쟁도 치열해지고 있다. 지난달 기준 배민의 월간활성이용자수(MAU)는 2440만 명으로 지난해 같은 기간 2306만 명보다 5.8% 증가했다. 같은 기간 쿠팡이츠는 1174만 명에서 1444만 명으로 23.0% 늘어 추격전이... ",
-        "link": "https://www.sedaily.com/article/20093097?ref=naver",
-        "pub_date": "2026.09.20",
-        "reason": "배달앱 정확도 경쟁 심화, 배달 제휴 전략 재검토 필요",
+        "title": "네이버 쇼핑 AI 에이전트, 실시간 배송정보 반영해 추천 고도화",
+        "topic": "AI 쇼핑 에이전트 확산",
+        "insight": "네이버·다음 등 포털이 배송정보 반영 AI 에이전트로 실시간 구매 경험 고도화 중",
+        "desc": "주문 마감시간·도착 예정일 안내…지난 6월보다 거래액 82% 증가 네이버는 쇼핑 앱의 'AI 쇼핑 에이전트'에 실시간 배송 정보를 반영해 원하는 날짜에 받아볼 수 있는 상품을 추천하는 기능을 고도화했다고 17일 밝혔다.... ",
+        "link": "https://www.yna.co.kr/view/AKR20260917134700017?input=1195m",
+        "pub_date": "2026.09.17",
+        "reason": "네이버 쇼핑 AI 에이전트 고도화, 경쟁 심화",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 0.0,
+        "datalab_score": 100.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "배달 시장"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "페북·인스타도 유료구독 서비스…메타, AI 강화 통합구독 출시",
-        "topic": "글로벌 AI 구독 서비스 경쟁",
-        "insight": "메타가 페이스북·인스타그램 통합 유료구독 서비스 출시하며 AI 강화 기능 제공",
-        "desc": "디지털 광고 의존 탈피 포석…AI 투자액 회수 노리는 듯 권영전 특파원 = 세계 최대 사회관계망서비스(SNS) 기업 메타가 SNS에서 인공지능(AI) 도구를 사용할 수 있는 통합 구독 서비스를 내놨다. 메타는 페이스북과... ",
-        "link": "https://www.yna.co.kr/view/AKR20260916033100091?input=1195m",
-        "pub_date": "2026.09.16",
-        "reason": "경쟁사 구독팩 확대, 전략 검토 필요",
-        "priority": 2,
+        "title": "[창간기획]AI 커머스 시대/ 네이버, 쇼핑 AI 에이전트 고도화로 '제로클...",
+        "topic": "AI 쇼핑 에이전트 확산",
+        "insight": "네이버·다음 등 포털이 배송정보 반영 AI 에이전트로 실시간 구매 경험 고도화 중",
+        "desc": "네이버는 지난 2월 쇼핑 애플리케이션(앱) '네이버플러스 스토어'에서 'AI 쇼핑 에이전트' 베타 1.0 서비스를 시작했다. AI 쇼핑 에이전트는 상품 스펙과 리뷰를 자동으로 분석·비교하고 이용자의 상품 탐색을 지원하는... ",
+        "link": "https://www.etnews.com/20260910000400",
+        "pub_date": "2026.09.21",
+        "reason": "네이버 AI 커머스 주도권, 경쟁 위협",
+        "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 67.5,
-        "datalab_velocity": 32.5,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "메타, SNS 통합 구독 서비스 출시...AI 기능 강화",
-        "topic": "글로벌 AI 구독 서비스 경쟁",
-        "insight": "메타가 페이스북·인스타그램 통합 유료구독 서비스 출시하며 AI 강화 기능 제공",
-        "desc": "메타가 페이스북과 인스타그램 등 자사 사회관계망서비스(SNS)에서 인공지능(AI) 기능을 확대 이용할 수 있는 통합 구독 서비스를 출시했다. 메타는 지난 15일(현지시간) 페이스북, 인스타그램, 와츠앱 등 자사 SNS... ",
-        "link": "https://www.ppss.kr/news/articleView.html?idxno=310951",
-        "pub_date": "2026.09.16",
-        "reason": "경쟁사 SNS 구독팩 출시, 전략 검토",
-        "priority": 2,
+        "title": "&quot;내일 도착하는 밀키트 추천해줘&quot;…네이버, AI 쇼핑 고도화",
+        "topic": "AI 쇼핑 에이전트 확산",
+        "insight": "네이버·다음 등 포털이 배송정보 반영 AI 에이전트로 실시간 구매 경험 고도화 중",
+        "desc": "이기범 기자 &quot;내일까지 도착하는 밀키트 추천해 줘.&quot; 네이버(035420)가 사용자가 원하는 시점에 배송받을 수 있는 상품을 쉽게 찾을 수 있도록 'AI 쇼핑' 기능을 고도화한다. 네이버는 네이버 쇼핑 앱의 'AI 쇼핑 에이전트'에... ",
+        "link": "https://www.news1.kr/it-science/internet-platform/6293548",
+        "pub_date": "2026.09.17",
+        "reason": "네이버 AI 쇼핑 밀키트 추천, 경쟁 심화",
+        "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 67.5,
-        "datalab_velocity": 32.5,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "유튜브 구독료 7년 만에 71.5%↑… 넷플릭스 합치면 연 38만원",
-        "topic": "동영상 구독 서비스 가격 상승",
-        "insight": "유튜브 구독료가 7년 만에 71.5% 인상되며 주요 OTT 누적 비용 월 3만원대 진입",
-        "desc": "이 의원은 &quot;유튜브와 넷플릭스 등 온라인동영상서비스(OTT) 구독료는 매달 부담하는 고정비가 됐다&quot;며 &quot;OTT 이용이 일상화된 상황에서 구독료 인상은 가계 부담으로 이어진다&quot;고 말했다. 김광연 기자... ",
-        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170147",
-        "pub_date": "2026.09.15",
-        "reason": "경쟁 OTT 구독료 인상, 고객 영향",
-        "priority": 2,
+        "title": "“내일 오는 상품 골라주네”…네이버 쇼핑 AI, 배송 조건 따져 추천",
+        "topic": "AI 쇼핑 에이전트 확산",
+        "insight": "네이버·다음 등 포털이 배송정보 반영 AI 에이전트로 실시간 구매 경험 고도화 중",
+        "desc": "네이버가 인공지능(AI) 쇼핑 에이전트에 원하는 배송일에 맞춰 배송 가능한 상품을 추천해주는 기능을 추가했다. 네이버는 ‘네이버 쇼핑 에이전트’에 사용자가 상품마다 배송일을 확인하지 않고도 원하는 시점에 받아볼... ",
+        "link": "https://www.hani.co.kr/arti/economy/it/1278237.html",
+        "pub_date": "2026.09.17",
+        "reason": "네이버 AI 배송 추천 고도화, 경쟁 심화",
+        "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 67.5,
-        "datalab_velocity": 32.5,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "구독 매출 3조원 앞둔 LG…삼성은 갤럭시로 추격",
-        "topic": "가전사 구독 비즈니스 확대",
-        "insight": "LG는 구독 매출 3조원 앞두고, 삼성은 갤럭시 기반으로 구독 사업 추격 중",
-        "desc": "LG전자는 AI홈과 구독 서비스의 연계도 강화하고 있다. LG 씽큐를 기반으로 제품 상태와 사용 이력을 파악한다. 이상 징후를 사전에 감지하거나 관리 시점을 안내하는 기능도 고도화하고 있다. 구독으로 확보한... ",
-        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170282",
-        "pub_date": "2026.09.16",
-        "reason": "경쟁사 구독매출 확대, 우위 검토",
-        "priority": 2,
+        "title": "'키워드 검색' 사라지나…네이버 'AI 에이전트' 확장 속도",
+        "topic": "AI 쇼핑 에이전트 확산",
+        "insight": "네이버·다음 등 포털이 배송정보 반영 AI 에이전트로 실시간 구매 경험 고도화 중",
+        "desc": "네이버는 쇼핑 앱의 'AI 쇼핑 에이전트'에 실시간 배송 정보를 반영하는 추천 기능을 강화했다. 이용자가 &quot;캠핑을 가려고 하는데 내일까지 도착하는 전골 밀키트 추천해줘&quot;라고 지시하면 설정한 배송지를 기준으로 실제... ",
+        "link": "https://www.hankyung.com/article/202609171867g",
+        "pub_date": "2026.09.17",
+        "reason": "네이버 AI 에이전트 확장, 경쟁 위협",
+        "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 67.5,
-        "datalab_velocity": 32.5,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "삼성·LG, 무료 채널 서비스 확대…TV 사업 체질 바꾼다",
-        "topic": "TV 제조사 구독 채널 경쟁",
-        "insight": "삼성·LG가 TV 무료 채널 서비스 확대로 제조사 중심 구독 생태계 구축",
-        "desc": "삼성전자와 LG전자가 광고 기반 무료 스트리밍 채널 서비스인 패스트 TV 채널을 확 늘리며 글로벌 콘텐츠... 콘텐츠 구독료를 공유하는 구조다. 기존 TV 사업이 구매 시점에서 일회성 수익으로 끝나는 구조였다면... ",
-        "link": "https://www.hankyung.com/article/2026091844841",
-        "pub_date": "2026.09.18",
-        "reason": "경쟁사 무료 채널 확대, 우위 검토",
-        "priority": 2,
+        "title": "“내일 도착 밀키트 찾아줘”…네이버 AI 쇼핑, 배송 특화 기능 고도화",
+        "topic": "AI 쇼핑 에이전트 확산",
+        "insight": "네이버·다음 등 포털이 배송정보 반영 AI 에이전트로 실시간 구매 경험 고도화 중",
+        "desc": "17일 네이버에 따르면 네이버쇼핑 내 ‘AI 쇼핑 에이전트’에 실시간 배송 정보를 반영한 맞춤형 추천 기능이 고도화됐다. 이번 개편으로 사용자가 질문에 배송 조건을 포함하면, 설정한 주소지를 기준으로 실제 도착... ",
+        "link": "https://www.donga.com/news/Economy/article/all/20260917/134686554/1",
+        "pub_date": "2026.09.17",
+        "reason": "네이버 AI 쇼핑 배송 특화, 경쟁 고도화",
+        "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 67.5,
-        "datalab_velocity": 32.5,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "구독 서비스"
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "아마존, 메타 '뮤즈' AI 쇼핑 차단…쿠팡·네이버도 'AI 커머스' 주도권...",
+        "topic": "AI 커머스 경쟁 심화",
+        "insight": "아마존·메타 등 글로벌 플랫폼과 쿠팡·네이버의 AI 쇼핑 주도권 경쟁 가속화",
+        "desc": "AI쇼핑215 AI가 고객 대신 쇼핑…아마존·메타 '구매 접점' 놓고 충돌 이번 갈등은 단순한 보안 문제를 넘어 AI 시대 온라인 쇼핑의 주도권을 둘러싼 플랫폼 경쟁이라는 점에서 주목된다. 지금까지 소비자는 아마존과 같은... ",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=549872",
+        "pub_date": "2026.09.22",
+        "reason": "쿠팡·네이버 AI 커머스 주도권 경쟁",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "네이버 ‘AI 쇼핑 에이전트’…실시간 배송정보까지 반영한다",
+        "topic": "AI 쇼핑 에이전트 확산",
+        "insight": "네이버·다음 등 포털이 배송정보 반영 AI 에이전트로 실시간 구매 경험 고도화 중",
+        "desc": "예를 들어 사용자가 AI 쇼핑 에이전트에 “내일까지 도착하는 전골 밀키트 추천해줘”라고 배송 조건을 포함해 대화를 걸면, 에이전트가 사용자가 설정한 주소지를 기준으로 실제 도착 가능한 상품을 추려주고, 상품별... ",
+        "link": "https://www.sedaily.com/article/20092158?ref=naver",
+        "pub_date": "2026.09.17",
+        "reason": "네이버 AI 실시간 배송 반영, 경쟁 심화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑"
         ]
       }
     ],
     "benchmark": [
       {
-        "title": "대형마트 휴무일? 이마트·롯데마트·홈플러스·코스트코 ‘할인 추석장...",
-        "topic": "추석 대형유통 할인전",
-        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
-        "desc": "이마트·홈플러스·롯데마트·코스트코·트레이더스·킴스클럽·노브랜드 등 대형마트 휴무일, 휴일 의무휴업 폐지, 오픈시간, 영업시간, 할인정보 등 소비자들은 궁금한게 많다. 특히 대형마트의 평소 오픈시간과... ",
-        "link": "https://www.bntnews.co.kr/article/view/bnt202609180188",
-        "pub_date": "2026.09.19",
-        "reason": "추석 대형마트 할인전 시즌 이벤트 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 79.0,
-        "datalab_velocity": -20.1,
-        "queries": [
-          "소비자 할인",
-          "추석 이벤트"
-        ]
-      },
-      {
-        "title": "경북도, 추석맞이 우수제품 특판전…최대 30% 할인",
-        "topic": "추석 대형유통 할인전",
-        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
-        "desc": "제품에 따라 시중가보다 최대 30% 할인된 가격에 판매한다. 경북도는 고물가 속 소비자들의 명절 장바구니 부담을 낮추는 동시에 지역 중소기업에는 추석 대목을 활용한 판로 확대 기회를 제공한다는 계획이다. 현장... ",
-        "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4084870",
+        "title": "추석 선물도 이제 AI에게 묻는다…네이버·현대百·카카오 ‘추천 경쟁...",
+        "topic": "추석 선물 AI 추천 경쟁",
+        "insight": "네이버·카카오·현대백화점 등 주요 플랫폼이 AI 기반 선물 추천 서비스 강화",
+        "desc": "유통·플랫폼 업체들의 경쟁도 상품을 얼마나 많이 확보했느냐를 넘어, 쌓아둔 구매·후기·배송 데이터를 AI가 얼마나 정확하게 읽고 구매 결정까지 연결하느냐로 옮겨가고 있다.",
+        "link": "https://www.segye.com/newsView/20260920501337?OutUrl=naver",
         "pub_date": "2026.09.20",
-        "reason": "공공기관 추석 할인 프로모션 전략 참고",
+        "reason": "추석 시즌 AI 기반 추천 프로모션 벤치마킹",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 79.0,
-        "datalab_velocity": -20.1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
         "queries": [
-          "소비자 할인",
-          "추석 이벤트"
+          "플랫폼 경쟁",
+          "AI 쇼핑"
         ]
       },
       {
-        "title": "신라스테이, 가을 경품 이벤트 진행…1억원 규모 경품 마련",
-        "topic": "호텔·레저업 추석 프로모션",
-        "insight": "호텔·레저업계 경품·할인으로 추석연휴 고객 확보 경쟁 심화",
-        "desc": "신라스테이가 추석 연휴를 맞아 가을 경품 프로모션 '온 유어 신라스테이(Own Your Shilla Stay)'를 진행한다고... 이번 경품 이벤트는 총 250명을 대상으로 진행된다. 1등 당첨자(3명)에게는 국내외 신라스테이와... ",
-        "link": "https://www.newsis.com/view/NISX20260918_0003795082",
-        "pub_date": "2026.09.18",
-        "reason": "숙박업체 시즌 경품 이벤트 전략 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 79.0,
-        "datalab_velocity": -20.1,
-        "queries": [
-          "추석 이벤트",
-          "가을 할인"
-        ]
-      },
-      {
-        "title": "카드 할인에 쿠폰까지…마트·이커머스 '실구매가' 승부[무거워진 장바...",
-        "topic": "추석 대형유통 할인전",
-        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
-        "desc": "오프라인에서 카드와 멤버십이 실구매가를 낮추는 수단이라면 이커머스에서는 쿠폰과 무료배송 등이... PB를 활용해 상품 자체의 가격을 낮추는 전략도 병행한다. 롯데마트·슈퍼는 이번 추석 PB '오늘좋은' 이름을... ",
-        "link": "https://www.newsis.com/view/NISX20260918_0003796354",
-        "pub_date": "2026.09.19",
-        "reason": "마트·이커머스 카드·쿠폰 혜택 구조 참고",
+        "title": "추석 앞두고 할인 나선 유통가…쿠폰부터 추첨 행사까지 ‘알뜰 쇼핑’...",
+        "topic": "추석 유통 할인 프로모션",
+        "insight": "추석 앞두고 주요 유통업체들 쿠폰·추첨 행사 등 다양한 할인 이벤트 전개",
+        "desc": "올해 추석 유통가 할인전은 ‘얼마나 싸게 파느냐’에 그치지 않고 소비자가 행사에 직접 참여할 수 있는 장치를 함께 마련하는 모습이다. 쿠폰과 즉시 할인으로 구매 가격을 낮추는 동시에 타임특가와 래플, 선착순... ",
+        "link": "https://www.segye.com/newsView/20260921502869?OutUrl=naver",
+        "pub_date": "2026.09.21",
+        "reason": "추석 시즌 유통가 할인 프로모션 사례",
         "priority": 1,
         "cross_query_count": 3,
-        "datalab_score": 0.0,
+        "datalab_score": 18.5,
         "datalab_velocity": 0.0,
         "queries": [
-          "이커머스 전략",
           "소비자 할인",
-          "가을 할인"
+          "추석 선물 이벤트",
+          "온라인 쇼핑 이벤트"
         ]
       },
       {
-        "title": "추석 앞두고 패션업계 할인전 돌입…삼성물산·무신사 쇼핑 수요 공략",
-        "topic": "추석 대형유통 할인전",
-        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
-        "desc": "가을 시즌이 본격적으로 시작되는 시기에 맞춰 신상품을 할인해 소비자들의 구매를 유도한다는 전략이다. 행사에는 빈폴과 갤럭시, 구호, 르베이지, 비이커, 준지 등 삼성물산 패션부문의 자체 브랜드뿐 아니라... ",
-        "link": "https://www.asiatime.co.kr/article/20260918500064",
-        "pub_date": "2026.09.18",
-        "reason": "추석 시즌 패션업계 할인·마케팅 전략 참고",
-        "priority": 1,
-        "cross_query_count": 3,
-        "datalab_score": 7.0,
-        "datalab_velocity": 3.1,
-        "queries": [
-          "소비자 할인",
-          "가을 할인",
-          "온라인 쇼핑"
-        ]
-      },
-      {
-        "title": "문어 3888원·한우 25t 반값…추석 앞두고 유통가 할인전",
-        "topic": "추석 대형유통 할인전",
-        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
-        "desc": "명절 음식을 직접 만들지 않는 소비자를 겨냥한 간편식 할인도 붙었다. 피코크 빈대떡과 모둠전, 송편 등 제수용품을 2만5000원 이상 구매하면 신세계상품권 5000원권을 준다. 일부 상품에는 행사카드 20% 할인이나 2+1... ",
-        "link": "https://www.segye.com/newsView/20260919502008?OutUrl=naver",
-        "pub_date": "2026.09.19",
-        "reason": "추석 시즌 유통가 할인 트렌드 참고",
+        "title": "명절 선물 최대 77% 할인...추석 막판 할인 진행하는 '이곳'",
+        "topic": "추석 유통 할인 프로모션",
+        "insight": "추석 앞두고 주요 유통업체들 쿠폰·추첨 행사 등 다양한 할인 이벤트 전개",
+        "desc": "이처럼 주요 유통업체들이 연휴 직전까지 대대적인 프로모션과 막판 배송전에 나선 배경에는, 고물가 속에서 명절 지출 부담을 줄이려는 실속형 소비 트렌드와 연휴 직전까지 선물을 준비하려는 이른바 '퀵 쇼핑' 및... ",
+        "link": "https://www.wikitree.co.kr/articles/1160958",
+        "pub_date": "2026.09.21",
+        "reason": "추석 명절 할인 이벤트 전략 참고",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 32.5,
+        "datalab_velocity": -21.1,
         "queries": [
-          "소비자 할인",
-          "가을 할인"
+          "소비 트렌드",
+          "소비자 할인"
         ]
       },
       {
-        "title": "배송 마감 코앞…이커머스 추석 막판 할인전 총력",
-        "topic": "추석 대형유통 할인전",
-        "insight": "대형마트·이커머스·전문점 전 채널 추석 할인 경쟁 격화, 카드·쿠폰·특가로 실구매가 경쟁",
-        "desc": "소비자 입장에서는 할인율만큼 배송 가능일을 확인하는 것이 중요하다. 같은 행사 안에서도 판매자와 상품, 배송 지역에 따라 명절 전 도착 가능 여부가 달라질 수 있다.",
-        "link": "https://www.segye.com/newsView/20260919502095?OutUrl=naver",
-        "pub_date": "2026.09.19",
-        "reason": "추석 시즌 이커머스 할인전 전략 참고",
+        "title": "던킨, 추석 선물용 디저트 출시",
+        "topic": "추석 명절 한정 상품",
+        "insight": "던킨·쿠팡이츠 등 다양한 브랜드들 추석 시즌 맞춤 선물·식품 상품 출시",
+        "desc": "던킨은 부담 없는 가격대의 '스몰 기프트'를 선호하는 소비 트렌드에 맞춰 1만원 대의 파운드 케이크를 선보였다. 제주를 대표하는 특산물인 한라봉과 우도 땅콩을 활용해 제주의 맛과 향을 풍성하게 담았다. 신제품은... ",
+        "link": "http://www.bokuennews.com/news/article.html?no=284543",
+        "pub_date": "2026.09.21",
+        "reason": "제휴사 던킨 추석 시즌 프로모션 사례",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 32.5,
+        "datalab_velocity": -21.1,
         "queries": [
-          "소비자 할인",
-          "가을 할인"
+          "소비 트렌드",
+          "추석 연휴 프로모션"
         ]
       },
       {
-        "title": "쌍화차부터 이천쌀라떼까지…더벤티, 가을 메뉴 할인",
-        "topic": "카페·외식 추석 시즈널 프로모션",
-        "insight": "카페·외식업계 가을 시즈널 메뉴 출시로 추석연휴 수요 포획",
-        "desc": "신규 가입 회원에게는 같은 할인 혜택과 함께 핫 아메리카노 무료 쿠폰도 제공한다. 더벤티 관계자는 “앞으로도 계절과 소비자들의 취향을 고려한 다양한 메뉴와 프로모션을 통해 고객들이 더벤티를 합리적인 가격으로... ",
-        "link": "https://www.sportsseoul.com/news/read/1636471?ref=naver",
+        "title": "[Telecom &amp; Now] SKT, '런메이트'로 러너 고객 혜택 이어간다",
+        "topic": "SKT 런메이트 고객 혜택",
+        "insight": "SKT가 러너 고객을 위한 런메이트 기반 차별화된 혜택 프로그램 운영",
+        "desc": "KT멤버십 고객과 장기고객, 만 19~34세 Y고객이 참여할 수 있으며 총 9000명을 초청한다. 행사장에는 공연 외에도 Y 브랜드 10주년 기념 부스와 장기고객 초대 혜택 '초대드림', KT 상품·서비스 체험 콘텐츠 등이... ",
+        "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1724986",
         "pub_date": "2026.09.20",
-        "reason": "카페브랜드 시즌 메뉴 할인 기획 참고",
+        "reason": "T멤버십 런닝 고객 로열티 혜택 사례",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
+        "datalab_score": 17.9,
+        "datalab_velocity": 0.8,
+        "queries": [
+          "멤버십 혜택",
+          "추석 연휴 프로모션"
+        ]
+      },
+      {
+        "title": "쿠팡이츠, 추석 장보기 할인전 연다...슈퍼·편의점 상품 한곳서!",
+        "topic": "추석 명절 한정 상품",
+        "insight": "던킨·쿠팡이츠 등 다양한 브랜드들 추석 시즌 맞춤 선물·식품 상품 출시",
+        "desc": "브랜드별 할인 쿠폰을 제공한다. 편의점에서는 GS25, CU, 세븐일레븐, 이마트24 등이 참여해 1+1 상품 등을 선보인다. 쿠팡이츠가 동네 상점부터 대형 유통 브랜드까지 상품 공급처를 넓힌 만큼 소비자 입장에서는 명절 장보기... ",
+        "link": "http://www.popcornnews.net/news/articleView.html?idxno=133698",
+        "pub_date": "2026.09.21",
+        "reason": "경쟁사 추석 장보기 할인 프로모션 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 18.5,
         "datalab_velocity": 0.0,
         "queries": [
           "소비자 할인",
-          "가을 할인"
+          "추석 선물 이벤트"
+        ]
+      },
+      {
+        "title": "&quot;루이·후이와 함께하는 K-한가위&quot; 에버랜드, 추석연휴 특별 프로그램 ...",
+        "topic": "에버랜드 추석 특별 프로그램",
+        "insight": "에버랜드가 판다·윷놀이 등 한가위 테마 특별 프로그램으로 추석 연휴 수요 공략",
+        "desc": "또 정기권 고객을 대상으로 9월 한 달간 스탬프 방문 미션 이벤트가 진행되며 추석 연휴 기간에는 주한 외국인을 위한 특별 프로모션도 마련된다. 추석 연휴에도 사파리 도보 탐험부터 이머시브 호러 공연... ",
+        "link": "https://www.catchnews.kr/news/articleView.html?idxno=128661",
+        "pub_date": "2026.09.21",
+        "reason": "추석 시즌 테마파크 프로모션 기획 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 18.5,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "추석 연휴 프로모션",
+          "추석 선물 이벤트"
+        ]
+      },
+      {
+        "title": "아이와 함께 추석 나들이…에버랜드서 루이·후이 만나볼까",
+        "topic": "에버랜드 추석 특별 프로그램",
+        "insight": "에버랜드가 판다·윷놀이 등 한가위 테마 특별 프로그램으로 추석 연휴 수요 공략",
+        "desc": "에버랜드 정기권 고객을 대상으로 9월 한 달간 스탬프 방문 미션 이벤트가 진행되며, 추석 연휴에는 국내 거주 외국인을 위한 특별 프로모션도 마련된다. 현재 진행 중인 에버랜드 가을축제도 추석 연휴 동안 계속된다.... ",
+        "link": "https://www.kizmom.com/news/articleView.html?idxno=112849",
+        "pub_date": "2026.09.21",
+        "reason": "추석 시즌 테마파크 프로모션 기획 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 18.5,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "추석 연휴 프로모션",
+          "추석 선물 이벤트"
+        ]
+      },
+      {
+        "title": "&quot;쌍둥이 판다와 윷놀이 즐긴다&quot;…에버랜드, 한가위 특별 프로그램 공개",
+        "topic": "에버랜드 추석 특별 프로그램",
+        "insight": "에버랜드가 판다·윷놀이 등 한가위 테마 특별 프로그램으로 추석 연휴 수요 공략",
+        "desc": "특별 프로모션이 연휴 내내 펼쳐진다. 에버랜드 관계자는 &quot;올 추석에는 루이바오, 후이바오와 함께하는 특별한 명절 프로그램과 함께 공연, 굿즈, 먹거리까지 가을 시즌 콘텐츠를 다채롭게 준비했다&quot;며 &quot;에버랜드에서 가족... ",
+        "link": "https://view.asiae.co.kr/article/2026092108350814012",
+        "pub_date": "2026.09.21",
+        "reason": "추석 시즌 테마파크 프로모션 기획 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 18.5,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "추석 연휴 프로모션",
+          "추석 선물 이벤트"
+        ]
+      },
+      {
+        "title": "&quot;사파리 도보 탐험부터 호러 공연까지&quot;… 에버랜드, 추석 대목 공략",
+        "topic": "에버랜드 추석 특별 프로그램",
+        "insight": "에버랜드가 판다·윷놀이 등 한가위 테마 특별 프로그램으로 추석 연휴 수요 공략",
+        "desc": "21일 삼성물산 리조트부문이 운영하는 에버랜드는 오는 24년부터 27일까지 나흘간 이어지는 추석 연휴에... 정기권 고객 대상 스탬프 미션 이벤트와 주한 외국인 전용 프로모션도 병행한다. 도보 사파리·블러드시티 연계... ",
+        "link": "https://www.news1.kr/industry/hotel-tourism/6296971",
+        "pub_date": "2026.09.21",
+        "reason": "추석 시즌 테마파크 프로모션 기획 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 18.5,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "추석 연휴 프로모션",
+          "추석 선물 이벤트"
         ]
       }
     ]

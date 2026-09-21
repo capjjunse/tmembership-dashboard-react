@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -16,12 +16,12 @@ export const trendSignals = [
     sources: ['DataLab', '뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 10,
+    news7d: 15,
     negScore: 970,
     headline: [
       '지자체 상품권 구매 급감(9.14)',
       '탱크데이 수사 계속 · 본사 압수수색',
-      '3Q 마케팅 재개 · 탈벅 기조 변화',
+      '블글라 출격 · 보늬밤 케이크 출시',
     ],
     impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT 미운영 · 2Q 영업손실 184억(27년 만에 첫 분기 적자) — 탱크데이 수사 지속',
     links: [
@@ -32,19 +32,20 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
-    direction: 'pos',
+    direction: 'neg',
     dlSpike: null,
-    news7d: 18,
-    negScore: 180,
+    news7d: 25,
+    negScore: 480,
     headline: [
-      '브랜드평판 9월 1위 · 지수 16%↑',
-      '가을 라떼 출시 1주 · 50만 잔 돌파',
+      '식품위생법 위반 184건 · 업계 2위',
+      '가을 라떼 1주 50만잔 흥행',
+      '2차 신메뉴 출격 · 컵빙 제쳐',
     ],
-    impact: '3사 미운영 · 브랜드평판 9월 1위(지수 16%↑) · 가을 라떼 출시 1주 50만 잔 — 흥행세 지속',
+    impact: '3사 미운영 · 식품위생법 위반 184건(2021~2025, 업계 2위) · 가을 라떼 출시 1주 50만 잔 — 위생 논란 상쇄 중',
     links: [
       { label: '결제액 스타벅스 94.9%·이용률 추월 (머니투데이)', url: 'https://www.mt.co.kr/living/2026/08/22/2026082011025549638' },
     ],
@@ -78,7 +79,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -113,7 +114,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 30,
+    news7d: 25,
     negScore: 250,
     headline: [
       '2Q 흑자전환 · 영업이익 115억',
@@ -152,28 +153,6 @@ export const trendSignals = [
     ],
   },
   {
-    brand: '엽기떡볶이',
-    membership: 'candidate',
-    updated: true,
-    telcos: [],
-    strength: 'low',
-    sources: ['뉴스'],
-    direction: 'pos',
-    dlSpike: null,
-    news7d: 10,
-    negScore: 150,
-    headline: [
-      '브랜드 대상 10년 연속 수상(9.1)',
-      '더착한맛 신메뉴 · 9.11~10.16',
-      '2027.7부터 전 제품 7% 인상 예고',
-    ],
-    impact: '3사 미운영 · 올해의 브랜드 대상 10년 연속 수상(9.1) — 분식 카테고리 1위, SKT 제휴 공백',
-    links: [
-      { label: '브랜드 대상 10년 연속 수상 (한국경제)', url: 'https://www.hankyung.com/article/202609027952H' },
-      { label: '수상 기념 고객 감사 이벤트 (포브스코리아)', url: 'https://www.forbeskorea.co.kr/news/articleView.html?idxno=402503' },
-    ],
-  },
-  {
     brand: 'GS25',
     membership: 'partner',
     updated: false,
@@ -186,7 +165,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 20,
+    news7d: 15,
     negScore: 900,
     headline: [
       '166만명 개인정보 유출 · 128억 과징금',
@@ -202,7 +181,7 @@ export const trendSignals = [
   {
     brand: '매머드커피',
     membership: 'candidate',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
