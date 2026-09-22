@@ -126,7 +126,7 @@ const compGroups = [
       },
       {
         brand: 'CGV',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '8,500원 예매+매점쿠폰 2종' }], date: 'T day · 9.7~9.11 / T day · 9.23' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '팝콘M+음료M 세트 무료' }], date: '투쁠 7차 · 9.18' },
@@ -146,7 +146,7 @@ const compGroups = [
       },
       {
         brand: '피자헛',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '방문 포장 50% 할인/적립 (최대 2.25만원)' }], date: 'T day · 9.23' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '프리미엄피자 최대 55% 할인+파스타 증정' }], date: '투쁠 1차 · 9.8' },

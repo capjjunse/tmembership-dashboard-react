@@ -109,7 +109,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 65%·부정 29%·중립 6%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 66%·부정 28%·중립 6%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK "1%할인쿠폰(vip전용)" 우주패스 기대 실망 (9.15)</div>
           </a>
 
@@ -147,7 +147,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-new">신규</em>zel 신규 제휴 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 56%·부정 44%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 56%·부정 44%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 노브랜드 10초컷 "10초컷도 안나는건 첨봤습니다" (9.17)</div>
           </a>
         </div>
