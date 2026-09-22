@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.22';
+const RADAR_SCANNED = '2026.09.23';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -185,8 +185,10 @@ const alCats = [
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: '20% 할인' }] },
       { partner: '폴 바셋', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '시즌음료 3종 50% 할인 (최대 2잔)' }] },
       { partner: '잠바주스', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '스무디 3종 50% 할인' }] },
+      { partner: '피자헛', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '크래프티드 플래츠 세트 1만원 또는 파스타 무료' }] },
+      { partner: '고반식당', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '1만원 할인 (5만원 이상 주문 시)' }] },
     ]}],
-    reasons: ['T멤버십: 상시 15~30% (매드포갈릭·아웃백·VIPS·도미노·피자헛)', 'T멤버십 VIP: 폴바셋·잠바주스 50% (9월)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 15~30% (매드포갈릭·아웃백·VIPS·도미노·피자헛)', 'T멤버십 VIP: 폴바셋·잠바주스 50%·피자헛·고반식당 VIP PICK (9월)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -235,7 +237,6 @@ const alCats = [
       { platform: '네이버플러스', items: [
         { partner: '요기요 (요기패스X)', deadline: '상시', rows: [
           { grade: null, desc: '15,000원 이상 무료배달' },
-          { grade: null, desc: '포장 5% 할인' },
         ]},
       ]},
       { platform: '쿠팡 로켓와우', items: [
@@ -276,13 +277,13 @@ const alCats = [
       { partner: 'CU', deadline: '~26.12.31', rows: [{ grade: null, desc: '5% 즉시할인 + 5% Npay 적립 (일 1회, 각 5천원 한도)' }] },
     ]}],
     tm: [{ platform: 'T멤버십', items: [
-      { partner: 'GS25', deadline: '상시 (매주 화)', rows: [{ grade: '전 등급', desc: '신선식품 1,000원당 200원 할인 (일1회, 최대 2만원)' }] },
+      { partner: 'GS25', deadline: '상시 (매주 화)', rows: [{ grade: '전 등급', desc: '프레시 푸드 1,000원당 200원 할인 (일1회, 최대 2만원)' }] },
       { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
       { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
       { partner: 'CU', deadline: 'Young week · 9.7~9.11', rows: [{ grade: '전 등급', desc: '빵 50% 할인 (6종 택1)' }] },
       { partner: '이마트24', deadline: 'Young week · 9.7~9.11', rows: [{ grade: '전 등급', desc: '삼각김밥 50% 할인 (7종 택1)' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십 Young week: CU 빵·이마트24 각 50% (9.7~9.11)', 'T멤버십: GS25 화요일 신선식품 200원 상시 · CU·세븐 100원 상시'],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십 Young week: CU 빵·이마트24 각 50% (9.7~9.11)', 'T멤버십: GS25 화요일 프레시 푸드 200원 상시 · CU·세븐 100원 상시'],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -335,14 +336,14 @@ export const recs = [
     rank: 1,
     brand: '봉구스밥버거',
     updated: false,
-    tag: '매장 484개 · DataLab →1.00',
-    reason: '밥버거 카테고리 1위 브랜드 · 전국 485개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
+    tag: '매장 484개 · DataLab →0.84',
+    reason: '밥버거 카테고리 1위 브랜드 · 전국 484개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 485개 · 밥버거 카테고리 1위 (점포 수 감소 추세 — 브랜드 규모 축소 진행 중)' },
-      { label: '검색 버즈', text: 'DataLab →1.00 · 블로그 1.9만 · 뉴스 4건 — 저버즈 구간, 시즌 이슈 없음' },
+      { label: '매장 규모', text: '전국 484개 · 밥버거 카테고리 1위 (점포 수 감소 추세 — 브랜드 규모 축소 진행 중)' },
+      { label: '검색 버즈', text: 'DataLab →0.84 · 블로그 2만 · 뉴스 4건 — 저버즈 구간, 시즌 이슈 없음' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 밥버거 카테고리 공백 — 창업주 마약·갑질 이슈(2024) · 점포 급감 이력 — 브랜드 리스크 선검토 필요' },
     ],
-    trend: 'DataLab 1.00 · 블로그 1.9만 · 뉴스 4건',
+    trend: 'DataLab 0.84 · 블로그 2만 · 뉴스 4건',
     hot: false,
     skt: [],
     kt:  null,
@@ -350,16 +351,16 @@ export const recs = [
   },
   {
     rank: 2,
-    brand: '매머드커피',
-    updated: false,
-    tag: '매장 1000호점 · DataLab ↗1.04',
-    reason: '저가 커피 2위 브랜드 · 전국 1000호점 달성(7월). 2026.1 오케스트라PE 인수 후 매머드오더 개편 완료. 아이스 아메리카노 200원 인상 발표. 9월 브랜드평판 13위(커피 카테고리). SKT 미참여.',
+    brand: '60계치킨',
+    updated: true,
+    tag: '매장 629개 · DataLab →0.69',
+    reason: '중가 치킨 카테고리 대표 브랜드 · 전국 629개. 저렴한 가격과 넉넉한 양으로 가성비 소비 트렌드 수혜. 3사 모두 미참여 공백 상태.',
     reach: [
-      { label: '매장 규모', text: '전국 1000호점 달성(7월) · 저가 커피 카테고리 2위 (메가커피 다음)' },
-      { label: '검색 버즈', text: 'DataLab ↗1.04 · 블로그 1.9만 · 뉴스 99건 — 가을 신메뉴·국산우유 협업(9.17) 버즈' },
-      { label: '제휴 포인트', text: 'SKT 미참여 · 저가 카페 공백 — 1000호점 달성으로 규모 확보, 아이스아메리카노 인상으로 저가 이미지 조정 중' },
+      { label: '매장 규모', text: '전국 629개 · 중가 치킨 카테고리 선두권 (배달·포장 특화)' },
+      { label: '검색 버즈', text: 'DataLab →0.69 · 블로그 4만 · 뉴스 43건 — 꾸준한 버즈 유지' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 공백 — 배달·포장 특화 채널로 젊은 고객 접점 확보 기회' },
     ],
-    trend: 'DataLab 1.04 · 블로그 1.9만 · 뉴스 99건',
+    trend: 'DataLab 0.69 · 블로그 4만 · 뉴스 43건',
     hot: true,
     skt: [],
     kt:  null,
@@ -369,14 +370,14 @@ export const recs = [
     rank: 3,
     brand: '카페봄봄',
     updated: false,
-    tag: '매장 405개 · DataLab →0.91',
-    reason: '건강음료 특화 카페 브랜드 · 전국 405개. 배 베이스 음료·저당 옵션·프로틴 음료 강화로 웰니스 트렌드 수요 포착. 2026.7 중소벤처기업부장관 표창 수상. SKT·KT·LGU+ 3사 모두 미참여.',
+    tag: '매장 415개 · DataLab →0.75',
+    reason: '건강음료 특화 카페 브랜드 · 전국 415개. 배 베이스 음료·저당 옵션·프로틴 음료 강화로 웰니스 트렌드 수요 포착. 2026.7 중소벤처기업부장관 표창 수상. SKT·KT·LGU+ 3사 모두 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 405개 · 저당·건강음료 카테고리 특화 (배 베이스·프로틴 옵션 강화)' },
-      { label: '검색 버즈', text: 'DataLab →0.91 · 블로그 1.7만 · 뉴스 2건 — 안정적 버즈, 대형 이슈 없음' },
+      { label: '매장 규모', text: '전국 415개 · 저당·건강음료 카테고리 특화 (배 베이스·프로틴 옵션 강화)' },
+      { label: '검색 버즈', text: 'DataLab →0.75 · 블로그 1만 · 뉴스 2건 — 안정적 버즈, 대형 이슈 없음' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 건강음료 카테고리 공백 — 웰니스 트렌드 성장, 3사 모두 미참여 공백' },
     ],
-    trend: 'DataLab 0.91 · 블로그 1.7만 · 뉴스 2건',
+    trend: 'DataLab 0.75 · 블로그 1만 · 뉴스 2건',
     hot: false,
     skt: [],
     kt:  null,
@@ -652,7 +653,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer"><span className="upd">2026.09.22</span> 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer">2026.09.23 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}

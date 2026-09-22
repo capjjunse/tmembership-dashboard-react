@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -32,13 +32,13 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 25,
+    news7d: 35,
     negScore: 480,
     headline: [
       '식품위생법 위반 184건 · 업계 2위',
@@ -63,7 +63,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 3,
+    news7d: 5,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
@@ -88,7 +88,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 25,
+    news7d: 20,
     negScore: 850,
     headline: [
       '신촌점 9.21 영업종료 · 폐점',
@@ -104,7 +104,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -114,14 +114,14 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 25,
+    news7d: 30,
     negScore: 250,
     headline: [
-      '2Q 흑자전환 · 영업이익 115억',
-      'LCK 결승전 생중계(9.13)',
-      '특별관 · 인턴SCREENX·어벤져스4DX',
+      '4DPLEX 2200억 투자유치 · 목표가↑',
+      '추석 연휴 3대장 이벤트(~10.9)',
+      '씨집에 가면 단독 · 특별관 라인업',
     ],
-    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 2Q 흑자전환(영업이익 115억) · 파묘 SCREENX 재개봉(9.3) · COD-7 관객주문 상영 론칭',
+    impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 4DPLEX 국민성장펀드 2200억 투자유치(9.7) · 3Q 영업이익 564억 전망 — 연휴 이벤트 활발',
     links: [
       { label: 'CGV 2Q 흑자전환 · 영업이익 115억 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608071704003/' },
       { label: '귀향 6곳 상영 · 선택권 논란 (스포츠경향)', url: 'https://sports.khan.co.kr/article/202608272024003/' },
@@ -165,7 +165,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 15,
+    news7d: 12,
     negScore: 900,
     headline: [
       '166만명 개인정보 유출 · 128억 과징금',
@@ -187,7 +187,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 25,
+    news7d: 28,
     negScore: 280,
     headline: [
       '아이스아메리카노 200원 인상 발표',
