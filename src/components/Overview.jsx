@@ -109,7 +109,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 66%·부정 28%·중립 6%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 66%·부정 28%·중립 6%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK "1%할인쿠폰(vip전용)" 우주패스 기대 실망 (9.15)</div>
           </a>
 
@@ -139,12 +139,12 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>유독 4천원 할인 (최소 구매 금액 없음)</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>유플투쁠 8차 전체 (9.8~9.22, 40+브랜드)</div>
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em>장기고객데이 (9.24) · 투쁠 8차 (9.22)</div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">유플투쁠 8차 종료 (9.8~9.22)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">장기고객데이 (9.24)</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
+            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">도그마루 신규 제휴 예정 (10.14)</span></div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
-            <div className="ovg2-item"><em className="tg tg-new">신규</em>zel 신규 제휴 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 56%·부정 44%</div>
@@ -157,9 +157,9 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title">SKT↔LGU+ <span className="upd">12종</span> 비교 · 노브랜드·아워홈몰·CGV 우위</div>
+              <div className="ovki-title">SKT↔LGU+ 12종 비교 · 노브랜드·아워홈몰·CGV 우위</div>
               <ul className="ovki-list">
-                <li><span className="upd">T day·Young week × 투쁠 12종 비교 — 3종 우위 · 피자헛 열위</span></li>
+                <li>T day·Young week × 투쁠 12종 비교 — 3종 우위 · 피자헛 열위</li>
                 <li>KT 달달혜택 — SKT·KT·LGU+ 겹침 없음</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>

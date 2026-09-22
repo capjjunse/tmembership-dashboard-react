@@ -17,6 +17,13 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td>2026.10.14</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+ 멤버십 상시</td>
+            <td>도그마루 신규 제휴 — 분양/입양 시 펫플칩 무료증정 (10.14~)</td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
             <td>2026.10.01</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
@@ -315,13 +322,6 @@ export default function History() {
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
             <td>굿웨어몰 10% 할인 종료 (6.30)</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.25</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>원마운트 워터파크/스노우파크 할인 제휴 종료 (6.25)</td>
             <td><span className="tb t종료">종료</span></td>
           </tr>
         </tbody>

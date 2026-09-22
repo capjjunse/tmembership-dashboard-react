@@ -73,7 +73,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (9.23)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 3 (9.23)</span></div>
               <ul className="mblist">
                 <li>파리바게뜨 추석40%할인(VIPOnly,최대8천원)</li>
                 <li>뚜레쥬르 1천원당300원할인(최대6천원)</li>
