@@ -109,7 +109,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 66%·부정 28%·중립 6%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 65%·부정 29%·중립 6%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK "1%할인쿠폰(vip전용)" 우주패스 기대 실망 (9.15)</div>
           </a>
 
@@ -128,8 +128,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>매드포갈릭 한도 조정 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달혜택 "너프 엄청됐네" — 9월 버거킹·bhc 구성 (9.7)</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>장기고객 10년차 "알뜰폰 쓰니까 연간 80만원 세이브" (9.10)</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">달달혜택 "kt요즘 돈이 궁항? 너프라 좀 그럼" (9.23)</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">멤버십 너프 · "가족할인까지 너프시키면 알뜰로 간다" (9.22)</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
