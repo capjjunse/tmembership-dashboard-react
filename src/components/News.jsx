@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">추석 연휴, 가족 여행부터 일상 속 즐거움까지 SKT와 함께하세요</span></span></div>
+            <div className="nsum"><span className="upd">추석 연휴를 맞아 가족과 함께 해외여행을 계획하고 있다면 T로밍 및 현지 제휴 혜택을 활용할 수 있다. 새로운 '가족로밍' 서비스는 3천원을 추가하면 최대 5명이 함께 사용 가능하며, 일본 후쿠오카·도쿄·오사카 로밍 할인·JR하루카 50% 할인·스카이트리 70% 할인 등의 글로벌 여행 혜택을 제공한다. 국내에서 휴식하는 고객들을 위해서는 영화·외식 등에서 9월 T day와 VIP PICK의 알찬 혜택을 이용할 수 있다.</span></div>
+            <div className="nmeta">2026-09-23 · <a href="https://news.sktelecom.com/231196" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">밤 11시, 롯데월드가 다시 열렸다… SKT 장기고객 '어드벤처 데이' 현장</span></div>
             <div className="nsum">SKT가 9월 12일 밤 장기고객 3,000명과 동반인을 위해 롯데월드 어드벤처를 대관한 'T 장기고객 프로그램 어드벤처 데이' 개최. 밤 11시부터 다음 날 오전 5시까지 진행되며, 11개 어트랙션, T 빙고 미션, 타임캡슐 상점, 포토월, 전국장기고객자랑 등 다양한 프로그램 운영. 가입기간 10년 이상 고객 대상으로 LED 머리띠·음료·간식·휴대폰 결제 할인 혜택 제공.</div>
             <div className="nmeta">2026-09-16 · <a href="https://news.sktelecom.com/230806" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -57,6 +62,16 @@ export default function News() {
 
       {tab === 'kt' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">KT, 추석 연휴 맞아 9월 풍성한 멤버십 혜택 선봬</span></span></div>
+            <div className="nsum"><span className="upd">KT가 9월 추석 연휴를 맞아 가을 시즌의 차별화된 멤버십 혜택을 선보인다. 가을 골프 시즌을 앞두고 전 등급 고객 대상 골프 아카데미 'QED' 3만원 할인과 VIP 이상 고객 대상 복합 골프 공간 '백야드'의 숏게임 1시간 무료 체험 혜택을 제공한다. 또한 반려동물 플랫폼 '어바웃펫' 할인과 '공차' 할인 혜택을 새롭게 추가했다.</span></div>
+            <div className="nmeta">2026-09-06 · <a href="https://www.eroun.net/news/articleView.html?idxno=46925" target="_blank" rel="noreferrer">이로운넷</a></div>
+          </div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">KT멤버십, 가을 맞이 '9월 케멤페' 혜택 확대</span></span></div>
+            <div className="nsum"><span className="upd">KT가 9월 가을 시즌을 맞아 멤버십 고객을 위한 '케이티 멤버십 페스타(케멤페)' 혜택을 강화한다. 공연·영화 초청(영화 '어쩔수가 없다' 시사회, '태양의 서커스 쿠자' 초청), 외식·쇼핑 할인(굽네치킨 9,000원, 파파존스 60% 할인), 여행·레저 혜택(Y워터페스티벌, 보야지 투 자라섬 초청) 등 일상에서 체감할 수 있는 맞춤형 혜택을 제공한다.</span></div>
+            <div className="nmeta">2026-08-31 · <a href="https://www.s-journal.co.kr/news/articleView.html?idxno=33028" target="_blank" rel="noreferrer">S저널</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 8월 멤버십 혜택 확대 — 포케올데이 신규 제휴·뮤지컬 헬스키친·유미의 세포들 최대 45% 할인</span></div>
             <div className="nsum">KT 멤버십 페스타로 신규 제휴 포케올데이 10% 할인(9,900원 이상, 최대 3만원, 일 1회), 패스트캠퍼스 AICE 과정 30% 특별 할인. 뮤지컬 헬스키친 최대 40%, 유미의 세포들 최대 45%, 슬립노모어 서울 최대 40% 할인, 전시 아기상어 비밀 초대장 50% 할인. 9월 1일부터 VVIP·VIP 고객 지니TV VOD 1만원 이용권, 도미노피자 방문 포장 시 3만원 이상 결제하면 2만원 할인.</div>
