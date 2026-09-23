@@ -73,7 +73,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 3 (9.23)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 3 (9.23)</span></div>
               <ul className="mblist">
                 <li>파리바게뜨 추석40%할인(VIPOnly,최대8천원)</li>
                 <li>뚜레쥬르 1천원당300원할인(최대6천원)</li>
@@ -84,17 +84,19 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (9.30)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 9월 30일 공개 예정</li>
+                <li><span className="upd">매드포갈릭 30%할인(VIP50%,최대3만원)</span></li>
+                <li><span className="upd">파스쿠찌 1만원↑20%할인(VIP40%)</span></li>
+                <li><span className="upd">쉐이크쉑 30%할인(최대6천원)</span></li>
               </ul>
             </div>
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept">한가위의 설렘 — Day3까지 43종 공개</div>
+            <div className="mpnt-concept"><span className="upd">한가위의 설렘 — Day4까지 46종 전체 공개</span></div>
             <ul className="mpnt-list">
               <li>Week혜택 · VIPS·에버랜드 등 20종</li>
               <li>Young week 11종 · 백억커피·할리스 등</li>
-              <li>Day3(9.23) · 파바(VIP)·피자헛·뚜레쥬르 공개</li>
+              <li><span className="upd">Day4(9.30) · 매드포갈릭·파스쿠찌·쉐이크쉑</span></li>
             </ul>
           </div>
         </div>
