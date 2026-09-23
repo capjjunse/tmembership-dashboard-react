@@ -7,47 +7,47 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
     ],
     strength: 'low',
     sources: ['DataLab', '뉴스'],
-    direction: 'neg',
+    direction: 'pos',
     dlSpike: null,
     news7d: 15,
-    negScore: 970,
+    negScore: 200,
     headline: [
-      '지자체 상품권 구매 급감(9.14)',
-      '탱크데이 수사 계속 · 본사 압수수색',
-      '블글라 출격 · 보늬밤 케이크 출시',
+      '마이 스타 커피 캠페인 론칭(9.22)',
+      '결제액 9월 상승 · 회복세 지속',
+      '추석 1+1 전병·스누피 이벤트',
     ],
-    impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT 미운영 · 2Q 영업손실 184억(27년 만에 첫 분기 적자) — 탱크데이 수사 지속',
+    impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT 미운영 · 결제액 9월 상승 회복세 — 마이 스타 커피 캠페인 론칭(9.22)',
     links: [
-      { label: '스타벅스 본사 첫 압수수색 (파이낸셜뉴스)', url: 'https://www.fnnews.com/news/202608051000492404' },
-      { label: '전 대표 휴대폰 포함 압수수색 (MBC)', url: 'https://imnews.imbc.com/replay/2026/nwdesk/article/6842679_37004.html' },
+      { label: '마이 스타 커피 캠페인 론칭 (서울신문)', url: 'https://www.seoul.co.kr/news/economy/distribution/2026/09/22/20260922030002' },
+      { label: '추석 이벤트 · 회복세 지속 (뉴스1)', url: 'https://www.news1.kr/industry/distribution/6299313' },
     ],
   },
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 35,
+    news7d: 25,
     negScore: 480,
     headline: [
       '식품위생법 위반 184건 · 업계 2위',
-      '가을 라떼 1주 50만잔 흥행',
+      '추석 커스터마이징 세트(~9.30)',
       '2차 신메뉴 출격 · 컵빙 제쳐',
     ],
-    impact: '3사 미운영 · 식품위생법 위반 184건(2021~2025, 업계 2위) · 가을 라떼 출시 1주 50만 잔 — 위생 논란 상쇄 중',
+    impact: '3사 미운영 · 식품위생법 위반 184건(업계 2위) · 추석 커스터마이징 세트(9.24~30) — 신메뉴·이벤트로 위생 논란 상쇄',
     links: [
-      { label: '결제액 스타벅스 94.9%·이용률 추월 (머니투데이)', url: 'https://www.mt.co.kr/living/2026/08/22/2026082011025549638' },
+      { label: '2차 가을 신메뉴 출격 · 컵빙 제쳐 (한국경제)', url: 'https://www.hankyung.com/article/202609171766g' },
     ],
   },
   {
@@ -63,7 +63,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 5,
+    news7d: 3,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
@@ -88,7 +88,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 20,
+    news7d: 15,
     negScore: 850,
     headline: [
       '신촌점 9.21 영업종료 · 폐점',
@@ -104,7 +104,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -114,7 +114,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 30,
+    news7d: 25,
     negScore: 250,
     headline: [
       '4DPLEX 2200억 투자유치 · 목표가↑',
@@ -155,7 +155,7 @@ export const trendSignals = [
   {
     brand: 'GS25',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 프레시 푸드 200원 할인 (일1회)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -170,12 +170,12 @@ export const trendSignals = [
     headline: [
       '166만명 개인정보 유출 · 128억 과징금',
       '크리덴셜 스터핑 · 탐지 실패 비판',
-      '추석 잡채&전·맥적구이 주먹밥 출시',
+      'AI 레시피 신상품 · 치즈미역국(9.18)',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 개인정보 166만명 유출(GS25 7.9만+GS SHOP 158만) — 128억 과징금·시정명령',
     links: [
       { label: 'GS리테일 128억 과징금 · 개인정보 유출 사과 (아시아경제)', url: 'https://view.asiae.co.kr/article/2026083110553002325' },
-      { label: '166만명 유출 · 전담조직 없던 구멍 (이넷뉴스)', url: 'https://www.enetnews.co.kr/news/articleView.html?idxno=53927' },
+      { label: 'AI 레시피 신상품 치즈미역국 출시 (뉴스핌)', url: 'https://www.newspim.com/news/view/20260917000095' },
     ],
   },
   {
@@ -187,7 +187,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 28,
+    news7d: 22,
     negScore: 280,
     headline: [
       '아이스아메리카노 200원 인상 발표',
@@ -198,6 +198,31 @@ export const trendSignals = [
     links: [
       { label: '매머드커피 1000호점 아메리카노 1000원 타임딜 (이데일리)', url: 'https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03306246645516816' },
       { label: '아이스 아메리카노 200원 인상 발표 (이데일리)', url: 'https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05090566645519112' },
+    ],
+  },
+  {
+    brand: '에버랜드',
+    membership: 'partner',
+    updated: true,
+    telcos: [
+      { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 본인 40%·동반 3인 30% 할인' },
+      { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 본인 40%·동반 3인 20% 할인' },
+    ],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'pos',
+    dlSpike: null,
+    news7d: 45,
+    negScore: 50,
+    headline: [
+      '추석 바오패밀리 이벤트(9.24~27)',
+      '블러드시티 10주년 · 사파리 도보 개시',
+      '파이널 랩 신규 놀이기구 오픈(9.18)',
+    ],
+    impact: 'SKT·KT 상시 운영 · LGU+ 미운영 · 추석 연휴 성수기 진입 — 판다 바오패밀리 이벤트 + 할로윈 시즌',
+    links: [
+      { label: '추석 풍성한 프로그램 운영 (글로벌이코노믹)', url: 'https://www.g-enews.com/article/Distribution/2026/09/202609210826441569a96f092d0c_1' },
+      { label: '루이·후이와 추석 이벤트 (이투데이)', url: 'https://www.etoday.co.kr/news/view/2627720' },
     ],
   },
 ];
