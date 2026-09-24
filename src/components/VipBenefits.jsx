@@ -46,7 +46,8 @@ export default function VipBenefits() {
             <td>
               스타벅스 (VVIP) 조각케이크+음료 2잔 무료<br />
               (VIP) 아메리카노 무료 또는 4천원 할인<br />
-              메가MGC커피 아메리카노 2잔 무료
+              메가MGC커피 아메리카노 2잔 무료<br />
+              할리스 아메리카노(R) 2잔+휘낭시에 2개 세트 무료 (VVIP)
             </td>
             <td>
               스타벅스 아메리카노 1잔 무료<br />
