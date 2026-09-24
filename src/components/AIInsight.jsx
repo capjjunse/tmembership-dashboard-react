@@ -154,6 +154,16 @@ const compGroups = [
         basis: { skt: '방문 포장 50% 최대 2.25만원', lgu: '55%+파스타 증정', gap: 'LGU+ 5%p↑+파스타증정' },
         note: { skt: '9.23', lgu: '9.8' },
       },
+      {
+        brand: '매드포갈릭',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '30% 할인 (VIP 50%, 최대 3만원)' }], date: 'T day · 9.30' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '2.5만원 할인 (8만원 이상 주문 시)' }], date: '투쁠 2차 · 9.10' },
+        v: 'neut',
+        basis: { skt: '30% 할인 전 등급 최대 3만원', lgu: '2.5만원 할인 8만원↑', gap: 'SKT 조건 없음 우위' },
+        note: { skt: '9.30', lgu: '9.10' },
+      },
     ],
   },
   {
@@ -515,7 +525,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11)+Day2(9.16)+Day3(9.23) · LGU+ 투쁠 1~8차+컬쳐데이+유쓰+장기고객데이 · KT 달달혜택 공개 · skt-lgu 12종 확인)</div>
+          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11)+Day2(9.16)+Day3(9.23)+Day4(9.30) · LGU+ 투쁠 1~8차+컬쳐데이+유쓰+장기고객데이 · KT 달달혜택 공개 · skt-lgu 13종 확인)</div>
         </div>
       </div>
 
