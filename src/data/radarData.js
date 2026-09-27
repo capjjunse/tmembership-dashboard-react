@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -32,7 +32,7 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
@@ -155,7 +155,7 @@ export const trendSignals = [
   {
     brand: 'GS25',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 프레시 푸드 200원 할인 (일1회)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -203,7 +203,7 @@ export const trendSignals = [
   {
     brand: '에버랜드',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 본인 40%·동반 3인 30% 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 본인 40%·동반 3인 20% 할인' },
@@ -223,6 +223,49 @@ export const trendSignals = [
     links: [
       { label: '추석 풍성한 프로그램 운영 (글로벌이코노믹)', url: 'https://www.g-enews.com/article/Distribution/2026/09/202609210826441569a96f092d0c_1' },
       { label: '루이·후이와 추석 이벤트 (이투데이)', url: 'https://www.etoday.co.kr/news/view/2627720' },
+    ],
+  },
+  {
+    brand: 'BHC치킨',
+    membership: 'candidate',
+    updated: true,
+    telcos: [],
+    strength: 'mid',
+    sources: ['뉴스'],
+    direction: 'neg',
+    dlSpike: 1.39,
+    news7d: 35,
+    negScore: 500,
+    headline: [
+      '9월 브랜드평판 1위 · 빅3 재편',
+      '가격인상·중량 논란 지속',
+      '베트남 시장 진출',
+    ],
+    impact: '3사 미운영 · 9월 치킨 브랜드 평판 1위(빅3 중 독주) · 가격인상·중량 논란 지속 — DataLab 급상승(1.39)',
+    links: [
+      { label: '9월 브랜드평판 1위 (비욘드포스트)', url: 'https://www.beyondpost.co.kr/view.php?ud=20260909081808832546a9e4dd7f_30' },
+      { label: 'bhc 독주 준비 끝 (다음)', url: 'https://v.daum.net/v/20260415070125494' },
+    ],
+  },
+  {
+    brand: '엽기떡볶이',
+    membership: 'candidate',
+    updated: true,
+    telcos: [],
+    strength: 'low',
+    sources: ['뉴스'],
+    direction: 'neg',
+    dlSpike: null,
+    news7d: 25,
+    negScore: 550,
+    headline: [
+      '공정위 시정명령(2026.2) · POS강제',
+      '5년 위생위반 90건 · 업계 최다',
+      '가맹 분쟁 · 성장세 둔화',
+    ],
+    impact: '3사 미운영 · 공정위 시정명령(POS 구매 강제, 2026.2) · 위생위반 5년간 90건 업계 최다 — 브랜드 리스크 확인 후 검토 필요',
+    links: [
+      { label: '위생 논란·가맹 리스크 (더스쿠프)', url: 'https://www.thescoop.co.kr/news/articleView.html?idxno=309700' },
     ],
   },
 ];
