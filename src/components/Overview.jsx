@@ -102,14 +102,14 @@ export default function Overview() {
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>Day 3 (9.23) — 파바·피자헛·뚜레쥬르·CGV 4종</div>
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">Day 4 (9.30) — 매드포갈릭·파스쿠찌·쉐이크쉑 3종</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>Day 4 (9.30) — 매드포갈릭·파스쿠찌·쉐이크쉑 3종</div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 예정 (9.30)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 73%·부정 27%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 73%·부정 27%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK "1%할인쿠폰(vip전용)" 우주패스 기대 실망 (9.15)</div>
           </a>
 
@@ -124,8 +124,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>문화혜택 (9.1~, 뮤지컬 2종·전시 2종 최대 50%)</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em>차일디 제휴 종료 예정 (10.1)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>매드포갈릭 한도 조정 예정 (10.1~)</div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">신세계면세점 온라인 혜택 명칭 변경 (10.1~)</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">롯데면세점 VVIP/VIP→GOLD 등급 적용 (10.1~)</span></div>
           </a>
           <a href="#sn" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달혜택 "kt요즘 돈이 궁항? 너프라 좀 그럼" (9.23)</div>
@@ -139,14 +139,14 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>유독 4천원 할인 (최소 구매 금액 없음)</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">장기고객데이 (9.24) — 이마트24·윌라·NOL티켓</span></div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em>장기고객데이 (9.24) — 이마트24·윌라·NOL티켓</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>도그마루 신규 제휴 예정 (10.14)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 71%·부정 29%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 71%·부정 29%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 노브랜드 10초컷 "10초컷도 안나는건 첨봤습니다" (9.17)</div>
           </a>
         </div>
@@ -156,9 +156,9 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title">SKT↔LGU+ 12종 비교 · 노브랜드·아워홈몰·CGV 우위</div>
+              <div className="ovki-title">SKT↔LGU+ <span className="upd">13종</span> 비교 · 노브랜드·아워홈몰·CGV 우위</div>
               <ul className="ovki-list">
-                <li>T day·Young week × 투쁠 12종 비교 — 3종 우위 · 피자헛 열위</li>
+                <li>T day·Young week × 투쁠 <span className="upd">13종</span> 비교 — 3종 우위 · 피자헛 열위</li>
                 <li>KT 달달혜택 — SKT·KT·LGU+ 겹침 없음</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>

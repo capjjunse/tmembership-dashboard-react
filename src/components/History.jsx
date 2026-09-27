@@ -296,34 +296,6 @@ export default function History() {
             <td>등급 상향 주기 변경 — 월 2~15일 가입 시 익월 1일 승급 (7.1~)</td>
             <td><span className="tb t변경">변경</span></td>
           </tr>
-          <tr>
-            <td>2026.06.30</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>농협맛선 제휴 종료 (6.30)</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.30</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>도그메이트 제휴 종료 (6.30)</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.30</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>나뚜루&나뚜루 시그니처 제휴 종료 (6.30)</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.06.30</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+ 멤버십 상시</td>
-            <td>굿웨어몰 10% 할인 종료 (6.30)</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
         </tbody>
       </table></div>
     </div>

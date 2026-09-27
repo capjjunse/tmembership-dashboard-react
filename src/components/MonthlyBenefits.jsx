@@ -84,19 +84,19 @@ export default function MonthlyBenefits() {
             <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (9.30)</span></div>
               <ul className="mblist">
-                <li><span className="upd">매드포갈릭 30%할인(VIP50%,최대3만원)</span></li>
-                <li><span className="upd">파스쿠찌 1만원↑20%할인(VIP40%)</span></li>
-                <li><span className="upd">쉐이크쉑 30%할인(최대6천원)</span></li>
+                <li>매드포갈릭 30%할인(VIP50%,최대3만원)</li>
+                <li>파스쿠찌 1만원↑20%할인(VIP40%)</li>
+                <li>쉐이크쉑 30%할인(최대6천원)</li>
               </ul>
             </div>
           </div>
           <div className="mpnt ms">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">한가위의 설렘 — Day4까지 46종 전체 공개</span></div>
+            <div className="mpnt-concept">한가위의 설렘 — Day4까지 46종 전체 공개</div>
             <ul className="mpnt-list">
               <li>Week혜택 · VIPS·에버랜드 등 20종</li>
               <li>Young week 11종 · 백억커피·할리스 등</li>
-              <li><span className="upd">Day4(9.30) · 매드포갈릭·파스쿠찌·쉐이크쉑</span></li>
+              <li>Day4(9.30) · 매드포갈릭·파스쿠찌·쉐이크쉑</li>
             </ul>
           </div>
         </div>
