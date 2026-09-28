@@ -98,7 +98,6 @@ export default function Overview() {
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           <a href="#rg" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>GS25 화요일 할인 품목 프레시 푸드로 변경</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>Day 3 (9.23) — 파바·피자헛·뚜레쥬르·CGV 4종</div>
@@ -110,14 +109,13 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 73%·부정 27%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK "1%할인쿠폰(vip전용)" 우주패스 기대 실망 (9.15)</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK 폴바셋 VVIP 전용 전환 불만 (9.9)</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           <a href="#vp" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>지니TV VOD 1만원 이용권 신설 (VVIP·VIP초이스, 9월~)</div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>스타벅스 상시 혜택 사이즈업으로 변경</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달혜택 (9.1~9.30, 쇼핑라운지·롯데마트·bhc·버거킹 4종)</div>
