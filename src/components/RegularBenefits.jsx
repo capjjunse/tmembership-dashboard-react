@@ -106,6 +106,7 @@ export default function RegularBenefits() {
         </thead>
         <tbody>
           <tr><td>배스킨라빈스</td><td><G t="[VIP] 싱글레귤러 50% 할인 · [Gold/Silver] 30% 할인"/></td><td className="na">미제공</td><td><G t="[전 등급] 쿼터 4,000원 할인"/></td></tr>
+          {/* ⛔⛔⛔ 이 행 절대 .upd 금지 (2026.09.10·09.14 반복 위반, 사용자 직접 지적) — "월 1회" 문구를 이유 없이 지우거나 되살리는 걸 변경으로 표시하지 말 것. 실제 %·금액·횟수가 안 바뀌면 그냥 조용히 유지. 근거: update_rules.txt 규칙 13 */}
           <tr><td>스타벅스</td><td className="na">미제공</td><td><G t="[전 등급] 음료 사이즈업 월 1회"/></td><td className="na">미제공</td></tr>
         </tbody>
       </table></div>
@@ -121,6 +122,7 @@ export default function RegularBenefits() {
           </tr>
         </thead>
         <tbody>
+          {/* ⛔⛔⛔ 이 행 절대 .upd 금지 (2026.09.10·09.14 반복 위반 — 벌써 여러 번째, 사용자 직접 지적) — "신선식품"="프레시 푸드"="FF"는 전부 같은 GS25 상품 카테고리를 가리키는 동의어다. SKT 공식 API 필드가 "프레시 푸드"라고 나와도 이건 실제 혜택 변경이 아니다. 문구를 API 원문에 맞추는 건 괜찮지만 .upd는 절대 붙이지 말 것 — "API 공식 명칭 교정"이라는 이유로도 예외 없음. "(일1회, 최대 2만원)" 한도도 이유 없이 지우지 말 것. 근거: update_rules.txt 규칙 13 */}
           <tr><td>GS25</td><td>[전 등급] 매주 화요일 프레시 푸드 1,000원당 200원 할인 (일1회, 최대 2만원)</td><td>[VVIP/VIP/골드] 100원 할인<br/>[일반] 50원 할인</td><td><G t="[VVIP/VIP] 100원 할인 · [우수] 50원 할인"/></td></tr>
           <tr><td>CU</td><td><G t="[VIP/Gold] 100원 할인 · [Silver] 50원 할인"/></td><td>[전 등급] 아침 간편식류 1,000원당 200원 할인</td><td className="na">미제공</td></tr>
           <tr><td>세븐일레븐</td><td><G t="[VIP/Gold] 100원 할인 · [Silver] 50원 할인"/></td><td className="na">미제공</td><td className="na">미제공</td></tr>
