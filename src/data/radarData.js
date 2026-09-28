@@ -79,7 +79,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -92,7 +92,7 @@ export const trendSignals = [
     negScore: 850,
     headline: [
       '신촌점 9.21 영업종료 · 폐점',
-      '채권조사 진행 중 · ~9.29',
+      '채권조사 9.29 완료 · 계획안 12.1',
       '관객↑에도 영화관 줄폐업(9.19)',
     ],
     impact: 'SKT·KT 상시 운영 중 · 채권조사기간(9.2~9.29) 개시 · 직영 좌석 3400석·스크린 8개 감소 — 회생계획안 12.1까지 제출',
@@ -104,7 +104,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -119,7 +119,7 @@ export const trendSignals = [
     headline: [
       '4DPLEX 2200억 투자유치 · 목표가↑',
       '추석 연휴 3대장 이벤트(~10.9)',
-      '씨집에 가면 단독 · 특별관 라인업',
+      '씬-스틸러상 9월 후보 공개(9.26)',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 4DPLEX 국민성장펀드 2200억 투자유치(9.7) · 3Q 영업이익 564억 전망 — 연휴 이벤트 활발',
     links: [
@@ -155,7 +155,7 @@ export const trendSignals = [
   {
     brand: 'GS25',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 프레시 푸드 200원 할인 (일1회)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -165,12 +165,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 12,
+    news7d: 15,
     negScore: 900,
     headline: [
       '166만명 개인정보 유출 · 128억 과징금',
       '크리덴셜 스터핑 · 탐지 실패 비판',
-      'AI 레시피 신상품 · 치즈미역국(9.18)',
+      '겨울 먹거리 2주 앞당겨 판매(9.28)',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 개인정보 166만명 유출(GS25 7.9만+GS SHOP 158만) — 128억 과징금·시정명령',
     links: [
@@ -228,7 +228,7 @@ export const trendSignals = [
   {
     brand: 'BHC치킨',
     membership: 'candidate',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
@@ -250,7 +250,7 @@ export const trendSignals = [
   {
     brand: '엽기떡볶이',
     membership: 'candidate',
-    updated: true,
+    updated: false,
     telcos: [],
     strength: 'low',
     sources: ['뉴스'],

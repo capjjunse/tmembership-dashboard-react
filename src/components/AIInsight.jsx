@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.28';
+const RADAR_SCANNED = '2026.09.29';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -345,7 +345,7 @@ export const recs = [
   {
     rank: 1,
     brand: 'BHC치킨',
-    updated: true,
+    updated: false,
     tag: '매장 2,209개 · DataLab 📈1.39',
     reason: '치킨 빅3 중 브랜드평판 1위 브랜드 · 전국 2,209개. 9월 DataLab 급상승(📈1.39). 가격인상·중량 논란 지속 중이나 점유율 확대 추세. SKT 미참여.',
     reach: [
@@ -362,7 +362,7 @@ export const recs = [
   {
     rank: 2,
     brand: '엽기떡볶이',
-    updated: true,
+    updated: false,
     tag: '매장 732개 · DataLab ↗1.06',
     reason: '분식 카테고리 대표 브랜드 · 전국 732개. 배달·포장 특화로 젊은 고객 접점 강점. 공정위 시정명령(2026.2) 및 위생 위반 업계 최다 이력 — 리스크 선검토 필요. SKT 미참여.',
     reach: [

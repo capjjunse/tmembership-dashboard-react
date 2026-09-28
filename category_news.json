@@ -1,212 +1,80 @@
 {
-  "generated_at": "2026.09.28 05:51",
-  "total_collected": 840,
-  "total_valid": 499,
-  "total_skipped": 210,
-  "total_top": 27,
+  "generated_at": "2026.09.29 05:45",
+  "total_collected": 1019,
+  "total_valid": 570,
+  "total_skipped": 375,
+  "total_top": 26,
   "topic_groups": [
     {
       "category": "trend",
-      "topic": "이커머스 AI 기술 도입",
-      "insight": "국내 이커머스 업계의 AI 기술 활용 경쟁 본격화, 쇼핑 경험 혁신 추진",
+      "topic": "AI비서 구독료 관리",
+      "insight": "AI비서 서비스 다원화로 구독료 누적 부담 증가, 사용자 피로도 상승",
       "signal_strength": 1,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "AI 기술을 전면에... 코리아 이커머스 페어에서 본 것",
-          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003269014&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-          "pub_date": "2026.09.21",
+          "title": "AI비서, 줄줄 새는 구독료 잡는다",
+          "link": "https://www.mk.co.kr/article/12162914",
+          "pub_date": "2026.09.28",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": -32.3
+        },
+        {
+          "title": "[기자수첩] &quot;멤버십 하나 더요&quot; 혜택보다 피로 커진 소비자",
+          "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=728410",
+          "pub_date": "2026.09.28",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "trend",
+      "topic": "삼성 AI 가전 구독",
+      "insight": "삼성전자 AI 가전 구독 서비스 확대로 연 1조원 매출 달성 임박",
+      "signal_strength": 1,
+      "max_velocity": -32.3,
+      "articles": [
+        {
+          "title": "삼성전자, AI 가전 구독 확대…매출 1년 만에 1조원 고지",
+          "link": "https://www.khan.co.kr/article/202609281526001",
+          "pub_date": "2026.09.28",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": -32.3
+        },
+        {
+          "title": "‘AI 구독’ 매출 1조 눈앞…삼성전자, 서비스 확대",
+          "link": "https://www.khan.co.kr/article/202609282131035",
+          "pub_date": "2026.09.28",
+          "priority": 2,
+          "cross_query_count": 2,
+          "datalab_velocity": -32.3
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "trend",
+      "topic": "플랫폼 AI 추석 선물 경쟁",
+      "insight": "네이버·카카오 AI 활용 선물 큐레이션으로 시즈널 서비스 경쟁 심화",
+      "signal_strength": 1,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "추석 선물로 본 ‘GEO’ 전쟁 [구픽 AI, 쓰고 묻다]",
+          "link": "https://www.ddaily.co.kr/page/view/2026092611110846915",
+          "pub_date": "2026.09.26",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
         },
         {
-          "title": "AI가 대신 쇼핑…아마존은 '차단', 쇼피파이는 '제휴' 엇갈린 선택",
-          "link": "https://www.edaily.co.kr/News/Read?newsId=04313206645582744&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-          "pub_date": "2026.09.22",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "category": "battle",
-      "topic": "우버-배민 기업결합 심사",
-      "insight": "우버의 배민 인수에 대해 공정위가 택시·배달 플랫폼 결합의 경쟁 영향을 심사 착수",
-      "signal_strength": 2,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "우버-배민 기업결합 사전심사 착수…택시·배달 플랫폼 경쟁 영향 살핀...",
-          "link": "https://www.newsis.com/view/NISX20260922_0003800362",
-          "pub_date": "2026.09.22",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "공정위, 우버 '배민' 인수 심사 착수…'택시·배달 결합' 경쟁 영향 본다",
-          "link": "https://www.etnews.com/20260922000390",
-          "pub_date": "2026.09.22",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "우버의 '배민 인수' 공정위 심사대 오른다 … 택시·배달 플랫폼 결합 주...",
-          "link": "https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200211.html",
-          "pub_date": "2026.09.22",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "우버-DH 결합에 플랫폼 시장 '지각변동'…공정위, 현미경 심사 착수",
-          "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=277086",
-          "pub_date": "2026.09.22",
-          "priority": 3,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "category": "battle",
-      "topic": "카카오 통합멤버십 출시",
-      "insight": "카카오가 10월 1일 서비스 통합 멤버십 '카카오멤버십' 소프트런칭 추진",
-      "signal_strength": 2,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "카카오, 첫 통합 멤버십 내놓는다…내달 1일 소프트런칭",
-          "link": "https://www.newsway.co.kr/news/view?ud=2026092109270900658",
-          "pub_date": "2026.09.21",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "카카오, 통합 멤버십 ‘카카오멤버십’ 10월 1일 첫선",
-          "link": "https://www.donga.com/news/It/article/all/20260921/134710597/1",
-          "pub_date": "2026.09.21",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "카카오, 첫 통합 멤버십 다음달 1일 공개…이모티콘·멜론·페이 묶는다",
-          "link": "https://www.dailian.co.kr/news/view/1693176/?sc=Naver",
-          "pub_date": "2026.09.21",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "카카오, 통합 멤버십 '카카오멤버십' 10월 1일 소프트런칭",
-          "link": "https://www.cnbizm.com/news/articleView.html?idxno=315830",
-          "pub_date": "2026.09.21",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "카카오멤버십, 10월1일 베일 벗는다…&quot;소프트론칭 형태&quot;",
-          "link": "https://www.ddaily.co.kr/page/view/2026092109384689947",
-          "pub_date": "2026.09.21",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "카카오, 10월 1일 유료 멤버십 '소프트런칭'…초기 이용자 선착순 모집",
-          "link": "https://www.ajunews.com/view/20260921091727957",
-          "pub_date": "2026.09.21",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": 0.0
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "category": "benchmark",
-      "topic": "LGU+ 추석 연휴 맞춤 혜택",
-      "insight": "LG유플러스, 추석 연휴 고객 세분화하여 로밍·홈캠·구독 서비스 할인 혜택 확대 운영",
-      "signal_strength": 1,
-      "max_velocity": -65.7,
-      "articles": [
-        {
-          "title": "LG유플러스, 추석 연휴 맞아 여행·빈집·집콕 서비스·혜택 운영",
-          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7185721",
-          "pub_date": "2026.09.23",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": -65.7
-        },
-        {
-          "title": "LGU+, 추석 연휴 고객 혜택 확대…로밍·홈캠·구독 할인",
-          "link": "https://biz.heraldcorp.com/article/10882826?ref=naver",
-          "pub_date": "2026.09.23",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": -65.7
-        },
-        {
-          "title": "LG유플러스, 추석 연휴 고객 상황별 서비스·혜택 선보여",
-          "link": "https://www.nextdaily.co.kr/news/articleView.html?idxno=253323",
-          "pub_date": "2026.09.23",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": -65.7
-        },
-        {
-          "title": "LGU+, 추석 연휴 고객맞춤 혜택 확대…로밍·홈캠 서비스 강화",
-          "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=267199",
-          "pub_date": "2026.09.23",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": -65.7
-        },
-        {
-          "title": "LG유플러스 &quot;로밍고객 기내 와이파이…추석 연휴 빈집·집콕 서비스&quot;",
-          "link": "https://view.asiae.co.kr/article/2026092314163153867",
-          "pub_date": "2026.09.23",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": -65.7
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "category": "benchmark",
-      "topic": "이마트 추석 시즌 프로모션",
-      "insight": "이마트, 추석 연휴 맞춰 식품·밀키트 최대 50% 할인으로 선물세트 수요 대응",
-      "signal_strength": 1,
-      "max_velocity": 0.0,
-      "articles": [
-        {
-          "title": "이마트, 추석 먹거리 최대 50% 할인... &quot;간편 밀키트부터 소고기까지&quot;",
-          "link": "https://www.insight.co.kr/news/574860",
-          "pub_date": "2026.09.22",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "이마트, 추석 연휴 맞이 가족 먹거리 할인 행사 진행",
-          "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4108111",
-          "pub_date": "2026.09.22",
-          "priority": 2,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "이마트, 생활용품보다 '주류'…추석 선물세트 8위→4위 껑충",
-          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490368",
+          "title": "&quot;추석 선물 하나만 골라줘&quot;…네이버·카카오 AI에 맡겨보니",
+          "link": "https://www.news1.kr/it-science/internet-platform/6300294",
           "pub_date": "2026.09.26",
           "priority": 1,
           "cross_query_count": 2,
@@ -216,24 +84,132 @@
       "is_new": true
     },
     {
-      "category": "benchmark",
-      "topic": "외식·라이프 앱 구독 경쟁",
-      "insight": "골프장·외식업계, 자사 앱 구독 멤버십으로 그린피·혜택 할인 통해 고객 확보 전쟁",
-      "signal_strength": 1,
+      "category": "battle",
+      "topic": "네카오 멤버십 경쟁",
+      "insight": "네이버·카카오가 서비스 통합과 혜택 확대로 멤버십 경쟁을 본격화",
+      "signal_strength": 2,
       "max_velocity": 0.0,
       "articles": [
         {
-          "title": "모바일 앱으로 1200개 골프장 이용…멤버십 구독 땐 그린피 할인",
-          "link": "https://www.hankyung.com/article/2026092771361",
+          "title": "[IT돋보기] '혜택 늘리고 신규 서비스 도입' 네이버 VS 카카오 멤버십 격...",
+          "link": "http://www.inews24.com/view/2009038",
+          "pub_date": "2026.09.26",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "서비스 묶고 혜택 늘리고…네카오 멤버십 경쟁 본격화",
+          "link": "http://www.newstomato.com/ReadNews.aspx?no=1314822&inflow=N",
           "pub_date": "2026.09.27",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -65.7
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "battle",
+      "topic": "우버 배민 인수",
+      "insight": "우버가 배민 인수를 추진하며 국내 배달시장 재진입을 본격화",
+      "signal_strength": 2,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "우버, 배민 인수 시동…국내 배달시장 재도전",
+          "link": "https://biz.sbs.co.kr/article_hub/20000336379?division=NAVER",
+          "pub_date": "2026.09.23",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
         },
         {
-          "title": "팬미팅에 굿즈까지…외식업계, 자사앱 혜택 경쟁",
-          "link": "https://www.newsway.co.kr/news/view?ud=2026092216180356115",
+          "title": "택시·배달 다 잡나...우버, 배민 인수 본격화",
+          "link": "https://magazine.hankyung.com/business/article/202609221461b",
+          "pub_date": "2026.09.22",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "배민에 '우버 이츠' 쓴맛 봤는데…이번엔 우버가 배민 품나 [종합]",
+          "link": "https://www.hankyung.com/article/202609221036g",
+          "pub_date": "2026.09.22",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "우버, 배민 품고 한국 배달시장 재진입하나…공정위 사전심사",
+          "link": "https://www.kyeonggi.com/article/20260922580267",
+          "pub_date": "2026.09.22",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "우버, 배달의민족 새 주인 되나…공정위 기업결합 사전심사 착수",
+          "link": "https://biz.heraldcorp.com/article/10882192?ref=naver",
+          "pub_date": "2026.09.22",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "택시 이어 배달까지…우버 '배민 인수' 본격 시동",
+          "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609220136&t=NN",
+          "pub_date": "2026.09.22",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "7년 만에 다시 韓 배달시장…우버는 왜 배민을 택했나",
+          "link": "https://www.kukinews.com/article/view/kuk202609230174",
+          "pub_date": "2026.09.23",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": 0.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "benchmark",
+      "topic": "연휴 소비촉진 할인전",
+      "insight": "추석·황금연휴를 겨냥해 백화점·이커머스 전 채널이 대폭 할인 프로모션 전개",
+      "signal_strength": 1,
+      "max_velocity": 0.0,
+      "articles": [
+        {
+          "title": "롯데백화점, 10월 황금연휴 잡는다…스포츠 축제부터 최대 40% 할인까지",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=550727",
+          "pub_date": "2026.09.28",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": -43.1
+        },
+        {
+          "title": "롯데백화점 광주점, 가을 웨딩페어…혼수·가전 혜택 강화",
+          "link": "https://view.asiae.co.kr/article/2026092812530097139",
+          "pub_date": "2026.09.28",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "추석 장보기부터 가을옷·온열매트까지…이커머스 연휴 할인전",
+          "link": "https://www.segye.com/newsView/20260926503186?OutUrl=naver",
           "pub_date": "2026.09.26",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 0.0
+        },
+        {
+          "title": "가을 소비 잡는다…춘천·인제, 할인 마케팅",
+          "link": "https://news.mtn.co.kr/news-detail/2026092809490699391",
+          "pub_date": "2026.09.28",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
@@ -245,117 +221,118 @@
   "categories": {
     "trend": [
       {
-        "title": "상어 보러 부산 간다… 추석 앞두고 기업들까지 ‘부캉이 마케팅’",
-        "topic": "부산 관광 마케팅 경쟁",
-        "insight": "추석 시즌 부산 관광 수요 증가로 기업들의 지역 기반 마케팅 프로모션 확대",
-        "desc": "다만 상어를 둘러싼 마케팅이 모두 긍정적인 반응을 얻은 것은 아니다. 부산의 한 닭칼국수 업체가 상어에게 생닭을 던졌다는 내용의 콘텐츠를 뉴스 형식으로 제작해 SNS에 올렸다가 논란이 됐다. 실제로 생닭을 던졌다는... ",
-        "link": "https://www.wikitree.co.kr/articles/1161781",
-        "pub_date": "2026.09.24",
-        "reason": "추석 시즌 소비 트렌드(부캉이), 장기 모니터링",
-        "priority": 1,
+        "title": "AI비서, 줄줄 새는 구독료 잡는다",
+        "topic": "AI비서 구독료 관리",
+        "insight": "AI비서 서비스 다원화로 구독료 누적 부담 증가, 사용자 피로도 상승",
+        "desc": "&quot;사용 안 하는 서비스 해지할까요?&quot; 구독경제까지 흔드는 AI AI에 은행 계좌 연결했더니 구독서비스 결제액 싹 정리 명령 땐 해지까지 자동으로 보험상품 비교 분석·추천도 '뮤즈'가 아니었다면 99달러(약 14만원)가 또... ",
+        "link": "https://www.mk.co.kr/article/12162914",
+        "pub_date": "2026.09.28",
+        "reason": "AI 기반 구독료 관리 소비 트렌드",
+        "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
+        "datalab_score": 31.0,
+        "datalab_velocity": -32.3,
         "queries": [
-          "마케팅 논란",
-          "추석 연휴 마케팅"
-        ]
-      },
-      {
-        "title": "[르포] 부업으로 시작했다가 ‘로봇과 경쟁’ 맞닥뜨린 배달노동의 미래",
-        "topic": "배달 로봇화 노동 환경 변화",
-        "insight": "배달 산업의 자동화 가속화로 인한 기존 배달노동자의 일자리 구조 전환 압박",
-        "desc": "해외에서는 배달노동처럼 플랫폼 등을 통해 초단기계약 형태로 일하는 노동자를 긱워커라고 부른다. AI... 경쟁이 치열해지면서 배달노동자의 임금인 배달료도 줄고 있는 것이다.도보배달 중 7번 마주친... ",
-        "link": "https://vop.co.kr/A00001696842.html",
-        "pub_date": "2026.09.27",
-        "reason": "배달노동 환경 변화, 장기 플랫폼 트렌드 모니터링",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "플랫폼 경쟁",
-          "배달 시장"
-        ]
-      },
-      {
-        "title": "AI 기술을 전면에... 코리아 이커머스 페어에서 본 것",
-        "topic": "이커머스 AI 기술 도입",
-        "insight": "국내 이커머스 업계의 AI 기술 활용 경쟁 본격화, 쇼핑 경험 혁신 추진",
-        "desc": "판매 전략이 아주 탁월한 것 같다는 느낌을 받았다. ▲  코리아 이커머스 페어 ⓒ 김용진 이번 2026 코리아 이커머스 페어는 상품 소싱부터 이커머스 관련 서비스 업체들까지 한 곳에서 볼 수 있는 좋은 기회였다. 특히 중국... ",
-        "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003269014&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-        "pub_date": "2026.09.21",
-        "reason": "이커머스 AI 도입 추세, 장기 기술 모니터링",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "이커머스 전략",
+          "구독 서비스",
           "AI 쇼핑"
         ]
       },
       {
-        "title": "AI가 대신 쇼핑…아마존은 '차단', 쇼피파이는 '제휴' 엇갈린 선택",
-        "topic": "이커머스 AI 기술 도입",
-        "insight": "국내 이커머스 업계의 AI 기술 활용 경쟁 본격화, 쇼핑 경험 혁신 추진",
-        "desc": "블로다르착 애널리스트는 AI 쇼핑 에이전트가 기존 전자상거래와 온라인 광고 모델을 흔들 수 있다고 내다봤다. 그는 “에이전트 AI가 사람의 검색과 비교, 일상적인 의사결정을 점점 대체하면서 이런 압박은 더 넓어질... ",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=04313206645582744&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "pub_date": "2026.09.22",
-        "reason": "AI 쇼핑 기술 트렌드, 장기 모니터링",
+        "title": "삼성전자, AI 가전 구독 확대…매출 1년 만에 1조원 고지",
+        "topic": "삼성 AI 가전 구독",
+        "insight": "삼성전자 AI 가전 구독 서비스 확대로 연 1조원 매출 달성 임박",
+        "desc": "삼성전자가 인공지능(AI) 가전 구독 서비스 출시 2주년을 맞아 신혼부부와 시니어, 기업 등으로 고객층을 확장하기로 했다. 삼성전자 가전 구독 사업은 본격화한 지 1년 만에 매출이 1조원에 육박하는 등 상승세를 타고... ",
+        "link": "https://www.khan.co.kr/article/202609281526001",
+        "pub_date": "2026.09.28",
+        "reason": "AI 가전 구독 확대, 구독 시장 성장",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 31.0,
+        "datalab_velocity": -32.3,
+        "queries": [
+          "구독 서비스",
+          "소비 트렌드"
+        ]
+      },
+      {
+        "title": "‘AI 구독’ 매출 1조 눈앞…삼성전자, 서비스 확대",
+        "topic": "삼성 AI 가전 구독",
+        "insight": "삼성전자 AI 가전 구독 서비스 확대로 연 1조원 매출 달성 임박",
+        "desc": "삼성전자가 인공지능(AI) 가전 구독 서비스 출시 2주년을 맞아 신혼부부와 시니어, 기업 등으로 고객층을 확장하기로 했다. 삼성전자 가전 구독 사업은 본격화한 지 1년 만에 매출이 1조원에 육박하는 등 상승세를 타고... ",
+        "link": "https://www.khan.co.kr/article/202609282131035",
+        "pub_date": "2026.09.28",
+        "reason": "AI 구독 매출 급증, 서비스 확대 추세",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 31.0,
+        "datalab_velocity": -32.3,
+        "queries": [
+          "구독 서비스",
+          "소비 트렌드"
+        ]
+      },
+      {
+        "title": "[기자수첩] &quot;멤버십 하나 더요&quot; 혜택보다 피로 커진 소비자",
+        "topic": "AI비서 구독료 관리",
+        "insight": "AI비서 서비스 다원화로 구독료 누적 부담 증가, 사용자 피로도 상승",
+        "desc": "기업이 멤버십 혜택을 쇼핑 외 영역으로 계속 넓히는 이유도 여기에 있다. 배송만으로 고객을 붙잡는 데는 한계가 있다. 배달과 콘텐츠를 더하면 소비자가 멤버십을 해지할 때 포기해야 할 혜택이 늘어난다. 멤버십 하나를... ",
+        "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=728410",
+        "pub_date": "2026.09.28",
+        "reason": "멤버십 피로도 증가 트렌드 신호",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택",
+          "소비자 할인"
+        ]
+      },
+      {
+        "title": "추석 선물로 본 ‘GEO’ 전쟁 [구픽 AI, 쓰고 묻다]",
+        "topic": "플랫폼 AI 추석 선물 경쟁",
+        "insight": "네이버·카카오 AI 활용 선물 큐레이션으로 시즈널 서비스 경쟁 심화",
+        "desc": "어도비 역시 아직 이용자 기반은 작다고 전제했지만 AI가 쇼핑 보조 수단으로 활용되는 흐름은 뚜렷하다고 분석했다. ◆ 검색 링크 여러 개 대신 ‘AI 한 답변’ 이런 변화와 함께 부상한 개념이 답변엔진최적화(AEO)와... ",
+        "link": "https://www.ddaily.co.kr/page/view/2026092611110846915",
+        "pub_date": "2026.09.26",
+        "reason": "추석 선물 소비 트렌드 분석",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
           "AI 쇼핑",
-          "브랜드 제휴"
+          "추석 선물 상품"
         ]
       },
       {
-        "title": "가을 여행 시즌…국내 여행 상품·숙소 할인 쏟아진다",
-        "topic": "가을 여행 상품 할인 경쟁",
-        "insight": "추석 연휴 주변 성수기 앞두고 여행사·숙박업체의 할인 프로모션 확대 경쟁",
-        "desc": "연계 프로모션을 전개하며 국내 여행객 수요 대응에 적극 나서는 모양새다. 사진=NOL, 여기어때  최근... 여기어때도 2026 대한민국 숙박세일페스타 하반기편에 참가해 가을 여행 시즌을 맞아 섬 여행지를 찾는 여행객들을... ",
-        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=320315",
-        "pub_date": "2026.09.27",
-        "reason": "가을 여행 시즌 트렌드, 장기 모니터링",
+        "title": "&quot;추석 선물 하나만 골라줘&quot;…네이버·카카오 AI에 맡겨보니",
+        "topic": "플랫폼 AI 추석 선물 경쟁",
+        "insight": "네이버·카카오 AI 활용 선물 큐레이션으로 시즈널 서비스 경쟁 심화",
+        "desc": "네이버, 계속 물으며 선택지 좁혀…&quot;하나만 골라줘&quot; 네이버플러스 스토어 AI 쇼핑 에이전트에 품목을 정하지 않고 부모님께 드릴 추석 선물을 추천해달라고 요청했다. AI 쇼핑 에이전트는 건강식품, 안마·헬스케어... ",
+        "link": "https://www.news1.kr/it-science/internet-platform/6300294",
+        "pub_date": "2026.09.26",
+        "reason": "AI 기반 선물 추천 소비 행동 변화",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "가을 시즌 프로모션",
-          "가을 여행 캠페인"
+          "AI 쇼핑",
+          "추석 선물 상품"
         ]
       }
     ],
     "risk": [
       {
-        "title": "플랫폼 키우다 보안 놓쳤나…쿠팡 이어 티빙 소환하는 '보안 국감'",
-        "topic": "대형 플랫폼 보안 논란",
-        "insight": "쿠팡, 티빙 등 주요 플랫폼의 개인정보 보안 문제가 국정감시 대상으로 부각",
-        "desc": "두 플랫폼은 업종은 다르지만 생활 밀착형 데이터를 대규모로 축적한다는 점에서는 닮아있다. 빠른 회원 확대와 시장 점유율 경쟁 뒤에 보안 투자와 내부 통제가 충분했는지를 묻는 자리라는 점도 유사하다. 티빙의... ",
-        "link": "https://www.sisajournal.com/news/articleView.html?idxno=388278",
-        "pub_date": "2026.09.23",
-        "reason": "제휴 플랫폼(티빙) 보안 이슈로 이미지 리스크 전파",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "플랫폼 경쟁"
-        ]
-      },
-      {
         "title": "불매 기류 잦아드니 다시 손잡나…금융권, '스타벅스 마케팅' 재시동",
-        "topic": "스타벅스 불매 사태",
-        "insight": "불매 운동 진정 추세 속 금융기관의 스타벅스 마케팅 재개 움직임 포착",
+        "topic": "스타벅스 탱크데이 사태",
+        "insight": "불매 운동 진정 후 금융권이 스타벅스 제휴 마케팅을 재개하며 사태 진정 신호",
         "desc": "신한카드는 당초 올해 상반기에 제휴카드를 출시할 계획이었지만, 스타벅스 마케팅 논란이 일자 일정을 연기한 바 있다. 지난해 은행권 최초로 스타벅스 제휴상품 'KB별별통장'을 출시했던 KB국민은행은 지난 1일... ",
         "link": "https://www.sisajournal.com/news/articleView.html?idxno=388079",
         "pub_date": "2026.09.22",
-        "reason": "스타벅스 불매 기류 완화, 제휴 재검토 신호",
-        "priority": 2,
+        "reason": "스타벅스 불매 해제 후 금융사 재제휴",
+        "priority": 3,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
@@ -367,339 +344,318 @@
     ],
     "battle": [
       {
-        "title": "우버-배민 기업결합 사전심사 착수…택시·배달 플랫폼 경쟁 영향 살핀...",
-        "topic": "우버-배민 기업결합 심사",
-        "insight": "우버의 배민 인수에 대해 공정위가 택시·배달 플랫폼 결합의 경쟁 영향을 심사 착수",
-        "desc": "이에 따라 공정위는 이번 기업결합이 각 플랫폼 시장의 경쟁구조와 경쟁사업자의 사업활동, 이용자와 입점업체의 선택 등에 미치는 영향을 종합적으로 살펴본다는 방침이다. 이번 심사는 기업결합 신고에 앞서 경쟁제한... ",
-        "link": "https://www.newsis.com/view/NISX20260922_0003800362",
-        "pub_date": "2026.09.22",
-        "reason": "우버-배민 결합 공정위 심사, 배달 플랫폼 경쟁 급변",
+        "title": "[IT돋보기] '혜택 늘리고 신규 서비스 도입' 네이버 VS 카카오 멤버십 격...",
+        "topic": "네카오 멤버십 경쟁",
+        "insight": "네이버·카카오가 서비스 통합과 혜택 확대로 멤버십 경쟁을 본격화",
+        "desc": "카카오는 이모티콘, 선물하기, 멜론(음원) 등 기존 유료 서비스와 새로운 혜택을 멤버십으로 모아 이용자에게 새로운 경험을 제공한다는 구상이다. 오는 10월 일부 제한된 형태로 멤버십이 선보인다. 초기 서비스... ",
+        "link": "http://www.inews24.com/view/2009038",
+        "pub_date": "2026.09.26",
+        "reason": "네이버·카카오 멤버십 경쟁 본격화, 긴급 모니터링",
         "priority": 3,
-        "cross_query_count": 2,
+        "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "플랫폼 경쟁",
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "서비스 묶고 혜택 늘리고…네카오 멤버십 경쟁 본격화",
+        "topic": "네카오 멤버십 경쟁",
+        "insight": "네이버·카카오가 서비스 통합과 혜택 확대로 멤버십 경쟁을 본격화",
+        "desc": "넷플릭스와 스포티파이 등의 콘텐츠를 멤버십 혜택으로 제공하는 한편, 컬리와 함께 선보인 컬리N마트로 장보기와 새벽배송을 연계했습니다. 네이버에 따르면 넷플릭스 제휴 이후 분기 멤버십 매출이 16% 넘게 증가했고... ",
+        "link": "http://www.newstomato.com/ReadNews.aspx?no=1314822&inflow=N",
+        "pub_date": "2026.09.27",
+        "reason": "네카오 멤버십 경쟁 본격화, T멤버십 위협",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "멤버십 혜택"
+        ]
+      },
+      {
+        "title": "우버, 배민 인수 시동…국내 배달시장 재도전",
+        "topic": "우버 배민 인수",
+        "insight": "우버가 배민 인수를 추진하며 국내 배달시장 재진입을 본격화",
+        "desc": "국내에 배달 서비스를 선보였다가 쓴 맛을 본 적 있는 우버가 또 다시 국내 배달시장을 두드리고 있습니다. 이번엔 국내 1위 배달 플랫폼 배달의 민족을 인수하는 방법으로 배달시장에 뛰어들 생각인데요. 류선우 기자와... ",
+        "link": "https://biz.sbs.co.kr/article_hub/20000336379?division=NAVER",
+        "pub_date": "2026.09.23",
+        "reason": "우버 배민 인수 경쟁 구도 급변",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
           "배달 시장"
         ]
       },
       {
-        "title": "공정위, 우버 '배민' 인수 심사 착수…'택시·배달 결합' 경쟁 영향 본다",
-        "topic": "우버-배민 기업결합 심사",
-        "insight": "우버의 배민 인수에 대해 공정위가 택시·배달 플랫폼 결합의 경쟁 영향을 심사 착수",
-        "desc": "택시 호출과 배달이라는 서로 다른 플랫폼 간 결합이지만, 멤버십과 광고·프로모션 등을 묶을 경우 국내 플랫폼 시장의 경쟁 구도에 영향을 줄 수 있다는 판단에서다. 공정위는 22일 미국 우버 테크놀로지스(Uber... ",
-        "link": "https://www.etnews.com/20260922000390",
+        "title": "택시·배달 다 잡나...우버, 배민 인수 본격화",
+        "topic": "우버 배민 인수",
+        "insight": "우버가 배민 인수를 추진하며 국내 배달시장 재진입을 본격화",
+        "desc": "예정대로 일정이 진행되면 우버는 8년 만에 국내 배달 시장에 재진입하게 된다. 우버는 2017년 배달 서비스 '우버이츠'를 국내에 출시했지만 2년 뒤 사업을 철수했다. 공정위 관계자는 &quot;국내 택시 호출과 배달앱 시장의... ",
+        "link": "https://magazine.hankyung.com/business/article/202609221461b",
         "pub_date": "2026.09.22",
-        "reason": "우버-배민 결합 심사 착수, 배달 시장 지각변동",
+        "reason": "우버 배민 인수 배달시장 위협",
         "priority": 3,
-        "cross_query_count": 2,
+        "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "플랫폼 경쟁",
           "배달 시장"
         ]
       },
       {
-        "title": "우버의 '배민 인수' 공정위 심사대 오른다 … 택시·배달 플랫폼 결합 주...",
-        "topic": "우버-배민 기업결합 심사",
-        "insight": "우버의 배민 인수에 대해 공정위가 택시·배달 플랫폼 결합의 경쟁 영향을 심사 착수",
-        "desc": "특히 국내 택시 호출 시장에서는 우버가 카카오모빌리티에 이어 2위 사업자이고, 배달앱 시장에서는 배민이 1위 사업자라는 점에서 두 플랫폼의 결합이 경쟁사업자의 사업 활동과 이용자·입점업체의 선택에 미칠 영향도... ",
-        "link": "https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200211.html",
+        "title": "배민에 '우버 이츠' 쓴맛 봤는데…이번엔 우버가 배민 품나 [종합]",
+        "topic": "우버 배민 인수",
+        "insight": "우버가 배민 인수를 추진하며 국내 배달시장 재진입을 본격화",
+        "desc": "2019년 한국 배달시장에서 철수했던 미국 우버가 국내 1위 배달앱 배달의민족을 품고 돌아올 가능성이 커지고 있다. 22일 공정거래위원회에 따르면 우버 테크놀로지스는 배달의민족 운영사 우아한형제들의 최대주주인... ",
+        "link": "https://www.hankyung.com/article/202609221036g",
         "pub_date": "2026.09.22",
-        "reason": "우버-배민 결합 공정위 심사, 배달앱 경쟁 재편",
+        "reason": "우버 배민 인수 시장 재구조화",
         "priority": 3,
-        "cross_query_count": 2,
+        "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "플랫폼 경쟁",
           "배달 시장"
         ]
       },
       {
-        "title": "우버-DH 결합에 플랫폼 시장 '지각변동'…공정위, 현미경 심사 착수",
-        "topic": "우버-배민 기업결합 심사",
-        "insight": "우버의 배민 인수에 대해 공정위가 택시·배달 플랫폼 결합의 경쟁 영향을 심사 착수",
-        "desc": "반면 공정위는 배민의 배달앱 지배력이 택시 호출 시장으로 부당하게 전이되거나, 경쟁 플랫폼 사업자의 진입을 봉쇄하고 입점업체의 선택권을 축소시킬 가능성을 집중 점검한다는 복안이다. 공정위는 이날 시장... ",
-        "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=277086",
+        "title": "우버, 배민 품고 한국 배달시장 재진입하나…공정위 사전심사",
+        "topic": "우버 배민 인수",
+        "insight": "우버가 배민 인수를 추진하며 국내 배달시장 재진입을 본격화",
+        "desc": "이번 인수는 우버의 국내 배달시장 재진입이라는 측면에서도 주목된다. 우버는 2017년 배달 서비스 ‘우버이츠’를 국내에 출시했지만 경쟁에서 밀리면서 2019년 철수했다. 우버는 한때 네이버와 컨소시엄을 구성해 배민... ",
+        "link": "https://www.kyeonggi.com/article/20260922580267",
         "pub_date": "2026.09.22",
-        "reason": "우버-DH 결합 공정위 심사, 플랫폼 경쟁 재편",
+        "reason": "우버 배민 인수 규제 심사 진행",
         "priority": 3,
-        "cross_query_count": 2,
+        "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "플랫폼 경쟁",
           "배달 시장"
         ]
       },
       {
-        "title": "카카오, 첫 통합 멤버십 내놓는다…내달 1일 소프트런칭",
-        "topic": "카카오 통합멤버십 출시",
-        "insight": "카카오가 10월 1일 서비스 통합 멤버십 '카카오멤버십' 소프트런칭 추진",
-        "desc": "김민규 카카오 성과리더는 &quot;카카오멤버십은 단순히 여러 혜택을 묶는 것을 넘어, 이용자들이 하나의 멤버십 안에서 보다 편리하고 유기적인 혜택 경험을 누릴 수 있도록 하는 데 의미가 있다&quot;며 &quot;향후 카카오멤버십을... ",
-        "link": "https://www.newsway.co.kr/news/view?ud=2026092109270900658",
-        "pub_date": "2026.09.21",
-        "reason": "카카오 통합멤버십 출시, T멤버십과 직접 경쟁",
+        "title": "우버, 배달의민족 새 주인 되나…공정위 기업결합 사전심사 착수",
+        "topic": "우버 배민 인수",
+        "insight": "우버가 배민 인수를 추진하며 국내 배달시장 재진입을 본격화",
+        "desc": "우버는 과거 국내 배달시장에 직접 진출한 전력도 있다. 우버는 2017년 국내에서 음식배달 서비스인 우버이츠를 시작했지만 2019년 서비스를 종료했다. 이번 DH 인수가 마무리되면 배민을 통해 다시 국내 배달시장에... ",
+        "link": "https://biz.heraldcorp.com/article/10882192?ref=naver",
+        "pub_date": "2026.09.22",
+        "reason": "우버-배민 결합 시 택시+배달 멤버십 경쟁 구도 급변",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "배달 시장"
         ]
       },
       {
-        "title": "카카오, 통합 멤버십 ‘카카오멤버십’ 10월 1일 첫선",
-        "topic": "카카오 통합멤버십 출시",
-        "insight": "카카오가 10월 1일 서비스 통합 멤버십 '카카오멤버십' 소프트런칭 추진",
-        "desc": "카카오멤버십은 이모티콘 플러스와 톡클라우드, 선물하기, 멜론, 카카오페이, 카카오페이증권 등 여러 서비스를 연계해 이용자에게 혜택을 제공하는 상품이다. 카카오는 이날부터 카카오멤버십 오픈 알림 신청을 받는다.... ",
-        "link": "https://www.donga.com/news/It/article/all/20260921/134710597/1",
-        "pub_date": "2026.09.21",
-        "reason": "카카오 통합멤버십 10월 출시, 경쟁 멤버십 혜택 확대",
+        "title": "배민, ‘AI 기능·새 배민클럽’ 승부수…배달 플랫폼 대전 2라운드 점화",
+        "topic": "배달 플랫폼 경쟁 심화",
+        "insight": "배민이 AI·멤버십 강화로 배달 플랫폼 경쟁의 새 국면을 형성",
+        "desc": "이는 올해 5월 쿠팡이츠가 와우 회원을 넘어 일반 고객에게까지 무료배달을 전면 확대한 뒤, 배민 역시 비구독 회원 대상 무료배달로 맞불을 놓으면서 배달비 무료가 시장의 기본 조건으로 고착화된 데 따른 결과로... ",
+        "link": "https://www.ceoscoredaily.com/page/view/2026092815523516726",
+        "pub_date": "2026.09.28",
+        "reason": "배민 AI·새 구독팩 출시로 경쟁 심화",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "배달 시장"
         ]
       },
       {
-        "title": "카카오, 첫 통합 멤버십 다음달 1일 공개…이모티콘·멜론·페이 묶는다",
-        "topic": "카카오 통합멤버십 출시",
-        "insight": "카카오가 10월 1일 서비스 통합 멤버십 '카카오멤버십' 소프트런칭 추진",
-        "desc": "현재 공개된 신규 혜택은 멤버십 가입자를 위한 웰컴 혜택과 선물하기 추가 적립 등이다. 멤버십 가격과 서비스별 구체적인 혜택, 가입 방식은 소프트런칭 당일 공개한다. 카카오는 서비스 안정화를 위해 초기에는 소규모... ",
-        "link": "https://www.dailian.co.kr/news/view/1693176/?sc=Naver",
-        "pub_date": "2026.09.21",
-        "reason": "카카오 통합멤버십 다중 서비스 묶음, T멤버십 경쟁 구도 변화",
+        "title": "택시 이어 배달까지…우버 '배민 인수' 본격 시동",
+        "topic": "우버 배민 인수",
+        "insight": "우버가 배민 인수를 추진하며 국내 배달시장 재진입을 본격화",
+        "desc": "공정위 승인 등을 거쳐 우버가 계획대로 내년에 딜리버리히어로를 인수하면 과거 경쟁 상대였던 배달의민족을 품고 8년 만에 국내 배달시장에 다시 진입하게 된다. 공정위는 심사 과정에서 국내 택시 호출과 배달앱... ",
+        "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609220136&t=NN",
+        "pub_date": "2026.09.22",
+        "reason": "우버 배민 인수 공정위 심사 택시+배달 결합 위협",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
+          "배달 시장"
         ]
       },
       {
-        "title": "카카오, 통합 멤버십 '카카오멤버십' 10월 1일 소프트런칭",
-        "topic": "카카오 통합멤버십 출시",
-        "insight": "카카오가 10월 1일 서비스 통합 멤버십 '카카오멤버십' 소프트런칭 추진",
-        "desc": "카카오는 신규 가입자를 위한 웰컴 혜택과 선물하기 추가 적립 등 멤버십 이용자를 위한 혜택을 제공할 예정이다. 구체적인 혜택과 가입 방법은 10월 1일 공개한다. 카카오는 다음 달 1일 소프트런칭 방식으로 서비스를... ",
-        "link": "https://www.cnbizm.com/news/articleView.html?idxno=315830",
-        "pub_date": "2026.09.21",
-        "reason": "카카오 통합멤버십 소프트런칭, 경쟁 멤버십 신규 출시",
+        "title": "7년 만에 다시 韓 배달시장…우버는 왜 배민을 택했나",
+        "topic": "우버 배민 인수",
+        "insight": "우버가 배민 인수를 추진하며 국내 배달시장 재진입을 본격화",
+        "desc": "7년 전 자체 배달 서비스 ‘우버이츠’로 한국 배달시장에 뛰어들었다가 철수했던 우버가 이번에는 배달앱을 직접 키우는 대신 이미 시장에 자리 잡은 배민을 인수하는 방식으로 재도전에 나선다. 23일 업계 등에 따르면... ",
+        "link": "https://www.kukinews.com/article/view/kuk202609230174",
+        "pub_date": "2026.09.23",
+        "reason": "우버 배민 인수 배달시장 판도 재편",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "카카오멤버십, 10월1일 베일 벗는다…&quot;소프트론칭 형태&quot;",
-        "topic": "카카오 통합멤버십 출시",
-        "insight": "카카오가 10월 1일 서비스 통합 멤버십 '카카오멤버십' 소프트런칭 추진",
-        "desc": "김민규 카카오 성과리더는 &quot;카카오멤버십은 단순히 여러 혜택을 묶는 것을 넘어 이용자들이 하나의 멤버십 안에서 보다 편리하고 유기적인 혜택 경험을 누릴 수 있도록 하는 데 의미가 있다&quot;며 &quot;향후 카카오멤버십을... ",
-        "link": "https://www.ddaily.co.kr/page/view/2026092109384689947",
-        "pub_date": "2026.09.21",
-        "reason": "카카오멤버십 베일 벗음, 통합멤버십 경쟁 강화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "카카오, 10월 1일 유료 멤버십 '소프트런칭'…초기 이용자 선착순 모집",
-        "topic": "카카오 통합멤버십 출시",
-        "insight": "카카오가 10월 1일 서비스 통합 멤버십 '카카오멤버십' 소프트런칭 추진",
-        "desc": "구체적인 멤버십 혜택은 10월 1일 공개할 예정이다. 21일부터 카카오멤버십 톡채널을 친구 추가하면 소프트런칭 오픈 알림을 받을 수 있다. 카카오는 10월 1일 해당 톡채널을 통해 오픈 알림 메시지와 가입 신청 링크를... ",
-        "link": "https://www.ajunews.com/view/20260921091727957",
-        "pub_date": "2026.09.21",
-        "reason": "카카오멤버십 유료 소프트런칭, T멤버십 경쟁 우위 위협",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택"
+          "배달 시장"
         ]
       }
     ],
     "benchmark": [
       {
-        "title": "LG유플러스, 추석 연휴 맞아 여행·빈집·집콕 서비스·혜택 운영",
-        "topic": "LGU+ 추석 연휴 맞춤 혜택",
-        "insight": "LG유플러스, 추석 연휴 고객 세분화하여 로밍·홈캠·구독 서비스 할인 혜택 확대 운영",
-        "desc": "LG유플러스 관계자는 &quot;추석 연휴 기간 고객이 해외에서는 로밍 서비스를, 집을 비울 때는 스마트홈 서비스를, 집에서는 AI·콘텐츠와 멤버십 혜택을 상황에 따라 이용할 수 있도록 관련 서비스와 이벤트를 운영할... ",
-        "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7185721",
-        "pub_date": "2026.09.23",
-        "reason": "추석 시즌 멤버십 혜택 기획 벤치마크",
-        "priority": 2,
+        "title": "[마케팅 인사이트] 러닝화 사면 마라톤 참가권 제공...기업들의 '러닝 마...",
+        "topic": "기업 러닝 마케팅 확대",
+        "insight": "스포츠 참여 연계형 프로모션으로 브랜드 체험과 고객 확보를 동시에 추진 중",
+        "desc": "마라톤 참가권이 러닝화 판매를 위한 새로운 마케팅 카드가 됐다. 러닝화를 구매하면 참가권을 주고 일정... 스포츠 브랜드와 유통기업, 언론사가 손잡으면서 스포츠 마케팅의 방식도 달라지고 있다. 대회 당일 브랜드를... ",
+        "link": "https://www.banronbodo.com/news/articleView.html?idxno=33076",
+        "pub_date": "2026.09.28",
+        "reason": "러닝 마케팅 시즌 이벤트 사례",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 42.5,
-        "datalab_velocity": -65.7,
+        "datalab_score": 48.6,
+        "datalab_velocity": -43.1,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "앱 마케팅",
+          "스포츠 마케팅"
         ]
       },
       {
-        "title": "LGU+, 추석 연휴 고객 혜택 확대…로밍·홈캠·구독 할인",
-        "topic": "LGU+ 추석 연휴 맞춤 혜택",
-        "insight": "LG유플러스, 추석 연휴 고객 세분화하여 로밍·홈캠·구독 서비스 할인 혜택 확대 운영",
-        "desc": "장시간 집을 비우는 고객은 홈캠·도어캠 등 스마트홈 서비스를 이용할 수 있으며, 집에서 연휴를 보내는 고객에게는 AI·콘텐츠 구독과 멤버십 할인 혜택을 제공한다. 우선 LG유플러스는 올해 말까지 ‘2026 U+로밍... ",
-        "link": "https://biz.heraldcorp.com/article/10882826?ref=naver",
-        "pub_date": "2026.09.23",
-        "reason": "경쟁사 추석 시즌 혜택 구조, 기획 참고",
-        "priority": 2,
+        "title": "롯데백화점, 10월 황금연휴 잡는다…스포츠 축제부터 최대 40% 할인까지",
+        "topic": "연휴 소비촉진 할인전",
+        "insight": "추석·황금연휴를 겨냥해 백화점·이커머스 전 채널이 대폭 할인 프로모션 전개",
+        "desc": "가을 정기세일도 동시에 진행한다. 롯데백화점은 10월 1일부터 11일까지 백화점 전점에서 정기세일을 열고 참여 브랜드 상품을 최대 40% 할인한다. 주말에는 구매 금액의 최대 5~10%를 롯데상품권으로 돌려주는 프로모션... ",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=550727",
+        "pub_date": "2026.09.28",
+        "reason": "백화점 시즌 할인·이벤트 사례",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 42.5,
-        "datalab_velocity": -65.7,
+        "datalab_score": 48.6,
+        "datalab_velocity": -43.1,
         "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
+          "가을 할인 프로모션",
+          "스포츠 마케팅"
         ]
       },
       {
-        "title": "LG유플러스, 추석 연휴 고객 상황별 서비스·혜택 선보여",
-        "topic": "LGU+ 추석 연휴 맞춤 혜택",
-        "insight": "LG유플러스, 추석 연휴 고객 세분화하여 로밍·홈캠·구독 서비스 할인 혜택 확대 운영",
-        "desc": "LG유플러스는 추석 기간 고객이 해외에서는 로밍을, 외출로 집을 비울 때는 스마트홈을, 집 안에서는 AI·콘텐츠와 멤버십 혜택을 각자 상황에 맞게 활용할 수 있도록 관련 서비스와 이벤트를 운영한다는 방침이다.",
-        "link": "https://www.nextdaily.co.kr/news/articleView.html?idxno=253323",
-        "pub_date": "2026.09.23",
-        "reason": "경쟁사 추석 맞춤 혜택 사례 벤치마킹",
-        "priority": 2,
+        "title": "SSF샵 &quot;11주년 맞아 쇼핑 혜택 '풍성'&quot;",
+        "topic": "온라인쇼핑몰 기념행사",
+        "insight": "SSF샵이 11주년을 맞아 특정 시점의 구매 유인을 위한 이벤트 강화",
+        "desc": "구매 금액 일부를 멤버십 포인트로 돌려주는 페이백 행사도 진행한다. SSF샵 전체 브랜드 구매 고객에게 결제 금액의 최대 10%를 돌려주고, 일부 20개 브랜드에서는 11% 추가 페이백 혜택을 제공한다. 가을·겨울(FW)... ",
+        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2474429",
+        "pub_date": "2026.09.28",
+        "reason": "백화점 시즌 할인 이벤트 사례",
+        "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 42.5,
-        "datalab_velocity": -65.7,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
         "queries": [
           "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "LGU+, 추석 연휴 고객맞춤 혜택 확대…로밍·홈캠 서비스 강화",
-        "topic": "LGU+ 추석 연휴 맞춤 혜택",
-        "insight": "LG유플러스, 추석 연휴 고객 세분화하여 로밍·홈캠·구독 서비스 할인 혜택 확대 운영",
-        "desc": "장기간 집을 비우는 고객과 집에서 연휴를 보내는 고객에게는 각각 홈캠과 구독·멤버십 할인 혜택을 제공한다. 이달 선보인 '홈캠 Lite'는 월 5500원(3년 약정)에 QHD 화질과 AI 감지 기능을 갖췄다. 보안칩 장착과 영상... ",
-        "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=267199",
-        "pub_date": "2026.09.23",
-        "reason": "경쟁사 추석 시즌 멤버십 혜택 기획 참고",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 42.5,
-        "datalab_velocity": -65.7,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "LG유플러스 &quot;로밍고객 기내 와이파이…추석 연휴 빈집·집콕 서비스&quot;",
-        "topic": "LGU+ 추석 연휴 맞춤 혜택",
-        "insight": "LG유플러스, 추석 연휴 고객 세분화하여 로밍·홈캠·구독 서비스 할인 혜택 확대 운영",
-        "desc": "LG유플러스가 추석 연휴를 맞아 해외 로밍 고객을 대상으로 기내 와이파이 서비스 등 다양한 서비스와... 집에서 연휴를 보내는 고객은 AI·콘텐츠 구독 혜택을 이용할 수 있다. LG유플러스는 이달 30일까지 AI·콘텐츠... ",
-        "link": "https://view.asiae.co.kr/article/2026092314163153867",
-        "pub_date": "2026.09.23",
-        "reason": "경쟁사 추석 연휴 맞춤 혜택 기획 벤치마크",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 42.5,
-        "datalab_velocity": -65.7,
-        "queries": [
-          "구독 서비스",
           "AI 쇼핑"
         ]
       },
       {
-        "title": "이마트, 추석 먹거리 최대 50% 할인... &quot;간편 밀키트부터 소고기까지&quot;",
-        "topic": "이마트 추석 시즌 프로모션",
-        "insight": "이마트, 추석 연휴 맞춰 식품·밀키트 최대 50% 할인으로 선물세트 수요 대응",
-        "desc": "추석 연휴를 앞두고 대형마트가 가족 단위 소비자를 겨냥한 대규모 먹거리 할인 행사에 돌입했다. 22일 이마트는 오는 24일부터 30일까지 추석 명절 연휴를 맞아 온 가족이 함께 즐길 수 있는 먹거리 중심의 할인 행사를... ",
-        "link": "https://www.insight.co.kr/news/574860",
-        "pub_date": "2026.09.22",
-        "reason": "추석 시즌 할인 프로모션 사례, 기획 참고",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인",
-          "추석 연휴 마케팅"
-        ]
-      },
-      {
-        "title": "이마트, 추석 연휴 맞이 가족 먹거리 할인 행사 진행",
-        "topic": "이마트 추석 시즌 프로모션",
-        "insight": "이마트, 추석 연휴 맞춰 식품·밀키트 최대 50% 할인으로 선물세트 수요 대응",
-        "desc": "명절 연휴 기간 온 가족이 모여 함께 식사하거나 간편하게 음식을 준비할 수 있도록 주요 신선식품과 간편 먹거리 할인 혜택을 대폭 강화했습니다. 우선 가족 단위 소비자를 겨냥해 달링다운 와규와 국내산 브랜드 삼겹살... ",
-        "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4108111",
-        "pub_date": "2026.09.22",
-        "reason": "경쟁사 추석 먹거리 할인 기획, 벤치마킹",
-        "priority": 2,
-        "cross_query_count": 2,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비자 할인",
-          "추석 연휴 마케팅"
-        ]
-      },
-      {
-        "title": "이마트, 생활용품보다 '주류'…추석 선물세트 8위→4위 껑충",
-        "topic": "이마트 추석 시즌 프로모션",
-        "insight": "이마트, 추석 연휴 맞춰 식품·밀키트 최대 50% 할인으로 선물세트 수요 대응",
-        "desc": "이마트, 추석 주류 선물세트 소비 트렌드 변화. 자료= 이마트. 그래픽= 챗지피티. 생활용품이 차지하던 자리를 주류가 대체하면서 선물 품목의 순위에도 변화가 나타났다. 주류 가운데서는 위스키를 비롯한 양주... ",
-        "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490368",
-        "pub_date": "2026.09.26",
-        "reason": "추석 선물세트 트렌드, 시즌 기획 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "소비 트렌드",
-          "추석 선물 트렌드"
-        ]
-      },
-      {
-        "title": "모바일 앱으로 1200개 골프장 이용…멤버십 구독 땐 그린피 할인",
-        "topic": "외식·라이프 앱 구독 경쟁",
-        "insight": "골프장·외식업계, 자사 앱 구독 멤버십으로 그린피·혜택 할인 통해 고객 확보 전쟁",
-        "desc": "할인 혜택을 적용받는다. 법인 및 개인 회원들의 골프장 선택 폭을 넓히고, 접대 및 출장 시 이동 동선에 맞춘 예약 편의성을 제공하는 것도 강점이다. 장 대표는 “골프 멤버십 서비스의 핵심은 회원과의 약속을... ",
-        "link": "https://www.hankyung.com/article/2026092771361",
-        "pub_date": "2026.09.27",
-        "reason": "구독형 멤버십 혜택 사례, 장기 벤치마킹 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 42.5,
-        "datalab_velocity": -65.7,
-        "queries": [
-          "멤버십 혜택",
-          "구독 서비스"
-        ]
-      },
-      {
-        "title": "팬미팅에 굿즈까지…외식업계, 자사앱 혜택 경쟁",
-        "topic": "외식·라이프 앱 구독 경쟁",
-        "insight": "골프장·외식업계, 자사 앱 구독 멤버십으로 그린피·혜택 할인 통해 고객 확보 전쟁",
-        "desc": "주문이 늘어날수록 가맹점의 중개수수료 부담도 커질 수 있다&quot;며 &quot;자사앱은 중개수수료 부담을 낮추고 고객 데이터를 직접 확보할 수 있다는 장점이 있어 외식업체들도 전용 혜택과 멤버십을 강화하고 있다&quot;고 말했다.",
-        "link": "https://www.newsway.co.kr/news/view?ud=2026092216180356115",
-        "pub_date": "2026.09.26",
-        "reason": "외식업 자사앱 혜택 사례, 멤버십 기획 참고",
+        "title": "롯데백화점 광주점, 가을 웨딩페어…혼수·가전 혜택 강화",
+        "topic": "연휴 소비촉진 할인전",
+        "insight": "추석·황금연휴를 겨냥해 백화점·이커머스 전 채널이 대폭 할인 프로모션 전개",
+        "desc": "구매 혜택을 강화한다. 롯데백화점 광주점은 내달 2일부터 11일까지 '롯데웨딩멤버스' 고객을 대상으로 '롯데웨딩페어'를 진행한다고 밝혔다. 롯데웨딩멤버스는 예비부부를 위한 롯데백화점의 웨딩 전용 멤버십... ",
+        "link": "https://view.asiae.co.kr/article/2026092812530097139",
+        "pub_date": "2026.09.28",
+        "reason": "백화점 웨딩 이벤트 프로모션",
         "priority": 1,
         "cross_query_count": 2,
         "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
           "멤버십 혜택",
-          "플랫폼 경쟁"
+          "가을 할인 프로모션"
+        ]
+      },
+      {
+        "title": "추석 장보기부터 가을옷·온열매트까지…이커머스 연휴 할인전",
+        "topic": "연휴 소비촉진 할인전",
+        "insight": "추석·황금연휴를 겨냥해 백화점·이커머스 전 채널이 대폭 할인 프로모션 전개",
+        "desc": "추석 연휴에도 이커머스 할인전은 계속된다. 명절 음식 준비를 위한 먹거리부터 가을옷, 가전제품... 간편식 수요를 잡는 동시에 가을옷과 난방용품까지 앞당겨 판매하면서 명절 이후 소비까지 이어가려는 전략이다.",
+        "link": "https://www.segye.com/newsView/20260926503186?OutUrl=naver",
+        "pub_date": "2026.09.26",
+        "reason": "추석 시즌 이커머스 할인 사례",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "이커머스 전략",
+          "추석 선물 상품"
+        ]
+      },
+      {
+        "title": "가을 소비 잡는다…춘천·인제, 할인 마케팅",
+        "topic": "연휴 소비촉진 할인전",
+        "insight": "추석·황금연휴를 겨냥해 백화점·이커머스 전 채널이 대폭 할인 프로모션 전개",
+        "desc": "춘천시는 상품권 할인과 함께 10~11월 두 달간 땡겨요 이용자를 대상으로 3천 원 할인쿠폰과 최대 3천 원의 배달비 지원도 진행한다.지역화폐 사용처를 공공 배달앱으로 연결해 소비자의 비용 부담을 낮추는 동시에... ",
+        "link": "https://news.mtn.co.kr/news-detail/2026092809490699391",
+        "pub_date": "2026.09.28",
+        "reason": "가을 시즌 지역 할인 마케팅",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "소비자 할인",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "스마트카라, 이사·혼수철 맞아 음식물처리기 최대 57% 할인",
+        "topic": "생활가전 이사철 할인",
+        "insight": "이사·혼수 시즌에 맞춰 주방가전 깊은 할인으로 수요층 공략",
+        "desc": "서미영 기자 | 가을 이사철과 결혼 성수기를 앞두고 음식물처리기를 최대 57% 할인된 가격에 살 수 있는 행사가 열린다. 생활가전 기업 스마트카라는 이사를 하거나 신혼살림을 꾸리는 소비자를 겨냥한 '이사·웨딩... ",
+        "link": "http://digitalchosun.dizzo.com/site/data/html_dir/2026/09/28/2026092880065.html",
+        "pub_date": "2026.09.28",
+        "reason": "혼수철 맞춤 상품 할인 프로모션",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "소비자 할인",
+          "가을 할인 프로모션"
+        ]
+      },
+      {
+        "title": "지그재그, 가을 직잭팟 개막…쿠폰팩부터 용돈 이벤트까지",
+        "topic": "패션앱 가을 이벤트",
+        "insight": "지그재그가 쿠폰·현금 이벤트를 통해 가을 시즌 구매 욕구 자극",
+        "desc": "지급하는 이벤트로 2인 팀을 완성하는 고객들에게는 100원부터 1만 원까지 랜덤 포인트를 지급하고, 20인 팀을 모으면 팀원 전원에게 3000포인트를 지급한다. 카카오스타일 관계자는 &quot;추석 연휴 이후 가을 의류를... ",
+        "link": "https://www.news1.kr/industry/distribution/6302903",
+        "pub_date": "2026.09.28",
+        "reason": "이커머스 플래시 세일 프로모션 사례",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 9.5,
+        "datalab_velocity": -0.9,
+        "queries": [
+          "추석 연휴 이벤트",
+          "가을 할인 프로모션"
+        ]
+      },
+      {
+        "title": "4일간의 2026 추석 연휴, 게임사 이벤트 '모아보기'",
+        "topic": "게임사 추석 이벤트",
+        "insight": "장기 연휴 기간 게임 이용 증가를 노린 플랫폼별 이벤트 프로모션 확대",
+        "desc": "온라인 야구 게임 '슬러거'는 27일까지 추석 연휴 운영자 이벤트를 진행한다. 이벤트 기간 경험치 획득량, 포인트샵 획득 포인트 3배 상향과 함께 매일 접속해 경기를 진행한 플레이어는 게임머니 등 다양한 아이템을... ",
+        "link": "https://www.gameshot.net/common/con_view.php?code=GA6ab39c9bf2836",
+        "pub_date": "2026.09.23",
+        "reason": "게임사 연휴 이벤트 사례",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 9.5,
+        "datalab_velocity": -0.9,
+        "queries": [
+          "추석 연휴 이벤트",
+          "추석 선물 상품"
         ]
       }
     ]
