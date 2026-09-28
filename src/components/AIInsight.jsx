@@ -156,7 +156,7 @@ const compGroups = [
       },
       {
         brand: '매드포갈릭',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '30% 할인 (VIP 50%, 최대 3만원)' }], date: 'T day · 9.30' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '2.5만원 할인 (8만원 이상 주문 시)' }], date: '투쁠 2차 · 9.10' },
