@@ -7,7 +7,7 @@ export const trendSignals = [
   {
     brand: '스타벅스',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'kt',  label: 'KT',   prog: '상시',  benefit: '[전 등급] 사이즈업' },
       { id: 'lgu', label: 'LGU+', prog: 'VIP콕', benefit: '[VVIP] 아메리카노 1잔 무료 / [VIP] 더블 사이즈업 무료' },
@@ -21,7 +21,7 @@ export const trendSignals = [
     headline: [
       '마이 스타 커피 캠페인 론칭(9.22)',
       '결제액 9월 상승 · 회복세 지속',
-      '추석 1+1 전병·스누피 이벤트',
+      '커피 앰배서더 2026 탄생(9.27)',
     ],
     impact: 'KT 상시·LGU+ VIP콕 운영 중 · SKT 미운영 · 결제액 9월 상승 회복세 — 마이 스타 커피 캠페인 론칭(9.22)',
     links: [
@@ -32,17 +32,17 @@ export const trendSignals = [
   {
     brand: '메가커피',
     membership: 'watchlist',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 25,
+    news7d: 20,
     negScore: 480,
     headline: [
       '식품위생법 위반 184건 · 업계 2위',
-      '추석 커스터마이징 세트(~9.30)',
+      '컴포즈·메가커피 무더기 위생위반(9.23)',
       '2차 신메뉴 출격 · 컵빙 제쳐',
     ],
     impact: '3사 미운영 · 식품위생법 위반 184건(업계 2위) · 추석 커스터마이징 세트(9.24~30) — 신메뉴·이벤트로 위생 논란 상쇄',
@@ -53,7 +53,7 @@ export const trendSignals = [
   {
     brand: '피자헛',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[VIP] 30% 할인 · [G·S] 20% 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 15% 할인' },
@@ -63,12 +63,12 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 3,
+    news7d: 5,
     negScore: 200,
     headline: [
       '얌브랜즈 → 롱레인지캐피털 매각(약 4조)',
       'PH코리아 독자 법인 · 한국 영업 지속',
-      '미트칠리 치즈감자 신메뉴 (~9월 말)',
+      '신경영진 "맛으로 재도약"(9.6)',
     ],
     impact: 'SKT·KT·LGU+ 3사 상시 운영 중 · 글로벌 얌브랜즈 → 사모펀드 매각(3Q 완료 예정) — 한국 PH코리아는 독자 법인으로 영업 지속',
     links: [
@@ -79,7 +79,7 @@ export const trendSignals = [
   {
     brand: '메가박스',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 6,000원 할인 (동반 4인)' },
@@ -88,7 +88,7 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 15,
+    news7d: 10,
     negScore: 850,
     headline: [
       '신촌점 9.21 영업종료 · 폐점',
@@ -104,7 +104,7 @@ export const trendSignals = [
   {
     brand: 'CGV',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 최대 4,000원 할인 (11,000원 이상 예매 시)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 최대 5,000원 할인 (동반 4인)' },
@@ -155,7 +155,7 @@ export const trendSignals = [
   {
     brand: 'GS25',
     membership: 'partner',
-    updated: true,
+    updated: false,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 매주 화요일 프레시 푸드 200원 할인 (일1회)' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[VVIP/VIP/골드] 100원 / [일반] 50원 할인' },
@@ -181,13 +181,13 @@ export const trendSignals = [
   {
     brand: '매머드커피',
     membership: 'candidate',
-    updated: false,
+    updated: true,
     telcos: [],
-    strength: 'mid',
+    strength: 'low',
     sources: ['뉴스'],
     direction: 'neu',
     dlSpike: null,
-    news7d: 22,
+    news7d: 15,
     negScore: 280,
     headline: [
       '아이스아메리카노 200원 인상 발표',
@@ -203,7 +203,7 @@ export const trendSignals = [
   {
     brand: '에버랜드',
     membership: 'partner',
-    updated: false,
+    updated: true,
     telcos: [
       { id: 'skt', label: 'SKT', prog: '상시', benefit: '[전 등급] 본인 40%·동반 3인 30% 할인' },
       { id: 'kt',  label: 'KT',  prog: '상시', benefit: '[전 등급] 본인 40%·동반 3인 20% 할인' },
@@ -212,10 +212,10 @@ export const trendSignals = [
     sources: ['뉴스'],
     direction: 'pos',
     dlSpike: null,
-    news7d: 45,
+    news7d: 35,
     negScore: 50,
     headline: [
-      '추석 바오패밀리 이벤트(9.24~27)',
+      '할로윈 가을축제 개막(9.12~11.22)',
       '블러드시티 10주년 · 사파리 도보 개시',
       '파이널 랩 신규 놀이기구 오픈(9.18)',
     ],
@@ -228,18 +228,18 @@ export const trendSignals = [
   {
     brand: 'BHC치킨',
     membership: 'candidate',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'mid',
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: 1.39,
-    news7d: 35,
+    news7d: 30,
     negScore: 500,
     headline: [
       '9월 브랜드평판 1위 · 빅3 재편',
       '가격인상·중량 논란 지속',
-      '베트남 시장 진출',
+      '"신메뉴 돌풍" K-치킨 대표주자(9.29)',
     ],
     impact: '3사 미운영 · 9월 치킨 브랜드 평판 1위(빅3 중 독주) · 가격인상·중량 논란 지속 — DataLab 급상승(1.39)',
     links: [
@@ -250,18 +250,18 @@ export const trendSignals = [
   {
     brand: '엽기떡볶이',
     membership: 'candidate',
-    updated: false,
+    updated: true,
     telcos: [],
     strength: 'low',
     sources: ['뉴스'],
     direction: 'neg',
     dlSpike: null,
-    news7d: 25,
+    news7d: 20,
     negScore: 550,
     headline: [
       '공정위 시정명령(2026.2) · POS강제',
       '5년 위생위반 90건 · 업계 최다',
-      '가맹 분쟁 · 성장세 둔화',
+      '17년만 7% 가격인상 예고(2027.7)',
     ],
     impact: '3사 미운영 · 공정위 시정명령(POS 구매 강제, 2026.2) · 위생위반 5년간 90건 업계 최다 — 브랜드 리스크 확인 후 검토 필요',
     links: [
