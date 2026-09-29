@@ -82,7 +82,7 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 4 (9.30)</span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>Day 4 (9.30)</span></div>
               <ul className="mblist">
                 <li>매드포갈릭 30%할인(VIP50%,최대3만원)</li>
                 <li>파스쿠찌 1만원↑20%할인(VIP40%)</li>

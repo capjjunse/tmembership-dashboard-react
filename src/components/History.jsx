@@ -17,6 +17,13 @@ export default function History() {
         </thead>
         <tbody>
           <tr>
+            <td>2026.10.19</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T 멤버십 상시</td>
+            <td><span className="upd">SK나이츠 신규 제휴 — 전 등급 주중 20%, 주말 15% 할인(동반 1인) (10.19~)</span></td>
+            <td><span className="tb t예정">예정</span></td>
+          </tr>
+          <tr>
             <td>2026.10.14</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
@@ -83,22 +90,36 @@ export default function History() {
             <td>2026.09.30</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
-            <td>루덴시아 제휴 종료 예정 (9.30)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td>루덴시아 제휴 종료 (9.30)</td>
+            <td><span className="tb t종료">종료</span></td>
+          </tr>
+          <tr>
+            <td>2026.09.30</td>
+            <td><span className="cb bs">SKT</span></td>
+            <td>T 멤버십 상시</td>
+            <td><span className="upd">캐리마켓 제휴 종료 — 전 등급 모든 상품 10% 할인(최대 3만원) (9.30)</span></td>
+            <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
             <td>2026.09.30</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
             <td>폴라리스오피스 제휴 종료 (9.30)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
             <td>2026.09.30</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
             <td>낫온리포투데이 제휴 종료 (9.30)</td>
-            <td><span className="tb t예정">예정</span></td>
+            <td><span className="tb t종료">종료</span></td>
+          </tr>
+          <tr>
+            <td>2026.09.30</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+ 멤버십 상시</td>
+            <td><span className="upd">케이팝머치 제휴 종료 — 3천원 할인(3만원 이상 구매 시) (9.30)</span></td>
+            <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
             <td>2026.09.16</td>

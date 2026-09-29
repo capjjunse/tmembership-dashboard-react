@@ -104,11 +104,11 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>Day 4 (9.30) — 매드포갈릭·파스쿠찌·쉐이크쉑 3종</div>
           </a>
           <a href="#hs" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 예정 (9.30)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 (9.30)</div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">캐리마켓 제휴 종료 (9.30)</span></div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 69%·부정 31%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 69%·부정 31%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK 활용도 부족 — T우주 구독 대체 반응 (9.25)</div>
           </a>
 
@@ -128,7 +128,7 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달혜택 "kt요즘 돈이 궁항? 너프라 좀 그럼" (9.23)</div>
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">달달혜택 롯데슈퍼·마트 "가족 4명 다 kt 4계정 받아서" (9.28)</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>달달혜택 롯데슈퍼·마트 "가족 4명 다 kt 4계정 받아서" (9.28)</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
@@ -145,8 +145,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 67%·부정 33%</span></div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">유플투쁠 완무꿀통 "이것도 이제 끝이구나" 알뜰폰 이탈 신호 (9.29)</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 67%·부정 33%</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 완무꿀통 "이것도 이제 끝이구나" 알뜰폰 이탈 신호 (9.29)</div>
           </a>
         </div>
 
