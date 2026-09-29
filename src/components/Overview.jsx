@@ -108,8 +108,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>SK렌터카·빌리카·롯데렌터카 제주 할인율 85%→60% (9.16~)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 72%·부정 28%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">VIP PICK 활용도 부족 — T우주 구독 대체 반응 (9.25)</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 69%·부정 31%</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK 활용도 부족 — T우주 구독 대체 반응 (9.25)</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
@@ -128,7 +128,7 @@ export default function Overview() {
           </a>
           <a href="#sn" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달혜택 "kt요즘 돈이 궁항? 너프라 좀 그럼" (9.23)</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>멤버십 너프 · "가족할인까지 너프시키면 알뜰로 간다" (9.22)</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">달달혜택 롯데슈퍼·마트 "가족 4명 다 kt 4계정 받아서" (9.28)</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bl">LGU+</span></div>
@@ -145,8 +145,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 75%·부정 25%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 노브랜드 10초컷 "10초컷도 안나는건 첨봤습니다" (9.17)</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 67%·부정 33%</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">유플투쁠 완무꿀통 "이것도 이제 끝이구나" 알뜰폰 이탈 신호 (9.29)</span></div>
           </a>
         </div>
 
