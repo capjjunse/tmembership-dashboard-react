@@ -20,7 +20,7 @@ export default function History() {
             <td>2026.10.19</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
-            <td><span className="upd">SK나이츠 신규 제휴 — 전 등급 주중 20%, 주말 15% 할인(동반 1인) (10.19~)</span></td>
+            <td>SK나이츠 신규 제휴 — 전 등급 주중 20%, 주말 15% 할인(동반 1인) (10.19~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
@@ -88,6 +88,13 @@ export default function History() {
           </tr>
           <tr>
             <td>2026.09.30</td>
+            <td><span className="cb bl">LGU+</span></td>
+            <td>U+ 멤버십 상시</td>
+            <td>나폴레옹제과·나폴레옹제과 교대역점 제휴 종료 (9.30)</td>
+            <td><span className="tb t종료">종료</span></td>
+          </tr>
+          <tr>
+            <td>2026.09.30</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
             <td>루덴시아 제휴 종료 (9.30)</td>
@@ -97,7 +104,7 @@ export default function History() {
             <td>2026.09.30</td>
             <td><span className="cb bs">SKT</span></td>
             <td>T 멤버십 상시</td>
-            <td><span className="upd">캐리마켓 제휴 종료 — 전 등급 모든 상품 10% 할인(최대 3만원) (9.30)</span></td>
+            <td>캐리마켓 제휴 종료 — 전 등급 모든 상품 10% 할인(최대 3만원) (9.30)</td>
             <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
@@ -118,7 +125,7 @@ export default function History() {
             <td>2026.09.30</td>
             <td><span className="cb bl">LGU+</span></td>
             <td>U+ 멤버십 상시</td>
-            <td><span className="upd">케이팝머치 제휴 종료 — 3천원 할인(3만원 이상 구매 시) (9.30)</span></td>
+            <td>케이팝머치 제휴 종료 — 3천원 할인(3만원 이상 구매 시) (9.30)</td>
             <td><span className="tb t종료">종료</span></td>
           </tr>
           <tr>
@@ -239,83 +246,6 @@ export default function History() {
             <td>U+ 멤버십 상시</td>
             <td>8월 신규 제휴 3개 — 밀킨(전 제품 10% 할인·최대 2만원), 롱블랙(노트 플랜 1개월 무료), 아이콘골프(편도 2천원·왕복 1천원 할인) (8.1~)</td>
             <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>고객보답</td>
-            <td>고객보답 1차 (7.1~15): 배스킨라빈스 50% 또는 쇼핑라운지 5,000원 할인</td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>KT 멤버십 상시</td>
-            <td>오토오아시스 부가정비 4종(오일·부동액·배터리·타이어) 할인 추가 (7.1~)</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>KT 멤버십 상시</td>
-            <td>MOVV 인천공항이동 왕복편 10% 편도 추가 (7.1~)</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>KT 멤버십 상시</td>
-            <td>AICE 혜택 축소 — 교육VOD 할인 폐지 (7.1~)</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bk">KT</span></td>
-            <td>KT 멤버십 상시</td>
-            <td>클럽디오아시스 제휴 종료 (7.1)</td>
-            <td><span className="tb t종료">종료</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>오붓 오붓패스 15% 할인 (7.1~)</td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>플래시백 계림 본인+동반1인 30% 할인 (7.1~)</td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bs">SKT</span></td>
-            <td>T 멤버십 상시</td>
-            <td>해커스 어학원 30%, 인강 20% 신규 제휴 (7.1~)</td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+ 멤버십 상시</td>
-            <td>7월 신규 제휴 8개 — 프린트베이커리·수공당 등 (7.1~)</td>
-            <td><span className="tb t신규">신규</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+ 멤버십 상시</td>
-            <td>포텔리어 구독권 혜택 축소 — 무료 1개월 → 무료 2주 (7.1 적용)</td>
-            <td><span className="tb t변경">변경</span></td>
-          </tr>
-          <tr>
-            <td>2026.07.01</td>
-            <td><span className="cb bl">LGU+</span></td>
-            <td>U+ 멤버십 상시</td>
-            <td>등급 상향 주기 변경 — 월 2~15일 가입 시 익월 1일 승급 (7.1~)</td>
-            <td><span className="tb t변경">변경</span></td>
           </tr>
         </tbody>
       </table></div>

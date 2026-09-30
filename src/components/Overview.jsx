@@ -101,11 +101,11 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em>Day 4 (9.30) — 매드포갈릭·파스쿠찌·쉐이크쉑 3종</div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">Week 혜택 (10.5~10.9) 공개 — 15종 식음·뷰티·레저</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
+            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">SK나이츠 신규 제휴 예정 (10.19)</span></div>
             <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 (9.30)</div>
-            <div className="ovg2-item"><em className="tg tg-end">종료</em>캐리마켓 제휴 종료 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 69%·부정 31%</div>
@@ -119,8 +119,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>달달혜택 (9.1~9.30, 쇼핑라운지·롯데마트·bhc·버거킹 4종)</div>
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em>문화혜택 (9.1~, 뮤지컬 2종·전시 2종 최대 50%)</div>
+            <div className="ovg2-item"><span className="upd">달달혜택 10월 미공개 — 15일경 공개 예정</span></div>
           </a>
           <a href="#hs" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 명칭 변경 (10.1~)</div>
@@ -138,14 +137,15 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>유독 4천원 할인 (최소 구매 금액 없음)</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-end">종료</em>장기고객데이 (9.24) — 이마트24·윌라·NOL티켓</div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">투쁠 1~8차 (10.13~27) 공개 — 39종 식음·생활·레저</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">컬쳐데이 (10.19~23) — NOL티켓·빛의벙커·시어터</span></div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>도그마루 신규 제휴 예정 (10.14)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 60%·부정 30%·중립 10%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 60%·부정 30%·중립 10%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 완무꿀통 "이것도 이제 끝이구나" 알뜰폰 이탈 신호 (9.29)</div>
           </a>
         </div>
