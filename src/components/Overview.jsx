@@ -105,7 +105,7 @@ export default function Overview() {
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 (9.30)</div>
-            <div className="ovg2-item"><em className="tg tg-end">종료</em><span className="upd">캐리마켓 제휴 종료 (9.30)</span></div>
+            <div className="ovg2-item"><em className="tg tg-end">종료</em>캐리마켓 제휴 종료 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 69%·부정 31%</div>
@@ -145,7 +145,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 67%·부정 33%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 60%·부정 30%·중립 10%</span></div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 완무꿀통 "이것도 이제 끝이구나" 알뜰폰 이탈 신호 (9.29)</div>
           </a>
         </div>
