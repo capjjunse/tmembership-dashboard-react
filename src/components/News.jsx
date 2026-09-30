@@ -63,6 +63,11 @@ export default function News() {
       {tab === 'kt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">KT멤버십, 10월 달.달.혜택 구성 - 3대 테마파크·문화공연까지 풍성</span></span></div>
+            <div className="nsum"><span className="upd">KT가 10월 멤버십 혜택을 공개했다. 10월 달달혜택은 테마파크 3곳(롯데월드, 에버랜드, 경주 불국사), 문화공연(뮤지컬, 연극, 콘서트 등), 외식·쇼핑 등 가을 시즌 맞춤 혜택을 구성했다. 가을 나들이 준비부터 문화생활까지 다양한 제휴사 할인을 통해 고객들의 휴가 계획을 지원한다.</span></div>
+            <div className="nmeta">2026-09-30 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19339" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT, 추석 연휴 맞아 9월 풍성한 멤버십 혜택 선봬</span></div>
             <div className="nsum">KT가 9월 추석 연휴를 맞아 가을 시즌의 차별화된 멤버십 혜택을 선보인다. 가을 골프 시즌을 앞두고 전 등급 고객 대상 골프 아카데미 'QED' 3만원 할인과 VIP 이상 고객 대상 복합 골프 공간 '백야드'의 숏게임 1시간 무료 체험 혜택을 제공한다. 또한 반려동물 플랫폼 '어바웃펫' 할인과 '공차' 할인 혜택을 새롭게 추가했다.</div>
             <div className="nmeta">2026-09-06 · <a href="https://www.eroun.net/news/articleView.html?idxno=46925" target="_blank" rel="noreferrer">이로운넷</a></div>
