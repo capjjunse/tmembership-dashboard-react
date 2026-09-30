@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.09.30';
+const RADAR_SCANNED = '2026.10.01';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -186,19 +186,19 @@ const alCats = [
   // ── T멤버십 우위 ──
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
-    updated: false,
+    updated: true,
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
       { partner: '매드포갈릭', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인 (최대 15,000원)' }, { grade: 'S', desc: '5% 할인 (최대 5,000원)' }] },
       { partner: '아웃백', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인 (월 4회, 일 최대 2만원)' }, { grade: 'S', desc: '5% 할인 (월 4회, 일 최대 1만원)' }] },
       { partner: 'VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: '20% 할인' }] },
-      { partner: '폴 바셋', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '시즌음료 3종 50% 할인 (최대 2잔)' }] },
-      { partner: '잠바주스', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '스무디 3종 50% 할인' }] },
-      { partner: '피자헛', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '크래프티드 플래츠 세트 1만원 또는 파스타 무료' }] },
-      { partner: '고반식당', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '1만원 할인 (5만원 이상 주문 시)' }] },
+      { partner: '폴 바셋', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '시즌음료 3종 50% 할인 (최대 2잔)' }] },
+      { partner: '잠바주스', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '스무디 3종 50% 할인' }] },
+      { partner: '피자헛', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '크래프티드 플래츠 세트 1만원 또는 파스타 무료' }] },
+      { partner: '고반식당', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '1만원 할인 (5만원 이상 주문 시)' }] },
     ]}],
-    reasons: ['T멤버십: 상시 15~30% (매드포갈릭·아웃백·VIPS·도미노·피자헛)', 'T멤버십 VIP: 폴바셋·잠바주스 50%·피자헛·고반식당 VIP PICK (9월)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 15~30% (매드포갈릭·아웃백·VIPS·도미노·피자헛)', 'T멤버십 VIP: 폴바셋·잠바주스 50%·피자헛·고반식당 VIP PICK (10월)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -208,29 +208,22 @@ const alCats = [
       { partner: '에버랜드', deadline: '상시', rows: [
         { grade: '전 등급', desc: '본인 40% 할인, 동반 3인 30% 할인' },
       ]},
-      { partner: '에버랜드', deadline: 'Week 혜택 · 9.7~9.11', rows: [
-        { grade: '전 등급', desc: '종일권 45% 할인 (동반 3인 35% 할인)' },
-      ]},
       { partner: '롯데월드어드벤처', deadline: '상시', rows: [
         { grade: 'V, G', desc: '본인 40% 할인, 동반 3인 30% 할인' },
         { grade: 'S', desc: '본인 40% 할인, 동반 3인 20% 할인' },
       ]},
-      { partner: '롯데월드어드벤처', deadline: 'Week 혜택 · 9.7~9.11', rows: [
-        { grade: '전 등급', desc: '최대 55% 할인 (본인+동반 3명)' },
-      ]},
     ]}],
-    reasons: ['T멤버십: 에버랜드·롯데월드 상시 40%+동반 30%', 'T멤버십 Week 혜택: 에버랜드 45%·롯데월드 55% (9.7~9.11)', '비통신 멤버십: 테마파크 제휴 없음'],
+    reasons: ['T멤버십: 에버랜드·롯데월드 상시 40%+동반 30%', '비통신 멤버십: 테마파크 제휴 없음'],
   },
   {
     icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
-    updated: false,
+    updated: true,
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
-      { partner: 'G car', deadline: 'VIP PICK · 9월', rows: [{ grade: 'V', desc: '대여료 60% + 보험료 5% 할인 (2시간 이상)' }] },
-      { partner: '투루카', deadline: 'Week 혜택 · 9.7~9.11', rows: [{ grade: '전 등급', desc: '카셰어링 70% 할인' }] },
+      { partner: 'G car', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '대여료 60% + 보험료 5% 할인 (2시간 이상)' }] },
     ]}],
-    reasons: ['T멤버십: SK렌터카 상시 85% + VIP PICK G car 60%', 'T멤버십 Week: 투루카 카셰어링 70% (9.7~9.11)', '비통신 멤버십: 카셰어링·렌터카 직접 제휴 없음'],
+    reasons: ['T멤버십: SK렌터카 상시 85% + VIP PICK G car 60%', '비통신 멤버십: 카셰어링·렌터카 직접 제휴 없음'],
   },
   // ── T멤버십 열위 ──
   {
@@ -290,10 +283,8 @@ const alCats = [
       { partner: 'GS25', deadline: '상시 (매주 화)', rows: [{ grade: '전 등급', desc: '프레시 푸드 1,000원당 200원 할인 (일1회, 최대 2만원)' }] },
       { partner: 'CU', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
       { partner: '세븐일레븐', deadline: '상시', rows: [{ grade: 'V, G', desc: '100원 할인' }, { grade: 'S', desc: '50원 할인' }] },
-      { partner: 'CU', deadline: 'Young week · 9.7~9.11', rows: [{ grade: '전 등급', desc: '빵 50% 할인 (6종 택1)' }] },
-      { partner: '이마트24', deadline: 'Young week · 9.7~9.11', rows: [{ grade: '전 등급', desc: '삼각김밥 50% 할인 (7종 택1)' }] },
     ]}],
-    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십 Young week: CU 빵·이마트24 각 50% (9.7~9.11)', 'T멤버십: GS25 화요일 프레시 푸드 200원 상시 · CU·세븐 100원 상시'],
+    reasons: ['네이버플러스: CU 5%+5% 최대 10% 효과 (~26.12.31)', 'T멤버십: GS25 화요일 프레시 푸드 200원 상시 · CU·세븐 100원 상시'],
   },
   {
     icon: '🎬', cat: '영화관', v: 'neut',
@@ -306,14 +297,8 @@ const alCats = [
         { grade: 'V', desc: '무료관람 연3회 / 1+1 연9회 택1' },
         { grade: '전 등급', desc: '4,000원 할인 (11,000원 이상 예매 시)' },
       ]},
-      { partner: 'CGV', deadline: 'Week 혜택 · 9.7~9.11', rows: [
-        { grade: '전 등급', desc: '8,500원 예매 + 매점쿠폰 2종' },
-      ]},
-      { partner: 'CGV', deadline: 'T day · 9.23', rows: [
-        { grade: '전 등급', desc: '8,500원 예매 + 매점쿠폰 2종' },
-      ]},
     ]}],
-    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 4천원 상시 + VIP 무료연3회/1+1연9회', 'T멤버십: CGV 8,500원 예매 Week(9.7~9.11)·9.23 2회'],
+    reasons: ['네이버플러스: 롯데시네마 커버 (월 4회)', 'T멤버십: CGV 4천원 상시 + VIP 무료연3회/1+1연9회'],
   },
   {
     icon: '🏬', cat: '마트·신선', v: 'neut',
@@ -331,11 +316,8 @@ const alCats = [
         { grade: 'V', desc: '짝수월 7%, 홀수월 3% 적립' },
         { grade: 'G, S', desc: '3% 적립' },
       ]},
-      { partner: '노브랜드', deadline: 'T day · 9.2', rows: [
-        { grade: '전 등급', desc: '4만원 이상 20% 할인 (최대 1만원)' },
-      ]},
     ]}],
-    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 V 7%(짝)/3% · T day 노브랜드 20% 할인'],
+    reasons: ['네이버플러스·쿠팡 로켓프레시: 온라인 마트·신선식품 배송 커버', 'T멤버십: 이마트 V 7%(짝)/3% 상시 적립'],
   },
 ];
 
@@ -345,15 +327,15 @@ export const recs = [
   {
     rank: 1,
     brand: 'BHC치킨',
-    updated: false,
-    tag: '매장 2,209개 · DataLab 📈1.39',
-    reason: '치킨 빅3 중 브랜드평판 1위 브랜드 · 전국 2,209개. 9월 DataLab 급상승(📈1.39). 가격인상·중량 논란 지속 중이나 점유율 확대 추세. SKT 미참여.',
+    updated: true,
+    tag: '매장 2,208개 · DataLab 📈1.32',
+    reason: '치킨 빅3 중 브랜드평판 1위 브랜드 · 전국 2,208개. 10월 DataLab 상승세(📈1.32). 국세청 비정기 세무조사 진행 중 — 리스크 선검토 필요. SKT 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 2,209개 · 치킨 빅3 중 최다 매장 (배달·포장 특화)' },
-      { label: '검색 버즈', text: 'DataLab 📈1.39 · 블로그 5만 · 뉴스 100건 — 9월 강세, 브랜드 평판 1위' },
-      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 전국 최대 규모 — 가격인상·중량 논란 리스크 선검토 필요' },
+      { label: '매장 규모', text: '전국 2,208개 · 치킨 빅3 중 최다 매장 (배달·포장 특화)' },
+      { label: '검색 버즈', text: 'DataLab 📈1.32 · 블로그 31만 · 뉴스 100건 — 10월 강세, 브랜드평판 1위 지속' },
+      { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 전국 최대 규모 — 국세청 세무조사(사주 자녀 법인 특혜) 진행 중' },
     ],
-    trend: 'DataLab 1.39 · 블로그 5만 · 뉴스 100건',
+    trend: 'DataLab 1.32 · 블로그 31만 · 뉴스 100건',
     hot: true,
     skt: [],
     kt:  null,
@@ -362,15 +344,15 @@ export const recs = [
   {
     rank: 2,
     brand: '엽기떡볶이',
-    updated: false,
-    tag: '매장 732개 · DataLab ↗1.06',
-    reason: '분식 카테고리 대표 브랜드 · 전국 732개. 배달·포장 특화로 젊은 고객 접점 강점. 공정위 시정명령(2026.2) 및 위생 위반 업계 최다 이력 — 리스크 선검토 필요. SKT 미참여.',
+    updated: true,
+    tag: '매장 732개 · DataLab →0.98',
+    reason: '분식 카테고리 대표 브랜드 · 전국 732개. 올해의 브랜드 대상 떡볶이 9연속(2026.9). DataLab 보합(→0.98). 2027.7 가격 인상 예고 및 공정위 시정명령 이력 — 리스크 선검토 필요. SKT 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 732개 · 분식 카테고리 선두 (배달·포장 특화)' },
-      { label: '검색 버즈', text: 'DataLab ↗1.06 · 블로그 11만 · 뉴스 52건 — 안정적 버즈 유지' },
+      { label: '검색 버즈', text: 'DataLab →0.98 · 블로그 23만 · 뉴스 65건 — 브랜드 대상 수상, 보합 수준' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 분식 카테고리 공백 — 공정위 시정명령 이슈 사전 해소 조건 필요' },
     ],
-    trend: 'DataLab 1.06 · 블로그 11만 · 뉴스 52건',
+    trend: 'DataLab 0.98 · 블로그 23만 · 뉴스 65건',
     hot: true,
     skt: [],
     kt:  null,
@@ -379,15 +361,15 @@ export const recs = [
   {
     rank: 3,
     brand: '봉구스밥버거',
-    updated: false,
-    tag: '매장 484개 · DataLab →0.94',
-    reason: '밥버거 카테고리 1위 브랜드 · 전국 484개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
+    updated: true,
+    tag: '매장 484개 · DataLab →0.82',
+    reason: '밥버거 카테고리 1위 브랜드 · 전국 484개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. DataLab 하락세(→0.82). 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 484개 · 밥버거 카테고리 1위 (점포 수 감소 추세 — 브랜드 규모 축소 진행 중)' },
-      { label: '검색 버즈', text: 'DataLab →0.94 · 블로그 2만 · 뉴스 4건 — 저버즈 구간, 시즌 이슈 없음' },
+      { label: '검색 버즈', text: 'DataLab →0.82 · 블로그 5만 · 뉴스 4건 — 저버즈 지속, DataLab 하락세' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 밥버거 카테고리 공백 — 창업주 마약·갑질 이슈(2024) · 점포 급감 이력 — 브랜드 리스크 선검토 필요' },
     ],
-    trend: 'DataLab 0.94 · 블로그 2만 · 뉴스 4건',
+    trend: 'DataLab 0.82 · 블로그 5만 · 뉴스 4건',
     hot: false,
     skt: [],
     kt:  null,
@@ -462,7 +444,7 @@ export default function AIInsight() {
     <div className="sec" id="ai">
       <div className="sh">
         <span className="st">🤖 AI 인사이트</span>
-        <span className="ss">2026년 <span className="upd">9월</span> 기준</span>
+        <span className="ss">2026년 <span className="upd">10월</span> 기준</span>
         
       </div>
 
@@ -663,7 +645,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer">2026.09.30 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer">2026.10.01 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
