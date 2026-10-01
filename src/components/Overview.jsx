@@ -108,8 +108,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 69%·부정 31%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>VIP PICK 활용도 부족 — T우주 구독 대체 반응 (9.25)</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 72%·부정 28%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">VIP PICK 10월 "이거 좋네영" — 긍정 반응 전환 (10.01)</span></div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
@@ -126,7 +126,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>롯데면세점 VVIP/VIP→GOLD 등급 적용 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>달달혜택 "kt요즘 돈이 궁항? 너프라 좀 그럼" (9.23)</div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">10월 달달혜택 "걍 안쓰는게 혜택인듯" (10.01)</span></div>
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>달달혜택 롯데슈퍼·마트 "가족 4명 다 kt 4계정 받아서" (9.28)</div>
           </a>
 
