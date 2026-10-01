@@ -97,8 +97,9 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bs">SKT</span></div>
           {/* ⛔ SKT 상시·VIP 카드 — GS25 "프레시 푸드"·스타벅스 "사이즈업"을 절대 변경 항목으로 다시 넣지 말 것 (2026.09.28, 반복 위반). RegularBenefits.jsx의 해당 행 인라인 주석·update_rules.txt 규칙 13 참고 — 둘 다 동의어일 뿐 실제 변경 아님 */}
-          <a href="#rg" className="ovg2-card cs">
+          <a href="#vp" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">VIP Pick 카페 — 배달의민족(파리바게뜨) 1만원 할인으로 교체</span></div>
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">Week 혜택 (10.5~10.9) 공개 — 15종 식음·뷰티·레저</span></div>
@@ -114,7 +115,8 @@ export default function Overview() {
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           {/* ⛔ KT VIP 카드 — 스타벅스 "사이즈업으로 변경" 절대 다시 넣지 말 것 (2026.09.28, 반복 위반). RegularBenefits.jsx 스타벅스 행 인라인 주석·update_rules.txt 규칙 13 참고 — "월 1회" 표기 그대로면 변경 아님 */}
-          <a href="#vp" className="ovg2-card ck">
+          <a href="#rg" className="ovg2-card ck">
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">매드포갈릭 골드 등급 15%→5% 하향</span></div>
             <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>지니TV VOD 1만원 이용권 신설 (VVIP·VIP초이스, 9월~)</div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
           </a>

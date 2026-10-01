@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">SKT, AI로 읽어낸 고객 취향 T 멤버십 혜택에 담았다</span></span></div>
+            <div className="nsum"><span className="upd">SK텔레콤이 마케팅 AI 에이전트가 제안한 혜택 개념을 실제 멤버십 기획에 반영해 10월 T 멤버십을 구성했다. AI는 고객 연령·성별, 멤버십 이용 현황, 검색·소비 트렌드 등을 분석해 '가을 축제', '독서', '러닝' 3가지 개념과 브랜드를 제안했다. 10월 12~16일 'AI 위크' 운영으로 공차, 배민, 롯데월드 할인 및 밀리의 서재·폴라리스 오피스 AI 등 무료 체험권 제공. 13~34세 고객 대상 Young Week (10월 5~9일)와 VIP 대상 Happy Hour (오후 2~5시, 백미당 50% 할인·쉐이크쉑 5천원 할인) 운영.</span></div>
+            <div className="nmeta">2026-10-01 · <a href="https://news.sktelecom.com/231586" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">추석 연휴, 가족 여행부터 일상 속 즐거움까지 SKT와 함께하세요</span></div>
             <div className="nsum">추석 연휴를 맞아 가족과 함께 해외여행을 계획하고 있다면 T로밍 및 현지 제휴 혜택을 활용할 수 있다. 새로운 '가족로밍' 서비스는 3천원을 추가하면 최대 5명이 함께 사용 가능하며, 일본 후쿠오카·도쿄·오사카 로밍 할인·JR하루카 50% 할인·스카이트리 70% 할인 등의 글로벌 여행 혜택을 제공한다. 국내에서 휴식하는 고객들을 위해서는 영화·외식 등에서 9월 T day와 VIP PICK의 알찬 혜택을 이용할 수 있다.</div>
             <div className="nmeta">2026-09-23 · <a href="https://news.sktelecom.com/231196" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
@@ -63,8 +68,8 @@ export default function News() {
       {tab === 'kt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">KT멤버십, 10월 달.달.혜택 구성 - 3대 테마파크·문화공연까지 풍성</span></span></div>
-            <div className="nsum"><span className="upd">KT가 10월 멤버십 혜택을 공개했다. 10월 달달혜택은 테마파크 3곳(롯데월드, 에버랜드, 경주 불국사), 문화공연(뮤지컬, 연극, 콘서트 등), 외식·쇼핑 등 가을 시즌 맞춤 혜택을 구성했다. 가을 나들이 준비부터 문화생활까지 다양한 제휴사 할인을 통해 고객들의 휴가 계획을 지원한다.</span></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">KT멤버십, 10월 달.달.혜택 구성 - 3대 테마파크·문화공연까지 풍성</span></div>
+            <div className="nsum">KT가 10월 멤버십 혜택을 공개했다. 10월 달달혜택은 테마파크 3곳(롯데월드, 에버랜드, 경주 불국사), 문화공연(뮤지컬, 연극, 콘서트 등), 외식·쇼핑 등 가을 시즌 맞춤 혜택을 구성했다. 가을 나들이 준비부터 문화생활까지 다양한 제휴사 할인을 통해 고객들의 휴가 계획을 지원한다.</div>
             <div className="nmeta">2026-09-30 · <a href="https://corp.kt.com/html/promote/news/report_detail.html?rows=10&page=1&searchWord=%EB%A9%A4%EB%B2%84%EC%8B%AD&datNo=19339" target="_blank" rel="noreferrer">KT 뉴스룸</a></div>
           </div>
           <div className="nc">
@@ -87,6 +92,11 @@ export default function News() {
 
       {tab === 'lgu' && (
         <div>
+          <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">나들이하기 좋은 날, 혜택받기 좋은 달! 10월 유플투쁠</span></span></div>
+            <div className="nsum"><span className="upd">가을이 찾아온 10월, 가볍게 떠나는 가을 나들이부터 맛있는 먹거리와 여유로운 문화생활까지 알차게 즐길 수 있도록 10월 유플투쁠 혜택을 구성했다. 떠나기 좋은 날에는 여행 혜택을, 맛있는 가을에는 풍성한 먹거리 혜택을, 여유가 필요한 순간에는 문화·생활 혜택을 만나보세요. 10월 13일(화) 공차 1만원 이상 구매 시 최대 50% 할인 등 식음료·문화·여가·쇼핑 혜택 제공. U+one 앱 오전 11시 유플투쁠 타임에서 선착순 이용 가능.</span></div>
+            <div className="nmeta">2026-10-01 · <a href="https://news.lguplus.com/22968" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
+          </div>
           <div className="nc">
             <div className="nct"><span className="nb nb이슈">이슈</span><span className="ntitle">[오래 함께한 고객님께 드리는 특별한 하루] 가을이 가장 아름답게 물드는 곳, 곤지암 화담숲</span></div>
             <div className="nsum">LGU+가 가을 시즌을 맞아 장기고객 대상으로 곤지암 화담숲을 특별 대관. 오직 U+ 장기고객(VVIP 등급 이상이면서 가입 기간 5년 이상 등)을 위해 평소보다 여유롭게 가을의 아름다운 풍경을 즐길 수 있는 특별한 하루를 제공하는 기획. 멤버십 고객 대상의 특화된 장기고객 감사 이벤트.</div>

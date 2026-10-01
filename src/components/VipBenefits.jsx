@@ -40,8 +40,7 @@ export default function VipBenefits() {
           <tr>
             <td>카페</td>
             <td>
-              폴 바셋 시즌음료 3종 50% 할인(최대 2잔)<br />
-              잠바주스 스무디 3종 50% 할인
+              <span className="upd">배달의민족(파리바게뜨) 1만원 할인(17,000원 이상 주문 시)</span>
             </td>
             <td>
               스타벅스 (VVIP) 조각케이크+음료 2잔 무료<br />
@@ -91,7 +90,7 @@ export default function VipBenefits() {
               T우주패스 4,900원(쇼핑·편의점·카페) + 5,000원(올리브영·스벅·이마트24) 2종
             </td>
             <td>
-              VVIP·VIP초이스 공통: 지니TV VOD 1만원 이용권(통합 월1회, 9월 신설)
+              VVIP·VIP초이스 공통: 지니TV VOD 1만원 이용권(월1회)
             </td>
             <td>
               유독 4천원 할인 (최소 구매 금액 없음)<br />
