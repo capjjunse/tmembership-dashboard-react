@@ -99,36 +99,37 @@ export default function Overview() {
           {/* ⛔ SKT 상시·VIP 카드 — GS25 "프레시 푸드"·스타벅스 "사이즈업"을 절대 변경 항목으로 다시 넣지 말 것 (2026.09.28, 반복 위반). RegularBenefits.jsx의 해당 행 인라인 주석·update_rules.txt 규칙 13 참고 — 둘 다 동의어일 뿐 실제 변경 아님 */}
           <a href="#vp" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>아웃백 할인 한도 하향 (VIP/Gold 월 4회·최대 2만원)</div>
-            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em><span className="upd">VIP Pick 카페 — 배달의민족(파리바게뜨) 1만원 할인으로 교체</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VIP Pick 카페 — 배달의민족(파리바게뜨) 1만원 할인으로 교체</div>
           </a>
           <a href="#mo" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">Week 혜택 (10.5~10.9) 공개 — 15종 식음·뷰티·레저</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>Week 혜택 (10.5~10.9) 공개 — 15종 식음·뷰티·레저</div>
           </a>
           <a href="#hs" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-new">신규</em><span className="upd">SK나이츠 신규 제휴 예정 (10.19)</span></div>
+            <div className="ovg2-item"><em className="tg tg-new">신규</em>SK나이츠 신규 제휴 예정 (10.19)</div>
             <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 72%·부정 28%</span></div>
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">VIP PICK 10월 "이거 좋네영" — 긍정 반응 전환 (10.01)</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 72%·부정 28%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>VIP PICK 10월 "이거 좋네영" — 긍정 반응 전환 (10.01)</div>
           </a>
 
           <div className="ovg2-lbl"><span className="cb bk">KT</span></div>
           {/* ⛔ KT VIP 카드 — 스타벅스 "사이즈업으로 변경" 절대 다시 넣지 말 것 (2026.09.28, 반복 위반). RegularBenefits.jsx 스타벅스 행 인라인 주석·update_rules.txt 규칙 13 참고 — "월 1회" 표기 그대로면 변경 아님 */}
           <a href="#rg" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-chg">변경</em><span className="upd">매드포갈릭 골드 등급 15%→5% 하향</span></div>
+            <div className="ovg2-item"><em className="tg tg-chg">변경</em>매드포갈릭 골드 등급 15%→5% 하향</div>
             <div className="ovg2-item"><em className="tg tg-new">VIP신규</em>지니TV VOD 1만원 이용권 신설 (VVIP·VIP초이스, 9월~)</div>
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><span className="upd">달달혜택 10월 미공개 — 15일경 공개 예정</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">달달혜택 10월 공개 — 피자·테마파크·문화 3트랙 (10월)</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">에버랜드 45%·서울랜드 50% · 뮤지컬 헬스키친·콰이어오브맨</span></div>
           </a>
           <a href="#hs" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 명칭 변경 (10.1~)</div>
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>롯데면세점 VVIP/VIP→GOLD 등급 적용 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em><span className="upd">10월 달달혜택 "걍 안쓰는게 혜택인듯" (10.01)</span></div>
+            <div className="ovg2-item"><em className="tg tg-neg">부정</em>10월 달달혜택 "걍 안쓰는게 혜택인듯" (10.01)</div>
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>달달혜택 롯데슈퍼·마트 "가족 4명 다 kt 4계정 받아서" (9.28)</div>
           </a>
 
@@ -139,8 +140,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>유독 4천원 할인 (최소 구매 금액 없음)</div>
           </a>
           <a href="#mo" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">투쁠 1~8차 (10.13~27) 공개 — 39종 식음·생활·레저</span></div>
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">컬쳐데이 (10.19~23) — NOL티켓·빛의벙커·시어터</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>투쁠 1~8차 (10.13~27) 공개 — 39종 식음·생활·레저</div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>컬쳐데이 (10.19~23) — NOL티켓·빛의벙커·시어터</div>
           </a>
           <a href="#hs" className="ovg2-card cl">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>도그마루 신규 제휴 예정 (10.14)</div>
@@ -157,10 +158,10 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title">SKT↔LGU+ 13종 비교 · 노브랜드·아워홈몰·CGV 우위</div>
+              <div className="ovki-title"><span className="upd">SKT↔LGU+ 2종 동급 · KT 비교 미반영</span></div>
               <ul className="ovki-list">
-                <li>T day·Young week × 투쁠 13종 비교 — 3종 우위 · 피자헛 열위</li>
-                <li>KT 달달혜택 — SKT·KT·LGU+ 겹침 없음</li>
+                <li><span className="upd">백미당·투썸플레이스 동급 — Week혜택 vs 투쁠 구성 상이</span></li>
+                <li><span className="upd">KT 달달혜택 공개 완료 — 비교 행 미반영 상태</span></li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>
