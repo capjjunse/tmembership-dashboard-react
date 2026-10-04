@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.10.01';
+const RADAR_SCANNED = '2026.10.05';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -83,12 +83,11 @@ const alCats = [
       { partner: '아웃백', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인 (월 4회, 일 최대 2만원)' }, { grade: 'S', desc: '5% 할인 (월 4회, 일 최대 1만원)' }] },
       { partner: 'VIPS', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인' }, { grade: 'S', desc: '5% 할인' }] },
       { partner: '도미노, 피자헛', deadline: '상시', rows: [{ grade: 'V', desc: '30% 할인' }, { grade: 'G, S', desc: '20% 할인' }] },
-      { partner: '폴 바셋', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '시즌음료 3종 50% 할인 (최대 2잔)' }] },
-      { partner: '잠바주스', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '스무디 3종 50% 할인' }] },
+      { partner: '배달의민족(파리바게뜨)', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '1만원 할인 (17,000원 이상 주문 시)' }] },
       { partner: '피자헛', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '크래프티드 플래츠 세트 1만원 또는 파스타 무료' }] },
       { partner: '고반식당', deadline: 'VIP PICK · 10월', rows: [{ grade: 'V', desc: '1만원 할인 (5만원 이상 주문 시)' }] },
     ]}],
-    reasons: ['T멤버십: 상시 15~30% (매드포갈릭·아웃백·VIPS·도미노·피자헛)', 'T멤버십 VIP: 폴바셋·잠바주스 50%·피자헛·고반식당 VIP PICK (10월)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
+    reasons: ['T멤버십: 상시 15~30% (매드포갈릭·아웃백·VIPS·도미노·피자헛)', 'T멤버십 VIP PICK: 배달의민족(파리바게뜨)·피자헛·고반식당 (10월)', '비통신 멤버십: 외식 브랜드 직접 제휴 없음'],
   },
   {
     icon: '🎡', cat: '테마파크', v: 'good',
@@ -107,7 +106,7 @@ const alCats = [
   },
   {
     icon: '🚗', cat: '카셰어링·렌터카', v: 'good',
-    updated: true,
+    updated: false,
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
       { partner: 'SK렌터카', deadline: '상시', rows: [{ grade: '전 등급', desc: '제주 최대 85% 할인, 내륙 최대 60% 할인' }] },
@@ -217,7 +216,7 @@ export const recs = [
   {
     rank: 1,
     brand: 'BHC치킨',
-    updated: true,
+    updated: false,
     tag: '매장 2,208개 · DataLab 📈1.32',
     reason: '치킨 빅3 중 브랜드평판 1위 브랜드 · 전국 2,208개. 10월 DataLab 상승세(📈1.32). 국세청 비정기 세무조사 진행 중 — 리스크 선검토 필요. SKT 미참여.',
     reach: [
@@ -234,7 +233,7 @@ export const recs = [
   {
     rank: 2,
     brand: '엽기떡볶이',
-    updated: true,
+    updated: false,
     tag: '매장 732개 · DataLab →0.98',
     reason: '분식 카테고리 대표 브랜드 · 전국 732개. 올해의 브랜드 대상 떡볶이 9연속(2026.9). DataLab 보합(→0.98). 2027.7 가격 인상 예고 및 공정위 시정명령 이력 — 리스크 선검토 필요. SKT 미참여.',
     reach: [
@@ -251,7 +250,7 @@ export const recs = [
   {
     rank: 3,
     brand: '봉구스밥버거',
-    updated: true,
+    updated: false,
     tag: '매장 484개 · DataLab →0.82',
     reason: '밥버거 카테고리 1위 브랜드 · 전국 484개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. DataLab 하락세(→0.82). 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
     reach: [
@@ -535,7 +534,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer">2026.10.01 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer">2026.10.05 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
