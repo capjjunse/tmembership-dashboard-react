@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.10.05';
+const RADAR_SCANNED = '2026.10.06';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -76,7 +76,7 @@ const alCats = [
   // ── T멤버십 우위 ──
   {
     icon: '🍽', cat: '외식·카페', v: 'good',
-    updated: true,
+    updated: false,
     nb: null,
     tm: [{ platform: 'T멤버십', items: [
       { partner: '매드포갈릭', deadline: '상시', rows: [{ grade: 'V, G', desc: '15% 할인 (최대 15,000원)' }, { grade: 'S', desc: '5% 할인 (최대 5,000원)' }] },
@@ -217,14 +217,14 @@ export const recs = [
     rank: 1,
     brand: 'BHC치킨',
     updated: false,
-    tag: '매장 2,208개 · DataLab 📈1.32',
-    reason: '치킨 빅3 중 브랜드평판 1위 브랜드 · 전국 2,208개. 10월 DataLab 상승세(📈1.32). 국세청 비정기 세무조사 진행 중 — 리스크 선검토 필요. SKT 미참여.',
+    tag: '매장 2,209개 · DataLab 📈1.59',
+    reason: '치킨 빅3 중 브랜드평판 1위 브랜드 · 전국 2,209개. 10월 DataLab 강세(📈1.59). 국세청 비정기 세무조사 진행 중 — 리스크 선검토 필요. SKT 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 2,208개 · 치킨 빅3 중 최다 매장 (배달·포장 특화)' },
-      { label: '검색 버즈', text: 'DataLab 📈1.32 · 블로그 31만 · 뉴스 100건 — 10월 강세, 브랜드평판 1위 지속' },
+      { label: '매장 규모', text: '전국 2,209개 · 치킨 빅3 중 최다 매장 (배달·포장 특화)' },
+      { label: '검색 버즈', text: 'DataLab 📈1.59 · 블로그 31만 · 카페 28만 · 뉴스 100건 — 강세 지속, 빅3 독주 가시화' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 치킨 카테고리 전국 최대 규모 — 국세청 세무조사(사주 자녀 법인 특혜) 진행 중' },
     ],
-    trend: 'DataLab 1.32 · 블로그 31만 · 뉴스 100건',
+    trend: 'DataLab 1.59 · 블로그 31만 · 카페 28만 · 뉴스 100건',
     hot: true,
     skt: [],
     kt:  null,
@@ -234,14 +234,14 @@ export const recs = [
     rank: 2,
     brand: '엽기떡볶이',
     updated: false,
-    tag: '매장 732개 · DataLab →0.98',
-    reason: '분식 카테고리 대표 브랜드 · 전국 732개. 올해의 브랜드 대상 떡볶이 9연속(2026.9). DataLab 보합(→0.98). 2027.7 가격 인상 예고 및 공정위 시정명령 이력 — 리스크 선검토 필요. SKT 미참여.',
+    tag: '매장 731개 · DataLab ↗1.10',
+    reason: '분식 카테고리 대표 브랜드 · 전국 731개. 올해의 브랜드 대상 떡볶이 9연속(2026.9). DataLab 상승(↗1.10). 2027.7 가격 인상 예고 및 공정위 시정명령 이력 — 리스크 선검토 필요. SKT 미참여.',
     reach: [
-      { label: '매장 규모', text: '전국 732개 · 분식 카테고리 선두 (배달·포장 특화)' },
-      { label: '검색 버즈', text: 'DataLab →0.98 · 블로그 23만 · 뉴스 65건 — 브랜드 대상 수상, 보합 수준' },
+      { label: '매장 규모', text: '전국 731개 · 분식 카테고리 선두 (배달·포장 특화)' },
+      { label: '검색 버즈', text: 'DataLab ↗1.10 · 블로그 23만 · 카페 13만 · 뉴스 58건 — 브랜드 대상 수상(9연속), 상승 전환' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 분식 카테고리 공백 — 공정위 시정명령 이슈 사전 해소 조건 필요' },
     ],
-    trend: 'DataLab 0.98 · 블로그 23만 · 뉴스 65건',
+    trend: 'DataLab 1.10 · 블로그 23만 · 카페 13만 · 뉴스 58건',
     hot: true,
     skt: [],
     kt:  null,
@@ -251,14 +251,14 @@ export const recs = [
     rank: 3,
     brand: '봉구스밥버거',
     updated: false,
-    tag: '매장 484개 · DataLab →0.82',
-    reason: '밥버거 카테고리 1위 브랜드 · 전국 484개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. DataLab 하락세(→0.82). 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
+    tag: '매장 484개 · DataLab →0.94',
+    reason: '밥버거 카테고리 1위 브랜드 · 전국 484개. 저단가 한끼 포지션으로 대학가·직장인 수요 기반 안정적. DataLab 보합(→0.94). 창업주 마약·갑질 이슈(2024) 및 점포 급감 이력 — 브랜드 리스크 선검토 후 접근 필요. SKT 미참여.',
     reach: [
       { label: '매장 규모', text: '전국 484개 · 밥버거 카테고리 1위 (점포 수 감소 추세 — 브랜드 규모 축소 진행 중)' },
-      { label: '검색 버즈', text: 'DataLab →0.82 · 블로그 5만 · 뉴스 4건 — 저버즈 지속, DataLab 하락세' },
+      { label: '검색 버즈', text: 'DataLab →0.94 · 블로그 5만 · 뉴스 0건 — 저버즈 지속, DataLab 소폭 회복' },
       { label: '제휴 포인트', text: 'SKT 미참여 · 밥버거 카테고리 공백 — 창업주 마약·갑질 이슈(2024) · 점포 급감 이력 — 브랜드 리스크 선검토 필요' },
     ],
-    trend: 'DataLab 0.82 · 블로그 5만 · 뉴스 4건',
+    trend: 'DataLab 0.94 · 블로그 5만 · 뉴스 0건',
     hot: false,
     skt: [],
     kt:  null,
@@ -534,7 +534,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer">2026.10.05 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer">2026.10.06 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
