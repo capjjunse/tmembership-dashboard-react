@@ -40,7 +40,7 @@ export default function VipBenefits() {
           <tr>
             <td>카페</td>
             <td>
-              <span className="upd">배달의민족(파리바게뜨) 1만원 할인(17,000원 이상 주문 시)</span>
+              배달의민족(파리바게뜨) 1만원 할인(17,000원 이상 주문 시)
             </td>
             <td>
               스타벅스 (VVIP) 조각케이크+음료 2잔 무료<br />

@@ -18,9 +18,9 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">SKT, AI로 읽어낸 고객 취향 T 멤버십 혜택에 담았다</span></span></div>
-            <div className="nsum"><span className="upd">SK텔레콤이 마케팅 AI 에이전트가 제안한 혜택 개념을 실제 멤버십 기획에 반영해 10월 T 멤버십을 구성했다. AI는 고객 연령·성별, 멤버십 이용 현황, 검색·소비 트렌드 등을 분석해 '가을 축제', '독서', '러닝' 3가지 개념과 브랜드를 제안했다. 10월 12~16일 'AI 위크' 운영으로 공차, 배민, 롯데월드 할인 및 밀리의 서재·폴라리스 오피스 AI 등 무료 체험권 제공. 13~34세 고객 대상 Young Week (10월 5~9일)와 VIP 대상 Happy Hour (오후 2~5시, 백미당 50% 할인·쉐이크쉑 5천원 할인) 운영.</span></div>
-            <div className="nmeta">2026-10-01 · <a href="https://news.sktelecom.com/231586" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">먹거리부터 AI·독서·러닝까지… SKT 'AI Week'로 채운 10월 T 멤버십</span></div>
+            <div className="nsum">SK텔레콤이 마케팅 AI 에이전트가 제안한 혜택 개념을 실제 멤버십 기획에 반영해 10월 T 멤버십을 구성했다. AI는 고객 연령·성별, 멤버십 이용 현황, 검색·소비 트렌드 등을 분석해 '가을 축제', '독서', '러닝' 3가지 개념과 브랜드를 제안했다. 10월 12~16일 'AI 위크'에서 공차, 투썸플레이스, 배달의민족 할인 및 롯데월드·CGV·폴라리스 오피스 AI·밀리의서재 혜택 제공. 13~34세 고객 대상 Young Week(10월 5~9일)에서 팀홀튼 음료, 명랑핫도그, 요아정 요거트, 포케올데이 등 할인. VIP 대상 Happy Hour(오후 2~5시)에서 백미당 50% 할인·쉐이크쉑 5천원 할인.</div>
+            <div className="nmeta">2026-10-02 · <a href="https://news.sktelecom.com/231492" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
           </div>
           <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">추석 연휴, 가족 여행부터 일상 속 즐거움까지 SKT와 함께하세요</span></div>
@@ -93,8 +93,8 @@ export default function News() {
       {tab === 'lgu' && (
         <div>
           <div className="nc">
-            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle"><span className="upd">나들이하기 좋은 날, 혜택받기 좋은 달! 10월 유플투쁠</span></span></div>
-            <div className="nsum"><span className="upd">가을이 찾아온 10월, 가볍게 떠나는 가을 나들이부터 맛있는 먹거리와 여유로운 문화생활까지 알차게 즐길 수 있도록 10월 유플투쁠 혜택을 구성했다. 떠나기 좋은 날에는 여행 혜택을, 맛있는 가을에는 풍성한 먹거리 혜택을, 여유가 필요한 순간에는 문화·생활 혜택을 만나보세요. 10월 13일(화) 공차 1만원 이상 구매 시 최대 50% 할인 등 식음료·문화·여가·쇼핑 혜택 제공. U+one 앱 오전 11시 유플투쁠 타임에서 선착순 이용 가능.</span></div>
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">나들이하기 좋은 날, 혜택받기 좋은 달! 10월 유플투쁠</span></div>
+            <div className="nsum">가을이 찾아온 10월, 가볍게 떠나는 가을 나들이부터 맛있는 먹거리와 여유로운 문화생활까지 알차게 즐길 수 있도록 10월 유플투쁠 혜택을 구성했다. 떠나기 좋은 날에는 여행 혜택을, 맛있는 가을에는 풍성한 먹거리 혜택을, 여유가 필요한 순간에는 문화·생활 혜택을 만나보세요. 10월 13일(화) 공차 1만원 이상 구매 시 최대 50% 할인 등 식음료·문화·여가·쇼핑 혜택 제공. U+one 앱 오전 11시 유플투쁠 타임에서 선착순 이용 가능.</div>
             <div className="nmeta">2026-10-01 · <a href="https://news.lguplus.com/22968" target="_blank" rel="noreferrer">LGU+ 뉴스룸</a></div>
           </div>
           <div className="nc">
