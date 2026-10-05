@@ -69,35 +69,37 @@ export default function MonthlyBenefits() {
           </div>
           <div className="mcb">
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span><span className="upd">달달혜택 (택1)</span></span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>달달혜택 (택1)</span></div>
               <ul className="mblist">
-                <li><span className="upd">도미노피자 온라인방문포장50%할인</span></li>
-                <li><span className="upd">롯데리아 1·2인팩최대40%할인</span></li>
+                <li>도미노피자 온라인방문포장50%할인</li>
+                <li>롯데리아 1·2인팩최대40%할인</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span><span className="upd">테마파크 혜택 (모두 이용)</span></span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>테마파크 혜택 (모두 이용)</span></div>
               <ul className="mblist">
-                <li><span className="upd">에버랜드 본인45%·동반3인30%할인</span></li>
-                <li><span className="upd">서울랜드 본인50%·동반2인40%할인</span></li>
+                <li>에버랜드 본인45%·동반3인30%할인</li>
+                <li>서울랜드 본인50%·동반2인40%할인</li>
+                <li>롯데월드 본인50%·동반3인30%할인</li>
               </ul>
             </div>
             <div className="mblk">
-              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span><span className="upd">문화 혜택</span></span></div>
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span>문화 혜택</span></div>
               <ul className="mblist">
-                <li><span className="upd">뮤지컬 헬스키친 최대40%할인</span></li>
-                <li><span className="upd">뮤지컬 콰이어오브맨 최대40%할인</span></li>
-                <li><span className="upd">전시 봉주르장자크상페 전등급50%할인</span></li>
+                <li>뮤지컬 헬스키친 최대40%할인</li>
+                <li>뮤지컬 콰이어오브맨 최대40%할인</li>
+                <li>전시 브래드월스사진전 전등급50%할인</li>
+                <li>전시 봉주르장자크상페 전등급50%할인</li>
               </ul>
             </div>
           </div>
           <div className="mpnt mk">
             <div className="mpnt-lbl">이달 포인트</div>
-            <div className="mpnt-concept"><span className="upd">가을 나들이 — 달달·테마파크·문화 3트랙</span></div>
+            <div className="mpnt-concept">가을 나들이 — 달달+테마파크3종+문화4편</div>
             <ul className="mpnt-list">
-              <li><span className="upd">달달초이스(택1) 피자50%·버거40%</span></li>
-              <li><span className="upd">테마파크 에버·서울랜드 모두 이용</span></li>
-              <li><span className="upd">문화 헬스키친·콰이어·상페전 3작품</span></li>
+              <li>달달초이스(택1) 도미노50%·롯데리아40%</li>
+              <li>테마파크 에버·서울·롯데월드 3종 모두</li>
+              <li>문화 뮤지컬2·전시2 · 브래드월스 포함</li>
             </ul>
           </div>
         </div>

@@ -109,7 +109,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 69%·부정 31%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 69%·부정 31%</div>
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>VIP PICK 10월 "이거 좋네영" — 긍정 반응 전환 (10.01)</div>
           </a>
 
@@ -121,8 +121,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">VIP변경</em>VVIP초이스 도미노 2만원 할인 (3만원↑ 포장주문)</div>
           </a>
           <a href="#mo" className="ovg2-card ck">
-            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">달달혜택 10월 공개 — 피자·테마파크·문화 3트랙 (10월)</span></div>
-            <div className="ovg2-item"><em className="tg tg-on">진행중</em><span className="upd">에버랜드 45%·서울랜드 50% · 뮤지컬 헬스키친·콰이어오브맨</span></div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em>달달혜택 10월 공개 — 피자·테마파크·문화 3트랙 (10월)</div>
+            <div className="ovg2-item"><em className="tg tg-on">진행중</em>에버랜드 45%·서울랜드 50% · 뮤지컬 헬스키친·콰이어오브맨</div>
           </a>
           <a href="#hs" className="ovg2-card ck">
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 명칭 변경 (10.1~)</div>
@@ -148,7 +148,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 64%·부정 27%·중립 9%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 64%·부정 27%·중립 9%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 완무꿀통 "이것도 이제 끝이구나" 알뜰폰 이탈 신호 (9.29)</div>
           </a>
         </div>
@@ -158,10 +158,10 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title"><span className="upd">SKT↔LGU+ 2종 동급 · KT 비교 미반영</span></div>
+              <div className="ovki-title">SKT↔LGU+ 2종 동급 · KT 비교 미반영</div>
               <ul className="ovki-list">
-                <li><span className="upd">백미당·투썸플레이스 동급 — Week혜택 vs 투쁠 구성 상이</span></li>
-                <li><span className="upd">KT 달달혜택 공개 완료 — 비교 행 미반영 상태</span></li>
+                <li>백미당·투썸플레이스 동급 — Week혜택 vs 투쁠 구성 상이</li>
+                <li>KT 달달혜택 공개 완료 — 비교 행 미반영 상태</li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>
