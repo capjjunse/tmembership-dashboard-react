@@ -27,7 +27,7 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [], // 2026.10 KT 달달혜택 미공개 (15일경 공개 예정)
+    rows: [], // 2026.10 SKT Week ↔ KT 달달혜택 겹치는 브랜드 없음
   },
   {
     id: 'skt-lgu',
@@ -36,7 +36,7 @@ const compGroups = [
     rows: [
       {
         brand: '백미당',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: '전 등급', b: '아이스크림 1+1' }], date: 'T day · 10.5~10.9' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '아이스크림 40% 할인+미니컵 증정' }], date: '투쁠 2차 · 10.15' },
@@ -46,7 +46,7 @@ const compGroups = [
       },
       {
         brand: '투썸플레이스',
-        updated: true,
+        updated: false,
         skt: { lines: [{ grade: 'V', b: '1만원 이상 구매 시 35% 할인 (최대 5천원)' }], date: 'T day · 10.5~10.9' },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: '투쁠 5차 · 10.21' },
@@ -60,13 +60,13 @@ const compGroups = [
     id: 'kt-lgu',
     label: 'KT ↔ LGU+',
     desc: 'SKT 미참여 · KT 달달혜택 × LGU+ 투쁠데이',
-    rows: [], // 2026.10 KT 달달혜택 미공개 (15일경 공개 예정)
+    rows: [], // 2026.10 KT × LGU+ 겹치는 브랜드 없음
   },
   {
     id: 'three',
     label: '3사 공통',
     desc: '동일 브랜드 3사 동시 운영',
-    rows: [], // 2026.10 KT 달달혜택 미공개 (15일경 공개 예정)
+    rows: [], // 2026.10 3사 공통 운영 브랜드 없음
   },
 ];
 
