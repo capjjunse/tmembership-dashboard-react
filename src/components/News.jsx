@@ -18,6 +18,11 @@ export default function News() {
       {tab === 'skt' && (
         <div>
           <div className="nc">
+            <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">SKT, AI로 읽어낸 고객 취향 T 멤버십 혜택에 담았다</span></div>
+            <div className="nsum">SK텔레콤이 마케팅 AI 에이전트가 제안한 혜택 개념을 실제 멤버십 기획에 반영했다. AI는 고객 연령·성별, 멤버십 이용 현황, 검색·소비 트렌드 등을 분석해 '가을 축제', '독서', '러닝' 3가지 개념과 브랜드를 제안했다. 이를 통해 고객의 취향과 관심사에 맞춘 10월 T 멤버십 혜택을 구성하고 10월 12~16일 'AI 위크'에서 특별 혜택을 제공한다.</div>
+            <div className="nmeta">2026-10-01 · <a href="https://news.sktelecom.com/231586" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
+          </div>
+          <div className="nc">
             <div className="nct"><span className="nb nb신규">신규</span><span className="ntitle">먹거리부터 AI·독서·러닝까지… SKT 'AI Week'로 채운 10월 T 멤버십</span></div>
             <div className="nsum">SK텔레콤이 마케팅 AI 에이전트가 제안한 혜택 개념을 실제 멤버십 기획에 반영해 10월 T 멤버십을 구성했다. AI는 고객 연령·성별, 멤버십 이용 현황, 검색·소비 트렌드 등을 분석해 '가을 축제', '독서', '러닝' 3가지 개념과 브랜드를 제안했다. 10월 12~16일 'AI 위크'에서 공차, 투썸플레이스, 배달의민족 할인 및 롯데월드·CGV·폴라리스 오피스 AI·밀리의서재 혜택 제공. 13~34세 고객 대상 Young Week(10월 5~9일)에서 팀홀튼 음료, 명랑핫도그, 요아정 요거트, 포케올데이 등 할인. VIP 대상 Happy Hour(오후 2~5시)에서 백미당 50% 할인·쉐이크쉑 5천원 할인.</div>
             <div className="nmeta">2026-10-02 · <a href="https://news.sktelecom.com/231492" target="_blank" rel="noreferrer">SKT 뉴스룸</a></div>
