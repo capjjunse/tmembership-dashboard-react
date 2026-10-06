@@ -109,7 +109,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-end">종료</em>루덴시아 제휴 종료 (9.30)</div>
           </a>
           <a href="#sn" className="ovg2-card cs">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 69%·부정 31%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 <span className="upd">67%</span>·부정 <span className="upd">33%</span></div>
             <div className="ovg2-item"><em className="tg tg-pos">긍정</em>VIP PICK 10월 "이거 좋네영" — 긍정 반응 전환 (10.01)</div>
           </a>
 
@@ -148,7 +148,7 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 64%·부정 27%·중립 9%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 <span className="upd">55%</span>·부정 <span className="upd">36%</span>·중립 9%</div>
             <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 완무꿀통 "이것도 이제 끝이구나" 알뜰폰 이탈 신호 (9.29)</div>
           </a>
         </div>

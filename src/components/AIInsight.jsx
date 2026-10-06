@@ -396,7 +396,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 9월 · SKT Day1(9.2)+Young week(9.7~9.11)+Day2(9.16)+Day3(9.23)+Day4(9.30) · LGU+ 투쁠 1~8차+컬쳐데이+유쓰+장기고객데이 · KT 달달혜택 공개 · skt-lgu 13종 확인)</div>
+          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (<span className="upd">2026년 10월 · SKT Week혜택(10.5~10.9) · LGU+ 투쁠 1~8차+컬쳐데이+유쓰+장기고객데이 · KT 달달혜택 공개 · skt-lgu 2종 확인</span>)</div>
         </div>
       </div>
 
