@@ -13,7 +13,7 @@ function news7dPeriod(dateStr) {
 }
 
 // 섹션 4 — 제휴사 이슈 레이더 스캔 기준일 (업데이트 시 변경)
-const RADAR_SCANNED = '2026.10.06';
+const RADAR_SCANNED = '2026.10.07';
 
 // 섹션 4 — 제휴사 이슈 레이더 데이터는 src/data/radarData.js에서 관리
 
@@ -534,7 +534,7 @@ export default function AIInsight() {
             </div>
           ))}
         </div>
-        <div className="tr-footer">2026.10.06 스캔 · 매주 배치 자동 업데이트</div>
+        <div className="tr-footer">2026.10.07 스캔 · 매주 배치 자동 업데이트</div>
       </div>
 
       {/* 섹션 5 — 마켓 시그널 */}
