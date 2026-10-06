@@ -90,21 +90,21 @@ export default function History() {
             <td>2026.09.30</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td><span className="upd">이마트24 할인 변경 — VVIP/VIP 1,000원당 100원 (한도 20만원), GOLD/SILVER/WHITE/일반 1,000원당 50원 (한도 20만원) (11.1~)</span></td>
+            <td>이마트24 할인 변경 — VVIP/VIP 1,000원당 100원 (한도 20만원), GOLD/SILVER/WHITE/일반 1,000원당 50원 (한도 20만원) (11.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
             <td>2026.09.30</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td><span className="upd">GS25 할인 변경 — VVIP/VIP 1,000원당 100원 (한도 20만원), GOLD/SILVER/WHITE/일반 1,000원당 50원 (한도 20만원) (11.1~)</span></td>
+            <td>GS25 할인 변경 — VVIP/VIP 1,000원당 100원 (한도 20만원), GOLD/SILVER/WHITE/일반 1,000원당 50원 (한도 20만원) (11.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
             <td>2026.09.30</td>
             <td><span className="cb bk">KT</span></td>
             <td>KT 멤버십 상시</td>
-            <td><span className="upd">아웃백 할인 변경 — VVIP/VIP 15% (한도 20만원), GOLD/SILVER/WHITE/일반 5% (한도 20만원) (11.1~)</span></td>
+            <td>아웃백 할인 변경 — VVIP/VIP 15% (한도 20만원), GOLD/SILVER/WHITE/일반 5% (한도 20만원) (11.1~)</td>
             <td><span className="tb t예정">예정</span></td>
           </tr>
           <tr>
