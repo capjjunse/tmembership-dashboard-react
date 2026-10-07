@@ -1,24 +1,32 @@
 {
-  "generated_at": "2026.10.07 05:53",
-  "total_collected": 980,
-  "total_valid": 486,
-  "total_skipped": 302,
-  "total_top": 25,
+  "generated_at": "2026.10.08 05:52",
+  "total_collected": 924,
+  "total_valid": 414,
+  "total_skipped": 426,
+  "total_top": 27,
   "topic_groups": [
     {
       "category": "risk",
-      "topic": "버거킹 암살자들 불매 사태",
-      "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
+      "topic": "영화 암살자들 논란 불매운동",
+      "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
       "signal_strength": 3,
-      "max_velocity": -33.9,
+      "max_velocity": -13.3,
       "articles": [
+        {
+          "title": "'암살자(들)' 논란 후폭풍…불매 불똥에 유해진·이민호 '선 긋기' [이슈...",
+          "link": "https://www.hankyung.com/article/202610029137g",
+          "pub_date": "2026.10.02",
+          "priority": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": -13.3
+        },
         {
           "title": "버거킹, 불매 움직임 속 유해진 광고 종료…제품 출시 약 2주만(종합)",
           "link": "https://www.yna.co.kr/view/AKR20261006147451030?input=1195m",
           "pub_date": "2026.10.06",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -33.9
+          "datalab_velocity": -13.3
         },
         {
           "title": "불매 조짐 속 버거킹, 유해진 광고 캠페인 종료…“일정에 따라”",
@@ -26,63 +34,15 @@
           "pub_date": "2026.10.06",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -33.9
+          "datalab_velocity": -13.3
         },
         {
-          "title": "유해진 &quot;신변 위협·명예훼손 엄중 대응&quot;…자택 앞 시위에 광고 불매 움...",
-          "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/05/2026100590040.html",
-          "pub_date": "2026.10.05",
+          "title": "&quot;스벅 불매는 되고, 우리는 왜?&quot;…버거킹 본사 찾아가 &quot;공범!&quot;",
+          "link": "https://news.jtbc.co.kr/article/NB12321696?influxDiv=NAVER",
+          "pub_date": "2026.10.07",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -33.9
-        },
-        {
-          "title": "불매 넘어 자택 시위까지…유해진 측 “‘암살자(들)’ 신변 위협, 엄중...",
-          "link": "http://www.joseilbo.com/news/news_read.php?uid=576838&class=33&grp=",
-          "pub_date": "2026.10.05",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -33.9
-        },
-        {
-          "title": "버거킹은 무엇을 잘못했나… '암살자(들)' 불매가 겨눈 곳",
-          "link": "https://www.ajunews.com/view/20261006170258681",
-          "pub_date": "2026.10.06",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -33.9
-        },
-        {
-          "title": "&quot;불매 운동에 자택 앞 집회까지&quot;…'암살자(들)' 유해진 측, 칼 빼들었다",
-          "link": "https://www.ize.co.kr/news/articleView.html?idxno=81364",
-          "pub_date": "2026.10.05",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -33.9
-        },
-        {
-          "title": "'암살자(들)' 탄흔 티켓 논란…주진우 &quot;전량폐기 안 하면 불매운동&quot;",
-          "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00006&news_seq_no=5222861",
-          "pub_date": "2026.10.03",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -33.9
-        },
-        {
-          "title": "하태경, '암살자(들)' 논란에 &quot;제품 불매 넘어 영화·드라마 퇴출로&quot;",
-          "link": "https://www.newsis.com/view/NISX20261002_0003811997",
-          "pub_date": "2026.10.02",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -33.9
-        },
-        {
-          "title": "'암살자(들)' 논란 유해진에 불똥…불매·자택 시위에 소속사 강경 대응...",
-          "link": "https://www.joongangenews.com/news/articleView.html?idxno=552654",
-          "pub_date": "2026.10.05",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -33.9
+          "datalab_velocity": -13.3
         },
         {
           "title": "&quot;유해진 햄버거 안먹는다&quot;…암살자(들) 연예인 불매운동",
@@ -90,70 +50,128 @@
           "pub_date": "2026.10.05",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -33.9
+          "datalab_velocity": -13.3
+        },
+        {
+          "title": "“유해진 햄버거 안 먹을래요”… 불매운동으로 번진 암살자(들)",
+          "link": "https://www.chosun.com/national/national_general/2026/10/02/DGIHHLCQBFFVHFJ3MNXCRCH6TA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+          "pub_date": "2026.10.02",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -13.3
+        },
+        {
+          "title": "'암살자(들)'이 낳은 불매·시위·고발…&quot;정치권 공세가 이념 갈등 기폭...",
+          "link": "https://www.news1.kr/society/incident-accident/6308771",
+          "pub_date": "2026.10.02",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -13.3
+        },
+        {
+          "title": "'암살자(들)' 논란 유해진에 불똥…불매·자택 시위에 소속사 강경 대응...",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=552654",
+          "pub_date": "2026.10.05",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -13.3
+        },
+        {
+          "title": "“‘암살자(들)’ 불매 움직임… 배우 광고 브랜드로 불똥 튄 유통업계...",
+          "link": "https://www.segye.com/newsView/20261002507451?OutUrl=naver",
+          "pub_date": "2026.10.02",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -13.3
+        },
+        {
+          "title": "'암살자들' 후폭풍…배우 집앞 집회에 불매운동까지[사사건건]",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01804006645609312&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "pub_date": "2026.10.03",
+          "priority": 3,
+          "cross_query_count": 1,
+          "datalab_velocity": -13.3
         }
       ],
       "is_new": true
     },
     {
       "category": "battle",
-      "topic": "플랫폼사 통합멤버십 경쟁",
-      "insight": "네이버·카카오·쿠팡이 쇼핑·콘텐츠·금융 통합 멤버십으로 구독자 확보 경쟁 심화",
+      "topic": "플랫폼 통합 멤버십 경쟁",
+      "insight": "카카오 월 4900원 통합 멤버십 출시, 네이버·쿠팡과의 구독 경제 경쟁 본격화",
       "signal_strength": 2,
-      "max_velocity": 0.0,
+      "max_velocity": 19.0,
       "articles": [
+        {
+          "title": "카카오, 월 4900원 통합 멤버십 첫선…네이버와 ‘구독 경제’ 정면승부...",
+          "link": "https://www.sportsseoul.com/news/read/1638839?ref=naver",
+          "pub_date": "2026.10.07",
+          "priority": 3,
+          "cross_query_count": 2,
+          "datalab_velocity": 19.0
+        },
         {
           "title": "네이버·카카오·쿠팡 '멤버십 삼국지'…구독자 잡기 불붙었다",
           "link": "https://www.yna.co.kr/view/AKR20261002154300017?input=1195m",
           "pub_date": "2026.10.04",
           "priority": 3,
           "cross_query_count": 2,
-          "datalab_velocity": -19.2
-        },
+          "datalab_velocity": 19.0
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "category": "battle",
+      "topic": "쇼핑 적립 금융연계 서비스",
+      "insight": "하나증권이 쿠팡·컬리 쇼핑으로 주식매수 쿠폰을 받는 '쇼핑적립' 서비스 개시",
+      "signal_strength": 2,
+      "max_velocity": 0.0,
+      "articles": [
         {
-          "title": "카카오도 멤버십 경쟁 뛰어들었다… 월 4900원에 받는 혜택은?",
-          "link": "https://www.ggilbo.com/news/articleView.html?idxno=1184812",
+          "title": "&quot;쿠팡∙컬리 쇼핑하면 주식매수 쿠폰&quot;…하나증권 '쇼핑적립' 서비스",
+          "link": "https://www.newsis.com/view/NISX20261007_0003816770",
           "pub_date": "2026.10.07",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "카카오, 월 4900원 '통합 멤버십' 전격 등판…네이버·쿠팡에 맞불",
-          "link": "https://www.newsis.com/view/NISX20261001_0003810166",
-          "pub_date": "2026.10.01",
+          "title": "하나증권, '쇼핑적립' 서비스 오픈",
+          "link": "https://www.econovill.com/news/articleView.html?idxno=752942",
+          "pub_date": "2026.10.07",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "카카오 첫 통합멤버십 출시…월 4천900원에 쇼핑·콘텐츠 혜택",
-          "link": "https://www.yna.co.kr/view/AKR20261001051600017?input=1195m",
-          "pub_date": "2026.10.01",
+          "title": "하나증권, 쇼핑하면 포인트 쌓이는 '쇼핑적립' 서비스 출시",
+          "link": "https://www.etnews.com/20261007000252",
+          "pub_date": "2026.10.07",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "'월 4900원' 다른 듯 닮은 멤버십 서비스⋯네이버 vs 카카오 격돌[종합]",
-          "link": "http://www.inews24.com/view/2011101",
-          "pub_date": "2026.10.01",
+          "title": "하나증권, '쇼핑적립' 서비스 출시",
+          "link": "https://www.newspim.com/news/view/20261007000273",
+          "pub_date": "2026.10.07",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "'카톡 선물·멜론·이모티콘' 카카오 멤버십 출시⋯월 4900원",
-          "link": "http://www.inews24.com/view/2010808",
-          "pub_date": "2026.10.01",
+          "title": "'쿠팡 쇼핑하면 3% 적립' 하나증권, 쇼핑적립 서비스 오픈",
+          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1412658",
+          "pub_date": "2026.10.07",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
         },
         {
-          "title": "커머스·금융·콘텐츠 한 데 모았다…카카오 멤버십 출시",
-          "link": "https://zdnet.co.kr/view/?no=20261001092735",
-          "pub_date": "2026.10.01",
+          "title": "&quot;쿠팡·컬리 쇼핑하면 투자 혜택&quot; 하나증권, '쇼핑적립' 서비스",
+          "link": "https://view.asiae.co.kr/article/2026100710082775665",
+          "pub_date": "2026.10.07",
           "priority": 3,
           "cross_query_count": 1,
           "datalab_velocity": 0.0
@@ -163,240 +181,287 @@
     },
     {
       "category": "battle",
-      "topic": "배민 한글날 마케팅",
-      "insight": "배민이 한강 드론쇼 통해 브랜드 노출과 로컬 상권 활성화를 동시에 진행",
+      "topic": "커머스 제휴카드 적립 확대",
+      "insight": "컬리가 신한카드와 전용카드 출시, 멤버십 최대 14% 적립 혜택 제공",
       "signal_strength": 2,
-      "max_velocity": -36.3,
+      "max_velocity": 0.0,
       "articles": [
         {
-          "title": "배민, 한글날도 한강 드론라이트쇼 참여…2000인분 식사 무료제공",
-          "link": "https://www.etnews.com/20261005000032",
-          "pub_date": "2026.10.05",
+          "title": "컬리, '컬리 신한카드' 출시…멤버십 최대 14% 적립",
+          "link": "https://sports.hankooki.com/news/articleView.html?idxno=6941318",
+          "pub_date": "2026.10.07",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -36.3
+          "datalab_velocity": 0.0
         },
         {
-          "title": "배민, 한글날 '한강 드론라이트쇼' 참여…무료 시식·로컬 상권 활성화",
-          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87025",
-          "pub_date": "2026.10.05",
+          "title": "컬리, 신한카드와 전용카드 출시…멤버십 최대 14% 적립",
+          "link": "https://www.sedaily.com/article/20098843?ref=naver",
+          "pub_date": "2026.10.07",
           "priority": 3,
           "cross_query_count": 1,
-          "datalab_velocity": -36.3
-        },
-        {
-          "title": "드론쇼 4만명에 주문 27%↑…배민, 한글날 한강서 또 '먹거리 공략'",
-          "link": "https://www.peoplewatch.co.kr/article/view/ppw202610050006",
-          "pub_date": "2026.10.05",
-          "priority": 3,
-          "cross_query_count": 1,
-          "datalab_velocity": -36.3
+          "datalab_velocity": 0.0
         }
       ],
       "is_new": true
     },
     {
       "category": "benchmark",
-      "topic": "유통사 프로모션 경쟁",
-      "insight": "주요 유통사들이 다양한 프로모션으로 고객 확보 경쟁 진행 중",
-      "signal_strength": 1,
-      "max_velocity": 0.0,
+      "topic": "가을 시즌 프로모션",
+      "insight": "가을축제, 캠핑, 할로윈파티 등 시즌 콘텐츠 기반 소비 촉진 전개",
+      "signal_strength": 2,
+      "max_velocity": 12.7,
       "articles": [
         {
-          "title": "[굿모닝! 6일 유통가 소식] 맥도날드·코웨이·배달의민족·한샘·홈앤쇼...",
-          "link": "https://www.goodkyung.com/news/articleView.html?idxno=292054",
-          "pub_date": "2026.10.06",
+          "title": "10월의 추천 스톡 콘텐츠 : 가을축제 | 가을캠핑 | 할로윈파티",
+          "link": "https://ditoday.com/10%ec%9b%94%ec%9d%98-%ec%b6%94%ec%b2%9c-%ec%8a%a4%ed%86%a1-%ec%bd%98%ed%85%90%ec%b8%a0-%ea%b0%80%ec%9d%84%ec%b6%95%ec%a0%9c-%ea%b0%80%ec%9d%84%ec%ba%a0%ed%95%91-%ed%95%a0%eb%a1%9c%ec%9c%88/",
+          "pub_date": "2026.10.02",
+          "priority": 1,
+          "cross_query_count": 2,
+          "datalab_velocity": 12.7
+        },
+        {
+          "title": "[이번주뭘살까] 가을 나들이 시즌…아웃도어 할인·김천김밥 팝업",
+          "link": "https://www.yna.co.kr/view/AKR20261002093600030?input=1195m",
+          "pub_date": "2026.10.03",
           "priority": 1,
           "cross_query_count": 2,
           "datalab_velocity": 0.0
-        },
-        {
-          "title": "GS샵, 하반기 최대 쇼핑행사 '판타지에스'…전 상품 7% 할인",
-          "link": "https://www.newsis.com/view/NISX20261006_0003814814",
-          "pub_date": "2026.10.06",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": 0.0
-        },
-        {
-          "title": "공영홈쇼핑 모바일몰 11년…인기상품 10% 적립·한글날 10% 할인",
-          "link": "https://www.g-enews.com/view.php?ud=202610060853374571ea13369bfa_1",
-          "pub_date": "2026.10.06",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -36.3
-        },
-        {
-          "title": "G마켓, 12일까지 ‘끝장세일’… 디지털·가전 최대 56% 할인",
-          "link": "https://biz.chosun.com/distribution/channel/2026/10/06/QA3XCJXL7JGQXG46LVM2XATP2Y/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-          "pub_date": "2026.10.06",
-          "priority": 1,
-          "cross_query_count": 2,
-          "datalab_velocity": -5.1
         }
       ],
       "is_new": true
     }
   ],
   "categories": {
-    "trend": [],
+    "trend": [
+      {
+        "title": "통신3사, B2C 서비스에 AI 적용 늘린다...멤버십-고객센터 앱 개편 '속도...",
+        "topic": "통신사 AI 멤버십 강화",
+        "insight": "통신3사가 멤버십·고객센터 앱에 AI 기술 적용해 개인화 서비스 확대",
+        "desc": "6일 SK텔레콤은 AI를 활용해 고객 멤버십 이용 패턴과 관심사를 반영한 10월 T멤버십 혜택을 지난 1일부터 선보이고 있다고 밝혔다. 회사 측은 자체 구축한 '마케팅 AI 에이전트'가 제안한 혜택 콘셉트와 카테고리별... ",
+        "link": "https://www.techm.kr/news/articleView.html?idxno=155862",
+        "pub_date": "2026.10.06",
+        "reason": "통신사 멤버십 AI 개편 트렌드",
+        "priority": 2,
+        "cross_query_count": 3,
+        "datalab_score": 78.6,
+        "datalab_velocity": 19.0,
+        "queries": [
+          "멤버십 혜택",
+          "구독 서비스",
+          "앱 마케팅"
+        ]
+      },
+      {
+        "title": "백화점 외국인 매출 ‘1조원’ 시대… 쇼핑명소 넘어 K컬처 플랫폼으로",
+        "topic": "백화점 외국인 수요 확대",
+        "insight": "백화점 외국인 매출이 1조원대로 증가하며 K컬처 플랫폼으로의 역할 전환",
+        "desc": "외국인 고객을 겨냥한 백화점 간 서비스 경쟁도 치열해지고 있다. 롯데백화점은 ‘외국인 멤버십 카드’... 경쟁사들도 연내 1조원 돌파를 눈앞에 두고 있다. 신세계백화점(아울렛 제외)은 지난달까지 외국인 매출... ",
+        "link": "https://www.seoul.co.kr/news/economy/distribution/2026/10/07/20261007030003?wlog_tag3=naver",
+        "pub_date": "2026.10.07",
+        "reason": "백화점 외국인 매출 오프라인 경험화",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "플랫폼 경쟁",
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "화면 밖으로 나온 이커머스…오프라인서 ‘브랜드 경험’ 경쟁",
+        "topic": "이커머스 오프라인 확장",
+        "insight": "온라인 기반 이커머스 기업들이 오프라인에서 직접 브랜드 체험 공간 확보 경쟁",
+        "desc": "이 같은 움직임은 입점 브랜드와 셀러 확보 경쟁과도 맞닿아 있다. 플랫폼이 대규모 오프라인 행사를 열어 고객을 모아주면 입점업체는 브랜드 인지도를 높여 매출 성장에 도움이 된다. 플랫폼 역시 차별화된 브랜드와... ",
+        "link": "https://www.kukinews.com/article/view/kuk202610060207",
+        "pub_date": "2026.10.07",
+        "reason": "이커머스 오프라인 브랜드 경험 전환",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "플랫폼 경쟁",
+          "이커머스 전략"
+        ]
+      },
+      {
+        "title": "&quot;중고인데 생각보다 괜찮네&quot;…패션 리커머스, 소비자가 찾는 이유",
+        "topic": "패션 리커머스 성장",
+        "insight": "중고 패션 리커머스 시장이 합리적 가격과 지속가능성을 추구하는 소비자 수요로 성장",
+        "desc": "◇ 무신사·코오롱FnC·LF, 리셀 넘어 '리커머스'로 중고 패션을 선택하는 소비자들이 중요하게 보는 것은... 다만 무신사 유즈드의 성장세를 단순한 할인 효과로만 보기는 어렵다. 거래액뿐 아니라 판매자와 등록 상품 수가... ",
+        "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7187836",
+        "pub_date": "2026.10.07",
+        "reason": "패션 리커머스 소비 트렌드 부상",
+        "priority": 2,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "소비자 할인",
+          "블랙프라이데이 준비"
+        ]
+      }
+    ],
     "risk": [
       {
+        "title": "'암살자(들)' 논란 후폭풍…불매 불똥에 유해진·이민호 '선 긋기' [이슈...",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
+        "desc": "논란이 과열되는 양상이라 이 같은 결정을 내린 것으로 해석된다. 이와 관련해 익명을 요구한 한 소비자 마케팅 전문가는 &quot;소비를 통해 자신의 가치관이나 의견을 표현하려는 사람들이 늘어나는 가운데 정치적인 문제까지... ",
+        "link": "https://www.hankyung.com/article/202610029137g",
+        "pub_date": "2026.10.02",
+        "reason": "영화 논란 불매 확산 우려",
+        "priority": 3,
+        "cross_query_count": 2,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
+        "queries": [
+          "마케팅 논란",
+          "불매운동"
+        ]
+      },
+      {
         "title": "버거킹, 불매 움직임 속 유해진 광고 종료…제품 출시 약 2주만(종합)",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
         "desc": "출연작 '암살자(들)' 역사 왜곡 지적에 불매 운동 움직임 버거킹 측 &quot;당초 계획 따른 종료…최근 논란 영향 아냐&quot; 영화 '암살자(들)'을 둘러싼 역사 왜곡 논란이 출연 배우가 광고한 제품에 대한 불매 움직임으로 번진 가운데... ",
         "link": "https://www.yna.co.kr/view/AKR20261006147451030?input=1195m",
         "pub_date": "2026.10.06",
-        "reason": "T멤버십 제휴사 버거킹 불매 확산",
+        "reason": "버거킹 불매운동 확산, 제휴 재검토",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
         "queries": [
           "불매운동"
         ]
       },
       {
         "title": "불매 조짐 속 버거킹, 유해진 광고 캠페인 종료…“일정에 따라”",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
         "desc": "하지만 ‘암살자(들)’이 역사 왜곡 논란에 휘말리면서 주연 배우들이 등장하는 브랜드 불매 운동 조짐이 보였고, 일부는 모델 교체까지도 요구했다. 이렇다 보니 영화 논란의 영향으로 캠페인이 조기에 종료된 것... ",
         "link": "https://www.segye.com/newsView/20261006516526?OutUrl=naver",
         "pub_date": "2026.10.06",
-        "reason": "버거킹 불매 움직임 속 광고 종료",
+        "reason": "버거킹 광고 캠페인 중단, 불매 여파",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
         "queries": [
           "불매운동"
         ]
       },
       {
-        "title": "유해진 &quot;신변 위협·명예훼손 엄중 대응&quot;…자택 앞 시위에 광고 불매 움...",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
-        "desc": "영화 '암살자(들)'을 둘러싼 논란이 출연 배우의 광고 제품에 대한 불매운동과 자택 앞 시위로까지 번지자 배우 유해진의 소속사가 강경 대응을 예고했다. 유해진의 소속사 VAST엔터테인먼트는 5일 공식 사회관계망서비스... ",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/05/2026100590040.html",
-        "pub_date": "2026.10.05",
-        "reason": "버거킹 제휴 배우 신변위협 불매",
+        "title": "&quot;스벅 불매는 되고, 우리는 왜?&quot;…버거킹 본사 찾아가 &quot;공범!&quot;",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
+        "desc": "[안정권/유튜버 : 왜 스타벅스 불매운동은 착한 거고 우리 모델 교체 주장은 나쁜 요구가 되는 겁니까? 이게 자유민주주의 국가 맞습니까?] 앞서 이들 단체는 '최휘영 문화체육관광부 장관이 단체의 명예를 훼손했다'며... ",
+        "link": "https://news.jtbc.co.kr/article/NB12321696?influxDiv=NAVER",
+        "pub_date": "2026.10.07",
+        "reason": "버거킹 불매 정당성 논의, 여파 확대",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "불매 넘어 자택 시위까지…유해진 측 “‘암살자(들)’ 신변 위협, 엄중...",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
-        "desc": "영화 '암살자(들)'을 둘러싼 역사 왜곡 논란이 출연 배우를 겨냥한 불매운동과 자택 앞 시위로까지 번지면서 배우 유해진 측이 강경 대응에 나섰다. 유해진의 소속사 VAST엔터테인먼트는 5일 공식 사회관계망서비스(SNS)를... ",
-        "link": "http://www.joseilbo.com/news/news_read.php?uid=576838&class=33&grp=",
-        "pub_date": "2026.10.05",
-        "reason": "버거킹 제휴 배우 자택 시위 확산",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "버거킹은 무엇을 잘못했나… '암살자(들)' 불매가 겨눈 곳",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
-        "desc": "표적이 기업의 잘못이 아니라 다른 생각이라면, 어느 진영이 하든 그 불매는 소비자 운동이 아니다. 사실을 따지겠다는 비판이 사실을 고르고, 다른 해석은 틀렸다고 반박하는 대신 지우려 할 때, 역사 왜곡을... ",
-        "link": "https://www.ajunews.com/view/20261006170258681",
-        "pub_date": "2026.10.06",
-        "reason": "버거킹 불매 운동 심화",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "&quot;불매 운동에 자택 앞 집회까지&quot;…'암살자(들)' 유해진 측, 칼 빼들었다",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
-        "desc": "온라인상에서는 유해진이 광고 모델로 활동 중인 패스트푸드 브랜드의 제품 불매 운동이나 애플리케이션 탈퇴 인증 글이 잇따랐고, 광고 영상에도 악의적인 비난 댓글과 모델 교체 요구가 쏟아졌다. 갈등은 온라인을 넘어... ",
-        "link": "https://www.ize.co.kr/news/articleView.html?idxno=81364",
-        "pub_date": "2026.10.05",
-        "reason": "버거킹 제휴 배우 불매 확산",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "'암살자(들)' 탄흔 티켓 논란…주진우 &quot;전량폐기 안 하면 불매운동&quot;",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
-        "desc": "이어 굿즈 전량 폐기와 사과를 재차 촉구하면서 &quot;오늘 조치하지 않으면 (메가박스) 홍정인 대표를 국감 증인(으로 부르고) 메가박스 불매운동으로 강력히 응징하겠다&quot;고 덧붙였습니다. 이기인 개혁신당 비상대책위원장도... ",
-        "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00006&news_seq_no=5222861",
-        "pub_date": "2026.10.03",
-        "reason": "버거킹 제휴 논란 불매 진행",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "하태경, '암살자(들)' 논란에 &quot;제품 불매 넘어 영화·드라마 퇴출로&quot;",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
-        "desc": "그는 &quot;해외 사례를 보니 관련 제품 불매운동도 있고, 넷플릭스 같은 OTT 플랫폼에서 관련 감독과 배우가 등장하는 영화를 내리라고 압박하는 운동도 있다&quot;고 설명했다. 단순히 특정 제품의 불매에 그치지 않고 콘텐츠... ",
-        "link": "https://www.newsis.com/view/NISX20261002_0003811997",
-        "pub_date": "2026.10.02",
-        "reason": "버거킹 제휴 배우 불매 주도",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
-        "queries": [
-          "불매운동"
-        ]
-      },
-      {
-        "title": "'암살자(들)' 논란 유해진에 불똥…불매·자택 시위에 소속사 강경 대응...",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
-        "desc": "[사진=하이브미디어코프]  영화 '암살자(들)'을 둘러싼 역사 왜곡 논란이 출연 배우 유해진을 겨냥한 불매운동과 자택 앞 집회로까지 번지면서 소속사가 강경 대응을 예고했다. 작품에 대한 비판을 넘어 배우 개인의... ",
-        "link": "https://www.joongangenews.com/news/articleView.html?idxno=552654",
-        "pub_date": "2026.10.05",
-        "reason": "버거킹 불매운동 심화 추적",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
         "queries": [
           "불매운동"
         ]
       },
       {
         "title": "&quot;유해진 햄버거 안먹는다&quot;…암살자(들) 연예인 불매운동",
-        "topic": "버거킹 암살자들 불매 사태",
-        "insight": "영화 '암살자(들)' 논란으로 버거킹 광고 캠페인 중단, 연예인 불매운동 및 자택 시위까지 확산",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
         "desc": "영화 암살자(들) 영화에 출연한 배우 등이 광고 모델로 출연한 제품에 대한 불매운동이 이어지고 있다. 주연 중 한 명인 유해진이 광고 모델인 버거 프랜차이즈 버거킹도 불매 대상이 됐다. 이 회사는 유해진을 모델로... ",
         "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/05/2026100590005.html",
         "pub_date": "2026.10.05",
-        "reason": "버거킹 제휴 배우 불매 확대",
+        "reason": "버거킹 불매운동 확산, 고객 이탈 위험",
         "priority": 3,
         "cross_query_count": 1,
-        "datalab_score": 63.2,
-        "datalab_velocity": -33.9,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "“유해진 햄버거 안 먹을래요”… 불매운동으로 번진 암살자(들)",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
+        "desc": "이 영화가 육영수 여사 피격 사건의 배후에 박정희 당시 대통령이 있었을 가능성을 암시하는 내용을 담아 불거진 역사 왜곡 논란이 불매 운동으로 번진 것이다. 영화에 출연한 배우 등이 광고 모델로 출연한 제품이 불매... ",
+        "link": "https://www.chosun.com/national/national_general/2026/10/02/DGIHHLCQBFFVHFJ3MNXCRCH6TA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "pub_date": "2026.10.02",
+        "reason": "버거킹 불매운동 확산, 제휴사 위기",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "'암살자(들)'이 낳은 불매·시위·고발…&quot;정치권 공세가 이념 갈등 기폭...",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
+        "desc": "모델 교체될 때까지 불매하겠습니다.&quot; 2일 엑스 등 사회관계망서비스(SNS)에는 배우 유해진이 광고 모델인 햄버거 프랜차이즈의 불매 운동에 나서겠다는 글이 잇달아 올라왔다. 배우가 출연한 영화 '암살자(들)'이 육영수... ",
+        "link": "https://www.news1.kr/society/incident-accident/6308771",
+        "pub_date": "2026.10.02",
+        "reason": "버거킹 불매 정치 갈등 심화 여파",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "'암살자(들)' 논란 유해진에 불똥…불매·자택 시위에 소속사 강경 대응...",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
+        "desc": "[사진=하이브미디어코프]  영화 '암살자(들)'을 둘러싼 역사 왜곡 논란이 출연 배우 유해진을 겨냥한 불매운동과 자택 앞 집회로까지 번지면서 소속사가 강경 대응을 예고했다. 작품에 대한 비판을 넘어 배우 개인의... ",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=552654",
+        "pub_date": "2026.10.05",
+        "reason": "버거킹 불매 광고 브랜드 확산, 긴급",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "“‘암살자(들)’ 불매 움직임… 배우 광고 브랜드로 불똥 튄 유통업계...",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
+        "desc": "작품에 대한 비판을 넘어선 불매운동까진 과하다는 비판도 일지만, 불매 운동을 주장하는 측은 비판 여론에 꿈쩍하지 않는 모습이다. 비판하는 이들은 ‘공정’을 이유로 내세운다. 5.18 왜곡 논란으로 스타벅스가... ",
+        "link": "https://www.segye.com/newsView/20261002507451?OutUrl=naver",
+        "pub_date": "2026.10.02",
+        "reason": "유통업 전반 버거킹 불매 영향 확대",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
+        "queries": [
+          "불매운동"
+        ]
+      },
+      {
+        "title": "'암살자들' 후폭풍…배우 집앞 집회에 불매운동까지[사사건건]",
+        "topic": "영화 암살자들 논란 불매운동",
+        "insight": "영화 논란으로 촉발된 연예인 불매운동이 광고 브랜드까지 확산, 유통업계 영향",
+        "desc": "영화에 대한 해석 차이가 정쟁으로 번지면서, 비판의 초점은 출연 배우 자택 앞 집회와 광고 불매운동 등 사적 압박으로 옮겨붙는 양상입니다. 영화 '암살자(들)' 주연 배우 유해진 (사진=연합뉴스) 2일 경찰과 영화계에... ",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01804006645609312&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "pub_date": "2026.10.03",
+        "reason": "버거킹 불매운동 심화, 제휴사 영향",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 57.6,
+        "datalab_velocity": -13.3,
         "queries": [
           "불매운동"
         ]
@@ -404,78 +469,143 @@
     ],
     "battle": [
       {
-        "title": "네이버·카카오·쿠팡 '멤버십 삼국지'…구독자 잡기 불붙었다",
-        "topic": "플랫폼사 통합멤버십 경쟁",
-        "insight": "네이버·카카오·쿠팡이 쇼핑·콘텐츠·금융 통합 멤버십으로 구독자 확보 경쟁 심화",
-        "desc": "네이버는 장보기·배송 영역에서도 컬리와 제휴한 '컬리N마트'를 운영하고 연내 N배송 새벽배송을 멤버십 혜택으로 전환할 계획이다. 네이버는 외부 서비스와의 제휴도 주요 경쟁력으로 내세운다. 2024년 넷플릭스와의... ",
-        "link": "https://www.yna.co.kr/view/AKR20261002154300017?input=1195m",
-        "pub_date": "2026.10.04",
-        "reason": "네이버·카카오·쿠팡 멤버십 경쟁 심화",
+        "title": "카카오, 월 4900원 통합 멤버십 첫선…네이버와 ‘구독 경제’ 정면승부...",
+        "topic": "플랫폼 통합 멤버십 경쟁",
+        "insight": "카카오 월 4900원 통합 멤버십 출시, 네이버·쿠팡과의 구독 경제 경쟁 본격화",
+        "desc": "특히 ‘선물하기’ 내 자기 구매 거래액이 39% 급증하며 일상 쇼핑으로 진화하고 있어, 멤버십의 포인트 적립 혜택은 생태계 내부의 소비 선순환 구조를 단단하게 다질 것으로 기대된다. 나아가 카카오톡 내에서 이용자... ",
+        "link": "https://www.sportsseoul.com/news/read/1638839?ref=naver",
+        "pub_date": "2026.10.07",
+        "reason": "카카오 통합 멤버십 출시 (구독 경쟁 심화)",
         "priority": 3,
         "cross_query_count": 2,
-        "datalab_score": 73.2,
-        "datalab_velocity": -19.2,
+        "datalab_score": 78.6,
+        "datalab_velocity": 19.0,
         "queries": [
           "멤버십 혜택",
           "구독 서비스"
         ]
       },
       {
-        "title": "배민, 한글날도 한강 드론라이트쇼 참여…2000인분 식사 무료제공",
-        "topic": "배민 한글날 마케팅",
-        "insight": "배민이 한강 드론쇼 통해 브랜드 노출과 로컬 상권 활성화를 동시에 진행",
-        "desc": "배달의민족(배민)이 한글날 서울 뚝섬한강공원에서 열리는 '한강 드론라이트쇼'에 참여해 무료 시식과 할인 쿠폰 등 오프라인 이벤트를 진행한다. 배민 운영사 우아한형제들은 서울시가 주최하는 '한강 드론라이트쇼... ",
-        "link": "https://www.etnews.com/20261005000032",
-        "pub_date": "2026.10.05",
-        "reason": "배민의 대규모 무료제공으로 고객 이탈 위험",
+        "title": "네이버·카카오·쿠팡 '멤버십 삼국지'…구독자 잡기 불붙었다",
+        "topic": "플랫폼 통합 멤버십 경쟁",
+        "insight": "카카오 월 4900원 통합 멤버십 출시, 네이버·쿠팡과의 구독 경제 경쟁 본격화",
+        "desc": "네이버는 장보기·배송 영역에서도 컬리와 제휴한 '컬리N마트'를 운영하고 연내 N배송 새벽배송을 멤버십 혜택으로 전환할 계획이다. 네이버는 외부 서비스와의 제휴도 주요 경쟁력으로 내세운다. 2024년 넷플릭스와의... ",
+        "link": "https://www.yna.co.kr/view/AKR20261002154300017?input=1195m",
+        "pub_date": "2026.10.04",
+        "reason": "네이버·카카오·쿠팡 멤버십 3파전",
         "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 70.2,
-        "datalab_velocity": -36.3,
+        "cross_query_count": 2,
+        "datalab_score": 78.6,
+        "datalab_velocity": 19.0,
         "queries": [
-          "한글날 이벤트"
+          "멤버십 혜택",
+          "구독 서비스"
         ]
       },
       {
-        "title": "배민, 한글날 '한강 드론라이트쇼' 참여…무료 시식·로컬 상권 활성화",
-        "topic": "배민 한글날 마케팅",
-        "insight": "배민이 한강 드론쇼 통해 브랜드 노출과 로컬 상권 활성화를 동시에 진행",
-        "desc": "인더스트리뉴스 한원석 기자  배달의민족(배민)이 한글날을 맞아 서울시 대표 야간 축제인 '한강 드론라이트쇼' 현장에서 오프라인 이벤트를 개최하고 지역 상권 연계 마케팅을 펼친다. 2일 유통업계에 따르면 배민... ",
-        "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87025",
-        "pub_date": "2026.10.05",
-        "reason": "배민 대규모 마케팅으로 지역 상권 점유",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 70.2,
-        "datalab_velocity": -36.3,
-        "queries": [
-          "한글날 이벤트"
-        ]
-      },
-      {
-        "title": "드론쇼 4만명에 주문 27%↑…배민, 한글날 한강서 또 '먹거리 공략'",
-        "topic": "배민 한글날 마케팅",
-        "insight": "배민이 한강 드론쇼 통해 브랜드 노출과 로컬 상권 활성화를 동시에 진행",
-        "desc": "배달의민족이 한글날 한강 드론라이트쇼 현장에서 무료 먹거리와 지역 맛집 체험 행사를 연다. 지난달 행사... 현장 이벤트를 운영한다고 밝혔다. 한강 드론라이트쇼는 드론 불빛과 한강 야경을 결합한 서울의 대표 야간... ",
-        "link": "https://www.peoplewatch.co.kr/article/view/ppw202610050006",
-        "pub_date": "2026.10.05",
-        "reason": "배민 드론쇼 27% 주문 증가, 경쟁사 공격",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 70.2,
-        "datalab_velocity": -36.3,
-        "queries": [
-          "한글날 이벤트"
-        ]
-      },
-      {
-        "title": "카카오도 멤버십 경쟁 뛰어들었다… 월 4900원에 받는 혜택은?",
-        "topic": "플랫폼사 통합멤버십 경쟁",
-        "insight": "네이버·카카오·쿠팡이 쇼핑·콘텐츠·금융 통합 멤버십으로 구독자 확보 경쟁 심화",
-        "desc": "사진=카카오 제공 카카오가 선물하기와 톡딜, 카카오페이, 멜론, 이모티콘 등 주요 서비스의 혜택을 한데 모은 통합 멤버십을 선보인다. 카카오는 지난 1일 월 구독료 4900원의 '카카오멤버십'을 출시하고 선착순 가입을... ",
-        "link": "https://www.ggilbo.com/news/articleView.html?idxno=1184812",
+        "title": "&quot;쿠팡∙컬리 쇼핑하면 주식매수 쿠폰&quot;…하나증권 '쇼핑적립' 서비스",
+        "topic": "쇼핑 적립 금융연계 서비스",
+        "insight": "하나증권이 쿠팡·컬리 쇼핑으로 주식매수 쿠폰을 받는 '쇼핑적립' 서비스 개시",
+        "desc": "조대헌 하나증권 AI디지털전략본부장은 &quot;쇼핑적립은 손님의 일상적인 소비가 투자로 이어질 수 있도록 쇼핑과 금융을 연결한 서비스&quot;라며 &quot;앞으로도 다양한 생활밀착형 제휴와 혜택을 확대해 손님이 하나증권V에서... ",
+        "link": "https://www.newsis.com/view/NISX20261007_0003816770",
         "pub_date": "2026.10.07",
-        "reason": "카카오 월 4900원 멤버십 출시",
+        "reason": "하나증권 쿠팡·컬리 제휴 적립, 긴급 경쟁 대응",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "하나증권, '쇼핑적립' 서비스 오픈",
+        "topic": "쇼핑 적립 금융연계 서비스",
+        "insight": "하나증권이 쿠팡·컬리 쇼핑으로 주식매수 쿠폰을 받는 '쇼핑적립' 서비스 개시",
+        "desc": "적립 예정 내역은 앱 내 쇼핑적립 화면에서 확인 가능하다. 하나증권은 향후 제휴 가맹점과 포인트 사용처를 늘려 소비자가 생활 속에서 금융 혜택을 체감할 수 있도록 서비스를 강화할 방침이다. 조대헌 하나증권 AI디지... ",
+        "link": "https://www.econovill.com/news/articleView.html?idxno=752942",
+        "pub_date": "2026.10.07",
+        "reason": "하나증권 쇼핑적립, 금융사 멤버십 경쟁",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "하나증권, 쇼핑하면 포인트 쌓이는 '쇼핑적립' 서비스 출시",
+        "topic": "쇼핑 적립 금융연계 서비스",
+        "insight": "하나증권이 쿠팡·컬리 쇼핑으로 주식매수 쿠폰을 받는 '쇼핑적립' 서비스 개시",
+        "desc": "조대헌 하나증권 AI디지털전략본부장은 “쇼핑적립은 손님의 일상적인 소비가 투자로 이어질 수 있도록 쇼핑과 금융을 연결한 서비스”라며 “앞으로도 다양한 생활밀착형 제휴와 혜택을 확대해 손님이 하나증권V에서... ",
+        "link": "https://www.etnews.com/20261007000252",
+        "pub_date": "2026.10.07",
+        "reason": "하나증권 쇼핑 포인트 서비스, 경쟁 강화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "하나증권, '쇼핑적립' 서비스 출시",
+        "topic": "쇼핑 적립 금융연계 서비스",
+        "insight": "하나증권이 쿠팡·컬리 쇼핑으로 주식매수 쿠폰을 받는 '쇼핑적립' 서비스 개시",
+        "desc": "조대헌 하나증권 AI디지털전략본부장은 &quot;쇼핑적립은 손님의 일상적인 소비가 투자로 이어질 수 있도록 쇼핑과 금융을 연결한 서비스&quot;라며 &quot;앞으로도 다양한 생활밀착형 제휴와 혜택을 확대해 손님이 하나증권V에서... ",
+        "link": "https://www.newspim.com/news/view/20261007000273",
+        "pub_date": "2026.10.07",
+        "reason": "하나증권 쇼핑적립, 경쟁사 새 서비스",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "'쿠팡 쇼핑하면 3% 적립' 하나증권, 쇼핑적립 서비스 오픈",
+        "topic": "쇼핑 적립 금융연계 서비스",
+        "insight": "하나증권이 쿠팡·컬리 쇼핑으로 주식매수 쿠폰을 받는 '쇼핑적립' 서비스 개시",
+        "desc": "조대헌 하나증권 AI디지털전략본부장은 &quot;쇼핑적립은 손님의 일상적인 소비가 투자로 이어질 수 있도록 쇼핑과 금융을 연결한 서비스&quot;라며 &quot;앞으로도 다양한 생활밀착형 제휴와 혜택을 확대해 하나증권V에서 새로운... ",
+        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1412658",
+        "pub_date": "2026.10.07",
+        "reason": "하나증권 쿠팡 적립, 경쟁 제휴 강화",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "&quot;쿠팡·컬리 쇼핑하면 투자 혜택&quot; 하나증권, '쇼핑적립' 서비스",
+        "topic": "쇼핑 적립 금융연계 서비스",
+        "insight": "하나증권이 쿠팡·컬리 쇼핑으로 주식매수 쿠폰을 받는 '쇼핑적립' 서비스 개시",
+        "desc": "조대헌 하나증권 AI디지털전략본부장은 &quot;쇼핑적립은 손님의 일상적인 소비가 투자로 이어질 수 있도록 쇼핑과 금융을 연결한 서비스&quot;라며 &quot;앞으로도 다양한 생활밀착형 제휴와 혜택을 확대해 손님이 하나증권V에서... ",
+        "link": "https://view.asiae.co.kr/article/2026100710082775665",
+        "pub_date": "2026.10.07",
+        "reason": "하나증권 이커머스 적립, 경쟁 가속",
+        "priority": 3,
+        "cross_query_count": 1,
+        "datalab_score": 100.0,
+        "datalab_velocity": 0.0,
+        "queries": [
+          "AI 쇼핑"
+        ]
+      },
+      {
+        "title": "컬리, '컬리 신한카드' 출시…멤버십 최대 14% 적립",
+        "topic": "커머스 제휴카드 적립 확대",
+        "insight": "컬리가 신한카드와 전용카드 출시, 멤버십 최대 14% 적립 혜택 제공",
+        "desc": "2023년에 이어 두 번째로 선보이는 이번 PLCC(상업자표시신용카드)는 멤버십과 적립 혜택을 한층 강화했다. 먼저 전월 실적 40만원 이상이면 컬리멤버스 구독료 전액 청구 할인을 제공한다. 컬리멤버스 회원에게 매달... ",
+        "link": "https://sports.hankooki.com/news/articleView.html?idxno=6941318",
+        "pub_date": "2026.10.07",
+        "reason": "컬리-신한카드 제휴 멤버십 경쟁",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -485,77 +615,13 @@
         ]
       },
       {
-        "title": "카카오, 월 4900원 '통합 멤버십' 전격 등판…네이버·쿠팡에 맞불",
-        "topic": "플랫폼사 통합멤버십 경쟁",
-        "insight": "네이버·카카오·쿠팡이 쇼핑·콘텐츠·금융 통합 멤버십으로 구독자 확보 경쟁 심화",
-        "desc": "서비스 안정화 이후 가입자를 단계적으로 확대할 계획이다. 김민규 카카오 성과리더는 &quot;향후 다양한 서비스와 연계해 혜택을 확대하고 카카오멤버십을 통해서만 누릴 수 있는 희소성 높은 가치를 선사하겠다&quot;고 말했다．",
-        "link": "https://www.newsis.com/view/NISX20261001_0003810166",
-        "pub_date": "2026.10.01",
-        "reason": "카카오 통합 멤버십 경쟁 가세",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "카카오 첫 통합멤버십 출시…월 4천900원에 쇼핑·콘텐츠 혜택",
-        "topic": "플랫폼사 통합멤버십 경쟁",
-        "insight": "네이버·카카오·쿠팡이 쇼핑·콘텐츠·금융 통합 멤버십으로 구독자 확보 경쟁 심화",
-        "desc": "쇼핑포인트 월 최대 2만점·카카오페이포인트 최대 5만점 이모티콘 플러스·톡클라우드 130GB 중 매월 선택 카카오는 쇼핑·결제·콘텐츠·금융 서비스의 혜택을 묶은 '카카오멤버십'을 출시하고 선착순 가입 신청을... ",
-        "link": "https://www.yna.co.kr/view/AKR20261001051600017?input=1195m",
-        "pub_date": "2026.10.01",
-        "reason": "카카오 통합멤버십 출시, 직접 경쟁 위협",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "'월 4900원' 다른 듯 닮은 멤버십 서비스⋯네이버 vs 카카오 격돌[종합]",
-        "topic": "플랫폼사 통합멤버십 경쟁",
-        "insight": "네이버·카카오·쿠팡이 쇼핑·콘텐츠·금융 통합 멤버십으로 구독자 확보 경쟁 심화",
-        "desc": "네이버보다 6년 후⋯카카오가 멤버십 '후발주자'로 가세한 이유는 일각에서는 카카오의 멤버십이 출시 초기인 만큼 향후 다른 기업과의 협업으로 멤버십 혜택을 확대할 가능성이 높다는 관측이 나온다. 업계 관계자는... ",
-        "link": "http://www.inews24.com/view/2011101",
-        "pub_date": "2026.10.01",
-        "reason": "네이버vs카카오 4900원 멤버십 격돌",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "'카톡 선물·멜론·이모티콘' 카카오 멤버십 출시⋯월 4900원",
-        "topic": "플랫폼사 통합멤버십 경쟁",
-        "insight": "네이버·카카오·쿠팡이 쇼핑·콘텐츠·금융 통합 멤버십으로 구독자 확보 경쟁 심화",
-        "desc": "카카오페이의 굿딜을 활용해 할인과 적립을 함께 활용할 수 있다. 김민규 카카오 성과리더는 &quot;향후 다양한 서비스와 연계해 혜택을 확대하고 멤버십을 통해서만 누릴 수 있는 희소성 높은 가치를 선사할 것&quot;이라고 밝혔다.",
-        "link": "http://www.inews24.com/view/2010808",
-        "pub_date": "2026.10.01",
-        "reason": "카카오 첫 통합멤버십 출시 공격",
-        "priority": 3,
-        "cross_query_count": 1,
-        "datalab_score": 0.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "멤버십 혜택"
-        ]
-      },
-      {
-        "title": "커머스·금융·콘텐츠 한 데 모았다…카카오 멤버십 출시",
-        "topic": "플랫폼사 통합멤버십 경쟁",
-        "insight": "네이버·카카오·쿠팡이 쇼핑·콘텐츠·금융 통합 멤버십으로 구독자 확보 경쟁 심화",
-        "desc": "카카오는 금융부터 커머스, 콘텐츠 등 그룹 내 다양한 서비스를 연계한 최초 통합 멤버십 카카오멤버십의 혜택과 가격을 공개하고 선착순 가입 신청을 받는다고 1일 밝혔다. 카카오멤버십의 월 구독료는 4900원이다.... ",
-        "link": "https://zdnet.co.kr/view/?no=20261001092735",
-        "pub_date": "2026.10.01",
-        "reason": "카카오 커머스·금융·콘텐츠 통합 위협",
+        "title": "컬리, 신한카드와 전용카드 출시…멤버십 최대 14% 적립",
+        "topic": "커머스 제휴카드 적립 확대",
+        "insight": "컬리가 신한카드와 전용카드 출시, 멤버십 최대 14% 적립 혜택 제공",
+        "desc": "컬리가 신한카드와 손잡고 멤버십 구독료 할인과 적립 혜택을 강화한 ‘컬리 신한카드’를 출시한다고 7일 밝혔다. 이번 컬리 신한카드는 컬리가 2023년 첫 상업자표시신용카드(PLCC)를 선보인 이후 두 번째로 출시하는... ",
+        "link": "https://www.sedaily.com/article/20098843?ref=naver",
+        "pub_date": "2026.10.07",
+        "reason": "컬리-신한카드 제휴 (중복)",
         "priority": 3,
         "cross_query_count": 1,
         "datalab_score": 0.0,
@@ -567,88 +633,54 @@
     ],
     "benchmark": [
       {
-        "title": "백화점 외국인 매출 ‘1조원’ 시대… 쇼핑명소 넘어 K컬처 플랫폼으로",
-        "topic": "백화점 외국인 매출 성장",
-        "insight": "백화점 외국인 매출이 1조원대 진입, K컬처 수요 증가로 쇼핑 목적지의 역할 확대",
-        "desc": "외국인 고객을 겨냥한 백화점 간 서비스 경쟁도 치열해지고 있다. 롯데백화점은 ‘외국인 멤버십 카드’... 경쟁사들도 연내 1조원 돌파를 눈앞에 두고 있다. 신세계백화점(아울렛 제외)은 지난달까지 외국인 매출... ",
-        "link": "https://www.seoul.co.kr/news/economy/distribution/2026/10/07/20261007030003?wlog_tag3=naver",
-        "pub_date": "2026.10.07",
-        "reason": "백화점 외국인 매출 추세 모니터링",
-        "priority": 1,
+        "title": "요기요, 배달앱 최초 '삼성 페이' 결제 도입",
+        "topic": "배달앱 결제 수단 확대",
+        "insight": "요기요가 삼성 페이 결제를 배달앱 최초 도입, 결제 수단 다양화 경쟁 심화",
+        "desc": "업계에서는 배달앱 시장의 경쟁 축이 가격과 배달 속도에서 결제 경험과 제휴 혜택으로 넓어지고 있다는 분석이 나온다. 요기요는 지난달 30일부터 삼성 페이 결제를 지원하고 있으며, 이를 기념한 프로모션도 진행한다고... ",
+        "link": "https://www.asiatime.co.kr/article/20261002500069",
+        "pub_date": "2026.10.02",
+        "reason": "요기요 삼성페이 결제 추가 (결제혜택)",
+        "priority": 2,
         "cross_query_count": 2,
-        "datalab_score": 100.0,
-        "datalab_velocity": 0.0,
-        "queries": [
-          "플랫폼 경쟁",
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "[굿모닝! 6일 유통가 소식] 맥도날드·코웨이·배달의민족·한샘·홈앤쇼...",
-        "topic": "유통사 프로모션 경쟁",
-        "insight": "주요 유통사들이 다양한 프로모션으로 고객 확보 경쟁 진행 중",
-        "desc": "배달의민족 운영사 우아한형제들은 '찾아가는 배민아카데미 전북특별자치도편' 참가자를 모집한다. 이번... 수납 시장에서 호응을 얻어왔다. 한샘은 현관에 대한 소비자 인식 변화에 주목해 시그니처 라인을 확대했다.... ",
-        "link": "https://www.goodkyung.com/news/articleView.html?idxno=292054",
-        "pub_date": "2026.10.06",
-        "reason": "유통사 소식, 장기 모니터링",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 100.0,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
           "배달 시장",
-          "AI 쇼핑"
+          "앱 마케팅"
         ]
       },
       {
-        "title": "GS샵, 하반기 최대 쇼핑행사 '판타지에스'…전 상품 7% 할인",
-        "topic": "유통사 프로모션 경쟁",
-        "insight": "주요 유통사들이 다양한 프로모션으로 고객 확보 경쟁 진행 중",
-        "desc": "GS샵이 오는 11일부터 25일까지 대표 인기 브랜드와 할인 혜택을 한데 모은 하반기 최대 쇼핑 행사... 고물가에 따른 소비자들의 장바구니 부담을 낮추기 위한 실속 상품도 마련했다. GS샵 자체 브랜드(PB) 상품인... ",
-        "link": "https://www.newsis.com/view/NISX20261006_0003814814",
-        "pub_date": "2026.10.06",
-        "reason": "GS샵 시즌 할인 프로모션 참고",
+        "title": "10월의 추천 스톡 콘텐츠 : 가을축제 | 가을캠핑 | 할로윈파티",
+        "topic": "가을 시즌 프로모션",
+        "insight": "가을축제, 캠핑, 할로윈파티 등 시즌 콘텐츠 기반 소비 촉진 전개",
+        "desc": "사탕, 거미줄, 개성 넘치는 코스튬이 담긴 스톡 이미지로 오싹하면서도 유쾌한 할로윈 분위기를 연출해보세요. 파티 포스터와 초대장부터 매장 이벤트, 프로모션 배너, SNS 게시물까지 다양한 시즌 콘텐츠에 활용하기... ",
+        "link": "https://ditoday.com/10%ec%9b%94%ec%9d%98-%ec%b6%94%ec%b2%9c-%ec%8a%a4%ed%86%a1-%ec%bd%98%ed%85%90%ec%b8%a0-%ea%b0%80%ec%9d%84%ec%b6%95%ec%a0%9c-%ea%b0%80%ec%9d%84%ec%ba%a0%ed%95%91-%ed%95%a0%eb%a1%9c%ec%9c%88/",
+        "pub_date": "2026.10.02",
+        "reason": "시즈널 콘텐츠 추천 (참고용)",
         "priority": 1,
         "cross_query_count": 2,
-        "datalab_score": 100.0,
+        "datalab_score": 67.0,
+        "datalab_velocity": 12.7,
+        "queries": [
+          "할로윈 이벤트",
+          "캠핑 시즌"
+        ]
+      },
+      {
+        "title": "[이번주뭘살까] 가을 나들이 시즌…아웃도어 할인·김천김밥 팝업",
+        "topic": "가을 시즌 프로모션",
+        "insight": "가을축제, 캠핑, 할로윈파티 등 시즌 콘텐츠 기반 소비 촉진 전개",
+        "desc": "이커머스, 국내 주요 테마파크 이용권·숙소 숙박권 판매 가을 나들이 인파가 늘어나는 10월 첫 연휴를 맞아... 롯데백화점 잠실점에서는 8일까지 '2026 김천김밥축제' 팝업 스토어를 운영한다. 김천시와 롯데백화점의... ",
+        "link": "https://www.yna.co.kr/view/AKR20261002093600030?input=1195m",
+        "pub_date": "2026.10.03",
+        "reason": "가을 나들이 시즌 프로모션 참고",
+        "priority": 1,
+        "cross_query_count": 2,
+        "datalab_score": 0.0,
         "datalab_velocity": 0.0,
         "queries": [
-          "소비자 할인",
-          "AI 쇼핑"
-        ]
-      },
-      {
-        "title": "공영홈쇼핑 모바일몰 11년…인기상품 10% 적립·한글날 10% 할인",
-        "topic": "유통사 프로모션 경쟁",
-        "insight": "주요 유통사들이 다양한 프로모션으로 고객 확보 경쟁 진행 중",
-        "desc": "공영홈쇼핑 관계자는 &quot;모바일몰 오픈 11주년을 맞아 소비자 여러분들의 성원에 보답하고자 다양한 할인과 적립 이벤트를 마련했다&quot;며 &quot;앞으로도 디지털 판로 고도화를 통해 공적 판로로서의 역할을 다할 수 있도록... ",
-        "link": "https://www.g-enews.com/view.php?ud=202610060853374571ea13369bfa_1",
-        "pub_date": "2026.10.06",
-        "reason": "공영홈쇼핑 적립·할인 혜택 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 70.2,
-        "datalab_velocity": -36.3,
-        "queries": [
-          "소비자 할인",
-          "한글날 이벤트"
-        ]
-      },
-      {
-        "title": "G마켓, 12일까지 ‘끝장세일’… 디지털·가전 최대 56% 할인",
-        "topic": "유통사 프로모션 경쟁",
-        "insight": "주요 유통사들이 다양한 프로모션으로 고객 확보 경쟁 진행 중",
-        "desc": "끝장세일은 시즌별 소비 트렌드를 반영해 주요 상품군에 할인 혜택을 집중하는 G마켓의 정례 프로모션이다. 구매 데이터를 기반으로 인기 상품을 선별하고, 특가 상품을 선보이는 것이 특징이다. 이번 행사에서는... ",
-        "link": "https://biz.chosun.com/distribution/channel/2026/10/06/QA3XCJXL7JGQXG46LVM2XATP2Y/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "pub_date": "2026.10.06",
-        "reason": "G마켓 시즌 할인 프로모션 참고",
-        "priority": 1,
-        "cross_query_count": 2,
-        "datalab_score": 28.3,
-        "datalab_velocity": -5.1,
-        "queries": [
-          "소비 트렌드",
-          "소비자 할인"
+          "가을 축제 시즌",
+          "캠핑 시즌"
         ]
       }
     ]
