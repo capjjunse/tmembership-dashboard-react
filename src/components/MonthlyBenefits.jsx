@@ -34,9 +34,38 @@ export default function MonthlyBenefits() {
               </ul>
             </div>
             <div className="mblk">
+              <div className="mbtit"><span className="mbdot" style={{ background: '#0088cc' }}></span><span className="upd">Young week (10.5~10.9)</span></div>
+              <ul className="mblist">
+                <li><span className="upd">팀홀튼 딥라떼무료(~10.11)</span></li>
+                <li><span className="upd">빽다방 아메리카노1천원할인(~10.11)</span></li>
+                <li><span className="upd">명랑핫도그 2,300원무료(~10.9,선착순)</span></li>
+                <li><span className="upd">요아정 2인50%할인(~10.9)</span></li>
+                <li><span className="upd">포케올데이 앱주문40%할인(최대6천원,~10.9)</span></li>
+                <li><span className="upd">CU 삼각김밥6종50%할인(~10.9)</span></li>
+                <li><span className="upd">이마트24 베이커리50%할인(~10.9)</span></li>
+                <li><span className="upd">원스토어 게임30%할인(최대1.5만원,~10.9)</span></li>
+                <li><span className="upd">이크루즈 크루즈50%할인(동반1인,~10.18)</span></li>
+                <li><span className="upd">코드잇 IT강의2주무료(~10.16)</span></li>
+                <li><span className="upd">NOL티켓 디어에반핸슨35%할인(~10.31)</span></li>
+                <li><span className="upd">NOL티켓 전시이강소35%할인(~10.31)</span></li>
+                <li><span className="upd">럭키찬스 다이소5천원금액권(10,000명)</span></li>
+              </ul>
+            </div>
+            <div className="mblk">
               <div className="mbtit"><span className="mbdot" style={{ background: '#aaa' }}></span><span>Day 1 (10.12~10.16)</span></div>
               <ul className="mblist">
-                <li style={{ color: 'var(--tx3)' }}>Coming Soon — 10월 12일 공개 예정</li>
+                <li><span className="upd">T우주 구글AI Plus Npay6,900P증정</span></li>
+                <li><span className="upd">공차 VIP50%·일반30%할인(인기음료6종)</span></li>
+                <li><span className="upd">투썸×카카오페이 VIPOnly40%할인</span></li>
+                <li><span className="upd">배민×bhc VIP8천원·일반6천원할인(1.8만원↑)</span></li>
+                <li><span className="upd">롯데월드 서울·부산 본인55%+동반최대50%할인</span></li>
+                <li><span className="upd">CGV 8,500원예매+매점할인쿠폰</span></li>
+                <li><span className="upd">럭키찬스2 가민워치·쿠키런마라톤추첨</span></li>
+                <li><span className="upd">더키친일뽀르노 5만원↑30%할인</span></li>
+                <li><span className="upd">스텔라떡볶이 무뼈닭발·떡튀순50%할인</span></li>
+                <li><span className="upd">밀리의서재 1개월구독권무료</span></li>
+                <li><span className="upd">예스24 크레마클럽60일무료</span></li>
+                <li><span className="upd">폴라리스오피스 AI요금제1개월이용권</span></li>
               </ul>
             </div>
             <div className="mblk">
@@ -57,8 +86,9 @@ export default function MonthlyBenefits() {
             <div className="mpnt-concept">AI로 만든 T day — 등급별 3찬스 체계</div>
             <ul className="mpnt-list">
               <li>Week혜택(10.5~9) · 15종 식음·뷰티·레저</li>
+              <li><span className="upd">Young week(10.5~9) 13종 혜택 공개</span></li>
               <li>AI테마·VIPOnly·VIP찬스·Club찬스 등급제</li>
-              <li>Day 1~3 · 10.12·10.21·10.28 순차 공개</li>
+              <li><span className="upd">Day1 AI Week 공개 · Day2·3 예정</span></li>
             </ul>
           </div>
         </div>

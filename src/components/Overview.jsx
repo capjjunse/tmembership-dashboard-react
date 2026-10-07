@@ -103,6 +103,7 @@ export default function Overview() {
           </a>
           <a href="#mo" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-on">오픈</em>Week 혜택 (10.5~10.9) 공개 — 15종 식음·뷰티·레저</div>
+            <div className="ovg2-item"><em className="tg tg-on">오픈</em><span className="upd">Day 1 (10.12~10.16) AI Week 공개 — 12종</span></div>
           </a>
           <a href="#hs" className="ovg2-card cs">
             <div className="ovg2-item"><em className="tg tg-new">신규</em>SK나이츠 신규 제휴 예정 (10.19)</div>
@@ -148,8 +149,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 62%·부정 31%·중립 7%</span></div>
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">유플투쁠 "유튜브할잉 혜택이 넘 좋다" VIP 유지 반응 (10.04)</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 62%·부정 31%·중립 7%</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>유플투쁠 "유튜브할잉 혜택이 넘 좋다" VIP 유지 반응 (10.04)</div>
           </a>
         </div>
 
@@ -158,10 +159,10 @@ export default function Overview() {
           <div className="ovki-grid">
             <a href="#ai-matrix" className="ovki ovki-mix">
               <div className="ovki-cat">📊 3사 경쟁 매트릭스</div>
-              <div className="ovki-title">SKT↔LGU+ 2종 동급 · KT 비교 미반영</div>
+              <div className="ovki-title"><span className="upd">SKT↔LGU+ 2종 동급 · SKT×KT 겹침 없음</span></div>
               <ul className="ovki-list">
                 <li>백미당·투썸플레이스 동급 — Week혜택 vs 투쁠 구성 상이</li>
-                <li>KT 달달혜택 공개 완료 — 비교 행 미반영 상태</li>
+                <li><span className="upd">KT 달달혜택 공개 — SKT×KT 겹치는 브랜드 없음</span></li>
               </ul>
               <div className="ovki-go">경쟁 매트릭스 보기 →</div>
             </a>
