@@ -148,8 +148,8 @@ export default function Overview() {
             <div className="ovg2-item"><em className="tg tg-chg">변경</em>신세계면세점 온라인 혜택 축소 예정 (10.1~)</div>
           </a>
           <a href="#sn" className="ovg2-card cl">
-            <div className="ovg2-item"><em className="tg tg-pos">긍정</em>긍정 55%·부정 36%·중립 9%</div>
-            <div className="ovg2-item"><em className="tg tg-neg">부정</em>유플투쁠 완무꿀통 "이것도 이제 끝이구나" 알뜰폰 이탈 신호 (9.29)</div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">긍정 62%·부정 31%·중립 7%</span></div>
+            <div className="ovg2-item"><em className="tg tg-pos">긍정</em><span className="upd">유플투쁠 "유튜브할잉 혜택이 넘 좋다" VIP 유지 반응 (10.04)</span></div>
           </a>
         </div>
 
