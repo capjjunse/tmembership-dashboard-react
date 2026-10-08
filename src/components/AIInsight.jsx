@@ -27,13 +27,46 @@ const compGroups = [
     id: 'skt-kt',
     label: 'SKT ↔ KT',
     desc: 'LGU+ 미운영 · 양자 대결',
-    rows: [], // 2026.10 SKT Week ↔ KT 달달혜택 겹치는 브랜드 없음
+    rows: [
+      {
+        brand: '롯데월드',
+        updated: true,
+        skt: {
+          lines: [
+            { grade: '전 등급', b: '서울 본인 55%+동반 3인 30% 할인' },
+            { grade: '전 등급', b: '부산 본인 55%+동반 3인 50% 할인' },
+          ],
+          date: 'T day · 10.12~10.16',
+        },
+        kt: { lines: [{ grade: '전 등급', b: '본인 50% 할인, 동반 3인 30% 할인' }], date: '달달혜택 · 10.01~10.31' },
+        lgu: null,
+        v: 'good',
+        basis: { skt: '서울 55%+동반30%, 부산 동반 50%', kt: '본인 50%+동반 3인 30% 할인', gap: 'SKT 5%p 우위, 부산↑' },
+        note: { skt: '10.12~10.16', kt: '10.01~10.31' },
+      },
+    ],
   },
   {
     id: 'skt-lgu',
     label: 'SKT ↔ LGU+',
     desc: 'KT 미참여 · SKT Tday·Young week × LGU+ 투쁠데이',
     rows: [
+      {
+        brand: '공차',
+        updated: true,
+        skt: {
+          lines: [
+            { grade: 'V', b: '인기 음료 6종 50% 할인 (최대 6천원)' },
+            { grade: 'G, S', b: '인기 음료 6종 30% 할인 (최대 5천원)' },
+          ],
+          date: 'T day · 10.12~10.16',
+        },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '최대 50% 할인 (1만원 이상 구매, 최대 5천원)' }], date: '투쁠 1차 · 10.13' },
+        v: 'neut',
+        basis: { skt: 'VIP 50%(최대6천)/G·S 30%(최대5천)', lgu: '선착순 50% 최대 5천원', gap: '등급제 vs 전 등급 50%' },
+        note: { skt: '10.12~10.16', lgu: '10.13' },
+      },
       {
         brand: '백미당',
         updated: false,
@@ -45,14 +78,72 @@ const compGroups = [
         note: { skt: '10.5~10.9', lgu: '10.15' },
       },
       {
+        brand: 'CGV',
+        updated: true,
+        skt: {
+          lines: [
+            { grade: '전 등급', b: '영화 티켓 8,500원 예매' },
+            { grade: '전 등급', b: '더블콤보 3천원+팝콘(M) 1천원 할인 쿠폰' },
+          ],
+          date: 'T day · 10.12~10.16',
+        },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '유플투쁠세트(팝콘M+음료M) 무료 증정' }], date: '유쓰데이 · 10.20' },
+        v: 'good',
+        basis: { skt: '8,500원 예매+매점쿠폰 2종', lgu: '팝콘M+음료M 세트 무료', gap: 'SKT 예매+스낵 우위' },
+        note: { skt: '10.12~10.16', lgu: '10.20' },
+      },
+      {
+        brand: '밀리의서재',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '1개월 구독권 무료' }], date: 'T day · 10.12~10.16' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '1개월 무료이용권' }], date: '유쓰데이 · 10.20' },
+        v: 'neut',
+        basis: { skt: '1개월 구독권 무료', lgu: '1개월 무료이용권', gap: '동급 — 동일 혜택' },
+        note: { skt: '10.12~10.16', lgu: '10.20' },
+      },
+      {
+        brand: 'NOL티켓',
+        updated: true,
+        skt: {
+          lines: [
+            { grade: '전 등급', b: '디어에반핸슨 35% 할인 (~10.31)' },
+            { grade: '전 등급', b: '전시 이강소 35% 할인 (~10.31)' },
+          ],
+          date: 'Young week · 10.5~10.9',
+        },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '뮤지컬 최대 30% 할인 (최대 4매)' }], date: '컬쳐데이 · 10.19~10.23' },
+        v: 'good',
+        basis: { skt: 'NOL티켓 특정 공연 35% 할인', lgu: '뮤지컬 최대 30%(4매)', gap: 'SKT 5%p↑, 특정 공연' },
+        note: { skt: '10.5~10.9', lgu: '10.19~10.23' },
+      },
+      {
         brand: '투썸플레이스',
-        updated: false,
-        skt: { lines: [{ grade: 'V', b: '1만원 이상 구매 시 35% 할인 (최대 5천원)' }], date: 'T day · 10.5~10.9' },
+        updated: true,
+        skt: {
+          lines: [
+            { grade: 'V', b: '1만원 이상 구매 시 35% 할인 (최대 5천원)' },
+            { grade: 'V', b: '×카카오페이 인기 음료·조각케이크 40% 할인 (7종 택1)' },
+          ],
+          date: 'T day · 10.5~10.9 / T day · 10.12~10.16',
+        },
         kt: null,
         lgu: { lines: [{ grade: '선착순', b: '조각케이크 구매 시 아메리카노(R) 1잔 무료' }], date: '투쁠 5차 · 10.21' },
         v: 'neut',
-        basis: { skt: 'VIP 35% 할인 최대 5천원', lgu: '케이크시 아메리카노 무료', gap: 'VIP 등급제 vs 개방' },
-        note: { skt: '10.5~10.9', lgu: '10.21' },
+        basis: { skt: 'VIP 35%+카카오페이 40%(VIP Only)', lgu: '케이크시 아메리카노 무료', gap: 'VIP 등급제 vs 개방' },
+        note: { skt: '10.5~10.9 / 10.12~10.16', lgu: '10.21' },
+      },
+      {
+        brand: '이마트24',
+        updated: true,
+        skt: { lines: [{ grade: '전 등급', b: '베이커리 50% 할인 (~10.9)' }], date: 'Young week · 10.5~10.9' },
+        kt: null,
+        lgu: { lines: [{ grade: '선착순', b: '최대 3천원 할인 (1만원 이상 구매 시)' }], date: '장기고객데이 · 10.29' },
+        v: 'neut',
+        basis: { skt: '베이커리 50% 할인', lgu: '최대 3천원(1만원↑)', gap: '구조 상이 — 직접 비교 불가' },
+        note: { skt: '10.5~10.9', lgu: '10.29' },
       },
     ],
   },
@@ -396,7 +487,7 @@ export default function AIInsight() {
               ])}
             </tbody>
           </table>
-          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 10월 · SKT Week혜택(10.5~10.9) · LGU+ 투쁠 1~8차+컬쳐데이+유쓰+장기고객데이 · KT 달달혜택 공개 · skt-lgu 2종 확인)</div>
+          <div className="comp-footer">SKT: Tday/Young week · KT: 달달혜택 · LGU+: 투쁠데이 기준 (2026년 10월 · skt-kt 1종(롯데월드) · skt-lgu 7종 확인 · KT↔LGU+ 공통 없음)</div>
         </div>
       </div>
 

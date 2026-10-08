@@ -48,7 +48,7 @@ export default function Sentiment() {
     <div className="sec" id="sn">
       <div className="sh">
         <span className="st">💬 고객 반응</span>
-        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (2026.10.07 갱신)</span>
+        <span className="ss">최근 4주 · 에펨코리아·루리웹·아카라이브·뽐뿌·네이버카페·네이버블로그·디시인사이드·더쿠 (2026.10.08 갱신)</span>
 
       </div>
       <div className="tr2">
@@ -63,8 +63,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '67%' }}>긍정 67%</div>
-              <div className="rbs rn" style={{ width: '33%' }}>부정 33%</div>
+              <div className="rbs rp" style={{ width: '69%' }}>긍정 69%</div>
+              <div className="rbs rn" style={{ width: '31%' }}>부정 31%</div>
             </div>
             <div className="rleg">
               <div className="rli"><div className="rld" style={{ background: 'var(--pos)' }}></div>긍정</div>
@@ -98,6 +98,7 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">주말 t 멤버십이랑 카카오 결제 75미리 14.7만원 — 멤버십·카드 중복할인으로 향수 저가 구매 (향수 갤)</div><div className="rsrc">2026.10.04</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">(bhc) 콰삭모짜킹 후기 — "T 멤버쉽에서 bhc 할인쿠폰 받아서 사용" 3,000원에 먹은 할인 후기</div><div className="rsrc">2026.10.05</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">아 7월 T멤버십 출첵 쿠폰 안 썼네 ㅋㅋ — 쿠폰 못 쓰고 날린 아쉬움 (블루 아카이브 갤)</div><div className="rsrc">2026.10.01</div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">투루카 아이오닉5 4일 이용 후기 — "예전에 받은 t 맴버십 70프로 할인 쿠폰으로 이틀만 빌렸음" (카셰어링 갤)</span></div><div className="rsrc">2026.10.06 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=carsharing&no=64951" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {sktKw === 'kw2' && (
@@ -120,6 +121,7 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">키자니아 Tday 할인으로 기분좋게 입장! — 어른 무료, 아이 30% 할인, 2명 79,800원 입장 후기</div><div className="rsrc">2026.10.05</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">t멤버쉽으로 예매했다고 특전안준다는데 — T멤버십 예매 시 공연 특전 제외 불만 (오리지널 티켓 갤)</div><div className="rsrc">2026.10.03</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">레지던트이블... t멤버십으로 예약할랬더니 개없노 — T데이 할인 좌석 매진 불만 (숲 종합 갤)</div><div className="rsrc">2026.09.30</div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx"><span className="upd">11일 t데이 티멤버십 베네틴 포인트작 — "11일 t데이 티멤버십 바르고 심심할때 포인트작 좀 하면 2만원 언더던데" / 댓글: "티멤버십은 공짜냐고~" / "스크 쓰면 공짜지" (헬스보충제 갤)</span></div><div className="rsrc">2026.10.07 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=nutrient&no=117661" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {sktKw === 'kw3' && (
@@ -166,8 +168,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '53%' }}>긍정 53%</div>
-              <div className="rbs rn" style={{ width: '45%' }}>부정 45%</div>
+              <div className="rbs rp" style={{ width: '54%' }}>긍정 54%</div>
+              <div className="rbs rn" style={{ width: '44%' }}>부정 44%</div>
               <div className="rbs ru" style={{ width: '2%' }}>중립 2%</div>
             </div>
             <div className="rleg">
@@ -199,6 +201,8 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">kt멤버십 vvip 혜택 대체 어따써야됨? — "도미노피자 쓰레기 된 이후론 ㄹㅇ 쓸대가없는데" (메이플스토리 갤)</div><div className="rsrc">2026.09.08</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">K.T 멤버쉽 쓰는사람 놀페 응모 오늘까지다 — KT 멤버십 이벤트 응모 정보 공유 (리센느 갤)</div><div className="rsrc">2026.09.30</div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">KT멤버십 VVIP초이스 도미노피자 포장할인(3만 이상 2만 할인) 후기 — "추석연휴 마지막 날 이용, 월 1회 연12회 혜택 만족"</div><div className="rsrc">2026.10.05</div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">더쿠</span></div><div className="rtx"><span className="upd">이마트24 KT할인 + 쿠폰 할인 + 굿딜 할인 동시에 가능해! — "원플원으로 채워서 크트할 받고 씨제이원쿠폰 써서 6800인데 카카오굿딜해서 6120 최종 결제" (덬딜)</span></div><div className="rsrc">2026.10.08 · <a href="https://theqoo.net/theqdeal/4368775324" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">더쿠</span></div><div className="rtx"><span className="upd">이마트24 원플원+통신사할인 중복됨 — "편의점중에 이마트24만 원플원이랑 통신사할인 중복됨" / 댓글: "올해부터 유플도 된다더라고...난 케이티만 되는 줄 알고" (덬딜)</span></div><div className="rsrc">2026.10.07 · <a href="https://theqoo.net/theqdeal/4368487272" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {ktKw === 'kw2' && (
@@ -233,10 +237,10 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">kt 10월 달달혜택 도미노피자 50%할인 or 롯데리아 40%할인 — "역시" 10월 달달혜택 만족 후기</div><div className="rsrc">2026.10.05</div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">이번달 달달혜택 실화냐 — "롯데리아 할인 2중택ㅋㅋㅋㅋ 이럴거면 걍 없애라" / 댓글: "티데이도 개구림 그냥 통신사 쌀먹 막힌듯" (오리지널 티켓 마갤)</div><div className="rsrc">2026.10.04 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=3030834" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">KT 달달혜택 쓰레기됐노 — "버거킹이나 내놓지 ㅋㅋㅋ 어떻게 통신사 1달에 1번 주는 혜택이 사상 롯데리아에서 매주 하는 이벤트보다 못함?" / 댓글: "해킹보상이후로 파산직전인가 개쓰레기혜택됐노" (오리지널 티켓 마갤)</div><div className="rsrc">2026.10.01 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=3015582" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="upd">NEW</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">10월 달달 안 쓰는 게 혜택 맞는 듯 — "저 맘에 안드는 걸 일부라도 내 돈 쓰고 직접 걸어가야 한다? 얼마를 쓰는 거임 대체" / 댓글: "달달이라고 특별한 할인도 아님 ㅋㅋ" (오리지널 티켓 갤)</div><div className="rsrc">2026.10.01 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=3015634" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="upd">NEW</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">이번달 kt 달달혜택 — "이런걸 혜택이라고 주는건가 싶다" / 댓글: "ㄹㅇ구리네ㅋㅋ", "개구려.." (알뜰폰 갤)</div><div className="rsrc">2026.10.01 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=505604" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="upd">NEW</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">달달혜택 할인받아서 — 롯데리아 핫크리스피치킨버거 1인셋 5700원 이용 / "롯데리아 가까우면 할인받아먹고 멀면 굳이인거같음" (아싸! 갤)</div><div className="rsrc">2026.10.01 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=assagall&no=21154" target="_blank" rel="noreferrer">원문 보기</a></div></div>
-              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="upd">NEW</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">뭐여 10월 kt달달 라인업 절반 이상이 놀이공원이네 — "달달 진짜 ㅈㄴ 구려졌네..." / 댓글: "덜덜됐네" (오리지널 티켓 갤)</div><div className="rsrc">2026.09.30 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=3011913" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">10월 달달 안 쓰는 게 혜택 맞는 듯 — "저 맘에 안드는 걸 일부라도 내 돈 쓰고 직접 걸어가야 한다? 얼마를 쓰는 거임 대체" / 댓글: "달달이라고 특별한 할인도 아님 ㅋㅋ" (오리지널 티켓 갤)</div><div className="rsrc">2026.10.01 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=3015634" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">이번달 kt 달달혜택 — "이런걸 혜택이라고 주는건가 싶다" / 댓글: "ㄹㅇ구리네ㅋㅋ", "개구려.." (알뜰폰 갤)</div><div className="rsrc">2026.10.01 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=505604" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneu">중립</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">달달혜택 할인받아서 — 롯데리아 핫크리스피치킨버거 1인셋 5700원 이용 / "롯데리아 가까우면 할인받아먹고 멀면 굳이인거같음" (아싸! 갤)</div><div className="rsrc">2026.10.01 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=assagall&no=21154" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">뭐여 10월 kt달달 라인업 절반 이상이 놀이공원이네 — "달달 진짜 ㅈㄴ 구려졌네..." / 댓글: "덜덜됐네" (오리지널 티켓 갤)</div><div className="rsrc">2026.09.30 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=3011913" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {ktKw === 'kw3' && (
@@ -254,8 +258,8 @@ export default function Sentiment() {
           <div className="rbw" style={{ marginTop: '12px' }}>
             <div className="rbl">멤버십 혜택 관련 전반적 반응 비율</div>
             <div className="rb">
-              <div className="rbs rp" style={{ width: '62%' }}>긍정 62%</div>
-              <div className="rbs rn" style={{ width: '31%' }}>부정 31%</div>
+              <div className="rbs rp" style={{ width: '64%' }}>긍정 64%</div>
+              <div className="rbs rn" style={{ width: '29%' }}>부정 29%</div>
               <div className="rbs ru" style={{ width: '7%' }}>중립 7%</div>
             </div>
             <div className="rleg">
@@ -268,6 +272,7 @@ export default function Sentiment() {
             <span className="srcbadge act">네이버카페</span>
             <span className="srcbadge act">네이버블로그</span>
             <span className="srcbadge act">디시인사이드</span>
+            <span className="srcbadge act">더쿠</span>
           </div>
           <KwTabs tabs={LGU_TABS} active={lguKw} setActive={setLguKw} />
           {lguKw === 'kw2' && (
@@ -281,7 +286,8 @@ export default function Sentiment() {
               <div className="rc"><div className="rct"><span className="rbg rneg">부정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">9월 유플투쁠~~ 혜택이 점점...😢😢 (배라맘)</div><div className="rsrc">2026.09.01 · <a href="https://cafe.naver.com/chch6534/1314420" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버카페</span></div><div className="rtx">정가거부 하는날 - 다이소 유플투쁠에서 받은 다이소 깊콘 2,000원짜리 사용하고 옴~ 실지출 0원</div><div className="rsrc">2026.08.31 · <a href="https://cafe.naver.com/wjdrkrjqn/198602" target="_blank" rel="noreferrer">원문 보기</a></div></div>
               <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">네이버블로그</span></div><div className="rtx">"유플러스 쓰길 잘했다.." 10월 유플투쁠 쏟아지는 쿠폰 5가지 정체 — 10월 유플투쁠 혜택 호평</div><div className="rsrc">2026.10.05</div></div>
-              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="upd">NEW</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">유플 1123 2만원 내는데 vip라서 메인 유지중 — "유플투쁠이나 유튜브할잉 혜택이 넘 좋다" (알뜰폰 갤)</div><div className="rsrc">2026.10.04 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=507426" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">디시인사이드</span></div><div className="rtx">유플 1123 2만원 내는데 vip라서 메인 유지중 — "유플투쁠이나 유튜브할잉 혜택이 넘 좋다" (알뜰폰 갤)</div><div className="rsrc">2026.10.04 · <a href="https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=507426" target="_blank" rel="noreferrer">원문 보기</a></div></div>
+              <div className="rc"><div className="rct"><span className="rbg rpos">긍정</span><span className="rtag tsrc">더쿠</span></div><div className="rtx"><span className="upd">이마트24 원플원+통신사할인 중복됨 — 이마트24에서 유플러스도 원플원과 통신사할인 중복 적용 가능 확인 / 댓글: "올해부터 유플도 된다더라고" (덬딜)</span></div><div className="rsrc">2026.10.07 · <a href="https://theqoo.net/theqdeal/4368487272" target="_blank" rel="noreferrer">원문 보기</a></div></div>
             </div>
           )}
           {lguKw === 'kw4' && (
